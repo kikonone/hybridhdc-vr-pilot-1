@@ -51,10 +51,10 @@ Each experimental phase retains its own README, scripts, notebooks, configuratio
 
 Phase 03 produces frozen subject-level splits and three modeling datasets:
 
-- primary dataset: `experiments/phase_03_multimodal_dataset_labeling/data/primary_without_performance.csv`
-- auxiliary dataset with performance metrics: `experiments/phase_03_multimodal_dataset_labeling/data/auxiliary_with_performance.csv`
-- performance-only dataset: `experiments/phase_03_multimodal_dataset_labeling/data/performance_only.csv`
-- frozen outer-fold assignments: `experiments/phase_03_multimodal_dataset_labeling/data/fold_assignments.csv`
+- primary dataset: `experiments/multimodal_dataset_labeling/data/primary_without_performance.csv`
+- auxiliary dataset with performance metrics: `experiments/multimodal_dataset_labeling/data/auxiliary_with_performance.csv`
+- performance-only dataset: `experiments/multimodal_dataset_labeling/data/performance_only.csv`
+- frozen outer-fold assignments: `experiments/multimodal_dataset_labeling/data/fold_assignments.csv`
 
 The primary dataset contains 419 runs from 35 subjects and 1,176 predictor features. Missing-value handling, scaling, feature selection, and model fitting must be performed within the training folds only.
 
@@ -78,11 +78,10 @@ Some phases have additional dependencies. Review the corresponding phase README 
 4. Do not reselect models, dimensions, or random seeds using outer-test performance.
 5. Store generated artifacts in the corresponding phase directory; do not write outputs into `vrdataset/`.
 
-The final synthesis entry point is `experiments/phase_10_final_synthesis_and_demo_ui/`. Instructions for starting the local UI are available in `experiments/phase_10_final_synthesis_and_demo_ui/ui/README.md`.
 
 ## Methodological Principles
 
-- Source data remain read-only and are not uploaded to GitHub.
+- Source data remain read-only
 - The primary analysis excludes performance metrics; auxiliary analyses assess shortcut-learning risk separately.
 - Evaluation uses subject-isolated cross-validation, with leave-one-subject-out analysis as supplementary evidence.
 - Model selection relies only on training-side evidence.
