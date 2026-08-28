@@ -28,18 +28,18 @@ To reproduce the experiments, obtain the source data under the applicable datase
 ├── EXPERIMENT_STATUS.md
 ├── requirements.txt
 ├── experiments/
-│   ├── phase_00_project_setup/
-│   ├── phase_01_raw_data_modality_audit/
-│   ├── phase_02_full_multimodal_feature_extraction/
-│   ├── phase_03_multimodal_dataset_labeling/
-│   ├── phase_04a_traditional_classification_baselines/
-│   ├── phase_04b_traditional_regression_baselines/
-│   ├── phase_05_basic_dual_output_hdc/
-│   ├── phase_06_hdc_variant_screening/
-│   ├── phase_07_unimodal_contribution/
-│   ├── phase_08_fusion_and_shortcut_analysis/
-│   ├── phase_09_robustness_and_generalization/
-│   └── phase_10_final_synthesis_and_demo_ui/
+│   ├── project_setup/
+│   ├── raw_data_modality_audit/
+│   ├── full_multimodal_feature_extraction/
+│   ├── multimodal_dataset_labeling/
+│   ├── traditional_classification_baselines/
+│   ├── traditional_regression_baselines/
+│   ├── basic_dual_output_hdc/
+│   ├── hdc_variant_screening/
+│   ├── unimodal_contribution/
+│   ├── fusion_and_shortcut_analysis/
+│   ├── robustness_and_generalization/
+│   └── demo/
 └── vrdataset/
     ├── referenceDocuments/
     └── starterCode/
