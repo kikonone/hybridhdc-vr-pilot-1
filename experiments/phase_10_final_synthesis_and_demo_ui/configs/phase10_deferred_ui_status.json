@@ -1,0 +1,8 @@
+{
+  "status": "DEFERRED_BY_USER_NOT_EXECUTED",
+  "ui_build_authorized": false,
+  "ui_dependencies_installed": false,
+  "ui_files_created": false,
+  "ui_server_started": false,
+  "effect_on_core_phase10_completion": "NONE"
+}

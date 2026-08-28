@@ -1,0 +1,18 @@
+{
+  "phase": "09",
+  "run_identifier": "mm__missing_eye_tracking__traditional_regression__fold_2__canonical",
+  "task": "regression",
+  "regression_interpretation": "bounded difficulty-induced workload proxy regression",
+  "metrics": {
+    "raw_mae": 0.12603253512223792,
+    "bounded_mae": 0.1206944392145942,
+    "bounded_rmse": 0.2518744524579511,
+    "bounded_r2": 0.9482559403495776,
+    "bounded_spearman": 0.9605930765127249,
+    "clipping_count": 15,
+    "clipping_rate": 0.17857142857142858,
+    "rounded_regression_macro_f1": 0.9288686552406065,
+    "adjacent_accuracy": 1.0,
+    "severe_error_rate": 0.0
+  }
+}

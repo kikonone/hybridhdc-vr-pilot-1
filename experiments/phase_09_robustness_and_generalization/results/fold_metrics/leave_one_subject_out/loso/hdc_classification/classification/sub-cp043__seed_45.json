@@ -1,0 +1,45 @@
+{
+  "phase": "09",
+  "run_identifier": "loso__sub-cp043__hdc_classification__seed_45",
+  "task": "classification",
+  "regression_interpretation": null,
+  "metrics": {
+    "macro_f1": 0.6571428571428571,
+    "balanced_accuracy": 0.6666666666666666,
+    "accuracy": 0.6666666666666666,
+    "severe_error_rate": 0.0,
+    "per_class_recall": {
+      "0": 0.6666666666666666,
+      "1": 0.3333333333333333,
+      "2": 1.0,
+      "3": 0.6666666666666666
+    },
+    "confusion_matrix": [
+      [
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ]
+    ],
+    "quadratic_weighted_kappa": 0.8666666666666667
+  }
+}

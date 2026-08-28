@@ -1,0 +1,150 @@
+{
+  "phase": "06",
+  "audit": "phase05_freeze_interface",
+  "timestamp_utc": "2026-08-21T06:59:18.554655+00:00",
+  "result": "PASS",
+  "checks": {
+    "required_files_exist": true,
+    "status_frozen": true,
+    "final_confirmation_folds_5_of_5": true,
+    "final_confirmation_runs_100_of_100": true,
+    "dimensions": true,
+    "seeds": true,
+    "levels_51": true,
+    "feature_k_50": true,
+    "classification_oof_exists": true,
+    "similarity_regression_oof_exists": true,
+    "ridge_regression_oof_exists": true,
+    "leakage_audit_pass": true,
+    "artifact_audit_pass": true,
+    "reproducibility_audit_pass": true,
+    "notebook_persistence_pass": true,
+    "manifest_parseable_and_all_entries_valid": true,
+    "manifest_hash_matches_freeze": true,
+    "primary_checksum_matches_actual": true,
+    "fold_checksum_matches_actual": true,
+    "upstream_primary_checksum_pass": true,
+    "upstream_fold_checksum_pass": true,
+    "canonical_selection_prohibition_recorded": true
+  },
+  "actual": {
+    "phase05_status": "FROZEN",
+    "final_confirmation_folds": 5,
+    "final_confirmation_runs": 100,
+    "dimensions": [
+      1000,
+      2000,
+      5000,
+      10000
+    ],
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "levels": 51,
+    "feature_k": 50,
+    "canonical_configuration_selection": "NOT_PERFORMED_OUTER_TEST_SELECTION_PROHIBITED"
+  },
+  "manifest_validation": {
+    "entries_checked": 410,
+    "missing": 0,
+    "size_mismatches": 0,
+    "hash_mismatches": 0,
+    "result": "PASS"
+  },
+  "evidence": {
+    "configs/phase05_freeze.json": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\configs\\phase05_freeze.json",
+      "exists": true,
+      "file_size_bytes": 1640,
+      "sha256": "d9d3c78a81e83710108a062671fdc1b86c43ad4e84f27c9b53e1c9acaa837e00",
+      "result": "PASS"
+    },
+    "manifests/phase05_final_artifact_manifest.json": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\manifests\\phase05_final_artifact_manifest.json",
+      "exists": true,
+      "file_size_bytes": 138327,
+      "sha256": "e4894aeaa56f4b9938e9582414286d493ec4da49543e6972985a13bedf8148d5",
+      "result": "PASS"
+    },
+    "audits/phase05_final_artifact_audit.json": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\audits\\phase05_final_artifact_audit.json",
+      "exists": true,
+      "file_size_bytes": 698,
+      "sha256": "d483e14ad09dd0734d9d22f54df74d6d4ee751ad6fc7c1846030ca544b7def12",
+      "result": "PASS"
+    },
+    "audits/phase05_final_reproducibility_audit.json": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\audits\\phase05_final_reproducibility_audit.json",
+      "exists": true,
+      "file_size_bytes": 143140,
+      "sha256": "f22af5ca0785c983364b3c7a539ea6bd02322ef921978a93b959aff24358047d",
+      "result": "PASS"
+    },
+    "audits/phase05_upstream_freeze_integrity_audit.json": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\audits\\phase05_upstream_freeze_integrity_audit.json",
+      "exists": true,
+      "file_size_bytes": 528,
+      "sha256": "810352cb59136a5126ff92316bbe16bfa9198cf368ec3d7c621e2f07d6acc434",
+      "result": "PASS"
+    },
+    "audits/phase05_final_oof_leakage_audit.json": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\audits\\phase05_final_oof_leakage_audit.json",
+      "exists": true,
+      "file_size_bytes": 1060,
+      "sha256": "91e6994c5f0876b656593e8c598e2bd5a345ba7c5719701a279d9eb4d81303f9",
+      "result": "PASS"
+    },
+    "audits/phase05_final_notebook_persistence_audit.json": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\audits\\phase05_final_notebook_persistence_audit.json",
+      "exists": true,
+      "file_size_bytes": 684,
+      "sha256": "869155fe6ed6fdcac79c197bbf8bf32a1850ec7d95b69656333aefee855f9ba2",
+      "result": "PASS"
+    },
+    "reports/phase05_final_summary.md": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\reports\\phase05_final_summary.md",
+      "exists": true,
+      "file_size_bytes": 8789,
+      "sha256": "2d8a8b33b3d0bf78db44920276040583feabd06fa690520af2df023a7b9798fd",
+      "result": "PASS"
+    },
+    "results/summaries/vanilla_hdc_final_confirmation_execution_summary.csv": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\results\\summaries\\vanilla_hdc_final_confirmation_execution_summary.csv",
+      "exists": true,
+      "file_size_bytes": 1085,
+      "sha256": "6965a6341a1dfd2de9983c7afa0d6d1ee9e3fd158a52bfa8e60ad70a20893e4c",
+      "result": "PASS"
+    },
+    "results/oof/vanilla_hdc_classification_oof.csv": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\results\\oof\\vanilla_hdc_classification_oof.csv",
+      "exists": true,
+      "file_size_bytes": 1237280,
+      "sha256": "a9b0e0c5abec3848e172d271398203b621cae9e3d2d83bccd2ccb672a608b700",
+      "result": "PASS"
+    },
+    "results/oof/vanilla_hdc_similarity_regression_oof.csv": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\results\\oof\\vanilla_hdc_similarity_regression_oof.csv",
+      "exists": true,
+      "file_size_bytes": 801558,
+      "sha256": "95a3271ea40c1228a8d4836f6ca88788bf627894ebcfc8e2bb95b6b436a10a17",
+      "result": "PASS"
+    },
+    "results/oof/vanilla_hdc_ridge_regression_oof.csv": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\results\\oof\\vanilla_hdc_ridge_regression_oof.csv",
+      "exists": true,
+      "file_size_bytes": 937114,
+      "sha256": "a449d8f43a0935f0a3fcf8cf901894e426a83e552807dcef9551bc983ba22758",
+      "result": "PASS"
+    }
+  },
+  "vanilla_baseline_policy": {
+    "source": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc",
+    "access": "READ_ONLY_REUSE",
+    "retraining_executed": false,
+    "outer_test_observed_best_used_for_phase06_selection": false
+  }
+}

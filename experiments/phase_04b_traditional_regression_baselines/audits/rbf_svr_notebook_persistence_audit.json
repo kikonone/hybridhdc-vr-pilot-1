@@ -1,0 +1,19 @@
+{
+  "file_exists": true,
+  "parseable": true,
+  "backup_saved": true,
+  "original_cells_preserved": true,
+  "original_outputs_preserved": true,
+  "rbf_svr_section_present": true,
+  "rbf_svr_persistence_tag_present": true,
+  "rbf_svr_code_execution_count": 1,
+  "rbf_svr_code_has_outputs": true,
+  "summary_values_in_outputs": true,
+  "oof_path_in_outputs": true,
+  "five_checkpoint_paths_in_outputs": true,
+  "final_status_cell_present": true,
+  "final_status_execution_count": 2,
+  "ready_for_random_forest_in_outputs": true,
+  "other_models_executed": "NO",
+  "pass": true
+}

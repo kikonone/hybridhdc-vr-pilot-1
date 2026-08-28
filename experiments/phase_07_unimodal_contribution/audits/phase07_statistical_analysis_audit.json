@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "statistical_unit": "subject_id",
+  "n_subjects": 35,
+  "friedman_saved": true,
+  "wilcoxon_holm_saved": true,
+  "effect_sizes_saved": true,
+  "bootstrap_repetitions": 2000,
+  "bootstrap_seed": 42,
+  "phase": "07",
+  "generated_at_utc": "2026-08-20T18:48:21.687459+00:00"
+}

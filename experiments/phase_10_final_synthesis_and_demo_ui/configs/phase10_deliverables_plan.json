@@ -1,0 +1,17 @@
+{
+  "status": "DRAFT",
+  "core_scope": "FINAL_SYNTHESIS_AND_REPRODUCIBILITY",
+  "included": [
+    "prediction inventory",
+    "statistics inventory",
+    "paper artifact inventory",
+    "RQ matrix",
+    "reproducibility package",
+    "cross-phase preflight"
+  ],
+  "deferred": [
+    "final synthesis",
+    "artifact merging",
+    "UI"
+  ]
+}

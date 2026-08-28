@@ -1,0 +1,9 @@
+{
+  "best_params": {
+    "feature_selection__k": 100,
+    "regressor__alpha": 0.1
+  },
+  "candidate_count": 20,
+  "best_inner_bounded_mae": 0.3486194449507553,
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f"
+}

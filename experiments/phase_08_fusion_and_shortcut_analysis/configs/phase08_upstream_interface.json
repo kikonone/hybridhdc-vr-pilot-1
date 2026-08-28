@@ -1,0 +1,47 @@
+{
+  "status": "FROZEN_READ_ONLY_INTERFACES",
+  "interfaces": {
+    "phase04a": {
+      "sha256": "34ea8100d9406f9701750a441aa6537323c28bcdb194cb3fd3645c4f7de4a2e1",
+      "checksum_pass": true,
+      "frozen": true,
+      "best_classifier": "Gradient Boosting",
+      "best_classifier_matches": true
+    },
+    "phase04b": {
+      "sha256": "e2c88b1139a50aab6d47b6477c7bceff74f8443095f9d039ea9af84b715ee790",
+      "checksum_pass": true,
+      "status": "FROZEN",
+      "best_regressor": "Gradient Boosting Regressor",
+      "best_regressor_matches": true
+    },
+    "phase06": {
+      "sha256": "cd94acdf0bcb463b5f48a7c84110a23059899b6b5bf156131694827d7d7bde66",
+      "checksum_pass": true,
+      "status": "FROZEN",
+      "classification_hdc": "HDC+OnlineHD Hybrid",
+      "classification_dimension": 5000,
+      "regression_head": "COMMON_ENCODER_READOUT_BASELINE",
+      "regression_dimension": 10000
+    },
+    "phase07": {
+      "sha256": "8569b48a8210f0ca1316d5a140d292edb892e2a556ea13ee299e9b97699af492",
+      "checksum_pass": true,
+      "status": "FROZEN",
+      "best_classification_modality": "flight_parameter_features",
+      "best_regression_modality": "flight_parameter_features",
+      "all_final_audits_pass": true,
+      "ready_for_next_planned_phase": true
+    }
+  },
+  "candidate_models_only_not_authorized_for_training": {
+    "classification": [
+      "frozen HDC+OnlineHD Hybrid",
+      "frozen best traditional Gradient Boosting classifier"
+    ],
+    "regression": [
+      "frozen COMMON_ENCODER_READOUT_BASELINE",
+      "frozen best traditional Gradient Boosting Regressor"
+    ]
+  }
+}

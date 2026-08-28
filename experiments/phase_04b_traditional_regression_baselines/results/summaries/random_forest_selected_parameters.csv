@@ -1,0 +1,6 @@
+outer_fold,feature_selection__k,regressor__max_depth,regressor__max_features,regressor__min_samples_leaf,regressor__n_estimators,best_inner_bounded_mae
+1,all,,0.3,1,500,0.16437462392364352
+2,all,,0.3,1,200,0.16730703392468096
+3,all,,0.3,1,200,0.15655565930075735
+4,all,,0.3,1,200,0.1731642286544247
+5,all,,0.3,1,500,0.20858950617283947

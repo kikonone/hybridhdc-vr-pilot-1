@@ -1,0 +1,51 @@
+{
+  "status": "DIAGNOSIS_COMPLETE",
+  "source": "audits/pre_submission_repair/frozen_artifact_immutability_audit.json",
+  "changed_artifact_count": 2,
+  "scientific_artifact_count": 0,
+  "artifacts": [
+    {
+      "absolute_path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\audits\\phase06_phase05_freeze_interface_audit.json",
+      "phase": "06",
+      "artifact_role": "upstream Phase 05 freeze-interface audit",
+      "hash_before": "e51fb46d4dd3ded79831c59311cbcaf7357d9cafffdcfb58f9049f38c6b63aa9",
+      "hash_after": "a58fa71a291536867c9b68d9cc857a1fa5f3f6729d16ae31badac1eb69562bc7",
+      "size_before": 6183,
+      "size_after": 6184,
+      "last_modified_before": "2026-08-21T14:45:05.930478+08:00",
+      "last_modified_after": "2026-08-21T06:59:18.7370618Z",
+      "is_prediction": false,
+      "is_canonical_oof": false,
+      "is_statistics": false,
+      "is_model_config": false,
+      "artifact_family": "audit",
+      "is_manifest_audit_report_or_notebook": true,
+      "likely_modification_process_or_test": "The pre-repair full test invoked test_phase06_preflight.py::test_preflight_all_required_gates_pass, which called run_preflight(PHASE_DIR) before output_dir isolation existed and rewrote production interface audits.",
+      "trusted_original_copy_exists": false,
+      "trusted_original_copy_search": "No file with hash_before or the final-manifest expected hash 68f1d8eff49bb5eafdba76e710d682ec921cfe5855f6b8212cc8f9f6bf63ebb9 was found in scoped audit, phase, tmp, backup, recovery, or Git object evidence.",
+      "scientific_artifact": false
+    },
+    {
+      "absolute_path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_contract_freeze.json",
+      "phase": "09",
+      "artifact_role": "contract-freeze lifecycle configuration",
+      "hash_before": "a9d57f15a8b8c5b16fc019c81f7dba43795725da88d7083347f8a6ff93bd9b11",
+      "hash_after": "4028fe6cbd6061a1e436978ee1feecbc1e22acd3914810936f61472eea7093b2",
+      "size_before": 11135,
+      "size_after": 11135,
+      "last_modified_before": "2026-08-21T14:40:18.515075+08:00",
+      "last_modified_after": "2026-08-21T07:11:29.1155924Z",
+      "is_prediction": false,
+      "is_canonical_oof": false,
+      "is_statistics": false,
+      "is_model_config": false,
+      "artifact_family": "freeze lifecycle config",
+      "is_manifest_audit_report_or_notebook": true,
+      "likely_modification_process_or_test": "The pre-repair Phase09ContractTests.setUpClass invoked run_freeze() in production after results existed; a subsequent prior repair patch changed lifecycle status fields. Both occurred after the trusted final manifest was created.",
+      "trusted_original_copy_exists": false,
+      "trusted_original_copy_search": "The Phase 09 final manifest records hash_before exactly, but stores only path/hash/size rather than the file payload. No exact byte copy was found in scoped workspace or Git object evidence.",
+      "scientific_artifact": false
+    }
+  ],
+  "diagnostic_rule": "Neither changed file was modified during this diagnosis."
+}

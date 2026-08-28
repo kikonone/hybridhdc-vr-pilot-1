@@ -1,0 +1,64 @@
+{
+  "phase": "07",
+  "phase_name": "Unimodal Contribution Analysis",
+  "status": "FROZEN",
+  "scope": "INITIALIZATION_ONLY_NO_MODELING",
+  "regression_target_description": "bounded difficulty-induced workload proxy regression",
+  "planned_experiments_not_executed": {
+    "modalities": [
+      "physiological_features",
+      "eye_tracking_features",
+      "head_movement_features",
+      "flight_parameter_features",
+      "body_movement"
+    ],
+    "classification": {
+      "interface": "frozen Phase 06 HDC+OnlineHD Hybrid",
+      "primary_metric": "Macro-F1"
+    },
+    "regression": {
+      "interface": "frozen Phase 06 Common Encoder Ridge readout",
+      "primary_metric": "MAE"
+    },
+    "outer_validation": "reuse original five frozen outer folds",
+    "fold_local_only": "all preprocessing, feature selection, and parameter handling",
+    "future_outputs": [
+      "classification OOF per modality",
+      "regression OOF per modality",
+      "modality contribution ranking",
+      "per-modality error analysis"
+    ],
+    "multimodal_frozen_result": "reference only; no retraining or reselection"
+  },
+  "intentionally_unfrozen_until_contract_freeze": [
+    "final handling rule for rows with an entirely missing modality",
+    "formal rule when feature_k exceeds usable modality features",
+    "Phase 07 seed aggregation rule",
+    "statistical inference rule for unimodal-versus-multimodal deltas",
+    "tie-breaking rule",
+    "final modality ranking rule"
+  ],
+  "strictly_prohibited_in_initialization": [
+    "model training",
+    "quick screening",
+    "hyperparameter tuning",
+    "outer-test prediction",
+    "OOF generation",
+    "HDC hypervector generation",
+    "row deletion",
+    "global imputation or scaling",
+    "performance or control-input experiments",
+    "multimodal retraining"
+  ],
+  "contract_frozen_at_utc": "2026-08-20T18:05:58.897995+00:00",
+  "frozen_unimodal_contract": "configs/phase07_frozen_unimodal_contract.json",
+  "statistical_analysis_contract": "configs/phase07_statistical_analysis_contract.json",
+  "execution_manifest": "configs/phase07_execution_manifest.json",
+  "metric_definitions": "configs/phase07_metric_definitions.json",
+  "training_executed": true,
+  "outer_test_predictions_generated": true,
+  "unimodal_execution_completed_at_utc": "2026-08-20T18:21:08.676912+00:00",
+  "canonical_oof_generated": false,
+  "ready_for_next_planned_phase": true,
+  "finalized_at_utc": "2026-08-20T18:53:09.783241+00:00"
+}

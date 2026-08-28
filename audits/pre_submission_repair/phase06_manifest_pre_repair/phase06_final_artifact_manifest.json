@@ -1,0 +1,813 @@
+{
+  "phase": "06",
+  "manifest": "final_artifacts_after_selection_resolution",
+  "timestamp_utc": "2026-08-20T17:39:18.563454+00:00",
+  "phase_status": "FROZEN_AFTER_ALL_GATES_PASS",
+  "artifact_count": 114,
+  "explicit_circularity_exclusions": [
+    "audits/phase06_final_artifact_audit.json",
+    "audits/phase06_model_selection_resolution_audit.json",
+    "configs/phase06_freeze.json",
+    "manifests/phase06_final_artifact_manifest.json"
+  ],
+  "artifacts": [
+    {
+      "relative_path": "Phase_06_HDC_Variant_Screening.ipynb",
+      "category": "root",
+      "file_size_bytes": 57237,
+      "sha256": "4bd47cb4a3cabf100a071e37ac7a783680b63cd611a600264dc07d47928f5ec1",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "README.md",
+      "category": "root",
+      "file_size_bytes": 5724,
+      "sha256": "30809b7fdb93c3b64b28cf600442461165fe17bd1981c4152976768fdd66da3e",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_contract_freeze_audit.json",
+      "category": "audits",
+      "file_size_bytes": 1835,
+      "sha256": "d1ec09b205329116ca19d30c79e813afcec6eb635c64fae937beb83c2a45538a",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_final_confirmation_all_folds_audit.json",
+      "category": "audits",
+      "file_size_bytes": 23960,
+      "sha256": "1c5d318fa13723d533dd0db395a7171823b2afe162860c7037a11829b0e8b08d",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_final_confirmation_artifact_audit.json",
+      "category": "audits",
+      "file_size_bytes": 458,
+      "sha256": "dcfad1647e793e581d873a7f0612bac2f69927b195ec0c091259053658461646",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_final_confirmation_checkpoint_integrity_audit.json",
+      "category": "audits",
+      "file_size_bytes": 306,
+      "sha256": "d9d7a5bf12d9f13c56eeaa424c20d87fbb47905ca61194417ce7a1641766d0ad",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_final_confirmation_coverage_audit.json",
+      "category": "audits",
+      "file_size_bytes": 803,
+      "sha256": "c6bc7e14945751afe7fc1d77f4fbc9d0ec09ec714f0b5b49daff3756b021c90d",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_final_confirmation_leakage_audit.json",
+      "category": "audits",
+      "file_size_bytes": 420,
+      "sha256": "eca5e725420a52f387a7cd217c54ea455a5bce45644b84ee65ea09e69aae347c",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_final_confirmation_notebook_persistence_audit.json",
+      "category": "audits",
+      "file_size_bytes": 945,
+      "sha256": "92e0d1afcf89eb64ca51ec7d6b10e3aaef3405bc6549562903d070d996e52211",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_final_confirmation_preflight_audit.json",
+      "category": "audits",
+      "file_size_bytes": 4318,
+      "sha256": "690ae41c581fbbb26f9d1a81ba4c0ec6abb2a0c3287f65ee8ecce332a1085848",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_final_confirmation_terminal_verification_audit.json",
+      "category": "audits",
+      "file_size_bytes": 547,
+      "sha256": "98fc6e017fc789f051dc29d11c9a58c8575d94f2e9c2ec8d88a384e3ff441f9e",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_final_notebook_persistence_audit.json",
+      "category": "audits",
+      "file_size_bytes": 679,
+      "sha256": "a92b70b21d1fc19ac61b00082c1056920da86fec7867bd8134d156ba0a60a6fb",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_final_oof_alignment_audit.json",
+      "category": "audits",
+      "file_size_bytes": 737,
+      "sha256": "e565e6225068b2682a2c6665b96ca881aa018abc357d7ac0cef2bb5237a46074",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_final_oof_coverage_audit.json",
+      "category": "audits",
+      "file_size_bytes": 12004,
+      "sha256": "c6cfcd91b150caeeb68cda20a5ce82f5e8f44cd09ba468c5475092dc8d5d380c",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_final_oof_leakage_audit.json",
+      "category": "audits",
+      "file_size_bytes": 317,
+      "sha256": "149856c7ebd5765a741da970c1d9843ebf9edaa763a999ac2bc6b18fe3a26b7e",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_final_oof_preflight_audit.json",
+      "category": "audits",
+      "file_size_bytes": 1194,
+      "sha256": "a40066a4eb78cecd1bf34978a2177dcf2568d564bd0ba4a0dac5ea849ed0766a",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_final_reproducibility_audit.json",
+      "category": "audits",
+      "file_size_bytes": 1162,
+      "sha256": "50c1729acb06786aabf29d2c1d0b014182d53e07e58ac010806bb71d253169f1",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_final_selection_rule_amendment_audit.json",
+      "category": "audits",
+      "file_size_bytes": 1061,
+      "sha256": "9bc743859e07a21772f3f79d7a4f45b79828d53441487c372d7296196cd1ab9e",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_initialization_artifact_audit.json",
+      "category": "audits",
+      "file_size_bytes": 5003,
+      "sha256": "eba9f283cb5a6b42b1aaad2c24d25fca1687167cead2d6209e3f282209abdfc6",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_inner_only_selection_isolation_audit.json",
+      "category": "audits",
+      "file_size_bytes": 15435,
+      "sha256": "36602ac56cbb835094e62ad84c4fb0887bd1455da6784e25b287aca376878ba0",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_input_and_fold_audit.json",
+      "category": "audits",
+      "file_size_bytes": 6829,
+      "sha256": "890cfe1e15773810918680012c5ad1faf6831dc6b78282fe8addd475137fbc05",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_metric_recalculation_audit.json",
+      "category": "audits",
+      "file_size_bytes": 3232,
+      "sha256": "557c462b3aebdcd7e6a8a270755aed0cab7f759dc0e0b23431ea34bfc6409065",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_model_selection_audit.json",
+      "category": "audits",
+      "file_size_bytes": 1464,
+      "sha256": "57108c298baf2dbf92fdf29b62306eca75b13000f7a83664a176fed6fb358544",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_notebook_persistence_audit.json",
+      "category": "audits",
+      "file_size_bytes": 782,
+      "sha256": "493ad16046fa99cc6e0150cf698220b895d19b181e5531fc852c420e06943acf",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_outer_oof_seal_integrity_audit.json",
+      "category": "audits",
+      "file_size_bytes": 445,
+      "sha256": "713ac4a8d2d683fffbcfb5d22020b6fb567381509394ce49fc31f5fcf8b03944",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_phase04_baseline_interface_audit.json",
+      "category": "audits",
+      "file_size_bytes": 5143,
+      "sha256": "284711cdc21fd872fd047f1aecdc8434be7f3a0067d694391671f794144e2c6e",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_phase05_amendment_gate_audit.json",
+      "category": "audits",
+      "file_size_bytes": 2553,
+      "sha256": "4918a173ac44eb7f7c9386f8f13bd8a0db0925004b6ecd2ca1620bd399f17e09",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_phase05_freeze_interface_audit.json",
+      "category": "audits",
+      "file_size_bytes": 6184,
+      "sha256": "68f1d8eff49bb5eafdba76e710d682ec921cfe5855f6b8212cc8f9f6bf63ebb9",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_pre_quick_screen_notebook_snapshot.json",
+      "category": "audits",
+      "file_size_bytes": 2216,
+      "sha256": "cfd11369d126e715faf48bbadc40f3b18c89df1b3d3f54ea03090ffbf533c0a1",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_quick_screen_all_folds_audit.json",
+      "category": "audits",
+      "file_size_bytes": 5510,
+      "sha256": "c2446ae8a87100e913958c204f026cc8e15241efeba1179850db0670bb573f50",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_quick_screen_artifact_audit.json",
+      "category": "audits",
+      "file_size_bytes": 1728,
+      "sha256": "17e6a96d1926443ebd4044af849631a3308ac561ab2c8adc3f30d3150d6ab3e3",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_quick_screen_leakage_audit.json",
+      "category": "audits",
+      "file_size_bytes": 504,
+      "sha256": "613e4d7ff87f2c41ec575a115b0dde1de5e0566123153f5554a4dba39d3d14d0",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_quick_screen_notebook_persistence_audit.json",
+      "category": "audits",
+      "file_size_bytes": 868,
+      "sha256": "36783ce1ce0fee9ad196a1e772eac2b9877a41517cb447531a7503c2c9272393",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_quick_screen_post_final_confirmation_preservation_audit.json",
+      "category": "audits",
+      "file_size_bytes": 416,
+      "sha256": "34fd88790cc08752fa00f35c7614b7ca00a3325169a395906ee54ad4873ece49",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_quick_screen_pre_final_confirmation_snapshot.json",
+      "category": "audits",
+      "file_size_bytes": 188343,
+      "sha256": "d082381a86b820cdae3a1a8bf399f5789b7ac6e4c8298aff91d488b4c1724901",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_unit_test_audit.json",
+      "category": "audits",
+      "file_size_bytes": 404,
+      "sha256": "178c518ef6fcb90bbd371042ce9b02847d06388b1f2f4117ed7096daadbae375",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_upstream_freeze_integrity_audit.json",
+      "category": "audits",
+      "file_size_bytes": 476,
+      "sha256": "e68f0bffe210c14ef53667516e9c1030e653b807218d7a0de006c01c95b76538",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_upstream_pre_finalization_snapshot.json",
+      "category": "audits",
+      "file_size_bytes": 346686,
+      "sha256": "7a8274f4393862b94916d0b21b5222000afa3a113cbc724e143e3dd8da008412",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "audits/phase06_upstream_pre_quick_screen_snapshot.json",
+      "category": "audits",
+      "file_size_bytes": 299674,
+      "sha256": "263c73c6b38bbb1c4223021ff6f539bd08cde1da181dd8bdee46756b7e39d01c",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "configs/phase06_best_classification_hdc.json",
+      "category": "configs",
+      "file_size_bytes": 1822,
+      "sha256": "174a99de2d993acdea49fdebc9647b28db4648ada2bea7a33f620f4677f031a4",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "configs/phase06_best_regression_hdc.json",
+      "category": "configs",
+      "file_size_bytes": 2351,
+      "sha256": "acde51709971d57c76eefaffcf1ecd571a4d4c5c36f8d76edf39841c5e7065b8",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "configs/phase06_environment.json",
+      "category": "configs",
+      "file_size_bytes": 935,
+      "sha256": "c2ca0455fb4e6ff10840e144c569d49498f3166cacc4d2f1be02f3635c114a96",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "configs/phase06_experiment_contract.json",
+      "category": "configs",
+      "file_size_bytes": 2430,
+      "sha256": "10dcb2fd03b6fb797fc0b45732f8e1baa5fad76845e48cd9b9a61dcb7d8e0d29",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "configs/phase06_final_confirmation_contract.json",
+      "category": "configs",
+      "file_size_bytes": 1077,
+      "sha256": "08fe98784f903e7f9ed0901cabd02d944883b6ca42c82f5d3734f7966abdcd2f",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "configs/phase06_final_model_selection_rules_amendment_v2.json",
+      "category": "configs",
+      "file_size_bytes": 4852,
+      "sha256": "0bfde8c83f05151531d35c8b334e5a9eed10bea0e46c78c74b053e7648eb4d9f",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "configs/phase06_hdc_variant_contract.json",
+      "category": "configs",
+      "file_size_bytes": 4682,
+      "sha256": "f9d0bd0f304678bbd00e3fdeaaf9b619511a2e54f9d426e21cc130691cca365b",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "configs/phase06_model_selection_rules.json",
+      "category": "configs",
+      "file_size_bytes": 1319,
+      "sha256": "243dcaf9f6c939cb427addcc3675e88dad94126b70a6f1a97be07ea34e71ea55",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "configs/phase06_upstream_interface.json",
+      "category": "configs",
+      "file_size_bytes": 2110,
+      "sha256": "71223b70bcb49f35e3d601a63d63ed2530d0e5a098e597c1528e079b1a574517",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "configs/phase06_variant_search_spaces.json",
+      "category": "configs",
+      "file_size_bytes": 1335,
+      "sha256": "19873aaa7a43be667be0a966ceaacdcb50c5e3c1b40f7c2021a1ffcc3202a410",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "figures/phase06_classification_macro_f1_by_variant_dimension.png",
+      "category": "figures",
+      "file_size_bytes": 278951,
+      "sha256": "9501ee61c8523d570abc6f408f3fa3cdfaba13fb8f21a9ad909d5da8d6afd039",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "figures/phase06_classification_seed_stability.png",
+      "category": "figures",
+      "file_size_bytes": 645467,
+      "sha256": "a47458c39c283c473e2860c552e918484250e5c8a852d4230e758b74f05ae7f5",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "figures/phase06_performance_time_pareto.png",
+      "category": "figures",
+      "file_size_bytes": 727932,
+      "sha256": "db8e215153eb63555579fd251b30dbbc464c789fb430a05ad3fc002e847237bf",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "figures/phase06_regression_head_comparison.png",
+      "category": "figures",
+      "file_size_bytes": 345517,
+      "sha256": "2df9ab6514845bef3c9f44c3094bdc96c04fe25d4420510dd88be8fd0c2726c4",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "figures/phase06_similarity_regression_mae_by_variant_dimension.png",
+      "category": "figures",
+      "file_size_bytes": 299733,
+      "sha256": "068191bdb2651d74e12b8355dce21df8a2e14aca91517837972f3b1eac65bc17",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "final_confirmation_notes.md",
+      "category": "root",
+      "file_size_bytes": 686,
+      "sha256": "3ce3f85c060206f0a2cae6ba2fb9e7890e0da73578a75e71abd6f6c16d8dadd2",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "final_confirmation_task_plan.md",
+      "category": "root",
+      "file_size_bytes": 1206,
+      "sha256": "cd2cf2e593e833a792692041cbf9c9130265836042c38f79009a012bc076211f",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "final_consolidation_notes.md",
+      "category": "root",
+      "file_size_bytes": 1121,
+      "sha256": "adfccf0945e6eff51581815fe9fddd91a00fb65f47dc2e011c511371565dd535",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "final_consolidation_task_plan.md",
+      "category": "root",
+      "file_size_bytes": 1787,
+      "sha256": "120af7b4eef36644b90cb6216462e249c6c7c83dba21685344a886ce0ee14348",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "manifests/phase06_preselection_outer_oof_seal.json",
+      "category": "manifests",
+      "file_size_bytes": 26520,
+      "sha256": "7f78fe0e66f6c020142cc7fe099b7844e84cd34af5c39df5dbf5f48e528a42e9",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "notes.md",
+      "category": "root",
+      "file_size_bytes": 3071,
+      "sha256": "fb73fa812ce489f610b5334b1db2a7b4e3d4fb2027e94129885ba8f85cbaccdf",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "reports/analysis-output/analysis-report.md",
+      "category": "reports",
+      "file_size_bytes": 5960,
+      "sha256": "4e5209fadbe8779e6ef91ae584a8dffff024203a99009b54b8919d88dbe582f8",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "reports/analysis-output/figure-catalog.md",
+      "category": "reports",
+      "file_size_bytes": 3154,
+      "sha256": "112d6862ff57daa9524af1b42b9fdada2894b0e1dfcd98de9ba604ddf755c62e",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "reports/analysis-output/stats-appendix.md",
+      "category": "reports",
+      "file_size_bytes": 2852,
+      "sha256": "1cfc3b2608e8d273c7f7b04b331655c25197fe0f462eef24e9b32a5e368a3c0e",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "reports/phase06_final_confirmation_execution_report.md",
+      "category": "reports",
+      "file_size_bytes": 992,
+      "sha256": "0b1ac96223c75a3277f0b7871b2a68005213e8a6a2b33282f25bd3b0001119d7",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "reports/phase06_final_summary.md",
+      "category": "reports",
+      "file_size_bytes": 3331,
+      "sha256": "d2318fd59cf248f50e4de1ad57489d46849bf1f02b9f4b39619265c8a511a71d",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "reports/phase06_quick_screen_completion.md",
+      "category": "reports",
+      "file_size_bytes": 837,
+      "sha256": "11a3e4436a7cd3b353443e7182c1f2e72f017d2668c0fdc0e9c7506850fa7ec8",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/oof/phase06_four_variant_classification_oof_long.csv",
+      "category": "results",
+      "file_size_bytes": 5235786,
+      "sha256": "e0c2f2a4d49ba9b62a3f6d2ff6c5b8054f41ee1061723cc218451cd2bdbbef1f",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/oof/phase06_four_variant_similarity_regression_oof_long.csv",
+      "category": "results",
+      "file_size_bytes": 4107520,
+      "sha256": "1ea57af9acc352599f265bfe438242d77c736158d32f91a335f6a35f29489c99",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/oof/phase06_hybrid_final_oof.csv",
+      "category": "results",
+      "file_size_bytes": 2430236,
+      "sha256": "ff619baf4be600279482c9e1f4f4139000fc05c1dfaf41555d644674b45d875a",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/oof/phase06_multicentroid_final_oof.csv",
+      "category": "results",
+      "file_size_bytes": 1981071,
+      "sha256": "5b9dd2bfeeb41684eaa0fdfb12c19d7de10e1ce15a7a4931fbf31cee44b1c838",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/oof/phase06_new_variants_final_oof_long.csv",
+      "category": "results",
+      "file_size_bytes": 6643766,
+      "sha256": "aa7136da42b6e5a94252e7ba465c1f554c9e8d9447c6975812f55af3bb1254b3",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/oof/phase06_onlinehd_final_oof.csv",
+      "category": "results",
+      "file_size_bytes": 2233005,
+      "sha256": "f1f6720516dd48ddb933efd4701edd11ae1f8f1becc7a4abfd3e873305a4e589",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_all_variants_quick_screen_summary.csv",
+      "category": "results",
+      "file_size_bytes": 6551,
+      "sha256": "27ccac59686907251b3d1a4770f44aa286140177a9acde9a7c7e6bd2334c001d",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_classification_metrics_by_config.csv",
+      "category": "results",
+      "file_size_bytes": 9492,
+      "sha256": "0a08b770b4afcc649f38f15596c0564e3cfb70b0fe50ed16effc2e74475f0102",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_classification_seed_aggregate.csv",
+      "category": "results",
+      "file_size_bytes": 7380,
+      "sha256": "f5e6217bfd0a5462aecd691b2eb8906285ca4f256f4214c17b391b523ac883fd",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_common_ridge_metrics_by_config.csv",
+      "category": "results",
+      "file_size_bytes": 3174,
+      "sha256": "110c6c9ce8e6fb7f61995b13d33691b3bfb9d9d1eed9ea28e372658a43014dab",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_common_ridge_seed_aggregate.csv",
+      "category": "results",
+      "file_size_bytes": 2357,
+      "sha256": "a020073ad82172eb9faaaea123a04cd2331b485f710059b18f2fc7d9da603297",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_confusion_matrices_by_config.json",
+      "category": "results",
+      "file_size_bytes": 25868,
+      "sha256": "272d77fb57526e5f75e35bc4230f31f3ef1e415329d39866859c34370cd17178",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_dimension_and_seed_stability.json",
+      "category": "results",
+      "file_size_bytes": 45797,
+      "sha256": "c89f96026557bc6ea1456110722cc3386f141f0b4af3f8da5b94208bc8ae80f2",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_efficiency_by_config.csv",
+      "category": "results",
+      "file_size_bytes": 16004,
+      "sha256": "6d5cce49043e42123e97fadf4b330a9942b83b2f6b9756e0af5abcd331d572c0",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_efficiency_seed_aggregate.csv",
+      "category": "results",
+      "file_size_bytes": 3210,
+      "sha256": "7f40b3fd9c41095987288f968f0d5c49d58fc09cd0d0c66a546bea7f88eaaace",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_final_confirmation_execution_summary.csv",
+      "category": "results",
+      "file_size_bytes": 54458,
+      "sha256": "d65f956a95351ff160bcf18e768bc80a3b61b5def852f077d519ccf8245d5750",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_final_hdc_variant_comparison.csv",
+      "category": "results",
+      "file_size_bytes": 4866,
+      "sha256": "a5b0b03b71ab8ff9389ac6afeed7d244f7b480f2dcc267e55eaf32dc0cac1a98",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_four_hdc_classification_comparison.csv",
+      "category": "results",
+      "file_size_bytes": 8838,
+      "sha256": "1254d95e6e619df437160b25ea56927a5de2043cc9b72cac47c177e0a5e68a0d",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_four_hdc_similarity_regression_comparison.csv",
+      "category": "results",
+      "file_size_bytes": 8898,
+      "sha256": "10a6ae2d32552071e1b0c6dac061f7a306da9aa9207348c76f397efe0819b75d",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_hdc_regression_head_comparison.csv",
+      "category": "results",
+      "file_size_bytes": 12311,
+      "sha256": "8b7ef9195b848eb384f329b9c5d438472bd0ceb0cf870e1a884c9b7ec4fbc06f",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_hybrid_quick_screen_all_folds.csv",
+      "category": "results",
+      "file_size_bytes": 69218,
+      "sha256": "4f5d296c4256d7770d4e0bc303c5b4449899351263117af58d85d13c34e922be",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_inner_only_classification_selection_trace.csv",
+      "category": "results",
+      "file_size_bytes": 6636,
+      "sha256": "5ed986e0d763d0494df5be13f9c052741a4a041b51b70ac9a54d97666c96fe7e",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_inner_only_model_selection_pareto.csv",
+      "category": "results",
+      "file_size_bytes": 4714,
+      "sha256": "e17d1f396c95f83a8869e953b8a762c699c9333f43acde1d06af639c1b7de77c",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_inner_only_regression_selection_trace.csv",
+      "category": "results",
+      "file_size_bytes": 31892,
+      "sha256": "0aee7835845b94b4dcd73b7add0beb049fdd0526e92809132ba7a91bd09de685",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_model_selection_trace.csv",
+      "category": "results",
+      "file_size_bytes": 5499,
+      "sha256": "228b55379460fcb6b2dafa1d392316c77d71671fc1ad086932fc71a6989f1339",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_multicentroid_quick_screen_all_folds.csv",
+      "category": "results",
+      "file_size_bytes": 11527,
+      "sha256": "fccb3aa6c70e53c9517a6ccfbbb147c864539db2cc5ba0add5ad15ca90db9d22",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_onlinehd_quick_screen_all_folds.csv",
+      "category": "results",
+      "file_size_bytes": 49047,
+      "sha256": "acdf0445a6748ec6c3cb77713d3b335358f57350ee98e2fd15b4df4bd5afacef",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_performance_efficiency_pareto.csv",
+      "category": "results",
+      "file_size_bytes": 28157,
+      "sha256": "a3908a21ad78046a7be60ef978b079bb5fe628735ead17cecec2d28a63eb0c95",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_similarity_regression_metrics_by_config.csv",
+      "category": "results",
+      "file_size_bytes": 10321,
+      "sha256": "99eb5b5a38e22124240d573920beb69f91a24b623646c4d810a62e701f79ed00",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "results/summaries/phase06_similarity_regression_seed_aggregate.csv",
+      "category": "results",
+      "file_size_bytes": 7502,
+      "sha256": "28a6a9b161e597097aa57d5df07aef39262b7c336a10d4fa1c259b83b6eb59d1",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "scripts/build_phase06_notebook.py",
+      "category": "scripts",
+      "file_size_bytes": 6207,
+      "sha256": "cc6a4adfc6043d1021ff45732ac57271094b408877eddd6cdf293bfe269a10d2",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "scripts/consolidate_phase06_quick_screen.py",
+      "category": "scripts",
+      "file_size_bytes": 11275,
+      "sha256": "55bd1153ad11d5b547b8a73c3ffbfd60b1631a0b16bbb49ba8d55e987cea6214",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "scripts/finalize_phase06.py",
+      "category": "scripts",
+      "file_size_bytes": 65803,
+      "sha256": "59502abd213dc740f7f63001d284ac83701304c8dce3eee33c0383e8b8ee6466",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "scripts/freeze_phase06_contract.py",
+      "category": "scripts",
+      "file_size_bytes": 15079,
+      "sha256": "eae23612595c1f907c09cb2f6072823571c28ad79aa2cae87533a336fc5cadbf",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "scripts/initialize_phase06.py",
+      "category": "scripts",
+      "file_size_bytes": 791,
+      "sha256": "4186dc8e9e376cf364bdf688b3ce44621fb96e5f001ffacb883e1d22b63608ff",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "scripts/persist_phase06_final_confirmation_notebook.py",
+      "category": "scripts",
+      "file_size_bytes": 10361,
+      "sha256": "fb7d60ee8d74072433d12b52dca3d9ce6095ec0c5123908f6249bc4f3f82df01",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "scripts/persist_phase06_quick_screen_notebook.py",
+      "category": "scripts",
+      "file_size_bytes": 8553,
+      "sha256": "5d55f066df4cfbec248a4f21095fb9dc9e2f1b2e7235162e04db03ecea1b283f",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "scripts/resolve_phase06_selection_and_freeze.py",
+      "category": "scripts",
+      "file_size_bytes": 23746,
+      "sha256": "a7590b607456c559293c9bde503acc4f0ccde98ca765cca33bb9a64447f08f98",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "scripts/run_phase06_final_confirmation.py",
+      "category": "scripts",
+      "file_size_bytes": 37765,
+      "sha256": "0351f8f54dfb7e6f4b10dd1c3588d243a1e34bfe6cc7ec2253c357a3fd71939e",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "scripts/run_phase06_quick_screen.py",
+      "category": "scripts",
+      "file_size_bytes": 24113,
+      "sha256": "59068d1599b936bb1b3f65351b063fff768fcd294678dc1aab253200a85d2ec0",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "scripts/seal_phase06_outer_evidence.py",
+      "category": "scripts",
+      "file_size_bytes": 4679,
+      "sha256": "bf829025d3f389f6df51353620384f768c8a19b4fbf0a016f8b43b574efdb3f0",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "scripts/select_phase06_models_from_inner_evidence.py",
+      "category": "scripts",
+      "file_size_bytes": 26992,
+      "sha256": "2b606465dbea639659dc37f315e81e26a2164b5357a3bb253580e9720daec907",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "scripts/verify_phase06_final_confirmation.py",
+      "category": "scripts",
+      "file_size_bytes": 7605,
+      "sha256": "ef2651fc9c2c8eb739336db9b54a007dfecd25b833627d727e136e89b8c86252",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "scripts/verify_phase06_quick_screen.py",
+      "category": "scripts",
+      "file_size_bytes": 6030,
+      "sha256": "64578b4612a5c7dc0ebc6fe2c0669fab6279e479b64075c390fa7469649bf98a",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "selection_resolution_notes.md",
+      "category": "root",
+      "file_size_bytes": 1287,
+      "sha256": "3f32b06eaeebabedbb005a55dfce441651f061f629556aad9850f7506fbd5d59",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "selection_resolution_task_plan.md",
+      "category": "root",
+      "file_size_bytes": 1820,
+      "sha256": "5acc391f59584c2684027e7f909e81e833a2f623eddf143f51ef88da826de04f",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "task_plan.md",
+      "category": "root",
+      "file_size_bytes": 3043,
+      "sha256": "e14a3554d52884269765b8e764892010a5078b14dd00c2ba1a288d29b496537f",
+      "completion_status": "EXISTS_AND_HASHED"
+    },
+    {
+      "relative_path": "tests/test_phase06_inner_only_selector.py",
+      "category": "tests",
+      "file_size_bytes": 1364,
+      "sha256": "e425744bf766344c82cfeaf9e7d57d9a4733368071c8ac02212fe52f840de142",
+      "completion_status": "EXISTS_AND_HASHED"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "phase": "03_multimodal_dataset_labeling",
+  "splitter": "GroupKFold",
+  "n_splits": 5,
+  "group_column": "subject_id",
+  "fold_assignment_path": "experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+  "fold_assignment_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "row_count": 419,
+  "subject_count": 35,
+  "write_action": "REUSED_EXISTING_FROZEN_FILE",
+  "regeneration_policy": "Phases 04-10 must load this exact file and must not regenerate outer folds.",
+  "creation_timestamp_utc": "2026-08-19T04:24:46.223175+00:00",
+  "dataset_version": "phase03_corrected_phase02_v1",
+  "classification_target": "target_class",
+  "regression_target": "target_score",
+  "immutable_status": "FROZEN",
+  "instruction": "DO NOT REGENERATE OUTER FOLDS IN PHASE 04-10"
+}

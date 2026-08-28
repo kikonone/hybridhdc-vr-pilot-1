@@ -1,0 +1,76 @@
+{
+  "model": "GradientBoostingRegressor",
+  "model_slug": "gradient_boosting",
+  "pipeline": [
+    {
+      "name": "imputer",
+      "class": "SimpleImputer",
+      "parameters": {
+        "strategy": "median",
+        "add_indicator": true,
+        "keep_empty_features": true
+      }
+    },
+    {
+      "name": "variance_filter",
+      "class": "VarianceThreshold",
+      "parameters": {
+        "threshold": 0.0
+      }
+    },
+    {
+      "name": "feature_selection",
+      "class": "SelectKBest",
+      "parameters": {
+        "score_func": "f_regression"
+      }
+    },
+    {
+      "name": "regressor",
+      "class": "GradientBoostingRegressor",
+      "parameters": {
+        "loss": "squared_error",
+        "subsample": 1.0,
+        "min_samples_leaf": 1,
+        "max_features": null,
+        "random_state": 42
+      }
+    }
+  ],
+  "param_grid": {
+    "feature_selection__k": [
+      50,
+      100,
+      200,
+      "all"
+    ],
+    "regressor__n_estimators": [
+      100,
+      300
+    ],
+    "regressor__learning_rate": [
+      0.03,
+      0.1
+    ],
+    "regressor__max_depth": [
+      1,
+      3
+    ]
+  },
+  "candidate_count": 32,
+  "scorer": "bounded_mae: clip [1.0,4.0], make_scorer(greater_is_better=False)",
+  "selection": "highest mean_test_score; exact ties use ParameterGrid order",
+  "inner_cv": "GroupKFold(n_splits=3), groups=subject_id",
+  "tuning_seed": 42,
+  "evaluation_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "canonical_seed": 42,
+  "gridsearch_error_score": "raise",
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "status": "CONTRACT_FROZEN / NOT_STARTED"
+}

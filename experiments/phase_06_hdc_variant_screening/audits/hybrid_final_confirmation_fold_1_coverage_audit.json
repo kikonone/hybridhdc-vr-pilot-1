@@ -1,0 +1,13 @@
+{
+  "phase": "06",
+  "variant": "hybrid",
+  "outer_fold": 1,
+  "expected_configurations": 20,
+  "completed_configurations": 20,
+  "actual_test_rows": 84,
+  "expected_prediction_rows": 1680,
+  "actual_prediction_rows": 1680,
+  "test_subjects": 7,
+  "run_key_duplicates_per_configuration": 0,
+  "result": "PASS"
+}

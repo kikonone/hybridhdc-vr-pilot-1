@@ -1,0 +1,18 @@
+{
+  "phase": "09",
+  "run_identifier": "mm__missing_head_movement__hdc_regression__fold_5__seed_46",
+  "task": "regression",
+  "regression_interpretation": "bounded difficulty-induced workload proxy regression",
+  "metrics": {
+    "raw_mae": 0.27794062516775475,
+    "bounded_mae": 0.2516270588679486,
+    "bounded_rmse": 0.35232511777022973,
+    "bounded_r2": 0.9016388131416225,
+    "bounded_spearman": 0.9562044336092058,
+    "clipping_count": 12,
+    "clipping_rate": 0.14457831325301204,
+    "rounded_regression_macro_f1": 0.8314487521087234,
+    "adjacent_accuracy": 1.0,
+    "severe_error_rate": 0.0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "audit": "phase10_plan_amendment_audit",
+  "timestamp_utc": "2026-08-21T06:11:40.396445+00:00",
+  "plans": [
+    {
+      "path": "E:\\hdc-vr-pilot\\最新完整实验计划_分类回归双任务.md",
+      "file_size_bytes": 19559,
+      "sha256": "1fde8fca7cb413bc49e5ab694eda12e5a3bdf6a960fb0114e6eafe4ced18559c"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\最新完整实验计划_分类回归双任务_Phase10_UI修订版.md",
+      "file_size_bytes": 28116,
+      "sha256": "8ac03aa9bced85f35bcc45f8fdc46bc856f7f8ee2b2346b18e9b49e3d81631ef"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\最新完整实验计划_分类回归双任务_Phase10修订说明.md",
+      "file_size_bytes": 3447,
+      "sha256": "12796573f761a4110b6bd823357d9c8c1c03376b08f426dcdd8fea924f4b54e8"
+    }
+  ],
+  "checks": {
+    "original_plan_exists": true,
+    "revised_plan_exists": true,
+    "amendment_note_exists": true,
+    "original_remains_phase00_09_basis": true,
+    "revision_only_adjusts_phase10": true,
+    "phase00_09_content_identical": true,
+    "onlinehd_replay_optional_not_executed": true,
+    "best_dual_task_hdc_read_only_ui_present": true,
+    "ui_excludes_traditional_models": true,
+    "ui_excludes_other_hdc_variants": true,
+    "paper_preserves_traditional_and_hdc_variant_comparisons": true
+  },
+  "differences_confined_to_phase10": true,
+  "status": "PASS"
+}

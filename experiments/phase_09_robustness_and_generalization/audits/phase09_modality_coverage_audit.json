@@ -1,0 +1,52 @@
+{
+  "phase": "09",
+  "audit": "modality_coverage_and_missingness_feasibility",
+  "status": "PASS",
+  "checks": {
+    "five_modalities": true,
+    "declared_counts_match": true,
+    "features_unique_within_modalities": true,
+    "modalities_mutually_exclusive": true,
+    "union_count_1176": true,
+    "union_equals_primary_manifest": true,
+    "all_missing_conditions_nonempty": true,
+    "traditional_pipeline_feature_capacity": true,
+    "hdc_feature_k_capacity": true
+  },
+  "modality_counts": {
+    "physiological_features": 233,
+    "eye_tracking_features": 416,
+    "head_movement_features": 159,
+    "flight_parameter_features": 326,
+    "body_movement_features": 42
+  },
+  "remaining_feature_counts": {
+    "missing_physiological": 943,
+    "missing_eye_tracking": 760,
+    "missing_head_movement": 1017,
+    "missing_flight_parameter": 850,
+    "missing_body_movement": 1134
+  },
+  "union_count": 1176,
+  "overlap_count": 0,
+  "missing_from_union_count": 0,
+  "extra_in_union_count": 0,
+  "protocol_separation_required": true,
+  "training_or_prediction_executed": false,
+  "sources": [
+    {
+      "role": "phase07_frozen_modality_feature_manifest",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\manifests\\phase07_modality_feature_manifest.json",
+      "bytes": 65552,
+      "sha256": "1bea49fed9577a245b182075875bd2a7226be9f1e64782869ef3bdac86dfe1f4",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase03_primary_feature_manifest",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\manifests\\primary_feature_manifest.json",
+      "bytes": 123769,
+      "sha256": "6808013449eb5bd6e278525ddc7c8231084a9b12a545170f387b669bde910995",
+      "read_only_policy": true
+    }
+  ]
+}

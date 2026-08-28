@@ -1,0 +1,24 @@
+Phase 02 extraction started: 2026-07-02T02:54:43
+Data source: E:\hdc-vr-pilot\vrdataset\dataPackage
+Merged PerfMetrics for 419 runs
+Processed 250 feature files
+Processed 500 feature files
+Processed 750 feature files
+Processed 1000 feature files
+Processed 1250 feature files
+Processed 1500 feature files
+Processed 1750 feature files
+Processed 2000 feature files
+Processed 2250 feature files
+Processed 2500 feature files
+Processed 2750 feature files
+Processed 3000 feature files
+Processed 3250 feature files
+Processed 3500 feature files
+Processed 3750 feature files
+Processed 4000 feature files
+Processed 4250 feature files
+Processed 4500 feature files
+Processed 4750 feature files
+Phase 02 extraction finished: 2026-07-02T03:22:21
+Output: E:\hdc-vr-pilot\experiments\phase_02_full_multimodal_feature_extraction\results\full_multimodal_run_level_features.csv

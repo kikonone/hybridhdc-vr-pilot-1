@@ -1,0 +1,366 @@
+{
+  "manifest": "phase10_statistics_inventory",
+  "timestamp_utc": "2026-08-21T06:23:36.076652+00:00",
+  "artifact_count": 28,
+  "operation": "INDEX_ONLY_NO_COPY_NO_MERGE_NO_MODIFICATION",
+  "artifacts": [
+    {
+      "source_phase": "05",
+      "statistical_unit": "outer_fold_or_seed_as_documented",
+      "comparison_family": [
+        "seed_stability"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\results\\summaries\\vanilla_hdc_seed_stability_summary.json",
+      "sha256": "72b73f75a5b25c6ec2027c2a0619819ff1d462ab61f173c92237d61a4b387571",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "06",
+      "statistical_unit": "outer_fold_or_seed_as_documented",
+      "comparison_family": [
+        "seed_stability"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\summaries\\phase06_dimension_and_seed_stability.json",
+      "sha256": "c89f96026557bc6ea1456110722cc3386f141f0b4af3f8da5b94208bc8ae80f2",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "07",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "bootstrap_ci",
+        "modality_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\summaries\\phase07_bootstrap_confidence_intervals.csv",
+      "sha256": "b9c3e712339121cca3c6b1aa5507a1e4efd07b941456602a5eb945d9e38a6828",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "07",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "effect_sizes",
+        "modality_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\summaries\\phase07_effect_sizes.csv",
+      "sha256": "006e1060181389b5ce90ac6b2132fb694ca7295acb84b38c6047efe6b985f845",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "07",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "friedman_tests",
+        "modality_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\summaries\\phase07_friedman_tests.csv",
+      "sha256": "3519923ba9863a9d40f173ca5498d22ee736af569eac08db8f2de01f246b52f4",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "07",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "seed_stability",
+        "modality_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\summaries\\phase07_seed_stability_summary.csv",
+      "sha256": "9bb02571cdf9962ca2e72e2ac79c82059e613ccd279e201c433a5711acb86499",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "07",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "wilcoxon_tests",
+        "holm_corrections",
+        "modality_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "Holm",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\summaries\\phase07_wilcoxon_holm_tests.csv",
+      "sha256": "2b0bca9c0052b0c6b850adf0d221d0079f322400d044345b58ae1d7497619f1a",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "08",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "bootstrap_ci",
+        "fusion_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\results\\summaries\\phase08_bootstrap_confidence_intervals.csv",
+      "sha256": "345cfe7351dac7ce596d897b990569947c4b1f698ac25b3fea984785b0e7ac5f",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "08",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "shortcut_analysis",
+        "fusion_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\results\\summaries\\phase08_flight_behavioral_sensitivity.csv",
+      "sha256": "0b1859577077856cddafa2292af81cfdb1915a76139fef9e1a869c32e794835e",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "08",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "wilcoxon_tests",
+        "holm_corrections",
+        "effect_sizes",
+        "fusion_analysis",
+        "rank_biserial_effect_sizes"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "Holm",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\results\\summaries\\phase08_pairwise_statistics.csv",
+      "sha256": "77200f498f10440c210be478bb700d52248f16c9633035fe8c7dd677224a51a0",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "08",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "seed_stability",
+        "fusion_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\results\\summaries\\phase08_seed_stability.csv",
+      "sha256": "c93e5d2ce8c8eb58d9fb97d7d1c5021b7797bd9a274d55526f6e73625b3bf52d",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "08",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "shortcut_analysis",
+        "fusion_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\results\\summaries\\phase08_shortcut_evidence_matrix.csv",
+      "sha256": "8fb420a6ab0635d64827b6e4439526b16a922ceef4572b46982488d49e4231e6",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "08",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "shortcut_analysis",
+        "fusion_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\reports\\phase08_shortcut_and_generalization_report.md",
+      "sha256": "27b40ea07734214e8e1ce31e9f4c4675718d937ee2175d06dca37ecb4ce73e66",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "09",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "bootstrap_ci"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_bootstrap_confidence_intervals.csv",
+      "sha256": "5271631b8cf83f9bf17dec31025dc4daa7618ef37be679b410280ae3349549e5",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "09",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "loso_analysis"
+      ],
+      "metric": "Macro-F1",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_loso_classification_metrics.csv",
+      "sha256": "de74210f0af10cb41d7fa6af707248f0c26859cee4861cfe5d8bac5b5e8d2f14",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "09",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "loso_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_loso_difficulty_level_errors.csv",
+      "sha256": "cd1c7ec34ef1a3b2eae025603908c7a242287ab9e3385bfe1824462bbe748e24",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "09",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "loso_analysis"
+      ],
+      "metric": "bounded MAE",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_loso_regression_metrics.csv",
+      "sha256": "de66aafe88e5ff0530f2604dd594be53fc572f3be630bc6707eea9dfd7bc075c",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "09",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "seed_stability",
+        "loso_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_loso_seed_variability.csv",
+      "sha256": "8be9415789a4a79ff321eda10bdfc7d429f0453e92e9798920ab8aaf2258b99d",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "09",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "subject_stability",
+        "loso_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_loso_subject_metrics.csv",
+      "sha256": "a0eb97bb55f037fd7cc32050f00419c4f05e0686fd661a74b8bc41efec52a3c4",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "09",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "subject_stability",
+        "loso_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_loso_subject_stability.csv",
+      "sha256": "488ff4a9f5fed9de10d33230887e777af60ab8eb58e0d6a2837503a56822fe59",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "09",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "missing_modality_analysis"
+      ],
+      "metric": "Macro-F1",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_missing_modality_classification_metrics.csv",
+      "sha256": "53ff2ad7da3d955e9702a277d28e76b1550d3532b1ad39ee51c4cce32102853f",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "09",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "missing_modality_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_missing_modality_deltas.csv",
+      "sha256": "0ec5aaae39c0813f404e0d23c31e2cc5e678e6645b29d4000ebedaea7ffb9d26",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "09",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "missing_modality_analysis"
+      ],
+      "metric": "bounded MAE",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_missing_modality_regression_metrics.csv",
+      "sha256": "a553d22b0c890dbed9979b51adefe57fb4819a33fdc37c6ea6250a07fbb8e5ab",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "09",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "missing_modality_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_missing_modality_robustness.csv",
+      "sha256": "1b418d247dcb51b6d24e3f1f10f93169fdf62f1ffb193d023b4d236dbb89feff",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "09",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "wilcoxon_tests",
+        "holm_corrections",
+        "effect_sizes",
+        "rank_biserial_effect_sizes"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "Holm",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_pairwise_statistics.csv",
+      "sha256": "2028bbaf3466eca225f09a0fb354046debb328db1b62f18955d3d013e5385d6c",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "09",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "seed_stability"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_seed_stability.csv",
+      "sha256": "f1b7ed3485154057580228fbb2e32ae737cb44f0f4d44012c48b8b9c02fdf38d",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "09",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "loso_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\reports\\phase09_loso_stability_report.md",
+      "sha256": "5432749445d2336a57152d2196218f505e2c9d90e26c6a5a253ea996f0afa412",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    },
+    {
+      "source_phase": "09",
+      "statistical_unit": "subject_id",
+      "comparison_family": [
+        "missing_modality_analysis"
+      ],
+      "metric": "multiple_registered_metrics",
+      "correction_method": "as_documented_in_source",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\reports\\phase09_missing_modality_report.md",
+      "sha256": "79728ee3b101820679c2b14ad9d56cd2e17c3e0d7560ea61bdce638cca991165",
+      "intended_paper_role": "FINAL_STATISTICAL_EVIDENCE_INDEX_ONLY"
+    }
+  ],
+  "status": "PASS"
+}

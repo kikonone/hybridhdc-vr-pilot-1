@@ -1,0 +1,20 @@
+{
+  "status": "NOT_READY",
+  "branch": "codex/tables",
+  "git_diff_check": "PASS",
+  "valid_repository": true,
+  "tracked_file_count": 3,
+  "worktree_status_entries": 27,
+  "tracked_deletions": 3,
+  "tracked_modifications": 0,
+  "untracked_entries": 24,
+  "untracked_file_count": 8235,
+  "untracked_critical_file_count": 8155,
+  "current_experiment_code_recoverable_from_git": false,
+  "recommended_next_git_action": "After explicit approval, review exclusions and deletions, then stage the intended experiment/audit/report files and create a local commit before any push.",
+  "git_add_executed": false,
+  "git_commit_executed": false,
+  "git_push_executed": false,
+  "git_clean_executed": false,
+  "files_deleted_by_repair": 0
+}

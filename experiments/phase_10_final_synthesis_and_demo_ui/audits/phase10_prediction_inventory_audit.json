@@ -1,0 +1,24 @@
+{
+  "audit": "phase10_prediction_inventory_audit",
+  "artifact_count": 1406,
+  "protocol_counts": {
+    "FROZEN_OUTER_OOF": 352,
+    "UNIMODAL_OUTER_OOF": 256,
+    "FUSION_OR_SHORTCUT_OUTER_OOF": 374,
+    "LOSO": 422,
+    "MISSING_MODALITY": 2
+  },
+  "checks": {
+    "traditional_classification_oof": true,
+    "traditional_regression_oof": true,
+    "hdc_classification_seed_level": true,
+    "hdc_regression_seed_level": true,
+    "hdc_canonical_oof": true,
+    "unimodal_oof": true,
+    "fusion_or_shortcut_oof": true,
+    "missing_modality_oof": true,
+    "loso_oof": true,
+    "predictions_copied_or_merged": false
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,37 @@
+{
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "data_path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv",
+  "input_features": 1176,
+  "pipeline": [
+    "SimpleImputer(median, add_indicator=True, keep_empty_features=True)",
+    "VarianceThreshold(0.0)",
+    "StandardScaler",
+    "SelectKBest(f_regression)",
+    "Ridge(fit_intercept=True, solver=auto)"
+  ],
+  "param_grid": {
+    "feature_selection__k": [
+      50,
+      100,
+      200,
+      "all"
+    ],
+    "regressor__alpha": [
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ]
+  },
+  "candidate_count": 20,
+  "outer_cv": "frozen 5-fold subject-wise",
+  "inner_cv": "GroupKFold(n_splits=3, groups=subject_id)",
+  "scorer": "negative bounded MAE from raw continuous predictions clipped to [1,4]",
+  "target": "target_score = difficulty_level",
+  "interpretation": "bounded difficulty-induced workload proxy regression",
+  "sklearn": "1.5.1",
+  "python": "D:\\Computer\\anaconda3\\python.exe",
+  "random_seed": "NOT_APPLICABLE",
+  "utc_timestamp": "2026-08-19T16:29:10.727272+00:00"
+}

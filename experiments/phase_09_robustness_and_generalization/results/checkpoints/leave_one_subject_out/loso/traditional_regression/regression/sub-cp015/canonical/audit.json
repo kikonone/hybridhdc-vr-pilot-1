@@ -1,0 +1,29 @@
+{
+  "phase": "09",
+  "run_identifier": "loso__sub-cp015__traditional_regression__canonical",
+  "status": "PASS",
+  "checks": {
+    "frozen_config_matching": true,
+    "expected_feature_count": true,
+    "removed_modality_feature_intersection_0": true,
+    "expected_test_rows": true,
+    "unique_test_run_key": true,
+    "exact_split_membership": true,
+    "train_test_subject_overlap_0": true,
+    "test_subject_not_used_for_config_selection": true,
+    "no_test_fitted_preprocessing": true,
+    "finite_predictions": true,
+    "classification_prediction_domain": true,
+    "bounded_regression_range": true,
+    "checkpoint_loadable": true,
+    "prediction_artifact_nonempty": true,
+    "performance_feature_count_0": true
+  },
+  "checkpoint_path": "results/checkpoints/leave_one_subject_out/loso/traditional_regression/regression/sub-cp015/canonical/checkpoint.json",
+  "checkpoint_sha256": "f76ea1fcad43761b4b121ee7715adb7ae68bc7a9349704b6d5b987c1243fa118",
+  "model_sha256": "e4bfca03e87be49589f51ebeff1f7bec53af2720b9a298f869c02062cda8f7b4",
+  "prediction_sha256": "369cb0908b0141a2a132e885c1d18c8660ef4a92e4994ec4131a4e47d805fc79",
+  "metrics_sha256": "0c422792d21168fb2e483f56dbd95fb0e0a410141bfafa2b8f6a5be0165117bd",
+  "model_training_executed": true,
+  "prediction_generated": true
+}

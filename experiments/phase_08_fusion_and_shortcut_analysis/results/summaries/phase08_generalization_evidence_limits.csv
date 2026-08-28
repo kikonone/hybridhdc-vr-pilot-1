@@ -1,0 +1,5 @@
+experiment,status,reason
+unseen_session,NOT_FEASIBLE_DUE_TO_METADATA,session perfectly nested within subject
+unseen_scenario,NOT_FEASIBLE_DUE_TO_METADATA,no explicit scenario_id
+task_template,NOT_FEASIBLE_DUE_TO_METADATA,no explicit task_template_id
+flight_task_setting_only,NOT_FEASIBLE_EMPTY_PROVENANCE_GROUP,0 task-setting features

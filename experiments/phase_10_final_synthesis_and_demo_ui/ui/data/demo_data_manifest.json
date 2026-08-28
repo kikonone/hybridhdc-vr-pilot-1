@@ -1,0 +1,135 @@
+{
+  "package": "phase10_frozen_dual_task_demo_data",
+  "status": "PASS",
+  "generated_at_utc": "2026-08-26T06:11:35.776542+00:00",
+  "source_resolution": "Phase10 canonical prediction index -> Phase07 read-only references -> Phase06 hybrid classification / Phase05 common ridge regression OOF",
+  "source_files": [
+    {
+      "role": "fold_assignments",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+      "size_bytes": 38660,
+      "sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f"
+    },
+    {
+      "role": "classification_selection",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_best_classification_hdc.json",
+      "size_bytes": 1822,
+      "sha256": "174a99de2d993acdea49fdebc9647b28db4648ada2bea7a33f620f4677f031a4"
+    },
+    {
+      "role": "regression_selection",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_best_regression_hdc.json",
+      "size_bytes": 2351,
+      "sha256": "acde51709971d57c76eefaffcf1ecd571a4d4c5c36f8d76edf39841c5e7065b8"
+    },
+    {
+      "role": "phase06_oof_seal",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\manifests\\phase06_preselection_outer_oof_seal.json",
+      "size_bytes": 26520,
+      "sha256": "7f78fe0e66f6c020142cc7fe099b7844e84cd34af5c39df5dbf5f48e528a42e9"
+    },
+    {
+      "role": "classification_seed_oof",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\oof\\phase06_hybrid_final_oof.csv",
+      "size_bytes": 2430236,
+      "sha256": "ff619baf4be600279482c9e1f4f4139000fc05c1dfaf41555d644674b45d875a"
+    },
+    {
+      "role": "regression_seed_oof",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\results\\oof\\vanilla_hdc_ridge_regression_oof.csv",
+      "size_bytes": 937114,
+      "sha256": "a449d8f43a0935f0a3fcf8cf901894e426a83e552807dcef9551bc983ba22758"
+    },
+    {
+      "role": "dual_task_contract",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\configs\\phase07_frozen_unimodal_contract.json",
+      "size_bytes": 12829,
+      "sha256": "3b29209dbbb057213b791443a04fad20410eb1bc5a46c681bd8afb2e28fddaa8"
+    },
+    {
+      "role": "classification_canonical_oof",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\oof\\phase07_readonly_multimodal_classification_reference.csv",
+      "size_bytes": 136263,
+      "sha256": "5933f705875e205a31c487384bbc6bb0460fe36076a1dafa01825859759c42a8"
+    },
+    {
+      "role": "regression_canonical_oof",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\oof\\phase07_readonly_multimodal_regression_reference.csv",
+      "size_bytes": 130202,
+      "sha256": "6af63df19a14c652b991230833a5d9bdf264cb1c5c387823f42d6e5cd30e0c7a"
+    },
+    {
+      "role": "phase10_selected_interface",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\configs\\phase10_best_dual_task_hdc_interface.json",
+      "size_bytes": 1757,
+      "sha256": "bf93656042594f55a13cfe95a1d43bcd2add428902681cb4847c6ee5f39eb578"
+    },
+    {
+      "role": "phase10_prediction_index",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\results\\final_prediction_library\\final_prediction_library_index.csv",
+      "size_bytes": 549063,
+      "sha256": "fea78edee70f65cbbfb064646e577e1f521635551a92535193fc44afc48cee21"
+    }
+  ],
+  "output_files": [
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\ui\\data\\frozen_dual_task_oof.csv",
+      "size_bytes": 64850,
+      "sha256": "59c6f260942b708d6956bb17ace0babf71e443a766e6a6353a04eacfd3cab91d"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\ui\\data\\frozen_dual_task_model.json",
+      "size_bytes": 951,
+      "sha256": "1fbf24768f90d26fc957d512cf0f6fab402ddc222e5ef5da62a3bd8866ccd923"
+    }
+  ],
+  "row_counts": {
+    "classification": 419,
+    "regression": 419,
+    "aligned": 419
+  },
+  "unique_demo_ids": {
+    "classification": 419,
+    "regression": 419,
+    "shared": 419
+  },
+  "coverage": {
+    "classification_missing_target": 0,
+    "classification_missing_prediction": 0,
+    "regression_missing_target": 0,
+    "regression_missing_prediction": 0
+  },
+  "fold_coverage": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "alignment": {
+    "performed_before_anonymization": true,
+    "real_key_sets_equal": true,
+    "ordered_real_key_sha256": "cf9e5d4b5d4f0e1e2f3e26d4c60928e2feae24c09a6e73af0e8c85f422eb5284",
+    "stable_demo_id_range": [
+      "DEMO-0001",
+      "DEMO-0419"
+    ]
+  },
+  "presentation_only_transformations": [
+    "aligned both canonical tasks by real run key before anonymization",
+    "removed run key, subject, and session identifiers",
+    "mapped source classification labels 0-3 to display Difficulty 1-4",
+    "derived classification correctness from frozen labels",
+    "derived absolute error from frozen regression target and bounded prediction"
+  ],
+  "scientific_transformations": "NONE",
+  "ui_clipping_executed": false,
+  "canonical_aggregation_policy": {
+    "classification": "arithmetic mean of the five seed class scores, then argmax",
+    "regression": "arithmetic mean of five prediction_raw values, then clip to [1.0, 4.0]"
+  },
+  "training_executed": false,
+  "new_predictions_generated": false,
+  "statistics_recomputed": false,
+  "model_selection_executed": false
+}

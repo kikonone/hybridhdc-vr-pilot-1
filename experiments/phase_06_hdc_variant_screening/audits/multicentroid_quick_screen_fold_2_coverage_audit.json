@@ -1,0 +1,12 @@
+{
+  "phase": "06",
+  "variant": "multicentroid",
+  "outer_fold": 2,
+  "candidates_expected": 6,
+  "candidates_completed": 6,
+  "inner_metric_rows_expected": 18,
+  "inner_metric_rows_actual": 18,
+  "checkpoint_count": 6,
+  "all_best_configs_reproducible": true,
+  "result": "PASS"
+}

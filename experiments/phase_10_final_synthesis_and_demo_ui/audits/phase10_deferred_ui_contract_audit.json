@@ -1,0 +1,10 @@
+{
+  "audit": "phase10_deferred_ui_contract_audit",
+  "ui_status": "DEFERRED_BY_USER_NOT_EXECUTED",
+  "ui_build_authorized": false,
+  "ui_dependencies_installed": false,
+  "ui_files_created": false,
+  "ui_server_started": false,
+  "effect_on_core_completion": "NONE",
+  "status": "PASS"
+}

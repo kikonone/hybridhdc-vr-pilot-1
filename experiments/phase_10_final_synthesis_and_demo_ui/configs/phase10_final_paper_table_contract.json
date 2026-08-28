@@ -1,0 +1,14 @@
+{
+  "contract": "phase10_final_paper_table_contract",
+  "status": "FROZEN_NOT_FORMATTED",
+  "minimum_table_count": 14,
+  "traditional_and_other_hdc_variant_evidence_required": true,
+  "precision": {
+    "machine_readable_csv": "full precision",
+    "display_metrics_and_effects_decimals": 3,
+    "display_p_value_decimals": 4,
+    "small_p_format": "p < 0.0001"
+  },
+  "uncertainty": "estimate [95% subject bootstrap CI] where registered",
+  "significance": "raw p plus Holm-adjusted p; nonsignificance is not equivalence"
+}

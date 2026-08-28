@@ -1,0 +1,30 @@
+{
+  "phase": "09",
+  "audit": "loso_config_mapping_leakage",
+  "status": "PASS",
+  "checks": {
+    "all_subjects_map_to_one_original_fold": true,
+    "test_subject_never_in_original_outer_training": true,
+    "new_inner_cv_disabled": true,
+    "loso_test_subject_parameter_access_disabled": true,
+    "all_four_config_sources_present": true
+  },
+  "mapped_subjects": 35,
+  "test_subject_used_for_selection": false,
+  "sources": [
+    {
+      "role": "frozen_phase03_outer_assignments",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+      "bytes": 38660,
+      "sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+      "read_only_policy": true
+    },
+    {
+      "role": "frozen_loso_mapping",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_loso_config_mapping.json",
+      "bytes": 77328,
+      "sha256": "fecba2fe0d2bff5461e3ae1a76c6d3588076737e97ccb5c67bdaef84324d7be1",
+      "read_only_policy": true
+    }
+  ]
+}

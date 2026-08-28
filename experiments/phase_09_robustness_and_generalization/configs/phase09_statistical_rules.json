@@ -1,0 +1,57 @@
+{
+  "phase": "09",
+  "status": "FROZEN",
+  "statistical_unit": "subject_id",
+  "classification": {
+    "primary": "Macro-F1",
+    "secondary": [
+      "Balanced Accuracy",
+      "Accuracy",
+      "Severe Error Rate",
+      "Per-class Recall",
+      "Confusion Matrix",
+      "Quadratic Weighted Kappa"
+    ]
+  },
+  "regression": {
+    "primary": "bounded MAE",
+    "secondary": [
+      "raw MAE",
+      "bounded RMSE",
+      "bounded R²",
+      "bounded Spearman",
+      "clipping count/rate",
+      "rounded regression Macro-F1",
+      "adjacent accuracy",
+      "severe error rate"
+    ]
+  },
+  "missing_modality": {
+    "comparison": "Each missing condition paired with FULL_PRIMARY_REFERENCE at subject level",
+    "test": "Wilcoxon signed-rank",
+    "multiplicity": "Holm correction",
+    "effect_size": "rank-biserial",
+    "bootstrap": {
+      "resamples": 2000,
+      "unit": "subject_id",
+      "paired": true,
+      "confidence_level": 0.95
+    }
+  },
+  "loso_stability": {
+    "summaries": [
+      "median",
+      "IQR",
+      "range"
+    ],
+    "bootstrap": {
+      "resamples": 2000,
+      "unit": "subject_id",
+      "confidence_level": 0.95
+    },
+    "worst_subject": "diagnostic only; never delete",
+    "model_reselection": "PROHIBITED"
+  },
+  "interpretation_guardrail": "A non-significant result must not be described as complete equivalence.",
+  "formal_statistics_executed": false
+}

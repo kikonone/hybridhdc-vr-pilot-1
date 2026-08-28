@@ -1,0 +1,121 @@
+{
+  "phase": "06",
+  "audit": "phase04_baseline_interface",
+  "timestamp_utc": "2026-08-21T06:59:18.599345+00:00",
+  "result": "PASS",
+  "phase04a": {
+    "result": "PASS",
+    "checks": {
+      "required_files_exist": true,
+      "frozen": true,
+      "complete": true,
+      "leakage_audit_pass": true
+    },
+    "evidence": {
+      "freeze": {
+        "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\phase04a_freeze.json",
+        "exists": true,
+        "file_size_bytes": 1050,
+        "sha256": "34ea8100d9406f9701750a441aa6537323c28bcdb194cb3fd3645c4f7de4a2e1",
+        "result": "PASS"
+      },
+      "summary": {
+        "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\results\\summaries\\classification_baseline_summary.csv",
+        "exists": true,
+        "file_size_bytes": 1481,
+        "sha256": "27f331244a6e8fd18652b5c3aed4bd05d976f0662947e337cd591e27831c1084",
+        "result": "PASS"
+      },
+      "oof": {
+        "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\results\\oof\\classification_oof_predictions.csv",
+        "exists": true,
+        "file_size_bytes": 88352,
+        "sha256": "2d33d4b38c27b1c50407faec0a891299a699fc7bc04c5ead956d1cc11a9c6c1f",
+        "result": "PASS"
+      },
+      "report": {
+        "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\reports\\phase04a_final_summary.md",
+        "exists": true,
+        "file_size_bytes": 2590,
+        "sha256": "e8e25b27f9e7b601392f1262338dd405a5f9d90f94d3644f26b5e53bfd94bc7c",
+        "result": "PASS"
+      },
+      "leakage_audit": {
+        "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\audits\\phase04a_leakage_audit.json",
+        "exists": true,
+        "file_size_bytes": 571,
+        "sha256": "6da446cd56717d0c3d8f1f9a45c924a36d148a09bbfbe8c7d938137c03f21e00",
+        "result": "PASS"
+      }
+    }
+  },
+  "phase04b": {
+    "result": "PASS",
+    "checks": {
+      "required_files_exist": true,
+      "frozen": true,
+      "artifact_audit_pass": true,
+      "leakage_audit_pass": true,
+      "notebook_persistence_pass": true
+    },
+    "evidence": {
+      "freeze": {
+        "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\configs\\phase04b_freeze.json",
+        "exists": true,
+        "file_size_bytes": 5127,
+        "sha256": "e2c88b1139a50aab6d47b6477c7bceff74f8443095f9d039ea9af84b715ee790",
+        "result": "PASS"
+      },
+      "manifest": {
+        "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\manifests\\phase04b_final_artifact_manifest.json",
+        "exists": true,
+        "file_size_bytes": 16911,
+        "sha256": "eb0edfdf4acefd2c28e86476fe58d76204ddf2951d45894841a966f1b9b8e8ae",
+        "result": "PASS"
+      },
+      "summary": {
+        "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\summaries\\gradient_boosting_summary.csv",
+        "exists": true,
+        "file_size_bytes": 674,
+        "sha256": "1cbc736ffa118a0de0061fc87130d4eb39f8ed31c481924b82133f48c23564e1",
+        "result": "PASS"
+      },
+      "oof": {
+        "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\predictions\\gradient_boosting_oof.csv",
+        "exists": true,
+        "file_size_bytes": 88974,
+        "sha256": "e05c23a526a00eaaa49d0fd07e1eae68ff2c53e94a05418d47474367aa0ae3ed",
+        "result": "PASS"
+      },
+      "report": {
+        "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\reports\\phase04b_final_summary.md",
+        "exists": true,
+        "file_size_bytes": 4088,
+        "sha256": "2138d7f7f022c870a2f770d80a1af8710c3b245f6296178d8c1da73dd560776a",
+        "result": "PASS"
+      },
+      "artifact_audit": {
+        "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\audits\\phase04b_final_artifact_audit.json",
+        "exists": true,
+        "file_size_bytes": 5866,
+        "sha256": "d349e2b9f33df08069d4875762a693aaa6fe58bf826524863c01b7f6f6625588",
+        "result": "PASS"
+      },
+      "leakage_audit": {
+        "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\audits\\phase04b_final_leakage_audit.json",
+        "exists": true,
+        "file_size_bytes": 1472,
+        "sha256": "fea57a9f358dcfc57235d173cf5d8720f9d6b14edecb58ec71aec0943b32acc6",
+        "result": "PASS"
+      },
+      "notebook_audit": {
+        "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\audits\\phase04b_final_notebook_persistence_audit.json",
+        "exists": true,
+        "file_size_bytes": 743,
+        "sha256": "ed36f398f6d4cfde1cb2032799bc919e15b07c881bc42b667f27284954582f11",
+        "result": "PASS"
+      }
+    }
+  },
+  "policy": "READ_ONLY_COMPARISON_INTERFACE_NO_RECOMPUTATION"
+}

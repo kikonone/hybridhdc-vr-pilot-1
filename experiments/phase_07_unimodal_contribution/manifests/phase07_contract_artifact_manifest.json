@@ -1,0 +1,90 @@
+{
+  "phase": "07",
+  "status": "CONTRACT_FROZEN_NOT_TRAINED",
+  "generated_at_utc": "2026-08-20T18:08:15.610760+00:00",
+  "artifacts": [
+    {
+      "relative_path": "configs\\phase07_experiment_contract.json",
+      "sha256": "34a5c8d622268a651186c1fec99ab8f248c6ce34f39dde11a7332196dc93753c",
+      "size_bytes": 2283
+    },
+    {
+      "relative_path": "configs\\phase07_frozen_unimodal_contract.json",
+      "sha256": "3b29209dbbb057213b791443a04fad20410eb1bc5a46c681bd8afb2e28fddaa8",
+      "size_bytes": 12829
+    },
+    {
+      "relative_path": "configs\\phase07_statistical_analysis_contract.json",
+      "sha256": "5487dbe83bc7e2a646ebdd8ea7827cd42826a83b57daec149ddf773640e05763",
+      "size_bytes": 1512
+    },
+    {
+      "relative_path": "configs\\phase07_execution_manifest.json",
+      "sha256": "ed0c4af758d8dead81377e5b33cbdc9e4e3fe5332c91e7cc6e19b7a6cb2e3393",
+      "size_bytes": 764
+    },
+    {
+      "relative_path": "configs\\phase07_metric_definitions.json",
+      "sha256": "282845a7009804316ec153f087aac760f772a771aa7e19a4717f8697610980d1",
+      "size_bytes": 1372
+    },
+    {
+      "relative_path": "manifests\\phase07_modality_feature_manifest.json",
+      "sha256": "1bea49fed9577a245b182075875bd2a7226be9f1e64782869ef3bdac86dfe1f4",
+      "size_bytes": 65552
+    },
+    {
+      "relative_path": "audits\\phase07_contract_freeze_audit.json",
+      "sha256": "ecf126efad8cc067d548dc954482714ac2d578ed5232bbb392d3061a16305a9c",
+      "size_bytes": 2546
+    },
+    {
+      "relative_path": "audits\\phase07_pretraining_feasibility_audit.json",
+      "sha256": "3f1fe9dee9e990943ed5e70bcaade7af214dadd955ec730274012730de881f91",
+      "size_bytes": 1008
+    },
+    {
+      "relative_path": "scripts\\freeze_phase07_contract.py",
+      "sha256": "b25c3353801e771194e79a7dc4019bea4c8afbeeb15c6e0f6357af351ca9e623",
+      "size_bytes": 36271
+    },
+    {
+      "relative_path": "tests\\test_phase07_contract.py",
+      "sha256": "af95b33381c642f02bcf19bfc1458b3170674a410307416dee5bef2f5115e7c4",
+      "size_bytes": 6353
+    },
+    {
+      "relative_path": "README.md",
+      "sha256": "d4ce35a905226d7e7c20a834d78dc6c533a197eb6a6ce8088f81bfa83590af52",
+      "size_bytes": 1495
+    },
+    {
+      "relative_path": "task_plan.md",
+      "sha256": "1a8875e28228176e2481c5383a95efcd0bf657107b05d199d30b403122d60e44",
+      "size_bytes": 2339
+    },
+    {
+      "relative_path": "notes.md",
+      "sha256": "540f7414af402d15c366f85e2fce0e9864ec049c8017d96f46c4801b87b8baea",
+      "size_bytes": 7209
+    },
+    {
+      "relative_path": "Phase_07_Unimodal_Contribution.ipynb",
+      "sha256": "436e957387c35378996d0315b87681b72365e59fd5685b0f6465d4c5980da690",
+      "size_bytes": 72973
+    },
+    {
+      "relative_path": "audits\\phase07_contract_artifact_audit.json",
+      "sha256": "1d0b3a7deadcac156d24b5dcbb5eb8083045ed4d0e8781ef75306c5ba9b9ecc5",
+      "size_bytes": 4012
+    },
+    {
+      "relative_path": "audits\\phase07_contract_notebook_persistence_audit.json",
+      "sha256": "7b0375be07434e6e3a7dd5e128b4858166094b32fdc73b1aaa41e27b7639fe4a",
+      "size_bytes": 575
+    }
+  ],
+  "training_executed": false,
+  "outer_test_predictions_generated": false,
+  "result": "PASS"
+}

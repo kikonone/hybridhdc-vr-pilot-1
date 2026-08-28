@@ -1,0 +1,79 @@
+{
+  "phase08_directory_initialized": true,
+  "phase08_name": "Fusion and Shortcut Analysis",
+  "summaries": {
+    "primary": {
+      "rows": 419,
+      "subjects": 35,
+      "unique_run_keys": 419,
+      "predictive_features": 1176,
+      "manifest_features_unique": true,
+      "manifest_features_present_in_csv": true,
+      "csv_columns": 1185
+    },
+    "with_performance": {
+      "rows": 419,
+      "subjects": 35,
+      "unique_run_keys": 419,
+      "predictive_features": 1235,
+      "manifest_features_unique": true,
+      "manifest_features_present_in_csv": true,
+      "csv_columns": 1244
+    },
+    "performance_only": {
+      "rows": 419,
+      "subjects": 35,
+      "unique_run_keys": 419,
+      "predictive_features": 59,
+      "manifest_features_unique": true,
+      "manifest_features_present_in_csv": true,
+      "csv_columns": 68
+    }
+  },
+  "checksum_pass": {
+    "primary": true,
+    "with_performance": true,
+    "performance_only": true,
+    "folds": true,
+    "with_performance_manifest": true,
+    "performance_only_manifest": true
+  },
+  "three_dataset_run_key_alignment": true,
+  "three_dataset_target_alignment": true,
+  "feature_relations": {
+    "with_performance_equals_primary_union_performance": true,
+    "primary_plus_performance_count_equals_with_performance": true,
+    "primary_performance_intersection_count": 0,
+    "performance_only_equals_frozen_performance_group": true
+  },
+  "fusion_counts": {
+    "physiological_plus_eye": 649,
+    "physiological_plus_eye_plus_head": 808,
+    "physiological_plus_eye_plus_head_plus_flight": 1134,
+    "full_multimodal_without_performance": 1176
+  },
+  "fusion_mapping_pass": true,
+  "performance_feature_risk_inventory_saved": true,
+  "upstream_interface_pass": {
+    "phase04a": true,
+    "phase04b": true,
+    "phase06": true,
+    "phase07": true
+  },
+  "best_traditional_classifier": "Gradient Boosting",
+  "best_traditional_regressor": "Gradient Boosting Regressor",
+  "frozen_hdc_classifier": "HDC+OnlineHD Hybrid",
+  "frozen_hdc_regression_head": "COMMON_ENCODER_READOUT_BASELINE",
+  "model_training_executed": false,
+  "outer_test_predictions_generated": false,
+  "input_fold_audit_saved": true,
+  "dataset_alignment_audit_saved": true,
+  "fusion_mapping_audit_saved": true,
+  "upstream_interface_audit_saved": true,
+  "overall_pre_notebook_pass": true,
+  "phase08_status": "PENDING_CONTRACT_FREEZE",
+  "ready_for_contract_freeze_pre_notebook": true,
+  "ready_for_modeling": false,
+  "notebook_persistence_pass": true,
+  "ready_for_contract_freeze": true
+}

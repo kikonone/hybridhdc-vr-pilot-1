@@ -1,0 +1,31 @@
+{
+  "phase": "06",
+  "variant": "onlinehd",
+  "outer_fold": 3,
+  "selection_rule": "phase06_model_selection_rules_v1",
+  "best_config": {
+    "candidate_id": "candidate_002",
+    "variant": "onlinehd",
+    "dimension": 2000,
+    "epochs": 1,
+    "learning_rate": 0.05,
+    "margin_threshold": 0.1,
+    "levels": 51,
+    "feature_k": 50,
+    "seed": 42,
+    "canonical_config_json": "{\"dimension\":2000,\"epochs\":1,\"feature_k\":50,\"learning_rate\":0.05,\"levels\":51,\"margin_threshold\":0.1,\"seed\":42,\"variant\":\"onlinehd\"}",
+    "inner_fold_1_macro_f1": 0.8081420828047515,
+    "inner_fold_2_macro_f1": 0.7896015377909333,
+    "inner_fold_3_macro_f1": 0.7262544123644992,
+    "mean_macro_f1": 0.7746660109867282,
+    "std_macro_f1_sample": 0.042938329185265196,
+    "mean_balanced_accuracy": 0.7821889955510645,
+    "mean_accuracy": 0.784054362485735,
+    "mean_severe_error_rate": 0.032524120759414875,
+    "training_seconds": 0.0480686999799218,
+    "inference_seconds": 0.001143200002843514,
+    "model_bytes": 32000,
+    "status": "COMPLETE"
+  },
+  "result": "PASS"
+}

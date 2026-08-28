@@ -1,0 +1,11 @@
+task,modality,metric,seed_mean,seed_sample_sd
+classification,physiological_features,macro_f1,0.27961065549064157,0.018598188492973174
+regression,physiological_features,bounded_mae,1.0483311367541766,0.02621842815652237
+classification,eye_tracking_features,macro_f1,0.34577837359798097,0.012941443997791282
+regression,eye_tracking_features,bounded_mae,0.8662606949880669,0.010339457654988988
+classification,head_movement_features,macro_f1,0.33691195615256564,0.024670916482350973
+regression,head_movement_features,bounded_mae,0.9186259760859187,0.01981967228707369
+classification,flight_parameter_features,macro_f1,0.8233767541838629,0.01275108601089924
+regression,flight_parameter_features,bounded_mae,0.2738941735083532,0.00803250343853404
+classification,body_movement,macro_f1,0.26296411884483334,0.015843148504666955
+regression,body_movement,bounded_mae,1.06447590300716,0.023696524501712425

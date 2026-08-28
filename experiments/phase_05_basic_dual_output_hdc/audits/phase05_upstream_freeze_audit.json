@@ -1,0 +1,52 @@
+{
+  "phase": "05",
+  "phase04a": {
+    "freeze_path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\phase04a_freeze.json",
+    "parseable": true,
+    "status": "COMPLETE",
+    "frozen": "YES",
+    "interface_pass": true,
+    "best_traditional_classifier": {
+      "model": "Gradient Boosting",
+      "model_slug": "gradient_boosting",
+      "oof_macro_f1": 0.9356075023489924,
+      "oof_balanced_accuracy": 0.9356862084456424,
+      "oof_accuracy": 0.935560859188544,
+      "oof_weighted_f1": 0.9356374078190548,
+      "recall_class_0": 0.9423076923076924,
+      "recall_class_1": 0.8867924528301887,
+      "recall_class_2": 0.9326923076923076,
+      "recall_class_3": 0.9809523809523808,
+      "fold_macro_f1_mean": 0.9358879181084316,
+      "fold_macro_f1_std": 0.0189540639634232
+    }
+  },
+  "phase04b": {
+    "freeze_path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\configs\\phase04b_freeze.json",
+    "parseable": true,
+    "status": "FROZEN",
+    "primary_sha_matches_actual": true,
+    "fold_sha_matches_actual": true,
+    "interface_pass": true,
+    "best_traditional_regressor": {
+      "model": "Gradient Boosting Regressor",
+      "model_slug": "gradient_boosting",
+      "model_family": "Tree ensemble",
+      "canonical_seed": "42",
+      "oof_rows": 419,
+      "oof_unique_run_keys": 419,
+      "mae_raw": 0.1130643893865367,
+      "mae_bounded": 0.1074862234692518,
+      "rmse_bounded": 0.2550837953674904,
+      "r2_bounded": 0.947846168738032,
+      "rank_by_mae_bounded": 1,
+      "difference_from_best_mae": 0.0,
+      "spearman_bounded": 0.9529838128466463,
+      "status": "COMPLETE",
+      "leakage_audit": "PASS",
+      "coverage_audit": "PASS",
+      "artifact_audit": "PASS",
+      "notebook_persistence": "PASS"
+    }
+  }
+}

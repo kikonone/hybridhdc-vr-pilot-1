@@ -1,0 +1,8 @@
+{
+  "outer_fold": 3,
+  "n_iter": 41992,
+  "max_iter": 100000,
+  "search_convergence_warning_count_total": 0,
+  "candidate_level_warning_mapping": "NOT_AVAILABLE_FROM_GRIDSEARCHCV",
+  "converged": true
+}

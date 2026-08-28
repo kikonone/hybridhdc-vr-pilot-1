@@ -1,0 +1,46 @@
+{
+  "model": "Elastic Net",
+  "model_slug": "elastic_net",
+  "outer_fold": 5,
+  "train_rows": 336,
+  "test_rows": 83,
+  "train_subjects": 28,
+  "test_subjects": 7,
+  "subject_overlap_count": 0,
+  "inner_candidate_count": 48,
+  "selected_k": 200,
+  "selected_alpha": 0.01,
+  "selected_l1_ratio": 0.5,
+  "nonzero_coefficient_count": 90,
+  "best_inner_bounded_mae": 0.27873806573179755,
+  "mae_raw": 0.29538926985497765,
+  "mae_bounded": 0.25054358055278636,
+  "rmse_raw": 0.4379968619385351,
+  "rmse_bounded": 0.36458470930566683,
+  "r2_raw": 0.8479877641353254,
+  "r2_bounded": 0.8946745193607455,
+  "spearman_raw": 0.9485801703387332,
+  "spearman_bounded": 0.9524548182479116,
+  "convergence_warning_count": 0,
+  "best_estimator_n_iter": 2280,
+  "best_estimator_converged": true,
+  "fit_and_search_time_seconds": 52.66435099999944,
+  "prediction_time_seconds": 0.012258100003236905,
+  "max_iter_used": 100000,
+  "checkpoint_reused": false,
+  "recovery_version": "V1",
+  "inner_subject_isolation": [
+    {
+      "inner_fold": 1,
+      "subject_overlap_count": 0
+    },
+    {
+      "inner_fold": 2,
+      "subject_overlap_count": 0
+    },
+    {
+      "inner_fold": 3,
+      "subject_overlap_count": 0
+    }
+  ]
+}

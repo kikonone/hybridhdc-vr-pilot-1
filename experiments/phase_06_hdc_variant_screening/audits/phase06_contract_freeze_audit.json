@@ -1,0 +1,44 @@
+{
+  "phase": "06",
+  "audit": "contract_freeze",
+  "timestamp_utc": "2026-08-20T06:38:03.355963+00:00",
+  "result": "PASS",
+  "checks": {
+    "phase05_amendment_pass": true,
+    "phase06_initialization_pass": true,
+    "primary_checksum_pass": true,
+    "frozen_fold_checksum_pass": true,
+    "variant_contract_frozen": true,
+    "search_spaces_frozen": true,
+    "selection_rules_frozen": true,
+    "phase05_encoder_reused_by_hash": true,
+    "outer_test_feature_access_prohibited": true,
+    "final_confirmation_not_executed": true
+  },
+  "evidence": {
+    "contract_manifest": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\manifests\\phase06_contract_manifest.json",
+      "file_size_bytes": 2250,
+      "sha256": "17d96e4834945b66725d89d227259411d9a6d1b2fa32a764ed031128dd4555fb",
+      "result": "PASS"
+    },
+    "phase06_hdc_variant_contract.json": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_hdc_variant_contract.json",
+      "file_size_bytes": 4682,
+      "sha256": "f9d0bd0f304678bbd00e3fdeaaf9b619511a2e54f9d426e21cc130691cca365b",
+      "result": "PASS"
+    },
+    "phase06_variant_search_spaces.json": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_variant_search_spaces.json",
+      "file_size_bytes": 1335,
+      "sha256": "19873aaa7a43be667be0a966ceaacdcb50c5e3c1b40f7c2021a1ffcc3202a410",
+      "result": "PASS"
+    },
+    "phase06_model_selection_rules.json": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_model_selection_rules.json",
+      "file_size_bytes": 1319,
+      "sha256": "243dcaf9f6c939cb427addcc3675e88dad94126b70a6f1a97be07ea34e71ea55",
+      "result": "PASS"
+    }
+  }
+}

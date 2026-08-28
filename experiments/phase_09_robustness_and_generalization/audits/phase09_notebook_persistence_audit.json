@@ -1,0 +1,17 @@
+{
+  "phase": "09",
+  "audit": "notebook_persistence",
+  "status": "PASS",
+  "audited_at_utc": "2026-08-21T02:59:26.580332+00:00",
+  "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\Phase_09_Robustness_and_Generalization.ipynb",
+  "bytes": 34676,
+  "sha256": "d19ad882857848b69490635b32179bcf5ab95bd2be35b2e9ab059a5a6bcda39d",
+  "code_cells": 12,
+  "executed_code_cells": 12,
+  "code_cells_with_outputs": 12,
+  "error_outputs": 0,
+  "required_sections_present": true,
+  "model_training_executed": false,
+  "loso_predictions_generated": false,
+  "missing_modality_predictions_generated": false
+}

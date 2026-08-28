@@ -1,0 +1,16 @@
+{
+  "phase": "09",
+  "audit": "multiple_comparison",
+  "status": "PASS",
+  "method": "Holm",
+  "families": [
+    "hdc_classification|primary_metric",
+    "hdc_regression|primary_metric",
+    "traditional_classification|primary_metric",
+    "traditional_regression|primary_metric"
+  ],
+  "family_size": 5,
+  "comparisons": 20,
+  "all_adjusted_p_values_present": true,
+  "unregistered_between_model_inference_added": false
+}

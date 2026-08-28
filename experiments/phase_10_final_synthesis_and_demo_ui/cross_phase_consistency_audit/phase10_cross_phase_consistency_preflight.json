@@ -1,0 +1,26 @@
+{
+  "preflight": "phase10_cross_phase_consistency_preflight",
+  "timestamp_utc": "2026-08-21T06:23:36.076652+00:00",
+  "checks": {
+    "data_rows_consistent": true,
+    "subjects_consistent": true,
+    "feature_count_consistent": true,
+    "run_key_universe_consistent": true,
+    "target_definitions_consistent": true,
+    "fold_checksum_consistent": true,
+    "model_names_consistent": true,
+    "hdc_classification_interface_consistent": true,
+    "hdc_regression_interface_consistent": true,
+    "metric_names_consistent": true,
+    "metric_directions_consistent": true,
+    "tables_and_reports_traceable": true,
+    "notebooks_and_summaries_traceable": true,
+    "phase08_09_generalization_limits_consistent": true,
+    "regression_terminology_consistent": true
+  },
+  "unresolved_numerical_differences": 0,
+  "differences": [],
+  "required_regression_term": "bounded difficulty-induced workload proxy regression",
+  "upstream_artifacts_modified": false,
+  "status": "PASS"
+}

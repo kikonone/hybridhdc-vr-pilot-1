@@ -1,0 +1,5 @@
+{
+  "classifier__C": 1.0,
+  "selector__k": 100,
+  "effective_selected_k": 100
+}

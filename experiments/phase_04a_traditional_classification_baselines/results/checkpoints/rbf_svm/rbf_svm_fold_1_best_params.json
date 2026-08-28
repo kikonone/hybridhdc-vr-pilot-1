@@ -1,0 +1,6 @@
+{
+  "classifier__C": 10.0,
+  "classifier__gamma": "scale",
+  "selector__k": 100,
+  "effective_selected_k": 100
+}

@@ -1,0 +1,391 @@
+{
+  "phase": "07",
+  "audit": "modality_mapping_and_missingness",
+  "generated_at_utc": "2026-08-20T17:52:06.813429+00:00",
+  "mapping_checks": {
+    "feature_counts": {
+      "physiological_features": 233,
+      "eye_tracking_features": 416,
+      "head_movement_features": 159,
+      "flight_parameter_features": 326,
+      "body_movement": 42
+    },
+    "feature_union_count": 1176,
+    "disjointness_pass": true,
+    "duplicate_memberships": [],
+    "union_coverage_pass": true,
+    "missing_from_union": [],
+    "outside_primary_union": [],
+    "performance_primary_intersection_count": 0,
+    "performance_primary_intersection": [],
+    "control_input_feature_count": 0,
+    "unverified_feature_count": 0,
+    "body_movement_status": "VERIFIED_BODY_MOVEMENT:42",
+    "body_movement_verified": true,
+    "expected_counts_pass": true
+  },
+  "modality_audits": [
+    {
+      "modality": "physiological_features",
+      "feature_count": 233,
+      "fully_missing_rows": 0,
+      "subjects_with_available_data": 35,
+      "target_class_distribution_all_rows": {
+        "0": 104,
+        "1": 106,
+        "2": 104,
+        "3": 105
+      },
+      "target_class_distribution_available_rows": {
+        "0": 104,
+        "1": 106,
+        "2": 104,
+        "3": 105
+      },
+      "target_score_distribution_all_rows": {
+        "1.0": 104,
+        "2.0": 106,
+        "3.0": 104,
+        "4.0": 105
+      },
+      "target_score_distribution_available_rows": {
+        "1.0": 104,
+        "2.0": 106,
+        "3.0": 104,
+        "4.0": 105
+      },
+      "outer_fold_details": [
+        {
+          "outer_fold": 1,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 0,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 2,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 0,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 3,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 0,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 4,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 0,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 5,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 0,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        }
+      ]
+    },
+    {
+      "modality": "eye_tracking_features",
+      "feature_count": 416,
+      "fully_missing_rows": 14,
+      "subjects_with_available_data": 34,
+      "target_class_distribution_all_rows": {
+        "0": 104,
+        "1": 106,
+        "2": 104,
+        "3": 105
+      },
+      "target_class_distribution_available_rows": {
+        "0": 100,
+        "1": 103,
+        "2": 100,
+        "3": 102
+      },
+      "target_score_distribution_all_rows": {
+        "1.0": 104,
+        "2.0": 106,
+        "3.0": 104,
+        "4.0": 105
+      },
+      "target_score_distribution_available_rows": {
+        "1.0": 100,
+        "2.0": 103,
+        "3.0": 100,
+        "4.0": 102
+      },
+      "outer_fold_details": [
+        {
+          "outer_fold": 1,
+          "fully_missing_rows_all": 2,
+          "fully_missing_rows_train": 12,
+          "fully_missing_rows_test": 2,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 2,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 14,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 3,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 14,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 4,
+          "fully_missing_rows_all": 12,
+          "fully_missing_rows_train": 2,
+          "fully_missing_rows_test": 12,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 5,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 14,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        }
+      ]
+    },
+    {
+      "modality": "head_movement_features",
+      "feature_count": 159,
+      "fully_missing_rows": 0,
+      "subjects_with_available_data": 35,
+      "target_class_distribution_all_rows": {
+        "0": 104,
+        "1": 106,
+        "2": 104,
+        "3": 105
+      },
+      "target_class_distribution_available_rows": {
+        "0": 104,
+        "1": 106,
+        "2": 104,
+        "3": 105
+      },
+      "target_score_distribution_all_rows": {
+        "1.0": 104,
+        "2.0": 106,
+        "3.0": 104,
+        "4.0": 105
+      },
+      "target_score_distribution_available_rows": {
+        "1.0": 104,
+        "2.0": 106,
+        "3.0": 104,
+        "4.0": 105
+      },
+      "outer_fold_details": [
+        {
+          "outer_fold": 1,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 0,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 2,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 0,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 3,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 0,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 4,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 0,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 5,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 0,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        }
+      ]
+    },
+    {
+      "modality": "flight_parameter_features",
+      "feature_count": 326,
+      "fully_missing_rows": 0,
+      "subjects_with_available_data": 35,
+      "target_class_distribution_all_rows": {
+        "0": 104,
+        "1": 106,
+        "2": 104,
+        "3": 105
+      },
+      "target_class_distribution_available_rows": {
+        "0": 104,
+        "1": 106,
+        "2": 104,
+        "3": 105
+      },
+      "target_score_distribution_all_rows": {
+        "1.0": 104,
+        "2.0": 106,
+        "3.0": 104,
+        "4.0": 105
+      },
+      "target_score_distribution_available_rows": {
+        "1.0": 104,
+        "2.0": 106,
+        "3.0": 104,
+        "4.0": 105
+      },
+      "outer_fold_details": [
+        {
+          "outer_fold": 1,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 0,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 2,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 0,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 3,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 0,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 4,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 0,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 5,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 0,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        }
+      ]
+    },
+    {
+      "modality": "body_movement",
+      "feature_count": 42,
+      "fully_missing_rows": 29,
+      "subjects_with_available_data": 33,
+      "target_class_distribution_all_rows": {
+        "0": 104,
+        "1": 106,
+        "2": 104,
+        "3": 105
+      },
+      "target_class_distribution_available_rows": {
+        "0": 97,
+        "1": 99,
+        "2": 96,
+        "3": 98
+      },
+      "target_score_distribution_all_rows": {
+        "1.0": 104,
+        "2.0": 106,
+        "3.0": 104,
+        "4.0": 105
+      },
+      "target_score_distribution_available_rows": {
+        "1.0": 97,
+        "2.0": 99,
+        "3.0": 96,
+        "4.0": 98
+      },
+      "outer_fold_details": [
+        {
+          "outer_fold": 1,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 29,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 2,
+          "fully_missing_rows_all": 12,
+          "fully_missing_rows_train": 17,
+          "fully_missing_rows_test": 12,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 3,
+          "fully_missing_rows_all": 5,
+          "fully_missing_rows_train": 24,
+          "fully_missing_rows_test": 5,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 4,
+          "fully_missing_rows_all": 12,
+          "fully_missing_rows_train": 17,
+          "fully_missing_rows_test": 12,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        },
+        {
+          "outer_fold": 5,
+          "fully_missing_rows_all": 0,
+          "fully_missing_rows_train": 29,
+          "fully_missing_rows_test": 0,
+          "train_has_available_modality_data": true,
+          "test_has_available_modality_data": true
+        }
+      ]
+    }
+  ],
+  "row_policy": "AUDIT_ONLY_NO_ROWS_REMOVED_NO_GLOBAL_IMPUTATION_NO_NAN_TO_ZERO",
+  "result": "PASS"
+}

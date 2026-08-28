@@ -1,0 +1,12 @@
+extension,file_count,total_size_bytes,total_size_mib
+csv,9004,47302737654,45111.406
+mat,0,0,0.0
+xdf,0,0,0.0
+txt,2,1945313,1.855
+npy,0,0,0.0
+npz,0,0,0.0
+pkl,0,0,0.0
+parquet,0,0,0.0
+py,4,47131,0.045
+m,1,7647,0.007
+ipynb,6,2560088,2.441

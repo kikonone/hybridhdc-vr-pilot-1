@@ -1,0 +1,8 @@
+{
+  "model": "Gradient Boosting",
+  "selection_criterion": "highest complete 419-row OOF Macro-F1",
+  "oof_macro_f1": 0.9356075023489925,
+  "oof_balanced_accuracy": 0.9356862084456424,
+  "oof_accuracy": 0.9355608591885441,
+  "oof_weighted_f1": 0.9356374078190549
+}

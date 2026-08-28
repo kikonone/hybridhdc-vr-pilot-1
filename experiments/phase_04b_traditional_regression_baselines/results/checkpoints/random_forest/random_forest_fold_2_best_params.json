@@ -1,0 +1,24 @@
+{
+  "outer_fold": 2,
+  "best_params": {
+    "feature_selection__k": "all",
+    "regressor__max_depth": null,
+    "regressor__max_features": 0.3,
+    "regressor__min_samples_leaf": 1,
+    "regressor__n_estimators": 200
+  },
+  "candidate_count": 64,
+  "best_inner_bounded_mae": 0.16730703392468096,
+  "tuning_seed": 42,
+  "evaluation_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "canonical_seed": 42,
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "pipeline": "median imputer + indicator, variance filter, SelectKBest, RandomForestRegressor",
+  "utc_timestamp": "2026-08-19T18:40:52.903806+00:00"
+}

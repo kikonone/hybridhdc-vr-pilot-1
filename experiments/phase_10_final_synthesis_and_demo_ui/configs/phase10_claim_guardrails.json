@@ -1,0 +1,6 @@
+{
+  "required_regression_term": "bounded difficulty-induced workload proxy regression",
+  "forbidden_as_positive_claim": "directly measured continuous cognitive workload",
+  "deployment_claim_allowed": false,
+  "cross_session_scenario_template_route_claim_allowed": false
+}

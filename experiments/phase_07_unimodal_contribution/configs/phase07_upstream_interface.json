@@ -1,0 +1,169 @@
+{
+  "phase": "07",
+  "captured_at_utc": "2026-08-20T17:52:06.813429+00:00",
+  "phase03": {
+    "primary_data_path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv",
+    "frozen_folds_path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+    "feature_group_manifest_path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\manifests\\feature_group_manifest.json",
+    "primary_feature_manifest_path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\manifests\\primary_feature_manifest.json",
+    "read_only": true,
+    "data_checks": {
+      "modeling_rows": 419,
+      "subjects": 35,
+      "unique_run_key": 419,
+      "primary_predictive_features": 1176,
+      "feature_columns_present": true,
+      "target_class_values": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_class_missing": 0,
+      "target_score_values": [
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "target_score_missing": 0,
+      "fold_assignment_rows": 419,
+      "fold_assignment_unique_run_key": 419,
+      "run_key_one_to_one_alignment": true,
+      "outer_folds": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "outer_subject_isolation_pass": true,
+      "inner_groupkfold_3_feasibility_pass": true,
+      "primary_data_checksum_pass": true,
+      "frozen_fold_checksum_pass": true,
+      "all_expected_values_pass": true
+    }
+  },
+  "phase06": {
+    "freeze_path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+    "classification_path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_best_classification_hdc.json",
+    "regression_path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_best_regression_hdc.json",
+    "read_only": true,
+    "checks": {
+      "freeze_checksum_pass": true,
+      "classification_checksum_pass": true,
+      "regression_checksum_pass": true,
+      "status_frozen": true,
+      "ready_for_next_planned_phase": true,
+      "classification_selection_evidence_inner_only": true,
+      "regression_selection_evidence_inner_only": true,
+      "outer_oof_read_for_selection": false,
+      "single_seed_selected": false,
+      "frozen_evaluation_seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "frozen_evaluation_seeds_unchanged": true,
+      "classification_interface_pass": true,
+      "regression_interface_pass": true,
+      "model_selection_resolution_audit_pass": true
+    },
+    "classification_interface": {
+      "candidate_family_count": 8,
+      "feature_k": 50,
+      "fold_selected_structures": [
+        {
+          "outer_fold": 1,
+          "selected_structure_json": "{\"centroids_per_class\":3,\"epochs\":1,\"learning_rate\":0.1,\"margin_threshold\":0.0}"
+        },
+        {
+          "outer_fold": 2,
+          "selected_structure_json": "{\"centroids_per_class\":2,\"epochs\":1,\"learning_rate\":0.05,\"margin_threshold\":0.0}"
+        },
+        {
+          "outer_fold": 3,
+          "selected_structure_json": "{\"centroids_per_class\":2,\"epochs\":3,\"learning_rate\":0.05,\"margin_threshold\":0.0}"
+        },
+        {
+          "outer_fold": 4,
+          "selected_structure_json": "{\"centroids_per_class\":2,\"epochs\":3,\"learning_rate\":0.1,\"margin_threshold\":0.1}"
+        },
+        {
+          "outer_fold": 5,
+          "selected_structure_json": "{\"centroids_per_class\":3,\"epochs\":1,\"learning_rate\":0.1,\"margin_threshold\":0.0}"
+        }
+      ],
+      "inner_evidence": {
+        "mean_balanced_accuracy": 0.8509846357723628,
+        "mean_macro_f1": 0.8501939229364242,
+        "mean_model_bytes": 192000.0,
+        "mean_runtime_seconds": 1.6469910600222644,
+        "mean_severe_error_rate": 0.02697893972403772,
+        "pareto": true,
+        "sample_sd_outer_task_mean_macro_f1": 0.012662535484594542
+      },
+      "levels": 51,
+      "phase": "06",
+      "seed_policy": "frozen evaluation seeds; no single seed selected",
+      "selected_fixed_dimension": 5000,
+      "selected_variant": "hybrid",
+      "selected_variant_name": "HDC+OnlineHD Hybrid",
+      "selection_amendment_sha256": "0bfde8c83f05151531d35c8b334e5a9eed10bea0e46c78c74b053e7648eb4d9f",
+      "selection_evidence": "INNER_CV_ONLY",
+      "selection_rule": "INNER_CV_ONLY_POST_FREEZE_AMENDMENT_V2",
+      "single_seed_selected": false,
+      "structure_selection_policy": "fold-local inner-CV selection under the frozen Quick Screen grid"
+    },
+    "regression_interface": {
+      "candidate_family_count": 20,
+      "common_ridge_copies": 0,
+      "feature_k": 50,
+      "fold_parameter_policy": [
+        {
+          "outer_fold": 1,
+          "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+        },
+        {
+          "outer_fold": 2,
+          "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+        },
+        {
+          "outer_fold": 3,
+          "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+        },
+        {
+          "outer_fold": 4,
+          "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+        },
+        {
+          "outer_fold": 5,
+          "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+        }
+      ],
+      "inner_evidence": {
+        "mean_bounded_mae": 0.2897499637189328,
+        "mean_bounded_rmse": null,
+        "mean_model_bytes": 80008.0,
+        "mean_runtime_seconds": 0.5880071660000249,
+        "pareto": true,
+        "rmse_tiebreak_status": "NOT_INVOKED_INCOMPLETE_PHASE05_INNER_RECORDS",
+        "sample_sd_outer_fold_mean_mae": 0.010471550474558913
+      },
+      "levels": 51,
+      "parameter_policy": "fold-local inner-CV temperature or Ridge alpha selection",
+      "phase": "06",
+      "seed_policy": "frozen evaluation seeds; no single seed selected",
+      "selected_fixed_dimension": 10000,
+      "selected_head_family": "COMMON_ENCODER_READOUT_BASELINE",
+      "selected_regression_head": "COMMON_ENCODER_READOUT_BASELINE",
+      "selected_variant": "common_ridge",
+      "selection_amendment_sha256": "0bfde8c83f05151531d35c8b334e5a9eed10bea0e46c78c74b053e7648eb4d9f",
+      "selection_evidence": "INNER_CV_ONLY",
+      "selection_rule": "INNER_CV_ONLY_POST_FREEZE_AMENDMENT_V2",
+      "single_seed_selected": false
+    }
+  }
+}

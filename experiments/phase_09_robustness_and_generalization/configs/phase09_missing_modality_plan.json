@@ -1,0 +1,66 @@
+{
+  "phase": "09",
+  "status": "PENDING_CONTRACT_FREEZE",
+  "reference": "Full Primary",
+  "conditions": [
+    {
+      "condition": "full_primary",
+      "feature_count": 1176,
+      "removed_modality": null
+    },
+    {
+      "condition": "missing_physiological",
+      "removed_modality": "physiological_features",
+      "removed_feature_count": 233,
+      "feature_count": 943
+    },
+    {
+      "condition": "missing_eye_tracking",
+      "removed_modality": "eye_tracking_features",
+      "removed_feature_count": 416,
+      "feature_count": 760
+    },
+    {
+      "condition": "missing_head_movement",
+      "removed_modality": "head_movement_features",
+      "removed_feature_count": 159,
+      "feature_count": 1017
+    },
+    {
+      "condition": "missing_flight_parameter",
+      "removed_modality": "flight_parameter_features",
+      "removed_feature_count": 326,
+      "feature_count": 850
+    },
+    {
+      "condition": "missing_body_movement",
+      "removed_modality": "body_movement_features",
+      "removed_feature_count": 42,
+      "feature_count": 1134
+    }
+  ],
+  "protocols_requiring_separate_contracts": {
+    "retrain_without_modality": "Remove the frozen modality before fold-local preprocessing, fit a new model using the upstream-selected model family and frozen configuration policy, then test on the same feature subset.",
+    "sudden_test_time_missingness": "Train the full-input reference model and define a contract-frozen neutralization/masking rule only at test time; do not label this protocol as retraining without a modality."
+  },
+  "hdc_feasibility": "Feature identities are deterministically keyed by feature name and the encoder iterates over the supplied selected features; omission and neutralization are computationally possible, but the exact missingness protocol is not authorized until Contract Freeze.",
+  "traditional_feasibility": "Frozen pipelines accept reduced feature matrices and all missing-modality conditions retain at least 200 features; test-time neutralization must use training-fold preprocessing state and be specified at Contract Freeze.",
+  "training_executed": false,
+  "predictions_generated": false,
+  "sources": [
+    {
+      "role": "phase07_frozen_modality_membership",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\manifests\\phase07_modality_feature_manifest.json",
+      "bytes": 65552,
+      "sha256": "1bea49fed9577a245b182075875bd2a7226be9f1e64782869ef3bdac86dfe1f4",
+      "read_only_policy": true
+    },
+    {
+      "role": "primary_without_performance",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv",
+      "bytes": 7435180,
+      "sha256": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44",
+      "read_only_policy": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "phase": "05",
+  "folds_completed": 5,
+  "configs_completed": 100,
+  "configs_expected": 100,
+  "classification_predictions_generated": true,
+  "similarity_regression_predictions_generated": true,
+  "ridge_regression_predictions_generated": true,
+  "all_prediction_run_keys_valid": true,
+  "all_outer_subject_isolation": true,
+  "all_inner_subject_isolation": true,
+  "temperature_inner_cv_only": true,
+  "ridge_alpha_inner_cv_only": true,
+  "outer_test_used_for_tuning": false,
+  "primary_checksum_pass": true,
+  "fold_checksum_pass": true,
+  "checkpoint_integrity": true,
+  "quick_screen_artifacts_preserved": true,
+  "notebook_persistence": "PASS",
+  "phase05_frozen": false,
+  "phase06_executed": false,
+  "result": "PASS"
+}

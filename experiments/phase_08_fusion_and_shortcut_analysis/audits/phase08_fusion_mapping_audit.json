@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "membership_rule": "EXPLICIT_FROZEN_MANIFEST_LISTS_ONLY_NO_PREFIX_INFERENCE",
+  "combinations": {
+    "physiological_plus_eye": {
+      "feature_count": 649,
+      "checks": {
+        "feature_count_correct": true,
+        "no_duplicate_columns": true,
+        "membership_from_frozen_primary_manifest": true,
+        "no_performance_features": true,
+        "no_target_or_identifier_fields": true,
+        "no_control_input_features": true,
+        "no_unverified_features": true
+      },
+      "pass": true
+    },
+    "physiological_plus_eye_plus_head": {
+      "feature_count": 808,
+      "checks": {
+        "feature_count_correct": true,
+        "no_duplicate_columns": true,
+        "membership_from_frozen_primary_manifest": true,
+        "no_performance_features": true,
+        "no_target_or_identifier_fields": true,
+        "no_control_input_features": true,
+        "no_unverified_features": true
+      },
+      "pass": true
+    },
+    "physiological_plus_eye_plus_head_plus_flight": {
+      "feature_count": 1134,
+      "checks": {
+        "feature_count_correct": true,
+        "no_duplicate_columns": true,
+        "membership_from_frozen_primary_manifest": true,
+        "no_performance_features": true,
+        "no_target_or_identifier_fields": true,
+        "no_control_input_features": true,
+        "no_unverified_features": true
+      },
+      "pass": true
+    },
+    "full_multimodal_without_performance": {
+      "feature_count": 1176,
+      "checks": {
+        "feature_count_correct": true,
+        "no_duplicate_columns": true,
+        "membership_from_frozen_primary_manifest": true,
+        "no_performance_features": true,
+        "no_target_or_identifier_fields": true,
+        "no_control_input_features": true,
+        "no_unverified_features": true
+      },
+      "pass": true
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "phase": "10",
+  "core_scope": "FINAL_SYNTHESIS_AND_REPRODUCIBILITY",
+  "status": "PENDING_CONTRACT_FREEZE",
+  "model_training_authorized": false,
+  "prediction_generation_authorized": false,
+  "statistics_recomputation_authorized": false,
+  "ui_build_authorized": false,
+  "onlinehd_replay": "OPTIONAL_NOT_EXECUTED",
+  "next_action": "PHASE_10_CORE_SYNTHESIS_CONTRACT_FREEZE",
+  "prior_phases_remain_frozen": true
+}

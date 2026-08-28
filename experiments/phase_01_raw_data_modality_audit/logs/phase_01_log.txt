@@ -1,0 +1,16 @@
+Phase 01 raw data audit log
+Started: 2026-07-02T02:35:17
+Completed: 2026-07-02T02:38:14
+Source: E:\hdc-vr-pilot\vrdataset\dataPackage
+Files audited: 9003
+Readable files: 9003
+Subjects: 35
+Sessions: 35
+Runs: 487
+Found modalities: ecg, eda, emg, eye_tracking, head_movement, performance, respiration, xplane
+Unknown files: 908
+Unreadable files: 0
+Strict full multimodal feasible: False
+Core multimodal feasible without control input: True
+No feature extraction, dataset creation, or model training performed.
+No files under vrdataset were intentionally modified.

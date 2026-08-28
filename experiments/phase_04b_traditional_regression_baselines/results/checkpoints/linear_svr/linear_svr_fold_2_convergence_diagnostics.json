@@ -1,0 +1,7 @@
+{
+  "outer_fold": 2,
+  "n_iter": 16200,
+  "max_iter": 100000,
+  "warning_count": 18,
+  "converged": true
+}

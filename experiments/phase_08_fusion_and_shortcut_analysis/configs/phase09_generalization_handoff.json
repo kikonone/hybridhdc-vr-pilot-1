@@ -1,0 +1,84 @@
+{
+  "phase": "08_to_09",
+  "status": "NOT_FEASIBLE_DUE_TO_METADATA",
+  "source_rows": 419,
+  "source_subjects": 35,
+  "holdouts": {
+    "unseen_session": {
+      "metadata_fields": [
+        "session_id"
+      ],
+      "unique_groups": 35,
+      "subjects_per_group": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "target_coverage": {
+        "groups_with_all_four_classes": 35,
+        "total_groups": 35
+      },
+      "feasibility": "NOT_FEASIBLE_DUE_TO_METADATA",
+      "leakage_risks": [
+        "Each session belongs to exactly one subject and each subject has exactly one session; session holdout is indistinguishable from subject holdout."
+      ],
+      "recommended_grouping": "Do not claim independent session generalization; retain subject-wise folds until repeated sessions per subject exist."
+    },
+    "unseen_scenario": {
+      "metadata_fields": [],
+      "unique_groups": 0,
+      "subjects_per_group": null,
+      "target_coverage": null,
+      "feasibility": "NOT_FEASIBLE_DUE_TO_METADATA",
+      "leakage_risks": [
+        "No explicit identifier exists; inferring one from target, run order, or feature values would create label proximity or fabricated metadata."
+      ],
+      "recommended_grouping": "Collect explicit scenario_id; do not use difficulty/target as a scenario proxy."
+    },
+    "task_template": {
+      "metadata_fields": [],
+      "unique_groups": 0,
+      "subjects_per_group": null,
+      "target_coverage": null,
+      "feasibility": "NOT_FEASIBLE_DUE_TO_METADATA",
+      "leakage_risks": [
+        "No explicit identifier exists; inferring one from target, run order, or feature values would create label proximity or fabricated metadata."
+      ],
+      "recommended_grouping": "Collect explicit task_template_id; current data only identifies the common task-ils task."
+    },
+    "route_or_configuration": {
+      "metadata_fields": [],
+      "unique_groups": 0,
+      "subjects_per_group": null,
+      "target_coverage": null,
+      "feasibility": "NOT_FEASIBLE_DUE_TO_METADATA",
+      "leakage_risks": [
+        "No explicit identifier exists; inferring one from target, run order, or feature values would create label proximity or fabricated metadata."
+      ],
+      "recommended_grouping": "Collect explicit route_id and configuration_id before route/configuration holdout."
+    }
+  },
+  "observed_difficulty_metadata": {
+    "metadata_fields": [
+      "difficulty_level_raw"
+    ],
+    "unique_groups": 4,
+    "subjects_per_group": {
+      "minimum": 35,
+      "maximum": 35
+    },
+    "target_coverage": {
+      "groups_with_all_four_classes": 0,
+      "total_groups": 4
+    },
+    "warning": "difficulty_level_raw deterministically defines the target and is not an admissible scenario-holdout grouping for the target-prediction task."
+  },
+  "generalization_guardrails": [
+    "Subject-wise LOSO only evaluates subject generalization.",
+    "LOSO does not automatically establish scenario generalization.",
+    "Do not fabricate a scenario identifier that is absent from the metadata."
+  ],
+  "phase09_directory_created": false,
+  "holdout_executed": false,
+  "phase09_executed": false,
+  "phase08_analysis_note": "Flight advantage still requires unseen-condition validation to distinguish generalizable behavior from difficulty-adjacent task structure."
+}

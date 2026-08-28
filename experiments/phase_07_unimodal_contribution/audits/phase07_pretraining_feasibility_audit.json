@@ -1,0 +1,35 @@
+{
+  "phase": "07",
+  "audit": "pretraining_feasibility",
+  "generated_at_utc": "2026-08-20T18:05:58.897995+00:00",
+  "checks": {
+    "full_cohort_rows": 419,
+    "outer_folds": 5,
+    "inner_groupkfold_feasible": true,
+    "modalities": {
+      "physiological_features": 233,
+      "eye_tracking_features": 416,
+      "head_movement_features": 159,
+      "flight_parameter_features": 326,
+      "body_movement": 42
+    },
+    "fully_missing_rows": {
+      "physiological_features": 0,
+      "eye_tracking_features": 14,
+      "head_movement_features": 0,
+      "flight_parameter_features": 0,
+      "body_movement": 29
+    },
+    "all_outer_train_test_partitions_have_available_modality_data": true,
+    "effective_feature_k_rule": "min(50, post_variance_feature_count)",
+    "body_movement_example_post_variance_42": 42,
+    "requested_feature_k": 50,
+    "results_inventory": {
+      "checkpoints": [],
+      "predictions": [],
+      "oof": []
+    }
+  },
+  "training_executed": false,
+  "result": "PASS"
+}

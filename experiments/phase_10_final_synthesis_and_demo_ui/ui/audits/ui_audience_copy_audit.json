@@ -1,0 +1,21 @@
+{
+  "audit": "ui_audience_facing_simplification",
+  "status": "PASS",
+  "top_phase_marker_removed": true,
+  "visible_record_format": "Record ####",
+  "internal_record_mapping_unchanged": true,
+  "visible_forbidden_terms": {
+    "Frozen": 0,
+    "OOF": 0,
+    "canonical": 0,
+    "PHASE 10": 0,
+    "DEMO-": 0
+  },
+  "viewports": {
+    "1366x768": "PASS",
+    "1920x1080": "PASS"
+  },
+  "console_errors": 0,
+  "page_errors": 0,
+  "tracebacks": 0
+}

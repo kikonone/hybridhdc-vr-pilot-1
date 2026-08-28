@@ -1,0 +1,18 @@
+{
+  "phase": "09",
+  "run_identifier": "mm__missing_physiological__hdc_regression__fold_4__seed_46",
+  "task": "regression",
+  "regression_interpretation": "bounded difficulty-induced workload proxy regression",
+  "metrics": {
+    "raw_mae": 0.20358717157727196,
+    "bounded_mae": 0.18227926038560413,
+    "bounded_rmse": 0.2656377343693686,
+    "bounded_r2": 0.943549275263287,
+    "bounded_spearman": 0.9661456792764509,
+    "clipping_count": 15,
+    "clipping_rate": 0.17857142857142858,
+    "rounded_regression_macro_f1": 0.906124686716792,
+    "adjacent_accuracy": 1.0,
+    "severe_error_rate": 0.0
+  }
+}

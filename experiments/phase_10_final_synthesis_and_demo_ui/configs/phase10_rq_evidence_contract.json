@@ -1,0 +1,141 @@
+{
+  "contract": "phase10_rq_evidence_contract",
+  "status": "FROZEN_RULES_NOT_FILLED",
+  "rules": [
+    "Every conclusion requires a frozen artifact.",
+    "Nonsignificance is not equivalence.",
+    "Prediction is not causation.",
+    "Performance-only predictability is not automatically direct leakage.",
+    "LOSO supports subject generalization only.",
+    "Unseen session/scenario/task-template/route remains unevaluated.",
+    "Flight generalizable-behavior claim remains INCONCLUSIVE_DUE_TO_METADATA."
+  ],
+  "rq_rows": [
+    {
+      "rq_id": "RQ1",
+      "exact_research_question": "How well does the frozen dual-task HDC system perform?",
+      "supporting_phases": "05;06",
+      "primary_dataset": "Phase 03 primary",
+      "primary_model_or_protocol": "Frozen HDC dual task",
+      "primary_metric": "Macro-F1; bounded MAE",
+      "statistical_evidence": "Referenced; not recomputed",
+      "supported_conclusion": "TO_BE_WRITTEN_FROM_FROZEN_EVIDENCE",
+      "unsupported_claim": "No deployment or clinical diagnostic claim",
+      "limitation": "Four-level proxy target",
+      "final_table": "T01",
+      "final_figure": "TO_BE_MAPPED_DURING_SYNTHESIS",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json"
+      ],
+      "source_hashes": [
+        "cd94acdf0bcb463b5f48a7c84110a23059899b6b5bf156131694827d7d7bde66"
+      ],
+      "completion_status": "RULES_FROZEN_CONCLUSION_NOT_WRITTEN"
+    },
+    {
+      "rq_id": "RQ2",
+      "exact_research_question": "How does HDC compare with traditional models?",
+      "supporting_phases": "04A;04B;05;06",
+      "primary_dataset": "Phase 03 primary",
+      "primary_model_or_protocol": "HDC vs traditional frozen OOF",
+      "primary_metric": "Macro-F1; bounded MAE",
+      "statistical_evidence": "Referenced comparisons",
+      "supported_conclusion": "TO_BE_WRITTEN_FROM_FROZEN_EVIDENCE",
+      "unsupported_claim": "UI must not display traditional models",
+      "limitation": "Small cohort",
+      "final_table": "T02",
+      "final_figure": "TO_BE_MAPPED_DURING_SYNTHESIS",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\reports\\phase06_final_summary.md"
+      ],
+      "source_hashes": [
+        "d2318fd59cf248f50e4de1ad57489d46849bf1f02b9f4b39619265c8a511a71d"
+      ],
+      "completion_status": "RULES_FROZEN_CONCLUSION_NOT_WRITTEN"
+    },
+    {
+      "rq_id": "RQ3",
+      "exact_research_question": "How do HDC variants compare?",
+      "supporting_phases": "05;06",
+      "primary_dataset": "Phase 03 primary",
+      "primary_model_or_protocol": "Frozen HDC variants",
+      "primary_metric": "Macro-F1; bounded MAE",
+      "statistical_evidence": "Inner-CV selection and stability",
+      "supported_conclusion": "TO_BE_WRITTEN_FROM_FROZEN_EVIDENCE",
+      "unsupported_claim": "UI must not display other HDC variants",
+      "limitation": "Frozen candidate grid",
+      "final_table": "T03",
+      "final_figure": "TO_BE_MAPPED_DURING_SYNTHESIS",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json"
+      ],
+      "source_hashes": [
+        "cd94acdf0bcb463b5f48a7c84110a23059899b6b5bf156131694827d7d7bde66"
+      ],
+      "completion_status": "RULES_FROZEN_CONCLUSION_NOT_WRITTEN"
+    },
+    {
+      "rq_id": "RQ4",
+      "exact_research_question": "What is the incremental value of bounded regression?",
+      "supporting_phases": "04B;05;06",
+      "primary_dataset": "Phase 03 primary",
+      "primary_model_or_protocol": "bounded difficulty-induced workload proxy regression",
+      "primary_metric": "bounded MAE",
+      "statistical_evidence": "Referenced; not recomputed",
+      "supported_conclusion": "TO_BE_WRITTEN_FROM_FROZEN_EVIDENCE",
+      "unsupported_claim": "Not directly measured continuous cognitive workload",
+      "limitation": "Four discrete target values",
+      "final_table": "T04",
+      "final_figure": "TO_BE_MAPPED_DURING_SYNTHESIS",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_best_regression_hdc.json"
+      ],
+      "source_hashes": [
+        "acde51709971d57c76eefaffcf1ecd571a4d4c5c36f8d76edf39841c5e7065b8"
+      ],
+      "completion_status": "RULES_FROZEN_CONCLUSION_NOT_WRITTEN"
+    },
+    {
+      "rq_id": "RQ5",
+      "exact_research_question": "What are modality contribution and fusion effects?",
+      "supporting_phases": "07;08",
+      "primary_dataset": "Phase 03 primary",
+      "primary_model_or_protocol": "Unimodal and fusion protocols",
+      "primary_metric": "Macro-F1; bounded MAE",
+      "statistical_evidence": "Subject-level corrected comparisons",
+      "supported_conclusion": "TO_BE_WRITTEN_FROM_FROZEN_EVIDENCE",
+      "unsupported_claim": "No causal sensor claim",
+      "limitation": "Flight-task setting",
+      "final_table": "T05",
+      "final_figure": "TO_BE_MAPPED_DURING_SYNTHESIS",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\configs\\phase08_freeze.json"
+      ],
+      "source_hashes": [
+        "f36211f1b793d1868573973f8ea46a7bc89aee03759079e268df75d2a4894595"
+      ],
+      "completion_status": "RULES_FROZEN_CONCLUSION_NOT_WRITTEN"
+    },
+    {
+      "rq_id": "RQ6",
+      "exact_research_question": "What do shortcut, missing-modality and LOSO evidence support?",
+      "supporting_phases": "08;09",
+      "primary_dataset": "Phase 03 primary",
+      "primary_model_or_protocol": "Shortcut; missing modality; 35-subject LOSO",
+      "primary_metric": "Macro-F1; bounded MAE",
+      "statistical_evidence": "Subject-level Wilcoxon/Holm/bootstrap",
+      "supported_conclusion": "TO_BE_WRITTEN_FROM_FROZEN_EVIDENCE",
+      "unsupported_claim": "No cross-session/scenario/template/route claim",
+      "limitation": "Required metadata unavailable",
+      "final_table": "T14",
+      "final_figure": "TO_BE_MAPPED_DURING_SYNTHESIS",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_freeze.json"
+      ],
+      "source_hashes": [
+        "7db8b1bf7b0c25b4677613000f63768d9c71bb2d644ba8423214c4902db869c2"
+      ],
+      "completion_status": "RULES_FROZEN_CONCLUSION_NOT_WRITTEN"
+    }
+  ]
+}

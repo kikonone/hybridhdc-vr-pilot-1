@@ -1,0 +1,148 @@
+{
+  "frozen_input": {
+    "primary_dataset_path": "experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv",
+    "samples": 419,
+    "subjects": 35,
+    "features": 1176,
+    "fold_path": "experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+    "verified_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f"
+  },
+  "models_completed": {
+    "dummy_most_frequent": "COMPLETED",
+    "dummy_stratified": "COMPLETED",
+    "logistic_regression": "COMPLETED",
+    "linear_svm": "COMPLETED",
+    "rbf_svm": "COMPLETED",
+    "random_forest": "COMPLETED",
+    "knn": "COMPLETED",
+    "gradient_boosting": "COMPLETED",
+    "xgboost": "NOT RUN / OPTIONAL DEPENDENCY UNAVAILABLE"
+  },
+  "best_traditional_classifier": {
+    "model": "gradient_boosting",
+    "oof_macro_f1": 0.9452929290505623,
+    "oof_balanced_accuracy": 0.9451206026677725,
+    "oof_accuracy": 0.9451073985680191,
+    "oof_weighted_f1": 0.9452478113407804,
+    "mean_fold_macro_f1": 0.9457296862713767,
+    "std_fold_macro_f1": 0.03252781416798086
+  },
+  "per_class_performance": {
+    "0": 0.9423076923076923,
+    "1": 0.9339622641509434,
+    "2": 0.9423076923076923,
+    "3": 0.9619047619047619
+  },
+  "selected_feature_counts_across_folds": [
+    1627,
+    1542,
+    200,
+    1627,
+    200
+  ],
+  "timing": {
+    "tuning_training_seconds": 2287.5935698999965,
+    "inference_seconds": 0.10032029999274528,
+    "interpretation": "outer-fold batch timing; not deployment latency"
+  },
+  "oof_coverage": [
+    {
+      "model": "dummy_most_frequent",
+      "expected_rows": 419,
+      "actual_rows": 419,
+      "unique_run_keys": 419,
+      "duplicate_model_run_predictions": 0,
+      "all_frozen_outer_folds_represented": true,
+      "valid_classes": true,
+      "status": "PASS"
+    },
+    {
+      "model": "dummy_stratified",
+      "expected_rows": 419,
+      "actual_rows": 419,
+      "unique_run_keys": 419,
+      "duplicate_model_run_predictions": 0,
+      "all_frozen_outer_folds_represented": true,
+      "valid_classes": true,
+      "status": "PASS"
+    },
+    {
+      "model": "gradient_boosting",
+      "expected_rows": 419,
+      "actual_rows": 419,
+      "unique_run_keys": 419,
+      "duplicate_model_run_predictions": 0,
+      "all_frozen_outer_folds_represented": true,
+      "valid_classes": true,
+      "status": "PASS"
+    },
+    {
+      "model": "knn",
+      "expected_rows": 419,
+      "actual_rows": 419,
+      "unique_run_keys": 419,
+      "duplicate_model_run_predictions": 0,
+      "all_frozen_outer_folds_represented": true,
+      "valid_classes": true,
+      "status": "PASS"
+    },
+    {
+      "model": "linear_svm",
+      "expected_rows": 419,
+      "actual_rows": 419,
+      "unique_run_keys": 419,
+      "duplicate_model_run_predictions": 0,
+      "all_frozen_outer_folds_represented": true,
+      "valid_classes": true,
+      "status": "PASS"
+    },
+    {
+      "model": "logistic_regression",
+      "expected_rows": 419,
+      "actual_rows": 419,
+      "unique_run_keys": 419,
+      "duplicate_model_run_predictions": 0,
+      "all_frozen_outer_folds_represented": true,
+      "valid_classes": true,
+      "status": "PASS"
+    },
+    {
+      "model": "random_forest",
+      "expected_rows": 419,
+      "actual_rows": 419,
+      "unique_run_keys": 419,
+      "duplicate_model_run_predictions": 0,
+      "all_frozen_outer_folds_represented": true,
+      "valid_classes": true,
+      "status": "PASS"
+    },
+    {
+      "model": "rbf_svm",
+      "expected_rows": 419,
+      "actual_rows": 419,
+      "unique_run_keys": 419,
+      "duplicate_model_run_predictions": 0,
+      "all_frozen_outer_folds_represented": true,
+      "valid_classes": true,
+      "status": "PASS"
+    }
+  ],
+  "leakage_audit": "PASS",
+  "failed_configurations": "NONE",
+  "output_files": [
+    "Phase_04A_Classification_Baselines.ipynb",
+    "results\\oof\\classification_oof_predictions.csv",
+    "results\\fold_metrics\\classification_fold_results.csv",
+    "results\\summaries\\classification_baseline_summary.csv",
+    "configs\\classification_model_search_space.json",
+    "configs\\classification_best_params_by_fold.json",
+    "configs\\best_classifier.json",
+    "figures\\best_traditional_classifier_confusion_matrix.png",
+    "figures\\classification_baseline_comparison.png",
+    "audits\\smoke_test.json",
+    "audits\\phase04a_leakage_audit.json",
+    "audits\\oof_coverage_audit.csv",
+    "audits\\failed_configurations.csv"
+  ],
+  "phase_04a_ready": "YES"
+}

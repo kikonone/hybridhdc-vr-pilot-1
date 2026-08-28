@@ -1,0 +1,25 @@
+{
+  "phase": "09",
+  "audit": "oof_coverage",
+  "status": "PASS",
+  "audited_at_utc": "2026-08-21T04:37:16.557573+00:00",
+  "raw_runs_verified": 720,
+  "raw_prediction_rows_verified": 30168,
+  "missing_modality_rows": 8380,
+  "loso_rows": 1676,
+  "canonical_rows": 10056,
+  "five_seed_coverage": "PASS",
+  "checks": {
+    "missing_rows_8380": true,
+    "loso_rows_1676": true,
+    "canonical_rows_10056": true,
+    "groups_24": true,
+    "unique_canonical_keys": true,
+    "run_key_coverage": true,
+    "five_seed_coverage": true,
+    "finite_values": true,
+    "classification_labels": true,
+    "regression_bounded": true,
+    "loso_subjects_35": true
+  }
+}

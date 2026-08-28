@@ -1,0 +1,13 @@
+{
+  "phase": "06",
+  "audit": "quick_screen_leakage",
+  "timestamp_utc": "2026-08-20T07:09:04.924647+00:00",
+  "result": "PASS",
+  "outer_subject_isolation": "PASS",
+  "inner_subject_isolation": "PASS",
+  "outer_test_feature_access": false,
+  "outer_test_label_access": false,
+  "outer_test_predictions_generated": false,
+  "final_confirmation_executed": false,
+  "source": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\audits\\phase06_quick_screen_all_folds_audit.json"
+}

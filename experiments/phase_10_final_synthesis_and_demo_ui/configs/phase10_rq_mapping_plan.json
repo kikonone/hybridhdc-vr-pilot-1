@@ -1,0 +1,12 @@
+{
+  "status": "STRUCTURE_INITIALIZED",
+  "rq_ids": [
+    "RQ1",
+    "RQ2",
+    "RQ3",
+    "RQ4",
+    "RQ5",
+    "RQ6"
+  ],
+  "conclusion_rewrite_authorized": false
+}

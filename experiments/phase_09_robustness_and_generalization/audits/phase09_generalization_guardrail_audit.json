@@ -1,0 +1,35 @@
+{
+  "phase": "09",
+  "audit": "generalization_guardrails",
+  "status": "PASS",
+  "allowed": [
+    "subject generalization via LOSO",
+    "missing-modality robustness",
+    "subject-level performance heterogeneity",
+    "dependence on the flight modality"
+  ],
+  "not_feasible": {
+    "unseen_session": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "unseen_scenario": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "task_template": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "route_configuration": "NOT_FEASIBLE_DUE_TO_METADATA"
+  },
+  "forbidden_scenario_proxies": [
+    "difficulty_level",
+    "difficulty_level_raw",
+    "target_class",
+    "target_score",
+    "run order",
+    "feature clustering"
+  ],
+  "flight_generalizable_behavior_claim": "INCONCLUSIVE_DUE_TO_METADATA",
+  "sources": [
+    {
+      "role": "phase08_generalization_handoff",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\configs\\phase09_generalization_handoff.json",
+      "bytes": 3411,
+      "sha256": "aa15ccdea2bfd7224f8deb29ab4ed3baa88b495cfb526e1c83924a32e15f229b",
+      "read_only_policy": true
+    }
+  ]
+}

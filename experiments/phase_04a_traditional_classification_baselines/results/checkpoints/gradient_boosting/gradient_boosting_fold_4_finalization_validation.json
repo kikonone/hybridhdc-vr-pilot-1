@@ -1,0 +1,92 @@
+{
+  "frozen_fold_checksum": "PASS",
+  "input_identity": {
+    "rows": 419,
+    "subjects": 35,
+    "features": 1176,
+    "class_distribution": [
+      104,
+      106,
+      104,
+      105
+    ]
+  },
+  "all_eight_inner_candidates": "PASS",
+  "inner_split_subject_isolation": "PASS",
+  "outer_subject_isolation": "PASS",
+  "final_refit": "PASS",
+  "probability_validation": "PASS",
+  "predictions_checkpoint": "PASS",
+  "metrics_checkpoint": "PASS",
+  "best_params_checkpoint": "PASS",
+  "metric_recomputation": "PASS",
+  "selected": {
+    "candidate_id": 5,
+    "k": 200,
+    "n_estimators": 100,
+    "learning_rate": 0.05,
+    "max_depth": 2,
+    "mean_inner_macro_f1": 0.925662087107176,
+    "std_inner_macro_f1": 0.0312398234440542
+  },
+  "metrics": {
+    "model": "gradient_boosting",
+    "outer_fold": 4,
+    "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+    "test_run_count": 84,
+    "test_subject_count": 7,
+    "selected_hyperparameters": {
+      "candidate_id": 5,
+      "k": 200,
+      "n_estimators": 100,
+      "learning_rate": 0.05,
+      "max_depth": 2,
+      "mean_inner_macro_f1": 0.925662087107176,
+      "std_inner_macro_f1": 0.0312398234440542
+    },
+    "selected_feature_count": 200,
+    "final_refit_seconds": 4.904620400004205,
+    "inference_seconds": 0.023019500004011206,
+    "macro_f1": 0.9301582122366852,
+    "balanced_accuracy": 0.9285714285714286,
+    "accuracy": 0.9285714285714286,
+    "weighted_f1": 0.9301582122366852,
+    "recall_class_0": 0.8571428571428571,
+    "recall_class_1": 0.9523809523809523,
+    "recall_class_2": 0.9523809523809523,
+    "recall_class_3": 0.9523809523809523,
+    "confusion_matrix": [
+      [
+        18,
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        20,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        20,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        20
+      ]
+    ]
+  },
+  "completed_outer_folds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "status": "PARTIAL"
+}

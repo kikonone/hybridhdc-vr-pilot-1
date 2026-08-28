@@ -1,0 +1,22 @@
+{
+  "outer_fold": 2,
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "outer_subject_overlap_count": 0,
+  "inner_subject_isolation": [
+    {
+      "inner_fold": 1,
+      "subject_overlap_count": 0
+    },
+    {
+      "inner_fold": 2,
+      "subject_overlap_count": 0
+    },
+    {
+      "inner_fold": 3,
+      "subject_overlap_count": 0
+    }
+  ],
+  "outer_test_used_for_selection": false,
+  "overall_pass": true,
+  "utc_timestamp": "2026-08-19T19:40:51.713215+00:00"
+}

@@ -1,0 +1,105 @@
+{
+  "phase": "06",
+  "audit": "metric_recalculation",
+  "tolerance": 1e-12,
+  "phase05_differences": {
+    "phase05_classification": 6.245004513516506e-17,
+    "phase05_similarity": 2.220446049250313e-16,
+    "phase05_ridge": 1.1102230246251565e-16
+  },
+  "phase06_fold_differences": [
+    {
+      "variant": "onlinehd",
+      "outer_fold": 1,
+      "classification_max_abs_diff": 5.551115123125783e-17,
+      "regression_max_abs_diff": 2.220446049250313e-16
+    },
+    {
+      "variant": "onlinehd",
+      "outer_fold": 2,
+      "classification_max_abs_diff": 5.551115123125783e-17,
+      "regression_max_abs_diff": 2.220446049250313e-16
+    },
+    {
+      "variant": "onlinehd",
+      "outer_fold": 3,
+      "classification_max_abs_diff": 8.326672684688674e-17,
+      "regression_max_abs_diff": 2.220446049250313e-16
+    },
+    {
+      "variant": "onlinehd",
+      "outer_fold": 4,
+      "classification_max_abs_diff": 1.1102230246251565e-16,
+      "regression_max_abs_diff": 2.220446049250313e-16
+    },
+    {
+      "variant": "onlinehd",
+      "outer_fold": 5,
+      "classification_max_abs_diff": 7.632783294297951e-17,
+      "regression_max_abs_diff": 1.6653345369377348e-16
+    },
+    {
+      "variant": "multicentroid",
+      "outer_fold": 1,
+      "classification_max_abs_diff": 2.7755575615628914e-17,
+      "regression_max_abs_diff": 2.220446049250313e-16
+    },
+    {
+      "variant": "multicentroid",
+      "outer_fold": 2,
+      "classification_max_abs_diff": 2.7755575615628914e-17,
+      "regression_max_abs_diff": 2.220446049250313e-16
+    },
+    {
+      "variant": "multicentroid",
+      "outer_fold": 3,
+      "classification_max_abs_diff": 1.3877787807814457e-17,
+      "regression_max_abs_diff": 2.220446049250313e-16
+    },
+    {
+      "variant": "multicentroid",
+      "outer_fold": 4,
+      "classification_max_abs_diff": 1.3877787807814457e-17,
+      "regression_max_abs_diff": 1.6653345369377348e-16
+    },
+    {
+      "variant": "multicentroid",
+      "outer_fold": 5,
+      "classification_max_abs_diff": 7.632783294297951e-17,
+      "regression_max_abs_diff": 1.6653345369377348e-16
+    },
+    {
+      "variant": "hybrid",
+      "outer_fold": 1,
+      "classification_max_abs_diff": 2.0816681711721685e-17,
+      "regression_max_abs_diff": 2.220446049250313e-16
+    },
+    {
+      "variant": "hybrid",
+      "outer_fold": 2,
+      "classification_max_abs_diff": 2.0816681711721685e-17,
+      "regression_max_abs_diff": 2.220446049250313e-16
+    },
+    {
+      "variant": "hybrid",
+      "outer_fold": 3,
+      "classification_max_abs_diff": 1.1102230246251565e-16,
+      "regression_max_abs_diff": 2.220446049250313e-16
+    },
+    {
+      "variant": "hybrid",
+      "outer_fold": 4,
+      "classification_max_abs_diff": 1.1102230246251565e-16,
+      "regression_max_abs_diff": 2.220446049250313e-16
+    },
+    {
+      "variant": "hybrid",
+      "outer_fold": 5,
+      "classification_max_abs_diff": 1.1102230246251565e-16,
+      "regression_max_abs_diff": 2.220446049250313e-16
+    }
+  ],
+  "maximum_absolute_difference": 2.220446049250313e-16,
+  "copied_fold_metrics": false,
+  "result": "PASS"
+}

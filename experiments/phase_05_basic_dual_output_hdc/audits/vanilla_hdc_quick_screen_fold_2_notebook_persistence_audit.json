@@ -1,0 +1,18 @@
+{
+  "phase": "05",
+  "outer_fold": 2,
+  "notebook": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\Phase_05_Basic_Dual_Output_HDC.ipynb",
+  "reopened_after_appended_cell_execution": true,
+  "appended_code_cells_executed": 2,
+  "appended_code_cell_execution_counts": [1, 2],
+  "appended_code_cell_output_counts": [2, 1],
+  "candidate_summary_display_persisted": true,
+  "best_config_display_persisted": true,
+  "audit_status_display_persisted": true,
+  "fold1_notebook_cells_preserved": true,
+  "fold1_notebook_cells_sha256": "10a357847594e06758ad195e457681f4a1eb942b47b0f577075233484b0a73d7",
+  "final_output": "PHASE 05 VANILLA HDC QUICK SCREEN FOLD 2: COMPLETE",
+  "search_reexecuted_by_appended_cells": false,
+  "outer_test_prediction_read": false,
+  "persistence_result": "PASS"
+}

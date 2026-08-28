@@ -1,0 +1,22 @@
+{
+  "dummy_most_frequent": "NOT STARTED",
+  "dummy_stratified": "NOT STARTED",
+  "logistic_regression": "COMPLETE",
+  "linear_svm": "COMPLETE",
+  "rbf_svm": "COMPLETE",
+  "random_forest": "COMPLETE",
+  "knn": "COMPLETE",
+  "gradient_boosting": {
+    "status": "COMPLETE",
+    "completed_folds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "xgboost": "OPTIONAL / NOT RUN",
+  "phase04a_status": "COMPLETE",
+  "phase04a_frozen": "YES"
+}

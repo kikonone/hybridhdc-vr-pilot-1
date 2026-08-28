@@ -1,0 +1,16 @@
+{
+  "source_prediction_sha256": {
+    "results\\predictions\\vanilla_hdc_final_confirmation_fold_1_predictions.csv": "1ca2949d6b101ab331abade375052a7c3441ca62cb571703ec38ddda524162ac",
+    "results\\predictions\\vanilla_hdc_final_confirmation_fold_2_predictions.csv": "143016f8dab3dc02adc7934bb67ed38d6137844f9ae3c0942b3c8ff6be24e163",
+    "results\\predictions\\vanilla_hdc_final_confirmation_fold_3_predictions.csv": "bf1c5accf3a1b62bfd0c3004558e8c46069aa642addec64f92bd40ae47e7714a",
+    "results\\predictions\\vanilla_hdc_final_confirmation_fold_4_predictions.csv": "846ec0824d081742fd6422fb7a4f4cbbbd7871828150b7dc9fd966d464b84ce0",
+    "results\\predictions\\vanilla_hdc_final_confirmation_fold_5_predictions.csv": "3d547dbdd3cfe2c854af3148e771256cd042d45c16ec3749a9ac4bfbda456d48"
+  },
+  "source_predictions_modified": false,
+  "model_training_executed": false,
+  "prediction_generation_executed": false,
+  "outer_test_used_for_tuning": false,
+  "seed_or_dimension_removed": false,
+  "seed_ensemble_created": false,
+  "result": "PASS"
+}

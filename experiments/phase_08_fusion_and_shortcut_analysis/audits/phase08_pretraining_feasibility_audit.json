@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "ready_for_execution_pending_tests_and_notebook": true,
+  "input_rows": 419,
+  "subjects": 35,
+  "outer_folds": 5,
+  "expected_total_runs": 370,
+  "prohibited_operations_executed": [],
+  "training_executed": false,
+  "outer_test_predictions_generated": false
+}

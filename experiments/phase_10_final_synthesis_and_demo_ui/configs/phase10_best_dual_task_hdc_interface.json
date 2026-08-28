@@ -1,0 +1,40 @@
+{
+  "interface_name": "BEST DUAL-TASK HDC SYSTEM",
+  "status": "FROZEN_REFERENCE",
+  "selection_policy": "NO_RESELECTION_NO_SINGLE_SEED",
+  "classification": {
+    "model": "HDC+OnlineHD Hybrid",
+    "dimension": 5000,
+    "source": "Phase 06 frozen best classification HDC",
+    "primary_metric": "Macro-F1",
+    "selection_evidence": "INNER_CV_ONLY",
+    "config": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_best_classification_hdc.json",
+      "file_size_bytes": 1822,
+      "sha256": "174a99de2d993acdea49fdebc9647b28db4648ada2bea7a33f620f4677f031a4"
+    }
+  },
+  "regression": {
+    "model": "COMMON_ENCODER_READOUT_BASELINE",
+    "dimension": 10000,
+    "source": "Phase 06 frozen best regression HDC",
+    "primary_metric": "bounded MAE",
+    "selection_evidence": "INNER_CV_ONLY",
+    "task_interpretation": "bounded difficulty-induced workload proxy regression",
+    "config": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_best_regression_hdc.json",
+      "file_size_bytes": 2351,
+      "sha256": "acde51709971d57c76eefaffcf1ecd571a4d4c5c36f8d76edf39841c5e7065b8"
+    }
+  },
+  "phase06_freeze": {
+    "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+    "file_size_bytes": 5533,
+    "sha256": "cd94acdf0bcb463b5f48a7c84110a23059899b6b5bf156131694827d7d7bde66"
+  },
+  "selection_amendment": {
+    "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_final_model_selection_rules_amendment_v2.json",
+    "file_size_bytes": 4852,
+    "sha256": "0bfde8c83f05151531d35c8b334e5a9eed10bea0e46c78c74b053e7648eb4d9f"
+  }
+}

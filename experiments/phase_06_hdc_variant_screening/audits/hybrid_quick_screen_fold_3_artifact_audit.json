@@ -1,0 +1,249 @@
+{
+  "phase": "06",
+  "variant": "hybrid",
+  "outer_fold": 3,
+  "required_artifact_count": 40,
+  "artifacts": [
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\summaries\\hybrid_quick_screen_fold_3_candidates.csv",
+      "file_size_bytes": 14242,
+      "sha256": "be7246c9e6779736f620b817ab7e2a22cb52588266bdbcb962597f0a3eb05541",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\summaries\\hybrid_quick_screen_fold_3_best_config.json",
+      "file_size_bytes": 1165,
+      "sha256": "56ee9b06e4863e3c333da24ea4502e613e2d9b2a08dcce8a05717494d3cb3e7b",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\hybrid_quick_screen_fold_3_inner_metrics.csv",
+      "file_size_bytes": 49556,
+      "sha256": "235d442e4fdf88763f3cc759ad9dca6c1ea3d940d8911f1a3d3ebb0caaf5ca9f",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\efficiency\\hybrid_quick_screen_fold_3_efficiency.csv",
+      "file_size_bytes": 2349,
+      "sha256": "6e9939df927fe92aad0a408b73662cf56fe6038378ce3a0036abe20e5ef9c1c1",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\audits\\hybrid_quick_screen_fold_3_leakage_audit.json",
+      "file_size_bytes": 1357,
+      "sha256": "51da3f5fd50aaa6c2676119240cd6a570666532dbd1c0812ba91de44622517ae",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\audits\\hybrid_quick_screen_fold_3_coverage_audit.json",
+      "file_size_bytes": 290,
+      "sha256": "30eb6bf9bdee616ec16ddedd9137b612f9a09e0cb13962ef4cb8899cf58c135d",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\logs\\hybrid_quick_screen_fold_3_stdout.log",
+      "file_size_bytes": 2128,
+      "sha256": "125f9b1a43c9c3229375cc5472bbf595676005b0a01d2819418fc21489ca702d",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\logs\\hybrid_quick_screen_fold_3_stderr.log",
+      "file_size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_001.json",
+      "file_size_bytes": 7129,
+      "sha256": "655a81b5f73163aac02d847dd1b983b1d7a63f044fbe22cbdd78259f66ffeab8",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_002.json",
+      "file_size_bytes": 7150,
+      "sha256": "2e8b0ce24a5261125780caac2a16d4a917f9188193a2ec7d2b76440c09dce538",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_003.json",
+      "file_size_bytes": 7128,
+      "sha256": "ac294d5ba0f56b47344f5d60bda2f9bddb027804acf7a0c29d7c59d7eaee3ec0",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_004.json",
+      "file_size_bytes": 7165,
+      "sha256": "2ce1ee68be36d13f5009101be1441212249a6c7da35e053ec351a00857da5fd0",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_005.json",
+      "file_size_bytes": 7150,
+      "sha256": "77fce1eea73790f09c1aed0a440278ee5523cc54bbf9bcc634f2f75e7b0c9e97",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_006.json",
+      "file_size_bytes": 7142,
+      "sha256": "e3f43fe5be0bf45a58d4c930e340351d0d32c3466be68fa8e3eb4a3af3505335",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_007.json",
+      "file_size_bytes": 7132,
+      "sha256": "93f78b8c5e456bec14837bec7454c7d3a0fb2d49f649e4a7bea064361d48f467",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_008.json",
+      "file_size_bytes": 7126,
+      "sha256": "8d7087b6578ed4c1cb741348658f9e0a5ddcaf2f9b4cf12463693a6e88519ca9",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_009.json",
+      "file_size_bytes": 7173,
+      "sha256": "df463373b116f5f738e4ff70688b2a79a660417db240a2f227e14c4aa3bbff1b",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_010.json",
+      "file_size_bytes": 7191,
+      "sha256": "27422376603c0bb54d2f9254b65a0eb6c9a2c56b1b4c44098ff6a52cd93f0dc5",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_011.json",
+      "file_size_bytes": 7150,
+      "sha256": "2631b9c423dfa3681eb2604cda3cb98ceb0566309d1d2e3c244008b2b1ee1136",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_012.json",
+      "file_size_bytes": 7181,
+      "sha256": "b9d9e87be11b7eeb7fff359970e0e4ad6f2ed7330e84ca15d52b19e13d8368f3",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_013.json",
+      "file_size_bytes": 7160,
+      "sha256": "66a3d69e45195f6dbadf8231ae8ce1c8c40c0f1ecf07a793178f0259bb21fa7e",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_014.json",
+      "file_size_bytes": 7138,
+      "sha256": "b2cf8721a8f07956f61391f9c696c08c471e31de0d91fba156f872370d88267d",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_015.json",
+      "file_size_bytes": 7145,
+      "sha256": "356c2c89796f3ba0af1ce60b841e33ab4e1eb0e0f65448b478a734be54a9a34e",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_016.json",
+      "file_size_bytes": 7144,
+      "sha256": "bf2045155fae1aaf3dd536b22397c97c1f3ae5d2a5d2df7d22608a9a46f78e63",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_017.json",
+      "file_size_bytes": 7152,
+      "sha256": "9508a3aa1de047dc30e510b85b21b029ae4f3d6be50b1e8d455a6524cce18c22",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_018.json",
+      "file_size_bytes": 7139,
+      "sha256": "660cd943e80da95f9f80e1f88743688986e6524bb7f734069856a69aa7d1c0aa",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_019.json",
+      "file_size_bytes": 7160,
+      "sha256": "74dcc9682368d85e17a868dc41693cd830db44db62e07e3fc03ec0d08c6816e6",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_020.json",
+      "file_size_bytes": 7161,
+      "sha256": "3f432f9b0af851ed76bbc642cb98ef9a1881fe284a1b190f83667ebf572d2718",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_021.json",
+      "file_size_bytes": 7138,
+      "sha256": "aee7bcd99a57bab2e581209388284054c62fb89bd554bc9c3a4a0c7560043129",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_022.json",
+      "file_size_bytes": 7126,
+      "sha256": "ba67184b1aa4c53dc9a51d09fbcfc42f8597da169eded5caed57fef8d35e9c3c",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_023.json",
+      "file_size_bytes": 7143,
+      "sha256": "046fb8b0a268e06daa44a3e6b646864376b42980c08ed579a5d4d10e51de50fb",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_024.json",
+      "file_size_bytes": 7117,
+      "sha256": "19719eb0c3d5f5175b856e92e97ebc0392daf9c78a28acf876bd0173290f1e47",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_025.json",
+      "file_size_bytes": 7191,
+      "sha256": "233d7661f88067d9295566855aa879eb3a6cd260f1fd6a1d17088c574101f5a0",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_026.json",
+      "file_size_bytes": 7176,
+      "sha256": "cc2fd4c5cfbc0bba6ad7bf498670b8f1b11837af789dc3787058592a6611073f",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_027.json",
+      "file_size_bytes": 7141,
+      "sha256": "64e3d1611ede04a4e9470f1cc0ac58362bc432dd5a4b4cd623ceb3b8969a4ca9",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_028.json",
+      "file_size_bytes": 7201,
+      "sha256": "95ca719badbc414aad6963cf678b7efaf2a45c14bdbb8331ea0bf534bcfebfb6",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_029.json",
+      "file_size_bytes": 7162,
+      "sha256": "51c48e9f89369bede042cf9b98ef5a77a5c39cc4f9d16c120831037c8f507edb",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_030.json",
+      "file_size_bytes": 7149,
+      "sha256": "78f6fee9c2d0d0e35eebb4f569a35393870367d076950c8a0220528282fd3eb6",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_031.json",
+      "file_size_bytes": 7169,
+      "sha256": "74bfc4bef3d3b9ff0280f85a52bb2da5a0931699e2b15f923af7c33d430ca714",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\hybrid\\fold_3\\candidate_032.json",
+      "file_size_bytes": 7157,
+      "sha256": "15b0a80301ebd9949fff89460f40234e279b4ef5d07bf55f87e22d6717efe4cc",
+      "result": "PASS"
+    }
+  ],
+  "result": "PASS"
+}

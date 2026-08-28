@@ -1,0 +1,10 @@
+{
+  "audit": "phase10_cross_phase_consistency_preflight_audit",
+  "source": {
+    "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\cross_phase_consistency_audit\\phase10_cross_phase_consistency_preflight.json",
+    "file_size_bytes": 1007,
+    "sha256": "d83014f04634f499d14856577abd9ef36095941283fe29307810ea4909828f50"
+  },
+  "unresolved_numerical_differences": 0,
+  "status": "PASS"
+}

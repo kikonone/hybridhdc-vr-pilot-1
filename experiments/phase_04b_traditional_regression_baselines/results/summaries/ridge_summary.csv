@@ -1,0 +1,2 @@
+model,model_slug,oof_rows,oof_unique_run_keys,oof_mae_raw,oof_mae_bounded,oof_rmse_raw,oof_rmse_bounded,oof_r2_raw,oof_r2_bounded,oof_spearman_raw,oof_spearman_bounded,fold_mae_bounded_mean,fold_mae_bounded_std,total_fit_and_search_time_seconds,total_prediction_time_seconds,status
+Ridge,ridge,419,419,0.5464312533171488,0.3194087375117214,1.28882752988294,0.5179330179580227,-0.3314046996494986,0.7849855373746047,0.8711912781233353,0.8772756373953986,0.3192833266638605,0.0490486500844176,21.55948600001284,0.057514200001605786,COMPLETE

@@ -1,0 +1,19 @@
+{
+  "contract": "phase10_core_frozen_contract",
+  "status": "CORE_CONTRACT_FROZEN_NOT_SYNTHESIZED",
+  "source_of_truth": "configs/phase10_source_of_truth_rules.json",
+  "prediction_library": "configs/phase10_final_prediction_library_contract.json",
+  "statistics_bundle": "configs/phase10_final_statistics_bundle_contract.json",
+  "paper_tables": "configs/phase10_final_paper_table_contract.json",
+  "paper_figures": "configs/phase10_final_paper_figure_contract.json",
+  "rq_evidence": "configs/phase10_rq_evidence_contract.json",
+  "reproducibility": "configs/phase10_reproducibility_contract.json",
+  "cross_phase_consistency": "configs/phase10_cross_phase_consistency_contract.json",
+  "ui_status": "DEFERRED_BY_USER_NOT_EXECUTED",
+  "onlinehd_replay": "OPTIONAL_NOT_EXECUTED",
+  "model_training_authorized": false,
+  "prediction_generation_authorized": false,
+  "statistics_recomputation_authorized": false,
+  "ui_build_authorized": false,
+  "final_synthesis_executed": false
+}

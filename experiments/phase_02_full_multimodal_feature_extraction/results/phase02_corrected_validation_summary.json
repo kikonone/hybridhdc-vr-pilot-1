@@ -1,0 +1,136 @@
+{
+  "phase": "02_full_multimodal_feature_extraction",
+  "operation": "placeholder_zero_sample_repair",
+  "executed_at": "2026-08-19T12:07:50",
+  "original_table": "E:\\hdc-vr-pilot\\experiments\\phase_02_full_multimodal_feature_extraction\\results\\full_multimodal_run_level_features.csv",
+  "corrected_table": "E:\\hdc-vr-pilot\\experiments\\phase_02_full_multimodal_feature_extraction\\results\\full_multimodal_run_level_features_corrected_v1.csv",
+  "original_table_sha256_before": "2d6132518471075e9bfdfd39e5d36d1fcca732ece54f817e93aecf411f3c1704",
+  "original_table_sha256_after": "2d6132518471075e9bfdfd39e5d36d1fcca732ece54f817e93aecf411f3c1704",
+  "raw_data_fingerprint_before": {
+    "file_count": 9022,
+    "metadata_sha256": "5519452d1300dfbe01f7ce5c1ce46458d23997a4590438c2bf698b2934566769"
+  },
+  "raw_data_fingerprint_after": {
+    "file_count": 9022,
+    "metadata_sha256": "5519452d1300dfbe01f7ce5c1ce46458d23997a4590438c2bf698b2934566769"
+  },
+  "before_quality": {
+    "rows": 487,
+    "columns": 1252,
+    "features": 1247,
+    "subjects": 35,
+    "unique_run_keys": 487,
+    "duplicate_run_keys": 0,
+    "missing_identifiers": 0,
+    "infinite_values": 0,
+    "feature_cell_nan_rate": 0.0411846748417969,
+    "all_nan_columns": 12,
+    "single_value_columns": 214
+  },
+  "after_quality": {
+    "rows": 487,
+    "columns": 1252,
+    "features": 1247,
+    "subjects": 35,
+    "unique_run_keys": 487,
+    "duplicate_run_keys": 0,
+    "missing_identifiers": 0,
+    "infinite_values": 0,
+    "feature_cell_nan_rate": 0.05171178796256807,
+    "all_nan_columns": 12,
+    "single_value_columns": 242
+  },
+  "actual_discrepant_run_modality_pair_count": 38,
+  "affected_run_count": 26,
+  "remaining_misleading_pair_count": 0,
+  "minimal_regeneration_performed": false,
+  "full_reextraction_performed": false,
+  "body_movement_feature_count": 42,
+  "performance_feature_count": 59,
+  "control_input_feature_count": 0,
+  "primary_without_performance_feature_count": 1176,
+  "primary_performance_intersection": [],
+  "all_nan_feature_count": 12,
+  "single_value_feature_count": 242,
+  "single_value_214_to_213_explanation": {
+    "phase02_global_single_value_count": 214,
+    "task_only_primary_single_value_count": 213,
+    "phase02_single_values_absent_from_task_primary": [
+      "performance_perfmetric_airspeed_error_kts_missing_ratio",
+      "performance_perfmetric_airspeed_error_kts_num_missing",
+      "performance_perfmetric_glideslope_error_deg_missing_ratio",
+      "performance_perfmetric_glideslope_error_deg_num_missing",
+      "performance_perfmetric_localizer_error_deg_missing_ratio",
+      "performance_perfmetric_localizer_error_deg_num_missing",
+      "performance_perfmetric_total_error_missing_ratio",
+      "performance_perfmetric_total_error_num_missing"
+    ],
+    "task_primary_new_single_values_after_rest_filter": [
+      "eye_lslhtcviveeye_pupil_position_r_x_iqr",
+      "eye_lslhtcviveeye_pupil_position_r_z_iqr",
+      "xplane_lslxp11xpcac_aircraft_landing_gear_max",
+      "xplane_lslxp11xpcac_aircraft_landing_gear_mean",
+      "xplane_lslxp11xpcac_aircraft_landing_gear_median",
+      "xplane_lslxp11xpcac_aircraft_landing_gear_min",
+      "xplane_lslxp11xpcac_aircraft_landing_gear_rms"
+    ],
+    "verified_reason": "The primary task-only set excludes eight globally constant performance metadata features, while removing 68 rest rows makes seven eye/X-Plane features constant; net 214 - 8 + 7 = 213."
+  },
+  "run_integrity": {
+    "corrected_rows": 487,
+    "unique_run_keys": 487,
+    "rest_level_000_rows": 68,
+    "difficulty_1_to_4_rows": 419,
+    "relationship": "487 = 68 rest + 419 difficulty 1-4",
+    "cp030_level_03B_run_005": {
+      "exists_in_original_phase02": false,
+      "exists_in_corrected_phase02": false,
+      "independently_verified_absent_from_raw_schedule": true,
+      "usable_feature_values": 0,
+      "suitable_difficulty_3_modeling_candidate": false,
+      "decision": "NOT A CANDIDATE: verified raw run directory is physically absent"
+    }
+  },
+  "difficulty_distribution": {
+    "0": 68,
+    "1": 104,
+    "2": 106,
+    "3": 104,
+    "4": 105
+  },
+  "critical_assertions": {
+    "no_duplicate_run_keys": true,
+    "no_missing_identifiers": true,
+    "no_infinite_values": true,
+    "body_movement_count_42_and_verified": true,
+    "explicit_control_input_count_zero": true,
+    "performance_count_matches_verified_actual": true,
+    "primary_performance_intersection_empty": true,
+    "unavailable_modalities_have_no_placeholder_values": true,
+    "only_verified_affected_cells_changed": true,
+    "every_change_is_to_nan": true,
+    "changed_cell_count_matches_repair_log": true,
+    "identifiers_and_run_metadata_unchanged": true,
+    "all_487_phase02_rows_preserved": true,
+    "raw_data_unchanged_during_notebook": true,
+    "original_phase02_table_preserved": true,
+    "original_table_not_overwritten": true,
+    "no_full_reextraction_performed": true,
+    "no_model_training_performed": true,
+    "no_imputation_performed": true
+  },
+  "phase03_ready": true,
+  "phase03_executed": false,
+  "model_training_performed": false,
+  "outputs": [
+    "E:\\hdc-vr-pilot\\experiments\\phase_02_full_multimodal_feature_extraction\\results\\full_multimodal_run_level_features_corrected_v1.csv",
+    "E:\\hdc-vr-pilot\\experiments\\phase_02_full_multimodal_feature_extraction\\results\\phase02_placeholder_repair_log.csv",
+    "E:\\hdc-vr-pilot\\experiments\\phase_02_full_multimodal_feature_extraction\\results\\phase02_all_nan_feature_audit.csv",
+    "E:\\hdc-vr-pilot\\experiments\\phase_02_full_multimodal_feature_extraction\\results\\phase02_single_value_feature_audit.csv",
+    "E:\\hdc-vr-pilot\\experiments\\phase_02_full_multimodal_feature_extraction\\results\\phase02_corrected_feature_provenance.csv",
+    "E:\\hdc-vr-pilot\\experiments\\phase_02_full_multimodal_feature_extraction\\results\\phase02_corrected_feature_groups.json",
+    "E:\\hdc-vr-pilot\\experiments\\phase_02_full_multimodal_feature_extraction\\results\\phase02_corrected_validation_summary.json",
+    "E:\\hdc-vr-pilot\\experiments\\phase_02_full_multimodal_feature_extraction\\results\\phase02_modeling_feature_manifest.json",
+    "E:\\hdc-vr-pilot\\experiments\\phase_02_full_multimodal_feature_extraction\\results\\phase02_verified_run_modality_availability.csv"
+  ]
+}

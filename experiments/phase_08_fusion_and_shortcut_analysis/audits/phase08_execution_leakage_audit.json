@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-08-20T20:09:57.828561+00:00",
+  "checks": {
+    "outer_subject_overlap_zero": true,
+    "exact_frozen_test_membership": true,
+    "outer_test_not_used_for_fitting_or_selection": true,
+    "test_access_after_training_fit": true,
+    "inner_cv_not_executed": true,
+    "hyperparameter_search_not_executed": true,
+    "seed_selection_not_executed": true,
+    "upstream_files_modified_zero": true,
+    "phase09_not_executed": true,
+    "final_oof_consolidation_not_executed": true
+  },
+  "modified_upstream_paths": [],
+  "outer_test_used_for_tuning": false,
+  "final_oof_consolidation_executed": false,
+  "phase09_executed": false
+}

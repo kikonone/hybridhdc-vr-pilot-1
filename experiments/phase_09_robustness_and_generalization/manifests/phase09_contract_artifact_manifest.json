@@ -1,0 +1,166 @@
+{
+  "phase": "09",
+  "status": "CONTRACT_FROZEN_NOT_TRAINED",
+  "self_hash_included": false,
+  "artifact_count": 22,
+  "sources": [
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_frozen_contract.json",
+      "bytes": 8004,
+      "sha256": "f908109261ab4ae1141e657ab8a1a08760a42d145aa9e6a8d1d2ec37c33e4c93",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_contract_freeze.json",
+      "bytes": 11135,
+      "sha256": "b59022cad732d1b239f527453804947d31ffc0f90129d6904530572204cf3fe3",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_missing_modality_contract.json",
+      "bytes": 2766,
+      "sha256": "5f4646c0fc16b2a541469982fbf80abe221413c39dda7408d946c4b32a886cfd",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_loso_contract.json",
+      "bytes": 1312,
+      "sha256": "445141d1423a358a69757959f35ac95b77e350711f04eb713dd817a1ed291dc2",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_loso_config_mapping.json",
+      "bytes": 77328,
+      "sha256": "fecba2fe0d2bff5461e3ae1a76c6d3588076737e97ccb5c67bdaef84324d7be1",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_oof_aggregation_rules.json",
+      "bytes": 907,
+      "sha256": "a61e8d3a949129f9210db6ae2a4855ecaeb875c7f7e612c6103f24dcd58e6402",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_statistical_rules.json",
+      "bytes": 1406,
+      "sha256": "13e5d58014dda3991d2896d809f2bba630fbf6702e96a0951be96f552edb1c02",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_execution_manifest.json",
+      "bytes": 2248517,
+      "sha256": "2a0465796d80cdab118e27d5dd58c871357b5d1b8dc530bacda810978632e1ed",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\manifests\\phase09_loso_assignments.csv",
+      "bytes": 33557,
+      "sha256": "15c618d1a377e2e8e8aeb11539e19d09c5e97ec6cdbf3a20bd74d0e47e6133d8",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\manifests\\phase09_expected_coverage_manifest.json",
+      "bytes": 9488,
+      "sha256": "39467e417f23969c41a4c9a612b12aeed41626b736795a0bfbf61a973eb0a5bd",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\audits\\phase09_contract_freeze_audit.json",
+      "bytes": 1037,
+      "sha256": "f7069cbe52d82607c33d23c13add1044b015d47d94faff4e537128e32b92cf9d",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\audits\\phase09_run_matrix_audit.json",
+      "bytes": 1273,
+      "sha256": "c9146603f369d6c0db63f577c60170f81a734922ef3870ee9bd4b3a8962e905d",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\audits\\phase09_loso_assignment_audit.json",
+      "bytes": 1111,
+      "sha256": "566748f9fee905631e13b4271eae04cef03ccb83065ce30c5f15ff81ae8b3e6a",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\audits\\phase09_config_mapping_leakage_audit.json",
+      "bytes": 1065,
+      "sha256": "dfb5a31788786e1a88bd1549a07fecd85ea5e85b779d35974123bb9b45c43507",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\audits\\phase09_missing_modality_contract_audit.json",
+      "bytes": 762,
+      "sha256": "4e9cc57beb4489a3cd1c4d7e57247b3bb0d03771b18d3cc832f31b68c90c6a44",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\audits\\phase09_checkpoint_portability_audit.json",
+      "bytes": 3755,
+      "sha256": "bda99ec22d935159a1d00320d52dd42a31d797306ca9413e8861ad7d6102bad4",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\audits\\phase09_generalization_guardrail_audit.json",
+      "bytes": 1100,
+      "sha256": "e6ec7a9d648e1410c3b8d13b6b9aa7349aba9cf64623ad7e797488c0aeaef8d8",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\audits\\phase09_contract_notebook_persistence_audit.json",
+      "bytes": 687,
+      "sha256": "34e6a77f24fbae21a4e5d4b73a9a388c96bbe28e553d85fa0208ab2276d71b26",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\Phase_09_Robustness_and_Generalization.ipynb",
+      "bytes": 76095,
+      "sha256": "9ddaa6a1d87c89bedaabf47acc7eae46b5b6e78743fe85b38d223fc6a5f145f2",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\scripts\\freeze_phase09_contract.py",
+      "bytes": 39233,
+      "sha256": "c46652e76d592d6a91d1f8a04a899224fd600761e9989a3f1cd56c9087273912",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\scripts\\append_phase09_contract_notebook.py",
+      "bytes": 13122,
+      "sha256": "48bd0c9cf9c0aba1d4c0eeb2e8fda627a960f26dce93f3b53c2a3852b72f2e64",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase09_contract_artifact",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\tests\\test_phase09_contract.py",
+      "bytes": 4221,
+      "sha256": "5009683acdc5b9f16f620c0f4b350136f60fe5501fdb1924defe48557cf78644",
+      "read_only_policy": true
+    }
+  ],
+  "missing_artifacts": [],
+  "upstream_files_modified": [],
+  "training_artifacts_added": [],
+  "predictions_generated": false
+}

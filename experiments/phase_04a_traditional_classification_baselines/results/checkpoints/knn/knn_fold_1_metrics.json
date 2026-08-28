@@ -1,0 +1,19 @@
+{
+  "model": "knn",
+  "model_family": "K-Nearest Neighbors",
+  "outer_fold": 1.0,
+  "test_run_count": 84,
+  "test_subject_count": 7,
+  "selected_hyperparameters": "{\"classifier__n_neighbors\": 5, \"classifier__p\": 1, \"classifier__weights\": \"uniform\", \"effective_selected_k\": 200, \"selector__k\": 200}",
+  "selected_feature_count": 200,
+  "tuning_training_seconds": 7.749472400006198,
+  "inference_seconds": 0.023414499999489635,
+  "macro_f1": 0.7733932733932734,
+  "balanced_accuracy": 0.7738095238095238,
+  "accuracy": 0.7738095238095238,
+  "weighted_f1": 0.7733932733932734,
+  "recall_class_0": 0.8095238095238095,
+  "recall_class_1": 0.47619047619047616,
+  "recall_class_2": 0.9523809523809523,
+  "recall_class_3": 0.8571428571428571
+}

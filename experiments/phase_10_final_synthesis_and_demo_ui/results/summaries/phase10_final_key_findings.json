@@ -1,0 +1,51 @@
+{
+  "artifact": "phase10_final_key_findings",
+  "status": "PASS",
+  "directly_supported": [
+    {
+      "finding": "Phase 06 inner-only selection froze HDC+OnlineHD Hybrid for classification.",
+      "value": "HDC+OnlineHD Hybrid",
+      "dimension": 5000
+    },
+    {
+      "finding": "Phase 06 inner-only selection froze COMMON_ENCODER_READOUT_BASELINE for regression.",
+      "value": "COMMON_ENCODER_READOUT_BASELINE",
+      "dimension": 10000
+    },
+    {
+      "finding": "Phase 07 ranked flight-parameter features first for classification and regression.",
+      "classification": "flight_parameter_features",
+      "regression": "flight_parameter_features"
+    },
+    {
+      "finding": "Phase 09 completed missing-modality and 35-subject LOSO evaluations.",
+      "subjects": 35,
+      "loso_splits": 35
+    }
+  ],
+  "numerical_trends": [
+    "Point-estimate differences remain descriptive unless supported by the frozen subject-level statistical artifact."
+  ],
+  "statistically_nonsignificant": [
+    "No nonsignificant comparison is promoted to equivalence or superiority in Phase 10."
+  ],
+  "unvalidated_generalization": {
+    "SUBJECT_GENERALIZATION": "EVALUATED_VIA_35_SUBJECT_LOSO",
+    "MISSING_MODALITY_ROBUSTNESS": "EVALUATED_VIA_RETRAIN_WITHOUT_MODALITY",
+    "UNSEEN_SESSION": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "UNSEEN_SCENARIO": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "TASK_TEMPLATE": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "ROUTE_CONFIGURATION": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "FLIGHT_GENERALIZABLE_BEHAVIOR_CLAIM": "INCONCLUSIVE_DUE_TO_METADATA"
+  },
+  "engineering_provenance_caveats": {
+    "phase06_non_scientific_metadata_mismatches": 6,
+    "historical_changed_non_scientific_files": 2,
+    "historical_frozen_immutability_audit": "FAIL",
+    "scientific_consistency": "PASS"
+  },
+  "optional_not_executed": {
+    "ui": "DEFERRED_BY_USER_NOT_EXECUTED",
+    "onlinehd_replay": "OPTIONAL_NOT_EXECUTED"
+  }
+}

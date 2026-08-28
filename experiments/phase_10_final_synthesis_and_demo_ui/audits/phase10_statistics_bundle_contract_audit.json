@@ -1,0 +1,9 @@
+{
+  "audit": "phase10_statistics_bundle_contract_audit",
+  "records": 35,
+  "missing": [],
+  "hash_mismatches": [],
+  "status": "PASS",
+  "inference_unit": "subject_id",
+  "statistics_recomputed": false
+}

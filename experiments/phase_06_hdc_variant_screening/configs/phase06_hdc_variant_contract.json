@@ -1,0 +1,135 @@
+{
+  "phase": "06",
+  "phase_name": "HDC Variant Screening",
+  "contract_version": "phase06_hdc_variant_contract_v1",
+  "status": "FROZEN",
+  "timestamp_utc": "2026-08-20T06:38:03.355963+00:00",
+  "result": "PASS",
+  "common_interface": {
+    "representation": "bipolar",
+    "binding": "bipolar elementwise multiplication",
+    "bundling": "sum then deterministic sign with frozen tie vector",
+    "similarity": "cosine",
+    "quantization": "fold-local per-feature equal-width quantization",
+    "levels": 51,
+    "feature_k": 50,
+    "classification_primary_metric": "Macro-F1",
+    "regression_primary_metric": "MAE",
+    "inner_cv": "GroupKFold(n_splits=3, groups=subject_id)",
+    "outer_cv": "frozen Phase 03 five-fold subject-wise split",
+    "deterministic_prng": "PCG64",
+    "random_stream_derivation": "stable SHA-256-derived identifiers",
+    "python_hash_for_random_seed": "PROHIBITED",
+    "dtype_contract": {
+      "sample_hv": "int8",
+      "prototype_or_centroid": "float32",
+      "similarity": "float32"
+    }
+  },
+  "preprocessing": [
+    {
+      "step": 1,
+      "operation": "SimpleImputer",
+      "parameters": {
+        "strategy": "median",
+        "add_indicator": true,
+        "keep_empty_features": true
+      }
+    },
+    {
+      "step": 2,
+      "operation": "VarianceThreshold",
+      "parameters": {
+        "threshold": 0.0
+      }
+    },
+    {
+      "step": 3,
+      "operation": "StandardScaler",
+      "parameters": {}
+    },
+    {
+      "step": 4,
+      "operation": "SelectKBest",
+      "parameters": {
+        "score_func": "f_classif",
+        "k": 50
+      }
+    },
+    {
+      "step": 5,
+      "operation": "fold-local equal-width quantization",
+      "parameters": {
+        "levels": 51
+      }
+    },
+    {
+      "step": 6,
+      "operation": "HDC encoding",
+      "parameters": {
+        "source": "Phase 05 frozen encoder import"
+      }
+    }
+  ],
+  "preprocessing_scope": "Every operation is independently fitted on each inner-training split only.",
+  "encoder_reuse": {
+    "module": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\src\\phase05_hdc_core.py",
+    "sha256": "4de727e8a3fc9ccc5482baba718a8962bce799178431dc5ae0bc7ffc55ed0bd8",
+    "functions": [
+      "EqualWidthQuantizer",
+      "incremental_encode_prefixes",
+      "cosine_similarity_scores",
+      "stable_rng"
+    ],
+    "copy_created": false
+  },
+  "variants": {
+    "vanilla": {
+      "name": "Vanilla Prototype HDC",
+      "source": "frozen Phase 05",
+      "access": "READ_ONLY",
+      "retraining": "PROHIBITED"
+    },
+    "onlinehd": {
+      "name": "OnlineHD-style HDC",
+      "initialization": "class-wise Vanilla prototypes accumulated as float32 and L2-normalized",
+      "order": "PCG64 permutation derived from outer fold, inner split, dimension, seed, candidate, and epoch",
+      "trigger": "prediction error OR margin < margin_threshold",
+      "margin": "similarity_true - highest_similarity_non_true_class",
+      "true_update": "learning_rate * (1 - similarity_true) * sample_hv",
+      "runner_up_update": "-learning_rate * max(0, similarity_runner_up) * sample_hv",
+      "normalization": "L2-normalize all prototypes after every epoch"
+    },
+    "multicentroid": {
+      "name": "Multi-centroid HDC",
+      "training_scope": "class-wise inner-training sample hypervectors only",
+      "initialization": "deterministic Euclidean KMeans on normalized sample hypervectors",
+      "kmeans": {
+        "n_init": 10,
+        "max_iter": 300,
+        "random_state": "stable SHA-256 and experiment seed-derived 32-bit integer"
+      },
+      "centroid": "cluster mean followed by L2 normalization",
+      "class_score": "maximum cosine similarity among class centroids",
+      "class_tie": "smaller class id",
+      "invalid_candidate": "training class count below requested centers OR empty cluster/effective-center shortfall"
+    },
+    "hybrid": {
+      "name": "HDC+OnlineHD Hybrid",
+      "initialization": "Multi-centroid HDC",
+      "true_target": "highest-similarity centroid within true class",
+      "runner_up_target": "highest-similarity centroid among all non-true classes",
+      "trigger_and_update": "same margin trigger and update formula as OnlineHD-style",
+      "normalization": "L2-normalize every centroid after every epoch",
+      "order": "stable SHA-256-derived PCG64 permutation"
+    }
+  },
+  "prohibitions": [
+    "outer-test feature access",
+    "outer-test prediction",
+    "similarity regression",
+    "Ridge readout",
+    "Final Confirmation",
+    "Phase 07"
+  ]
+}

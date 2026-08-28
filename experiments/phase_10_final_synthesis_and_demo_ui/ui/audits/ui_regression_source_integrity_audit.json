@@ -1,0 +1,79 @@
+{
+  "audit": "ui_regression_source_integrity",
+  "status": "PASS",
+  "checked_at_utc": "2026-08-26T07:23:37.173271+00:00",
+  "canonical_source_role": "regression_canonical_oof",
+  "selected_head": "COMMON_ENCODER_READOUT_BASELINE",
+  "selected_variant": "common_ridge",
+  "dimension": 10000,
+  "feature_k": 50,
+  "levels": 51,
+  "ridge_alpha": 0.01,
+  "similarity_regression_used": false,
+  "ui_clipping_executed": false,
+  "checks": [
+    {
+      "role": "regression_selection",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_best_regression_hdc.json",
+      "size_bytes": 2351,
+      "sha256": "acde51709971d57c76eefaffcf1ecd571a4d4c5c36f8d76edf39841c5e7065b8",
+      "actual_size_bytes": 2351,
+      "actual_sha256": "acde51709971d57c76eefaffcf1ecd571a4d4c5c36f8d76edf39841c5e7065b8",
+      "status": "PASS"
+    },
+    {
+      "role": "phase06_oof_seal",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\manifests\\phase06_preselection_outer_oof_seal.json",
+      "size_bytes": 26520,
+      "sha256": "7f78fe0e66f6c020142cc7fe099b7844e84cd34af5c39df5dbf5f48e528a42e9",
+      "actual_size_bytes": 26520,
+      "actual_sha256": "7f78fe0e66f6c020142cc7fe099b7844e84cd34af5c39df5dbf5f48e528a42e9",
+      "status": "PASS"
+    },
+    {
+      "role": "regression_seed_oof",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\results\\oof\\vanilla_hdc_ridge_regression_oof.csv",
+      "size_bytes": 937114,
+      "sha256": "a449d8f43a0935f0a3fcf8cf901894e426a83e552807dcef9551bc983ba22758",
+      "actual_size_bytes": 937114,
+      "actual_sha256": "a449d8f43a0935f0a3fcf8cf901894e426a83e552807dcef9551bc983ba22758",
+      "status": "PASS"
+    },
+    {
+      "role": "dual_task_contract",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\configs\\phase07_frozen_unimodal_contract.json",
+      "size_bytes": 12829,
+      "sha256": "3b29209dbbb057213b791443a04fad20410eb1bc5a46c681bd8afb2e28fddaa8",
+      "actual_size_bytes": 12829,
+      "actual_sha256": "3b29209dbbb057213b791443a04fad20410eb1bc5a46c681bd8afb2e28fddaa8",
+      "status": "PASS"
+    },
+    {
+      "role": "regression_canonical_oof",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\oof\\phase07_readonly_multimodal_regression_reference.csv",
+      "size_bytes": 130202,
+      "sha256": "6af63df19a14c652b991230833a5d9bdf264cb1c5c387823f42d6e5cd30e0c7a",
+      "actual_size_bytes": 130202,
+      "actual_sha256": "6af63df19a14c652b991230833a5d9bdf264cb1c5c387823f42d6e5cd30e0c7a",
+      "status": "PASS"
+    },
+    {
+      "role": "phase10_selected_interface",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\configs\\phase10_best_dual_task_hdc_interface.json",
+      "size_bytes": 1757,
+      "sha256": "bf93656042594f55a13cfe95a1d43bcd2add428902681cb4847c6ee5f39eb578",
+      "actual_size_bytes": 1757,
+      "actual_sha256": "bf93656042594f55a13cfe95a1d43bcd2add428902681cb4847c6ee5f39eb578",
+      "status": "PASS"
+    },
+    {
+      "role": "phase10_prediction_index",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\results\\final_prediction_library\\final_prediction_library_index.csv",
+      "size_bytes": 549063,
+      "sha256": "fea78edee70f65cbbfb064646e577e1f521635551a92535193fc44afc48cee21",
+      "actual_size_bytes": 549063,
+      "actual_sha256": "fea78edee70f65cbbfb064646e577e1f521635551a92535193fc44afc48cee21",
+      "status": "PASS"
+    }
+  ]
+}

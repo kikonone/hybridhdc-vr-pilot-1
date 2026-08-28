@@ -1,0 +1,9 @@
+{
+  "result": "PASS",
+  "outer_test_prediction_sources": "preexisting_only",
+  "subject_overlap_count": 0,
+  "training_executed_during_consolidation": false,
+  "predictions_regenerated": false,
+  "phase": "07",
+  "generated_at_utc": "2026-08-20T18:48:21.687459+00:00"
+}

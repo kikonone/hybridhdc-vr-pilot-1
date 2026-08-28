@@ -1,0 +1,29 @@
+{
+  "phase": "09",
+  "run_identifier": "loso__sub-cp004__hdc_classification__seed_44",
+  "status": "PASS",
+  "checks": {
+    "frozen_config_matching": true,
+    "expected_feature_count": true,
+    "removed_modality_feature_intersection_0": true,
+    "expected_test_rows": true,
+    "unique_test_run_key": true,
+    "exact_split_membership": true,
+    "train_test_subject_overlap_0": true,
+    "test_subject_not_used_for_config_selection": true,
+    "no_test_fitted_preprocessing": true,
+    "finite_predictions": true,
+    "classification_prediction_domain": true,
+    "bounded_regression_range": true,
+    "checkpoint_loadable": true,
+    "prediction_artifact_nonempty": true,
+    "performance_feature_count_0": true
+  },
+  "checkpoint_path": "results/checkpoints/leave_one_subject_out/loso/hdc_classification/classification/sub-cp004/seed_44/checkpoint.json",
+  "checkpoint_sha256": "f1d7af689cfd3f6e2ab278ce24d4ffbe64afad00bc34a886b079a129bca40924",
+  "model_sha256": "315cf8742d3c4578f8a478e3f5c855b616d73387f886ac1ac446df02af2e850e",
+  "prediction_sha256": "6b02f76f834cc5e0e86d1dac7f146cca04de4ed446f815b90ea23cf669a9beda",
+  "metrics_sha256": "c2998d9d94f3c86207ec0b2afbfff2a70a37cfaa0e13937a1e10151c9f614c50",
+  "model_training_executed": true,
+  "prediction_generated": true
+}

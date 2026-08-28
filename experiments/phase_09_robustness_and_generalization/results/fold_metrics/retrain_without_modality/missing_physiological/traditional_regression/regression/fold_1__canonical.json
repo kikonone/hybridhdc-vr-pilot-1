@@ -1,0 +1,18 @@
+{
+  "phase": "09",
+  "run_identifier": "mm__missing_physiological__traditional_regression__fold_1__canonical",
+  "task": "regression",
+  "regression_interpretation": "bounded difficulty-induced workload proxy regression",
+  "metrics": {
+    "raw_mae": 0.12285854558118989,
+    "bounded_mae": 0.11785636961613367,
+    "bounded_rmse": 0.32968413187795037,
+    "bounded_r2": 0.9130466985503058,
+    "bounded_spearman": 0.9270162234776617,
+    "clipping_count": 20,
+    "clipping_rate": 0.23809523809523808,
+    "rounded_regression_macro_f1": 0.9402930402930403,
+    "adjacent_accuracy": 0.9880952380952381,
+    "severe_error_rate": 0.011904761904761904
+  }
+}

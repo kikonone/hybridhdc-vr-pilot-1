@@ -1,0 +1,13 @@
+{
+  "status": "CONTRACT_FROZEN_NOT_EXECUTED",
+  "dataset": "Primary without-performance",
+  "model": "Vanilla Prototype HDC",
+  "rapid_screening": {"dimensions": [2000, 5000], "levels": [21, 51], "feature_selection__k": [50, 100, 200, "all"], "seeds": [42], "candidate_count": 16, "inner_cv": "GroupKFold(n_splits=3, groups=subject_id)", "encoder_selection_primary_metric": "Macro-F1"},
+  "encoder_candidate_ranking": ["higher mean Macro-F1", "lower Macro-F1 standard deviation", "lower Severe Error Rate (Phase 04A definition)", "smaller dimension", "smaller effective k; all after finite k", "fewer levels", "frozen ParameterGrid order"],
+  "final_confirmation": {"selected_from": "rapid-screened levels and k", "dimensions": [1000, 2000, 5000, 10000], "seeds": [42, 43, 44, 45, 46], "per_outer_fold_inner_selection": true, "outer_test_used_once_after_finalization": true, "executed": false},
+  "classification_head": {"prototypes": ["C1", "C2", "C3", "C4"], "prediction": "nearest prototype similarity"},
+  "similarity_regression_decoder": {"method": "temperature-scaled softmax over four class similarities", "prediction": "sum(level × probability)", "temperature_selection": "inner-training validation only"},
+  "ridge_readout": {"input": "sample hypervector", "regularization_selection": "inner subject-wise validation only"},
+  "scope_exclusions": ["OnlineHD-style HDC", "Multi-centroid HDC", "HDC+OnlineHD Hybrid", "Phase 06 variants", "modality ablation", "performance-feature experiments", "LOSO"],
+  "prohibition": "Do not select any HDC parameter from traditional-model results or execute this search during contract freeze."
+}

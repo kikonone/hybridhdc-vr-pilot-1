@@ -1,0 +1,236 @@
+{
+  "phase": "07",
+  "stage": "unimodal_batch_execution",
+  "timestamp_utc": "2026-08-20T18:20:57.161393+00:00",
+  "run_id": "body_movement|classification|fold=4|seed=43",
+  "modality": "body_movement",
+  "task": "classification",
+  "outer_fold": 4,
+  "seed": 43,
+  "train_rows": 335,
+  "test_rows": 84,
+  "train_subjects": 28,
+  "test_subjects": 7,
+  "subject_overlap": [],
+  "subject_overlap_count": 0,
+  "primary_sha256": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44",
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "requested_feature_k": 50,
+  "post_variance_feature_count": 78,
+  "effective_feature_k": 50,
+  "selected_feature_names": [
+    "unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_iqr",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_kurtosis",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_max",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_min",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_range",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_rms",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_skew",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_slope",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_std",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_iqr",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_kurtosis",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_min",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_range",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_rms",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_skew",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_slope",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_std",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_iqr",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_kurtosis",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_max",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_min",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_range",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_skew",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_slope",
+    "unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_std",
+    "unknown_lslshimmertorsoacc_duration",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_min",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_missing_ratio",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_num_missing",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_range",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_rms",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_skew",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_slope",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_std",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_iqr",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_kurtosis",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_max",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_mean",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_median",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_min",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_missing_ratio",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_num_missing",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_range",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_rms",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_skew",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_slope",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_std",
+    "missingindicator_unknown_lslshimmertorsoacc_duration",
+    "missingindicator_unknown_lslshimmertorsoacc_sample_count",
+    "missingindicator_unknown_lslshimmertorsoacc_sampling_rate_estimate"
+  ],
+  "missing_indicator_feature_names": [
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_iqr",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_kurtosis",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_max",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_mean",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_median",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_min",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_missing_ratio",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_num_missing",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_range",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_rms",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_skew",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_slope",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_x_mps2_std",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_iqr",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_kurtosis",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_max",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_mean",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_median",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_min",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_missing_ratio",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_num_missing",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_range",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_rms",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_skew",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_slope",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_y_mps2_std",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_iqr",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_kurtosis",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_max",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_mean",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_median",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_min",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_missing_ratio",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_num_missing",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_range",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_rms",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_skew",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_slope",
+    "missingindicator_unknown_lslshimmertorsoacc_accelerometry_torso_z_mps2_std",
+    "missingindicator_unknown_lslshimmertorsoacc_duration",
+    "missingindicator_unknown_lslshimmertorsoacc_sample_count",
+    "missingindicator_unknown_lslshimmertorsoacc_sampling_rate_estimate"
+  ],
+  "imputer_input_feature_count": 42,
+  "imputer_output_feature_count": 84,
+  "preprocessing_state_bytes": 2880,
+  "fit_scope": "outer-training only",
+  "encoding": {
+    "encoding_seconds": 0.6221424999821465,
+    "quantizer_state_sha256": "fb1c5c5fbc41681d984e72c9e7809884820c86a55c378715a1b73541c71edb92",
+    "codebook_hashes": {
+      "identity_codebook_sha256": "0edde5c146b02736f3626f0ee2bf72a998b7f0816037e9f8c6097a2c24d6a678",
+      "level_codebook_sha256": "1e803e53aeb395885db3eed271636562bc2fffb15bdb204e89befc78678e55a3",
+      "tie_vector_sha256": "1b9dc0808c57109a30d8a86e248dce3a553fe6a139e1de04d861cd3911a04d8b"
+    },
+    "work_dimension": 10000,
+    "classification_dimension_prefix": 5000,
+    "regression_dimension": 10000
+  },
+  "prediction_row_count": 84,
+  "unique_test_run_key_count": 84,
+  "outer_test_used_for_fitting_or_selection": false,
+  "inner_cv_executed": false,
+  "model_reselection_performed": false,
+  "other_hdc_variants_executed": false,
+  "leakage_audit_result": "PASS",
+  "model": "HDC+OnlineHD Hybrid",
+  "selected_variant": "hybrid",
+  "dimension": 5000,
+  "levels": 51,
+  "hybrid_structure": {
+    "centroids_per_class": 2,
+    "epochs": 3,
+    "learning_rate": 0.1,
+    "margin_threshold": 0.1
+  },
+  "classification_metrics": {
+    "macro_f1": 0.24690460809646858,
+    "balanced_accuracy": 0.2857142857142857,
+    "accuracy": 0.2857142857142857,
+    "severe_error_rate": 0.32142857142857145,
+    "per_class_recall": {
+      "0": 0.47619047619047616,
+      "1": 0.3333333333333333,
+      "2": 0.3333333333333333,
+      "3": 0.0
+    },
+    "confusion_matrix": [
+      [
+        10,
+        4,
+        7,
+        0
+      ],
+      [
+        9,
+        7,
+        5,
+        0
+      ],
+      [
+        7,
+        5,
+        7,
+        2
+      ],
+      [
+        7,
+        6,
+        8,
+        0
+      ]
+    ]
+  },
+  "model_info": {
+    "initialization": {
+      "class_counts": {
+        "0": 83,
+        "1": 85,
+        "2": 83,
+        "3": 84
+      },
+      "cluster_counts": {
+        "0": [
+          4,
+          79
+        ],
+        "1": [
+          81,
+          4
+        ],
+        "2": [
+          5,
+          78
+        ],
+        "3": [
+          80,
+          4
+        ]
+      },
+      "centroids_per_class": 2
+    },
+    "updates": 980,
+    "epochs": 3
+  },
+  "efficiency": {
+    "preprocessing_seconds": 0.004135499999392778,
+    "encoding_seconds": 0.6221424999821465,
+    "training_seconds": 0.4697477000008803,
+    "inference_seconds": 0.0023305999930016696,
+    "model_bytes": 160000,
+    "preprocessing_state_bytes": 2880
+  },
+  "artifact_hashes": {
+    "predictions": "a28cac6515e969e78d41dacc2a413978ee51cb946da3992cf6eb2fb218c84d2f",
+    "metrics": "78e09a4f5326ad66ed6e5f235d3785175f09ea8767668d4a1df3f8d466f52e5b",
+    "efficiency": "4122756d8e0e59f0041ef9a7c84a329ddc4ec35cf968853b358e83a74545993f"
+  },
+  "checkpoint_integrity": "PASS",
+  "status": "COMPLETE",
+  "result": "PASS",
+  "checkpoint_payload_sha256": "4eabf563183753e0eead673e6ebe36fa7c718451bb2b1a9504cea65aecef77f3"
+}

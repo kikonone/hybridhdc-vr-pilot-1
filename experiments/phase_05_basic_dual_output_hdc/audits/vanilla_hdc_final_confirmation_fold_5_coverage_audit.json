@@ -1,0 +1,11 @@
+{
+  "outer_fold": 5,
+  "expected_configs": 20,
+  "completed_configs": 20,
+  "expected_test_rows_per_config": 83,
+  "expected_prediction_rows": 1660,
+  "actual_prediction_rows": 1660,
+  "unique_config_run_keys": 1660,
+  "all_prediction_run_keys_valid": true,
+  "result": "PASS"
+}

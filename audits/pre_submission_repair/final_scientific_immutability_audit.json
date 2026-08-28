@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "primary_checksum": "PASS",
+  "frozen_fold_checksum": "PASS",
+  "predictions_modified": false,
+  "canonical_oof_modified": false,
+  "statistics_modified": false,
+  "frozen_model_configs_modified": false,
+  "notebooks_modified_by_final_test": false,
+  "model_retraining_executed": false,
+  "predictions_regenerated": false,
+  "canonical_oof_regenerated": false,
+  "statistics_recomputed": false,
+  "phase00_09_scientific_consistency": "PASS",
+  "phase00_09_production_files_modified_by_tests": 0,
+  "evidence": [
+    "audits/pre_submission_repair/final_scientific_state_comparison.json",
+    "audits/pre_submission_repair/final_phase00_09_test_immutability.json"
+  ]
+}

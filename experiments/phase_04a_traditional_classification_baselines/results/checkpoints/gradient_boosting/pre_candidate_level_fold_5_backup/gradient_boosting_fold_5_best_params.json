@@ -1,0 +1,7 @@
+{
+  "classifier__learning_rate": 0.1,
+  "classifier__max_depth": 3,
+  "classifier__n_estimators": 200,
+  "selector__k": 200,
+  "effective_selected_k": 200
+}

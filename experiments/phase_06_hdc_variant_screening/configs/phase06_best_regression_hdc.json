@@ -1,0 +1,48 @@
+{
+  "candidate_family_count": 20,
+  "common_ridge_copies": 0,
+  "feature_k": 50,
+  "fold_parameter_policy": [
+    {
+      "outer_fold": 1,
+      "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+    },
+    {
+      "outer_fold": 2,
+      "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+    },
+    {
+      "outer_fold": 3,
+      "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+    },
+    {
+      "outer_fold": 4,
+      "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+    },
+    {
+      "outer_fold": 5,
+      "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+    }
+  ],
+  "inner_evidence": {
+    "mean_bounded_mae": 0.2897499637189328,
+    "mean_bounded_rmse": null,
+    "mean_model_bytes": 80008.0,
+    "mean_runtime_seconds": 0.5880071660000249,
+    "pareto": true,
+    "rmse_tiebreak_status": "NOT_INVOKED_INCOMPLETE_PHASE05_INNER_RECORDS",
+    "sample_sd_outer_fold_mean_mae": 0.010471550474558913
+  },
+  "levels": 51,
+  "parameter_policy": "fold-local inner-CV temperature or Ridge alpha selection",
+  "phase": "06",
+  "seed_policy": "frozen evaluation seeds; no single seed selected",
+  "selected_fixed_dimension": 10000,
+  "selected_head_family": "COMMON_ENCODER_READOUT_BASELINE",
+  "selected_regression_head": "COMMON_ENCODER_READOUT_BASELINE",
+  "selected_variant": "common_ridge",
+  "selection_amendment_sha256": "0bfde8c83f05151531d35c8b334e5a9eed10bea0e46c78c74b053e7648eb4d9f",
+  "selection_evidence": "INNER_CV_ONLY",
+  "selection_rule": "INNER_CV_ONLY_POST_FREEZE_AMENDMENT_V2",
+  "single_seed_selected": false
+}

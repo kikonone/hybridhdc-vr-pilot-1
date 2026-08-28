@@ -1,0 +1,35 @@
+{
+  "audit": "phase10_statistics_inventory_audit",
+  "artifact_count": 28,
+  "family_counts": {
+    "seed_stability": 6,
+    "bootstrap_ci": 3,
+    "modality_analysis": 5,
+    "effect_sizes": 3,
+    "friedman_tests": 1,
+    "wilcoxon_tests": 3,
+    "holm_corrections": 3,
+    "fusion_analysis": 6,
+    "shortcut_analysis": 3,
+    "rank_biserial_effect_sizes": 2,
+    "loso_analysis": 7,
+    "subject_stability": 2,
+    "missing_modality_analysis": 5
+  },
+  "checks": {
+    "bootstrap_ci_present": true,
+    "friedman_tests_present": true,
+    "wilcoxon_tests_present": true,
+    "holm_corrections_present": true,
+    "rank_biserial_effect_sizes_present": true,
+    "seed_stability_present": true,
+    "subject_stability_present": true,
+    "modality_analysis_present": true,
+    "fusion_analysis_present": true,
+    "shortcut_analysis_present": true,
+    "missing_modality_analysis_present": true,
+    "loso_analysis_present": true
+  },
+  "statistics_recomputed": false,
+  "status": "PASS"
+}

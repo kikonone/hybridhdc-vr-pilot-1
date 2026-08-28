@@ -1,0 +1,84 @@
+{
+  "phase": "07",
+  "audit": "initialization_artifacts",
+  "generated_at_utc": "2026-08-20T17:54:18.427817+00:00",
+  "inventory": [
+    {
+      "relative_path": "README.md",
+      "exists": true,
+      "json_parseable": null,
+      "sha256": "456bf230d9595e6f43962e5e764b476c6046c752d39c8a7b54289c1bbbecaaf3"
+    },
+    {
+      "relative_path": "task_plan.md",
+      "exists": true,
+      "json_parseable": null,
+      "sha256": "0f63b04df2f9f7ef727ce7b3a44e1c904e8505eeee9bedef6a82586f96271951"
+    },
+    {
+      "relative_path": "notes.md",
+      "exists": true,
+      "json_parseable": null,
+      "sha256": "54e694aaee1865cd5794c53e3943ec221cb855eaba7d2824b99af09cecd05ccd"
+    },
+    {
+      "relative_path": "Phase_07_Unimodal_Contribution.ipynb",
+      "exists": true,
+      "json_parseable": null,
+      "sha256": "421d314aa2e02998e5f8981722ef637b26c4deb6b2b44e6c1c3c7402c6fde798"
+    },
+    {
+      "relative_path": "configs/phase07_experiment_contract.json",
+      "exists": true,
+      "json_parseable": true,
+      "sha256": "fa16b7b3dd879a8b0269ac178099d660931ecb95c1615d3f85b288b911e17041"
+    },
+    {
+      "relative_path": "configs/phase07_environment.json",
+      "exists": true,
+      "json_parseable": true,
+      "sha256": "e41f789eb404dbe10935c0fc45f2ee190043a7c5ee6e972297f398549d5fea11"
+    },
+    {
+      "relative_path": "configs/phase07_upstream_interface.json",
+      "exists": true,
+      "json_parseable": true,
+      "sha256": "a84705da3c17d584b57a0af52ae8aada616ae05dc556e2cfd32e33aa49045524"
+    },
+    {
+      "relative_path": "manifests/phase07_input_manifest.json",
+      "exists": true,
+      "json_parseable": true,
+      "sha256": "d05d80417b49c0de1282594b22ef2e1ce75eef05e7c8fed978c0d5bfef492c45"
+    },
+    {
+      "relative_path": "manifests/phase07_modality_feature_manifest.json",
+      "exists": true,
+      "json_parseable": true,
+      "sha256": "1bea49fed9577a245b182075875bd2a7226be9f1e64782869ef3bdac86dfe1f4"
+    },
+    {
+      "relative_path": "audits/phase07_input_and_fold_audit.json",
+      "exists": true,
+      "json_parseable": true,
+      "sha256": "fb78fcb78761a574748e8655168509eedaf768ff87b081863aa1026c847dfae7"
+    },
+    {
+      "relative_path": "audits/phase07_modality_mapping_audit.json",
+      "exists": true,
+      "json_parseable": true,
+      "sha256": "561c90f838bffb3c850eb86302973b7a358ae55c80e6842d312bd53155b40b5d"
+    },
+    {
+      "relative_path": "audits/phase07_phase06_freeze_interface_audit.json",
+      "exists": true,
+      "json_parseable": true,
+      "sha256": "b29b439c6d2d4b6369994bcf12616f9d5914e7847842769caac8a7e8455a43d0"
+    }
+  ],
+  "upstream_files_modified": false,
+  "upstream_data_copied_to_phase07": false,
+  "hdc_training_executed": false,
+  "result": "PASS",
+  "notebook_persistence_result": "PASS"
+}

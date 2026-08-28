@@ -1,0 +1,9 @@
+{
+  "audit": "phase10_paper_artifact_contract_audit",
+  "table_count": 14,
+  "figure_count": 13,
+  "all_table_sources_exist": true,
+  "all_figure_sources_exist": true,
+  "figures_redrawn": false,
+  "status": "PASS"
+}

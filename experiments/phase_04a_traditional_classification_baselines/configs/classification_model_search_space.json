@@ -1,0 +1,160 @@
+{
+  "dummy_most_frequent": {
+    "family": "DummyClassifier",
+    "scaled": false,
+    "parameters": {
+      "selector__k": [
+        "all"
+      ]
+    },
+    "seed": null
+  },
+  "dummy_stratified": {
+    "family": "DummyClassifier",
+    "scaled": false,
+    "parameters": {
+      "selector__k": [
+        "all"
+      ]
+    },
+    "seed": 42
+  },
+  "logistic_regression": {
+    "family": "Logistic Regression",
+    "scaled": true,
+    "parameters": {
+      "classifier__C": [
+        0.01,
+        0.1,
+        1,
+        10
+      ],
+      "selector__k": [
+        50,
+        100,
+        200,
+        "all"
+      ]
+    },
+    "seed": 42
+  },
+  "linear_svm": {
+    "family": "Linear SVM",
+    "scaled": true,
+    "parameters": {
+      "classifier__C": [
+        0.01,
+        0.1,
+        1,
+        10
+      ],
+      "selector__k": [
+        50,
+        100,
+        200,
+        "all"
+      ]
+    },
+    "seed": 42
+  },
+  "rbf_svm": {
+    "family": "RBF SVM",
+    "scaled": true,
+    "parameters": {
+      "classifier__C": [
+        0.1,
+        1,
+        10
+      ],
+      "classifier__gamma": [
+        "scale",
+        "auto"
+      ],
+      "selector__k": [
+        50,
+        100,
+        200,
+        "all"
+      ]
+    },
+    "seed": null
+  },
+  "random_forest": {
+    "family": "Random Forest",
+    "scaled": false,
+    "parameters": {
+      "classifier__n_estimators": [
+        200,
+        500
+      ],
+      "classifier__max_depth": [
+        null,
+        10,
+        20
+      ],
+      "classifier__max_features": [
+        "sqrt",
+        "log2"
+      ],
+      "selector__k": [
+        50,
+        100,
+        200,
+        "all"
+      ]
+    },
+    "seed": 42
+  },
+  "knn": {
+    "family": "K-Nearest Neighbors",
+    "scaled": true,
+    "parameters": {
+      "classifier__n_neighbors": [
+        3,
+        5,
+        7,
+        11
+      ],
+      "classifier__weights": [
+        "uniform",
+        "distance"
+      ],
+      "selector__k": [
+        50,
+        100,
+        200,
+        "all"
+      ]
+    },
+    "seed": null
+  },
+  "gradient_boosting": {
+    "family": "Gradient Boosting",
+    "scaled": false,
+    "parameters": {
+      "classifier__n_estimators": [
+        100,
+        200
+      ],
+      "classifier__learning_rate": [
+        0.05,
+        0.1
+      ],
+      "classifier__max_depth": [
+        2,
+        3
+      ],
+      "selector__k": [
+        50,
+        100,
+        200,
+        "all"
+      ]
+    },
+    "seed": 42
+  },
+  "xgboost": {
+    "status": "NOT RUN / OPTIONAL DEPENDENCY UNAVAILABLE",
+    "installed": false
+  }
+}

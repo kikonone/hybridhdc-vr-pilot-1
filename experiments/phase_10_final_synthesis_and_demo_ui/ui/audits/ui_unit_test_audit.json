@@ -1,0 +1,14 @@
+{
+  "audit": "ui_compile_import_unit_contract_tests",
+  "status": "PASS",
+  "tests_passed": 27,
+  "tests_failed": 0,
+  "compileall": "PASS",
+  "module_imports": "PASS",
+  "package_verification": "PASS",
+  "schema_and_anonymization": "PASS",
+  "source_and_output_hashes": "PASS",
+  "dual_task_alignment": "PASS",
+  "english_static_contract": "PASS",
+  "negative_fail_closed_cases": 10
+}

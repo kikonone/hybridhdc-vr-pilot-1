@@ -1,0 +1,33 @@
+{
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "dataset_version": "PRIMARY_WITHOUT_PERFORMANCE",
+  "model": "Logistic Regression",
+  "outer_fold": 1,
+  "train_rows": 335,
+  "test_rows": 84,
+  "train_subjects": 28,
+  "test_subjects": 7,
+  "search_grid": {
+    "classifier__n_neighbors": [
+      3,
+      5,
+      7,
+      11
+    ],
+    "classifier__weights": [
+      "uniform",
+      "distance"
+    ],
+    "classifier__p": [
+      1,
+      2
+    ],
+    "selector__k": [
+      100,
+      200
+    ]
+  },
+  "decision": "COMPUTE_CONSTRAINED_COMPACT_GRID",
+  "preprocessing": "SimpleImputer median+indicator -> VarianceThreshold -> StandardScaler -> SelectKBest(f_classif) -> LogisticRegression",
+  "n_jobs": 1
+}

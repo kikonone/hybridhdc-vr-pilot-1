@@ -1,0 +1,18 @@
+{
+  "phase": "09",
+  "run_identifier": "mm__missing_body_movement__traditional_regression__fold_2__canonical",
+  "task": "regression",
+  "regression_interpretation": "bounded difficulty-induced workload proxy regression",
+  "metrics": {
+    "raw_mae": 0.13419155013248685,
+    "bounded_mae": 0.13286931981856884,
+    "bounded_rmse": 0.2640169407132365,
+    "bounded_r2": 0.9431466776321678,
+    "bounded_spearman": 0.955434723643268,
+    "clipping_count": 10,
+    "clipping_rate": 0.11904761904761904,
+    "rounded_regression_macro_f1": 0.9171947122606724,
+    "adjacent_accuracy": 1.0,
+    "severe_error_rate": 0.0
+  }
+}

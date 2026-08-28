@@ -1,0 +1,70 @@
+{
+  "phase": "09",
+  "audit": "full_primary_reference_integrity",
+  "status": "PASS",
+  "audited_at_utc": "2026-08-21T04:37:16.291432+00:00",
+  "reference_rows": 1676,
+  "expected_reference_rows": 1676,
+  "records": [
+    {
+      "model_key": "hdc_classification",
+      "task": "classification",
+      "rows": 419,
+      "unique_run_keys": 419,
+      "source_phase": "06",
+      "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\oof\\phase06_hybrid_final_oof.csv",
+      "expected_sha256": "ff619baf4be600279482c9e1f4f4139000fc05c1dfaf41555d644674b45d875a",
+      "actual_sha256": "ff619baf4be600279482c9e1f4f4139000fc05c1dfaf41555d644674b45d875a",
+      "hash_pass": true,
+      "freeze_evidence": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\manifests\\phase06_final_artifact_manifest.json",
+      "reference_policy": "REUSED_FROZEN_REFERENCE"
+    },
+    {
+      "model_key": "hdc_regression",
+      "task": "regression",
+      "rows": 419,
+      "unique_run_keys": 419,
+      "source_phase": "06_SELECTION_USING_FROZEN_PHASE05_COMMON_ENCODER_INTERFACE",
+      "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\results\\oof\\vanilla_hdc_ridge_regression_oof.csv",
+      "expected_sha256": "a449d8f43a0935f0a3fcf8cf901894e426a83e552807dcef9551bc983ba22758",
+      "actual_sha256": "a449d8f43a0935f0a3fcf8cf901894e426a83e552807dcef9551bc983ba22758",
+      "hash_pass": true,
+      "freeze_evidence": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+      "reference_policy": "REUSED_FROZEN_REFERENCE"
+    },
+    {
+      "model_key": "traditional_classification",
+      "task": "classification",
+      "rows": 419,
+      "unique_run_keys": 419,
+      "source_phase": "04A",
+      "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\results\\predictions\\gradient_boosting_oof.csv",
+      "expected_sha256": "2900b8dda8a2a51982e1f731c00ff1aff7d028ea43eae41c9b9e4294d3c00c19",
+      "actual_sha256": "2900b8dda8a2a51982e1f731c00ff1aff7d028ea43eae41c9b9e4294d3c00c19",
+      "hash_pass": true,
+      "freeze_evidence": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\phase04a_freeze.json",
+      "reference_policy": "REUSED_FROZEN_REFERENCE"
+    },
+    {
+      "model_key": "traditional_regression",
+      "task": "regression",
+      "rows": 419,
+      "unique_run_keys": 419,
+      "source_phase": "04B",
+      "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\predictions\\gradient_boosting_oof.csv",
+      "expected_sha256": "e05c23a526a00eaaa49d0fd07e1eae68ff2c53e94a05418d47474367aa0ae3ed",
+      "actual_sha256": "e05c23a526a00eaaa49d0fd07e1eae68ff2c53e94a05418d47474367aa0ae3ed",
+      "hash_pass": true,
+      "freeze_evidence": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\configs\\phase04b_freeze.json",
+      "reference_policy": "REUSED_FROZEN_REFERENCE"
+    }
+  ],
+  "run_key_alignment": {
+    "hdc_classification": true,
+    "hdc_regression": true,
+    "traditional_classification": true,
+    "traditional_regression": true
+  },
+  "subject_outer_fold_alignment": true,
+  "full_primary_retrained": false
+}

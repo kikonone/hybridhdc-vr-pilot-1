@@ -1,0 +1,43 @@
+{
+  "phase": "Phase 09",
+  "phase_name": "Robustness and Generalization",
+  "status": "FROZEN",
+  "freeze_timestamp_utc": "2026-08-21T06:40:53.404435+00:00",
+  "subjects": 35,
+  "primary_rows": 419,
+  "authorized_runs": 720,
+  "completed_runs": 720,
+  "raw_prediction_rows": 30168,
+  "canonical_oof_rows": 10056,
+  "missing_modality_canonical_rows": 8380,
+  "loso_canonical_rows": 1676,
+  "missing_modality_conditions": 5,
+  "loso_splits": 35,
+  "outer_test_used_for_tuning": false,
+  "model_retraining_during_freeze": false,
+  "predictions_regenerated_during_freeze": false,
+  "phase10_executed": false,
+  "analyses": {
+    "missing_modality": "COMPLETE",
+    "loso_stability": "COMPLETE",
+    "subject_level_statistics": "COMPLETE"
+  },
+  "FULL_PRIMARY_REFERENCE": "REUSED_NOT_RETRAINED",
+  "TEST_TIME_MISSINGNESS": "NOT_FEASIBLE_DUE_TO_CHECKPOINT_INTERFACE",
+  "performance_features_included": false,
+  "generalization_boundaries": {
+    "SUBJECT_GENERALIZATION": "EVALUATED_VIA_35_SUBJECT_LOSO",
+    "MISSING_MODALITY_ROBUSTNESS": "EVALUATED_VIA_RETRAIN_WITHOUT_MODALITY",
+    "UNSEEN_SESSION": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "UNSEEN_SCENARIO": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "TASK_TEMPLATE": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "ROUTE_CONFIGURATION": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "FLIGHT_GENERALIZABLE_BEHAVIOR_CLAIM": "INCONCLUSIVE_DUE_TO_METADATA"
+  },
+  "final_manifest": {
+    "path": "manifests/phase09_final_manifest.json",
+    "sha256": "1d3ae2abec1a3b88ebe224ecf6e118c1cbac814a0cff843d9faddcfe1c5b9256"
+  },
+  "notebook_persistence": "PASS",
+  "ready_to_proceed_to_phase10": true
+}

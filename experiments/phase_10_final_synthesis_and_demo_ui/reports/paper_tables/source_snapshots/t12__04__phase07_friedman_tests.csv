@@ -1,0 +1,3 @@
+task,metric,status,statistic,p_value,n_subjects
+classification,macro_f1,PASS,91.69010043041605,5.759852708991659e-19,35
+regression,bounded_mae,PASS,78.14857142857147,4.2965425805077594e-16,35

@@ -1,0 +1,48 @@
+{
+  "status": "FROZEN",
+  "automatic_leakage_threshold": null,
+  "DIRECT_TARGET_LEAKAGE": {
+    "allowed_values": [
+      "YES",
+      "NO"
+    ],
+    "yes_only_if": "direct target copy or deterministic transform is found"
+  },
+  "ADDED_PERFORMANCE_INFORMATION": {
+    "allowed_values": [
+      "SUPPORTED",
+      "NOT_SUPPORTED",
+      "INCONCLUSIVE"
+    ],
+    "evidence": [
+      "numeric difference",
+      "95% CI",
+      "Holm-adjusted p",
+      "rank-biserial effect"
+    ]
+  },
+  "PERFORMANCE_ONLY_PREDICTIVE_SIGNAL": {
+    "report": [
+      "absolute predictive performance",
+      "difference from dummy baseline",
+      "uncertainty"
+    ]
+  },
+  "FLIGHT_LABEL_PROXIMITY_RISK": {
+    "allowed_values": [
+      "BEHAVIORAL_SIGNAL_SUPPORTED",
+      "TASK_STRUCTURE_SIGNAL_SUPPORTED",
+      "MIXED_OR_AMBIGUOUS",
+      "INCONCLUSIVE_DUE_TO_PROVENANCE",
+      "NOT_FEASIBLE_EMPTY_GROUP"
+    ],
+    "evidence": [
+      "provenance categories",
+      "behavioral-only performance",
+      "task-setting-only performance",
+      "ambiguous feature count",
+      "Phase 09 scenario-holdout feasibility"
+    ]
+  },
+  "high_performance_alone_equals_leakage": false
+}

@@ -1,0 +1,15 @@
+{
+  "phase": "06",
+  "audit": "unit_tests",
+  "command": [
+    "D:\\Computer\\anaconda3\\python.exe",
+    "-m",
+    "pytest",
+    "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\tests",
+    "-q"
+  ],
+  "returncode": 0,
+  "stdout": "...............                                                          [100%]\n15 passed in 2.55s\n",
+  "stderr": "",
+  "result": "PASS"
+}

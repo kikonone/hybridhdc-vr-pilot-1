@@ -1,0 +1,61 @@
+{
+  "phase": "06",
+  "phase_name": "HDC Variant Screening",
+  "status": "PENDING_CONTRACT_FREEZE",
+  "result": "PASS",
+  "required_variants": [
+    "Vanilla Prototype HDC",
+    "OnlineHD-style HDC",
+    "Multi-centroid HDC",
+    "HDC+OnlineHD Hybrid"
+  ],
+  "classification_primary_metric": "Macro-F1",
+  "regression_primary_metric": "MAE",
+  "outer_cv": "frozen Phase 03 five-fold subject-wise split",
+  "inner_cv": "GroupKFold(n_splits=3, groups=subject_id)",
+  "primary_dataset": "primary_without_performance.csv",
+  "vanilla_baseline_source": "frozen Phase 05",
+  "canonical_phase05_configuration_selection": "not performed",
+  "canonical_phase05_configuration_selection_record": "NOT_PERFORMED_OUTER_TEST_SELECTION_PROHIBITED",
+  "model_training_executed": false,
+  "contract_freeze_required_before_modeling": true,
+  "interpretation": "bounded difficulty-induced workload proxy regression",
+  "project_claim_scope": "workload-proxy classification and regression",
+  "deferred_to_contract_freeze": [
+    "OnlineHD update formula and learning-rate grid",
+    "low-confidence definition",
+    "prototype update count",
+    "Multi-centroid center counts and initialization",
+    "empty-center handling",
+    "Hybrid initialization and update order",
+    "quick-screen space",
+    "final-confirmation space",
+    "variant elimination rule",
+    "Pareto selection rule",
+    "canonical configuration selection rule"
+  ],
+  "source_evidence": {
+    "full_experiment_plan": {
+      "path": "E:\\hdc-vr-pilot\\最新完整实验计划_分类回归双任务.md",
+      "exists": true,
+      "file_size_bytes": 19559,
+      "sha256": "1fde8fca7cb413bc49e5ab694eda12e5a3bdf6a960fb0114e6eafe4ced18559c",
+      "result": "PASS"
+    },
+    "notebook_rules": {
+      "path": "E:\\hdc-vr-pilot\\CODEX_NOTEBOOK_RULES.md",
+      "exists": true,
+      "file_size_bytes": 11803,
+      "sha256": "60959975e15dd9a751427c6ffe5d3e0242b379963bdb4386e322ba5eb5ce4448",
+      "result": "PASS"
+    },
+    "phase05_freeze": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\configs\\phase05_freeze.json",
+      "exists": true,
+      "file_size_bytes": 1640,
+      "sha256": "d9d3c78a81e83710108a062671fdc1b86c43ad4e84f27c9b53e1c9acaa837e00",
+      "result": "PASS"
+    }
+  },
+  "phase_directory": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening"
+}

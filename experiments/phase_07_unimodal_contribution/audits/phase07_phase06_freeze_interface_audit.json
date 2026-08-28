@@ -1,0 +1,47 @@
+{
+  "phase": "07",
+  "audit": "phase06_freeze_interface",
+  "generated_at_utc": "2026-08-20T17:52:06.813429+00:00",
+  "checks": {
+    "freeze_checksum_pass": true,
+    "classification_checksum_pass": true,
+    "regression_checksum_pass": true,
+    "status_frozen": true,
+    "ready_for_next_planned_phase": true,
+    "classification_selection_evidence_inner_only": true,
+    "regression_selection_evidence_inner_only": true,
+    "outer_oof_read_for_selection": false,
+    "single_seed_selected": false,
+    "frozen_evaluation_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "frozen_evaluation_seeds_unchanged": true,
+    "classification_interface_pass": true,
+    "regression_interface_pass": true,
+    "model_selection_resolution_audit_pass": true
+  },
+  "classification": {
+    "selected_variant": "hybrid",
+    "selected_variant_name": "HDC+OnlineHD Hybrid",
+    "selected_fixed_dimension": 5000,
+    "levels": 51,
+    "feature_k": 50,
+    "structure_selection_policy": "fold-local inner-CV selection under the frozen Quick Screen grid",
+    "reselection_permitted": false
+  },
+  "regression": {
+    "selected_variant": "common_ridge",
+    "selected_regression_head": "COMMON_ENCODER_READOUT_BASELINE",
+    "selected_fixed_dimension": 10000,
+    "levels": 51,
+    "feature_k": 50,
+    "parameter_policy": "fold-local inner-CV temperature or Ridge alpha selection",
+    "target_description": "bounded difficulty-induced workload proxy regression",
+    "reselection_permitted": false
+  },
+  "result": "PASS"
+}

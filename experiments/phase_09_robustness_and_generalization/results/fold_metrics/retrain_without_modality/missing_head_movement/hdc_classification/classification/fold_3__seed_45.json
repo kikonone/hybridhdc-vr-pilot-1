@@ -1,0 +1,45 @@
+{
+  "phase": "09",
+  "run_identifier": "mm__missing_head_movement__hdc_classification__fold_3__seed_45",
+  "task": "classification",
+  "regression_interpretation": null,
+  "metrics": {
+    "macro_f1": 0.9401120265383256,
+    "balanced_accuracy": 0.9404761904761905,
+    "accuracy": 0.9404761904761905,
+    "severe_error_rate": 0.011904761904761904,
+    "per_class_recall": {
+      "0": 0.8095238095238095,
+      "1": 1.0,
+      "2": 0.9523809523809523,
+      "3": 1.0
+    },
+    "confusion_matrix": [
+      [
+        17,
+        4,
+        0,
+        0
+      ],
+      [
+        0,
+        21,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        20,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        21
+      ]
+    ],
+    "quadratic_weighted_kappa": 0.9607843137254902
+  }
+}

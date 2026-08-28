@@ -1,0 +1,11 @@
+Phase 00 revised project setup and inventory log
+Executed at UTC: 2026-07-01T17:23:08+00:00
+Project root: E:\hdc-vr-pilot
+Data safety: vrdataset treated as read-only
+starterCode role: eye-tracking and oculomotor pilot reference only
+dataPackage role: main source for full multimodal experiment
+Total files found under vrdataset: 9,022
+Data inventory: experiments/phase_00_project_setup/results/data_inventory.csv
+Revised phase structure: experiments/phase_00_project_setup/results/revised_phase_structure.csv
+Project setup report: experiments/phase_00_project_setup/results/project_setup_report.json
+No feature extraction, labeling, ML training, or HDC training was performed.

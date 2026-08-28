@@ -1,0 +1,22 @@
+{
+  "result": "PASS",
+  "figure_files": [
+    "figures\\phase07_classification_modality_ranking.png",
+    "figures\\phase07_classification_modality_ranking.pdf",
+    "figures\\phase07_regression_modality_ranking.png",
+    "figures\\phase07_regression_modality_ranking.pdf",
+    "figures\\phase07_unimodal_vs_multimodal_deltas.png",
+    "figures\\phase07_unimodal_vs_multimodal_deltas.pdf",
+    "figures\\phase07_classification_confusion_matrix_panel.png",
+    "figures\\phase07_classification_confusion_matrix_panel.pdf",
+    "figures\\phase07_regression_residual_panel.png",
+    "figures\\phase07_regression_residual_panel.pdf",
+    "figures\\phase07_subject_level_performance.png",
+    "figures\\phase07_subject_level_performance.pdf"
+  ],
+  "png_pdf_pairs": 6,
+  "colorblind_palette": true,
+  "n_subjects": 35,
+  "phase": "07",
+  "generated_at_utc": "2026-08-20T18:48:21.687459+00:00"
+}

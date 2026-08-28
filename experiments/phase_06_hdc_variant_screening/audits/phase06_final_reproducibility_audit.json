@@ -1,0 +1,21 @@
+{
+  "phase": "06",
+  "audit": "final_reproducibility_after_selection_resolution",
+  "timestamp_utc": "2026-08-20T17:39:17.812570+00:00",
+  "training_or_prediction_calls": [],
+  "training_calls": 0,
+  "prediction_calls": 0,
+  "selection_evidence": "INNER_CV_ONLY",
+  "selector_deterministic_double_run": true,
+  "double_run_output_sha256": {
+    "configs/phase06_best_classification_hdc.json": "174a99de2d993acdea49fdebc9647b28db4648ada2bea7a33f620f4677f031a4",
+    "configs/phase06_best_regression_hdc.json": "acde51709971d57c76eefaffcf1ecd571a4d4c5c36f8d76edf39841c5e7065b8",
+    "results/summaries/phase06_inner_only_classification_selection_trace.csv": "5ed986e0d763d0494df5be13f9c052741a4a041b51b70ac9a54d97666c96fe7e",
+    "results/summaries/phase06_inner_only_regression_selection_trace.csv": "0aee7835845b94b4dcd73b7add0beb049fdd0526e92809132ba7a91bd09de685",
+    "results/summaries/phase06_inner_only_model_selection_pareto.csv": "e17d1f396c95f83a8869e953b8a762c699c9333f43acde1d06af639c1b7de77c"
+  },
+  "single_seed_selected": false,
+  "outer_oof_read_by_selector": false,
+  "outer_oof_seal_integrity": "PASS",
+  "result": "PASS"
+}

@@ -1,0 +1,70 @@
+{
+  "phase08_contract_freeze": "PASS",
+  "checksums": {
+    "primary": true,
+    "with_performance": true,
+    "performance_only": true,
+    "folds": true
+  },
+  "fusion_conditions_frozen": 5,
+  "shortcut_conditions_frozen": 3,
+  "flight_features_audited": 326,
+  "flight_category_counts": {
+    "BEHAVIORAL_RESPONSE": 323,
+    "TASK_SETTING_OR_SCENARIO": 0,
+    "AMBIGUOUS": 3
+  },
+  "flight_provenance_audit": "PASS",
+  "flight_conditions": {
+    "FLIGHT_FULL": {
+      "status": "FROZEN_HDC_REFERENCE",
+      "feature_count": 326,
+      "feature_set_sha256": "8f44ff3924c5c5304069be5a2575cc223d9e1cc834aa27f301876ce6389b17d8",
+      "ambiguous_features_retained": 3
+    },
+    "FLIGHT_BEHAVIORAL_ONLY": {
+      "status": "AUTHORIZED_UNIQUE_SENSITIVITY_CONDITION",
+      "feature_count": 323,
+      "feature_set_sha256": "dea0483dec41903f3e1bdf30faf7918833c8f985ff134b0e81fa30ce86a8fdb9",
+      "alias_of": null
+    },
+    "FLIGHT_TASK_SETTING_ONLY": {
+      "status": "NOT_FEASIBLE_EMPTY_PROVENANCE_GROUP",
+      "feature_count": 0,
+      "feature_set_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "alias_of": null
+    }
+  },
+  "interfaces": {
+    "HDC_classification": "PASS",
+    "HDC_regression": "PASS",
+    "traditional_classification": "PASS",
+    "traditional_regression": "PASS"
+  },
+  "run_counts": {
+    "core_required_model_runs": 300,
+    "traditional_flight_full_required_runs": 10,
+    "unique_nonempty_nonaliased_flight_sensitivity_conditions": 1,
+    "flight_sensitivity_model_runs": 60,
+    "expected_total_model_runs": 370
+  },
+  "duplicate_run_identifiers": 0,
+  "oof_aggregation_rules": "FROZEN",
+  "comparison_families": "FROZEN",
+  "statistical_rules": "FROZEN",
+  "shortcut_evidence_rules": "FROZEN",
+  "holdout_feasibility": {
+    "unseen_session": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "unseen_scenario": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "task_template": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "route_or_configuration": "NOT_FEASIBLE_DUE_TO_METADATA"
+  },
+  "phase09_handoff_saved": true,
+  "static_unit_tests": "PASS",
+  "contract_artifact_audit": "PASS",
+  "notebook_persistence": "PASS",
+  "model_training_executed": false,
+  "outer_test_predictions_generated": false,
+  "phase08_status": "CONTRACT_FROZEN_NOT_TRAINED",
+  "ready_for_phase08_execution": true
+}

@@ -1,0 +1,40 @@
+{
+  "phase": "07",
+  "status": "FROZEN",
+  "created_at_utc": "2026-08-20T18:05:58.896065+00:00",
+  "modalities": 5,
+  "modality_names": [
+    "physiological_features",
+    "eye_tracking_features",
+    "head_movement_features",
+    "flight_parameter_features",
+    "body_movement"
+  ],
+  "outer_folds": 5,
+  "evaluation_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "evaluation_seed_count": 5,
+  "classification_runs": 125,
+  "regression_runs": 125,
+  "total_model_runs": 250,
+  "checkpoint_granularity": "modality/task/fold/seed",
+  "resume_policy": "reuse only audit-PASS checkpoints",
+  "completed_runs": 250,
+  "training_executed": true,
+  "prediction_files_generated": 250,
+  "oof_files_generated": 0,
+  "executor_invoked": true,
+  "last_updated_utc": "2026-08-20T18:21:08.667820+00:00",
+  "completed_classification_runs": 125,
+  "completed_regression_runs": 125,
+  "executor_completed": true,
+  "canonical_oof_generated": true,
+  "canonical_classification_rows": 2095,
+  "canonical_regression_rows": 2095,
+  "finalized_at_utc": "2026-08-20T18:53:09.782333+00:00"
+}

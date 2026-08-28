@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "remaining_failure_root_cause": "C. FROZEN_ARTIFACT_CHANGED",
+  "isolated_test_after_restore": {
+    "node_id": "experiments/phase_09_robustness_and_generalization/tests/test_phase09_freeze.py::test_read_only_preflight_passes_before_freeze",
+    "result": "PASS",
+    "passed": 1,
+    "failed": 0,
+    "errors": 0,
+    "production_files_modified": 0,
+    "log": "audits/pre_submission_repair/remaining_failure_post_restore_test_output.log"
+  },
+  "full_suite": {
+    "passed": 126,
+    "failed": 0,
+    "errors": 0,
+    "warnings": 18,
+    "duration_seconds": 40.91,
+    "log": "audits/pre_submission_repair/final_full_test_output.log"
+  },
+  "phase00_09_files_before": 8167,
+  "phase00_09_files_after": 8167,
+  "phase00_09_added": 0,
+  "phase00_09_removed": 0,
+  "phase00_09_modified": 0,
+  "tests_modified_production_files": 0,
+  "comparison": "audits/pre_submission_repair/final_phase00_09_test_immutability.json"
+}

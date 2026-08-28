@@ -1,0 +1,201 @@
+{
+  "phase": "08",
+  "stage": "frozen_batch_execution",
+  "timestamp_utc": "2026-08-20T19:54:04.432871+00:00",
+  "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_1__seed_43",
+  "condition": "PERFORMANCE_ONLY_AUXILIARY",
+  "model_family": "HDC",
+  "task": "classification",
+  "outer_fold": 1,
+  "seed": 43,
+  "status": "COMPLETE",
+  "model": "HDC+OnlineHD Hybrid",
+  "model_matrix_sha256": "00fbe1aab543cba33988c0d2ef28757dcc1153ee30839ada19fe07a0352c4b60",
+  "frozen_contract_sha256": "93121979400646bcc9adffb15c069e8ec9a5f0e95e3dfb0cdcc99e3d3666031c",
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "dataset_sha256": "d602282ae41153886d1306494515f2e41a5e7e89a2cec5c192d44b9ca87a07a4",
+  "feature_count": 59,
+  "feature_set_sha256": "1708a8a79f857c092d59894d9dd1256595f5ceb3e6c2b6db279820383bcd852d",
+  "train_rows": 335,
+  "test_rows": 84,
+  "prediction_row_count": 84,
+  "unique_test_run_key_count": 84,
+  "expected_test_run_key_sha256": "80c473da82815da68ac67332ab5f24d794892758fdc1e8d63cdb97fefd7f8d88",
+  "train_subject_count": 28,
+  "test_subject_count": 7,
+  "subject_overlap": [],
+  "subject_overlap_count": 0,
+  "preprocessing": {
+    "requested_feature_k": 50,
+    "post_variance_feature_count": 51,
+    "effective_feature_k": 50,
+    "selected_feature_names": [
+      "performance_cumulative_cumulative_airspeed_error_kts",
+      "performance_cumulative_cumulative_glideslope_error_deg",
+      "performance_cumulative_cumulative_localizer_error_deg",
+      "performance_cumulative_cumulative_total_error",
+      "performance_perfmetric_airspeed_error_kts_iqr",
+      "performance_perfmetric_airspeed_error_kts_kurtosis",
+      "performance_perfmetric_airspeed_error_kts_max",
+      "performance_perfmetric_airspeed_error_kts_mean",
+      "performance_perfmetric_airspeed_error_kts_median",
+      "performance_perfmetric_airspeed_error_kts_min",
+      "performance_perfmetric_airspeed_error_kts_range",
+      "performance_perfmetric_airspeed_error_kts_rms",
+      "performance_perfmetric_airspeed_error_kts_skew",
+      "performance_perfmetric_airspeed_error_kts_slope",
+      "performance_perfmetric_airspeed_error_kts_std",
+      "performance_perfmetric_duration",
+      "performance_perfmetric_glideslope_error_deg_iqr",
+      "performance_perfmetric_glideslope_error_deg_kurtosis",
+      "performance_perfmetric_glideslope_error_deg_mean",
+      "performance_perfmetric_glideslope_error_deg_median",
+      "performance_perfmetric_glideslope_error_deg_min",
+      "performance_perfmetric_glideslope_error_deg_range",
+      "performance_perfmetric_glideslope_error_deg_rms",
+      "performance_perfmetric_glideslope_error_deg_skew",
+      "performance_perfmetric_glideslope_error_deg_slope",
+      "performance_perfmetric_glideslope_error_deg_std",
+      "performance_perfmetric_localizer_error_deg_iqr",
+      "performance_perfmetric_localizer_error_deg_kurtosis",
+      "performance_perfmetric_localizer_error_deg_max",
+      "performance_perfmetric_localizer_error_deg_mean",
+      "performance_perfmetric_localizer_error_deg_median",
+      "performance_perfmetric_localizer_error_deg_min",
+      "performance_perfmetric_localizer_error_deg_range",
+      "performance_perfmetric_localizer_error_deg_rms",
+      "performance_perfmetric_localizer_error_deg_skew",
+      "performance_perfmetric_localizer_error_deg_slope",
+      "performance_perfmetric_localizer_error_deg_std",
+      "performance_perfmetric_sample_count",
+      "performance_perfmetric_sampling_rate_estimate",
+      "performance_perfmetric_total_error_iqr",
+      "performance_perfmetric_total_error_kurtosis",
+      "performance_perfmetric_total_error_max",
+      "performance_perfmetric_total_error_mean",
+      "performance_perfmetric_total_error_median",
+      "performance_perfmetric_total_error_min",
+      "performance_perfmetric_total_error_range",
+      "performance_perfmetric_total_error_rms",
+      "performance_perfmetric_total_error_skew",
+      "performance_perfmetric_total_error_slope",
+      "performance_perfmetric_total_error_std"
+    ],
+    "missing_indicator_feature_names": [],
+    "imputer_input_feature_count": 59,
+    "imputer_output_feature_count": 59,
+    "preprocessing_state_bytes": 2168,
+    "fit_scope": "outer-training only"
+  },
+  "frozen_config_matching": "PASS",
+  "outer_test_feature_access_after_training_fit": true,
+  "outer_test_used_for_fitting_or_selection": false,
+  "inner_cv_executed": false,
+  "hyperparameter_search_executed": false,
+  "seed_selection_executed": false,
+  "leakage_audit_result": "PASS",
+  "dimension": 5000,
+  "levels": 51,
+  "hybrid_structure": {
+    "centroids_per_class": 3,
+    "epochs": 1,
+    "learning_rate": 0.1,
+    "margin_threshold": 0.0
+  },
+  "model_info": {
+    "initialization": {
+      "class_counts": {
+        "0": 83,
+        "1": 85,
+        "2": 83,
+        "3": 84
+      },
+      "cluster_counts": {
+        "0": [
+          16,
+          24,
+          43
+        ],
+        "1": [
+          34,
+          31,
+          20
+        ],
+        "2": [
+          37,
+          20,
+          26
+        ],
+        "3": [
+          30,
+          28,
+          26
+        ]
+      },
+      "centroids_per_class": 3
+    },
+    "updates": 176,
+    "epochs": 1
+  },
+  "classification_metrics": {
+    "macro_f1": 0.4687091503267974,
+    "balanced_accuracy": 0.46428571428571425,
+    "accuracy": 0.4642857142857143,
+    "severe_error_rate": 0.16666666666666666,
+    "per_class_recall": {
+      "0": 0.38095238095238093,
+      "1": 0.3333333333333333,
+      "2": 0.38095238095238093,
+      "3": 0.7619047619047619
+    },
+    "confusion_matrix": [
+      [
+        8,
+        3,
+        8,
+        2
+      ],
+      [
+        2,
+        7,
+        9,
+        3
+      ],
+      [
+        1,
+        9,
+        8,
+        3
+      ],
+      [
+        0,
+        0,
+        5,
+        16
+      ]
+    ],
+    "training_seconds": 0.5855603000090923,
+    "inference_seconds": 0.0028738999972119927,
+    "preprocessing_seconds": 0.0046418999845627695,
+    "encoding_seconds": 0.6781367999792565
+  },
+  "encoding": {
+    "encoding_seconds": 0.6781367999792565,
+    "quantizer_state_sha256": "3969230d82d2f1c968415ed50a8f3250c29160a9d8a647d1a5879039ea2a2aba",
+    "codebook_hashes": {
+      "identity_codebook_sha256": "fbeb16127c0b5df49cd8900f7856a579ee733b0f0765943cb40a5a3686738c8e",
+      "level_codebook_sha256": "1e803e53aeb395885db3eed271636562bc2fffb15bdb204e89befc78678e55a3",
+      "tie_vector_sha256": "1b9dc0808c57109a30d8a86e248dce3a553fe6a139e1de04d861cd3911a04d8b"
+    },
+    "work_dimension": 10000,
+    "classification_dimension_prefix": 5000,
+    "regression_dimension": 10000
+  },
+  "artifact_hashes": {
+    "predictions": "ddf421972d14697a4d878e9a7306c8fceacc3f51ee07cfa3bbb21f592bbd83f5",
+    "metrics": "49f71a5e341ddb085cf2136beac3e88f001b3c147892b962f83a8f66a8c855c7"
+  },
+  "checkpoint_integrity": "PASS",
+  "result": "PASS",
+  "checkpoint_payload_sha256": "faf1df0396f5147517b5b658a57de40696dd28ae5f78b6f4d2490a11fbb04070"
+}

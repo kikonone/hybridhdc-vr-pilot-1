@@ -1,0 +1,339 @@
+{
+  "manifest": "phase10_selected_paper_tables",
+  "artifact_count": 14,
+  "tables": [
+    {
+      "table_id": "T01",
+      "title": "Dataset, subjects, modalities and feature statistics",
+      "thesis_section": "Methods/Data",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\manifests\\dataset_manifest.json"
+      ],
+      "source_hashes": [
+        "6f1c7442ab7b0a291df6ce445246e3ce8715c6eac1b0b63fd5795d768db25b7f"
+      ],
+      "task": "descriptive",
+      "metrics": "registered task metrics",
+      "direction": "N/A",
+      "precision_rule": "machine CSV full precision; display: 3 decimals for metrics/effects, 4 decimals for p-values; p<0.0001 when smaller",
+      "uncertainty_format": "estimate [95% subject bootstrap CI] where registered",
+      "significance_format": "raw p and Holm-adjusted p; never equate nonsignificance with equivalence",
+      "footnotes": "subject is the inferential unit; regression is bounded difficulty-induced workload proxy regression",
+      "output_csv": "final_paper_tables/t01.csv",
+      "output_markdown": "final_paper_tables/t01.md",
+      "optional_output_latex": "final_paper_tables/t01.tex",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "table_id": "T02",
+      "title": "Traditional classification model comparison",
+      "thesis_section": "Results/Baselines",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\results\\summaries\\phase04a_final_classifier_comparison.csv",
+        "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\results\\summaries\\classification_baseline_summary.csv"
+      ],
+      "source_hashes": [
+        "27f331244a6e8fd18652b5c3aed4bd05d976f0662947e337cd591e27831c1084",
+        "27f331244a6e8fd18652b5c3aed4bd05d976f0662947e337cd591e27831c1084"
+      ],
+      "task": "classification",
+      "metrics": "registered task metrics",
+      "direction": "higher_is_better",
+      "precision_rule": "machine CSV full precision; display: 3 decimals for metrics/effects, 4 decimals for p-values; p<0.0001 when smaller",
+      "uncertainty_format": "estimate [95% subject bootstrap CI] where registered",
+      "significance_format": "raw p and Holm-adjusted p; never equate nonsignificance with equivalence",
+      "footnotes": "subject is the inferential unit; regression is bounded difficulty-induced workload proxy regression",
+      "output_csv": "final_paper_tables/t02.csv",
+      "output_markdown": "final_paper_tables/t02.md",
+      "optional_output_latex": "final_paper_tables/t02.tex",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "table_id": "T03",
+      "title": "Traditional regression model comparison",
+      "thesis_section": "Results/Baselines",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\summaries\\phase04b_final_regressor_comparison.csv"
+      ],
+      "source_hashes": [
+        "b8bb4e8b4323a2f5234ed3f4f4a5a84a831158c17ebb0be4b050e0b729f50f3c"
+      ],
+      "task": "regression",
+      "metrics": "registered task metrics",
+      "direction": "lower_is_better",
+      "precision_rule": "machine CSV full precision; display: 3 decimals for metrics/effects, 4 decimals for p-values; p<0.0001 when smaller",
+      "uncertainty_format": "estimate [95% subject bootstrap CI] where registered",
+      "significance_format": "raw p and Holm-adjusted p; never equate nonsignificance with equivalence",
+      "footnotes": "subject is the inferential unit; regression is bounded difficulty-induced workload proxy regression",
+      "output_csv": "final_paper_tables/t03.csv",
+      "output_markdown": "final_paper_tables/t03.md",
+      "optional_output_latex": "final_paper_tables/t03.tex",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "table_id": "T04",
+      "title": "Four HDC variants and regression-head comparison",
+      "thesis_section": "Results/HDC",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\summaries\\phase06_final_hdc_variant_comparison.csv",
+        "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\summaries\\phase06_hdc_regression_head_comparison.csv"
+      ],
+      "source_hashes": [
+        "a5b0b03b71ab8ff9389ac6afeed7d244f7b480f2dcc267e55eaf32dc0cac1a98",
+        "8b7ef9195b848eb384f329b9c5d438472bd0ceb0cf870e1a884c9b7ec4fbc06f"
+      ],
+      "task": "dual_task",
+      "metrics": "registered task metrics",
+      "direction": "metric_specific",
+      "precision_rule": "machine CSV full precision; display: 3 decimals for metrics/effects, 4 decimals for p-values; p<0.0001 when smaller",
+      "uncertainty_format": "estimate [95% subject bootstrap CI] where registered",
+      "significance_format": "raw p and Holm-adjusted p; never equate nonsignificance with equivalence",
+      "footnotes": "subject is the inferential unit; regression is bounded difficulty-induced workload proxy regression",
+      "output_csv": "final_paper_tables/t04.csv",
+      "output_markdown": "final_paper_tables/t04.md",
+      "optional_output_latex": "final_paper_tables/t04.tex",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "table_id": "T05",
+      "title": "Frozen best dual-task HDC configuration",
+      "thesis_section": "Results/HDC",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\reports\\phase06_final_summary.md"
+      ],
+      "source_hashes": [
+        "d2318fd59cf248f50e4de1ad57489d46849bf1f02b9f4b39619265c8a511a71d"
+      ],
+      "task": "dual_task",
+      "metrics": "registered task metrics",
+      "direction": "metric_specific",
+      "precision_rule": "machine CSV full precision; display: 3 decimals for metrics/effects, 4 decimals for p-values; p<0.0001 when smaller",
+      "uncertainty_format": "estimate [95% subject bootstrap CI] where registered",
+      "significance_format": "raw p and Holm-adjusted p; never equate nonsignificance with equivalence",
+      "footnotes": "subject is the inferential unit; regression is bounded difficulty-induced workload proxy regression",
+      "output_csv": "final_paper_tables/t05.csv",
+      "output_markdown": "final_paper_tables/t05.md",
+      "optional_output_latex": "final_paper_tables/t05.tex",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "table_id": "T06",
+      "title": "Best HDC versus traditional baselines",
+      "thesis_section": "Results/Comparison",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\results\\summaries\\phase05_vs_phase04a_classification_comparison.csv",
+        "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\results\\summaries\\phase05_vs_phase04b_regression_comparison.csv"
+      ],
+      "source_hashes": [
+        "95a969587293808d67f2f6ca99608167bea055bbf864c22ca96bcc94e738c7f1",
+        "beaf215f89115cba7177de33569b7d9eb9ce75a588d56df8e62f8f42c5d59d71"
+      ],
+      "task": "dual_task",
+      "metrics": "registered task metrics",
+      "direction": "metric_specific",
+      "precision_rule": "machine CSV full precision; display: 3 decimals for metrics/effects, 4 decimals for p-values; p<0.0001 when smaller",
+      "uncertainty_format": "estimate [95% subject bootstrap CI] where registered",
+      "significance_format": "raw p and Holm-adjusted p; never equate nonsignificance with equivalence",
+      "footnotes": "subject is the inferential unit; regression is bounded difficulty-induced workload proxy regression",
+      "output_csv": "final_paper_tables/t06.csv",
+      "output_markdown": "final_paper_tables/t06.md",
+      "optional_output_latex": "final_paper_tables/t06.tex",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "table_id": "T07",
+      "title": "Unimodal classification and regression contribution",
+      "thesis_section": "Results/Modality",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\summaries\\phase07_unimodal_classification_comparison.csv",
+        "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\summaries\\phase07_unimodal_regression_comparison.csv"
+      ],
+      "source_hashes": [
+        "5e2314acea52f893d2dea3ce34cb15fc385c61c398d958a49da1f375edcfe648",
+        "0a710c1b30fa728d63a87f7cb2d3fbf0081a28d0283d447fe6c6575097e67b4b"
+      ],
+      "task": "dual_task",
+      "metrics": "registered task metrics",
+      "direction": "metric_specific",
+      "precision_rule": "machine CSV full precision; display: 3 decimals for metrics/effects, 4 decimals for p-values; p<0.0001 when smaller",
+      "uncertainty_format": "estimate [95% subject bootstrap CI] where registered",
+      "significance_format": "raw p and Holm-adjusted p; never equate nonsignificance with equivalence",
+      "footnotes": "subject is the inferential unit; regression is bounded difficulty-induced workload proxy regression",
+      "output_csv": "final_paper_tables/t07.csv",
+      "output_markdown": "final_paper_tables/t07.md",
+      "optional_output_latex": "final_paper_tables/t07.tex",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "table_id": "T08",
+      "title": "Multimodal fusion results",
+      "thesis_section": "Results/Fusion",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\results\\summaries\\phase08_fusion_condition_comparison.csv",
+        "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\results\\summaries\\phase08_fusion_increment_analysis.csv"
+      ],
+      "source_hashes": [
+        "03c90b6b1ad614cce37fb9f88ef7373ac19c63eb08bfce9bf8aadc1a0fc4d7f8",
+        "31e57e71a0da80697655b376c1b09926480747415ff9f78447120d4903c661fc"
+      ],
+      "task": "dual_task",
+      "metrics": "registered task metrics",
+      "direction": "metric_specific",
+      "precision_rule": "machine CSV full precision; display: 3 decimals for metrics/effects, 4 decimals for p-values; p<0.0001 when smaller",
+      "uncertainty_format": "estimate [95% subject bootstrap CI] where registered",
+      "significance_format": "raw p and Holm-adjusted p; never equate nonsignificance with equivalence",
+      "footnotes": "subject is the inferential unit; regression is bounded difficulty-induced workload proxy regression",
+      "output_csv": "final_paper_tables/t08.csv",
+      "output_markdown": "final_paper_tables/t08.md",
+      "optional_output_latex": "final_paper_tables/t08.tex",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "table_id": "T09",
+      "title": "Performance shortcut analysis",
+      "thesis_section": "Results/Shortcut",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\results\\summaries\\phase08_shortcut_evidence_matrix.csv",
+        "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\results\\summaries\\phase08_flight_behavioral_sensitivity.csv"
+      ],
+      "source_hashes": [
+        "8fb420a6ab0635d64827b6e4439526b16a922ceef4572b46982488d49e4231e6",
+        "0b1859577077856cddafa2292af81cfdb1915a76139fef9e1a869c32e794835e"
+      ],
+      "task": "dual_task",
+      "metrics": "registered task metrics",
+      "direction": "metric_specific",
+      "precision_rule": "machine CSV full precision; display: 3 decimals for metrics/effects, 4 decimals for p-values; p<0.0001 when smaller",
+      "uncertainty_format": "estimate [95% subject bootstrap CI] where registered",
+      "significance_format": "raw p and Holm-adjusted p; never equate nonsignificance with equivalence",
+      "footnotes": "subject is the inferential unit; regression is bounded difficulty-induced workload proxy regression",
+      "output_csv": "final_paper_tables/t09.csv",
+      "output_markdown": "final_paper_tables/t09.md",
+      "optional_output_latex": "final_paper_tables/t09.tex",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "table_id": "T10",
+      "title": "Missing-modality robustness",
+      "thesis_section": "Results/Robustness",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_missing_modality_robustness.csv",
+        "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_missing_modality_deltas.csv"
+      ],
+      "source_hashes": [
+        "1b418d247dcb51b6d24e3f1f10f93169fdf62f1ffb193d023b4d236dbb89feff",
+        "0ec5aaae39c0813f404e0d23c31e2cc5e678e6645b29d4000ebedaea7ffb9d26"
+      ],
+      "task": "dual_task",
+      "metrics": "registered task metrics",
+      "direction": "metric_specific",
+      "precision_rule": "machine CSV full precision; display: 3 decimals for metrics/effects, 4 decimals for p-values; p<0.0001 when smaller",
+      "uncertainty_format": "estimate [95% subject bootstrap CI] where registered",
+      "significance_format": "raw p and Holm-adjusted p; never equate nonsignificance with equivalence",
+      "footnotes": "subject is the inferential unit; regression is bounded difficulty-induced workload proxy regression",
+      "output_csv": "final_paper_tables/t10.csv",
+      "output_markdown": "final_paper_tables/t10.md",
+      "optional_output_latex": "final_paper_tables/t10.tex",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "table_id": "T11",
+      "title": "35-subject LOSO stability",
+      "thesis_section": "Results/Generalization",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_loso_subject_stability.csv",
+        "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_loso_subject_metrics.csv"
+      ],
+      "source_hashes": [
+        "488ff4a9f5fed9de10d33230887e777af60ab8eb58e0d6a2837503a56822fe59",
+        "a0eb97bb55f037fd7cc32050f00419c4f05e0686fd661a74b8bc41efec52a3c4"
+      ],
+      "task": "dual_task",
+      "metrics": "registered task metrics",
+      "direction": "metric_specific",
+      "precision_rule": "machine CSV full precision; display: 3 decimals for metrics/effects, 4 decimals for p-values; p<0.0001 when smaller",
+      "uncertainty_format": "estimate [95% subject bootstrap CI] where registered",
+      "significance_format": "raw p and Holm-adjusted p; never equate nonsignificance with equivalence",
+      "footnotes": "subject is the inferential unit; regression is bounded difficulty-induced workload proxy regression",
+      "output_csv": "final_paper_tables/t11.csv",
+      "output_markdown": "final_paper_tables/t11.md",
+      "optional_output_latex": "final_paper_tables/t11.tex",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "table_id": "T12",
+      "title": "Primary statistical tests and effect sizes",
+      "thesis_section": "Results/Statistics",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\summaries\\phase07_wilcoxon_holm_tests.csv",
+        "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\summaries\\phase07_effect_sizes.csv",
+        "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\results\\summaries\\phase08_pairwise_statistics.csv",
+        "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\summaries\\phase07_friedman_tests.csv"
+      ],
+      "source_hashes": [
+        "2b0bca9c0052b0c6b850adf0d221d0079f322400d044345b58ae1d7497619f1a",
+        "006e1060181389b5ce90ac6b2132fb694ca7295acb84b38c6047efe6b985f845",
+        "77200f498f10440c210be478bb700d52248f16c9633035fe8c7dd677224a51a0",
+        "3519923ba9863a9d40f173ca5498d22ee736af569eac08db8f2de01f246b52f4"
+      ],
+      "task": "dual_task",
+      "metrics": "registered task metrics",
+      "direction": "metric_specific",
+      "precision_rule": "machine CSV full precision; display: 3 decimals for metrics/effects, 4 decimals for p-values; p<0.0001 when smaller",
+      "uncertainty_format": "estimate [95% subject bootstrap CI] where registered",
+      "significance_format": "raw p and Holm-adjusted p; never equate nonsignificance with equivalence",
+      "footnotes": "subject is the inferential unit; regression is bounded difficulty-induced workload proxy regression",
+      "output_csv": "final_paper_tables/t12.csv",
+      "output_markdown": "final_paper_tables/t12.md",
+      "optional_output_latex": "final_paper_tables/t12.tex",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "table_id": "T13",
+      "title": "RQ-evidence-conclusion summary",
+      "thesis_section": "Discussion/Synthesis",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\rq_evidence_conclusion_matrix\\phase10_rq_evidence_conclusion_draft.csv"
+      ],
+      "source_hashes": [
+        "4901192f286a5ff382e2421440669dd5a2973ee473c15dde6e604f97a2893d70"
+      ],
+      "task": "dual_task",
+      "metrics": "registered task metrics",
+      "direction": "N/A",
+      "precision_rule": "machine CSV full precision; display: 3 decimals for metrics/effects, 4 decimals for p-values; p<0.0001 when smaller",
+      "uncertainty_format": "estimate [95% subject bootstrap CI] where registered",
+      "significance_format": "raw p and Holm-adjusted p; never equate nonsignificance with equivalence",
+      "footnotes": "subject is the inferential unit; regression is bounded difficulty-induced workload proxy regression",
+      "output_csv": "final_paper_tables/t13.csv",
+      "output_markdown": "final_paper_tables/t13.md",
+      "optional_output_latex": "final_paper_tables/t13.tex",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "table_id": "T14",
+      "title": "Generalization scope and limitations",
+      "thesis_section": "Discussion/Limitations",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\reports\\phase09_generalization_boundaries.md",
+        "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\results\\summaries\\phase08_generalization_evidence_limits.csv"
+      ],
+      "source_hashes": [
+        "5ebff7e1100c554ce390d5665e4a6cafea661c4b0ab693c0f5079039a98e24a9",
+        "075c4b6deeba77f102eb25920ef8407611f7da844c8347f52b7acada3a4a123b"
+      ],
+      "task": "dual_task",
+      "metrics": "registered task metrics",
+      "direction": "N/A",
+      "precision_rule": "machine CSV full precision; display: 3 decimals for metrics/effects, 4 decimals for p-values; p<0.0001 when smaller",
+      "uncertainty_format": "estimate [95% subject bootstrap CI] where registered",
+      "significance_format": "raw p and Holm-adjusted p; never equate nonsignificance with equivalence",
+      "footnotes": "subject is the inferential unit; regression is bounded difficulty-induced workload proxy regression",
+      "output_csv": "final_paper_tables/t14.csv",
+      "output_markdown": "final_paper_tables/t14.md",
+      "optional_output_latex": "final_paper_tables/t14.tex",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    }
+  ],
+  "status": "PASS"
+}

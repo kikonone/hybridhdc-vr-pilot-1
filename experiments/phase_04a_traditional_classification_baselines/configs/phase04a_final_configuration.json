@@ -1,0 +1,39 @@
+{
+  "frozen_phase03_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "dataset": "PRIMARY_WITHOUT_PERFORMANCE",
+  "samples": 419,
+  "subjects": 35,
+  "primary_features": 1176,
+  "outer_cv": "frozen 5-fold subject-wise",
+  "inner_cv": "3-fold GroupKFold(subject_id)",
+  "primary_metric": "Macro-F1",
+  "gradient_boosting_grid_policy": "COMPUTE_CONSTRAINED_COMPACT_GRID_V2",
+  "gradient_boosting_grid": {
+    "k": [
+      100,
+      200
+    ],
+    "n_estimators": [
+      100,
+      200
+    ],
+    "learning_rate": [
+      0.05,
+      0.1
+    ],
+    "max_depth": [
+      2
+    ]
+  },
+  "completed_models": [
+    "Logistic Regression",
+    "Linear SVM",
+    "RBF SVM",
+    "Random Forest",
+    "KNN",
+    "Gradient Boosting"
+  ],
+  "xgboost": "OPTIONAL / NOT RUN",
+  "best_traditional_classifier": "Gradient Boosting",
+  "best_oof_macro_f1": 0.9356075023489925
+}

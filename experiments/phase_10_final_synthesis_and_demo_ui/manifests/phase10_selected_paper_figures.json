@@ -1,0 +1,268 @@
+{
+  "manifest": "phase10_selected_paper_figures",
+  "artifact_count": 13,
+  "figures": [
+    {
+      "figure_id": "F01",
+      "title": "Project dual-task experimental workflow",
+      "task": "dual_task",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\最新完整实验计划_分类回归双任务.md"
+      ],
+      "source_hashes": [
+        "1fde8fca7cb413bc49e5ab694eda12e5a3bdf6a960fb0114e6eafe4ced18559c"
+      ],
+      "png_output": "final_paper_figures/f01.png",
+      "pdf_output": "final_paper_figures/f01.pdf",
+      "same_data_source_required": true,
+      "subject_bootstrap_ci_required_where_available": true,
+      "truncated_axis_prohibited": true,
+      "loso_label": "held-out-subject generalization only",
+      "causal_feature_claim_prohibited": true,
+      "status": "NEW_DIAGRAM_REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "figure_id": "F02",
+      "title": "Traditional classification comparison",
+      "task": "classification",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\figures\\classification_baseline_comparison.pdf"
+      ],
+      "source_hashes": [
+        "02cb8af4f6599d8d9882a20b006523038b11e36fd644d2ca526bab2028b57d85"
+      ],
+      "png_output": "final_paper_figures/f02.png",
+      "pdf_output": "final_paper_figures/f02.pdf",
+      "same_data_source_required": true,
+      "subject_bootstrap_ci_required_where_available": true,
+      "truncated_axis_prohibited": true,
+      "loso_label": "held-out-subject generalization only",
+      "causal_feature_claim_prohibited": true,
+      "status": "UNIFIED_REDRAW_REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "figure_id": "F03",
+      "title": "Traditional regression comparison",
+      "task": "regression",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\figures\\phase05_regression_vs_traditional_baselines.pdf"
+      ],
+      "source_hashes": [
+        "59e0ea6dd24e8f139bb779151d868c25ff4b71b7be03df30356a13f534a280d7"
+      ],
+      "png_output": "final_paper_figures/f03.png",
+      "pdf_output": "final_paper_figures/f03.pdf",
+      "same_data_source_required": true,
+      "subject_bootstrap_ci_required_where_available": true,
+      "truncated_axis_prohibited": true,
+      "loso_label": "held-out-subject generalization only",
+      "causal_feature_claim_prohibited": true,
+      "status": "UNIFIED_REDRAW_REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "figure_id": "F04",
+      "title": "HDC variant comparison",
+      "task": "dual_task",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\figures\\phase06_classification_macro_f1_by_variant_dimension.png",
+        "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\figures\\phase06_regression_head_comparison.png"
+      ],
+      "source_hashes": [
+        "9501ee61c8523d570abc6f408f3fa3cdfaba13fb8f21a9ad909d5da8d6afd039",
+        "2df9ab6514845bef3c9f44c3094bdc96c04fe25d4420510dd88be8fd0c2726c4"
+      ],
+      "png_output": "final_paper_figures/f04.png",
+      "pdf_output": "final_paper_figures/f04.pdf",
+      "same_data_source_required": true,
+      "subject_bootstrap_ci_required_where_available": true,
+      "truncated_axis_prohibited": true,
+      "loso_label": "held-out-subject generalization only",
+      "causal_feature_claim_prohibited": true,
+      "status": "UNIFIED_REDRAW_REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "figure_id": "F05",
+      "title": "Best HDC classification confusion matrix",
+      "task": "classification",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\figures\\phase07_classification_confusion_matrix_panel.pdf",
+        "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\figures\\best_traditional_classifier_confusion_matrix.pdf"
+      ],
+      "source_hashes": [
+        "da7eba74133a754e26eb6276319182f92f92968a65e283ee5dc756228816fc50",
+        "f6e8a02b03a82cef76f8e869f81e8d2677540fa955b3fcb9501d10ee3b8f4e26"
+      ],
+      "png_output": "final_paper_figures/f05.png",
+      "pdf_output": "final_paper_figures/f05.pdf",
+      "same_data_source_required": true,
+      "subject_bootstrap_ci_required_where_available": true,
+      "truncated_axis_prohibited": true,
+      "loso_label": "held-out-subject generalization only",
+      "causal_feature_claim_prohibited": true,
+      "status": "UNIFIED_REDRAW_REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "figure_id": "F06",
+      "title": "Best HDC regression prediction or residual plot",
+      "task": "regression",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\figures\\phase07_regression_residual_panel.pdf"
+      ],
+      "source_hashes": [
+        "e3d7d0cdede44924e8e9e6d707f4951cf127442054fc79519d0420ea69817ed9"
+      ],
+      "png_output": "final_paper_figures/f06.png",
+      "pdf_output": "final_paper_figures/f06.pdf",
+      "same_data_source_required": true,
+      "subject_bootstrap_ci_required_where_available": true,
+      "truncated_axis_prohibited": true,
+      "loso_label": "held-out-subject generalization only",
+      "causal_feature_claim_prohibited": true,
+      "status": "UNIFIED_REDRAW_REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "figure_id": "F07",
+      "title": "Unimodal contribution",
+      "task": "dual_task",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\figures\\phase07_unimodal_vs_multimodal_deltas.pdf",
+        "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\figures\\phase07_classification_modality_ranking.pdf"
+      ],
+      "source_hashes": [
+        "1c6f2e4c0d4e66bba476434c840599cbe597d856114da4f111bd1e6575fd1335",
+        "bc86b61e1506473db9d429766da8bb54cdc95302f8e6bda6c61f64614cc780f0"
+      ],
+      "png_output": "final_paper_figures/f07.png",
+      "pdf_output": "final_paper_figures/f07.pdf",
+      "same_data_source_required": true,
+      "subject_bootstrap_ci_required_where_available": true,
+      "truncated_axis_prohibited": true,
+      "loso_label": "held-out-subject generalization only",
+      "causal_feature_claim_prohibited": true,
+      "status": "UNIFIED_REDRAW_REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "figure_id": "F08",
+      "title": "Fusion gain",
+      "task": "dual_task",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\figures\\phase08_fusion_increment_effects.pdf"
+      ],
+      "source_hashes": [
+        "a5d868294fa15aa31eff0860597d2237cd8f8edad8707575bd35b6d8ccd9f290"
+      ],
+      "png_output": "final_paper_figures/f08.png",
+      "pdf_output": "final_paper_figures/f08.pdf",
+      "same_data_source_required": true,
+      "subject_bootstrap_ci_required_where_available": true,
+      "truncated_axis_prohibited": true,
+      "loso_label": "held-out-subject generalization only",
+      "causal_feature_claim_prohibited": true,
+      "status": "UNIFIED_REDRAW_REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "figure_id": "F09",
+      "title": "Shortcut analysis",
+      "task": "dual_task",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\figures\\phase08_shortcut_sensitivity.pdf"
+      ],
+      "source_hashes": [
+        "e67aa7a0358b07406bcc5a2cecca0b5609fed5db7f0c2368d2e4c17bd10ae634"
+      ],
+      "png_output": "final_paper_figures/f09.png",
+      "pdf_output": "final_paper_figures/f09.pdf",
+      "same_data_source_required": true,
+      "subject_bootstrap_ci_required_where_available": true,
+      "truncated_axis_prohibited": true,
+      "loso_label": "held-out-subject generalization only",
+      "causal_feature_claim_prohibited": true,
+      "status": "UNIFIED_REDRAW_REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "figure_id": "F10",
+      "title": "Missing-modality robustness",
+      "task": "dual_task",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\figures\\phase09_missing_modality_model_comparison.pdf",
+        "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\figures\\phase09_missing_modality_classification_curve.pdf"
+      ],
+      "source_hashes": [
+        "46262e1ad26765a739eb8ec1583c022c266c1acc13bdccf86370d4cecf35b767",
+        "f6c7d81ab1ae967c29f6da8f7d9405b68ba0d07daadfbe24cf253ce3cab18637"
+      ],
+      "png_output": "final_paper_figures/f10.png",
+      "pdf_output": "final_paper_figures/f10.pdf",
+      "same_data_source_required": true,
+      "subject_bootstrap_ci_required_where_available": true,
+      "truncated_axis_prohibited": true,
+      "loso_label": "held-out-subject generalization only",
+      "causal_feature_claim_prohibited": true,
+      "status": "UNIFIED_REDRAW_REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "figure_id": "F11",
+      "title": "LOSO subject stability",
+      "task": "dual_task",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\figures\\phase09_loso_stability_distribution.pdf",
+        "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\figures\\phase09_loso_subject_classification.pdf"
+      ],
+      "source_hashes": [
+        "6d560e51ed36289626120ce6eb02269d0176907633bb88fe191146ef762150a9",
+        "6da312f26b1c9daddd5b47bf8400cc1caa529ba3f121626989e67c1345eda57d"
+      ],
+      "png_output": "final_paper_figures/f11.png",
+      "pdf_output": "final_paper_figures/f11.pdf",
+      "same_data_source_required": true,
+      "subject_bootstrap_ci_required_where_available": true,
+      "truncated_axis_prohibited": true,
+      "loso_label": "held-out-subject generalization only",
+      "causal_feature_claim_prohibited": true,
+      "status": "UNIFIED_REDRAW_REQUIRED_NOT_EXECUTED"
+    },
+    {
+      "figure_id": "F12",
+      "title": "Performance-time-memory Pareto",
+      "task": "dual_task",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\figures\\phase06_performance_time_pareto.png",
+        "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\figures\\phase05_accuracy_efficiency_tradeoff.pdf"
+      ],
+      "source_hashes": [
+        "db8e215153eb63555579fd251b30dbbc464c789fb430a05ad3fc002e847237bf",
+        "6c0c66c6c169aed3d15051b7b9cacd720676b95b6cfbd07be57a7acc9946b2e7"
+      ],
+      "png_output": "final_paper_figures/f12.png",
+      "pdf_output": "final_paper_figures/f12.pdf",
+      "same_data_source_required": true,
+      "subject_bootstrap_ci_required_where_available": true,
+      "truncated_axis_prohibited": true,
+      "loso_label": "held-out-subject generalization only",
+      "causal_feature_claim_prohibited": true,
+      "status": "SOURCE_PAIR_SELECTED"
+    },
+    {
+      "figure_id": "F13",
+      "title": "Primary subject-level effects or confidence intervals",
+      "task": "dual_task",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\figures\\phase08_subject_level_effects.pdf",
+        "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\figures\\phase07_subject_level_performance.pdf"
+      ],
+      "source_hashes": [
+        "0fdb7ea15bacf21c3b4bee6e42dcaa707f5d7c196d6fc3aee099e740b753aa33",
+        "6464dc45440b6c480584b42c10ce9aadf58403aca3bb44fb359b994ebd4fc7d3"
+      ],
+      "png_output": "final_paper_figures/f13.png",
+      "pdf_output": "final_paper_figures/f13.pdf",
+      "same_data_source_required": true,
+      "subject_bootstrap_ci_required_where_available": true,
+      "truncated_axis_prohibited": true,
+      "loso_label": "held-out-subject generalization only",
+      "causal_feature_claim_prohibited": true,
+      "status": "UNIFIED_REDRAW_REQUIRED_NOT_EXECUTED"
+    }
+  ],
+  "status": "PASS"
+}

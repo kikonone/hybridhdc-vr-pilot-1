@@ -1,0 +1,53 @@
+{
+  "phase": "06",
+  "audit": "quick_screen_artifact",
+  "timestamp_utc": "2026-08-20T07:09:04.924647+00:00",
+  "result": "PASS",
+  "checks": {
+    "manifest_result_pass": true,
+    "manifest_artifacts_reverified": true,
+    "contract_freeze_pass": true,
+    "phase05_amendment_pass": true,
+    "unit_tests_pass": true,
+    "all_folds_audit_pass": true,
+    "notebook_persistence_pass": true,
+    "candidate_row_counts_pass": true,
+    "all_best_configs_reproducible": true,
+    "primary_checksum_pass": true,
+    "frozen_fold_checksum_pass": true,
+    "historical_upstream_unchanged": true,
+    "outer_test_feature_access_no": true,
+    "outer_test_label_access_no": true,
+    "outer_test_predictions_no": true,
+    "phase06_prediction_and_oof_directories_empty": true,
+    "similarity_regression_no": true,
+    "ridge_readout_no": true,
+    "final_confirmation_no": true
+  },
+  "candidate_row_checks": {
+    "onlinehd": {
+      "actual": 120,
+      "expected": 120,
+      "result": "PASS"
+    },
+    "multicentroid": {
+      "actual": 30,
+      "expected": 30,
+      "result": "PASS"
+    },
+    "hybrid": {
+      "actual": 160,
+      "expected": 160,
+      "result": "PASS"
+    }
+  },
+  "manifest_artifacts_checked": 496,
+  "manifest_mismatches": [],
+  "forbidden_result_files": [],
+  "manifest_evidence": {
+    "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\manifests\\phase06_quick_screen_artifact_manifest.json",
+    "file_size_bytes": 123866,
+    "sha256": "ce9cbd59d2adf5891597cd55b7a5bfead336550698625345352585032ebcc654"
+  },
+  "self_exclusion": "This independent verification audit is intentionally external to the manifest it verifies."
+}

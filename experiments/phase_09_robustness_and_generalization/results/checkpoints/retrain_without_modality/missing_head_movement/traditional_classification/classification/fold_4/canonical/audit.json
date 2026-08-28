@@ -1,0 +1,29 @@
+{
+  "phase": "09",
+  "run_identifier": "mm__missing_head_movement__traditional_classification__fold_4__canonical",
+  "status": "PASS",
+  "checks": {
+    "frozen_config_matching": true,
+    "expected_feature_count": true,
+    "removed_modality_feature_intersection_0": true,
+    "expected_test_rows": true,
+    "unique_test_run_key": true,
+    "exact_split_membership": true,
+    "train_test_subject_overlap_0": true,
+    "test_subject_not_used_for_config_selection": true,
+    "no_test_fitted_preprocessing": true,
+    "finite_predictions": true,
+    "classification_prediction_domain": true,
+    "bounded_regression_range": true,
+    "checkpoint_loadable": true,
+    "prediction_artifact_nonempty": true,
+    "performance_feature_count_0": true
+  },
+  "checkpoint_path": "results/checkpoints/retrain_without_modality/missing_head_movement/traditional_classification/classification/fold_4/canonical/checkpoint.json",
+  "checkpoint_sha256": "0695402dfd4a6878ccdb5e90daf53743666c45d9085b0e941c844211b52248ae",
+  "model_sha256": "3036910188aabfc1672a249a342e83a59b973485da924eabccaaadbd4d400a28",
+  "prediction_sha256": "32f9762c9f69c3376470d490b20122daca6fa8d7f422ba4aea8ec31eed70fc86",
+  "metrics_sha256": "83a37bec5b9b7cbccd6630ab0dd35f682974fd3853898a7cd0cdd5d130f3e8e7",
+  "model_training_executed": true,
+  "prediction_generated": true
+}

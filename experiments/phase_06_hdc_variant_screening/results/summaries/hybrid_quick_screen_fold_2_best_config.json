@@ -1,0 +1,32 @@
+{
+  "phase": "06",
+  "variant": "hybrid",
+  "outer_fold": 2,
+  "selection_rule": "phase06_model_selection_rules_v1",
+  "best_config": {
+    "candidate_id": "candidate_005",
+    "variant": "hybrid",
+    "dimension": 2000,
+    "centroids_per_class": 2,
+    "epochs": 3,
+    "learning_rate": 0.05,
+    "margin_threshold": 0.0,
+    "levels": 51,
+    "feature_k": 50,
+    "seed": 42,
+    "canonical_config_json": "{\"centroids_per_class\":2,\"dimension\":2000,\"epochs\":3,\"feature_k\":50,\"learning_rate\":0.05,\"levels\":51,\"margin_threshold\":0.0,\"seed\":42,\"variant\":\"hybrid\"}",
+    "inner_fold_1_macro_f1": 0.8155159742545127,
+    "inner_fold_2_macro_f1": 0.8621576358765994,
+    "inner_fold_3_macro_f1": 0.8771428386880078,
+    "mean_macro_f1": 0.8516054829397067,
+    "std_macro_f1_sample": 0.03213998372244106,
+    "mean_balanced_accuracy": 0.8518944231587909,
+    "mean_accuracy": 0.8519555970536362,
+    "mean_severe_error_rate": 0.032524120759414875,
+    "training_seconds": 0.3724006999982521,
+    "inference_seconds": 0.0014733000134583563,
+    "model_bytes": 64000,
+    "status": "COMPLETE"
+  },
+  "result": "PASS"
+}

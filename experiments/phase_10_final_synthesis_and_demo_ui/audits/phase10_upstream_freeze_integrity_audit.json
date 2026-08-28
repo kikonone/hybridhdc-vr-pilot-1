@@ -1,0 +1,211 @@
+{
+  "audit": "phase10_upstream_freeze_integrity_audit",
+  "phase00_09_baseline_files": 8167,
+  "phase00_09_comparison": {
+    "added": [],
+    "removed": [],
+    "modified": [],
+    "modified_count": 0
+  },
+  "interfaces": [
+    {
+      "phase": "00",
+      "interface_type": "LEGACY_PHASE_NO_FORMAL_FREEZE_INTERFACE",
+      "integrity_basis": "FULL_PHASE_FILE_HASH_BASELINE",
+      "files_covered": 15,
+      "status": "PASS"
+    },
+    {
+      "phase": "01",
+      "interface_type": "LEGACY_PHASE_NO_FORMAL_FREEZE_INTERFACE",
+      "integrity_basis": "FULL_PHASE_FILE_HASH_BASELINE",
+      "files_covered": 31,
+      "status": "PASS"
+    },
+    {
+      "phase": "02",
+      "interface_type": "LEGACY_PHASE_NO_FORMAL_FREEZE_INTERFACE",
+      "integrity_basis": "FULL_PHASE_FILE_HASH_BASELINE",
+      "files_covered": 49,
+      "status": "PASS"
+    },
+    {
+      "phase": "03",
+      "interface_type": "FREEZE_INTERFACE",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\manifests\\fold_manifest.json",
+      "recorded_sha256": "c7f38b38799a3a5a60de87bd9c3c83e9be5a9b1a65e3cdf4bb0ba174a6c6bf50",
+      "actual_sha256": "c7f38b38799a3a5a60de87bd9c3c83e9be5a9b1a65e3cdf4bb0ba174a6c6bf50",
+      "matches_pre_freeze_baseline": true,
+      "initialization_reference_match": true,
+      "status": "PASS"
+    },
+    {
+      "phase": "04A",
+      "interface_type": "FREEZE_INTERFACE",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\phase04a_freeze.json",
+      "recorded_sha256": "34ea8100d9406f9701750a441aa6537323c28bcdb194cb3fd3645c4f7de4a2e1",
+      "actual_sha256": "34ea8100d9406f9701750a441aa6537323c28bcdb194cb3fd3645c4f7de4a2e1",
+      "matches_pre_freeze_baseline": true,
+      "initialization_reference_match": true,
+      "status": "PASS"
+    },
+    {
+      "phase": "04B",
+      "interface_type": "FREEZE_INTERFACE",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\configs\\phase04b_freeze.json",
+      "recorded_sha256": "e2c88b1139a50aab6d47b6477c7bceff74f8443095f9d039ea9af84b715ee790",
+      "actual_sha256": "e2c88b1139a50aab6d47b6477c7bceff74f8443095f9d039ea9af84b715ee790",
+      "matches_pre_freeze_baseline": true,
+      "initialization_reference_match": true,
+      "status": "PASS"
+    },
+    {
+      "phase": "05",
+      "interface_type": "FREEZE_INTERFACE",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\configs\\phase05_freeze.json",
+      "recorded_sha256": "d9d3c78a81e83710108a062671fdc1b86c43ad4e84f27c9b53e1c9acaa837e00",
+      "actual_sha256": "d9d3c78a81e83710108a062671fdc1b86c43ad4e84f27c9b53e1c9acaa837e00",
+      "matches_pre_freeze_baseline": true,
+      "initialization_reference_match": true,
+      "status": "PASS"
+    },
+    {
+      "phase": "06",
+      "interface_type": "FREEZE_INTERFACE",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+      "recorded_sha256": "cd94acdf0bcb463b5f48a7c84110a23059899b6b5bf156131694827d7d7bde66",
+      "actual_sha256": "cd94acdf0bcb463b5f48a7c84110a23059899b6b5bf156131694827d7d7bde66",
+      "matches_pre_freeze_baseline": true,
+      "initialization_reference_match": true,
+      "status": "PASS"
+    },
+    {
+      "phase": "07",
+      "interface_type": "FREEZE_INTERFACE",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\configs\\phase07_freeze.json",
+      "recorded_sha256": "8569b48a8210f0ca1316d5a140d292edb892e2a556ea13ee299e9b97699af492",
+      "actual_sha256": "8569b48a8210f0ca1316d5a140d292edb892e2a556ea13ee299e9b97699af492",
+      "matches_pre_freeze_baseline": true,
+      "initialization_reference_match": true,
+      "status": "PASS"
+    },
+    {
+      "phase": "08",
+      "interface_type": "FREEZE_INTERFACE",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\configs\\phase08_freeze.json",
+      "recorded_sha256": "f36211f1b793d1868573973f8ea46a7bc89aee03759079e268df75d2a4894595",
+      "actual_sha256": "f36211f1b793d1868573973f8ea46a7bc89aee03759079e268df75d2a4894595",
+      "matches_pre_freeze_baseline": true,
+      "initialization_reference_match": true,
+      "status": "PASS"
+    },
+    {
+      "phase": "09",
+      "interface_type": "FREEZE_INTERFACE",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_freeze.json",
+      "recorded_sha256": "7db8b1bf7b0c25b4677613000f63768d9c71bb2d644ba8423214c4902db869c2",
+      "actual_sha256": "cd026df824c210172103b0c60b5090a59cc39eef9b86f3a22fcac0eaac320bd9",
+      "matches_pre_freeze_baseline": true,
+      "initialization_reference_match": false,
+      "status": "PASS"
+    },
+    {
+      "phase": "04A",
+      "interface_type": "LEGACY_FREEZE_WITH_EMBEDDED_FINAL_OOF_PATHS",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\phase04a_freeze.json",
+      "recorded_sha256": "34ea8100d9406f9701750a441aa6537323c28bcdb194cb3fd3645c4f7de4a2e1",
+      "actual_sha256": "34ea8100d9406f9701750a441aa6537323c28bcdb194cb3fd3645c4f7de4a2e1",
+      "matches_pre_freeze_baseline": true,
+      "initialization_reference_match": true,
+      "status": "PASS"
+    },
+    {
+      "phase": "04B",
+      "interface_type": "FINAL_MANIFEST",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\manifests\\phase04b_final_artifact_manifest.json",
+      "recorded_sha256": "eb0edfdf4acefd2c28e86476fe58d76204ddf2951d45894841a966f1b9b8e8ae",
+      "actual_sha256": "eb0edfdf4acefd2c28e86476fe58d76204ddf2951d45894841a966f1b9b8e8ae",
+      "matches_pre_freeze_baseline": true,
+      "initialization_reference_match": true,
+      "status": "PASS"
+    },
+    {
+      "phase": "05",
+      "interface_type": "FINAL_MANIFEST",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\manifests\\phase05_final_artifact_manifest.json",
+      "recorded_sha256": "e4894aeaa56f4b9938e9582414286d493ec4da49543e6972985a13bedf8148d5",
+      "actual_sha256": "e4894aeaa56f4b9938e9582414286d493ec4da49543e6972985a13bedf8148d5",
+      "matches_pre_freeze_baseline": true,
+      "initialization_reference_match": true,
+      "status": "PASS"
+    },
+    {
+      "phase": "06",
+      "interface_type": "FINAL_MANIFEST",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\manifests\\phase06_final_artifact_manifest.json",
+      "recorded_sha256": "25df4d2754075061c4000c9260ad0b5b4182203f988375078e2f4156dcd580a5",
+      "actual_sha256": "25df4d2754075061c4000c9260ad0b5b4182203f988375078e2f4156dcd580a5",
+      "matches_pre_freeze_baseline": true,
+      "initialization_reference_match": true,
+      "status": "PASS"
+    },
+    {
+      "phase": "07",
+      "interface_type": "FINAL_MANIFEST",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\manifests\\phase07_final_artifact_manifest.json",
+      "recorded_sha256": "3074a6e6b3bb9a6fc3065a19d37801876ea37296e1b43f63966a40cbe7371cfe",
+      "actual_sha256": "3074a6e6b3bb9a6fc3065a19d37801876ea37296e1b43f63966a40cbe7371cfe",
+      "matches_pre_freeze_baseline": true,
+      "initialization_reference_match": true,
+      "status": "PASS"
+    },
+    {
+      "phase": "08",
+      "interface_type": "FINAL_MANIFEST",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\manifests\\phase08_final_manifest.json",
+      "recorded_sha256": "c4de38db0c0d76e5cb06822d895d9ccd823d418c9057d85732d080f5b09cc42b",
+      "actual_sha256": "c4de38db0c0d76e5cb06822d895d9ccd823d418c9057d85732d080f5b09cc42b",
+      "matches_pre_freeze_baseline": true,
+      "initialization_reference_match": true,
+      "status": "PASS"
+    },
+    {
+      "phase": "09",
+      "interface_type": "FINAL_MANIFEST",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\manifests\\phase09_final_manifest.json",
+      "recorded_sha256": "8fa96c12fabbe9d75269b1aa579af1af5ff2012ec0e5b99dc33204edcfd4d4fa",
+      "actual_sha256": "1d3ae2abec1a3b88ebe224ecf6e118c1cbac814a0cff843d9faddcfe1c5b9256",
+      "matches_pre_freeze_baseline": true,
+      "initialization_reference_match": false,
+      "status": "PASS"
+    }
+  ],
+  "formal_interfaces_verified": 15,
+  "legacy_phases_covered": 3,
+  "known_phase09_initialization_reference_differences": [
+    {
+      "phase": "09",
+      "interface_type": "FREEZE_INTERFACE",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_freeze.json",
+      "recorded_sha256": "7db8b1bf7b0c25b4677613000f63768d9c71bb2d644ba8423214c4902db869c2",
+      "actual_sha256": "cd026df824c210172103b0c60b5090a59cc39eef9b86f3a22fcac0eaac320bd9",
+      "matches_pre_freeze_baseline": true,
+      "initialization_reference_match": false,
+      "status": "PASS"
+    },
+    {
+      "phase": "09",
+      "interface_type": "FINAL_MANIFEST",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\manifests\\phase09_final_manifest.json",
+      "recorded_sha256": "8fa96c12fabbe9d75269b1aa579af1af5ff2012ec0e5b99dc33204edcfd4d4fa",
+      "actual_sha256": "1d3ae2abec1a3b88ebe224ecf6e118c1cbac814a0cff843d9faddcfe1c5b9256",
+      "matches_pre_freeze_baseline": true,
+      "initialization_reference_match": false,
+      "status": "PASS"
+    }
+  ],
+  "primary_data_checksum": "PASS",
+  "frozen_fold_checksum": "PASS",
+  "scientific_artifact_changes": 0,
+  "status": "PASS"
+}

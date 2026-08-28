@@ -1,0 +1,305 @@
+{
+  "phase": "07",
+  "manifest": "final_authorized_artifacts",
+  "generated_at_utc": "2026-08-20T18:53:09.880414+00:00",
+  "artifact_count": 58,
+  "artifacts": [
+    {
+      "relative_path": "Phase_07_Unimodal_Contribution.ipynb",
+      "size_bytes": 149780,
+      "sha256": "7a9b3491ce68dd9ead239b32e38368a03a6d3dc0182dedee9a93218652c43aa8"
+    },
+    {
+      "relative_path": "audits\\phase07_figure_audit.json",
+      "size_bytes": 890,
+      "sha256": "025154272ca1a5c4480a0d786b02a33f5f46094f9ab70118ffe11683c0b47012"
+    },
+    {
+      "relative_path": "audits\\phase07_final_alignment_audit.json",
+      "size_bytes": 1291,
+      "sha256": "5b8bc3e3a3dc78ef74cf10fbd4a8ed6763a003a79e04a6e454ea61b91e5c9c38"
+    },
+    {
+      "relative_path": "audits\\phase07_final_artifact_audit.json",
+      "size_bytes": 335,
+      "sha256": "eaa878cfa4157c44236cf745a47e2af109904bd4ec42a6841a48365539c087c8"
+    },
+    {
+      "relative_path": "audits\\phase07_final_leakage_audit.json",
+      "size_bytes": 270,
+      "sha256": "cb6dcb2c5aa611a7528d3db6fc16d3a095bfba89071b313ce08d076dcd884e55"
+    },
+    {
+      "relative_path": "audits\\phase07_final_notebook_persistence_audit.json",
+      "size_bytes": 309,
+      "sha256": "a5cd7009427194e362079eec8894eb62d80637c6a11073dd94153db74b597daa"
+    },
+    {
+      "relative_path": "audits\\phase07_final_oof_coverage_audit.json",
+      "size_bytes": 278,
+      "sha256": "3d3fb11e931d6dbc1066924e3ea9b0fd6a9e38c5c7b9bf1c041a72877cc5379f"
+    },
+    {
+      "relative_path": "audits\\phase07_final_reproducibility_audit.json",
+      "size_bytes": 566,
+      "sha256": "dc67e1418ad76b4d81b8f83d20d7207bd2d126ceb9c0fdc0589cdc73bcd9cb10"
+    },
+    {
+      "relative_path": "audits\\phase07_metric_recalculation_audit.json",
+      "size_bytes": 267,
+      "sha256": "6631cc18a2576ec21fd70270400d9fe4d1b71d02df6e21794925f2b4ffafea5e"
+    },
+    {
+      "relative_path": "audits\\phase07_statistical_analysis_audit.json",
+      "size_bytes": 298,
+      "sha256": "2f50a64a0a78ae6caf478b1f474b938969f7924cf20497c4ef14c5daa075f2eb"
+    },
+    {
+      "relative_path": "configs\\phase07_execution_manifest.json",
+      "size_bytes": 1080,
+      "sha256": "65066732bd7db2a7d273bbbb3a220b0e5d39fdab7c65a5478d2185c853c4dbe9"
+    },
+    {
+      "relative_path": "configs\\phase07_experiment_contract.json",
+      "size_bytes": 2471,
+      "sha256": "701f6ca89d518b4e58691bcdbe30c339ca92239b4a899fc9f7dce1771a79cedd"
+    },
+    {
+      "relative_path": "figures\\phase07_classification_confusion_matrix_panel.pdf",
+      "size_bytes": 21191,
+      "sha256": "da7eba74133a754e26eb6276319182f92f92968a65e283ee5dc756228816fc50"
+    },
+    {
+      "relative_path": "figures\\phase07_classification_confusion_matrix_panel.png",
+      "size_bytes": 180169,
+      "sha256": "9fd11943732de54e08d96d12f6d69583af67d08db739d8ec1a84105eacc8874d"
+    },
+    {
+      "relative_path": "figures\\phase07_classification_modality_ranking.pdf",
+      "size_bytes": 19699,
+      "sha256": "bc86b61e1506473db9d429766da8bb54cdc95302f8e6bda6c61f64614cc780f0"
+    },
+    {
+      "relative_path": "figures\\phase07_classification_modality_ranking.png",
+      "size_bytes": 101999,
+      "sha256": "547a6532ee22a0d9c53d02bb0a880ac21110e0bb472e17f53b36735c62ba778e"
+    },
+    {
+      "relative_path": "figures\\phase07_regression_modality_ranking.pdf",
+      "size_bytes": 20396,
+      "sha256": "e123947f284b3644da53a07453a8623754c2e7deb1264e6ca573925b515b2936"
+    },
+    {
+      "relative_path": "figures\\phase07_regression_modality_ranking.png",
+      "size_bytes": 95948,
+      "sha256": "2ff3a01ba221ad6695ae77b38111a3264c1002f55f66da615a414521d448187a"
+    },
+    {
+      "relative_path": "figures\\phase07_regression_residual_panel.pdf",
+      "size_bytes": 24220,
+      "sha256": "e3d7d0cdede44924e8e9e6d707f4951cf127442054fc79519d0420ea69817ed9"
+    },
+    {
+      "relative_path": "figures\\phase07_regression_residual_panel.png",
+      "size_bytes": 217539,
+      "sha256": "e5cee2ca264f6c90c37fdf55857700eb05013d575a220384498b00432b0a9a18"
+    },
+    {
+      "relative_path": "figures\\phase07_subject_level_performance.pdf",
+      "size_bytes": 32854,
+      "sha256": "6464dc45440b6c480584b42c10ce9aadf58403aca3bb44fb359b994ebd4fc7d3"
+    },
+    {
+      "relative_path": "figures\\phase07_subject_level_performance.png",
+      "size_bytes": 257299,
+      "sha256": "60e097dc25919f2a5fdff801ded2e0077473e856a30be6377614d2f189dc30c0"
+    },
+    {
+      "relative_path": "figures\\phase07_unimodal_vs_multimodal_deltas.pdf",
+      "size_bytes": 18576,
+      "sha256": "1c6f2e4c0d4e66bba476434c840599cbe597d856114da4f111bd1e6575fd1335"
+    },
+    {
+      "relative_path": "figures\\phase07_unimodal_vs_multimodal_deltas.png",
+      "size_bytes": 168649,
+      "sha256": "8b384ad5c7b093bf804fbe80dd66e0aa292c151ca0000e2b289e47b154f83e59"
+    },
+    {
+      "relative_path": "reports\\analysis-output\\analysis-report.md",
+      "size_bytes": 7017,
+      "sha256": "2228ed54c54eb2e169229a348abd69a2746a4067ac7a8bd59f2a0772818d3645"
+    },
+    {
+      "relative_path": "reports\\analysis-output\\figure-catalog.md",
+      "size_bytes": 3111,
+      "sha256": "1d29fbb8eabab69c898f9b3f1d938085111ef1fd557c96010e9f124c1b17a78b"
+    },
+    {
+      "relative_path": "reports\\analysis-output\\stats-appendix.md",
+      "size_bytes": 9697,
+      "sha256": "30b055b98d8eb3c4977b0d82439fdee1f2e076ff2b0087b4ae955485a46b7ae3"
+    },
+    {
+      "relative_path": "reports\\phase07_final_summary.md",
+      "size_bytes": 1268,
+      "sha256": "cbc3261f4ce2546ffe39df12db407a376fd9e7be12bb0bdd3771f121c5d1ab96"
+    },
+    {
+      "relative_path": "results\\oof\\phase07_readonly_multimodal_classification_reference.csv",
+      "size_bytes": 136263,
+      "sha256": "5933f705875e205a31c487384bbc6bb0460fe36076a1dafa01825859759c42a8"
+    },
+    {
+      "relative_path": "results\\oof\\phase07_readonly_multimodal_regression_reference.csv",
+      "size_bytes": 130202,
+      "sha256": "6af63df19a14c652b991230833a5d9bdf264cb1c5c387823f42d6e5cd30e0c7a"
+    },
+    {
+      "relative_path": "results\\oof\\phase07_unimodal_classification_canonical_oof.csv",
+      "size_bytes": 372234,
+      "sha256": "800b690134347de2d0835a04ca9c62bdf0794f0f17dcbc46341b90f50914f206"
+    },
+    {
+      "relative_path": "results\\oof\\phase07_unimodal_classification_seed_level_oof.csv",
+      "size_bytes": 1744560,
+      "sha256": "d46def0dd1846897f2efa85dd3435886be618c6157c2830e05473cdf661b966e"
+    },
+    {
+      "relative_path": "results\\oof\\phase07_unimodal_regression_canonical_oof.csv",
+      "size_bytes": 265548,
+      "sha256": "15cf2abe2f0d29afa29d9cfad740b50e909359b65f2bfc2c55f698a627f400f3"
+    },
+    {
+      "relative_path": "results\\oof\\phase07_unimodal_regression_seed_level_oof.csv",
+      "size_bytes": 1414578,
+      "sha256": "8b37501e73f9d8ddd7382c764de74a990b220a55cbb6ad0047b54b816415c569"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_availability_stratified_metrics.csv",
+      "size_bytes": 2396,
+      "sha256": "bf1d05e561297792029e4570ee47201556062d2855eabf365dc50f308595b39d"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_bootstrap_confidence_intervals.csv",
+      "size_bytes": 4355,
+      "sha256": "b9c3e712339121cca3c6b1aa5507a1e4efd07b941456602a5eb945d9e38a6828"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_classification_error_analysis.csv",
+      "size_bytes": 972,
+      "sha256": "aee8928c2f6f62ee19cd50fbe2da2f509632d5479f39fc1a30cfdaedcb19094b"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_classification_modality_ranking.csv",
+      "size_bytes": 862,
+      "sha256": "4d17d31e6fc2ef373df0daba207e73b3d82b8881cf1473eda93d36e99fc9c941"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_confusion_matrices.json",
+      "size_bytes": 1197,
+      "sha256": "a58e53123707753548e13bab3f3eca773e676067f92ab7a92c301929ba6a6a1b"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_effect_sizes.csv",
+      "size_bytes": 961,
+      "sha256": "006e1060181389b5ce90ac6b2132fb694ca7295acb84b38c6047efe6b985f845"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_friedman_tests.csv",
+      "size_bytes": 195,
+      "sha256": "3519923ba9863a9d40f173ca5498d22ee736af569eac08db8f2de01f246b52f4"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_per_class_recall.csv",
+      "size_bytes": 895,
+      "sha256": "5bd55108066a0df89d6d118b4cce766fc0234904ecf97c4e793b498c4e011f14"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_per_target_level_mae.csv",
+      "size_bytes": 1033,
+      "sha256": "614baed0a496d513b6646a1a68c1eaf085f1c687616a2b8af056190b24d49ce6"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_regression_error_analysis.csv",
+      "size_bytes": 1618,
+      "sha256": "ff1bd2e3668f850afb7823aec775935e6f8f35b50f4417abf911329e1e9d7ec1"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_regression_modality_ranking.csv",
+      "size_bytes": 1101,
+      "sha256": "bbdd1882de9710227140491a52b754f90ac711dc77828bcfb94cec71e8d6be46"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_seed_stability_summary.csv",
+      "size_bytes": 906,
+      "sha256": "9bb02571cdf9962ca2e72e2ac79c82059e613ccd279e201c433a5711acb86499"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_subject_error_analysis.csv",
+      "size_bytes": 17807,
+      "sha256": "0c0962a543fda6582ad10e0fa620da68d74154d06019b716e94cc290bfcd68c0"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_subject_level_classification_metrics.csv",
+      "size_bytes": 15872,
+      "sha256": "3a2166b86b5fafd3b2fcf85662c885141315c0e06c1bb28367eeb6f720b75596"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_subject_level_regression_metrics.csv",
+      "size_bytes": 15352,
+      "sha256": "de042f27f60066a315677918fab9da88c1e527e4ce41a42d90c68a77a6e3fac1"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_unimodal_classification_comparison.csv",
+      "size_bytes": 847,
+      "sha256": "5e2314acea52f893d2dea3ce34cb15fc385c61c398d958a49da1f375edcfe648"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_unimodal_regression_comparison.csv",
+      "size_bytes": 1086,
+      "sha256": "0a710c1b30fa728d63a87f7cb2d3fbf0081a28d0283d447fe6c6575097e67b4b"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_unimodal_vs_multimodal_comparison.csv",
+      "size_bytes": 1106,
+      "sha256": "49e8e69fbcffcc99f714cc3be27341f22bc10b1e0b04d95445b814d9f6a05cab"
+    },
+    {
+      "relative_path": "results\\summaries\\phase07_wilcoxon_holm_tests.csv",
+      "size_bytes": 1547,
+      "sha256": "2b0bca9c0052b0c6b850adf0d221d0079f322400d044345b58ae1d7497619f1a"
+    },
+    {
+      "relative_path": "scripts\\consolidate_analyze_and_freeze_phase07.py",
+      "size_bytes": 37400,
+      "sha256": "27ba39b2288f32715060197cfc6633915306c34b98a8c22a29080d817698b826"
+    },
+    {
+      "relative_path": "scripts\\verify_phase07_final_results.py",
+      "size_bytes": 8699,
+      "sha256": "80d7b9ae4fd7f595f0e9f64ee60e1ed545a92635f4aedb4853e6bffd58ef6973"
+    },
+    {
+      "relative_path": "task_plan.md",
+      "size_bytes": 4471,
+      "sha256": "06560ab810b59c7ad20e473c8b82adfc2adf0a6dd91fedd698f8b6b7c61c4499"
+    },
+    {
+      "relative_path": "tests\\test_phase07_contract.py",
+      "size_bytes": 7266,
+      "sha256": "ad63b034e1c7fed65978e74799129d7f686e34b4059a8ba85e3df088726fa80c"
+    },
+    {
+      "relative_path": "tests\\test_phase07_final_consolidation.py",
+      "size_bytes": 1415,
+      "sha256": "0346962c5e2f03e989653f1e1525a1e4cf5efd93015b7ff1ddf838e0799917e4"
+    }
+  ],
+  "missing_artifacts": 0,
+  "hash_mismatches": 0,
+  "result": "PASS",
+  "exclusions": [
+    "manifest itself",
+    "freeze file (contains manifest hash)"
+  ]
+}

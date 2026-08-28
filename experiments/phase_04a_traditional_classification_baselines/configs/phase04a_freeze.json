@@ -1,0 +1,28 @@
+{
+  "timestamp_utc": "2026-08-19T15:52:09.245496+00:00",
+  "frozen_phase03_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "completed_models": [
+    "Logistic Regression",
+    "Linear SVM",
+    "RBF SVM",
+    "Random Forest",
+    "KNN",
+    "Gradient Boosting"
+  ],
+  "final_oof_paths": {
+    "logistic_regression": "results\\predictions\\logistic_regression_oof.csv",
+    "linear_svm": "results\\predictions\\linear_svm_oof.csv",
+    "rbf_svm": "results\\predictions\\rbf_svm_oof.csv",
+    "random_forest": "results\\predictions\\random_forest_oof.csv",
+    "knn": "results\\predictions\\knn_oof.csv",
+    "gradient_boosting": "results\\predictions\\gradient_boosting_oof.csv"
+  },
+  "gradient_boosting_status": "COMPLETE",
+  "best_traditional_classifier": "Gradient Boosting",
+  "best_oof_macro_f1": 0.9356075023489925,
+  "xgboost": "OPTIONAL / NOT RUN",
+  "checkpoint_integrity_result": "PASS",
+  "oof_coverage_result": "PASS",
+  "phase04a_status": "COMPLETE",
+  "phase04a_frozen": "YES"
+}

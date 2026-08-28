@@ -1,0 +1,326 @@
+{
+  "audit": "phase10_cross_phase_numerical_consistency_audit",
+  "captured_at_utc": "2026-08-21T17:28:09.823024+00:00",
+  "actual_primary_and_folds": {
+    "primary_rows": 419,
+    "subjects": 35,
+    "primary_features": 1176,
+    "unique_run_keys": 419,
+    "outer_folds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "target_class_values": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "target_score_values": [
+      1.0,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "primary_sha256": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44",
+    "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f"
+  },
+  "expected_primary_and_folds": {
+    "primary_rows": 419,
+    "subjects": 35,
+    "primary_features": 1176,
+    "unique_run_keys": 419,
+    "outer_folds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "target_class_values": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "target_score_values": [
+      1.0,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "primary_sha256": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44",
+    "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f"
+  },
+  "primary_and_fold_checks": {
+    "primary_rows": true,
+    "subjects": true,
+    "primary_features": true,
+    "unique_run_keys": true,
+    "outer_folds": true,
+    "target_class_values": true,
+    "target_score_values": true,
+    "primary_sha256": true,
+    "frozen_fold_sha256": true
+  },
+  "per_phase_model_config_prediction_coverage": {
+    "04A": {
+      "config_files": 7,
+      "prediction_artifacts": 9,
+      "prediction_rows": 3771,
+      "canonical_artifacts": 3,
+      "canonical_rows": 1257,
+      "model_count": 8,
+      "model_names": [
+        "dummy_most_frequent",
+        "dummy_stratified",
+        "gradient_boosting",
+        "knn",
+        "linear_svm",
+        "logistic_regression",
+        "random_forest",
+        "rbf_svm"
+      ],
+      "outer_fold_coverage": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "seed_coverage": [
+        "42"
+      ]
+    },
+    "04B": {
+      "config_files": 12,
+      "prediction_artifacts": 10,
+      "prediction_rows": 7542,
+      "canonical_artifacts": 6,
+      "canonical_rows": 2514,
+      "model_count": 8,
+      "model_names": [
+        "Dummy Regressor Mean",
+        "Dummy Regressor Median",
+        "Elastic Net",
+        "Gradient Boosting Regressor",
+        "Linear SVR",
+        "RBF SVR",
+        "Random Forest Regressor",
+        "Ridge"
+      ],
+      "outer_fold_coverage": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "seed_coverage": [
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
+      ]
+    },
+    "05": {
+      "config_files": 10,
+      "prediction_artifacts": 10,
+      "prediction_rows": 50280,
+      "canonical_artifacts": 0,
+      "canonical_rows": 0,
+      "model_count": 10,
+      "model_names": [
+        "vanilla_hdc_classification_oof.csv",
+        "vanilla_hdc_final_confirmation_diagnostics.csv",
+        "vanilla_hdc_final_confirmation_fold_1_predictions.csv",
+        "vanilla_hdc_final_confirmation_fold_2_predictions.csv",
+        "vanilla_hdc_final_confirmation_fold_3_predictions.csv",
+        "vanilla_hdc_final_confirmation_fold_4_predictions.csv",
+        "vanilla_hdc_final_confirmation_fold_5_predictions.csv",
+        "vanilla_hdc_final_confirmation_oof_long.csv",
+        "vanilla_hdc_ridge_regression_oof.csv",
+        "vanilla_hdc_similarity_regression_oof.csv"
+      ],
+      "outer_fold_coverage": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "seed_coverage": [
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
+      ]
+    },
+    "06": {
+      "config_files": 11,
+      "prediction_artifacts": 21,
+      "prediction_rows": 142460,
+      "canonical_artifacts": 0,
+      "canonical_rows": 0,
+      "model_count": 4,
+      "model_names": [
+        "hybrid",
+        "multicentroid",
+        "onlinehd",
+        "phase_06_hdc_variant_screening"
+      ],
+      "outer_fold_coverage": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "seed_coverage": [
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
+      ]
+    },
+    "07": {
+      "config_files": 8,
+      "prediction_artifacts": 256,
+      "prediction_rows": 46928,
+      "canonical_artifacts": 4,
+      "canonical_rows": 5028,
+      "model_count": 2,
+      "model_names": [
+        "hdc-vr-pilot",
+        "multimodal_reference"
+      ],
+      "outer_fold_coverage": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "seed_coverage": [
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
+      ]
+    },
+    "08": {
+      "config_files": 14,
+      "prediction_artifacts": 374,
+      "prediction_rows": 41932,
+      "canonical_artifacts": 4,
+      "canonical_rows": 10926,
+      "model_count": 5,
+      "model_names": [
+        "COMMON_ENCODER_READOUT_BASELINE",
+        "GradientBoostingClassifier",
+        "GradientBoostingRegressor",
+        "HDC+OnlineHD Hybrid",
+        "hdc-vr-pilot"
+      ],
+      "outer_fold_coverage": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "seed_coverage": [
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "canonical"
+      ]
+    },
+    "09": {
+      "config_files": 16,
+      "prediction_artifacts": 726,
+      "prediction_rows": 51956,
+      "canonical_artifacts": 6,
+      "canonical_rows": 21788,
+      "model_count": 5,
+      "model_names": [
+        "hdc-vr-pilot",
+        "hdc_classification",
+        "hdc_regression",
+        "traditional_classification",
+        "traditional_regression"
+      ],
+      "outer_fold_coverage": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "seed_coverage": [
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "canonical"
+      ]
+    }
+  },
+  "table_registry_count": 14,
+  "table_source_alignment": "PASS",
+  "figure_registry_count": 61,
+  "figure_source_alignment": "PASS",
+  "phase06_best_classification": {
+    "model": "HDC+OnlineHD Hybrid",
+    "dimension": 5000,
+    "selection_evidence": "INNER_CV_ONLY"
+  },
+  "phase06_best_regression": {
+    "model": "COMMON_ENCODER_READOUT_BASELINE",
+    "dimension": 10000,
+    "selection_evidence": "INNER_CV_ONLY"
+  },
+  "phase07_conclusion_check": {
+    "best_classification_modality": "flight_parameter_features",
+    "best_regression_modality": "flight_parameter_features",
+    "rankings_separate": true
+  },
+  "phase08_limit_check": {
+    "unseen_session": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "unseen_scenario": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "task_template": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "FLIGHT_TASK_SETTING_ONLY": "NOT_FEASIBLE_EMPTY_PROVENANCE_GROUP"
+  },
+  "phase09_limit_check": {
+    "SUBJECT_GENERALIZATION": "EVALUATED_VIA_35_SUBJECT_LOSO",
+    "MISSING_MODALITY_ROBUSTNESS": "EVALUATED_VIA_RETRAIN_WITHOUT_MODALITY",
+    "UNSEEN_SESSION": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "UNSEEN_SCENARIO": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "TASK_TEMPLATE": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "ROUTE_CONFIGURATION": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "FLIGHT_GENERALIZABLE_BEHAVIOR_CLAIM": "INCONCLUSIVE_DUE_TO_METADATA"
+  },
+  "phase09_initialization_reference_alignment": {
+    "classification": "NONSCIENTIFIC_INITIALIZATION_REFERENCE_ALIGNMENT",
+    "recorded_freeze_sha256": "7db8b1bf7b0c25b4677613000f63768d9c71bb2d644ba8423214c4902db869c2",
+    "current_freeze_sha256": "cd026df824c210172103b0c60b5090a59cc39eef9b86f3a22fcac0eaac320bd9",
+    "recorded_manifest_sha256": "8fa96c12fabbe9d75269b1aa579af1af5ff2012ec0e5b99dc33204edcfd4d4fa",
+    "current_manifest_sha256": "1d3ae2abec1a3b88ebe224ecf6e118c1cbac814a0cff843d9faddcfe1c5b9256",
+    "current_freeze_embedded_manifest_sha256": "1d3ae2abec1a3b88ebe224ecf6e118c1cbac814a0cff843d9faddcfe1c5b9256",
+    "current_direct_chain_consistent": true,
+    "present_before_synthesis_and_unchanged": true
+  },
+  "scientific_source_conflicts": 0,
+  "unresolved_numerical_differences": 0,
+  "status": "PASS"
+}

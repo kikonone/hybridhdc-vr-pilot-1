@@ -1,0 +1,492 @@
+{
+  "phase": "07",
+  "phase_name": "Unimodal Contribution Analysis",
+  "contract_version": "phase07_frozen_unimodal_contract_v1",
+  "status": "CONTRACT_FROZEN_NOT_TRAINED",
+  "frozen_at_utc": "2026-08-20T18:05:58.896065+00:00",
+  "primary_analysis": "FULL_COHORT_419_RUNS_WITH_FOLD_LOCAL_MISSINGNESS_HANDLING",
+  "modalities": [
+    {
+      "name": "physiological_features",
+      "feature_count": 233,
+      "membership_source": "manifests/phase07_modality_feature_manifest.json",
+      "fusion_permitted": false
+    },
+    {
+      "name": "eye_tracking_features",
+      "feature_count": 416,
+      "membership_source": "manifests/phase07_modality_feature_manifest.json",
+      "fusion_permitted": false
+    },
+    {
+      "name": "head_movement_features",
+      "feature_count": 159,
+      "membership_source": "manifests/phase07_modality_feature_manifest.json",
+      "fusion_permitted": false
+    },
+    {
+      "name": "flight_parameter_features",
+      "feature_count": 326,
+      "membership_source": "manifests/phase07_modality_feature_manifest.json",
+      "fusion_permitted": false
+    },
+    {
+      "name": "body_movement",
+      "feature_count": 42,
+      "membership_source": "manifests/phase07_modality_feature_manifest.json",
+      "fusion_permitted": false
+    }
+  ],
+  "sample_and_fold_policy": {
+    "modeling_rows": 419,
+    "run_key_alignment_required": true,
+    "outer_folds": 5,
+    "outer_split_source": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+    "outer_fold_regeneration_prohibited": true,
+    "retain_all_modeling_rows": true,
+    "row_deletion_prohibited": true,
+    "outer_training_fit_only": true,
+    "outer_test_transform_and_predict_only": true
+  },
+  "missingness_policy": {
+    "status": "FROZEN",
+    "fully_missing_rows_by_modality": {
+      "physiological_features": 0,
+      "eye_tracking_features": 14,
+      "head_movement_features": 0,
+      "flight_parameter_features": 0,
+      "body_movement": 29
+    },
+    "fully_missing_rows_retained": true,
+    "imputer_fit_scope": "outer-training or inner-training rows only, as appropriate",
+    "missing_indicators_required": true,
+    "global_statistics_prohibited": true,
+    "global_nan_to_zero_prohibited": true,
+    "availability_stratified_diagnostics_required": true,
+    "diagnostic_strata": [
+      "modality_available",
+      "modality_fully_missing"
+    ],
+    "diagnostics_do_not_replace_full_cohort": true,
+    "diagnostics_not_for_retraining_or_selection": true
+  },
+  "preprocessing": {
+    "fit_scope": "fold-local training data only",
+    "ordered_steps": [
+      {
+        "step": 1,
+        "operation": "SimpleImputer",
+        "parameters": {
+          "strategy": "median",
+          "add_indicator": true,
+          "keep_empty_features": true
+        }
+      },
+      {
+        "step": 2,
+        "operation": "VarianceThreshold",
+        "parameters": {
+          "threshold": 0.0
+        }
+      },
+      {
+        "step": 3,
+        "operation": "StandardScaler",
+        "parameters": {
+          "statistics": "current training fold only"
+        }
+      },
+      {
+        "step": 4,
+        "operation": "SelectKBest",
+        "parameters": {
+          "score_func": "f_classif"
+        }
+      }
+    ],
+    "regression_reuses_f_classif": true,
+    "requested_feature_k": 50,
+    "effective_feature_k_rule": "min(50, post_variance_feature_count)",
+    "required_run_records": [
+      "requested_feature_k",
+      "post_variance_feature_count",
+      "effective_feature_k",
+      "selected_feature_names",
+      "missing_indicator_feature_names"
+    ]
+  },
+  "classification": {
+    "model": "HDC+OnlineHD Hybrid",
+    "selected_variant": "hybrid",
+    "dimension": 5000,
+    "levels": 51,
+    "requested_feature_k": 50,
+    "representation": "bipolar",
+    "similarity": "cosine",
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "classes": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary_metric": "Macro-F1",
+    "fold_structures": [
+      {
+        "outer_fold": 1,
+        "centroids_per_class": 3,
+        "epochs": 1,
+        "learning_rate": 0.1,
+        "margin_threshold": 0.0
+      },
+      {
+        "outer_fold": 2,
+        "centroids_per_class": 2,
+        "epochs": 1,
+        "learning_rate": 0.05,
+        "margin_threshold": 0.0
+      },
+      {
+        "outer_fold": 3,
+        "centroids_per_class": 2,
+        "epochs": 3,
+        "learning_rate": 0.05,
+        "margin_threshold": 0.0
+      },
+      {
+        "outer_fold": 4,
+        "centroids_per_class": 2,
+        "epochs": 3,
+        "learning_rate": 0.1,
+        "margin_threshold": 0.1
+      },
+      {
+        "outer_fold": 5,
+        "centroids_per_class": 3,
+        "epochs": 1,
+        "learning_rate": 0.1,
+        "margin_threshold": 0.0
+      }
+    ],
+    "structure_source": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_best_classification_hdc.json",
+    "metric_names": [
+      "macro_f1",
+      "balanced_accuracy",
+      "accuracy",
+      "per_class_recall",
+      "severe_error_rate",
+      "confusion_matrix"
+    ],
+    "severe_error_definition": "abs(predicted_class - target_class) >= 2",
+    "metric_labels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "zero_division": 0,
+    "runs_per_modality": 25,
+    "total_runs": 125,
+    "reselection_prohibited": true,
+    "single_best_seed_selection_prohibited": true
+  },
+  "regression": {
+    "selected_variant": "common_ridge",
+    "head": "COMMON_ENCODER_READOUT_BASELINE",
+    "dimension": 10000,
+    "levels": 51,
+    "requested_feature_k": 50,
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "target": "target_score",
+    "target_range": [
+      1.0,
+      4.0
+    ],
+    "target_description": "bounded difficulty-induced workload proxy regression",
+    "primary_metric": "bounded_mae",
+    "ridge_alpha": 0.01,
+    "fold_seed_parameter_policy": [
+      {
+        "outer_fold": 1,
+        "seed_parameters": [
+          {
+            "ridge_alpha": 0.01,
+            "seed": 42
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 43
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 44
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 45
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 46
+          }
+        ]
+      },
+      {
+        "outer_fold": 2,
+        "seed_parameters": [
+          {
+            "ridge_alpha": 0.01,
+            "seed": 42
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 43
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 44
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 45
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 46
+          }
+        ]
+      },
+      {
+        "outer_fold": 3,
+        "seed_parameters": [
+          {
+            "ridge_alpha": 0.01,
+            "seed": 42
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 43
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 44
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 45
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 46
+          }
+        ]
+      },
+      {
+        "outer_fold": 4,
+        "seed_parameters": [
+          {
+            "ridge_alpha": 0.01,
+            "seed": 42
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 43
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 44
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 45
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 46
+          }
+        ]
+      },
+      {
+        "outer_fold": 5,
+        "seed_parameters": [
+          {
+            "ridge_alpha": 0.01,
+            "seed": 42
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 43
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 44
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 45
+          },
+          {
+            "ridge_alpha": 0.01,
+            "seed": 46
+          }
+        ]
+      }
+    ],
+    "prediction_fields": [
+      "prediction_raw",
+      "prediction_bounded",
+      "residual_bounded"
+    ],
+    "prediction_bounded_rule": "clip(prediction_raw, 1.0, 4.0)",
+    "metric_names": [
+      "bounded_mae",
+      "raw_mae",
+      "bounded_rmse",
+      "bounded_r2",
+      "bounded_spearman",
+      "per_target_level_mae"
+    ],
+    "runs_per_modality": 25,
+    "total_runs": 125,
+    "parameter_reselection_prohibited": true,
+    "single_best_seed_selection_prohibited": true
+  },
+  "randomness": {
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "generator": "np.random.default_rng",
+    "bit_generator": "PCG64",
+    "stable_derivation": "SHA-256 over experiment seed, vector role, feature name or level count, and contract version",
+    "paired_codebook_dimension_rule": "use the first D dimensions of a single 10000-dimensional codebook",
+    "python_hash_seed_prohibited": true
+  },
+  "oof_aggregation": {
+    "status": "FROZEN",
+    "seed_level_rows_per_task": 10475,
+    "seed_level_rows_total": 20950,
+    "canonical_rows_per_task": 2095,
+    "classification": {
+      "group_key": [
+        "modality",
+        "run_key"
+      ],
+      "rule": "arithmetic mean of the five seed class scores, then argmax",
+      "argmax_tie": "smaller target_class",
+      "true_label_tiebreak_prohibited": true
+    },
+    "regression": {
+      "group_key": [
+        "modality",
+        "run_key"
+      ],
+      "rule": "arithmetic mean of five prediction_raw values, then clip to [1.0, 4.0]",
+      "canonical_metrics_recomputed_from_aggregated_predictions": true
+    },
+    "mean_of_seed_metrics_not_canonical": true
+  },
+  "ranking": {
+    "classification": {
+      "status": "FROZEN",
+      "cohort": "all 419 canonical OOF rows",
+      "ordered_criteria": [
+        "macro_f1 descending",
+        "balanced_accuracy descending",
+        "severe_error_rate ascending",
+        "seed_macro_f1_sample_sd ascending"
+      ],
+      "tie_tolerance": 1e-12,
+      "remaining_exact_tie": "shared rank; modality-name display order only"
+    },
+    "regression": {
+      "status": "FROZEN",
+      "cohort": "all 419 canonical OOF rows",
+      "ordered_criteria": [
+        "bounded_mae ascending",
+        "bounded_rmse ascending",
+        "bounded_spearman descending",
+        "seed_bounded_mae_sample_sd ascending"
+      ],
+      "tie_tolerance": 1e-12,
+      "remaining_exact_tie": "shared rank; modality-name display order only"
+    },
+    "combined_best_modality_prohibited": true,
+    "availability_strata_not_for_ranking": true
+  },
+  "multimodal_reference": {
+    "access": "READ_ONLY",
+    "retraining_prohibited": true,
+    "required_unique_run_keys": 419,
+    "run_key_alignment": "one-to-one with every Phase 07 canonical OOF",
+    "classification_reference": {
+      "model": "HDC+OnlineHD Hybrid",
+      "dimension": 5000,
+      "delta": "unimodal_macro_f1 - multimodal_macro_f1",
+      "weaker_direction": "delta < 0"
+    },
+    "regression_reference": {
+      "head": "COMMON_ENCODER_READOUT_BASELINE",
+      "dimension": 10000,
+      "delta": "unimodal_bounded_mae - multimodal_bounded_mae",
+      "weaker_direction": "delta > 0"
+    },
+    "deltas_not_for_contract_or_model_change": true
+  },
+  "error_analysis": {
+    "classification": [
+      "4x4 confusion matrix",
+      "per-class recall",
+      "severe error rate",
+      "Level 1 versus Level 4 severe confusion",
+      "classification confidence",
+      "similarity margin",
+      "subject macro_f1",
+      "availability strata"
+    ],
+    "regression": [
+      "prediction_raw",
+      "prediction_bounded",
+      "residual distribution",
+      "per-target-level MAE",
+      "boundary clipping count and rate",
+      "mean-collapse diagnostics",
+      "subject bounded_mae",
+      "availability strata"
+    ],
+    "physiological_causal_interpretation_prohibited": true
+  },
+  "expected_model_runs": {
+    "classification": 125,
+    "regression": 125,
+    "total": 250
+  },
+  "training_executed": false,
+  "outer_test_predictions_generated": false,
+  "prohibitions": [
+    "model training during contract freeze",
+    "hypervector generation during contract freeze",
+    "outer-test prediction during contract freeze",
+    "OOF generation during contract freeze",
+    "variant/dimension/levels/seed reselection",
+    "performance experiments",
+    "control-input experiments",
+    "multimodal fusion",
+    "Phase 08"
+  ]
+}

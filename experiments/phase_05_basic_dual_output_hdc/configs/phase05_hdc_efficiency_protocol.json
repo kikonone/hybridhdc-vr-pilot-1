@@ -1,0 +1,6 @@
+{
+  "status": "FROZEN_NOT_EXECUTED",
+  "training_timing": {"clock": "time.perf_counter_ns", "components": ["preprocessing", "codebook generation", "encoding", "prototype training", "temperature selection", "Ridge fit", "total"]},
+  "inference_timing": {"warmups": 5, "repetitions": 30, "unit": "complete outer-test batch on an already-fitted model", "save": ["median batch time", "median per-sample time"], "prohibitions": ["no refitting", "no codebook regeneration during timing"]},
+  "model_memory": {"arrays": ["identity HV", "level HV", "prototype", "Ridge coefficients", "necessary preprocessing arrays"], "measure": "nbytes per component and total model bytes", "exclude": "training data", "peak_memory": "tracemalloc Python peak memory; explicitly not total operating-system RSS"}
+}

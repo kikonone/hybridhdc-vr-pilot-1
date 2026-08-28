@@ -1,0 +1,42 @@
+{
+  "phase": "07",
+  "contract_version": "phase07_statistical_analysis_contract_v1",
+  "status": "FROZEN_NOT_EXECUTED",
+  "statistical_unit": "subject",
+  "subjects": 35,
+  "run_as_independent_unit_prohibited": true,
+  "paired_analysis": true,
+  "bootstrap": {
+    "repetitions": 2000,
+    "seed": 42,
+    "confidence_interval": "percentile 95%",
+    "shared_subject_resamples_for_all_models": true,
+    "resampled_subject_includes_all_oof_runs": true,
+    "classification_metrics": [
+      "macro_f1",
+      "balanced_accuracy",
+      "severe_error_rate"
+    ],
+    "regression_metrics": [
+      "bounded_mae",
+      "bounded_rmse"
+    ]
+  },
+  "overall_unimodal_comparison": {
+    "test": "Friedman",
+    "unit": "subject-level metrics",
+    "separate_by_task": true,
+    "outer_folds_as_samples_prohibited": true
+  },
+  "preregistered_pairwise": {
+    "comparisons": "frozen multimodal reference versus each of five unimodal models",
+    "classification_metric": "subject-level macro_f1",
+    "regression_metric": "subject-level bounded_mae",
+    "test": "Wilcoxon signed-rank",
+    "multiplicity": "Holm correction separately within five classification and five regression comparisons",
+    "alpha": 0.05,
+    "effect_size": "rank-biserial correlation",
+    "not_estimable_rule": "If all paired differences are zero or the test is not computable, report NOT_ESTIMABLE with reason and no fabricated p-value"
+  },
+  "interpretation": "association and predictive performance only; no physiological causality"
+}

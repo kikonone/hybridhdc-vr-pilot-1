@@ -1,0 +1,12 @@
+phase_index,phase_id,phase_title,status
+0,phase_00_project_setup,Project setup and data inventory,complete
+1,phase_01_raw_data_modality_audit,Raw data audit and modality inventory,not_started
+2,phase_02_full_multimodal_feature_extraction,Full multimodal feature extraction,not_started
+3,phase_03_multimodal_dataset_labeling,Multimodal dataset construction and four-class labeling,not_started
+4,phase_04_ml_baseline_four_class,Traditional ML four-class baseline,not_started
+5,phase_05_basic_hdc_four_class,Basic HDC four-class classification,not_started
+6,phase_06_hdc_classifier_screening,HDC classifier screening,not_started
+7,phase_07_single_modality_contribution,Single-modality contribution analysis,not_started
+8,phase_08_multimodal_fusion,Multimodal fusion strategy comparison,not_started
+9,phase_09_robustness_missing_modality,Robustness and missing-modality analysis,not_started
+10,phase_10_onlinehd_lsl_simulation,OnlineHD and LSL simulation,not_started

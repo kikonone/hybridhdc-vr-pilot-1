@@ -1,0 +1,35 @@
+{
+  "phase": "09",
+  "status": "PENDING_CONTRACT_FREEZE",
+  "subject_generalization": "FEASIBLE_VIA_LOSO",
+  "missing_modality_robustness": "FEASIBLE_PENDING_CONTRACT",
+  "unseen_session_generalization": "NOT_FEASIBLE_DUE_TO_METADATA",
+  "unseen_scenario_generalization": "NOT_FEASIBLE_DUE_TO_METADATA",
+  "task_template_generalization": "NOT_FEASIBLE_DUE_TO_METADATA",
+  "route_configuration_generalization": "NOT_FEASIBLE_DUE_TO_METADATA",
+  "flight_generalizable_behavior_claim": "INCONCLUSIVE_DUE_TO_METADATA",
+  "allowed_claim": "Phase 09 can evaluate subject generalization and missing-modality robustness.",
+  "prohibited_claim": "Existing metadata cannot establish cross-scenario, cross-route, or cross-task-template generalization of flight-parameter advantages.",
+  "forbidden_proxies": [
+    "difficulty_level_raw as scenario",
+    "target_class or target_score as scenario",
+    "run-order inference",
+    "feature-cluster-derived real scenario"
+  ],
+  "sources": [
+    {
+      "role": "phase08_generalization_handoff",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\configs\\phase09_generalization_handoff.json",
+      "bytes": 3411,
+      "sha256": "aa15ccdea2bfd7224f8deb29ab4ed3baa88b495cfb526e1c83924a32e15f229b",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase08_to_phase09_handoff_manifest",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\manifests\\phase08_to_phase09_generalization_handoff.json",
+      "bytes": 3188,
+      "sha256": "b2c70a59b01fbc7bd66ed41986fb3c01b007d5b8b1d2ebc60bcabd38dbd6569c",
+      "read_only_policy": true
+    }
+  ]
+}

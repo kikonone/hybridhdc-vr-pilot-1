@@ -1,0 +1,36 @@
+{
+  "phase": "09",
+  "audit": "generalization_scope",
+  "status": "PASS",
+  "checks": {
+    "phase08_handoff_limits_match": true,
+    "session_equals_subject_partition": true,
+    "required_grouping_metadata_absent": true,
+    "difficulty_not_used_as_scenario": true
+  },
+  "handoff_holdout_feasibility": {
+    "unseen_session": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "unseen_scenario": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "task_template": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "route_or_configuration": "NOT_FEASIBLE_DUE_TO_METADATA"
+  },
+  "subject_generalization": "FEASIBLE_VIA_LOSO",
+  "missing_modality_robustness": "FEASIBLE_PENDING_CONTRACT",
+  "flight_generalizable_behavior_claim": "INCONCLUSIVE_DUE_TO_METADATA",
+  "sources": [
+    {
+      "role": "phase08_generalization_handoff",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\configs\\phase09_generalization_handoff.json",
+      "bytes": 3411,
+      "sha256": "aa15ccdea2bfd7224f8deb29ab4ed3baa88b495cfb526e1c83924a32e15f229b",
+      "read_only_policy": true
+    },
+    {
+      "role": "primary_metadata_audit",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv",
+      "bytes": 7435180,
+      "sha256": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44",
+      "read_only_policy": true
+    }
+  ]
+}

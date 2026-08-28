@@ -1,0 +1,9 @@
+{
+  "classification_configs_recomputed": 20,
+  "similarity_configs_recomputed": 20,
+  "ridge_configs_recomputed": 20,
+  "fold_metric_crosschecks": 100,
+  "expected_fold_metric_crosschecks": 100,
+  "bounded_rule": "clip to [1.0, 4.0] as frozen; no new clipping",
+  "result": "PASS"
+}

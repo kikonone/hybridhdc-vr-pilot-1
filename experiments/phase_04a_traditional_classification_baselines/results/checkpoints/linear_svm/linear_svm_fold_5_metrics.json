@@ -1,0 +1,19 @@
+{
+  "model": "linear_svm",
+  "model_family": "Linear SVM",
+  "outer_fold": 5.0,
+  "test_run_count": 83,
+  "test_subject_count": 7,
+  "selected_hyperparameters": "{\"classifier__C\": 0.1, \"effective_selected_k\": 100, \"selector__k\": 100}",
+  "selected_feature_count": 100,
+  "tuning_training_seconds": 5.245485399995232,
+  "inference_seconds": 0.013595800002804026,
+  "macro_f1": 0.8787960304536258,
+  "balanced_accuracy": 0.8797619047619047,
+  "accuracy": 0.8795180722891566,
+  "weighted_f1": 0.8782625257232247,
+  "recall_class_0": 0.7142857142857143,
+  "recall_class_1": 0.9523809523809523,
+  "recall_class_2": 0.9,
+  "recall_class_3": 0.9523809523809523
+}

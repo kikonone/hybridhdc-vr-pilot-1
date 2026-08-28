@@ -1,0 +1,40 @@
+{
+  "phase": "07",
+  "status": "FROZEN",
+  "classification": {
+    "labels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "zero_division": 0,
+    "primary": "macro_f1",
+    "definitions": {
+      "macro_f1": "unweighted mean of per-class F1 across fixed labels [0,1,2,3]",
+      "balanced_accuracy": "unweighted mean of per-class recall",
+      "accuracy": "correct predictions divided by evaluated rows",
+      "per_class_recall": "recall for each fixed class label",
+      "severe_error_rate": "mean(abs(predicted_class - target_class) >= 2)",
+      "confusion_matrix": "4x4 matrix with fixed label order [0,1,2,3]"
+    }
+  },
+  "regression": {
+    "primary": "bounded_mae",
+    "target_range": [
+      1.0,
+      4.0
+    ],
+    "target_description": "bounded difficulty-induced workload proxy regression",
+    "prediction_bounded": "clip(prediction_raw, 1.0, 4.0)",
+    "definitions": {
+      "bounded_mae": "MAE(target_score, prediction_bounded)",
+      "raw_mae": "MAE(target_score, prediction_raw)",
+      "bounded_rmse": "RMSE(target_score, prediction_bounded)",
+      "bounded_r2": "R2(target_score, prediction_bounded)",
+      "bounded_spearman": "Spearman(target_score, prediction_bounded)",
+      "residual_bounded": "target_score - prediction_bounded",
+      "per_target_level_mae": "bounded MAE separately for each observed target_score level"
+    }
+  }
+}

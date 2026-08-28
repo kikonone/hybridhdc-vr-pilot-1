@@ -1,0 +1,16 @@
+{
+  "contract": "phase10_final_paper_figure_contract",
+  "status": "FROZEN_NOT_REDRAWN",
+  "minimum_figure_count": 13,
+  "requirements": {
+    "png_and_pdf": true,
+    "same_data_source": true,
+    "consistent_titles_axes_metric_direction": true,
+    "subject_bootstrap_ci_where_required": true,
+    "truncated_axis_prohibited": true,
+    "classification_regression_distinct": true,
+    "loso_is_not_scenario_generalization": true,
+    "feature_contribution_is_not_physiological_causation": true
+  },
+  "redraw_during_contract_freeze": false
+}

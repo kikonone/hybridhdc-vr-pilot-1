@@ -1,0 +1,39 @@
+{
+  "contract": "phase10_source_of_truth_rules",
+  "status": "FROZEN",
+  "priority": [
+    {
+      "rank": 1,
+      "source": "artifact directly referenced by final freeze"
+    },
+    {
+      "rank": 2,
+      "source": "artifact hashed in final manifest"
+    },
+    {
+      "rank": 3,
+      "source": "canonical OOF or summary saved by final analysis"
+    },
+    {
+      "rank": 4,
+      "source": "executed persisted Notebook output"
+    },
+    {
+      "rank": 5,
+      "source": "derived report text or Markdown table"
+    }
+  ],
+  "forbidden_sources": [
+    "temporary",
+    "recovery",
+    "quarantine",
+    "test fixture",
+    "unfrozen checkpoint summary",
+    "manual screenshot transcription",
+    "pre-freeze notebook intermediate",
+    "similar filename not in final manifest"
+  ],
+  "conflict_policy": "Record all paths, hashes and values as SOURCE_CONFLICT; never choose the better result; block that item from final package.",
+  "scientific_source_conflicts": 0,
+  "unresolved_numerical_differences": 0
+}

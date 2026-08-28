@@ -1,0 +1,48 @@
+{
+  "phase": "07",
+  "stage": "unimodal_batch_execution",
+  "generated_at_utc": "2026-08-20T18:24:32.765920+00:00",
+  "run_counts": {
+    "classification": 125,
+    "regression": 125,
+    "total": 250,
+    "by_modality": {
+      "physiological_features": 50,
+      "eye_tracking_features": 50,
+      "head_movement_features": 50,
+      "flight_parameter_features": 50,
+      "body_movement": 50
+    },
+    "by_fold": {
+      "1": 50,
+      "2": 50,
+      "3": 50,
+      "4": 50,
+      "5": 50
+    },
+    "by_seed": {
+      "42": 50,
+      "43": 50,
+      "44": 50,
+      "45": 50,
+      "46": 50
+    }
+  },
+  "coverage": {
+    "classification_seed_level_rows": 10475,
+    "regression_seed_level_rows": 10475,
+    "total_seed_level_rows": 20950
+  },
+  "checkpoint_integrity": "PASS",
+  "leakage_audit": "PASS",
+  "outer_subject_isolation": "PASS",
+  "seed_level_coverage": "PASS",
+  "primary_checksum": "PASS",
+  "frozen_fold_checksum": "PASS",
+  "phase06_interface_preserved": "PASS",
+  "other_hdc_variants_executed": false,
+  "model_reselection_performed": false,
+  "canonical_oof_consolidation_executed": false,
+  "metric_artifacts": 250,
+  "result": "PASS"
+}

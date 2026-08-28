@@ -1,0 +1,13 @@
+{
+  "candidate_id": 5,
+  "k": 200,
+  "n_estimators": 100,
+  "learning_rate": 0.05,
+  "max_depth": 2,
+  "mean_inner_macro_f1": 0.925662087107176,
+  "std_inner_macro_f1": 0.0312398234440542,
+  "outer_fold": 4,
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "pipeline": "SimpleImputer(median, add_indicator=True) -> VarianceThreshold -> SelectKBest(f_classif) -> GradientBoostingClassifier",
+  "random_state": 42
+}

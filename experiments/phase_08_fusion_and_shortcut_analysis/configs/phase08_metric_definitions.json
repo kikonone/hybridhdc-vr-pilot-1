@@ -1,0 +1,11 @@
+{
+  "status": "FROZEN",
+  "classification_primary": "Macro-F1",
+  "regression_primary": "bounded MAE",
+  "regression_task_wording": "bounded difficulty-induced workload proxy regression",
+  "regression_clip_range": [
+    1.0,
+    4.0
+  ],
+  "subject_level_recomputation_required": true
+}

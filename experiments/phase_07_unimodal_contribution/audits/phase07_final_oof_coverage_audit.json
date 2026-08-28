@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "classification_seed_rows": 10475,
+  "regression_seed_rows": 10475,
+  "classification_canonical_rows": 2095,
+  "regression_canonical_rows": 2095,
+  "per_modality_run_keys": 419,
+  "phase": "07",
+  "generated_at_utc": "2026-08-20T18:48:21.685515+00:00"
+}

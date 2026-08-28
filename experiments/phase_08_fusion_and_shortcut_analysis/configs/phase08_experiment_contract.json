@@ -1,0 +1,44 @@
+{
+  "phase": "08",
+  "phase_name": "Fusion and Shortcut Analysis",
+  "status": "CONTRACT_FROZEN_NOT_TRAINED",
+  "scope": "CONTRACT_FREEZE_ONLY_NO_MODELING",
+  "evidence_roles": {
+    "primary_without_performance": "PRIMARY_MAIN_EVIDENCE_ONLY",
+    "with_performance": "AUXILIARY_SHORTCUT_LEARNING_COMPARISON",
+    "performance_only": "AUXILIARY_PERFORMANCE_ONLY_SHORTCUT_ANALYSIS"
+  },
+  "fusion_policy": {
+    "early_fusion": "CORE",
+    "late_fusion": "OPTIONAL_NOT_AUTHORIZED",
+    "hdc_modality_aware_binding": "OPTIONAL_NOT_AUTHORIZED"
+  },
+  "regression_wording": "bounded difficulty-induced workload proxy regression",
+  "candidate_model_interfaces_only": {
+    "classification": [
+      "frozen HDC+OnlineHD Hybrid",
+      "frozen best traditional Gradient Boosting classifier"
+    ],
+    "regression": [
+      "frozen COMMON_ENCODER_READOUT_BASELINE",
+      "frozen best traditional Gradient Boosting Regressor"
+    ]
+  },
+  "deferred_to_contract_freeze": [
+    "fusion condition model matrix",
+    "with-performance/performance-only model matrix",
+    "fold-specific parameter reuse versus inner-CV",
+    "HDC seeds and aggregation",
+    "traditional model random seeds",
+    "OOF canonical aggregation",
+    "shortcut-risk thresholds",
+    "statistical comparison families",
+    "tie-breaking",
+    "early-fusion ranking rules",
+    "optional late-fusion authorization",
+    "total model-run count"
+  ],
+  "training_authorized": false,
+  "frozen_contract": "configs/phase08_frozen_contract.json",
+  "contract_freeze_completed": true
+}

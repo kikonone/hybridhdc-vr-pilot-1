@@ -1,0 +1,23 @@
+{
+  "current_status": "INITIALIZED / NOT YET MODELED",
+  "data_leakage_prohibitions": [
+    "Do not regenerate or modify outer folds.",
+    "Fit imputation, missing indicators, variance filtering, scaling, feature selection, and tuning only in corresponding training folds.",
+    "Outer-test folds are final-test only.",
+    "Use Primary without-performance data for primary results.",
+    "Preserve prediction_raw and clip primary prediction_bounded to [1, 4] without rounding before evaluation."
+  ],
+  "expected_rows": 419,
+  "expected_subjects": 35,
+  "fold_assignments_path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+  "inner_cv": "GroupKFold(n_splits=3, groups=subject_id)",
+  "outer_cv": "frozen 5-fold subject-wise outer CV",
+  "phase": "Phase 04B Traditional Regression Baselines",
+  "phase03_frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "predictive_features": 1176,
+  "primary_data_path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv",
+  "primary_metric": "MAE",
+  "regression_target": "target_score = difficulty_level",
+  "target_interpretation": "bounded difficulty-induced workload proxy regression",
+  "task": "regression"
+}

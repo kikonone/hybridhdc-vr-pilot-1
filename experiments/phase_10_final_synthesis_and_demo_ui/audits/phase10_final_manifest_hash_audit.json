@@ -1,0 +1,11 @@
+{
+  "audit": "phase10_final_manifest_hash_audit",
+  "manifest_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\manifests\\phase10_final_manifest.json",
+  "manifest_sha256": "5f3cdcaf5d5d835418e964de041fd461ba05cbf5e566185a5375af96c1c4583d",
+  "manifest_file_size": 115936,
+  "manifest_artifacts": 173,
+  "algorithm": "SHA-256",
+  "self_reference_policy": "External seal audit; the manifest cannot contain its own final hash without recursive invalidation.",
+  "hash_verified_after_write": true,
+  "status": "PASS"
+}

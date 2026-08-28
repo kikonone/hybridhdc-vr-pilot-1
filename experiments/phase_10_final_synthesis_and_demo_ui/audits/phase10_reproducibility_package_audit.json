@@ -1,0 +1,12 @@
+{
+  "audit": "phase10_reproducibility_package_audit",
+  "required_files": 8,
+  "frozen_artifacts_indexed": 1457,
+  "frozen_artifacts_verified": 1457,
+  "notebooks_indexed": 11,
+  "scripts_indexed": 72,
+  "phase10_initialization_reference_differences": 2,
+  "upstream_reexecution_required": false,
+  "frozen_artifact_rewrite_allowed": false,
+  "status": "PASS"
+}

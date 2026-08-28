@@ -1,0 +1,44 @@
+{
+  "outer_fold": 2,
+  "outer_training_rows": 335,
+  "outer_training_subjects": 28,
+  "outer_test_rows_from_fold_assignments_only": 84,
+  "outer_test_feature_access": false,
+  "outer_test_feature_matrix_materialized": false,
+  "outer_test_prediction_generated": false,
+  "inner_subject_isolation": true,
+  "inner_splits": [
+    {
+      "inner_fold": 1,
+      "train_rows": 216,
+      "validation_rows": 119,
+      "train_subjects": 18,
+      "validation_subjects": 10,
+      "subject_overlap_count": 0
+    },
+    {
+      "inner_fold": 2,
+      "train_rows": 227,
+      "validation_rows": 108,
+      "train_subjects": 19,
+      "validation_subjects": 9,
+      "subject_overlap_count": 0
+    },
+    {
+      "inner_fold": 3,
+      "train_rows": 227,
+      "validation_rows": 108,
+      "train_subjects": 19,
+      "validation_subjects": 9,
+      "subject_overlap_count": 0
+    }
+  ],
+  "preprocessing_fit_scope": "each inner-training split independently",
+  "fold_local_quantization": true,
+  "contract_files_unchanged": true,
+  "fold1_artifacts_preserved": true,
+  "similarity_regression_executed": false,
+  "ridge_readout_executed": false,
+  "oof_generated": false,
+  "result": "PASS"
+}

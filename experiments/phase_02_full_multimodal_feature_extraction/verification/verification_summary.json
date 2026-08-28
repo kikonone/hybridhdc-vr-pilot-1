@@ -1,0 +1,188 @@
+{
+  "source_outputs_modified": false,
+  "extraction_rerun_performed": false,
+  "phase02_raw_extracted_table": {
+    "path": "E:\\hdc-vr-pilot\\experiments\\phase_02_full_multimodal_feature_extraction\\results\\full_multimodal_run_level_features.csv",
+    "rows": 487,
+    "columns": 1252,
+    "identifier_columns": [
+      "subject_id",
+      "session_id",
+      "run_id",
+      "difficulty_level",
+      "run_key"
+    ],
+    "feature_columns": 1247,
+    "unique_subjects": 35,
+    "unique_run_keys": 487,
+    "unique_run_ids_without_subject_context": 12,
+    "duplicated_run_key_rows": 0,
+    "duplicated_subject_session_run_difficulty_rows": 0,
+    "missing_identifier_counts": {
+      "subject_id": 0,
+      "session_id": 0,
+      "run_id": 0,
+      "difficulty_level": 0,
+      "run_key": 0
+    },
+    "difficulty_distribution": {
+      "0": 68,
+      "1": 104,
+      "2": 106,
+      "3": 104,
+      "4": 105
+    },
+    "nan_count": 25011,
+    "nan_rate": 0.0411846748417969,
+    "infinite_value_count": 0,
+    "columns_with_infinite_values": {},
+    "constant_column_count_including_all_nan": 226,
+    "all_nan_column_count": 12,
+    "single_finite_value_column_count": 214
+  },
+  "phase03_with_performance_table": {
+    "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\results\\cleaned_multimodal_four_class_with_performance.csv",
+    "rows": 419,
+    "columns": 1241,
+    "identifier_columns": [
+      "subject_id",
+      "session_id",
+      "run_id",
+      "difficulty_level",
+      "target",
+      "run_key"
+    ],
+    "feature_columns": 1235,
+    "unique_subjects": 35,
+    "unique_run_keys": 419,
+    "unique_run_ids_without_subject_context": 12,
+    "duplicated_run_key_rows": 0,
+    "duplicated_subject_session_run_difficulty_rows": 0,
+    "missing_identifier_counts": {
+      "subject_id": 0,
+      "session_id": 0,
+      "run_id": 0,
+      "difficulty_level": 0,
+      "target": 0,
+      "run_key": 0
+    },
+    "difficulty_distribution": {
+      "1": 104,
+      "2": 106,
+      "3": 104,
+      "4": 105
+    },
+    "nan_count": 7980,
+    "nan_rate": 0.015421332843767212,
+    "infinite_value_count": 0,
+    "columns_with_infinite_values": {},
+    "constant_column_count_including_all_nan": 221,
+    "all_nan_column_count": 0,
+    "single_finite_value_column_count": 221
+  },
+  "phase03_without_performance_table": {
+    "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\results\\cleaned_multimodal_four_class_without_performance.csv",
+    "rows": 419,
+    "columns": 1182,
+    "identifier_columns": [
+      "subject_id",
+      "session_id",
+      "run_id",
+      "difficulty_level",
+      "target",
+      "run_key"
+    ],
+    "feature_columns": 1176,
+    "unique_subjects": 35,
+    "unique_run_keys": 419,
+    "unique_run_ids_without_subject_context": 12,
+    "duplicated_run_key_rows": 0,
+    "duplicated_subject_session_run_difficulty_rows": 0,
+    "missing_identifier_counts": {
+      "subject_id": 0,
+      "session_id": 0,
+      "run_id": 0,
+      "difficulty_level": 0,
+      "target": 0,
+      "run_key": 0
+    },
+    "difficulty_distribution": {
+      "1": 104,
+      "2": 106,
+      "3": 104,
+      "4": 105
+    },
+    "nan_count": 7980,
+    "nan_rate": 0.016195022161609274,
+    "infinite_value_count": 0,
+    "columns_with_infinite_values": {},
+    "constant_column_count_including_all_nan": 213,
+    "all_nan_column_count": 0,
+    "single_finite_value_column_count": 213
+  },
+  "raw_extracted_run_count": 487,
+  "modeling_eligible_run_count": 419,
+  "excluded_run_count": 68,
+  "exclusion_reason_counts": {
+    "Excluded by Phase 03 four-class filter: level-000 rest run": 68
+  },
+  "phase02_group_counts": {
+    "identifier_columns": 5,
+    "physiological_features": 233,
+    "eye_tracking_features": 426,
+    "head_movement_features": 159,
+    "flight_parameter_features": 328,
+    "control_input_features": 0,
+    "performance_features": 59,
+    "unknown_features": 42
+  },
+  "phase02_feature_prefix_counts": {
+    "ecg": 57,
+    "eda": 44,
+    "emg": 84,
+    "eye": 426,
+    "head": 159,
+    "performance": 59,
+    "resp": 48,
+    "unknown": 42,
+    "xplane": 328
+  },
+  "performance_feature_count": 59,
+  "unknown_original_feature_count": 42,
+  "verified_body_movement_feature_count": 42,
+  "unverified_feature_count": 0,
+  "phase02_vs_content_verified_modality_mismatch_count": 38,
+  "phase02_vs_content_verified_modality_mismatch_counts": {
+    "eye_tracking": 18,
+    "eda": 5,
+    "ecg": 5,
+    "respiration": 5,
+    "emg": 3,
+    "head_movement": 1,
+    "xplane": 1
+  },
+  "runs_affected_by_modality_mismatch": 26,
+  "phase01_verified_modality_run_counts": {
+    "eye_tracking": 469,
+    "ecg": 482,
+    "eda_gsr": 470,
+    "emg": 484,
+    "respiration": 482,
+    "head_movement": 486,
+    "xplane_flight_state": 486,
+    "performance": 419,
+    "torso_body_accelerometer": 454,
+    "explicit_control_input": 0
+  },
+  "runs_with_abnormal_or_missing_files": 27,
+  "runs_with_unresolved_files": 0,
+  "integrity_checks": {
+    "phase02_feature_columns_equal_group_union": true,
+    "phase03_without_is_subset_of_phase02": true,
+    "phase03_with_is_subset_of_phase02": true,
+    "performance_count_verified_from_group_and_table": true,
+    "unknown_features_all_verified_as_torso_body_movement": true,
+    "explicit_control_input_feature_count": 0
+  },
+  "phase03_readiness": "NOT READY: current Phase 03 tables were built from Phase 02 modality-presence claims that include placeholder/zero-sample streams in 38 run-modality pairs. Correct or mask those cells, then rebuild and re-verify Phase 03 datasets before modeling."
+}

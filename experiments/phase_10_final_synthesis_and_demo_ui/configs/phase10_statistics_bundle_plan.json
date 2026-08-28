@@ -1,0 +1,5 @@
+{
+  "status": "INDEX_ONLY",
+  "statistical_recomputation_authorized": false,
+  "statistical_unit_guardrail": "subject_id where registered"
+}

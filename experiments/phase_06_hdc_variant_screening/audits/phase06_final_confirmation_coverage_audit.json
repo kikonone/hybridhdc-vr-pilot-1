@@ -1,0 +1,30 @@
+{
+  "phase": "06",
+  "timestamp_utc": "2026-08-20T16:54:30.918618+00:00",
+  "completed_fold_config_runs": 300,
+  "expected_fold_config_runs": 300,
+  "primary_checksum": "PASS",
+  "frozen_fold_checksum": "PASS",
+  "audit": "coverage",
+  "variants": {
+    "onlinehd": {
+      "folds_completed": 5,
+      "fold_config_runs": 100,
+      "configuration_combinations": 20,
+      "all_combinations_cover_419": true
+    },
+    "multicentroid": {
+      "folds_completed": 5,
+      "fold_config_runs": 100,
+      "configuration_combinations": 20,
+      "all_combinations_cover_419": true
+    },
+    "hybrid": {
+      "folds_completed": 5,
+      "fold_config_runs": 100,
+      "configuration_combinations": 20,
+      "all_combinations_cover_419": true
+    }
+  },
+  "result": "PASS"
+}

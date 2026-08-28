@@ -1,0 +1,45 @@
+{
+  "phase": "09",
+  "run_identifier": "mm__missing_body_movement__traditional_classification__fold_1__canonical",
+  "task": "classification",
+  "regression_interpretation": null,
+  "metrics": {
+    "macro_f1": 0.9172118785105055,
+    "balanced_accuracy": 0.9166666666666667,
+    "accuracy": 0.9166666666666666,
+    "severe_error_rate": 0.023809523809523808,
+    "per_class_recall": {
+      "0": 0.9047619047619048,
+      "1": 0.8095238095238095,
+      "2": 0.9523809523809523,
+      "3": 1.0
+    },
+    "confusion_matrix": [
+      [
+        19,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        17,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        20,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        21
+      ]
+    ],
+    "quadratic_weighted_kappa": 0.9142857142857143
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "outer_fold": 2,
+  "outer_train_rows": 335,
+  "outer_test_rows": 84,
+  "outer_train_subjects": 28,
+  "outer_test_subjects": 7,
+  "outer_subject_overlap_count": 0,
+  "inner_groupkfold": "GroupKFold(n_splits=3, groups=subject_id)",
+  "inner_splits": [
+    {
+      "inner_fold": 1,
+      "train_rows": 216,
+      "validation_rows": 119,
+      "train_subjects": 18,
+      "validation_subjects": 10,
+      "subject_overlap_count": 0,
+      "preprocessing_fit_scope": "inner-training only"
+    },
+    {
+      "inner_fold": 2,
+      "train_rows": 227,
+      "validation_rows": 108,
+      "train_subjects": 19,
+      "validation_subjects": 9,
+      "subject_overlap_count": 0,
+      "preprocessing_fit_scope": "inner-training only"
+    },
+    {
+      "inner_fold": 3,
+      "train_rows": 227,
+      "validation_rows": 108,
+      "train_subjects": 19,
+      "validation_subjects": 9,
+      "subject_overlap_count": 0,
+      "preprocessing_fit_scope": "inner-training only"
+    }
+  ],
+  "all_preprocessing_fit_on_training_only": true,
+  "all_20_models_finalized_before_outer_test_feature_load": true,
+  "outer_test_feature_load_sequence": 1,
+  "all_predictions_generated_sequence": 2,
+  "outer_test_labels_loaded_sequence": 3,
+  "temperature_inner_cv_only": true,
+  "ridge_alpha_inner_cv_only": true,
+  "outer_test_used_for_tuning": false,
+  "quick_screen_artifacts_preserved": true,
+  "primary_checksum_pass": true,
+  "fold_checksum_pass": true,
+  "result": "PASS"
+}

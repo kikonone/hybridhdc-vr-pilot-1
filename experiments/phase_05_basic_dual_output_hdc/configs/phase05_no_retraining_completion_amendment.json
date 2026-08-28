@@ -1,0 +1,32 @@
+{
+  "phase": "05",
+  "amendment": "NO_RETRAINING_DIAGNOSTIC_AND_EFFICIENCY_COMPLETION",
+  "status": "COMPLETED_NO_RETRAINING",
+  "created_utc": "2026-08-20T05:53:54.738038+00:00",
+  "allowed": [
+    "derive diagnostics from frozen OOF predictions",
+    "load saved fitted model and preprocessing artifacts",
+    "repeat inference for timing and memory measurement while discarding outputs",
+    "append Notebook/report evidence",
+    "refresh final manifest, audits, and freeze"
+  ],
+  "prohibited": [
+    "model fitting",
+    "checkpoint replacement",
+    "prediction artifact replacement",
+    "hyperparameter tuning",
+    "canonical seed or dimension selection",
+    "Phase 06 execution"
+  ],
+  "warmups": 5,
+  "timed_repetitions": 30,
+  "clock": "time.perf_counter_ns",
+  "pre_amendment_snapshot": "audits\\phase05_no_retraining_pre_amendment_snapshot.json",
+  "pre_amendment_snapshot_sha256": "a260ecd56fa054b36f1b93d861ff4bc7afa1c59acb05deaba4b248b083cf92d0",
+  "completed_utc": "2026-08-20T06:13:03.798786+00:00",
+  "diagnostic_completion": "PASS",
+  "inference_efficiency_protocol_completion": "PASS",
+  "training_timing_remeasurement": "NOT_PERFORMED_RETRAINING_PROHIBITED",
+  "historical_artifacts_preserved": true,
+  "phase06_executed": false
+}

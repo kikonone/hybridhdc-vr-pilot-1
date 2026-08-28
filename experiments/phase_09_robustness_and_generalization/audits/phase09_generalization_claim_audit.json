@@ -1,0 +1,27 @@
+{
+  "phase": "09",
+  "audit": "generalization_claim",
+  "status": "PASS",
+  "audited_at_utc": "2026-08-21T06:41:07.479208+00:00",
+  "checks": {
+    "SUBJECT_GENERALIZATION": true,
+    "MISSING_MODALITY_ROBUSTNESS": true,
+    "UNSEEN_SESSION": true,
+    "UNSEEN_SCENARIO": true,
+    "TASK_TEMPLATE": true,
+    "ROUTE_CONFIGURATION": true,
+    "FLIGHT_GENERALIZABLE_BEHAVIOR_CLAIM": true
+  },
+  "boundaries": {
+    "SUBJECT_GENERALIZATION": "EVALUATED_VIA_35_SUBJECT_LOSO",
+    "MISSING_MODALITY_ROBUSTNESS": "EVALUATED_VIA_RETRAIN_WITHOUT_MODALITY",
+    "UNSEEN_SESSION": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "UNSEEN_SCENARIO": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "TASK_TEMPLATE": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "ROUTE_CONFIGURATION": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "FLIGHT_GENERALIZABLE_BEHAVIOR_CLAIM": "INCONCLUSIVE_DUE_TO_METADATA"
+  },
+  "causal_claim_added": false,
+  "equivalence_claim_added": false,
+  "unseen_scenario_claim_added": false
+}

@@ -1,0 +1,301 @@
+{
+  "captured_at_utc": "2026-08-21T06:58:23.307307+00:00",
+  "freeze_files": [
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\phase04a_freeze.json",
+      "relative_path": "experiments/phase_04a_traditional_classification_baselines/configs/phase04a_freeze.json",
+      "bytes": 1050,
+      "sha256": "34ea8100d9406f9701750a441aa6537323c28bcdb194cb3fd3645c4f7de4a2e1",
+      "last_write_time_utc": "2026-08-19T15:52:09.247515+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\configs\\phase04b_freeze.json",
+      "relative_path": "experiments/phase_04b_traditional_regression_baselines/configs/phase04b_freeze.json",
+      "bytes": 5127,
+      "sha256": "e2c88b1139a50aab6d47b6477c7bceff74f8443095f9d039ea9af84b715ee790",
+      "last_write_time_utc": "2026-08-19T20:16:22.904708+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\audits\\phase05_hdc_contract_freeze_audit.json",
+      "relative_path": "experiments/phase_05_basic_dual_output_hdc/audits/phase05_hdc_contract_freeze_audit.json",
+      "bytes": 1501,
+      "sha256": "0c0cf0c70e1d2fcd0b17163e05e2c7abaeefb9b5c817e07b5706bacd62a91ead",
+      "last_write_time_utc": "2026-08-20T03:17:21.795164+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\audits\\phase05_upstream_freeze_audit.json",
+      "relative_path": "experiments/phase_05_basic_dual_output_hdc/audits/phase05_upstream_freeze_audit.json",
+      "bytes": 1882,
+      "sha256": "7758520c8b6ee0819b36aa6d42ffc9e6f9bff5eeda95b9b4219890ecdbb14c74",
+      "last_write_time_utc": "2026-08-20T03:17:21.732433+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\audits\\phase05_upstream_freeze_integrity_audit.json",
+      "relative_path": "experiments/phase_05_basic_dual_output_hdc/audits/phase05_upstream_freeze_integrity_audit.json",
+      "bytes": 528,
+      "sha256": "810352cb59136a5126ff92316bbe16bfa9198cf368ec3d7c621e2f07d6acc434",
+      "last_write_time_utc": "2026-08-20T06:13:03.972484+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\configs\\phase05_freeze.json",
+      "relative_path": "experiments/phase_05_basic_dual_output_hdc/configs/phase05_freeze.json",
+      "bytes": 1640,
+      "sha256": "d9d3c78a81e83710108a062671fdc1b86c43ad4e84f27c9b53e1c9acaa837e00",
+      "last_write_time_utc": "2026-08-20T06:13:04.549048+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\audits\\phase06_contract_freeze_audit.json",
+      "relative_path": "experiments/phase_06_hdc_variant_screening/audits/phase06_contract_freeze_audit.json",
+      "bytes": 1835,
+      "sha256": "d1ec09b205329116ca19d30c79e813afcec6eb635c64fae937beb83c2a45538a",
+      "last_write_time_utc": "2026-08-20T06:38:05.048428+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\audits\\phase06_phase05_freeze_interface_audit.json",
+      "relative_path": "experiments/phase_06_hdc_variant_screening/audits/phase06_phase05_freeze_interface_audit.json",
+      "bytes": 6183,
+      "sha256": "e51fb46d4dd3ded79831c59311cbcaf7357d9cafffdcfb58f9049f38c6b63aa9",
+      "last_write_time_utc": "2026-08-21T06:45:05.930478+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\audits\\phase06_upstream_freeze_integrity_audit.json",
+      "relative_path": "experiments/phase_06_hdc_variant_screening/audits/phase06_upstream_freeze_integrity_audit.json",
+      "bytes": 476,
+      "sha256": "e68f0bffe210c14ef53667516e9c1030e653b807218d7a0de006c01c95b76538",
+      "last_write_time_utc": "2026-08-20T17:39:17.778494+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+      "relative_path": "experiments/phase_06_hdc_variant_screening/configs/phase06_freeze.json",
+      "bytes": 5533,
+      "sha256": "cd94acdf0bcb463b5f48a7c84110a23059899b6b5bf156131694827d7d7bde66",
+      "last_write_time_utc": "2026-08-20T17:39:18.749853+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\audits\\phase07_contract_freeze_audit.json",
+      "relative_path": "experiments/phase_07_unimodal_contribution/audits/phase07_contract_freeze_audit.json",
+      "bytes": 2546,
+      "sha256": "ecf126efad8cc067d548dc954482714ac2d578ed5232bbb392d3061a16305a9c",
+      "last_write_time_utc": "2026-08-20T18:05:58.897995+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\audits\\phase07_phase06_freeze_interface_audit.json",
+      "relative_path": "experiments/phase_07_unimodal_contribution/audits/phase07_phase06_freeze_interface_audit.json",
+      "bytes": 1533,
+      "sha256": "b29b439c6d2d4b6369994bcf12616f9d5914e7847842769caac8a7e8455a43d0",
+      "last_write_time_utc": "2026-08-20T17:52:06.879731+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\configs\\phase07_freeze.json",
+      "relative_path": "experiments/phase_07_unimodal_contribution/configs/phase07_freeze.json",
+      "bytes": 984,
+      "sha256": "8569b48a8210f0ca1316d5a140d292edb892e2a556ea13ee299e9b97699af492",
+      "last_write_time_utc": "2026-08-20T18:53:09.900459+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\audits\\phase08_contract_freeze_audit.json",
+      "relative_path": "experiments/phase_08_fusion_and_shortcut_analysis/audits/phase08_contract_freeze_audit.json",
+      "bytes": 14920,
+      "sha256": "e75720f85309e8154be54f0eb364da4decf04a70e94f55b8b2003d68d0199471",
+      "last_write_time_utc": "2026-08-20T19:34:27.720717+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\audits\\phase08_contract_freeze_summary.json",
+      "relative_path": "experiments/phase_08_fusion_and_shortcut_analysis/audits/phase08_contract_freeze_summary.json",
+      "bytes": 2326,
+      "sha256": "a05508119663bcac4b97f256c689df683bf61f4dc96f3ecf3c63feacf20eb88e",
+      "last_write_time_utc": "2026-08-20T19:34:29.198537+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\audits\\phase08_freeze_audit.json",
+      "relative_path": "experiments/phase_08_fusion_and_shortcut_analysis/audits/phase08_freeze_audit.json",
+      "bytes": 828,
+      "sha256": "0b361b002bf39585bab5b018ad74b48f424493d544e4d99c737074d4793fe020",
+      "last_write_time_utc": "2026-08-21T02:37:46.314791+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\audits\\phase08_notebook_freeze_persistence_audit.json",
+      "relative_path": "experiments/phase_08_fusion_and_shortcut_analysis/audits/phase08_notebook_freeze_persistence_audit.json",
+      "bytes": 514,
+      "sha256": "c7cd9093017da3a95d3671135c7316f760b8f0f2589811ce740b8353787b28a6",
+      "last_write_time_utc": "2026-08-21T02:37:43.628217+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\audits\\phase08_upstream_freeze_integrity_final_audit.json",
+      "relative_path": "experiments/phase_08_fusion_and_shortcut_analysis/audits/phase08_upstream_freeze_integrity_final_audit.json",
+      "bytes": 1726,
+      "sha256": "30182c889db6a7c3bd6a3e3c335f4b0d1679b711cc6d9216a124ea543a2f947e",
+      "last_write_time_utc": "2026-08-21T02:37:43.641727+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\audits\\phase08_upstream_freeze_interface_audit.json",
+      "relative_path": "experiments/phase_08_fusion_and_shortcut_analysis/audits/phase08_upstream_freeze_interface_audit.json",
+      "bytes": 1420,
+      "sha256": "8d7e2f864fa84c4a4465e752e22accac7b99a89b69bb2eae1b63dc406182e518",
+      "last_write_time_utc": "2026-08-20T19:32:01.569851+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\configs\\phase08_freeze.json",
+      "relative_path": "experiments/phase_08_fusion_and_shortcut_analysis/configs/phase08_freeze.json",
+      "bytes": 1460,
+      "sha256": "f36211f1b793d1868573973f8ea46a7bc89aee03759079e268df75d2a4894595",
+      "last_write_time_utc": "2026-08-21T02:37:45.127766+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\audits\\phase09_contract_freeze_audit.json",
+      "relative_path": "experiments/phase_09_robustness_and_generalization/audits/phase09_contract_freeze_audit.json",
+      "bytes": 1037,
+      "sha256": "f7069cbe52d82607c33d23c13add1044b015d47d94faff4e537128e32b92cf9d",
+      "last_write_time_utc": "2026-08-21T06:40:19.778942+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\audits\\phase09_freeze_audit.json",
+      "relative_path": "experiments/phase_09_robustness_and_generalization/audits/phase09_freeze_audit.json",
+      "bytes": 1382,
+      "sha256": "b62cebbb3b1966fb9768f8d05d373a930cd25a884f0d7a270aed01dcf0c87e2c",
+      "last_write_time_utc": "2026-08-21T06:41:27.743425+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\audits\\phase09_notebook_freeze_persistence_audit.json",
+      "relative_path": "experiments/phase_09_robustness_and_generalization/audits/phase09_notebook_freeze_persistence_audit.json",
+      "bytes": 872,
+      "sha256": "5ff1ee90e8b4aff4058fb3552915731826e8cc85d8ed513b4afaff916ba8d1aa",
+      "last_write_time_utc": "2026-08-21T06:41:11.486556+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\audits\\phase09_upstream_freeze_audit.json",
+      "relative_path": "experiments/phase_09_robustness_and_generalization/audits/phase09_upstream_freeze_audit.json",
+      "bytes": 8846,
+      "sha256": "1adfca530c57ea68fa72ee65056ad345b033fc2c898b57378ea4ab5f02f4530d",
+      "last_write_time_utc": "2026-08-21T06:33:09.471829+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\audits\\phase09_upstream_freeze_integrity_final_audit.json",
+      "relative_path": "experiments/phase_09_robustness_and_generalization/audits/phase09_upstream_freeze_integrity_final_audit.json",
+      "bytes": 10092,
+      "sha256": "3060b8efbf47c82d1631ae678b5b826abbbca11ee1251ffe19ccfa9a46aca124",
+      "last_write_time_utc": "2026-08-21T06:41:07.465382+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_contract_freeze.json",
+      "relative_path": "experiments/phase_09_robustness_and_generalization/configs/phase09_contract_freeze.json",
+      "bytes": 11135,
+      "sha256": "a9d57f15a8b8c5b16fc019c81f7dba43795725da88d7083347f8a6ff93bd9b11",
+      "last_write_time_utc": "2026-08-21T06:40:18.515075+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_freeze.json",
+      "relative_path": "experiments/phase_09_robustness_and_generalization/configs/phase09_freeze.json",
+      "bytes": 1655,
+      "sha256": "cd026df824c210172103b0c60b5090a59cc39eef9b86f3a22fcac0eaac320bd9",
+      "last_write_time_utc": "2026-08-21T06:41:16.549198+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\manifests\\phase09_upstream_freeze_manifest.json",
+      "relative_path": "experiments/phase_09_robustness_and_generalization/manifests/phase09_upstream_freeze_manifest.json",
+      "bytes": 6853,
+      "sha256": "03cec48558758837e575c851b89a81544c3415bac29d71c18c3d3c081d143690",
+      "last_write_time_utc": "2026-08-21T06:33:09.451186+00:00"
+    }
+  ],
+  "final_manifests": [
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\manifests\\phase04b_final_artifact_manifest.json",
+      "relative_path": "experiments/phase_04b_traditional_regression_baselines/manifests/phase04b_final_artifact_manifest.json",
+      "bytes": 16911,
+      "sha256": "eb0edfdf4acefd2c28e86476fe58d76204ddf2951d45894841a966f1b9b8e8ae",
+      "last_write_time_utc": "2026-08-19T20:16:23.174437+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\audits\\vanilla_hdc_final_confirmation_manifest_audit.json",
+      "relative_path": "experiments/phase_05_basic_dual_output_hdc/audits/vanilla_hdc_final_confirmation_manifest_audit.json",
+      "bytes": 466,
+      "sha256": "3dc6942a8d6f712aa15bef7e4e53e7b1c0c7fa749797d5652631a99ce07a5307",
+      "last_write_time_utc": "2026-08-20T04:04:57.768385+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\configs\\vanilla_hdc_final_confirmation_manifest.json",
+      "relative_path": "experiments/phase_05_basic_dual_output_hdc/configs/vanilla_hdc_final_confirmation_manifest.json",
+      "bytes": 10259,
+      "sha256": "97d80bc7a5ac7341edfd8f91284de55b28b453f6ef60fafea0519ffc2d1083c7",
+      "last_write_time_utc": "2026-08-20T04:04:57.751085+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\manifests\\phase05_final_artifact_manifest.json",
+      "relative_path": "experiments/phase_05_basic_dual_output_hdc/manifests/phase05_final_artifact_manifest.json",
+      "bytes": 138327,
+      "sha256": "e4894aeaa56f4b9938e9582414286d493ec4da49543e6972985a13bedf8148d5",
+      "last_write_time_utc": "2026-08-20T06:13:04.354364+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\manifests\\vanilla_hdc_final_confirmation_artifact_manifest.json",
+      "relative_path": "experiments/phase_05_basic_dual_output_hdc/manifests/vanilla_hdc_final_confirmation_artifact_manifest.json",
+      "bytes": 73492,
+      "sha256": "6d718237b54620642ba8e7a91227c762ecb328e3111387a04cd777a7e4c6d836",
+      "last_write_time_utc": "2026-08-20T04:27:56.914294+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\manifests\\phase06_final_artifact_manifest.json",
+      "relative_path": "experiments/phase_06_hdc_variant_screening/manifests/phase06_final_artifact_manifest.json",
+      "bytes": 33117,
+      "sha256": "25df4d2754075061c4000c9260ad0b5b4182203f988375078e2f4156dcd580a5",
+      "last_write_time_utc": "2026-08-20T17:39:18.563454+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\manifests\\phase06_final_confirmation_artifact_manifest.json",
+      "relative_path": "experiments/phase_06_hdc_variant_screening/manifests/phase06_final_confirmation_artifact_manifest.json",
+      "bytes": 124394,
+      "sha256": "c79ce812f666b5d257db02280397782c255912149f7230320637e4bbf9689eaf",
+      "last_write_time_utc": "2026-08-20T16:54:33.375883+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\manifests\\phase07_final_artifact_manifest.json",
+      "relative_path": "experiments/phase_07_unimodal_contribution/manifests/phase07_final_artifact_manifest.json",
+      "bytes": 11913,
+      "sha256": "3074a6e6b3bb9a6fc3065a19d37801876ea37296e1b43f63966a40cbe7371cfe",
+      "last_write_time_utc": "2026-08-20T18:53:09.880414+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\audits\\phase08_final_manifest_audit.json",
+      "relative_path": "experiments/phase_08_fusion_and_shortcut_analysis/audits/phase08_final_manifest_audit.json",
+      "bytes": 452,
+      "sha256": "96e9a7d559be66a7035cc425e28e1326f9f495899498d919ac54b72177da4a2e",
+      "last_write_time_utc": "2026-08-21T02:37:45.974716+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\manifests\\phase08_final_manifest.json",
+      "relative_path": "experiments/phase_08_fusion_and_shortcut_analysis/manifests/phase08_final_manifest.json",
+      "bytes": 279582,
+      "sha256": "c4de38db0c0d76e5cb06822d895d9ccd823d418c9057d85732d080f5b09cc42b",
+      "last_write_time_utc": "2026-08-21T02:37:45.113972+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\audits\\phase09_final_manifest_audit.json",
+      "relative_path": "experiments/phase_09_robustness_and_generalization/audits/phase09_final_manifest_audit.json",
+      "bytes": 821,
+      "sha256": "59f48b6ed1cecb09ec6cf9b80eac2413daf03e1fe941215976e4374d12962579",
+      "last_write_time_utc": "2026-08-21T06:41:19.374836+00:00"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\manifests\\phase09_final_manifest.json",
+      "relative_path": "experiments/phase_09_robustness_and_generalization/manifests/phase09_final_manifest.json",
+      "bytes": 1782027,
+      "sha256": "1d3ae2abec1a3b88ebe224ecf6e118c1cbac814a0cff843d9faddcfe1c5b9256",
+      "last_write_time_utc": "2026-08-21T06:41:16.536549+00:00"
+    }
+  ],
+  "primary": {
+    "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv",
+    "relative_path": "experiments/phase_03_multimodal_dataset_labeling/data/primary_without_performance.csv",
+    "bytes": 7435180,
+    "sha256": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44",
+    "last_write_time_utc": "2026-08-19T04:34:14.107327+00:00"
+  },
+  "frozen_folds": {
+    "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+    "relative_path": "experiments/phase_03_multimodal_dataset_labeling/data/fold_assignments.csv",
+    "bytes": 38660,
+    "sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+    "last_write_time_utc": "2026-08-19T04:24:46.223175+00:00"
+  }
+}

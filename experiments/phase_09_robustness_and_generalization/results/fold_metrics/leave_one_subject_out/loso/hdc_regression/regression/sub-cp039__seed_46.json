@@ -1,0 +1,18 @@
+{
+  "phase": "09",
+  "run_identifier": "loso__sub-cp039__hdc_regression__seed_46",
+  "task": "regression",
+  "regression_interpretation": "bounded difficulty-induced workload proxy regression",
+  "metrics": {
+    "raw_mae": 0.7883652448654175,
+    "bounded_mae": 0.7883652448654175,
+    "bounded_rmse": 0.9140477563949965,
+    "bounded_r2": 0.3316133592234185,
+    "bounded_spearman": 0.7773003307575549,
+    "clipping_count": 0,
+    "clipping_rate": 0.0,
+    "rounded_regression_macro_f1": 0.20833333333333331,
+    "adjacent_accuracy": 0.9166666666666666,
+    "severe_error_rate": 0.08333333333333333
+  }
+}

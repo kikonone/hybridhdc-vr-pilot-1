@@ -1,0 +1,14 @@
+{
+  "result": "PASS",
+  "source": "canonical aggregated predictions",
+  "seed_metric_mean_used_as_canonical": false,
+  "fixed_labels": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "zero_division": 0,
+  "phase": "07",
+  "generated_at_utc": "2026-08-20T18:48:21.687459+00:00"
+}

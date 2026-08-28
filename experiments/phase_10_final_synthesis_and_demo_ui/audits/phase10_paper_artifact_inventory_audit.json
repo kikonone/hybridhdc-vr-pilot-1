@@ -1,0 +1,20 @@
+{
+  "audit": "phase10_paper_artifact_inventory_audit",
+  "table_count": 160,
+  "figure_count": 61,
+  "checks": {
+    "csv_summary_tables": true,
+    "markdown_reports": true,
+    "png_figures": true,
+    "pdf_figures": true,
+    "confusion_matrices": true,
+    "regression_plots": true,
+    "hdc_variant_figures": true,
+    "modality_figures": true,
+    "fusion_or_shortcut_figures": true,
+    "missing_modality_figures": true,
+    "loso_figures": true,
+    "figures_redrawn": false
+  },
+  "status": "PASS"
+}

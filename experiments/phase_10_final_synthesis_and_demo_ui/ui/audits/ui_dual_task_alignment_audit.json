@@ -1,0 +1,24 @@
+{
+  "audit": "ui_dual_task_alignment",
+  "status": "PASS",
+  "checked_at_utc": "2026-08-26T07:23:37.173271+00:00",
+  "checks": {
+    "classification_rows": 419,
+    "regression_rows": 419,
+    "aligned_rows": 419,
+    "unique_demo_ids": 419,
+    "stable_id_sequence": true,
+    "alignment_before_anonymization": true,
+    "real_key_sets_equal": true,
+    "fold_coverage": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "missing_targets": 0,
+    "missing_predictions": 0
+  },
+  "ordered_real_key_sha256": "cf9e5d4b5d4f0e1e2f3e26d4c60928e2feae24c09a6e73af0e8c85f422eb5284"
+}

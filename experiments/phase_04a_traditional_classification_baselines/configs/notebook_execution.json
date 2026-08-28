@@ -1,0 +1,13 @@
+{
+  "python_executable": "D:\\Computer\\anaconda3\\python.exe",
+  "PYTHONNOUSERSITE": "1",
+  "method": "nbclient persistence-only execution of canonical notebook cells through the real-data smoke-test cell; full nested CV disabled",
+  "kernel_name": "python3",
+  "nbclient_version": "0.10.0",
+  "nbformat_version": "5.10.4",
+  "canonical_notebook_path": "experiments/phase_04a_traditional_classification_baselines/Phase_04A_Classification_Baselines.ipynb",
+  "executed_code_cell_count": 5,
+  "persisted_output_cell_count": 5,
+  "execution_error_count": 0,
+  "smoke_test_status": "PASS"
+}

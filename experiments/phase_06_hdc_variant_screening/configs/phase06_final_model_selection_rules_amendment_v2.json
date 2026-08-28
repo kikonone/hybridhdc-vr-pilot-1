@@ -1,0 +1,87 @@
+{
+  "phase": "06",
+  "amendment_version": "v2",
+  "rule_id": "INNER_CV_ONLY_POST_FREEZE_AMENDMENT_V2",
+  "status": "INNER_CV_ONLY_POST_FREEZE_AMENDMENT",
+  "provenance": {
+    "defined_after_final_confirmation": true,
+    "outer_oof_already_existed": true,
+    "originally_preregistered": false,
+    "original_rule_preserved": true,
+    "original_rule_sha256": "243dcaf9f6c939cb427addcc3675e88dad94126b70a6f1a97be07ea34e71ea55",
+    "original_failure_audit_preserved": true,
+    "original_failure_audit_sha256": "57108c298baf2dbf92fdf29b62306eca75b13000f7a83664a176fed6fb358544",
+    "required_disclosure": "The Phase 06 canonical model-selection amendment was defined after final-confirmation artifacts existed, but its executable selector was restricted to previously saved inner-CV and unlabeled efficiency evidence. Outer-OOF artifacts were hash-sealed before selection and were not read by the selector."
+  },
+  "evidence_boundary": {
+    "selection_evidence": "INNER_CV_ONLY",
+    "unlabeled_efficiency_allowed": true,
+    "outer_oof_read_before_selection": false,
+    "outer_prediction_read_before_selection": false,
+    "outer_metric_read_before_selection": false,
+    "retraining": false,
+    "reprediction": false
+  },
+  "classification": {
+    "candidate_variants": ["vanilla", "onlinehd", "multicentroid", "hybrid"],
+    "dimensions": [2000, 5000],
+    "candidate_family_count": 8,
+    "vanilla_filter": {"levels": 51, "feature_k": 50, "seed": 42},
+    "aggregation": [
+      "Within each outer-training task and fixed dimension, select the best structure under the original frozen Quick Screen ranking.",
+      "Average the three inner-fold metrics within each outer-training task.",
+      "Aggregate the five outer-training task means with equal weight.",
+      "Use the sample SD of the five outer-training task Macro-F1 means."
+    ],
+    "ranking": [
+      {"priority": 1, "field": "mean_inner_macro_f1_across_outer_tasks", "direction": "descending"},
+      {"priority": 2, "field": "sample_sd_outer_task_mean_macro_f1", "direction": "ascending"},
+      {"priority": 3, "field": "mean_inner_balanced_accuracy_across_outer_tasks", "direction": "descending"},
+      {"priority": 4, "field": "mean_inner_severe_error_rate_across_outer_tasks", "direction": "ascending"},
+      {"priority": 5, "field": "mean_inner_measured_runtime_seconds", "direction": "ascending"},
+      {"priority": 6, "field": "mean_model_bytes", "direction": "ascending", "only_if_complete": true},
+      {"priority": 7, "field": "dimension", "direction": "ascending"},
+      {"priority": 8, "field": "canonical_variant_name", "direction": "lexicographic ascending"}
+    ],
+    "final_model_definition": {
+      "levels": 51,
+      "feature_k": 50,
+      "structure_selection_policy": "fold-local inner-CV selection under the frozen Quick Screen grid",
+      "seed_policy": "frozen evaluation seeds; no single seed selected"
+    }
+  },
+  "regression": {
+    "candidate_heads": ["vanilla_similarity", "onlinehd_similarity", "multicentroid_similarity", "hybrid_similarity", "COMMON_ENCODER_READOUT_BASELINE"],
+    "dimensions": [1000, 2000, 5000, 10000],
+    "candidate_family_count": 20,
+    "aggregation": [
+      "Within each outer fold, average the five seeds' selected inner-CV results.",
+      "Aggregate the five outer-fold means with equal weight.",
+      "Use the sample SD of the five outer-fold mean bounded MAE values."
+    ],
+    "ranking": [
+      {"priority": 1, "field": "mean_inner_bounded_mae", "direction": "ascending"},
+      {"priority": 2, "field": "sample_sd_outer_fold_mean_mae", "direction": "ascending"},
+      {"priority": 3, "field": "mean_inner_bounded_rmse", "direction": "ascending"},
+      {"priority": 4, "field": "mean_inner_measured_runtime_seconds", "direction": "ascending"},
+      {"priority": 5, "field": "mean_model_bytes", "direction": "ascending", "only_if_complete": true},
+      {"priority": 6, "field": "dimension", "direction": "ascending"},
+      {"priority": 7, "field": "canonical_head_family_name", "direction": "lexicographic ascending"}
+    ],
+    "final_model_definition": {
+      "levels": 51,
+      "feature_k": 50,
+      "parameter_policy": "fold-local inner-CV temperature or Ridge alpha selection",
+      "seed_policy": "frozen evaluation seeds; no single seed selected",
+      "common_ridge_copies": 0
+    }
+  },
+  "pareto": {
+    "classification": ["maximize inner Macro-F1", "minimize inner measured runtime", "minimize model bytes if complete"],
+    "regression": ["minimize inner bounded MAE", "minimize inner measured runtime", "minimize model bytes if complete"],
+    "overrides_deterministic_ranking": false,
+    "memory_status": "MEMORY_NOT_USED_IN_SELECTION_INCOMPLETE_COVERAGE"
+  },
+  "numeric_comparison": "unrounded floating-point values",
+  "folds_and_seeds_are_not_independent_subjects": true
+}

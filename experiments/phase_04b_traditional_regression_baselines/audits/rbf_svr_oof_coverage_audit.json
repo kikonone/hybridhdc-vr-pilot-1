@@ -1,0 +1,8 @@
+{
+  "rows": 419,
+  "unique_run_keys": 419,
+  "missing_predictions": 0,
+  "fold_coverage": 5,
+  "bounded_range_pass": true,
+  "overall_pass": true
+}

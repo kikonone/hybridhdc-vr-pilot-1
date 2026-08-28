@@ -1,0 +1,110 @@
+{
+  "frozen_outer_folds_unchanged": true,
+  "folds": {
+    "1": {
+      "outer_subject_overlap_count": 0,
+      "inner_splits": [
+        {
+          "inner_fold": 1,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 2,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 3,
+          "subject_overlap_count": 0
+        }
+      ],
+      "pipeline_training_only": true,
+      "outer_test_used_for_tuning": false,
+      "outer_test_target_in_training_statistics": false
+    },
+    "2": {
+      "outer_subject_overlap_count": 0,
+      "inner_splits": [
+        {
+          "inner_fold": 1,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 2,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 3,
+          "subject_overlap_count": 0
+        }
+      ],
+      "pipeline_training_only": true,
+      "outer_test_used_for_tuning": false,
+      "outer_test_target_in_training_statistics": false
+    },
+    "3": {
+      "outer_subject_overlap_count": 0,
+      "inner_splits": [
+        {
+          "inner_fold": 1,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 2,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 3,
+          "subject_overlap_count": 0
+        }
+      ],
+      "pipeline_training_only": true,
+      "outer_test_used_for_tuning": false,
+      "outer_test_target_in_training_statistics": false
+    },
+    "4": {
+      "outer_subject_overlap_count": 0,
+      "inner_splits": [
+        {
+          "inner_fold": 1,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 2,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 3,
+          "subject_overlap_count": 0
+        }
+      ],
+      "pipeline_training_only": true,
+      "outer_test_used_for_tuning": false,
+      "outer_test_target_in_training_statistics": false
+    },
+    "5": {
+      "outer_subject_overlap_count": 0,
+      "inner_splits": [
+        {
+          "inner_fold": 1,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 2,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 3,
+          "subject_overlap_count": 0
+        }
+      ],
+      "pipeline_training_only": true,
+      "outer_test_used_for_tuning": false,
+      "outer_test_target_in_training_statistics": false
+    }
+  },
+  "pipeline_components_fit_within_training_only": true,
+  "hyperparameter_selection_used_outer_test": false,
+  "outer_test_target_entered_training_statistics": false,
+  "overall_pass": true,
+  "utc_timestamp": "2026-08-19T16:29:10.727272+00:00"
+}

@@ -1,0 +1,516 @@
+{
+  "phase": "06",
+  "seal": "preselection_outer_oof_and_final_confirmation_evidence",
+  "created_before_model_selection": true,
+  "timestamp_utc": "2026-08-20T17:27:09.094908+00:00",
+  "artifact_count": 72,
+  "artifacts": [
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\fold_metrics\\vanilla_hdc_final_confirmation_fold_1_metrics.csv",
+      "category": "phase05_outer_fold_metrics",
+      "file_size_bytes": 8046,
+      "sha256": "26d897a114e53d5a1d81e1093ea6ac05cc5bc8465132bc8f74f4284378e01cc5",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\fold_metrics\\vanilla_hdc_final_confirmation_fold_2_metrics.csv",
+      "category": "phase05_outer_fold_metrics",
+      "file_size_bytes": 8042,
+      "sha256": "87877de99cde4b5b37241bed14d3bd0e2a1926f86dcb210b386562ad2dec2ef1",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\fold_metrics\\vanilla_hdc_final_confirmation_fold_3_metrics.csv",
+      "category": "phase05_outer_fold_metrics",
+      "file_size_bytes": 8099,
+      "sha256": "2f872cb440458080886616f81b143605e9420915ae5ad102f11f816b8a64a86c",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\fold_metrics\\vanilla_hdc_final_confirmation_fold_4_metrics.csv",
+      "category": "phase05_outer_fold_metrics",
+      "file_size_bytes": 8098,
+      "sha256": "4efa6261a4d23496c7f359b669fa259408ccd67e47de6162e1995cd4d900bba7",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\fold_metrics\\vanilla_hdc_final_confirmation_fold_5_metrics.csv",
+      "category": "phase05_outer_fold_metrics",
+      "file_size_bytes": 7854,
+      "sha256": "11ce86c979ca206e891dad8a2e05da55213912115d5b912f9b08c14c2c29b27f",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\oof\\vanilla_hdc_classification_oof.csv",
+      "category": "phase05_outer_oof",
+      "file_size_bytes": 1237280,
+      "sha256": "a9b0e0c5abec3848e172d271398203b621cae9e3d2d83bccd2ccb672a608b700",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\oof\\vanilla_hdc_final_confirmation_diagnostics.csv",
+      "category": "phase05_outer_oof",
+      "file_size_bytes": 2762341,
+      "sha256": "34fde69be06be6fe738ded8249bd402ceab5a769f2428ee4dff2e001632476d6",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\oof\\vanilla_hdc_final_confirmation_oof_long.csv",
+      "category": "phase05_outer_oof",
+      "file_size_bytes": 1798423,
+      "sha256": "bbc3d2044e9e1e527eed7e0f40d41ba569033073cb437e6d9aec3ccce1d837ad",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\oof\\vanilla_hdc_ridge_regression_oof.csv",
+      "category": "phase05_outer_oof",
+      "file_size_bytes": 937114,
+      "sha256": "a449d8f43a0935f0a3fcf8cf901894e426a83e552807dcef9551bc983ba22758",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\oof\\vanilla_hdc_similarity_regression_oof.csv",
+      "category": "phase05_outer_oof",
+      "file_size_bytes": 801558,
+      "sha256": "95a3271ea40c1228a8d4836f6ca88788bf627894ebcfc8e2bb95b6b436a10a17",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\predictions\\vanilla_hdc_final_confirmation_fold_1_predictions.csv",
+      "category": "phase05_final_predictions",
+      "file_size_bytes": 362303,
+      "sha256": "1ca2949d6b101ab331abade375052a7c3441ca62cb571703ec38ddda524162ac",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\predictions\\vanilla_hdc_final_confirmation_fold_2_predictions.csv",
+      "category": "phase05_final_predictions",
+      "file_size_bytes": 361648,
+      "sha256": "143016f8dab3dc02adc7934bb67ed38d6137844f9ae3c0942b3c8ff6be24e163",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\predictions\\vanilla_hdc_final_confirmation_fold_3_predictions.csv",
+      "category": "phase05_final_predictions",
+      "file_size_bytes": 361495,
+      "sha256": "bf1c5accf3a1b62bfd0c3004558e8c46069aa642addec64f92bd40ae47e7714a",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\predictions\\vanilla_hdc_final_confirmation_fold_4_predictions.csv",
+      "category": "phase05_final_predictions",
+      "file_size_bytes": 361460,
+      "sha256": "846ec0824d081742fd6422fb7a4f4cbbbd7871828150b7dc9fd966d464b84ce0",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\predictions\\vanilla_hdc_final_confirmation_fold_5_predictions.csv",
+      "category": "phase05_final_predictions",
+      "file_size_bytes": 357203,
+      "sha256": "3d547dbdd3cfe2c854af3148e771256cd042d45c16ec3749a9ac4bfbda456d48",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\summaries\\vanilla_hdc_classification_oof_metrics_by_config.csv",
+      "category": "phase05_outer_oof_metrics",
+      "file_size_bytes": 2264,
+      "sha256": "08c34b3a509166584b8a9af71fb3e2d004635079b1f520ae3115c88e98ea0453",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\summaries\\vanilla_hdc_ridge_regression_oof_metrics_by_config.csv",
+      "category": "phase05_outer_oof_metrics",
+      "file_size_bytes": 2270,
+      "sha256": "4f9c0bd1d951817217fa874b5c88f2817f5aee8968ab03430849b3073e8c1a4c",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_05_basic_dual_output_hdc\\results\\summaries\\vanilla_hdc_similarity_regression_oof_metrics_by_config.csv",
+      "category": "phase05_outer_oof_metrics",
+      "file_size_bytes": 2247,
+      "sha256": "2ea70963f8890ca0eb89414ee764b0a61e721529d851161c97336a7699befc2a",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\hybrid_final_confirmation_fold_1_classification_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 5335,
+      "sha256": "99b8cae44c1ee50f8ffd77bed1aedda73472104b54e72fe803c9d481377e6ac6",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\hybrid_final_confirmation_fold_1_similarity_regression_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 4416,
+      "sha256": "cb518cb5cebf716c8b958d200b1f269acf3c81583f457a5e536528ffd9dbce7a",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\hybrid_final_confirmation_fold_2_classification_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 5410,
+      "sha256": "49e7598ff177d2939a5b3c297009a2ffd7b55eba02fb9f423f8dea2bf30e19fa",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\hybrid_final_confirmation_fold_2_similarity_regression_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 4438,
+      "sha256": "853fb2d85be634b5d30b3487ffa82916436a403e16db9b9a8417ab5ff96985a9",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\hybrid_final_confirmation_fold_3_classification_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 5397,
+      "sha256": "79b27390d874bc1a2a9041498281240d60ab7c032d33988773de3743d96f1720",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\hybrid_final_confirmation_fold_3_similarity_regression_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 4437,
+      "sha256": "35e92f4d686f315253cfe56099f68bc4117a3e89db4e52a78be5f78da2d5423e",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\hybrid_final_confirmation_fold_4_classification_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 5266,
+      "sha256": "06c6f6d3127ac27feeca1f5faf02413beabba911052f09513a225b3ed16ae40f",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\hybrid_final_confirmation_fold_4_similarity_regression_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 4438,
+      "sha256": "32808927ff38707641ec7189b04ab8389ae4befe6bfb39452cb0073ef1872fa7",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\hybrid_final_confirmation_fold_5_classification_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 5221,
+      "sha256": "9b8cd06c61eceff54efac379a0d05570dcb68f984d709d2086d57cc2ac7b39ba",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\hybrid_final_confirmation_fold_5_similarity_regression_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 4420,
+      "sha256": "03d62b56c024d196a076e78618c4eb522af15731c15040d89db3bf5bfcda8bb3",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\multicentroid_final_confirmation_fold_1_classification_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 4304,
+      "sha256": "514d1b174a521ef62153db9181ac5823bb30d44719faa3219b4fd7ccbb4cee35",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\multicentroid_final_confirmation_fold_1_similarity_regression_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 3366,
+      "sha256": "31be1b72e4add579dba877b5bca70f4cd61ddedfe5f8ed83f82021493dc327a0",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\multicentroid_final_confirmation_fold_2_classification_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 4320,
+      "sha256": "a4e45f4e4f68dffbe374d3d391fe2008c7eb1d9811cfaf472c992f779cddd0f1",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\multicentroid_final_confirmation_fold_2_similarity_regression_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 3363,
+      "sha256": "a042f88416b88a60a95a459accd8af832c282f379569a0306b27058eb76c7ee8",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\multicentroid_final_confirmation_fold_3_classification_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 4337,
+      "sha256": "a92b43dd8168a553787a8a2b3a354702caf34d16450c265519b28b262fcb046e",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\multicentroid_final_confirmation_fold_3_similarity_regression_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 3364,
+      "sha256": "36ebf7b084bc8c6ff4a47d47a6d94e5691cfa8d37e58cba195f85b7afbd63ce0",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\multicentroid_final_confirmation_fold_4_classification_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 4351,
+      "sha256": "6c2df8b5985e48a439cf2fab0204110ce0c9079acc10ba5c5bf25111a8f63aff",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\multicentroid_final_confirmation_fold_4_similarity_regression_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 3375,
+      "sha256": "501ea9eadbbffedb285d18ee734aee77eec70f36b82e52d24ea479e3c435e413",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\multicentroid_final_confirmation_fold_5_classification_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 4114,
+      "sha256": "dba7538812ad68d80143eb66e18344f4ecbb676e4b62bdd6cb0133592029d571",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\multicentroid_final_confirmation_fold_5_similarity_regression_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 3366,
+      "sha256": "24e412b27121a6b426d5ae5d68626830abcb5ff85b71ceeeae536c6bdc4cd8ac",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\onlinehd_final_confirmation_fold_1_classification_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 4915,
+      "sha256": "c12158d3e725f5e2672f99a49f3169743c1a72092d6f94da8a5065a3aa18a176",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\onlinehd_final_confirmation_fold_1_similarity_regression_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 3975,
+      "sha256": "b81feca22313e5c8b07868d8088e3659b0c64a9edb025ae982ca74859b7c7ab6",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\onlinehd_final_confirmation_fold_2_classification_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 4934,
+      "sha256": "ab9c2f4d150f9d0dca2314614af7d726bae009b5384fa24faf27d50eef6d9207",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\onlinehd_final_confirmation_fold_2_similarity_regression_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 3983,
+      "sha256": "600313488fe30e1f3af3eddd7ff2e32ae34969d723d56462e523d8a46c8f0754",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\onlinehd_final_confirmation_fold_3_classification_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 4813,
+      "sha256": "2de42dedadc87a4368f71b9cde3799cd4e1aa67a062149b89d9816201886b9b4",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\onlinehd_final_confirmation_fold_3_similarity_regression_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 3979,
+      "sha256": "f1db5c4a2f8c950bc3faa7010fc0bb7b3f02a7f19c840956d6df50218676012f",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\onlinehd_final_confirmation_fold_4_classification_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 4837,
+      "sha256": "f789e65efd40f5ec301d00e3960026f2524f1247e9cc99a3807f3f114e11ae05",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\onlinehd_final_confirmation_fold_4_similarity_regression_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 3968,
+      "sha256": "a7b7f44f05fabc2479a2bb630fc512618d01df3701ee9ca0e3fba16b50816b1b",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\onlinehd_final_confirmation_fold_5_classification_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 4810,
+      "sha256": "d8153cbf9bbfa7fc442ab1996e75f00c7e7eb68854bc0404e88147dbbc29db07",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\onlinehd_final_confirmation_fold_5_similarity_regression_metrics.csv",
+      "category": "phase06_outer_fold_metrics",
+      "file_size_bytes": 3982,
+      "sha256": "fb4af5da0226f8aedd9267c1a009b07ae8b28f767053119473086744cfcd36a7",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\oof\\phase06_four_variant_classification_oof_long.csv",
+      "category": "phase06_outer_oof",
+      "file_size_bytes": 5235786,
+      "sha256": "e0c2f2a4d49ba9b62a3f6d2ff6c5b8054f41ee1061723cc218451cd2bdbbef1f",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\oof\\phase06_four_variant_similarity_regression_oof_long.csv",
+      "category": "phase06_outer_oof",
+      "file_size_bytes": 4107520,
+      "sha256": "1ea57af9acc352599f265bfe438242d77c736158d32f91a335f6a35f29489c99",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\oof\\phase06_hybrid_final_oof.csv",
+      "category": "phase06_outer_oof",
+      "file_size_bytes": 2430236,
+      "sha256": "ff619baf4be600279482c9e1f4f4139000fc05c1dfaf41555d644674b45d875a",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\oof\\phase06_multicentroid_final_oof.csv",
+      "category": "phase06_outer_oof",
+      "file_size_bytes": 1981071,
+      "sha256": "5b9dd2bfeeb41684eaa0fdfb12c19d7de10e1ce15a7a4931fbf31cee44b1c838",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\oof\\phase06_new_variants_final_oof_long.csv",
+      "category": "phase06_outer_oof",
+      "file_size_bytes": 6643766,
+      "sha256": "aa7136da42b6e5a94252e7ba465c1f554c9e8d9447c6975812f55af3bb1254b3",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\oof\\phase06_onlinehd_final_oof.csv",
+      "category": "phase06_outer_oof",
+      "file_size_bytes": 2233005,
+      "sha256": "f1f6720516dd48ddb933efd4701edd11ae1f8f1becc7a4abfd3e873305a4e589",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\predictions\\hybrid_final_confirmation_fold_1_predictions.csv",
+      "category": "phase06_final_predictions",
+      "file_size_bytes": 487365,
+      "sha256": "70ddc88d70d3fc1e4c7fe8d842d77042f090ac94feec37df63c398b2ddc72445",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\predictions\\hybrid_final_confirmation_fold_2_predictions.csv",
+      "category": "phase06_final_predictions",
+      "file_size_bytes": 488954,
+      "sha256": "73c89b13fe60af82e2042043c6c7f95bfeb0011bef6737f7c29cb052bb5ca11f",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\predictions\\hybrid_final_confirmation_fold_3_predictions.csv",
+      "category": "phase06_final_predictions",
+      "file_size_bytes": 488913,
+      "sha256": "47b072ebb557baba2dcd4204783c7bb1111d87fda3ee7471c3729fcb52e75375",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\predictions\\hybrid_final_confirmation_fold_4_predictions.csv",
+      "category": "phase06_final_predictions",
+      "file_size_bytes": 490221,
+      "sha256": "fe37a57162e6b16fc65edc311c8273b3445985d466758a08ce0b08c4c98116a3",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\predictions\\hybrid_final_confirmation_fold_5_predictions.csv",
+      "category": "phase06_final_predictions",
+      "file_size_bytes": 481395,
+      "sha256": "4804a71ef6a6c78c3ba847e6a691651071b3d33d0ac9f89aab428a98443e2733",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\predictions\\multicentroid_final_confirmation_fold_1_predictions.csv",
+      "category": "phase06_final_predictions",
+      "file_size_bytes": 398121,
+      "sha256": "a60d076dc9c1e15bda0290faea9271b336fd2ca2019b253032d80875e1a25ffe",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\predictions\\multicentroid_final_confirmation_fold_2_predictions.csv",
+      "category": "phase06_final_predictions",
+      "file_size_bytes": 398110,
+      "sha256": "35a16eb7d9e792ff656c5084dfa5a5f26bcbea6c171cfd8638f0b2b67acddb66",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\predictions\\multicentroid_final_confirmation_fold_3_predictions.csv",
+      "category": "phase06_final_predictions",
+      "file_size_bytes": 398063,
+      "sha256": "fee028d8356e306b8b30afef59ed983b3271388bfe7a67c62be4b8bd3ff9a551",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\predictions\\multicentroid_final_confirmation_fold_4_predictions.csv",
+      "category": "phase06_final_predictions",
+      "file_size_bytes": 398105,
+      "sha256": "f76e1c2e2a0d562d1d9dabc725fcc5afd5018705f1373876634b8b7decd5275f",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\predictions\\multicentroid_final_confirmation_fold_5_predictions.csv",
+      "category": "phase06_final_predictions",
+      "file_size_bytes": 393402,
+      "sha256": "9b472bfe1e8a3b6237bed23d656e1a71e270e8cf74763f15bd2da0382e7acb12",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\predictions\\onlinehd_final_confirmation_fold_1_predictions.csv",
+      "category": "phase06_final_predictions",
+      "file_size_bytes": 451455,
+      "sha256": "6783789eef1c3e7a6dacc767d6ac744ca67ef46a5633514f3e3f6df8ebe57ea9",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\predictions\\onlinehd_final_confirmation_fold_2_predictions.csv",
+      "category": "phase06_final_predictions",
+      "file_size_bytes": 451291,
+      "sha256": "67308743ff7af8d3fe87e419361a26193985cd0f920d52c897896539a967168d",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\predictions\\onlinehd_final_confirmation_fold_3_predictions.csv",
+      "category": "phase06_final_predictions",
+      "file_size_bytes": 451373,
+      "sha256": "c86074cd1aa83f58dc722c265a68c1bdc97afa78fa85fc874980e20c2fee19b5",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\predictions\\onlinehd_final_confirmation_fold_4_predictions.csv",
+      "category": "phase06_final_predictions",
+      "file_size_bytes": 449602,
+      "sha256": "f7f468992e2b04d5162cf7b5c539f73f4d2b6a6a638ef43647794bd6ebf36778",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\predictions\\onlinehd_final_confirmation_fold_5_predictions.csv",
+      "category": "phase06_final_predictions",
+      "file_size_bytes": 445936,
+      "sha256": "c69021885487242ec4f260ed2d82eaed2832545bbeed256cc6e9994e9c373757",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\summaries\\phase06_classification_metrics_by_config.csv",
+      "category": "phase06_outer_oof_metrics",
+      "file_size_bytes": 9492,
+      "sha256": "0a08b770b4afcc649f38f15596c0564e3cfb70b0fe50ed16effc2e74475f0102",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\summaries\\phase06_common_ridge_metrics_by_config.csv",
+      "category": "phase06_outer_oof_metrics",
+      "file_size_bytes": 3174,
+      "sha256": "110c6c9ce8e6fb7f61995b13d33691b3bfb9d9d1eed9ea28e372658a43014dab",
+      "status": "SEALED"
+    },
+    {
+      "project_relative_path": "experiments\\phase_06_hdc_variant_screening\\results\\summaries\\phase06_similarity_regression_metrics_by_config.csv",
+      "category": "phase06_outer_oof_metrics",
+      "file_size_bytes": 10321,
+      "sha256": "99eb5b5a38e22124240d573920beb69f91a24b623646c4d810a62e701f79ed00",
+      "status": "SEALED"
+    }
+  ],
+  "best_model_json_present_at_seal_time": false,
+  "self_hash_excluded": true,
+  "result": "PASS"
+}

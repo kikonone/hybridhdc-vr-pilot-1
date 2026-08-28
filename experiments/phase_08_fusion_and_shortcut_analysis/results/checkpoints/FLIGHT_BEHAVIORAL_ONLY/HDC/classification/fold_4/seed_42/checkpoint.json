@@ -1,0 +1,202 @@
+{
+  "phase": "08",
+  "stage": "frozen_batch_execution",
+  "timestamp_utc": "2026-08-20T19:55:03.645283+00:00",
+  "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_4__seed_42",
+  "condition": "FLIGHT_BEHAVIORAL_ONLY",
+  "model_family": "HDC",
+  "task": "classification",
+  "outer_fold": 4,
+  "seed": 42,
+  "status": "COMPLETE",
+  "model": "HDC+OnlineHD Hybrid",
+  "model_matrix_sha256": "00fbe1aab543cba33988c0d2ef28757dcc1153ee30839ada19fe07a0352c4b60",
+  "frozen_contract_sha256": "93121979400646bcc9adffb15c069e8ec9a5f0e95e3dfb0cdcc99e3d3666031c",
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "dataset_sha256": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44",
+  "feature_count": 323,
+  "feature_set_sha256": "dea0483dec41903f3e1bdf30faf7918833c8f985ff134b0e81fa30ce86a8fdb9",
+  "train_rows": 335,
+  "test_rows": 84,
+  "prediction_row_count": 84,
+  "unique_test_run_key_count": 84,
+  "expected_test_run_key_sha256": "b04bc8712ffd9ddc9a7428adf5370d8dd406fa1f8ab9de2aff821685a3f3dfd7",
+  "train_subject_count": 28,
+  "test_subject_count": 7,
+  "subject_overlap": [],
+  "subject_overlap_count": 0,
+  "preprocessing": {
+    "requested_feature_k": 50,
+    "post_variance_feature_count": 268,
+    "effective_feature_k": 50,
+    "selected_feature_names": [
+      "xplane_airspeed_kurtosis",
+      "xplane_attitude_max",
+      "xplane_attitude_range",
+      "xplane_heading_iqr",
+      "xplane_heading_max",
+      "xplane_heading_range",
+      "xplane_heading_rms",
+      "xplane_heading_std",
+      "xplane_ils_mean",
+      "xplane_ils_median",
+      "xplane_ils_range",
+      "xplane_ils_skew",
+      "xplane_latitude_iqr",
+      "xplane_latitude_kurtosis",
+      "xplane_longitude_kurtosis",
+      "xplane_longitude_skew",
+      "xplane_lslxp11xpcac_aircraft_aileron_trim_mean",
+      "xplane_lslxp11xpcac_aircraft_aileron_trim_median",
+      "xplane_lslxp11xpcac_aircraft_elevation_trim_mean",
+      "xplane_lslxp11xpcac_aircraft_elevation_trim_min",
+      "xplane_lslxp11xpcac_aircraft_elevation_trim_rms",
+      "xplane_lslxp11xpcac_aircraft_elevation_trim_slope",
+      "xplane_lslxp11xpcac_aircraft_groundspeed_mps_iqr",
+      "xplane_lslxp11xpcac_aircraft_groundspeed_mps_kurtosis",
+      "xplane_lslxp11xpcac_aircraft_groundspeed_mps_max",
+      "xplane_lslxp11xpcac_aircraft_groundspeed_mps_mean",
+      "xplane_lslxp11xpcac_aircraft_groundspeed_mps_median",
+      "xplane_lslxp11xpcac_aircraft_groundspeed_mps_rms",
+      "xplane_lslxp11xpcac_aircraft_groundspeed_mps_skew",
+      "xplane_lslxp11xpcac_aircraft_ils_deflection_gs_mean",
+      "xplane_lslxp11xpcac_aircraft_ils_deflection_gs_median",
+      "xplane_lslxp11xpcac_aircraft_ils_deflection_gs_rms",
+      "xplane_lslxp11xpcac_aircraft_ils_deflection_gs_skew",
+      "xplane_lslxp11xpcac_aircraft_ils_deflection_h_max",
+      "xplane_lslxp11xpcac_aircraft_ils_deflection_h_std",
+      "xplane_lslxp11xpcac_aircraft_indicated_airspeed_kias_kurtosis",
+      "xplane_lslxp11xpcac_aircraft_latitude_deg_iqr",
+      "xplane_lslxp11xpcac_aircraft_latitude_deg_kurtosis",
+      "xplane_lslxp11xpcac_aircraft_longitude_deg_kurtosis",
+      "xplane_lslxp11xpcac_aircraft_longitude_deg_skew",
+      "xplane_lslxp11xpcac_aircraft_pitch_deg_max",
+      "xplane_lslxp11xpcac_aircraft_velocity_e_mps_kurtosis",
+      "xplane_lslxp11xpcac_aircraft_velocity_e_mps_max",
+      "xplane_lslxp11xpcac_aircraft_velocity_e_mps_rms",
+      "xplane_lslxp11xpcac_aircraft_velocity_e_mps_skew",
+      "xplane_lslxp11xpcac_aircraft_yaw_deg_iqr",
+      "xplane_lslxp11xpcac_aircraft_yaw_deg_max",
+      "xplane_lslxp11xpcac_aircraft_yaw_deg_range",
+      "xplane_lslxp11xpcac_aircraft_yaw_deg_rms",
+      "xplane_lslxp11xpcac_aircraft_yaw_deg_std"
+    ],
+    "missing_indicator_feature_names": [
+      "missingindicator_xplane_lslxp11xpcac_aircraft_aileron_trim_kurtosis",
+      "missingindicator_xplane_lslxp11xpcac_aircraft_aileron_trim_skew",
+      "missingindicator_xplane_lslxp11xpcac_aircraft_elevation_trim_kurtosis",
+      "missingindicator_xplane_lslxp11xpcac_aircraft_elevation_trim_skew"
+    ],
+    "imputer_input_feature_count": 323,
+    "imputer_output_feature_count": 327,
+    "preprocessing_state_bytes": 11632,
+    "fit_scope": "outer-training only"
+  },
+  "frozen_config_matching": "PASS",
+  "outer_test_feature_access_after_training_fit": true,
+  "outer_test_used_for_fitting_or_selection": false,
+  "inner_cv_executed": false,
+  "hyperparameter_search_executed": false,
+  "seed_selection_executed": false,
+  "leakage_audit_result": "PASS",
+  "dimension": 5000,
+  "levels": 51,
+  "hybrid_structure": {
+    "centroids_per_class": 2,
+    "epochs": 3,
+    "learning_rate": 0.1,
+    "margin_threshold": 0.1
+  },
+  "model_info": {
+    "initialization": {
+      "class_counts": {
+        "0": 83,
+        "1": 85,
+        "2": 83,
+        "3": 84
+      },
+      "cluster_counts": {
+        "0": [
+          33,
+          50
+        ],
+        "1": [
+          25,
+          60
+        ],
+        "2": [
+          34,
+          49
+        ],
+        "3": [
+          40,
+          44
+        ]
+      },
+      "centroids_per_class": 2
+    },
+    "updates": 712,
+    "epochs": 3
+  },
+  "classification_metrics": {
+    "macro_f1": 0.9282051282051282,
+    "balanced_accuracy": 0.9285714285714286,
+    "accuracy": 0.9285714285714286,
+    "severe_error_rate": 0.0,
+    "per_class_recall": {
+      "0": 1.0,
+      "1": 0.8571428571428571,
+      "2": 0.8571428571428571,
+      "3": 1.0
+    },
+    "confusion_matrix": [
+      [
+        21,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        18,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        18,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        21
+      ]
+    ],
+    "training_seconds": 0.5655832000193186,
+    "inference_seconds": 0.002868499985197559,
+    "preprocessing_seconds": 0.015842200024053454,
+    "encoding_seconds": 0.6828899999964051
+  },
+  "encoding": {
+    "encoding_seconds": 0.6828899999964051,
+    "quantizer_state_sha256": "cbbde5c950fd65d0be384ed1da8371c3df587bdab196ed35568cb0e865c939d5",
+    "codebook_hashes": {
+      "identity_codebook_sha256": "76d8eb6f40e2229993f4d7e3e2ae9cad804bc61a0542bdbf64ae1eb1fb022404",
+      "level_codebook_sha256": "42ff272813ff05401b57eaec902c01c74e93bf685811652e949e7f5108c88a2b",
+      "tie_vector_sha256": "70caf572cb3b624d68c250c7d3d4957da606df5af7c9bcfea0088998caf71c63"
+    },
+    "work_dimension": 10000,
+    "classification_dimension_prefix": 5000,
+    "regression_dimension": 10000
+  },
+  "artifact_hashes": {
+    "predictions": "12fe32e1d2d0c6a7a336d24c796f333820ab487b938f5011a068b22615011977",
+    "metrics": "b5a7f1637faa9bf82054f225ffc29de0b7ae8e0222077b8db51ffba7462edba4"
+  },
+  "checkpoint_integrity": "PASS",
+  "result": "PASS",
+  "checkpoint_payload_sha256": "5dc26e82a779455cd28031030eff1c04c94e0dea9e3ffe57ad706e0f86076237"
+}

@@ -1,0 +1,53 @@
+{
+  "model": "gradient_boosting",
+  "outer_fold": 5,
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "test_run_count": 83,
+  "test_subject_count": 7,
+  "selected_hyperparameters": {
+    "candidate_id": 8,
+    "k": 200,
+    "n_estimators": 200,
+    "learning_rate": 0.1,
+    "max_depth": 2,
+    "mean_inner_macro_f1": 0.9340901623533236,
+    "std_inner_macro_f1": 0.0292599893711502
+  },
+  "selected_feature_count": 200,
+  "final_refit_seconds": 9.8304991999903,
+  "inference_seconds": 0.025016500003403053,
+  "macro_f1": 0.9636837236312562,
+  "balanced_accuracy": 0.9636904761904761,
+  "accuracy": 0.963855421686747,
+  "weighted_f1": 0.9638485877713918,
+  "recall_class_0": 0.9523809523809523,
+  "recall_class_1": 0.9523809523809523,
+  "recall_class_2": 0.95,
+  "recall_class_3": 1.0,
+  "confusion_matrix": [
+    [
+      20,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      20,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      19,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      21
+    ]
+  ]
+}

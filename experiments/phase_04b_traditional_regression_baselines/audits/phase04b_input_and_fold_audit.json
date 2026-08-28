@@ -1,0 +1,252 @@
+{
+  "actual_data_rows": 419,
+  "failures": [],
+  "fold_assignment_rows": 419,
+  "fold_assignment_unique_run_key_count": 419,
+  "fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "inner_groupkfold_feasibility": {
+    "1": {
+      "generated_inner_splits": 3,
+      "outer_training_unique_subjects": 28,
+      "pass": true,
+      "splits": [
+        {
+          "inner_fold": 1,
+          "pass": true,
+          "subject_overlap": [],
+          "train_subjects": 18,
+          "validation_subjects": 10
+        },
+        {
+          "inner_fold": 2,
+          "pass": true,
+          "subject_overlap": [],
+          "train_subjects": 19,
+          "validation_subjects": 9
+        },
+        {
+          "inner_fold": 3,
+          "pass": true,
+          "subject_overlap": [],
+          "train_subjects": 19,
+          "validation_subjects": 9
+        }
+      ]
+    },
+    "2": {
+      "generated_inner_splits": 3,
+      "outer_training_unique_subjects": 28,
+      "pass": true,
+      "splits": [
+        {
+          "inner_fold": 1,
+          "pass": true,
+          "subject_overlap": [],
+          "train_subjects": 18,
+          "validation_subjects": 10
+        },
+        {
+          "inner_fold": 2,
+          "pass": true,
+          "subject_overlap": [],
+          "train_subjects": 19,
+          "validation_subjects": 9
+        },
+        {
+          "inner_fold": 3,
+          "pass": true,
+          "subject_overlap": [],
+          "train_subjects": 19,
+          "validation_subjects": 9
+        }
+      ]
+    },
+    "3": {
+      "generated_inner_splits": 3,
+      "outer_training_unique_subjects": 28,
+      "pass": true,
+      "splits": [
+        {
+          "inner_fold": 1,
+          "pass": true,
+          "subject_overlap": [],
+          "train_subjects": 18,
+          "validation_subjects": 10
+        },
+        {
+          "inner_fold": 2,
+          "pass": true,
+          "subject_overlap": [],
+          "train_subjects": 19,
+          "validation_subjects": 9
+        },
+        {
+          "inner_fold": 3,
+          "pass": true,
+          "subject_overlap": [],
+          "train_subjects": 19,
+          "validation_subjects": 9
+        }
+      ]
+    },
+    "4": {
+      "generated_inner_splits": 3,
+      "outer_training_unique_subjects": 28,
+      "pass": true,
+      "splits": [
+        {
+          "inner_fold": 1,
+          "pass": true,
+          "subject_overlap": [],
+          "train_subjects": 18,
+          "validation_subjects": 10
+        },
+        {
+          "inner_fold": 2,
+          "pass": true,
+          "subject_overlap": [],
+          "train_subjects": 19,
+          "validation_subjects": 9
+        },
+        {
+          "inner_fold": 3,
+          "pass": true,
+          "subject_overlap": [],
+          "train_subjects": 19,
+          "validation_subjects": 9
+        }
+      ]
+    },
+    "5": {
+      "generated_inner_splits": 3,
+      "outer_training_unique_subjects": 28,
+      "pass": true,
+      "splits": [
+        {
+          "inner_fold": 1,
+          "pass": true,
+          "subject_overlap": [],
+          "train_subjects": 18,
+          "validation_subjects": 10
+        },
+        {
+          "inner_fold": 2,
+          "pass": true,
+          "subject_overlap": [],
+          "train_subjects": 19,
+          "validation_subjects": 9
+        },
+        {
+          "inner_fold": 3,
+          "pass": true,
+          "subject_overlap": [],
+          "train_subjects": 19,
+          "validation_subjects": 9
+        }
+      ]
+    }
+  },
+  "input_files": {
+    "fold_assignments_path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+    "primary_data_path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv"
+  },
+  "non_feature_columns": [
+    "subject_id",
+    "session_id",
+    "run_id",
+    "difficulty_level_raw",
+    "difficulty_level",
+    "run_key",
+    "target_class",
+    "target_score",
+    "outer_fold"
+  ],
+  "notebook_persistence": {
+    "all_precheck_code_cells_have_execution_count": true,
+    "all_precheck_code_cells_have_outputs": true,
+    "file_exists": true,
+    "final_status_cell_present": true,
+    "parseable": true,
+    "pass": true,
+    "status": "PASS"
+  },
+  "outer_fold_count": 5,
+  "outer_subject_isolation": {
+    "1": {
+      "pass": true,
+      "subject_overlap": [],
+      "test_subjects": 7,
+      "train_subjects": 28
+    },
+    "2": {
+      "pass": true,
+      "subject_overlap": [],
+      "test_subjects": 7,
+      "train_subjects": 28
+    },
+    "3": {
+      "pass": true,
+      "subject_overlap": [],
+      "test_subjects": 7,
+      "train_subjects": 28
+    },
+    "4": {
+      "pass": true,
+      "subject_overlap": [],
+      "test_subjects": 7,
+      "train_subjects": 28
+    },
+    "5": {
+      "pass": true,
+      "subject_overlap": [],
+      "test_subjects": 7,
+      "train_subjects": 28
+    }
+  },
+  "overall_pass": true,
+  "overall_pass_before_notebook_persistence": true,
+  "predictive_feature_count": 1176,
+  "run_key_alignment": {
+    "extra_in_fold_assignments": 0,
+    "fold_assignment_duplicate_run_keys": 0,
+    "missing_from_fold_assignments": 0,
+    "pass": true,
+    "primary_duplicate_run_keys": 0
+  },
+  "shared_field_consistency": {
+    "fields": [
+      "subject_id",
+      "session_id",
+      "run_id",
+      "difficulty_level_raw",
+      "difficulty_level",
+      "run_key",
+      "target_class",
+      "target_score",
+      "outer_fold"
+    ],
+    "mismatch_counts": {
+      "difficulty_level": 0,
+      "difficulty_level_raw": 0,
+      "outer_fold": 0,
+      "run_id": 0,
+      "session_id": 0,
+      "subject_id": 0,
+      "target_class": 0,
+      "target_score": 0
+    },
+    "pass": true
+  },
+  "subject_count": 35,
+  "target_score_missing": 0,
+  "target_score_values": [
+    1.0,
+    2.0,
+    3.0,
+    4.0
+  ],
+  "total_columns": 1185,
+  "unique_run_key_count": 419,
+  "utc_timestamp": "2026-08-19T16:20:44.907331+00:00",
+  "utc_timestamp_post_persistence_check": "2026-08-19T16:22:58.871854+00:00"
+}

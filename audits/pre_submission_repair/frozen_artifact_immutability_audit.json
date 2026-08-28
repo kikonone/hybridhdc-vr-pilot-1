@@ -1,0 +1,108 @@
+{
+  "status": "FAIL",
+  "scientific_consistency": "PASS",
+  "scientific_artifact_hash_changes": 0,
+  "production_frozen_artifact_hash_changes": 2,
+  "model_retraining_executed": false,
+  "predictions_regenerated": false,
+  "statistics_recomputed": false,
+  "notebooks_modified": false,
+  "before_label": "pre_repair",
+  "after_label": "post_repair",
+  "sections": {
+    "freeze_files": {
+      "added": [],
+      "removed": [],
+      "modified": [
+        {
+          "relative_path": "experiments/phase_06_hdc_variant_screening/audits/phase06_phase05_freeze_interface_audit.json",
+          "before_sha256": "e51fb46d4dd3ded79831c59311cbcaf7357d9cafffdcfb58f9049f38c6b63aa9",
+          "after_sha256": "a58fa71a291536867c9b68d9cc857a1fa5f3f6729d16ae31badac1eb69562bc7"
+        },
+        {
+          "relative_path": "experiments/phase_09_robustness_and_generalization/configs/phase09_contract_freeze.json",
+          "before_sha256": "a9d57f15a8b8c5b16fc019c81f7dba43795725da88d7083347f8a6ff93bd9b11",
+          "after_sha256": "4028fe6cbd6061a1e436978ee1feecbc1e22acd3914810936f61472eea7093b2"
+        }
+      ]
+    },
+    "final_manifests": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "phase04b_scripts": {
+      "added": [
+        "experiments/phase_04b_traditional_regression_baselines/tests/test_phase04b_lifecycle_isolation.py"
+      ],
+      "removed": [],
+      "modified": [
+        {
+          "relative_path": "experiments/phase_04b_traditional_regression_baselines/logs/elastic_recovery_v1.py",
+          "before_sha256": "56616e010503980b23cb28c33bc890fc3005e3ed4672bbf68e3de9039ae136ae",
+          "after_sha256": "2287b0ebc96ad5d205148b78d1482d83ea38a117685d27f441c4851f7a4d2583"
+        },
+        {
+          "relative_path": "experiments/phase_04b_traditional_regression_baselines/logs/elastic_recovery_v1.syntax_error_backup.py",
+          "before_sha256": "56616e010503980b23cb28c33bc890fc3005e3ed4672bbf68e3de9039ae136ae",
+          "after_sha256": "2287b0ebc96ad5d205148b78d1482d83ea38a117685d27f441c4851f7a4d2583"
+        },
+        {
+          "relative_path": "experiments/phase_04b_traditional_regression_baselines/logs/finalize_phase04b.py",
+          "before_sha256": "9fa5671be544e20bac46fb22ff1f68d892343eee3c4a59974d12880d5365c3f7",
+          "after_sha256": "b4fb1aa1d2c7b4ed6462c1519de7de754af28870734f19fbb7923bfa299e4ea4"
+        }
+      ]
+    },
+    "phase06_files": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.primary_data": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.frozen_folds": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.predictions": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.canonical_oof": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.statistics": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.notebooks": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.frozen_model_configs": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    }
+  },
+  "modified_paths": [
+    "experiments/phase_04b_traditional_regression_baselines/logs/elastic_recovery_v1.py",
+    "experiments/phase_04b_traditional_regression_baselines/logs/elastic_recovery_v1.syntax_error_backup.py",
+    "experiments/phase_04b_traditional_regression_baselines/logs/finalize_phase04b.py",
+    "experiments/phase_06_hdc_variant_screening/audits/phase06_phase05_freeze_interface_audit.json",
+    "experiments/phase_09_robustness_and_generalization/configs/phase09_contract_freeze.json"
+  ],
+  "modified_path_count": 5,
+  "primary_checksum_unchanged": true,
+  "frozen_folds_checksum_unchanged": true
+}

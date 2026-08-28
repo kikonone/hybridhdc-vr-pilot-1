@@ -1,0 +1,24 @@
+{
+  "phase": "06",
+  "audit": "final_oof_alignment",
+  "alignment_failures": [],
+  "temperature_failures": [],
+  "deterministic_sort": [
+    "variant",
+    "dimension",
+    "seed",
+    "outer_fold",
+    "subject_id",
+    "run_key"
+  ],
+  "result": "PASS",
+  "four_variant_configurations_checked": 80,
+  "four_variant_all_aligned": true,
+  "phase05_interface_hashes": {
+    "classification": "a9b0e0c5abec3848e172d271398203b621cae9e3d2d83bccd2ccb672a608b700",
+    "similarity": "95a3271ea40c1228a8d4836f6ca88788bf627894ebcfc8e2bb95b6b436a10a17",
+    "ridge": "a449d8f43a0935f0a3fcf8cf901894e426a83e552807dcef9551bc983ba22758"
+  },
+  "ridge_status": "COMMON_ENCODER_READOUT_BASELINE",
+  "ridge_copies_created": 0
+}

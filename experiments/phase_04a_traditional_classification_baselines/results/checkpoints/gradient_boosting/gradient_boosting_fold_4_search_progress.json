@@ -1,0 +1,22 @@
+{
+  "outer_fold": 4,
+  "grid_policy": "COMPUTE_CONSTRAINED_COMPACT_GRID_V2",
+  "full_grid_size": 8,
+  "completed_candidate_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "remaining_candidate_ids": [],
+  "outer_test_used": true,
+  "fold_status": "COMPLETE",
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "outer_test_used_for_hyperparameter_selection": false,
+  "selected_candidate_id": 5,
+  "outer_checkpoint_readback": "PASS"
+}

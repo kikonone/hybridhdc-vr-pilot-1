@@ -1,0 +1,53 @@
+{
+  "expected_models": 8,
+  "verified_models": 8,
+  "expected_rows_per_model": 419,
+  "all_model_rows_pass": true,
+  "all_model_unique_run_keys_pass": true,
+  "common_run_key_coverage_pass": true,
+  "all_model_predictions_nonmissing": true,
+  "all_model_outer_test_source_pass": true,
+  "model_evidence": {
+    "dummy_mean": {
+      "rows": 419,
+      "unique_run_keys": 419,
+      "coverage_pass": true
+    },
+    "dummy_median": {
+      "rows": 419,
+      "unique_run_keys": 419,
+      "coverage_pass": true
+    },
+    "ridge": {
+      "rows": 419,
+      "unique_run_keys": 419,
+      "coverage_pass": true
+    },
+    "elastic_net": {
+      "rows": 419,
+      "unique_run_keys": 419,
+      "coverage_pass": true
+    },
+    "linear_svr": {
+      "rows": 419,
+      "unique_run_keys": 419,
+      "coverage_pass": true
+    },
+    "rbf_svr": {
+      "rows": 419,
+      "unique_run_keys": 419,
+      "coverage_pass": true
+    },
+    "random_forest": {
+      "rows": 419,
+      "unique_run_keys": 419,
+      "coverage_pass": true
+    },
+    "gradient_boosting": {
+      "rows": 419,
+      "unique_run_keys": 419,
+      "coverage_pass": true
+    }
+  },
+  "overall_pass": true
+}

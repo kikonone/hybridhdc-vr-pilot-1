@@ -1,0 +1,18 @@
+{
+  "prediction_artifacts": 1406,
+  "statistical_artifacts": 28,
+  "paper_tables": 160,
+  "paper_figures": 61,
+  "unresolved_numerical_differences": 0,
+  "input_audits": {
+    "plan_scope": "PASS",
+    "upstream_freeze": "PASS",
+    "prediction_inventory": "PASS",
+    "statistics_inventory": "PASS",
+    "paper_artifacts": "PASS",
+    "rq_matrix": "PASS",
+    "reproducibility_package": "PASS",
+    "cross_phase_preflight": "PASS",
+    "deferred_ui": "PASS"
+  }
+}

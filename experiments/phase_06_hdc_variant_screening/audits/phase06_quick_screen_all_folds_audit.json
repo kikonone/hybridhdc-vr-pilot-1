@@ -1,0 +1,204 @@
+{
+  "phase": "06",
+  "audit": "quick_screen_all_folds",
+  "timestamp_utc": "2026-08-20T07:09:01.633072+00:00",
+  "result": "PASS",
+  "variants": {
+    "onlinehd": {
+      "folds_completed": 5,
+      "expected_folds": 5,
+      "candidates_per_fold": [
+        24
+      ],
+      "fold_details": [
+        {
+          "outer_fold": 1,
+          "candidates": 24,
+          "checkpoints": 24,
+          "best_reproducible": true,
+          "leakage": "PASS",
+          "coverage": "PASS",
+          "artifact": "PASS",
+          "result": "PASS"
+        },
+        {
+          "outer_fold": 2,
+          "candidates": 24,
+          "checkpoints": 24,
+          "best_reproducible": true,
+          "leakage": "PASS",
+          "coverage": "PASS",
+          "artifact": "PASS",
+          "result": "PASS"
+        },
+        {
+          "outer_fold": 3,
+          "candidates": 24,
+          "checkpoints": 24,
+          "best_reproducible": true,
+          "leakage": "PASS",
+          "coverage": "PASS",
+          "artifact": "PASS",
+          "result": "PASS"
+        },
+        {
+          "outer_fold": 4,
+          "candidates": 24,
+          "checkpoints": 24,
+          "best_reproducible": true,
+          "leakage": "PASS",
+          "coverage": "PASS",
+          "artifact": "PASS",
+          "result": "PASS"
+        },
+        {
+          "outer_fold": 5,
+          "candidates": 24,
+          "checkpoints": 24,
+          "best_reproducible": true,
+          "leakage": "PASS",
+          "coverage": "PASS",
+          "artifact": "PASS",
+          "result": "PASS"
+        }
+      ],
+      "result": "PASS"
+    },
+    "multicentroid": {
+      "folds_completed": 5,
+      "expected_folds": 5,
+      "candidates_per_fold": [
+        6
+      ],
+      "fold_details": [
+        {
+          "outer_fold": 1,
+          "candidates": 6,
+          "checkpoints": 6,
+          "best_reproducible": true,
+          "leakage": "PASS",
+          "coverage": "PASS",
+          "artifact": "PASS",
+          "result": "PASS"
+        },
+        {
+          "outer_fold": 2,
+          "candidates": 6,
+          "checkpoints": 6,
+          "best_reproducible": true,
+          "leakage": "PASS",
+          "coverage": "PASS",
+          "artifact": "PASS",
+          "result": "PASS"
+        },
+        {
+          "outer_fold": 3,
+          "candidates": 6,
+          "checkpoints": 6,
+          "best_reproducible": true,
+          "leakage": "PASS",
+          "coverage": "PASS",
+          "artifact": "PASS",
+          "result": "PASS"
+        },
+        {
+          "outer_fold": 4,
+          "candidates": 6,
+          "checkpoints": 6,
+          "best_reproducible": true,
+          "leakage": "PASS",
+          "coverage": "PASS",
+          "artifact": "PASS",
+          "result": "PASS"
+        },
+        {
+          "outer_fold": 5,
+          "candidates": 6,
+          "checkpoints": 6,
+          "best_reproducible": true,
+          "leakage": "PASS",
+          "coverage": "PASS",
+          "artifact": "PASS",
+          "result": "PASS"
+        }
+      ],
+      "result": "PASS"
+    },
+    "hybrid": {
+      "folds_completed": 5,
+      "expected_folds": 5,
+      "candidates_per_fold": [
+        32
+      ],
+      "fold_details": [
+        {
+          "outer_fold": 1,
+          "candidates": 32,
+          "checkpoints": 32,
+          "best_reproducible": true,
+          "leakage": "PASS",
+          "coverage": "PASS",
+          "artifact": "PASS",
+          "result": "PASS"
+        },
+        {
+          "outer_fold": 2,
+          "candidates": 32,
+          "checkpoints": 32,
+          "best_reproducible": true,
+          "leakage": "PASS",
+          "coverage": "PASS",
+          "artifact": "PASS",
+          "result": "PASS"
+        },
+        {
+          "outer_fold": 3,
+          "candidates": 32,
+          "checkpoints": 32,
+          "best_reproducible": true,
+          "leakage": "PASS",
+          "coverage": "PASS",
+          "artifact": "PASS",
+          "result": "PASS"
+        },
+        {
+          "outer_fold": 4,
+          "candidates": 32,
+          "checkpoints": 32,
+          "best_reproducible": true,
+          "leakage": "PASS",
+          "coverage": "PASS",
+          "artifact": "PASS",
+          "result": "PASS"
+        },
+        {
+          "outer_fold": 5,
+          "candidates": 32,
+          "checkpoints": 32,
+          "best_reproducible": true,
+          "leakage": "PASS",
+          "coverage": "PASS",
+          "artifact": "PASS",
+          "result": "PASS"
+        }
+      ],
+      "result": "PASS"
+    }
+  },
+  "all_best_configs_reproducible": true,
+  "outer_test_feature_access": false,
+  "outer_test_label_access": false,
+  "outer_test_predictions_generated": false,
+  "similarity_regression_executed": false,
+  "ridge_readout_executed": false,
+  "classification_oof_generated": false,
+  "regression_oof_generated": false,
+  "final_confirmation_executed": false,
+  "upstream_files_checked": 1026,
+  "upstream_immutable_mismatches": [],
+  "historical_phase03_to_phase05_artifacts_unchanged": true,
+  "primary_sha256": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44",
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "primary_checksum": "PASS",
+  "frozen_fold_checksum": "PASS"
+}

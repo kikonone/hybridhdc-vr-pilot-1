@@ -1,0 +1,12 @@
+{
+  "file_exists": true,
+  "parseable": true,
+  "initial_and_dummy_outputs_persisted": true,
+  "ridge_code_cells": 3,
+  "ridge_code_cells_executed_with_outputs": true,
+  "ridge_artifact_paths_present_in_outputs": true,
+  "final_ridge_status_cell_present": true,
+  "other_model_execution_code_hits": [],
+  "artifact_files_present": true,
+  "pass": true
+}

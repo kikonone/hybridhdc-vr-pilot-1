@@ -1,0 +1,286 @@
+{
+  "phase": "09",
+  "audit": "loso_feasibility",
+  "status": "PASS",
+  "checks": {
+    "deterministic_subject_order": true,
+    "split_count_35": true,
+    "one_test_subject_each": true,
+    "thirty_four_training_subjects_each": true,
+    "subject_isolation": true,
+    "run_key_isolation": true,
+    "nonempty_splits": true,
+    "unique_run_keys": true,
+    "training_four_class_coverage": true,
+    "test_four_class_coverage": true
+  },
+  "split_count": 35,
+  "subject_run_counts": {
+    "sub-cp003": 12,
+    "sub-cp004": 12,
+    "sub-cp005": 12,
+    "sub-cp006": 12,
+    "sub-cp008": 12,
+    "sub-cp009": 12,
+    "sub-cp011": 12,
+    "sub-cp012": 12,
+    "sub-cp013": 12,
+    "sub-cp014": 12,
+    "sub-cp015": 12,
+    "sub-cp016": 12,
+    "sub-cp017": 12,
+    "sub-cp018": 12,
+    "sub-cp019": 12,
+    "sub-cp020": 12,
+    "sub-cp022": 12,
+    "sub-cp023": 12,
+    "sub-cp024": 12,
+    "sub-cp025": 12,
+    "sub-cp026": 12,
+    "sub-cp027": 12,
+    "sub-cp028": 12,
+    "sub-cp029": 12,
+    "sub-cp030": 11,
+    "sub-cp031": 12,
+    "sub-cp032": 12,
+    "sub-cp033": 12,
+    "sub-cp035": 12,
+    "sub-cp036": 12,
+    "sub-cp037": 12,
+    "sub-cp038": 12,
+    "sub-cp039": 12,
+    "sub-cp042": 12,
+    "sub-cp043": 12
+  },
+  "subject_target_coverage": {
+    "sub-cp003": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp004": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp005": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp006": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp008": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp009": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp011": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp012": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp013": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp014": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp015": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp016": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp017": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp018": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp019": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp020": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp022": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp023": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp024": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp025": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp026": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp027": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp028": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp029": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp030": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp031": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp032": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp033": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp035": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp036": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp037": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp038": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp039": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp042": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "sub-cp043": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "empty_training_sets": 0,
+  "empty_test_sets": 0,
+  "predictions_generated": false,
+  "sources": [
+    {
+      "role": "primary_without_performance",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv",
+      "bytes": 7435180,
+      "sha256": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44",
+      "read_only_policy": true
+    },
+    {
+      "role": "frozen_outer_fold_assignments",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+      "bytes": 38660,
+      "sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+      "read_only_policy": true
+    }
+  ]
+}

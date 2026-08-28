@@ -1,0 +1,24 @@
+{
+  "manifest": "phase10_final_prediction_library_manifest",
+  "created_at_utc": "2026-08-21T17:28:09.823024+00:00",
+  "mode": "READ_ONLY_INDEX_NO_PREDICTION_GENERATION",
+  "source_count": 1406,
+  "canonical_source_count": 23,
+  "sources_by_phase": {
+    "04A": 9,
+    "04B": 10,
+    "05": 10,
+    "06": 21,
+    "07": 256,
+    "08": 374,
+    "09": 726
+  },
+  "index": {
+    "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\results\\final_prediction_library\\final_prediction_library_index.csv",
+    "bytes": 549063,
+    "sha256": "fea78edee70f65cbbfb064646e577e1f521635551a92535193fc44afc48cee21"
+  },
+  "model_training_executed": false,
+  "predictions_generated": false,
+  "status": "PASS"
+}

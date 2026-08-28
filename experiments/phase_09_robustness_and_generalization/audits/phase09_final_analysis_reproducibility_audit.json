@@ -1,0 +1,73 @@
+{
+  "phase": "09",
+  "audit": "final_analysis_reproducibility",
+  "status": "PASS",
+  "audited_at_utc": "2026-08-21T05:17:04.163340+00:00",
+  "read_only_consolidation_dry_run": {
+    "status": "PASS",
+    "raw_runs_verified": 720,
+    "raw_prediction_rows_verified": 30168,
+    "missing_modality_canonical_rows": 8380,
+    "loso_canonical_rows": 1676,
+    "canonical_oof_rows": 10056,
+    "reference_rows": 1676,
+    "five_seed_coverage": true,
+    "canonical_validation": {
+      "status": "PASS",
+      "checks": {
+        "missing_rows_8380": true,
+        "loso_rows_1676": true,
+        "canonical_rows_10056": true,
+        "groups_24": true,
+        "unique_canonical_keys": true,
+        "run_key_coverage": true,
+        "five_seed_coverage": true,
+        "finite_values": true,
+        "classification_labels": true,
+        "regression_bounded": true,
+        "loso_subjects_35": true
+      },
+      "group_counts": {
+        "RETRAIN_WITHOUT_MODALITY|MISSING_BODY_MOVEMENT|hdc_classification": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_BODY_MOVEMENT|hdc_regression": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_BODY_MOVEMENT|traditional_classification": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_BODY_MOVEMENT|traditional_regression": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_EYE_TRACKING|hdc_classification": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_EYE_TRACKING|hdc_regression": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_EYE_TRACKING|traditional_classification": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_EYE_TRACKING|traditional_regression": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_FLIGHT_PARAMETER|hdc_classification": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_FLIGHT_PARAMETER|hdc_regression": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_FLIGHT_PARAMETER|traditional_classification": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_FLIGHT_PARAMETER|traditional_regression": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_HEAD_MOVEMENT|hdc_classification": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_HEAD_MOVEMENT|hdc_regression": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_HEAD_MOVEMENT|traditional_classification": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_HEAD_MOVEMENT|traditional_regression": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_PHYSIOLOGICAL|hdc_classification": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_PHYSIOLOGICAL|hdc_regression": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_PHYSIOLOGICAL|traditional_classification": 419,
+        "RETRAIN_WITHOUT_MODALITY|MISSING_PHYSIOLOGICAL|traditional_regression": 419,
+        "LEAVE_ONE_SUBJECT_OUT|LOSO|hdc_classification": 419,
+        "LEAVE_ONE_SUBJECT_OUT|LOSO|hdc_regression": 419,
+        "LEAVE_ONE_SUBJECT_OUT|LOSO|traditional_classification": 419,
+        "LEAVE_ONE_SUBJECT_OUT|LOSO|traditional_regression": 419
+      }
+    },
+    "reference_integrity": "PASS",
+    "writes_performed": false,
+    "model_retraining_executed": false,
+    "raw_predictions_regenerated": false
+  },
+  "independent_metric_reconciliation": {
+    "status": "PASS",
+    "independent_recalculation": true,
+    "mismatches": []
+  },
+  "component_audits_pass": true,
+  "model_retraining_executed": false,
+  "raw_predictions_regenerated": false,
+  "outer_test_used_for_selection": false,
+  "phase09_freeze_executed": false,
+  "phase10_executed": false
+}

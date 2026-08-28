@@ -1,0 +1,2 @@
+model,model_slug,oof_rows,oof_unique_run_keys,oof_mae_raw,oof_mae_bounded,oof_rmse_raw,oof_rmse_bounded,oof_r2_raw,oof_r2_bounded,oof_spearman_raw,oof_spearman_bounded,fold_mae_bounded_mean,fold_mae_bounded_std,all_best_estimators_converged,status
+Linear SVR,linear_svr,419,419,0.4922880337739191,0.31759267122550844,1.0315427847175889,0.4981974544527872,0.14710617812520088,0.8010593715584978,0.8793830324880294,0.8840047199364387,0.3174198422324911,0.057877547738093,True,COMPLETE

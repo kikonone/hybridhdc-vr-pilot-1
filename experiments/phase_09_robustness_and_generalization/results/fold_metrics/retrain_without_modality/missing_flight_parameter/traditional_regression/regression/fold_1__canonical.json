@@ -1,0 +1,18 @@
+{
+  "phase": "09",
+  "run_identifier": "mm__missing_flight_parameter__traditional_regression__fold_1__canonical",
+  "task": "regression",
+  "regression_interpretation": "bounded difficulty-induced workload proxy regression",
+  "metrics": {
+    "raw_mae": 0.8360950788864299,
+    "bounded_mae": 0.8342185966690046,
+    "bounded_rmse": 1.0374870735142467,
+    "bounded_r2": 0.13889645783267535,
+    "bounded_spearman": 0.4022567079905672,
+    "clipping_count": 1,
+    "clipping_rate": 0.011904761904761904,
+    "rounded_regression_macro_f1": 0.38268146405752135,
+    "adjacent_accuracy": 0.8214285714285714,
+    "severe_error_rate": 0.17857142857142858
+  }
+}

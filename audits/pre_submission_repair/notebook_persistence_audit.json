@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "notebook_count": 10,
+  "notebooks": [
+    {
+      "path": "experiments/phase_03_multimodal_dataset_labeling/Phase_03_Dataset_and_Folds.ipynb",
+      "parseable": true,
+      "error_outputs": 0,
+      "code_cells_with_outputs": 25
+    },
+    {
+      "path": "experiments/phase_04a_traditional_classification_baselines/Phase_04A_Classification_Baselines.executed.ipynb",
+      "parseable": true,
+      "error_outputs": 0,
+      "code_cells_with_outputs": 0
+    },
+    {
+      "path": "experiments/phase_04a_traditional_classification_baselines/Phase_04A_Classification_Baselines.ipynb",
+      "parseable": true,
+      "error_outputs": 0,
+      "code_cells_with_outputs": 34
+    },
+    {
+      "path": "experiments/phase_04a_traditional_classification_baselines/Phase_04A_Classification_Baselines.pre_execution_backup.ipynb",
+      "parseable": true,
+      "error_outputs": 0,
+      "code_cells_with_outputs": 0
+    },
+    {
+      "path": "experiments/phase_04b_traditional_regression_baselines/Phase_04B_Regression_Baselines.ipynb",
+      "parseable": true,
+      "error_outputs": 0,
+      "code_cells_with_outputs": 20
+    },
+    {
+      "path": "experiments/phase_05_basic_dual_output_hdc/Phase_05_Basic_Dual_Output_HDC.ipynb",
+      "parseable": true,
+      "error_outputs": 0,
+      "code_cells_with_outputs": 27
+    },
+    {
+      "path": "experiments/phase_06_hdc_variant_screening/Phase_06_HDC_Variant_Screening.ipynb",
+      "parseable": true,
+      "error_outputs": 0,
+      "code_cells_with_outputs": 13
+    },
+    {
+      "path": "experiments/phase_07_unimodal_contribution/Phase_07_Unimodal_Contribution.ipynb",
+      "parseable": true,
+      "error_outputs": 0,
+      "code_cells_with_outputs": 37
+    },
+    {
+      "path": "experiments/phase_08_fusion_and_shortcut_analysis/Phase_08_Fusion_and_Shortcut_Analysis.ipynb",
+      "parseable": true,
+      "error_outputs": 0,
+      "code_cells_with_outputs": 25
+    },
+    {
+      "path": "experiments/phase_09_robustness_and_generalization/Phase_09_Robustness_and_Generalization.ipynb",
+      "parseable": true,
+      "error_outputs": 0,
+      "code_cells_with_outputs": 38
+    }
+  ]
+}\n

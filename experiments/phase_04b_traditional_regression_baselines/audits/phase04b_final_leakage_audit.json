@@ -1,0 +1,47 @@
+{
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "frozen_fold_checksum_pass": true,
+  "outer_subject_isolation": true,
+  "same_frozen_outer_folds_all_models": true,
+  "all_model_leakage_audits_pass": true,
+  "outer_test_prediction_source_pass": true,
+  "primary_without_performance_input": true,
+  "predictive_features": 1176,
+  "performance_features_used": false,
+  "hdc_artifacts_in_phase04b_model_outputs": false,
+  "model_evidence": {
+    "dummy_mean": {
+      "source": "direct final OOF/fold validation + audits/phase04b_input_and_fold_audit.json",
+      "pass": true
+    },
+    "dummy_median": {
+      "source": "direct final OOF/fold validation + audits/phase04b_input_and_fold_audit.json",
+      "pass": true
+    },
+    "ridge": {
+      "source": "audits\\ridge_leakage_audit.json",
+      "pass": true
+    },
+    "elastic_net": {
+      "source": "audits\\elastic_net_leakage_audit.json",
+      "pass": true
+    },
+    "linear_svr": {
+      "source": "audits\\linear_svr_leakage_audit.json",
+      "pass": true
+    },
+    "rbf_svr": {
+      "source": "audits\\rbf_svr_leakage_audit.json",
+      "pass": true
+    },
+    "random_forest": {
+      "source": "audits\\random_forest_leakage_audit.json",
+      "pass": true
+    },
+    "gradient_boosting": {
+      "source": "audits\\gradient_boosting_leakage_audit.json",
+      "pass": true
+    }
+  },
+  "overall_pass": true
+}

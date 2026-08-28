@@ -1,0 +1,45 @@
+{
+  "phase": "09",
+  "run_identifier": "mm__missing_flight_parameter__hdc_classification__fold_1__seed_42",
+  "task": "classification",
+  "regression_interpretation": null,
+  "metrics": {
+    "macro_f1": 0.4299603174603175,
+    "balanced_accuracy": 0.42857142857142855,
+    "accuracy": 0.42857142857142855,
+    "severe_error_rate": 0.20238095238095238,
+    "per_class_recall": {
+      "0": 0.42857142857142855,
+      "1": 0.38095238095238093,
+      "2": 0.3333333333333333,
+      "3": 0.5714285714285714
+    },
+    "confusion_matrix": [
+      [
+        9,
+        7,
+        3,
+        2
+      ],
+      [
+        2,
+        8,
+        5,
+        6
+      ],
+      [
+        1,
+        6,
+        7,
+        7
+      ],
+      [
+        2,
+        3,
+        4,
+        12
+      ]
+    ],
+    "quadratic_weighted_kappa": 0.4278846153846154
+  }
+}

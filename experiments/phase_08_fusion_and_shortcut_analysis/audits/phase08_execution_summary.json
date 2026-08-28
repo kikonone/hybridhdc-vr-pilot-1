@@ -1,0 +1,37 @@
+{
+  "status": "EXECUTION_COMPLETE_PENDING_OOF_CONSOLIDATION",
+  "completed_runs": 370,
+  "expected_runs": 370,
+  "raw_prediction_rows": 31006,
+  "expected_raw_prediction_rows": 31006,
+  "model_task_counts": {
+    "HDC_classification": 150,
+    "TRADITIONAL_classification": 35,
+    "HDC_regression": 150,
+    "TRADITIONAL_regression": 35
+  },
+  "condition_counts": {
+    "FUSION_PE": 60,
+    "FUSION_PEH": 60,
+    "FUSION_PEHF": 60,
+    "WITH_PERFORMANCE_AUXILIARY": 60,
+    "PERFORMANCE_ONLY_AUXILIARY": 60,
+    "FLIGHT_BEHAVIORAL_ONLY": 60,
+    "FLIGHT_FULL": 10
+  },
+  "flight_behavioral_runs": 60,
+  "flight_full_new_runs": 10,
+  "flight_task_setting_status": "NOT_FEASIBLE_EMPTY_PROVENANCE_GROUP",
+  "failed_run_events": 0,
+  "recovered_valid_checkpoints": 0,
+  "executor_validation": "PASS",
+  "checkpoint_integrity": "PASS",
+  "coverage_audit": "PASS",
+  "leakage_audit": "PASS",
+  "artifact_audit": "PASS",
+  "notebook_persistence": "PASS",
+  "outer_test_used_for_tuning": false,
+  "final_oof_consolidation_executed": false,
+  "phase09_executed": false,
+  "ready_for_oof_consolidation": true
+}

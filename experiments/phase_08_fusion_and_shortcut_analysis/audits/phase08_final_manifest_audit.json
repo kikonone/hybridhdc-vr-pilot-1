@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-08-21T02:37:45.969136+00:00",
+  "checks": {
+    "manifest_parseable": true,
+    "self_hash_excluded": true,
+    "missing_required_artifacts_zero": true,
+    "duplicate_artifacts_zero": true,
+    "hash_mismatches_zero": true,
+    "unexpected_mutable_artifacts_zero": true
+  },
+  "manifest_sha256": "c4de38db0c0d76e5cb06822d895d9ccd823d418c9057d85732d080f5b09cc42b",
+  "hash_mismatches": []
+}

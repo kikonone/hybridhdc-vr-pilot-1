@@ -1,0 +1,81 @@
+variant,dimension,seed,fit_time_seconds,prediction_time_seconds,total_runtime_seconds,peak_memory_bytes,peak_memory_scope,model_size_bytes,encoding_throughput_rows_per_second,source
+vanilla,1000,42,3.629278175019862,0.0093666000175286,3.638644775037391,4703200,maximum inference Python allocation across folds,35072.0,8552.0850554865,Phase 05 frozen measured efficiency
+vanilla,1000,43,3.6127987999861935,0.0129747000028143,3.625773499989009,4703200,maximum inference Python allocation across folds,34753.0,8717.579550514109,Phase 05 frozen measured efficiency
+vanilla,1000,44,3.6316171749858768,0.0130009999993487,3.644618174985225,4703200,maximum inference Python allocation across folds,35933.0,8602.95416001084,Phase 05 frozen measured efficiency
+vanilla,1000,45,3.618247650007106,0.0124286000063873,3.6306762500134937,4703200,maximum inference Python allocation across folds,36379.0,8425.565457996847,Phase 05 frozen measured efficiency
+vanilla,1000,46,3.647456224989583,0.0131915999954796,3.660647824985062,4703200,maximum inference Python allocation across folds,34587.0,8596.388285933519,Phase 05 frozen measured efficiency
+vanilla,2000,42,3.6569088750366063,0.014340500027174,3.671249375063781,4703200,maximum inference Python allocation across folds,65412.0,4238.010299679924,Phase 05 frozen measured efficiency
+vanilla,2000,43,3.6399969999984014,0.0118006000120657,3.651797600010468,4703200,maximum inference Python allocation across folds,65494.0,4221.058548802086,Phase 05 frozen measured efficiency
+vanilla,2000,44,3.659507174968894,0.0151043999940155,3.674611574962909,4703200,maximum inference Python allocation across folds,66962.0,4398.386768308941,Phase 05 frozen measured efficiency
+vanilla,2000,45,3.653079850028007,0.0123467000230446,3.665426550051052,4703200,maximum inference Python allocation across folds,67211.0,4176.1123384185885,Phase 05 frozen measured efficiency
+vanilla,2000,46,3.683644325032219,0.0131017000094287,3.696746025041648,4703200,maximum inference Python allocation across folds,67358.0,4324.971549635242,Phase 05 frozen measured efficiency
+vanilla,5000,42,3.779275575023348,0.0277895999897735,3.8070651750131215,5481744,maximum inference Python allocation across folds,158491.0,1198.1475894786058,Phase 05 frozen measured efficiency
+vanilla,5000,43,3.767244499984372,0.0291698999935758,3.796414399977947,5481744,maximum inference Python allocation across folds,156505.0,1153.5992641193047,Phase 05 frozen measured efficiency
+vanilla,5000,44,3.786000674990646,0.0290424000122581,3.815043075002904,5481744,maximum inference Python allocation across folds,158671.0,1175.9551688842823,Phase 05 frozen measured efficiency
+vanilla,5000,45,3.765687950010033,0.0274019000062251,3.7930898500162575,5481744,maximum inference Python allocation across folds,157922.0,1118.944314761439,Phase 05 frozen measured efficiency
+vanilla,5000,46,3.805833825008449,0.0273408999928503,3.833174725001299,5481744,maximum inference Python allocation across folds,158728.0,1147.5696515208926,Phase 05 frozen measured efficiency
+vanilla,10000,42,3.9129713750116935,0.049340599987772,3.962311974999465,10941744,maximum inference Python allocation across folds,309995.0,606.5702707315658,Phase 05 frozen measured efficiency
+vanilla,10000,43,3.898303199988732,0.0526158999855396,3.950919099974272,10941744,maximum inference Python allocation across folds,309823.0,607.5538078434906,Phase 05 frozen measured efficiency
+vanilla,10000,44,3.91057267497672,0.0513989000173748,3.961971574994095,10941744,maximum inference Python allocation across folds,310020.0,606.8321918539802,Phase 05 frozen measured efficiency
+vanilla,10000,45,3.922973550008464,0.0474118999845811,3.9703854499930458,10941744,maximum inference Python allocation across folds,308937.0,575.453014742035,Phase 05 frozen measured efficiency
+vanilla,10000,46,3.9299119250172234,0.0469645999983184,3.976876525015541,10941744,maximum inference Python allocation across folds,309496.0,611.0352826209535,Phase 05 frozen measured efficiency
+onlinehd,1000,42,NOT_AVAILABLE,NOT_AVAILABLE,3.796173999959137,NOT_AVAILABLE,NOT_AVAILABLE,16000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,1000,43,NOT_AVAILABLE,NOT_AVAILABLE,3.789225899992743,NOT_AVAILABLE,NOT_AVAILABLE,16000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,1000,44,NOT_AVAILABLE,NOT_AVAILABLE,3.8090656999847847,NOT_AVAILABLE,NOT_AVAILABLE,16000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,1000,45,NOT_AVAILABLE,NOT_AVAILABLE,3.891691300028469,NOT_AVAILABLE,NOT_AVAILABLE,16000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,1000,46,NOT_AVAILABLE,NOT_AVAILABLE,3.7820564000285226,NOT_AVAILABLE,NOT_AVAILABLE,16000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,2000,42,NOT_AVAILABLE,NOT_AVAILABLE,3.8342420999542806,NOT_AVAILABLE,NOT_AVAILABLE,32000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,2000,43,NOT_AVAILABLE,NOT_AVAILABLE,3.806570799933979,NOT_AVAILABLE,NOT_AVAILABLE,32000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,2000,44,NOT_AVAILABLE,NOT_AVAILABLE,3.832330100005492,NOT_AVAILABLE,NOT_AVAILABLE,32000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,2000,45,NOT_AVAILABLE,NOT_AVAILABLE,3.9198901000490873,NOT_AVAILABLE,NOT_AVAILABLE,32000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,2000,46,NOT_AVAILABLE,NOT_AVAILABLE,3.804732800024794,NOT_AVAILABLE,NOT_AVAILABLE,32000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,5000,42,NOT_AVAILABLE,NOT_AVAILABLE,3.8985771999869026,NOT_AVAILABLE,NOT_AVAILABLE,80000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,5000,43,NOT_AVAILABLE,NOT_AVAILABLE,3.8742430999118365,NOT_AVAILABLE,NOT_AVAILABLE,80000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,5000,44,NOT_AVAILABLE,NOT_AVAILABLE,3.900890800025081,NOT_AVAILABLE,NOT_AVAILABLE,80000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,5000,45,NOT_AVAILABLE,NOT_AVAILABLE,3.9791371000465,NOT_AVAILABLE,NOT_AVAILABLE,80000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,5000,46,NOT_AVAILABLE,NOT_AVAILABLE,3.8694078000262375,NOT_AVAILABLE,NOT_AVAILABLE,80000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,10000,42,NOT_AVAILABLE,NOT_AVAILABLE,3.992767200019443,NOT_AVAILABLE,NOT_AVAILABLE,160000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,10000,43,NOT_AVAILABLE,NOT_AVAILABLE,3.9659645999781783,NOT_AVAILABLE,NOT_AVAILABLE,160000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,10000,44,NOT_AVAILABLE,NOT_AVAILABLE,3.9901557000121097,NOT_AVAILABLE,NOT_AVAILABLE,160000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,10000,45,NOT_AVAILABLE,NOT_AVAILABLE,4.068648400017992,NOT_AVAILABLE,NOT_AVAILABLE,160000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+onlinehd,10000,46,NOT_AVAILABLE,NOT_AVAILABLE,3.956755600054748,NOT_AVAILABLE,NOT_AVAILABLE,160000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,1000,42,NOT_AVAILABLE,NOT_AVAILABLE,4.065749200002755,NOT_AVAILABLE,NOT_AVAILABLE,48000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,1000,43,NOT_AVAILABLE,NOT_AVAILABLE,3.8791255999822165,NOT_AVAILABLE,NOT_AVAILABLE,48000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,1000,44,NOT_AVAILABLE,NOT_AVAILABLE,3.9348676999215964,NOT_AVAILABLE,NOT_AVAILABLE,48000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,1000,45,NOT_AVAILABLE,NOT_AVAILABLE,4.1754208999627735,NOT_AVAILABLE,NOT_AVAILABLE,48000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,1000,46,NOT_AVAILABLE,NOT_AVAILABLE,4.1897359999711625,NOT_AVAILABLE,NOT_AVAILABLE,48000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,2000,42,NOT_AVAILABLE,NOT_AVAILABLE,4.416572799993446,NOT_AVAILABLE,NOT_AVAILABLE,96000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,2000,43,NOT_AVAILABLE,NOT_AVAILABLE,4.214746700017713,NOT_AVAILABLE,NOT_AVAILABLE,96000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,2000,44,NOT_AVAILABLE,NOT_AVAILABLE,4.282916199910686,NOT_AVAILABLE,NOT_AVAILABLE,96000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,2000,45,NOT_AVAILABLE,NOT_AVAILABLE,4.53750679991208,NOT_AVAILABLE,NOT_AVAILABLE,96000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,2000,46,NOT_AVAILABLE,NOT_AVAILABLE,4.523090699978638,NOT_AVAILABLE,NOT_AVAILABLE,96000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,5000,42,NOT_AVAILABLE,NOT_AVAILABLE,5.243597300053807,NOT_AVAILABLE,NOT_AVAILABLE,240000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,5000,43,NOT_AVAILABLE,NOT_AVAILABLE,4.9881930999981705,NOT_AVAILABLE,NOT_AVAILABLE,240000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,5000,44,NOT_AVAILABLE,NOT_AVAILABLE,5.1347140998987015,NOT_AVAILABLE,NOT_AVAILABLE,240000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,5000,45,NOT_AVAILABLE,NOT_AVAILABLE,5.421237699949415,NOT_AVAILABLE,NOT_AVAILABLE,240000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,5000,46,NOT_AVAILABLE,NOT_AVAILABLE,5.350197799940361,NOT_AVAILABLE,NOT_AVAILABLE,240000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,10000,42,NOT_AVAILABLE,NOT_AVAILABLE,6.617951700027334,NOT_AVAILABLE,NOT_AVAILABLE,480000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,10000,43,NOT_AVAILABLE,NOT_AVAILABLE,6.426279100007378,NOT_AVAILABLE,NOT_AVAILABLE,480000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,10000,44,NOT_AVAILABLE,NOT_AVAILABLE,6.565750299952924,NOT_AVAILABLE,NOT_AVAILABLE,480000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,10000,45,NOT_AVAILABLE,NOT_AVAILABLE,6.810587799962377,NOT_AVAILABLE,NOT_AVAILABLE,480000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+multicentroid,10000,46,NOT_AVAILABLE,NOT_AVAILABLE,6.695673799986253,NOT_AVAILABLE,NOT_AVAILABLE,480000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,1000,42,NOT_AVAILABLE,NOT_AVAILABLE,4.250670100067509,NOT_AVAILABLE,NOT_AVAILABLE,48000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,1000,43,NOT_AVAILABLE,NOT_AVAILABLE,4.271608600043692,NOT_AVAILABLE,NOT_AVAILABLE,48000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,1000,44,NOT_AVAILABLE,NOT_AVAILABLE,4.352699800016126,NOT_AVAILABLE,NOT_AVAILABLE,48000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,1000,45,NOT_AVAILABLE,NOT_AVAILABLE,4.265503599977819,NOT_AVAILABLE,NOT_AVAILABLE,48000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,1000,46,NOT_AVAILABLE,NOT_AVAILABLE,4.5398217999900226,NOT_AVAILABLE,NOT_AVAILABLE,48000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,2000,42,NOT_AVAILABLE,NOT_AVAILABLE,4.5664766000409145,NOT_AVAILABLE,NOT_AVAILABLE,96000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,2000,43,NOT_AVAILABLE,NOT_AVAILABLE,4.586994600045728,NOT_AVAILABLE,NOT_AVAILABLE,96000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,2000,44,NOT_AVAILABLE,NOT_AVAILABLE,4.691390500054695,NOT_AVAILABLE,NOT_AVAILABLE,96000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,2000,45,NOT_AVAILABLE,NOT_AVAILABLE,4.584524100006092,NOT_AVAILABLE,NOT_AVAILABLE,96000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,2000,46,NOT_AVAILABLE,NOT_AVAILABLE,4.866471699991962,NOT_AVAILABLE,NOT_AVAILABLE,96000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,5000,42,NOT_AVAILABLE,NOT_AVAILABLE,5.305271200108109,NOT_AVAILABLE,NOT_AVAILABLE,240000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,5000,43,NOT_AVAILABLE,NOT_AVAILABLE,5.348847800050862,NOT_AVAILABLE,NOT_AVAILABLE,240000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,5000,44,NOT_AVAILABLE,NOT_AVAILABLE,5.483660400059307,NOT_AVAILABLE,NOT_AVAILABLE,240000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,5000,45,NOT_AVAILABLE,NOT_AVAILABLE,5.30228740000166,NOT_AVAILABLE,NOT_AVAILABLE,240000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,5000,46,NOT_AVAILABLE,NOT_AVAILABLE,5.7027811000007205,NOT_AVAILABLE,NOT_AVAILABLE,240000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,10000,42,NOT_AVAILABLE,NOT_AVAILABLE,6.700921000097878,NOT_AVAILABLE,NOT_AVAILABLE,480000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,10000,43,NOT_AVAILABLE,NOT_AVAILABLE,6.708267700072611,NOT_AVAILABLE,NOT_AVAILABLE,480000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,10000,44,NOT_AVAILABLE,NOT_AVAILABLE,6.844886199978646,NOT_AVAILABLE,NOT_AVAILABLE,480000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,10000,45,NOT_AVAILABLE,NOT_AVAILABLE,6.682097300013993,NOT_AVAILABLE,NOT_AVAILABLE,480000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times
+hybrid,10000,46,NOT_AVAILABLE,NOT_AVAILABLE,7.125179600057891,NOT_AVAILABLE,NOT_AVAILABLE,480000.0,NOT_AVAILABLE,Phase 06 recorded preprocessing + encoding + combined model training/inference times

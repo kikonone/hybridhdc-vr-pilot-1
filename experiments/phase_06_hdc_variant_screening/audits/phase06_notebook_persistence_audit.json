@@ -1,0 +1,25 @@
+{
+  "phase": "06",
+  "audit": "notebook_persistence",
+  "timestamp_utc": "2026-08-20T06:27:51.956586+00:00",
+  "result": "PASS",
+  "checks": {
+    "notebook_exists_and_hashed": true,
+    "code_cells_executed": true,
+    "outputs_persisted": true,
+    "no_error_outputs": true,
+    "training_no_marker": true,
+    "pending_contract_freeze_marker": true,
+    "all_required_audit_markers": true
+  },
+  "evidence": {
+    "notebook": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\Phase_06_HDC_Variant_Screening.ipynb",
+      "exists": true,
+      "file_size_bytes": 12248,
+      "sha256": "f45ef9737b9e809cf0175290e003c3e89e7ae78722d60c5183cbfd1e018e3056",
+      "result": "PASS"
+    }
+  },
+  "model_training_executed": false
+}

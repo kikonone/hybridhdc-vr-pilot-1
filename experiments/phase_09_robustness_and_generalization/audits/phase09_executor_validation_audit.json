@@ -1,0 +1,162 @@
+{
+  "phase": "09",
+  "audit": "executor_validation",
+  "status": "PASS",
+  "validated_at_utc": "2026-08-21T04:10:25.113958+00:00",
+  "checks": {
+    "exact_frozen_manifest_match": true,
+    "unique_run_identifiers_720": true,
+    "output_paths_no_collisions": true,
+    "full_primary_reference_excluded": true,
+    "sudden_test_time_missingness_excluded": true,
+    "phase10_excluded": true,
+    "performance_features_excluded": true,
+    "expected_raw_rows_30168": true
+  },
+  "dry_run_unique_runs": 720,
+  "expected_raw_prediction_rows": 30168,
+  "authorization_digest": "39b3ddfadcfe407121abfec9efb720396d3e1c5a7005ff9c6f03f44b2d909bab",
+  "frozen_contract_snapshot": {
+    "configs/phase09_frozen_contract.json": {
+      "bytes": 8004,
+      "sha256": "f908109261ab4ae1141e657ab8a1a08760a42d145aa9e6a8d1d2ec37c33e4c93"
+    },
+    "configs/phase09_contract_freeze.json": {
+      "bytes": 11135,
+      "sha256": "b59022cad732d1b239f527453804947d31ffc0f90129d6904530572204cf3fe3"
+    },
+    "configs/phase09_missing_modality_contract.json": {
+      "bytes": 2766,
+      "sha256": "5f4646c0fc16b2a541469982fbf80abe221413c39dda7408d946c4b32a886cfd"
+    },
+    "configs/phase09_loso_contract.json": {
+      "bytes": 1312,
+      "sha256": "445141d1423a358a69757959f35ac95b77e350711f04eb713dd817a1ed291dc2"
+    },
+    "configs/phase09_loso_config_mapping.json": {
+      "bytes": 77328,
+      "sha256": "fecba2fe0d2bff5461e3ae1a76c6d3588076737e97ccb5c67bdaef84324d7be1"
+    },
+    "configs/phase09_oof_aggregation_rules.json": {
+      "bytes": 907,
+      "sha256": "a61e8d3a949129f9210db6ae2a4855ecaeb875c7f7e612c6103f24dcd58e6402"
+    },
+    "configs/phase09_statistical_rules.json": {
+      "bytes": 1406,
+      "sha256": "13e5d58014dda3991d2896d809f2bba630fbf6702e96a0951be96f552edb1c02"
+    },
+    "manifests/phase09_loso_assignments.csv": {
+      "bytes": 33557,
+      "sha256": "15c618d1a377e2e8e8aeb11539e19d09c5e97ec6cdbf3a20bd74d0e47e6133d8"
+    },
+    "manifests/phase09_expected_coverage_manifest.json": {
+      "bytes": 9488,
+      "sha256": "39467e417f23969c41a4c9a612b12aeed41626b736795a0bfbf61a973eb0a5bd"
+    },
+    "manifests/phase09_contract_artifact_manifest.json": {
+      "bytes": 7393,
+      "sha256": "c43cc8f9a7911ff602b44bc3fd1e3dd6995323aa3fb0966d9ed970d923ececb5"
+    },
+    "manifests/phase09_modality_manifest.json": {
+      "bytes": 65864,
+      "sha256": "57a217c410f9f409304dd7529f75a7cc6bf30f5677de9eeb2ec74c8459ad55c0"
+    },
+    "manifests/phase09_upstream_freeze_manifest.json": {
+      "bytes": 6853,
+      "sha256": "03cec48558758837e575c851b89a81544c3415bac29d71c18c3d3c081d143690"
+    }
+  },
+  "upstream_snapshot": {
+    "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv": {
+      "bytes": 38660,
+      "sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv": {
+      "bytes": 7435180,
+      "sha256": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\best_classifier.json": {
+      "bytes": 271,
+      "sha256": "5c8a1a3ea3a78016f0b44289e854f0f4493a2c1368e73513c94e6b4dd38e3757"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json": {
+      "bytes": 1027,
+      "sha256": "16bf511354a4320695cb226e585b4ed5803a6c72254fb7f0aefa1729cbc82486"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\phase04a_final_configuration.json": {
+      "bytes": 926,
+      "sha256": "3b3749fcd3ad1201edc3375b9180fbf7e61c6612196a44fa3e661a0c146e1f88"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\phase04a_freeze.json": {
+      "bytes": 1050,
+      "sha256": "34ea8100d9406f9701750a441aa6537323c28bcdb194cb3fd3645c4f7de4a2e1"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\configs\\gradient_boosting_configuration.json": {
+      "bytes": 1727,
+      "sha256": "8806fb802da1de3fa5c2c5d720121a209837701185fe7b35868c41abc43af717"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\configs\\phase04b_freeze.json": {
+      "bytes": 5127,
+      "sha256": "e2c88b1139a50aab6d47b6477c7bceff74f8443095f9d039ea9af84b715ee790"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_1_best_params.json": {
+      "bytes": 643,
+      "sha256": "e2a5345dc458de75fe5fea4a2be9279db6b4a1cb09d88d18a743196fa40fc447"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_2_best_params.json": {
+      "bytes": 642,
+      "sha256": "1d3c5466216bf8f76b3be87f06ba4778f5939b2adf9799006e5f674a09dfc0e2"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_3_best_params.json": {
+      "bytes": 640,
+      "sha256": "26969e26b13224e9ec324dc10f33895c79ba3f47dedbfa9a18cb1259a50085af"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_4_best_params.json": {
+      "bytes": 640,
+      "sha256": "1a156aff9e3e70778500f7e372bd614bd088f2cccf8d6897482f3fe3c13bc0ca"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_5_best_params.json": {
+      "bytes": 643,
+      "sha256": "f442477ed0e037ff8f008ea3d5c70f9578a86eb6683ceca4c0be972049a08e7d"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_best_classification_hdc.json": {
+      "bytes": 1822,
+      "sha256": "174a99de2d993acdea49fdebc9647b28db4648ada2bea7a33f620f4677f031a4"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_best_regression_hdc.json": {
+      "bytes": 2351,
+      "sha256": "acde51709971d57c76eefaffcf1ecd571a4d4c5c36f8d76edf39841c5e7065b8"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json": {
+      "bytes": 5533,
+      "sha256": "cd94acdf0bcb463b5f48a7c84110a23059899b6b5bf156131694827d7d7bde66"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\configs\\phase07_freeze.json": {
+      "bytes": 984,
+      "sha256": "8569b48a8210f0ca1316d5a140d292edb892e2a556ea13ee299e9b97699af492"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\manifests\\phase07_modality_feature_manifest.json": {
+      "bytes": 65552,
+      "sha256": "1bea49fed9577a245b182075875bd2a7226be9f1e64782869ef3bdac86dfe1f4"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\configs\\phase08_freeze.json": {
+      "bytes": 1460,
+      "sha256": "f36211f1b793d1868573973f8ea46a7bc89aee03759079e268df75d2a4894595"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\configs\\phase09_generalization_handoff.json": {
+      "bytes": 3411,
+      "sha256": "aa15ccdea2bfd7224f8deb29ab4ed3baa88b495cfb526e1c83924a32e15f229b"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\manifests\\phase08_final_manifest.json": {
+      "bytes": 279582,
+      "sha256": "c4de38db0c0d76e5cb06822d895d9ccd823d418c9057d85732d080f5b09cc42b"
+    },
+    "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\manifests\\phase08_to_phase09_generalization_handoff.json": {
+      "bytes": 3188,
+      "sha256": "b2c70a59b01fbc7bd66ed41986fb3c01b007d5b8b1d2ebc60bcabd38dbd6569c"
+    }
+  },
+  "training_executed": false,
+  "predictions_generated": false,
+  "output_path_collision_count": 0
+}

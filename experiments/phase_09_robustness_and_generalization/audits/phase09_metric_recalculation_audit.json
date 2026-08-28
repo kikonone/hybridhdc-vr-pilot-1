@@ -1,0 +1,35 @@
+{
+  "phase": "09",
+  "audit": "metric_recalculation",
+  "status": "PASS",
+  "audited_at_utc": "2026-08-21T04:42:55.713192+00:00",
+  "checks": {
+    "missing_classification_groups_12": true,
+    "missing_regression_groups_12": true,
+    "loso_classification_groups_2": true,
+    "loso_regression_groups_2": true,
+    "seed_groups_complete": true,
+    "metrics_recomputed_from_canonical_predictions": true,
+    "fold_metrics_or_summaries_copied_no": true
+  },
+  "classification_metrics": [
+    "Macro-F1",
+    "Balanced Accuracy",
+    "Accuracy",
+    "Severe Error Rate",
+    "Per-class Recall",
+    "Confusion Matrix",
+    "Quadratic Weighted Kappa"
+  ],
+  "regression_metrics": [
+    "raw MAE",
+    "bounded MAE",
+    "bounded RMSE",
+    "bounded R2",
+    "bounded Spearman",
+    "clipping count/rate",
+    "rounded regression Macro-F1",
+    "adjacent accuracy",
+    "severe error rate"
+  ]
+}

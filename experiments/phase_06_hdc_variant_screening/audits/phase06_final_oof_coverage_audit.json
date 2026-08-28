@@ -1,0 +1,507 @@
+{
+  "phase": "06",
+  "audit": "final_oof_coverage",
+  "variants": {
+    "onlinehd": {
+      "rows": 8380,
+      "configurations": [
+        {
+          "dimension": 1000,
+          "seed": 42,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 1000,
+          "seed": 43,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 1000,
+          "seed": 44,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 1000,
+          "seed": 45,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 1000,
+          "seed": 46,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 2000,
+          "seed": 42,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 2000,
+          "seed": 43,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 2000,
+          "seed": 44,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 2000,
+          "seed": 45,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 2000,
+          "seed": 46,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 5000,
+          "seed": 42,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 5000,
+          "seed": 43,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 5000,
+          "seed": 44,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 5000,
+          "seed": 45,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 5000,
+          "seed": 46,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 10000,
+          "seed": 42,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 10000,
+          "seed": 43,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 10000,
+          "seed": 44,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 10000,
+          "seed": 45,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 10000,
+          "seed": 46,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        }
+      ],
+      "complete_configurations": 20
+    },
+    "multicentroid": {
+      "rows": 8380,
+      "configurations": [
+        {
+          "dimension": 1000,
+          "seed": 42,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 1000,
+          "seed": 43,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 1000,
+          "seed": 44,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 1000,
+          "seed": 45,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 1000,
+          "seed": 46,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 2000,
+          "seed": 42,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 2000,
+          "seed": 43,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 2000,
+          "seed": 44,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 2000,
+          "seed": 45,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 2000,
+          "seed": 46,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 5000,
+          "seed": 42,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 5000,
+          "seed": 43,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 5000,
+          "seed": 44,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 5000,
+          "seed": 45,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 5000,
+          "seed": 46,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 10000,
+          "seed": 42,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 10000,
+          "seed": 43,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 10000,
+          "seed": 44,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 10000,
+          "seed": 45,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 10000,
+          "seed": 46,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        }
+      ],
+      "complete_configurations": 20
+    },
+    "hybrid": {
+      "rows": 8380,
+      "configurations": [
+        {
+          "dimension": 1000,
+          "seed": 42,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 1000,
+          "seed": 43,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 1000,
+          "seed": 44,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 1000,
+          "seed": 45,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 1000,
+          "seed": 46,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 2000,
+          "seed": 42,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 2000,
+          "seed": 43,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 2000,
+          "seed": 44,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 2000,
+          "seed": 45,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 2000,
+          "seed": 46,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 5000,
+          "seed": 42,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 5000,
+          "seed": 43,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 5000,
+          "seed": 44,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 5000,
+          "seed": 45,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 5000,
+          "seed": 46,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 10000,
+          "seed": 42,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 10000,
+          "seed": 43,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 10000,
+          "seed": 44,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 10000,
+          "seed": 45,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        },
+        {
+          "dimension": 10000,
+          "seed": 46,
+          "rows": 419,
+          "unique_run_keys": 419,
+          "duplicates": 0,
+          "complete": true
+        }
+      ],
+      "complete_configurations": 20
+    }
+  },
+  "combined_rows": 25140,
+  "expected_combined_rows": 25140,
+  "result": "PASS"
+}

@@ -1,0 +1,30 @@
+{
+  "phase": "09",
+  "audit": "final_analysis_verification",
+  "status": "PASS",
+  "audited_at_utc": "2026-08-21T05:17:04.166527+00:00",
+  "checks": {
+    "consolidation_dry_run": true,
+    "canonical_rows_10056": true,
+    "canonical_keys_unique": true,
+    "reference_rows_1676": true,
+    "required_artifacts_present_nonempty": true,
+    "figure_pairs_6_vector_and_600dpi_raster": true,
+    "component_audits_pass": true,
+    "independent_metric_reconciliation": true,
+    "subject_pairwise_rows_20": true,
+    "holm_complete": true,
+    "bootstrap_2000": true,
+    "flight_boundary_explicit": true,
+    "phase09_freeze_absent": true,
+    "phase10_not_executed": true,
+    "model_retraining_during_analysis_no": true,
+    "raw_predictions_regenerated_during_analysis_no": true,
+    "notebook_persistence": true
+  },
+  "ready_for_phase09_freeze": true,
+  "model_retraining_executed": false,
+  "raw_predictions_regenerated": false,
+  "phase09_freeze_executed": false,
+  "phase10_executed": false
+}

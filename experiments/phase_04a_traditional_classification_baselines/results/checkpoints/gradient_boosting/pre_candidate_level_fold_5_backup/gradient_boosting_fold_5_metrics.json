@@ -1,0 +1,19 @@
+{
+  "model": "gradient_boosting",
+  "model_family": "Gradient Boosting",
+  "outer_fold": 5.0,
+  "test_run_count": 83,
+  "test_subject_count": 7,
+  "selected_hyperparameters": "{\"classifier__learning_rate\": 0.1, \"classifier__max_depth\": 3, \"classifier__n_estimators\": 200, \"effective_selected_k\": 200, \"selector__k\": 200}",
+  "selected_feature_count": 200,
+  "tuning_training_seconds": 243.52365749999444,
+  "inference_seconds": 0.012843900003645103,
+  "macro_f1": 0.9758642756373896,
+  "balanced_accuracy": 0.9755952380952381,
+  "accuracy": 0.9759036144578314,
+  "weighted_f1": 0.9758824117973705,
+  "recall_class_0": 0.9523809523809523,
+  "recall_class_1": 1.0,
+  "recall_class_2": 0.95,
+  "recall_class_3": 1.0
+}

@@ -1,0 +1,38 @@
+{
+  "outer_fold": 3,
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "candidate_count": 32,
+  "tuning_seed": 42,
+  "evaluation_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "outer_subject_overlap_count": 0,
+  "inner_subject_isolation": [
+    {
+      "inner_fold": 1,
+      "subject_overlap_count": 0
+    },
+    {
+      "inner_fold": 2,
+      "subject_overlap_count": 0
+    },
+    {
+      "inner_fold": 3,
+      "subject_overlap_count": 0
+    }
+  ],
+  "test_rows": 84,
+  "canonical_unique_run_keys": 84,
+  "all_seed_rows": 420,
+  "all_seed_unique_run_keys": 84,
+  "all_predictions_nonmissing": true,
+  "bounded_range_pass": true,
+  "all_seed_same_best_params": true,
+  "search_time_seconds": 253.61016579999705,
+  "overall_pass": true,
+  "utc_timestamp": "2026-08-19T19:46:57.408542+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "phase": "06",
+  "variant": "hybrid",
+  "outer_fold": 5,
+  "result": "PASS",
+  "outer_training_rows": 336,
+  "outer_training_subjects": 28,
+  "outer_test_rows_sealed": 83,
+  "outer_test_subjects_sealed": 7,
+  "outer_test_feature_access": false,
+  "outer_test_label_access": false,
+  "inner_splits": [
+    {
+      "inner_fold": 1,
+      "train_rows": 216,
+      "validation_rows": 120,
+      "train_subjects": 18,
+      "validation_subjects": 10,
+      "subject_overlap": [],
+      "preprocessing_fit_rows": 216,
+      "result": "PASS"
+    },
+    {
+      "inner_fold": 2,
+      "train_rows": 228,
+      "validation_rows": 108,
+      "train_subjects": 19,
+      "validation_subjects": 9,
+      "subject_overlap": [],
+      "preprocessing_fit_rows": 228,
+      "result": "PASS"
+    },
+    {
+      "inner_fold": 3,
+      "train_rows": 228,
+      "validation_rows": 108,
+      "train_subjects": 19,
+      "validation_subjects": 9,
+      "subject_overlap": [],
+      "preprocessing_fit_rows": 228,
+      "result": "PASS"
+    }
+  ],
+  "inner_subject_isolation": true,
+  "preprocessing_fit_scope": "inner-training only",
+  "outer_test_prediction_generated": false,
+  "similarity_regression_executed": false,
+  "ridge_readout_executed": false,
+  "oof_generated": false,
+  "final_confirmation_executed": false
+}

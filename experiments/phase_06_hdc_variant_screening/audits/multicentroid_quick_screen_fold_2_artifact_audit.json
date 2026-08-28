@@ -1,0 +1,93 @@
+{
+  "phase": "06",
+  "variant": "multicentroid",
+  "outer_fold": 2,
+  "required_artifact_count": 14,
+  "artifacts": [
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\summaries\\multicentroid_quick_screen_fold_2_candidates.csv",
+      "file_size_bytes": 2574,
+      "sha256": "a877c999966b7fb1311a1f5a5788f084f1af73a55ec0315d776df7edfa313890",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\summaries\\multicentroid_quick_screen_fold_2_best_config.json",
+      "file_size_bytes": 1048,
+      "sha256": "a3b38e043548f9e44f438ed1debba716a8a81eeaa54d43672f6eb9b5affe178b",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\fold_metrics\\multicentroid_quick_screen_fold_2_inner_metrics.csv",
+      "file_size_bytes": 8769,
+      "sha256": "62b60ca5e731113da88ff5caa18ed26957e0f009983ed808efe32222c85b042e",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\efficiency\\multicentroid_quick_screen_fold_2_efficiency.csv",
+      "file_size_bytes": 548,
+      "sha256": "fc2158f0bad403ace8164b5e5cd35275b1d17cc467e1b4d9ab278f70fb68d714",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\audits\\multicentroid_quick_screen_fold_2_leakage_audit.json",
+      "file_size_bytes": 1364,
+      "sha256": "da30079031a1368513c8228873fd89746bb93a5d8535c22cb944630a098103ed",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\audits\\multicentroid_quick_screen_fold_2_coverage_audit.json",
+      "file_size_bytes": 294,
+      "sha256": "c494f0aae5d60ab77ef9bb9d659681d8406715b7ba4d072c5d51c03194d97957",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\logs\\multicentroid_quick_screen_fold_2_stdout.log",
+      "file_size_bytes": 1103,
+      "sha256": "afe705c587c4ca9162fb4a113530e359d74924a0d985683e83f8a5f77c323ce8",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\logs\\multicentroid_quick_screen_fold_2_stderr.log",
+      "file_size_bytes": 20664,
+      "sha256": "3fbadd95b22a09621e27573e6b6909a6fd94b0987da63062e2b18f6c0be88c23",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\multicentroid\\fold_2\\candidate_001.json",
+      "file_size_bytes": 6547,
+      "sha256": "026d141b61f165a83095942a019669a4cc04118284af1ddbc721396f48c73563",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\multicentroid\\fold_2\\candidate_002.json",
+      "file_size_bytes": 6585,
+      "sha256": "6bb710fa41209b10529f2ec9c3eab4a2cf50237c0b1c77fc867983bc364cabcf",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\multicentroid\\fold_2\\candidate_003.json",
+      "file_size_bytes": 6577,
+      "sha256": "4d4afa9e1fbd0bdfbfa96543c0f66a00a7b60f0340ba387255b82cf3fe8f1a16",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\multicentroid\\fold_2\\candidate_004.json",
+      "file_size_bytes": 6547,
+      "sha256": "0655204261be306c40036bc08b40c5fa114a2cd2cc13c7a070ba0773c9a812b8",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\multicentroid\\fold_2\\candidate_005.json",
+      "file_size_bytes": 6575,
+      "sha256": "86f46141f5aec24345a31ef47b73ace303ee58feb688c4364193b6a742e52b06",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\quick_screen\\multicentroid\\fold_2\\candidate_006.json",
+      "file_size_bytes": 6605,
+      "sha256": "e06c29c4ccca6696b279c2a017193b4b485f88da8df95ab6d6a2b1a8f2bf0228",
+      "result": "PASS"
+    }
+  ],
+  "result": "PASS"
+}

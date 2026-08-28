@@ -1,0 +1,25 @@
+{
+  "status": "READ_ONLY_PROJECTION_OF_FROZEN_CONTRACT",
+  "source": "configs/phase08_frozen_contract.json",
+  "source_sha256": "93121979400646bcc9adffb15c069e8ec9a5f0e95e3dfb0cdcc99e3d3666031c",
+  "conditions": {
+    "WITHOUT_PERFORMANCE_PRIMARY_REFERENCE": {
+      "feature_count": 1176,
+      "execution": "READ_ONLY_UPSTREAM_FROZEN_OOF"
+    },
+    "WITH_PERFORMANCE_AUXILIARY": {
+      "feature_count": 1235,
+      "execution": "NEW_TRAINING_AUTHORIZED_AFTER_FREEZE"
+    },
+    "PERFORMANCE_ONLY_AUXILIARY": {
+      "feature_count": 59,
+      "execution": "NEW_TRAINING_AUTHORIZED_AFTER_FREEZE"
+    }
+  },
+  "direct_target_leakage_static_screen": {
+    "reserved_name_collisions": 0,
+    "direct_target_copies": 0,
+    "deterministic_target_transforms": 0,
+    "interpretation": "No direct copy was found; shortcut risk is not ruled out."
+  }
+}

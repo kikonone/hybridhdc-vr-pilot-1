@@ -1,0 +1,103 @@
+{
+  "verified_at": "2026-08-19T11:29:25",
+  "method": "Independent run-directory scan with CSV column evidence, first-record checks, and paired stream metadata checks.",
+  "subject_count": 35,
+  "session_count": 35,
+  "raw_run_count": 487,
+  "run_directory_file_count": 9002,
+  "data_package_file_count": 9003,
+  "difficulty_distribution": {
+    "level-000": 68,
+    "level-01B": 104,
+    "level-02B": 106,
+    "level-03B": 104,
+    "level-04B": 105
+  },
+  "duplicate_run_keys": [],
+  "missing_expected_run_directories": [
+    {
+      "subject_id": "sub-cp009",
+      "session_id": "ses-20210129",
+      "task": "rest",
+      "difficulty_level": "level-000",
+      "run_id": "run-002",
+      "expected_run_key": "sub-cp009_ses-20210129_level-000_run-002",
+      "missing_type": "physically_absent_run",
+      "basis": "No directory exists for this task/run; absent relative to the repeated schedule."
+    },
+    {
+      "subject_id": "sub-cp030",
+      "session_id": "ses-20211025",
+      "task": "ils",
+      "difficulty_level": "level-03B",
+      "run_id": "run-005",
+      "expected_run_key": "sub-cp030_ses-20211025_level-03B_run-005",
+      "missing_type": "physically_absent_run",
+      "basis": "No directory exists for this task/run; absent relative to the repeated schedule."
+    },
+    {
+      "subject_id": "sub-cp031",
+      "session_id": "ses-20211216",
+      "task": "ils",
+      "difficulty_level": "level-01B",
+      "run_id": "run-012",
+      "expected_run_key": "sub-cp031_ses-20211216_level-01B_run-012",
+      "missing_type": "schedule_mapping_hole",
+      "basis": "Expected difficulty/run combination is absent, but the same task/run exists under another difficulty."
+    },
+    {
+      "subject_id": "sub-cp036",
+      "session_id": "ses-20211218",
+      "task": "rest",
+      "difficulty_level": "level-000",
+      "run_id": "run-002",
+      "expected_run_key": "sub-cp036_ses-20211218_level-000_run-002",
+      "missing_type": "physically_absent_run",
+      "basis": "No directory exists for this task/run; absent relative to the repeated schedule."
+    }
+  ],
+  "physically_absent_run_count": 3,
+  "unexpected_schedule_identifiers": [
+    {
+      "subject_id": "sub-cp031",
+      "session_id": "ses-20211216",
+      "task": "ils",
+      "difficulty_level": "level-02B",
+      "run_id": "run-012",
+      "run_key": "sub-cp031_ses-20211216_level-02B_run-012",
+      "basis": "Identifier differs from the repeated run-to-difficulty mapping used by the other subjects."
+    }
+  ],
+  "modality_run_counts": {
+    "eye_tracking": 469,
+    "ecg": 482,
+    "eda": 470,
+    "emg": 484,
+    "respiration": 482,
+    "head_movement": 486,
+    "xplane": 486,
+    "performance": 419,
+    "torso_body_accelerometer": 454,
+    "control_input": 0
+  },
+  "runs_with_any_physiological_signal": 487,
+  "runs_with_abnormal_files": 27,
+  "abnormal_observation_count": 117,
+  "runs_with_unresolved_files": 0,
+  "discrepancy_count": 44,
+  "explicit_control_input_confirmed": false,
+  "performance_summary_check": {
+    "summary_path": "task-ils/PerfMetrics.csv",
+    "row_count": 419,
+    "unique_key_count": 419,
+    "duplicate_keys": [],
+    "summary_keys_missing_run_performance": [],
+    "run_performance_keys_missing_summary": []
+  },
+  "limitations": [
+    "CSV files were inspected using headers and safe first-record previews; complete signal arrays were not loaded.",
+    "Short-stream checks use metadata duration below 30 seconds as an obvious abnormality threshold, not a scientific quality cutoff.",
+    "Three physically absent directories and one unexpected difficulty/run mapping are identified against the dataset's repeated schedule, not forced from a research-plan target.",
+    "CODEX_RULES.md was not present at the searched project/drive locations."
+  ]
+}

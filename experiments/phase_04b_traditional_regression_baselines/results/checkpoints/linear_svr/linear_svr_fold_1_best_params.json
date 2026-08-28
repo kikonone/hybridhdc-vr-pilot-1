@@ -1,0 +1,12 @@
+{
+  "outer_fold": 1,
+  "best_params": {
+    "feature_selection__k": 200,
+    "regressor__C": 0.1,
+    "regressor__epsilon": 0.0
+  },
+  "candidate_count": 48,
+  "n_iter": 1504,
+  "converged": true,
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f"
+}

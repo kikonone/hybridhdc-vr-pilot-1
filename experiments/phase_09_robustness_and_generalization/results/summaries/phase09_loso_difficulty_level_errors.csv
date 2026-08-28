@@ -1,0 +1,17 @@
+model_key,model,task,difficulty_level,rows,subjects,error_rate,severe_error_rate,bounded_mae
+hdc_classification,HDC,classification,0.0,104,35,0.16346153846153846,0.019230769230769232,
+hdc_classification,HDC,classification,1.0,106,35,0.24528301886792453,0.018867924528301886,
+hdc_classification,HDC,classification,2.0,104,35,0.125,0.038461538461538464,
+hdc_classification,HDC,classification,3.0,105,35,0.02857142857142857,0.01904761904761905,
+hdc_regression,HDC,regression,1.0,104,35,,0.028846153846153848,0.3292499011730769
+hdc_regression,HDC,regression,2.0,106,35,,0.009433962264150943,0.26284947056603775
+hdc_regression,HDC,regression,3.0,104,35,,0.009615384615384616,0.21308328596153842
+hdc_regression,HDC,regression,4.0,105,35,,0.0,0.19998973371428563
+traditional_classification,Traditional,classification,0.0,104,35,0.028846153846153848,0.019230769230769232,
+traditional_classification,Traditional,classification,1.0,106,35,0.07547169811320754,0.0,
+traditional_classification,Traditional,classification,2.0,104,35,0.04807692307692308,0.0,
+traditional_classification,Traditional,classification,3.0,105,35,0.01904761904761905,0.0,
+traditional_regression,Traditional,regression,1.0,104,35,,0.009615384615384616,0.13065572835397046
+traditional_regression,Traditional,regression,2.0,106,35,,0.0,0.13285942643319915
+traditional_regression,Traditional,regression,3.0,104,35,,0.009615384615384616,0.1099283576588353
+traditional_regression,Traditional,regression,4.0,105,35,,0.0,0.04817470510536595

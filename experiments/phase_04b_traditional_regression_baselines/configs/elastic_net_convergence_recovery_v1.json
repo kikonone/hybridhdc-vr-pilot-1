@@ -1,0 +1,21 @@
+{
+  "initial_max_iter": 20000,
+  "recovery_max_iter": 100000,
+  "tol": 0.0001,
+  "scientific_grid_unchanged": true,
+  "outer_folds_unchanged": true,
+  "inner_cv_unchanged": true,
+  "scorer_unchanged": true,
+  "target_unchanged": true,
+  "reason": "numerical convergence recovery",
+  "reused_folds": [
+    1,
+    2
+  ],
+  "rerun_folds": [
+    3,
+    4,
+    5
+  ],
+  "utc_timestamp": "2026-08-19T17:32:05.640618+00:00"
+}

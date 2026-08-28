@@ -1,0 +1,85 @@
+{
+  "phase": "06",
+  "contract_version": "phase06_variant_search_spaces_v1",
+  "status": "FROZEN",
+  "timestamp_utc": "2026-08-20T06:38:03.355963+00:00",
+  "result": "PASS",
+  "common": {
+    "dimensions": [
+      2000,
+      5000
+    ],
+    "levels": [
+      51
+    ],
+    "feature_k": [
+      50
+    ],
+    "seeds": [
+      42
+    ]
+  },
+  "onlinehd": {
+    "epochs": [
+      1,
+      3,
+      5
+    ],
+    "learning_rate": [
+      0.05,
+      0.1
+    ],
+    "margin_threshold": [
+      0.0,
+      0.1
+    ],
+    "candidates_per_dimension": 12,
+    "total_candidates": 24
+  },
+  "multicentroid": {
+    "centroids_per_class": [
+      2,
+      3,
+      4
+    ],
+    "candidates_per_dimension": 3,
+    "total_candidates": 6
+  },
+  "hybrid": {
+    "centroids_per_class": [
+      2,
+      3
+    ],
+    "epochs": [
+      1,
+      3
+    ],
+    "learning_rate": [
+      0.05,
+      0.1
+    ],
+    "margin_threshold": [
+      0.0,
+      0.1
+    ],
+    "candidates_per_dimension": 16,
+    "total_candidates": 32
+  },
+  "final_confirmation": {
+    "executed": false,
+    "dimensions": [
+      1000,
+      2000,
+      5000,
+      10000
+    ],
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  "mutation_after_freeze": "PROHIBITED"
+}

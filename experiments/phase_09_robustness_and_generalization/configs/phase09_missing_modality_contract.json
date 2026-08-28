@@ -1,0 +1,78 @@
+{
+  "phase": "09",
+  "status": "FROZEN",
+  "primary_protocol": "RETRAIN_WITHOUT_MODALITY",
+  "conditions": [
+    {
+      "condition": "FULL_PRIMARY_REFERENCE",
+      "removed_modality": null,
+      "removed_features": 0,
+      "feature_count": 1176,
+      "policy": "REUSED_NOT_RETRAINED"
+    },
+    {
+      "condition": "MISSING_PHYSIOLOGICAL",
+      "removed_modality": "physiological_features",
+      "removed_features": 233,
+      "feature_count": 943,
+      "policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "condition": "MISSING_EYE_TRACKING",
+      "removed_modality": "eye_tracking_features",
+      "removed_features": 416,
+      "feature_count": 760,
+      "policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "condition": "MISSING_HEAD_MOVEMENT",
+      "removed_modality": "head_movement_features",
+      "removed_features": 159,
+      "feature_count": 1017,
+      "policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "condition": "MISSING_FLIGHT_PARAMETER",
+      "removed_modality": "flight_parameter_features",
+      "removed_features": 326,
+      "feature_count": 850,
+      "policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "condition": "MISSING_BODY_MOVEMENT",
+      "removed_modality": "body_movement_features",
+      "removed_features": 42,
+      "feature_count": 1134,
+      "policy": "RETRAIN_WITHOUT_MODALITY"
+    }
+  ],
+  "new_training_conditions": 5,
+  "new_training_runs": 300,
+  "run_breakdown": {
+    "hdc_classification": 125,
+    "hdc_regression": 125,
+    "traditional_classification": 25,
+    "traditional_regression": 25
+  },
+  "full_primary_reference_policy": "REUSED_NOT_RETRAINED",
+  "fold_local_pipeline": "Remove the modality before fitting outer-training-only preprocessing, feature selection, and model fitting; use the same remaining feature set on the outer test fold.",
+  "performance_features": "EXCLUDED",
+  "sudden_test_time_missingness": "NOT_FEASIBLE_DUE_TO_CHECKPOINT_INTERFACE",
+  "protocol_separation": "SUDDEN_TEST_TIME_MISSINGNESS is never pooled into RETRAIN_WITHOUT_MODALITY curves and is excluded from 300 training runs.",
+  "sources": [
+    {
+      "role": "frozen_phase09_modality_manifest",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\manifests\\phase09_modality_manifest.json",
+      "bytes": 65864,
+      "sha256": "57a217c410f9f409304dd7529f75a7cc6bf30f5677de9eeb2ec74c8459ad55c0",
+      "read_only_policy": true
+    },
+    {
+      "role": "primary_without_performance",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv",
+      "bytes": 7435180,
+      "sha256": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44",
+      "read_only_policy": true
+    }
+  ]
+}

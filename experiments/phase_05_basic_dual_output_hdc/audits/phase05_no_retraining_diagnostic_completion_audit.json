@@ -1,0 +1,17 @@
+{
+  "phase": "05",
+  "audit": "no_retraining_diagnostic_completion",
+  "created_utc": "2026-08-20T05:54:19.292995+00:00",
+  "source_oof": "results\\oof\\vanilla_hdc_final_confirmation_oof_long.csv",
+  "source_oof_sha256_before": "bbc3d2044e9e1e527eed7e0f40d41ba569033073cb437e6d9aec3ccce1d837ad",
+  "source_oof_sha256_after": "bbc3d2044e9e1e527eed7e0f40d41ba569033073cb437e6d9aec3ccce1d837ad",
+  "source_oof_unchanged": true,
+  "rows": 8380,
+  "configs": 20,
+  "probability_row_sum_max_abs_error": 3.3306690738754696e-16,
+  "similarity_prediction_max_abs_error": 2.6645352591003757e-15,
+  "classification_prediction_mismatches": 0,
+  "model_fitting_executed": false,
+  "prediction_artifact_replaced": false,
+  "result": "PASS"
+}

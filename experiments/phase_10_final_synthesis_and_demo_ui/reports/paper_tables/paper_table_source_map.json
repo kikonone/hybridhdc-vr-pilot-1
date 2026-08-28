@@ -1,0 +1,222 @@
+{
+  "registry": "phase10_paper_table_source_map",
+  "tables": [
+    {
+      "table_id": "T01",
+      "title": "Dataset, subjects, modalities and feature statistics",
+      "sources": [
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\manifests\\dataset_manifest.json",
+          "source_sha256": "6f1c7442ab7b0a291df6ce445246e3ce8715c6eac1b0b63fd5795d768db25b7f",
+          "exact_copy_path": ""
+        }
+      ]
+    },
+    {
+      "table_id": "T02",
+      "title": "Traditional classification model comparison",
+      "sources": [
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\results\\summaries\\phase04a_final_classifier_comparison.csv",
+          "source_sha256": "27f331244a6e8fd18652b5c3aed4bd05d976f0662947e337cd591e27831c1084",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t02__01__phase04a_final_classifier_comparison.csv"
+        },
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\results\\summaries\\classification_baseline_summary.csv",
+          "source_sha256": "27f331244a6e8fd18652b5c3aed4bd05d976f0662947e337cd591e27831c1084",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t02__02__classification_baseline_summary.csv"
+        }
+      ]
+    },
+    {
+      "table_id": "T03",
+      "title": "Traditional regression model comparison",
+      "sources": [
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\summaries\\phase04b_final_regressor_comparison.csv",
+          "source_sha256": "b8bb4e8b4323a2f5234ed3f4f4a5a84a831158c17ebb0be4b050e0b729f50f3c",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t03__01__phase04b_final_regressor_comparison.csv"
+        }
+      ]
+    },
+    {
+      "table_id": "T04",
+      "title": "Four HDC variants and regression-head comparison",
+      "sources": [
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\summaries\\phase06_final_hdc_variant_comparison.csv",
+          "source_sha256": "a5b0b03b71ab8ff9389ac6afeed7d244f7b480f2dcc267e55eaf32dc0cac1a98",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t04__01__phase06_final_hdc_variant_comparison.csv"
+        },
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\summaries\\phase06_hdc_regression_head_comparison.csv",
+          "source_sha256": "8b7ef9195b848eb384f329b9c5d438472bd0ceb0cf870e1a884c9b7ec4fbc06f",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t04__02__phase06_hdc_regression_head_comparison.csv"
+        }
+      ]
+    },
+    {
+      "table_id": "T05",
+      "title": "Frozen best dual-task HDC configuration",
+      "sources": [
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\reports\\phase06_final_summary.md",
+          "source_sha256": "d2318fd59cf248f50e4de1ad57489d46849bf1f02b9f4b39619265c8a511a71d",
+          "exact_copy_path": ""
+        }
+      ]
+    },
+    {
+      "table_id": "T06",
+      "title": "Best HDC versus traditional baselines",
+      "sources": [
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\results\\summaries\\phase05_vs_phase04a_classification_comparison.csv",
+          "source_sha256": "95a969587293808d67f2f6ca99608167bea055bbf864c22ca96bcc94e738c7f1",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t06__01__phase05_vs_phase04a_classification_comparison.csv"
+        },
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\results\\summaries\\phase05_vs_phase04b_regression_comparison.csv",
+          "source_sha256": "beaf215f89115cba7177de33569b7d9eb9ce75a588d56df8e62f8f42c5d59d71",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t06__02__phase05_vs_phase04b_regression_comparison.csv"
+        }
+      ]
+    },
+    {
+      "table_id": "T07",
+      "title": "Unimodal classification and regression contribution",
+      "sources": [
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\summaries\\phase07_unimodal_classification_comparison.csv",
+          "source_sha256": "5e2314acea52f893d2dea3ce34cb15fc385c61c398d958a49da1f375edcfe648",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t07__01__phase07_unimodal_classification_comparison.csv"
+        },
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\summaries\\phase07_unimodal_regression_comparison.csv",
+          "source_sha256": "0a710c1b30fa728d63a87f7cb2d3fbf0081a28d0283d447fe6c6575097e67b4b",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t07__02__phase07_unimodal_regression_comparison.csv"
+        }
+      ]
+    },
+    {
+      "table_id": "T08",
+      "title": "Multimodal fusion results",
+      "sources": [
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\results\\summaries\\phase08_fusion_condition_comparison.csv",
+          "source_sha256": "03c90b6b1ad614cce37fb9f88ef7373ac19c63eb08bfce9bf8aadc1a0fc4d7f8",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t08__01__phase08_fusion_condition_comparison.csv"
+        },
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\results\\summaries\\phase08_fusion_increment_analysis.csv",
+          "source_sha256": "31e57e71a0da80697655b376c1b09926480747415ff9f78447120d4903c661fc",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t08__02__phase08_fusion_increment_analysis.csv"
+        }
+      ]
+    },
+    {
+      "table_id": "T09",
+      "title": "Performance shortcut analysis",
+      "sources": [
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\results\\summaries\\phase08_shortcut_evidence_matrix.csv",
+          "source_sha256": "8fb420a6ab0635d64827b6e4439526b16a922ceef4572b46982488d49e4231e6",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t09__01__phase08_shortcut_evidence_matrix.csv"
+        },
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\results\\summaries\\phase08_flight_behavioral_sensitivity.csv",
+          "source_sha256": "0b1859577077856cddafa2292af81cfdb1915a76139fef9e1a869c32e794835e",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t09__02__phase08_flight_behavioral_sensitivity.csv"
+        }
+      ]
+    },
+    {
+      "table_id": "T10",
+      "title": "Missing-modality robustness",
+      "sources": [
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_missing_modality_robustness.csv",
+          "source_sha256": "1b418d247dcb51b6d24e3f1f10f93169fdf62f1ffb193d023b4d236dbb89feff",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t10__01__phase09_missing_modality_robustness.csv"
+        },
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_missing_modality_deltas.csv",
+          "source_sha256": "0ec5aaae39c0813f404e0d23c31e2cc5e678e6645b29d4000ebedaea7ffb9d26",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t10__02__phase09_missing_modality_deltas.csv"
+        }
+      ]
+    },
+    {
+      "table_id": "T11",
+      "title": "35-subject LOSO stability",
+      "sources": [
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_loso_subject_stability.csv",
+          "source_sha256": "488ff4a9f5fed9de10d33230887e777af60ab8eb58e0d6a2837503a56822fe59",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t11__01__phase09_loso_subject_stability.csv"
+        },
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\results\\summaries\\phase09_loso_subject_metrics.csv",
+          "source_sha256": "a0eb97bb55f037fd7cc32050f00419c4f05e0686fd661a74b8bc41efec52a3c4",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t11__02__phase09_loso_subject_metrics.csv"
+        }
+      ]
+    },
+    {
+      "table_id": "T12",
+      "title": "Primary statistical tests and effect sizes",
+      "sources": [
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\summaries\\phase07_wilcoxon_holm_tests.csv",
+          "source_sha256": "2b0bca9c0052b0c6b850adf0d221d0079f322400d044345b58ae1d7497619f1a",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t12__01__phase07_wilcoxon_holm_tests.csv"
+        },
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\summaries\\phase07_effect_sizes.csv",
+          "source_sha256": "006e1060181389b5ce90ac6b2132fb694ca7295acb84b38c6047efe6b985f845",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t12__02__phase07_effect_sizes.csv"
+        },
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\results\\summaries\\phase08_pairwise_statistics.csv",
+          "source_sha256": "77200f498f10440c210be478bb700d52248f16c9633035fe8c7dd677224a51a0",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t12__03__phase08_pairwise_statistics.csv"
+        },
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\summaries\\phase07_friedman_tests.csv",
+          "source_sha256": "3519923ba9863a9d40f173ca5498d22ee736af569eac08db8f2de01f246b52f4",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t12__04__phase07_friedman_tests.csv"
+        }
+      ]
+    },
+    {
+      "table_id": "T13",
+      "title": "RQ-evidence-conclusion summary",
+      "sources": [
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\rq_evidence_conclusion_matrix\\phase10_rq_evidence_conclusion_draft.csv",
+          "source_sha256": "4901192f286a5ff382e2421440669dd5a2973ee473c15dde6e604f97a2893d70",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t13__01__phase10_rq_evidence_conclusion_draft.csv"
+        }
+      ]
+    },
+    {
+      "table_id": "T14",
+      "title": "Generalization scope and limitations",
+      "sources": [
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\reports\\phase09_generalization_boundaries.md",
+          "source_sha256": "5ebff7e1100c554ce390d5665e4a6cafea661c4b0ab693c0f5079039a98e24a9",
+          "exact_copy_path": ""
+        },
+        {
+          "source_path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\results\\summaries\\phase08_generalization_evidence_limits.csv",
+          "source_sha256": "075c4b6deeba77f102eb25920ef8407611f7da844c8347f52b7acada3a4a123b",
+          "exact_copy_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\source_snapshots\\t14__02__phase08_generalization_evidence_limits.csv"
+        }
+      ]
+    }
+  ],
+  "table_count": 14,
+  "exact_csv_tsv_copies": 23,
+  "status": "PASS"
+}

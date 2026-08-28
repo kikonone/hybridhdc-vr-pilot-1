@@ -1,0 +1,65 @@
+{
+  "before_label": "final_pre_test",
+  "after_label": "final_post_test",
+  "sections": {
+    "freeze_files": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "final_manifests": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "phase04b_scripts": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "phase06_files": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.primary_data": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.frozen_folds": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.predictions": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.canonical_oof": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.statistics": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.notebooks": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.frozen_model_configs": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    }
+  },
+  "modified_paths": [],
+  "modified_path_count": 0,
+  "primary_checksum_unchanged": true,
+  "frozen_folds_checksum_unchanged": true
+}

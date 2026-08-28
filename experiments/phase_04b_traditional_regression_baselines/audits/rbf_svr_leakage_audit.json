@@ -1,0 +1,91 @@
+{
+  "folds": {
+    "1": {
+      "outer_subject_overlap_count": 0,
+      "inner_subject_isolation": [
+        {
+          "inner_fold": 1,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 2,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 3,
+          "subject_overlap_count": 0
+        }
+      ]
+    },
+    "2": {
+      "outer_subject_overlap_count": 0,
+      "inner_subject_isolation": [
+        {
+          "inner_fold": 1,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 2,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 3,
+          "subject_overlap_count": 0
+        }
+      ]
+    },
+    "3": {
+      "outer_subject_overlap_count": 0,
+      "inner_subject_isolation": [
+        {
+          "inner_fold": 1,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 2,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 3,
+          "subject_overlap_count": 0
+        }
+      ]
+    },
+    "4": {
+      "outer_subject_overlap_count": 0,
+      "inner_subject_isolation": [
+        {
+          "inner_fold": 1,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 2,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 3,
+          "subject_overlap_count": 0
+        }
+      ]
+    },
+    "5": {
+      "outer_subject_overlap_count": 0,
+      "inner_subject_isolation": [
+        {
+          "inner_fold": 1,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 2,
+          "subject_overlap_count": 0
+        },
+        {
+          "inner_fold": 3,
+          "subject_overlap_count": 0
+        }
+      ]
+    }
+  },
+  "outer_test_used_for_tuning": false,
+  "overall_pass": true
+}

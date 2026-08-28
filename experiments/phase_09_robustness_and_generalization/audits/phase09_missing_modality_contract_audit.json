@@ -1,0 +1,24 @@
+{
+  "phase": "09",
+  "audit": "missing_modality_contract",
+  "status": "PASS",
+  "checks": {
+    "six_conditions": true,
+    "five_new_conditions": true,
+    "feature_counts_exact": true,
+    "full_reference_reused": true,
+    "new_runs_300": true,
+    "performance_features_excluded": true,
+    "protocols_separated": true
+  },
+  "sudden_test_time_missingness": "NOT_FEASIBLE_DUE_TO_CHECKPOINT_INTERFACE",
+  "sources": [
+    {
+      "role": "frozen_missing_modality_contract",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_missing_modality_contract.json",
+      "bytes": 2766,
+      "sha256": "5f4646c0fc16b2a541469982fbf80abe221413c39dda7408d946c4b32a886cfd",
+      "read_only_policy": true
+    }
+  ]
+}

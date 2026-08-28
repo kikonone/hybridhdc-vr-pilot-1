@@ -1,0 +1,3 @@
+condition,model_key,model,task,subjects,task_name,rows,raw_mae,bounded_mae,bounded_rmse,bounded_r2,bounded_spearman,clipping_count,clipping_rate,rounded_regression_macro_f1,adjacent_accuracy,severe_error_rate
+LOSO,hdc_regression,HDC,regression,35,bounded difficulty-induced workload proxy regression,419,0.266504408300716,0.2512258171408114,0.3736314861809042,0.888105842160165,0.9365457319730661,53,0.12649164677804295,0.8645411737378647,0.9880668257756563,0.011933174224343675
+LOSO,traditional_regression,Traditional,regression,35,bounded difficulty-induced workload proxy regression,419,0.11249307275588896,0.1053990171439483,0.2553800272100539,0.9477249646731005,0.9509619468536354,80,0.1909307875894988,0.9425883091206995,0.9952267303102625,0.00477326968973747

@@ -1,0 +1,246 @@
+{
+  "phase": "09",
+  "status": "PARSED_READ_ONLY_PENDING_CONTRACT_FREEZE",
+  "traditional_classification": {
+    "model": "Gradient Boosting",
+    "source_phase": "04A",
+    "fold_specific_parameters": {
+      "1": {
+        "classifier__learning_rate": 0.1,
+        "classifier__max_depth": 2,
+        "classifier__n_estimators": 200,
+        "selector__k": 200,
+        "effective_selected_k": 200
+      },
+      "2": {
+        "classifier__learning_rate": 0.05,
+        "classifier__max_depth": 2,
+        "classifier__n_estimators": 100,
+        "selector__k": 200,
+        "effective_selected_k": 200
+      },
+      "3": {
+        "classifier__learning_rate": 0.05,
+        "classifier__max_depth": 3,
+        "classifier__n_estimators": 200,
+        "selector__k": 200,
+        "effective_selected_k": 200
+      },
+      "4": {
+        "classifier__learning_rate": 0.05,
+        "classifier__max_depth": 2,
+        "classifier__n_estimators": 100,
+        "selector__k": 200,
+        "effective_selected_k": 200
+      },
+      "5": {
+        "classifier__learning_rate": 0.1,
+        "classifier__max_depth": 3,
+        "classifier__n_estimators": 200,
+        "selector__k": 200,
+        "effective_selected_k": 200
+      }
+    },
+    "interface_pass": true
+  },
+  "traditional_regression": {
+    "model": "Gradient Boosting Regressor",
+    "source_phase": "04B",
+    "fold_specific_parameters": {
+      "1": {
+        "feature_selection__k": "all",
+        "regressor__learning_rate": 0.03,
+        "regressor__max_depth": 3,
+        "regressor__n_estimators": 300
+      },
+      "2": {
+        "feature_selection__k": "all",
+        "regressor__learning_rate": 0.1,
+        "regressor__max_depth": 3,
+        "regressor__n_estimators": 300
+      },
+      "3": {
+        "feature_selection__k": 200,
+        "regressor__learning_rate": 0.1,
+        "regressor__max_depth": 3,
+        "regressor__n_estimators": 300
+      },
+      "4": {
+        "feature_selection__k": 100,
+        "regressor__learning_rate": 0.1,
+        "regressor__max_depth": 3,
+        "regressor__n_estimators": 300
+      },
+      "5": {
+        "feature_selection__k": "all",
+        "regressor__learning_rate": 0.03,
+        "regressor__max_depth": 3,
+        "regressor__n_estimators": 300
+      }
+    },
+    "interface_pass": true,
+    "task_interpretation": "bounded difficulty-induced workload proxy regression"
+  },
+  "hdc_classification": {
+    "candidate_family_count": 8,
+    "feature_k": 50,
+    "fold_selected_structures": [
+      {
+        "outer_fold": 1,
+        "selected_structure_json": "{\"centroids_per_class\":3,\"epochs\":1,\"learning_rate\":0.1,\"margin_threshold\":0.0}"
+      },
+      {
+        "outer_fold": 2,
+        "selected_structure_json": "{\"centroids_per_class\":2,\"epochs\":1,\"learning_rate\":0.05,\"margin_threshold\":0.0}"
+      },
+      {
+        "outer_fold": 3,
+        "selected_structure_json": "{\"centroids_per_class\":2,\"epochs\":3,\"learning_rate\":0.05,\"margin_threshold\":0.0}"
+      },
+      {
+        "outer_fold": 4,
+        "selected_structure_json": "{\"centroids_per_class\":2,\"epochs\":3,\"learning_rate\":0.1,\"margin_threshold\":0.1}"
+      },
+      {
+        "outer_fold": 5,
+        "selected_structure_json": "{\"centroids_per_class\":3,\"epochs\":1,\"learning_rate\":0.1,\"margin_threshold\":0.0}"
+      }
+    ],
+    "inner_evidence": {
+      "mean_balanced_accuracy": 0.8509846357723628,
+      "mean_macro_f1": 0.8501939229364242,
+      "mean_model_bytes": 192000.0,
+      "mean_runtime_seconds": 1.6469910600222644,
+      "mean_severe_error_rate": 0.02697893972403772,
+      "pareto": true,
+      "sample_sd_outer_task_mean_macro_f1": 0.012662535484594542
+    },
+    "levels": 51,
+    "phase": "06",
+    "seed_policy": "frozen evaluation seeds; no single seed selected",
+    "selected_fixed_dimension": 5000,
+    "selected_variant": "hybrid",
+    "selected_variant_name": "HDC+OnlineHD Hybrid",
+    "selection_amendment_sha256": "0bfde8c83f05151531d35c8b334e5a9eed10bea0e46c78c74b053e7648eb4d9f",
+    "selection_evidence": "INNER_CV_ONLY",
+    "selection_rule": "INNER_CV_ONLY_POST_FREEZE_AMENDMENT_V2",
+    "single_seed_selected": false,
+    "structure_selection_policy": "fold-local inner-CV selection under the frozen Quick Screen grid",
+    "interface_pass": true
+  },
+  "hdc_regression": {
+    "candidate_family_count": 20,
+    "common_ridge_copies": 0,
+    "feature_k": 50,
+    "fold_parameter_policy": [
+      {
+        "outer_fold": 1,
+        "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+      },
+      {
+        "outer_fold": 2,
+        "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+      },
+      {
+        "outer_fold": 3,
+        "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+      },
+      {
+        "outer_fold": 4,
+        "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+      },
+      {
+        "outer_fold": 5,
+        "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+      }
+    ],
+    "inner_evidence": {
+      "mean_bounded_mae": 0.2897499637189328,
+      "mean_bounded_rmse": null,
+      "mean_model_bytes": 80008.0,
+      "mean_runtime_seconds": 0.5880071660000249,
+      "pareto": true,
+      "rmse_tiebreak_status": "NOT_INVOKED_INCOMPLETE_PHASE05_INNER_RECORDS",
+      "sample_sd_outer_fold_mean_mae": 0.010471550474558913
+    },
+    "levels": 51,
+    "parameter_policy": "fold-local inner-CV temperature or Ridge alpha selection",
+    "phase": "06",
+    "seed_policy": "frozen evaluation seeds; no single seed selected",
+    "selected_fixed_dimension": 10000,
+    "selected_head_family": "COMMON_ENCODER_READOUT_BASELINE",
+    "selected_regression_head": "COMMON_ENCODER_READOUT_BASELINE",
+    "selected_variant": "common_ridge",
+    "selection_amendment_sha256": "0bfde8c83f05151531d35c8b334e5a9eed10bea0e46c78c74b053e7648eb4d9f",
+    "selection_evidence": "INNER_CV_ONLY",
+    "selection_rule": "INNER_CV_ONLY_POST_FREEZE_AMENDMENT_V2",
+    "single_seed_selected": false,
+    "interface_pass": true
+  },
+  "policy": "No model is instantiated, trained, tuned, or reselected during initialization.",
+  "sources": [
+    {
+      "role": "phase04a",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\phase04a_freeze.json",
+      "bytes": 1050,
+      "sha256": "34ea8100d9406f9701750a441aa6537323c28bcdb194cb3fd3645c4f7de4a2e1",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase04a_best_classifier",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\best_classifier.json",
+      "bytes": 271,
+      "sha256": "5c8a1a3ea3a78016f0b44289e854f0f4493a2c1368e73513c94e6b4dd38e3757",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase04a_final_configuration",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\phase04a_final_configuration.json",
+      "bytes": 926,
+      "sha256": "3b3749fcd3ad1201edc3375b9180fbf7e61c6612196a44fa3e661a0c146e1f88",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase04a_fold_params",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+      "bytes": 1027,
+      "sha256": "16bf511354a4320695cb226e585b4ed5803a6c72254fb7f0aefa1729cbc82486",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase04b",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\configs\\phase04b_freeze.json",
+      "bytes": 5127,
+      "sha256": "e2c88b1139a50aab6d47b6477c7bceff74f8443095f9d039ea9af84b715ee790",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase04b_gradient_boosting_configuration",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\configs\\gradient_boosting_configuration.json",
+      "bytes": 1727,
+      "sha256": "8806fb802da1de3fa5c2c5d720121a209837701185fe7b35868c41abc43af717",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase06",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+      "bytes": 5533,
+      "sha256": "cd94acdf0bcb463b5f48a7c84110a23059899b6b5bf156131694827d7d7bde66",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase06_best_classification",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_best_classification_hdc.json",
+      "bytes": 1822,
+      "sha256": "174a99de2d993acdea49fdebc9647b28db4648ada2bea7a33f620f4677f031a4",
+      "read_only_policy": true
+    },
+    {
+      "role": "phase06_best_regression",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_best_regression_hdc.json",
+      "bytes": 2351,
+      "sha256": "acde51709971d57c76eefaffcf1ecd571a4d4c5c36f8d76edf39841c5e7065b8",
+      "read_only_policy": true
+    }
+  ]
+}

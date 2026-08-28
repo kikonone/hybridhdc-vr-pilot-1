@@ -1,0 +1,37 @@
+{
+  "contract": "phase10_final_prediction_library_contract",
+  "status": "FROZEN_NOT_MATERIALIZED",
+  "required_coverage": [
+    "Phase04A traditional classification canonical OOF",
+    "Phase04B traditional regression canonical OOF",
+    "Phase05 basic HDC canonical OOF",
+    "Phase06 variants and frozen best HDC",
+    "Phase07 unimodal canonical OOF",
+    "Phase08 fusion and shortcut canonical OOF",
+    "Phase09 missing-modality canonical OOF",
+    "Phase09 LOSO canonical OOF"
+  ],
+  "seed_policy": "Seed-level HDC predictions are stability/reproducibility evidence and are never independent samples.",
+  "copy_or_merge_during_contract_freeze": false,
+  "index_fields": [
+    "artifact_id",
+    "source_phase",
+    "source_path",
+    "source_sha256",
+    "task",
+    "model_family",
+    "model_name",
+    "protocol",
+    "condition",
+    "seed_status",
+    "canonical_status",
+    "rows",
+    "unique_run_keys",
+    "subjects",
+    "target_column",
+    "prediction_columns",
+    "paper_role",
+    "included",
+    "exclusion_reason"
+  ]
+}

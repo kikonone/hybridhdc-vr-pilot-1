@@ -1,0 +1,84 @@
+{
+  "audit": "phase10_final_synthesis_generation_audit",
+  "contracts_verified": [
+    {
+      "name": "phase10_core_frozen_contract.json",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\configs\\phase10_core_frozen_contract.json",
+      "sha256": "251ce5d0c602762f7e27cfaa6484438ca00a8b629fff3b1508f9c368c28e9540",
+      "status": "CORE_CONTRACT_FROZEN_NOT_SYNTHESIZED"
+    },
+    {
+      "name": "phase10_core_contract_freeze.json",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\configs\\phase10_core_contract_freeze.json",
+      "sha256": "e96a894c1483316360e032474522eef2f55cf9151e3407ad2e035d7743ccbc38",
+      "status": "CORE_CONTRACT_FROZEN_NOT_SYNTHESIZED"
+    },
+    {
+      "name": "phase10_source_of_truth_rules.json",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\configs\\phase10_source_of_truth_rules.json",
+      "sha256": "124b2b08dc06acef9b11a6cb8aff86ad19b260aa9a01c902c9ea0ce374a6b832",
+      "status": "FROZEN"
+    },
+    {
+      "name": "phase10_final_prediction_library_contract.json",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\configs\\phase10_final_prediction_library_contract.json",
+      "sha256": "eca2e02978cff1ed16cde500453c4e16d570114c1c9182d31da31f426aab7649",
+      "status": "FROZEN_NOT_MATERIALIZED"
+    },
+    {
+      "name": "phase10_final_statistics_bundle_contract.json",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\configs\\phase10_final_statistics_bundle_contract.json",
+      "sha256": "94d0a82367bfc3454ad0f7ff132d13849c74ebf34555a8dd50cf8cf6958ba522",
+      "status": "FROZEN_NOT_MATERIALIZED"
+    },
+    {
+      "name": "phase10_final_paper_table_contract.json",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\configs\\phase10_final_paper_table_contract.json",
+      "sha256": "f432b5cd6ef5c371a8da47f513e820b426ee17cb15a715164dbef3f501ad4db8",
+      "status": "FROZEN_NOT_FORMATTED"
+    },
+    {
+      "name": "phase10_final_paper_figure_contract.json",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\configs\\phase10_final_paper_figure_contract.json",
+      "sha256": "682f213d65a9cc88435cab60a37d1cc5d70b6829c847d95d15e7a0dab9ebffb5",
+      "status": "FROZEN_NOT_REDRAWN"
+    },
+    {
+      "name": "phase10_rq_evidence_contract.json",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\configs\\phase10_rq_evidence_contract.json",
+      "sha256": "5e45b1862e0531e9a3e1bccddfb651ad8a92360d89d9f98ed589fcc9d5220211",
+      "status": "FROZEN_RULES_NOT_FILLED"
+    },
+    {
+      "name": "phase10_reproducibility_contract.json",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\configs\\phase10_reproducibility_contract.json",
+      "sha256": "49cffdcfb30eab2d716354188a2bda66d9904fbc5d0ec40b145e845cc088a3fe",
+      "status": "FROZEN_RULES_NOT_ASSEMBLED"
+    },
+    {
+      "name": "phase10_cross_phase_consistency_contract.json",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\configs\\phase10_cross_phase_consistency_contract.json",
+      "sha256": "e32180f7ec23982dc92079ca83bec190d392d58167926945cc898176c7157ff8",
+      "status": "FROZEN"
+    },
+    {
+      "name": "phase10_core_execution_manifest.json",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\configs\\phase10_core_execution_manifest.json",
+      "sha256": "c501d2ac26fd0bddb7e14987475df76613f478949aa85e47a806b1600954d1da",
+      "status": "PASS"
+    }
+  ],
+  "prediction_sources_verified": 1406,
+  "statistical_artifacts_indexed": 35,
+  "paper_tables_verified": 14,
+  "paper_figures_verified": 61,
+  "scientific_source_conflicts": 0,
+  "unresolved_numerical_differences": 0,
+  "model_training_executed": false,
+  "predictions_generated": false,
+  "statistics_recomputed": false,
+  "phase00_09_files_modified": 0,
+  "ui_status": "DEFERRED_BY_USER_NOT_EXECUTED",
+  "onlinehd_replay_status": "OPTIONAL_NOT_EXECUTED",
+  "status": "PASS"
+}

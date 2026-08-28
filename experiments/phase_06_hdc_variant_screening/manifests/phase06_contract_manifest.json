@@ -1,0 +1,52 @@
+{
+  "phase": "06",
+  "manifest": "contract_freeze",
+  "timestamp_utc": "2026-08-20T06:38:03.355963+00:00",
+  "result": "PASS",
+  "artifacts": [
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_hdc_variant_contract.json",
+      "file_size_bytes": 4682,
+      "sha256": "f9d0bd0f304678bbd00e3fdeaaf9b619511a2e54f9d426e21cc130691cca365b",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_variant_search_spaces.json",
+      "file_size_bytes": 1335,
+      "sha256": "19873aaa7a43be667be0a966ceaacdcb50c5e3c1b40f7c2021a1ffcc3202a410",
+      "result": "PASS"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_model_selection_rules.json",
+      "file_size_bytes": 1319,
+      "sha256": "243dcaf9f6c939cb427addcc3675e88dad94126b70a6f1a97be07ea34e71ea55",
+      "result": "PASS"
+    }
+  ],
+  "source_evidence": {
+    "phase05_encoder": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\src\\phase05_hdc_core.py",
+      "file_size_bytes": 12491,
+      "sha256": "4de727e8a3fc9ccc5482baba718a8962bce799178431dc5ae0bc7ffc55ed0bd8",
+      "result": "PASS"
+    },
+    "phase05_preprocessing_runner": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\scripts\\run_vanilla_hdc_quick_screen.py",
+      "file_size_bytes": 26056,
+      "sha256": "1f1ab32915290e03335da8c29d997c135e52e3bb71f30204c427b8c7f81ac391",
+      "result": "PASS"
+    },
+    "phase05_amendment_gate": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\audits\\phase06_phase05_amendment_gate_audit.json",
+      "file_size_bytes": 2553,
+      "sha256": "4918a173ac44eb7f7c9386f8f13bd8a0db0925004b6ecd2ca1620bd399f17e09",
+      "result": "PASS"
+    },
+    "upstream_snapshot": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\audits\\phase06_upstream_pre_quick_screen_snapshot.json",
+      "file_size_bytes": 299674,
+      "sha256": "263c73c6b38bbb1c4223021ff6f539bd08cde1da181dd8bdee46756b7e39d01c",
+      "result": "PASS"
+    }
+  }
+}

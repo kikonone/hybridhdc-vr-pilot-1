@@ -1,0 +1,85 @@
+{
+  "before_label": "pre_repair",
+  "after_label": "after_pre_repair_test",
+  "sections": {
+    "freeze_files": {
+      "added": [],
+      "removed": [],
+      "modified": [
+        {
+          "relative_path": "experiments/phase_06_hdc_variant_screening/audits/phase06_phase05_freeze_interface_audit.json",
+          "before_sha256": "e51fb46d4dd3ded79831c59311cbcaf7357d9cafffdcfb58f9049f38c6b63aa9",
+          "after_sha256": "a58fa71a291536867c9b68d9cc857a1fa5f3f6729d16ae31badac1eb69562bc7"
+        },
+        {
+          "relative_path": "experiments/phase_09_robustness_and_generalization/audits/phase09_contract_freeze_audit.json",
+          "before_sha256": "f7069cbe52d82607c33d23c13add1044b015d47d94faff4e537128e32b92cf9d",
+          "after_sha256": "3cbd48929ba874cf785233ab0aced14fe0dbac21f7e0247d290a9796e51f8cf0"
+        },
+        {
+          "relative_path": "experiments/phase_09_robustness_and_generalization/configs/phase09_contract_freeze.json",
+          "before_sha256": "a9d57f15a8b8c5b16fc019c81f7dba43795725da88d7083347f8a6ff93bd9b11",
+          "after_sha256": "5e7ece210fe18466f77afa3c1d82d171c78672b765944379bc1d8e4216247a0b"
+        }
+      ]
+    },
+    "final_manifests": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "phase04b_scripts": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "phase06_files": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.primary_data": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.frozen_folds": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.predictions": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.canonical_oof": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.statistics": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.notebooks": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    },
+    "scientific_artifacts.frozen_model_configs": {
+      "added": [],
+      "removed": [],
+      "modified": []
+    }
+  },
+  "modified_paths": [
+    "experiments/phase_06_hdc_variant_screening/audits/phase06_phase05_freeze_interface_audit.json",
+    "experiments/phase_09_robustness_and_generalization/audits/phase09_contract_freeze_audit.json",
+    "experiments/phase_09_robustness_and_generalization/configs/phase09_contract_freeze.json"
+  ],
+  "modified_path_count": 3,
+  "primary_checksum_unchanged": true,
+  "frozen_folds_checksum_unchanged": true
+}

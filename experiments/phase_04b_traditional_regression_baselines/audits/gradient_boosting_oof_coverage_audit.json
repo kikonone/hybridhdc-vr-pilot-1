@@ -1,0 +1,17 @@
+{
+  "canonical_rows": 419,
+  "canonical_unique_run_keys": 419,
+  "duplicate_run_keys": 0,
+  "missing_run_keys": 0,
+  "extra_run_keys": 0,
+  "all_seed_rows": 2095,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "bounded_range_pass": true,
+  "overall_pass": true
+}

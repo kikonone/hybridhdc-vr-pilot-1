@@ -1,0 +1,78 @@
+{
+  "phase": "09",
+  "audit": "checkpoint_portability",
+  "status": "PASS",
+  "protocol_status": "NOT_FEASIBLE_DUE_TO_CHECKPOINT_INTERFACE",
+  "interfaces": {
+    "traditional_classification": {
+      "checkpoint_directory": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\results\\checkpoints\\gradient_boosting",
+      "file_count": 42,
+      "loadable_model_files": [],
+      "checks": {
+        "complete_loadable_model_saved": false,
+        "training_fold_preprocessing_state_saved": false,
+        "feature_order_saved": false,
+        "hdc_encoder_state_saved_if_required": true,
+        "full_input_prediction_reproduced_without_refit": false
+      },
+      "portable": false,
+      "reproduction_attempted": false,
+      "reason": "No complete loadable model plus fold-local preprocessing/feature-order state is available; prediction reproduction would require refitting and is prohibited."
+    },
+    "traditional_regression": {
+      "checkpoint_directory": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting",
+      "file_count": 30,
+      "loadable_model_files": [],
+      "checks": {
+        "complete_loadable_model_saved": false,
+        "training_fold_preprocessing_state_saved": false,
+        "feature_order_saved": false,
+        "hdc_encoder_state_saved_if_required": true,
+        "full_input_prediction_reproduced_without_refit": false
+      },
+      "portable": false,
+      "reproduction_attempted": false,
+      "reason": "No complete loadable model plus fold-local preprocessing/feature-order state is available; prediction reproduction would require refitting and is prohibited."
+    },
+    "hdc_classification": {
+      "checkpoint_directory": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\final_confirmation\\hybrid",
+      "file_count": 100,
+      "loadable_model_files": [],
+      "checks": {
+        "complete_loadable_model_saved": false,
+        "training_fold_preprocessing_state_saved": false,
+        "feature_order_saved": false,
+        "hdc_encoder_state_saved_if_required": false,
+        "full_input_prediction_reproduced_without_refit": false
+      },
+      "portable": false,
+      "reproduction_attempted": false,
+      "reason": "No complete loadable model plus fold-local preprocessing/feature-order state is available; prediction reproduction would require refitting and is prohibited."
+    },
+    "hdc_regression": {
+      "checkpoint_directory": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\checkpoints\\final_confirmation\\hybrid",
+      "file_count": 100,
+      "loadable_model_files": [],
+      "checks": {
+        "complete_loadable_model_saved": false,
+        "training_fold_preprocessing_state_saved": false,
+        "feature_order_saved": false,
+        "hdc_encoder_state_saved_if_required": false,
+        "full_input_prediction_reproduced_without_refit": false
+      },
+      "portable": false,
+      "reproduction_attempted": false,
+      "reason": "No complete loadable model plus fold-local preprocessing/feature-order state is available; prediction reproduction would require refitting and is prohibited."
+    }
+  },
+  "neutralization_rule_if_authorized": {
+    "test_only_action": "Set the entire missing modality to NaN.",
+    "imputation": "Use the already-fitted training-fold median imputer only.",
+    "test_statistics": "PROHIBITED",
+    "model_refit": "PROHIBITED",
+    "feature_reselection": "PROHIBITED"
+  },
+  "training_executed": false,
+  "predictions_generated": false,
+  "interpretation": "The audit completed successfully; the optional protocol is not feasible because its required interface gate failed."
+}

@@ -1,0 +1,12 @@
+{
+  "rows": 419,
+  "unique_run_keys": 419,
+  "missing_run_keys": 0,
+  "extra_run_keys": 0,
+  "duplicate_run_keys": 0,
+  "missing_predictions": 0,
+  "fold_coverage": 5,
+  "bounded_range_pass": true,
+  "artifact_audit_pass": true,
+  "overall_pass": true
+}

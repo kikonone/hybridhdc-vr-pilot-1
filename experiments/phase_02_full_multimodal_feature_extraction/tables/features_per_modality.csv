@@ -1,0 +1,11 @@
+modality,feature_group,feature_count,runs_with_features,non_missing_values
+eye_tracking,eye_tracking_features,426,487,198622
+ecg,physiological_features,57,487,27627
+eda,physiological_features,44,475,20835
+emg,physiological_features,84,487,40842
+respiration,physiological_features,48,487,18825
+head_movement,head_movement_features,159,487,76351
+xplane,flight_parameter_features,328,487,155387
+control_input,control_input_features,0,0,0
+performance,performance_features,59,419,24721
+unknown,unknown_features,42,454,19068

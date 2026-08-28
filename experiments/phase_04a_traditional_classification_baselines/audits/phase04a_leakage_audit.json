@@ -1,0 +1,15 @@
+{
+  "frozen_fold_checksum_matched": true,
+  "outer_folds_loaded_not_regenerated": true,
+  "outer_train_test_subject_overlap": 0,
+  "inner_cv": "GroupKFold(n_splits=3), subject-disjoint assertions passed",
+  "imputation_training_only": true,
+  "scaling_training_only": true,
+  "variance_filtering_training_only": true,
+  "feature_selection_training_only": true,
+  "hyperparameter_tuning_outer_training_only": true,
+  "performance_features_absent": true,
+  "identifiers_and_labels_absent_from_features": true,
+  "critical_leakage": false,
+  "status": "PASS"
+}

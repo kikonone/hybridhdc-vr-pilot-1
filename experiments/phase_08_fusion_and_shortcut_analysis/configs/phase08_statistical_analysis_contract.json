@@ -1,0 +1,23 @@
+{
+  "status": "FROZEN",
+  "statistical_unit": "subject_id",
+  "n": 35,
+  "independent_units_prohibited": [
+    "run",
+    "fold",
+    "seed"
+  ],
+  "paired_subject_analysis": true,
+  "bootstrap": {
+    "repetitions": 2000,
+    "seed": 42,
+    "ci": "percentile 95%",
+    "resampling": "paired subjects"
+  },
+  "test": "Wilcoxon signed-rank",
+  "multiplicity": "Holm within each comparison family, model, and task",
+  "effect_size": "rank-biserial",
+  "alpha": 0.05,
+  "save_nonsignificant_results": true,
+  "unregistered_cross_family_tests": "PROHIBITED"
+}

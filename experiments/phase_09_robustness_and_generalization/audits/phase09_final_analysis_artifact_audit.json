@@ -1,0 +1,218 @@
+{
+  "phase": "09",
+  "audit": "final_analysis_artifact",
+  "status": "PASS",
+  "audited_at_utc": "2026-08-21T05:17:04.163340+00:00",
+  "required_count": 41,
+  "present_count": 41,
+  "artifacts": [
+    {
+      "path": "results/oof/phase09_missing_modality_canonical_classification_oof.csv",
+      "bytes": 1739317,
+      "sha256": "00674841f9847dfcb7d19539b465c1b6e525ab3d5fad24313b2fa74d5c766d93"
+    },
+    {
+      "path": "results/oof/phase09_missing_modality_canonical_regression_oof.csv",
+      "bytes": 1532144,
+      "sha256": "211ba22410c090b1b88b56554aa1a2e74a468708e301c7657847740520f47d1e"
+    },
+    {
+      "path": "results/oof/phase09_loso_canonical_classification_oof.csv",
+      "bytes": 311421,
+      "sha256": "31251ddf66acb0ce2aa0893f0c511ae52e67a0a5d0a6c4e2d82b084d643792a2"
+    },
+    {
+      "path": "results/oof/phase09_loso_canonical_regression_oof.csv",
+      "bytes": 269489,
+      "sha256": "67941b4e436855f79b9419a0c9b6c775dc094b1bd3a3d801bea9720bcaadc9d8"
+    },
+    {
+      "path": "results/oof/phase09_canonical_oof_index.csv",
+      "bytes": 3114983,
+      "sha256": "4384ca1f167eb4aa7a2d37d101b3ee18b9145b81226f7521527d56de03aef170"
+    },
+    {
+      "path": "results/oof/phase09_full_primary_reference_index.csv",
+      "bytes": 939325,
+      "sha256": "cf987ac83ccec13407345233e3335d8dbeb662935739c6654bdd032e7d2b5063"
+    },
+    {
+      "path": "results/summaries/phase09_missing_modality_classification_metrics.csv",
+      "bytes": 3775,
+      "sha256": "53ff2ad7da3d955e9702a277d28e76b1550d3532b1ad39ee51c4cce32102853f"
+    },
+    {
+      "path": "results/summaries/phase09_missing_modality_regression_metrics.csv",
+      "bytes": 3784,
+      "sha256": "a553d22b0c890dbed9979b51adefe57fb4819a33fdc37c6ea6250a07fbb8e5ab"
+    },
+    {
+      "path": "results/summaries/phase09_loso_classification_metrics.csv",
+      "bytes": 750,
+      "sha256": "de74210f0af10cb41d7fa6af707248f0c26859cee4861cfe5d8bac5b5e8d2f14"
+    },
+    {
+      "path": "results/summaries/phase09_loso_regression_metrics.csv",
+      "bytes": 766,
+      "sha256": "de66aafe88e5ff0530f2604dd594be53fc572f3be630bc6707eea9dfd7bc075c"
+    },
+    {
+      "path": "results/summaries/phase09_seed_stability.csv",
+      "bytes": 2704,
+      "sha256": "f1b7ed3485154057580228fbb2e32ae737cb44f0f4d44012c48b8b9c02fdf38d"
+    },
+    {
+      "path": "results/summaries/phase09_missing_modality_robustness.csv",
+      "bytes": 7197,
+      "sha256": "1b418d247dcb51b6d24e3f1f10f93169fdf62f1ffb193d023b4d236dbb89feff"
+    },
+    {
+      "path": "results/summaries/phase09_missing_modality_deltas.csv",
+      "bytes": 84572,
+      "sha256": "0ec5aaae39c0813f404e0d23c31e2cc5e678e6645b29d4000ebedaea7ffb9d26"
+    },
+    {
+      "path": "results/summaries/phase09_model_robustness_comparison.csv",
+      "bytes": 1824,
+      "sha256": "eac62c4983ec352472d8bd2569f923318c98bb0e439a6ab10a88155ae47181bb"
+    },
+    {
+      "path": "results/summaries/phase09_loso_subject_metrics.csv",
+      "bytes": 26492,
+      "sha256": "a0eb97bb55f037fd7cc32050f00419c4f05e0686fd661a74b8bc41efec52a3c4"
+    },
+    {
+      "path": "results/summaries/phase09_loso_subject_stability.csv",
+      "bytes": 1387,
+      "sha256": "488ff4a9f5fed9de10d33230887e777af60ab8eb58e0d6a2837503a56822fe59"
+    },
+    {
+      "path": "results/summaries/phase09_loso_difficulty_level_errors.csv",
+      "bytes": 1495,
+      "sha256": "cd1c7ec34ef1a3b2eae025603908c7a242287ab9e3385bfe1824462bbe748e24"
+    },
+    {
+      "path": "results/summaries/phase09_loso_seed_variability.csv",
+      "bytes": 9785,
+      "sha256": "8be9415789a4a79ff321eda10bdfc7d429f0453e92e9798920ab8aaf2258b99d"
+    },
+    {
+      "path": "results/summaries/phase09_pairwise_statistics.csv",
+      "bytes": 6240,
+      "sha256": "2028bbaf3466eca225f09a0fb354046debb328db1b62f18955d3d013e5385d6c"
+    },
+    {
+      "path": "results/summaries/phase09_bootstrap_confidence_intervals.csv",
+      "bytes": 4109,
+      "sha256": "5271631b8cf83f9bf17dec31025dc4daa7618ef37be679b410280ae3349549e5"
+    },
+    {
+      "path": "results/summaries/phase09_flight_dependence_evidence.csv",
+      "bytes": 2683,
+      "sha256": "ab93774ba1e803955a6255978101d4c831de12c19d5bfc03b8956a2578830f94"
+    },
+    {
+      "path": "reports/phase09_missing_modality_report.md",
+      "bytes": 1376,
+      "sha256": "79728ee3b101820679c2b14ad9d56cd2e17c3e0d7560ea61bdce638cca991165"
+    },
+    {
+      "path": "reports/phase09_loso_stability_report.md",
+      "bytes": 792,
+      "sha256": "5432749445d2336a57152d2196218f505e2c9d90e26c6a5a253ea996f0afa412"
+    },
+    {
+      "path": "reports/phase09_statistical_appendix.md",
+      "bytes": 1135,
+      "sha256": "ff34d9f1e9d5aacdad854ffc95fe5494f9a5955baa93c221f7f7c481f1fe9932"
+    },
+    {
+      "path": "reports/phase09_generalization_boundaries.md",
+      "bytes": 789,
+      "sha256": "5ebff7e1100c554ce390d5665e4a6cafea661c4b0ab693c0f5079039a98e24a9"
+    },
+    {
+      "path": "reports/phase09_final_analysis.md",
+      "bytes": 4425,
+      "sha256": "0c2238d0911cd271e93459b873c6a74d1308364c8f794998b7b0dbe433fc0988"
+    },
+    {
+      "path": "reports/analysis-output/analysis-report.md",
+      "bytes": 2863,
+      "sha256": "bbf0dfc96302f50035b108d38c6f83bb61ba6e2197e372812a41667b498bd457"
+    },
+    {
+      "path": "reports/analysis-output/stats-appendix.md",
+      "bytes": 1128,
+      "sha256": "835d5958ba609947de90add9e40af5784eff9ec3276cdbdca662287fed33ab84"
+    },
+    {
+      "path": "reports/analysis-output/figure-catalog.md",
+      "bytes": 2525,
+      "sha256": "3731e7f2146215d401d898e320c1f7dfe928052e0a31dfca70e4815500e75632"
+    },
+    {
+      "path": "figures/phase09_missing_modality_classification_curve.pdf",
+      "bytes": 17809,
+      "sha256": "f6c7d81ab1ae967c29f6da8f7d9405b68ba0d07daadfbe24cf253ce3cab18637"
+    },
+    {
+      "path": "figures/phase09_missing_modality_classification_curve.png",
+      "bytes": 485526,
+      "sha256": "cab7d8af3ea952dab96ae9d073fdde164673fc14e068a31b7e149b4a2f2584c6"
+    },
+    {
+      "path": "figures/phase09_missing_modality_regression_curve.pdf",
+      "bytes": 17676,
+      "sha256": "8da13315ab899d560740eeb58588ffd32f34abb29808ca4aa1c55ebeeaa9175b"
+    },
+    {
+      "path": "figures/phase09_missing_modality_regression_curve.png",
+      "bytes": 495299,
+      "sha256": "625d0ca1c29a13974e59c6c876294a1c4d6b316e1a48000ecb75ff65633f03f9"
+    },
+    {
+      "path": "figures/phase09_missing_modality_model_comparison.pdf",
+      "bytes": 19733,
+      "sha256": "46262e1ad26765a739eb8ec1583c022c266c1acc13bdccf86370d4cecf35b767"
+    },
+    {
+      "path": "figures/phase09_missing_modality_model_comparison.png",
+      "bytes": 638906,
+      "sha256": "1a586b373f243d094109a2231c073c83f4b0769a261a7774045845b03ea4c8df"
+    },
+    {
+      "path": "figures/phase09_loso_subject_classification.pdf",
+      "bytes": 18463,
+      "sha256": "6da312f26b1c9daddd5b47bf8400cc1caa529ba3f121626989e67c1345eda57d"
+    },
+    {
+      "path": "figures/phase09_loso_subject_classification.png",
+      "bytes": 483750,
+      "sha256": "7a16ae4eb2b83141cf891da3be43bf797245614c4650b192f0c9cb7307bb16bc"
+    },
+    {
+      "path": "figures/phase09_loso_subject_regression.pdf",
+      "bytes": 18921,
+      "sha256": "fc67e87fff40a49b3436ab8f51007cb8ba77869c685875b072b7412210555f46"
+    },
+    {
+      "path": "figures/phase09_loso_subject_regression.png",
+      "bytes": 623968,
+      "sha256": "1f63c5a7650f2bc06e72970f10f7b6959234cec89e75297270c5e468442a8f49"
+    },
+    {
+      "path": "figures/phase09_loso_stability_distribution.pdf",
+      "bytes": 15851,
+      "sha256": "6d560e51ed36289626120ce6eb02269d0176907633bb88fe191146ef762150a9"
+    },
+    {
+      "path": "figures/phase09_loso_stability_distribution.png",
+      "bytes": 192145,
+      "sha256": "33b3448edc27f521be2b266ed19d3e3c504953f938da91a7d70004417885ead2"
+    }
+  ],
+  "figure_pdf_png_pairs": 6,
+  "pubfig_available": false,
+  "fallback": "matplotlib; PDF vector plus PNG 600 DPI"
+}

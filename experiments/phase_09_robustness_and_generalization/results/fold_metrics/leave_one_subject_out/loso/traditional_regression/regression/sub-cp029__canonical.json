@@ -1,0 +1,18 @@
+{
+  "phase": "09",
+  "run_identifier": "loso__sub-cp029__traditional_regression__canonical",
+  "task": "regression",
+  "regression_interpretation": "bounded difficulty-induced workload proxy regression",
+  "metrics": {
+    "raw_mae": 0.026175505238242452,
+    "bounded_mae": 0.0105001999082354,
+    "bounded_rmse": 0.02016307296067019,
+    "bounded_r2": 0.9996747603910262,
+    "bounded_spearman": 0.9802316524815399,
+    "clipping_count": 5,
+    "clipping_rate": 0.4166666666666667,
+    "rounded_regression_macro_f1": 1.0,
+    "adjacent_accuracy": 1.0,
+    "severe_error_rate": 0.0
+  }
+}

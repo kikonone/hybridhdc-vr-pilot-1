@@ -1,0 +1,12 @@
+{
+  "phase": "06",
+  "variant": "multicentroid",
+  "outer_fold": 5,
+  "outer_train_test_subject_overlap": 0,
+  "inner_split_subject_overlap": 0,
+  "temperature_inner_cv_only": true,
+  "outer_test_used_for_tuning": false,
+  "outer_test_features_loaded_after_inner_selection": true,
+  "outer_test_labels_loaded_after_predictions": true,
+  "result": "PASS"
+}

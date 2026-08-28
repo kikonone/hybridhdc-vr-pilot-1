@@ -1,0 +1,166 @@
+{
+  "phase": "08",
+  "phase_name": "Fusion and Shortcut Analysis",
+  "status": "CONTRACT_FROZEN_NOT_TRAINED",
+  "frozen_at_utc": "2026-08-20T19:34:27.670901+00:00",
+  "scope": "CONTRACT_FREEZE_ONLY_NO_MODELING",
+  "evidence_roles": {
+    "PRIMARY_MAIN_EVIDENCE": {
+      "dataset": "primary_without_performance",
+      "feature_count": 1176,
+      "paper_role": "ONLY_MAIN_RESULT"
+    },
+    "AUXILIARY_UPPER_BOUND_AND_SHORTCUT_ANALYSIS": {
+      "dataset": "auxiliary_with_performance",
+      "feature_count": 1235
+    },
+    "AUXILIARY_PERFORMANCE_ONLY_SHORTCUT_ANALYSIS": {
+      "dataset": "performance_only",
+      "feature_count": 59
+    }
+  },
+  "fusion_conditions": {
+    "FUSION_PE": {
+      "groups": [
+        "physiological_features",
+        "eye_tracking_features"
+      ],
+      "feature_count": 649,
+      "execution": "NEW_TRAINING_AUTHORIZED_AFTER_FREEZE"
+    },
+    "FUSION_PEH": {
+      "groups": [
+        "physiological_features",
+        "eye_tracking_features",
+        "head_movement_features"
+      ],
+      "feature_count": 808,
+      "execution": "NEW_TRAINING_AUTHORIZED_AFTER_FREEZE"
+    },
+    "FUSION_PEHF": {
+      "groups": [
+        "physiological_features",
+        "eye_tracking_features",
+        "head_movement_features",
+        "flight_parameter_features"
+      ],
+      "feature_count": 1134,
+      "execution": "NEW_TRAINING_AUTHORIZED_AFTER_FREEZE"
+    },
+    "FULL_PRIMARY_REFERENCE": {
+      "feature_count": 1176,
+      "execution": "READ_ONLY_PHASE06_AND_PHASE04_OOF_NO_RETRAINING"
+    },
+    "BEST_SINGLE_FLIGHT_REFERENCE": {
+      "feature_count": 326,
+      "execution": "READ_ONLY_PHASE07_HDC_OOF_NO_RETRAINING"
+    }
+  },
+  "shortcut_conditions": {
+    "WITHOUT_PERFORMANCE_PRIMARY_REFERENCE": {
+      "feature_count": 1176,
+      "execution": "READ_ONLY_UPSTREAM_FROZEN_OOF"
+    },
+    "WITH_PERFORMANCE_AUXILIARY": {
+      "feature_count": 1235,
+      "execution": "NEW_TRAINING_AUTHORIZED_AFTER_FREEZE"
+    },
+    "PERFORMANCE_ONLY_AUXILIARY": {
+      "feature_count": 59,
+      "execution": "NEW_TRAINING_AUTHORIZED_AFTER_FREEZE"
+    }
+  },
+  "flight_sensitivity": {
+    "FLIGHT_FULL": {
+      "status": "FROZEN_HDC_REFERENCE",
+      "feature_count": 326,
+      "feature_set_sha256": "8f44ff3924c5c5304069be5a2575cc223d9e1cc834aa27f301876ce6389b17d8",
+      "ambiguous_features_retained": 3
+    },
+    "FLIGHT_BEHAVIORAL_ONLY": {
+      "status": "AUTHORIZED_UNIQUE_SENSITIVITY_CONDITION",
+      "feature_count": 323,
+      "feature_set_sha256": "dea0483dec41903f3e1bdf30faf7918833c8f985ff134b0e81fa30ce86a8fdb9",
+      "alias_of": null
+    },
+    "FLIGHT_TASK_SETTING_ONLY": {
+      "status": "NOT_FEASIBLE_EMPTY_PROVENANCE_GROUP",
+      "feature_count": 0,
+      "feature_set_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "alias_of": null
+    }
+  },
+  "core_fusion": "EARLY_FUSION",
+  "late_fusion": "OPTIONAL_NOT_AUTHORIZED",
+  "hdc_modality_aware_binding": "OPTIONAL_NOT_AUTHORIZED",
+  "validation": {
+    "outer_folds": "frozen subject-wise folds",
+    "outer_training_fit_only": true,
+    "outer_test_transform_predict_only": true,
+    "retain_rows": 419,
+    "train_test_subject_overlap": 0,
+    "fold_regeneration": "PROHIBITED",
+    "global_preprocessing": "PROHIBITED",
+    "outer_test_tuning": "PROHIBITED"
+  },
+  "oof_aggregation": {
+    "status": "FROZEN",
+    "HDC_classification": {
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "rule": "mean five seed class scores then argmax",
+      "tie_break": "smaller class",
+      "metrics": "recompute from aggregated predictions",
+      "best_seed_selection": "PROHIBITED"
+    },
+    "HDC_regression": {
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "rule": "mean five prediction_raw values then clip to [1.0, 4.0]",
+      "metrics": "recompute from aggregated predictions",
+      "best_seed_selection": "PROHIBITED"
+    },
+    "traditional": {
+      "canonical_predictions_per_condition_task_run_key": 1,
+      "seed_repetitions": "PROHIBITED"
+    },
+    "coverage": {
+      "rows": 419,
+      "unique_run_key": 419,
+      "outer_folds": 5
+    }
+  },
+  "comparison_families": {
+    "status": "FROZEN_SEPARATE_FAMILIES",
+    "A_EARLY_FUSION": [
+      "BEST_SINGLE_FLIGHT_REFERENCE",
+      "FUSION_PE",
+      "FUSION_PEH",
+      "FUSION_PEHF",
+      "FULL_PRIMARY_REFERENCE"
+    ],
+    "B_PERFORMANCE_SHORTCUT": [
+      "WITHOUT_PERFORMANCE_PRIMARY_REFERENCE",
+      "WITH_PERFORMANCE_AUXILIARY",
+      "PERFORMANCE_ONLY_AUXILIARY"
+    ],
+    "C_FLIGHT_PROVENANCE_SENSITIVITY": [
+      "FLIGHT_FULL",
+      "FLIGHT_BEHAVIORAL_ONLY",
+      "FLIGHT_TASK_SETTING_ONLY"
+    ],
+    "single_cross_family_ranking": "PROHIBITED"
+  },
+  "training_executed": false,
+  "outer_test_predictions_generated": false
+}

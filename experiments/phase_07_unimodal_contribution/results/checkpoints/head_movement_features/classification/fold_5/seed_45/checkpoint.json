@@ -1,0 +1,197 @@
+{
+  "phase": "07",
+  "stage": "unimodal_batch_execution",
+  "timestamp_utc": "2026-08-20T18:19:59.354073+00:00",
+  "run_id": "head_movement_features|classification|fold=5|seed=45",
+  "modality": "head_movement_features",
+  "task": "classification",
+  "outer_fold": 5,
+  "seed": 45,
+  "train_rows": 336,
+  "test_rows": 83,
+  "train_subjects": 28,
+  "test_subjects": 7,
+  "subject_overlap": [],
+  "subject_overlap_count": 0,
+  "primary_sha256": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44",
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "requested_feature_k": 50,
+  "post_variance_feature_count": 141,
+  "effective_feature_k": 50,
+  "selected_feature_names": [
+    "head_lslxp11xpcplt_pilot_head_pitch_deg_first_difference_iqr",
+    "head_lslxp11xpcplt_pilot_head_pitch_deg_first_difference_kurtosis",
+    "head_lslxp11xpcplt_pilot_head_pitch_deg_first_difference_mean",
+    "head_lslxp11xpcplt_pilot_head_pitch_deg_first_difference_rms",
+    "head_lslxp11xpcplt_pilot_head_pitch_deg_first_difference_std",
+    "head_lslxp11xpcplt_pilot_head_pitch_deg_iqr",
+    "head_lslxp11xpcplt_pilot_head_pitch_deg_kurtosis",
+    "head_lslxp11xpcplt_pilot_head_pitch_deg_mean",
+    "head_lslxp11xpcplt_pilot_head_pitch_deg_median",
+    "head_lslxp11xpcplt_pilot_head_pitch_deg_rms",
+    "head_lslxp11xpcplt_pilot_head_pitch_deg_skew",
+    "head_lslxp11xpcplt_pilot_head_pitch_deg_slope",
+    "head_lslxp11xpcplt_pilot_head_pitch_deg_std",
+    "head_lslxp11xpcplt_pilot_head_position_f_m_first_difference_iqr",
+    "head_lslxp11xpcplt_pilot_head_position_f_m_first_difference_kurtosis",
+    "head_lslxp11xpcplt_pilot_head_position_f_m_first_difference_skew",
+    "head_lslxp11xpcplt_pilot_head_position_f_m_iqr",
+    "head_lslxp11xpcplt_pilot_head_position_f_m_kurtosis",
+    "head_lslxp11xpcplt_pilot_head_position_f_m_skew",
+    "head_lslxp11xpcplt_pilot_head_position_h_m_first_difference_iqr",
+    "head_lslxp11xpcplt_pilot_head_position_h_m_first_difference_max",
+    "head_lslxp11xpcplt_pilot_head_position_h_m_first_difference_rms",
+    "head_lslxp11xpcplt_pilot_head_position_h_m_first_difference_skew",
+    "head_lslxp11xpcplt_pilot_head_position_h_m_first_difference_std",
+    "head_lslxp11xpcplt_pilot_head_position_h_m_iqr",
+    "head_lslxp11xpcplt_pilot_head_position_h_m_max",
+    "head_lslxp11xpcplt_pilot_head_position_h_m_min",
+    "head_lslxp11xpcplt_pilot_head_position_h_m_range",
+    "head_lslxp11xpcplt_pilot_head_position_h_m_std",
+    "head_lslxp11xpcplt_pilot_head_position_v_m_first_difference_iqr",
+    "head_lslxp11xpcplt_pilot_head_position_v_m_first_difference_kurtosis",
+    "head_lslxp11xpcplt_pilot_head_position_v_m_first_difference_min",
+    "head_lslxp11xpcplt_pilot_head_position_v_m_first_difference_range",
+    "head_lslxp11xpcplt_pilot_head_position_v_m_first_difference_skew",
+    "head_lslxp11xpcplt_pilot_head_position_v_m_first_difference_slope",
+    "head_lslxp11xpcplt_pilot_head_position_v_m_iqr",
+    "head_lslxp11xpcplt_pilot_head_position_v_m_kurtosis",
+    "head_lslxp11xpcplt_pilot_head_position_v_m_skew",
+    "head_lslxp11xpcplt_pilot_head_roll_deg_first_difference_iqr",
+    "head_lslxp11xpcplt_pilot_head_roll_deg_first_difference_slope",
+    "head_lslxp11xpcplt_pilot_head_yaw_deg_first_difference_iqr",
+    "head_lslxp11xpcplt_pilot_head_yaw_deg_first_difference_min",
+    "head_lslxp11xpcplt_pilot_head_yaw_deg_first_difference_range",
+    "head_lslxp11xpcplt_pilot_head_yaw_deg_first_difference_skew",
+    "head_lslxp11xpcplt_pilot_head_yaw_deg_kurtosis",
+    "head_lslxp11xpcplt_pilot_head_yaw_deg_max",
+    "head_lslxp11xpcplt_pilot_head_yaw_deg_min",
+    "head_lslxp11xpcplt_pilot_head_yaw_deg_range",
+    "head_lslxp11xpcplt_sample_count",
+    "head_lslxp11xpcplt_sampling_rate_estimate"
+  ],
+  "missing_indicator_feature_names": [],
+  "imputer_input_feature_count": 159,
+  "imputer_output_feature_count": 159,
+  "preprocessing_state_bytes": 5928,
+  "fit_scope": "outer-training only",
+  "encoding": {
+    "encoding_seconds": 0.6257254999945872,
+    "quantizer_state_sha256": "3ec240901356e047745aa842031c1e2c7c61c78d03f496cff251319f5acaae44",
+    "codebook_hashes": {
+      "identity_codebook_sha256": "e3771f94a93808887bc23c547f2c1823a080e5d22e3acfe2fde7b4906c54be88",
+      "level_codebook_sha256": "7b83d908b5e08aa7783907e65f55f86251e3aad915e9a4a6ccd07b139a2fe811",
+      "tie_vector_sha256": "f59f39d350fa5010c304eedb9e025fd6967b177ba7b8366b33bb988d257d8f80"
+    },
+    "work_dimension": 10000,
+    "classification_dimension_prefix": 5000,
+    "regression_dimension": 10000
+  },
+  "prediction_row_count": 83,
+  "unique_test_run_key_count": 83,
+  "outer_test_used_for_fitting_or_selection": false,
+  "inner_cv_executed": false,
+  "model_reselection_performed": false,
+  "other_hdc_variants_executed": false,
+  "leakage_audit_result": "PASS",
+  "model": "HDC+OnlineHD Hybrid",
+  "selected_variant": "hybrid",
+  "dimension": 5000,
+  "levels": 51,
+  "hybrid_structure": {
+    "centroids_per_class": 3,
+    "epochs": 1,
+    "learning_rate": 0.1,
+    "margin_threshold": 0.0
+  },
+  "classification_metrics": {
+    "macro_f1": 0.25582606983816664,
+    "balanced_accuracy": 0.3059523809523809,
+    "accuracy": 0.30120481927710846,
+    "severe_error_rate": 0.30120481927710846,
+    "per_class_recall": {
+      "0": 0.3333333333333333,
+      "1": 0.047619047619047616,
+      "2": 0.7,
+      "3": 0.14285714285714285
+    },
+    "confusion_matrix": [
+      [
+        7,
+        1,
+        8,
+        5
+      ],
+      [
+        8,
+        1,
+        11,
+        1
+      ],
+      [
+        4,
+        1,
+        14,
+        1
+      ],
+      [
+        4,
+        3,
+        11,
+        3
+      ]
+    ]
+  },
+  "model_info": {
+    "initialization": {
+      "class_counts": {
+        "0": 83,
+        "1": 85,
+        "2": 84,
+        "3": 84
+      },
+      "cluster_counts": {
+        "0": [
+          26,
+          23,
+          34
+        ],
+        "1": [
+          25,
+          40,
+          20
+        ],
+        "2": [
+          21,
+          44,
+          19
+        ],
+        "3": [
+          14,
+          38,
+          32
+        ]
+      },
+      "centroids_per_class": 3
+    },
+    "updates": 226,
+    "epochs": 1
+  },
+  "efficiency": {
+    "preprocessing_seconds": 0.006766400008928031,
+    "encoding_seconds": 0.6257254999945872,
+    "training_seconds": 0.47948780001024716,
+    "inference_seconds": 0.0024581000034231693,
+    "model_bytes": 240000,
+    "preprocessing_state_bytes": 5928
+  },
+  "artifact_hashes": {
+    "predictions": "ddb56c67d1d8570607054c701fcbb3f9edd0b98b9a9f6109e7c7f849830e0d6b",
+    "metrics": "5fe172f8d21f85ebf62718c6d4426d706a78c155dfb23a46c82925b1ff68176b",
+    "efficiency": "694d2263287fb93f2569410d380d845bbcfc92688797036ac927325767001ed5"
+  },
+  "checkpoint_integrity": "PASS",
+  "status": "COMPLETE",
+  "result": "PASS",
+  "checkpoint_payload_sha256": "b33a191d551bbc1e4217666d4aee904397d7f39bf2177dc63727b921a392b990"
+}

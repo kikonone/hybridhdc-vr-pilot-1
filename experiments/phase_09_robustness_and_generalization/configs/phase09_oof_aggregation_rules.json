@@ -1,0 +1,28 @@
+{
+  "phase": "09",
+  "status": "FROZEN",
+  "regression_range": [
+    1.0,
+    4.0
+  ],
+  "regression_task_name": "bounded difficulty-induced workload proxy regression",
+  "missing_modality": {
+    "outer_cv": "Frozen Phase 03 five-fold subject-wise CV",
+    "coverage": "419 unique run_key per condition/task/model"
+  },
+  "loso": {
+    "coverage": "Each subject predicted only by its LOSO split; 419 unique run_key per task/model"
+  },
+  "hdc_classification": {
+    "seeds_per_run_key": 5,
+    "aggregation": "Aggregate frozen class scores across seeds, then apply deterministic argmax/tie-breaking; never average class labels."
+  },
+  "hdc_regression": {
+    "seeds_per_run_key": 5,
+    "aggregation": "Average prediction_raw across seeds, then clip once to [1.0, 4.0] as prediction_bounded."
+  },
+  "traditional": {
+    "predictions_per_run_key": 1,
+    "aggregation": "Canonical prediction only."
+  }
+}

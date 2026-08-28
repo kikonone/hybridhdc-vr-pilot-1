@@ -1,0 +1,17 @@
+{
+  "audit": "phase10_prediction_library_contract_audit",
+  "records": 1406,
+  "missing": [],
+  "hash_mismatches": [],
+  "status": "PASS",
+  "coverage_families": [
+    "Phase04A traditional classification canonical OOF",
+    "Phase04B traditional regression canonical OOF",
+    "Phase05 basic HDC canonical OOF",
+    "Phase06 variants and frozen best HDC",
+    "Phase07 unimodal canonical OOF",
+    "Phase08 fusion and shortcut canonical OOF",
+    "Phase09 missing-modality canonical OOF",
+    "Phase09 LOSO canonical OOF"
+  ]
+}

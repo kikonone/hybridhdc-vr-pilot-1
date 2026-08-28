@@ -1,0 +1,29 @@
+{
+  "phase": "06",
+  "audit": "model_selection",
+  "timestamp_utc": "2026-08-20T17:08:26.131765+00:00",
+  "status": "MODEL_SELECTION_BLOCKED",
+  "selection_rule": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_model_selection_rules.json",
+  "selection_rule_sha256": "243dcaf9f6c939cb427addcc3675e88dad94126b70a6f1a97be07ea34e71ea55",
+  "rule_contract_version": "phase06_model_selection_rules_v1",
+  "rule_scope": "Each outer fold and new variant independently; outer-training inner-CV only.",
+  "rule_classification_only": true,
+  "rule_regression_heads_executed": false,
+  "missing_fields": [
+    "final four-variant outer-OOF classification candidate-family ranking scope",
+    "final classification tie-breaking across variant × dimension families using five-seed aggregates",
+    "final regression candidate ranking including similarity heads and COMMON_ENCODER_READOUT_BASELINE",
+    "final regression tie-breaking across five-seed aggregates",
+    "rule for incorporating efficiency/Pareto status into final selection"
+  ],
+  "contradictions_with_requested_final_selection": [
+    "classification_only=true",
+    "regression_heads_executed=false",
+    "scope is inner-CV Quick Screen per outer fold/new variant"
+  ],
+  "candidate_count": 36,
+  "best_classification_hdc_saved": false,
+  "best_regression_hdc_saved": false,
+  "outer_test_scores_used_to_invent_rules": false,
+  "result": "FAIL"
+}

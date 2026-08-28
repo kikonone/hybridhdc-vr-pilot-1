@@ -1,0 +1,45 @@
+{
+  "folds": {
+    "1": {
+      "max_iter_used": 20000,
+      "converged_before_cap": true,
+      "reused_after_audit": true,
+      "metrics_recomputed_match": true,
+      "selected_k": 200,
+      "selected_alpha": 0.01,
+      "selected_l1_ratio": 0.9,
+      "n_iter": 2270
+    },
+    "2": {
+      "max_iter_used": 20000,
+      "converged_before_cap": true,
+      "reused_after_audit": true,
+      "metrics_recomputed_match": true,
+      "selected_k": "all",
+      "selected_alpha": 0.01,
+      "selected_l1_ratio": 0.9,
+      "n_iter": 3395
+    },
+    "3": {
+      "checkpoint_reused": false,
+      "max_iter_used": 100000,
+      "converged_before_cap": true
+    },
+    "4": {
+      "checkpoint_reused": false,
+      "max_iter_used": 100000,
+      "converged_before_cap": true
+    },
+    "5": {
+      "checkpoint_reused": false,
+      "max_iter_used": 100000,
+      "converged_before_cap": true
+    }
+  },
+  "reused_folds": [
+    1,
+    2
+  ],
+  "overall_pass": true,
+  "utc_timestamp": "2026-08-19T17:32:05.453528+00:00"
+}

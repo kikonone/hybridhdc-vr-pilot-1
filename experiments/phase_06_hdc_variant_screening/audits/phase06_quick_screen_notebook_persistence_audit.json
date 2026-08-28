@@ -1,0 +1,23 @@
+{
+  "phase": "06",
+  "audit": "quick_screen_notebook_persistence",
+  "timestamp_utc": "2026-08-20T07:06:53.336489+00:00",
+  "result": "PASS",
+  "checks": {
+    "notebook_parseable": true,
+    "initialization_cell_count_preserved": true,
+    "initialization_sources_preserved": true,
+    "quick_screen_marker_present": true,
+    "quick_screen_code_cells_executed": true,
+    "quick_screen_outputs_persisted": true,
+    "no_error_outputs": true,
+    "outer_test_feature_access_no": true,
+    "final_confirmation_no": true,
+    "quick_screen_complete": true
+  },
+  "baseline_cells": 13,
+  "final_cells": 18,
+  "notebook_path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\Phase_06_HDC_Variant_Screening.ipynb",
+  "file_size_bytes": 38131,
+  "notebook_sha256": "0fb5e50492e64c5079207dbfe617558c00e6f58bbe32d5ffc2f3dd3077a0b4a0"
+}

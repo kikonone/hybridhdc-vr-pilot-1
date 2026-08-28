@@ -1,0 +1,106 @@
+{
+  "report": "phase10_full_engineering_verification",
+  "result": {
+    "verification_mode": "full",
+    "status": "PASS",
+    "checks": {
+      "all_contract_json_parsed": true,
+      "all_pre_notebook_contract_audits_pass": true,
+      "selected_prediction_count_1406": true,
+      "selected_statistics_include_descriptive": true,
+      "minimum_tables_14": true,
+      "minimum_figures_13": true,
+      "all_selected_sources_exist": true,
+      "all_selected_source_hashes_match": true,
+      "scientific_source_conflicts_zero": true,
+      "unresolved_numerical_differences_zero": true,
+      "six_nonscientific_metadata_differences_recorded": true,
+      "historical_immutability_fail_retained": true,
+      "all_work_operations_allowed": true,
+      "no_forbidden_work_operations": true,
+      "training_operations_zero": true,
+      "prediction_operations_zero": true,
+      "statistics_recomputation_operations_zero": true,
+      "ui_build_operations_zero": true,
+      "all_work_items_authorized_not_executed": true,
+      "ui_deferred_and_files_absent": true,
+      "onlinehd_optional_not_executed": true,
+      "notebook_contract_persistence_pass": true,
+      "phase00_09_files_modified_zero": true,
+      "terminal_status_frozen_not_synthesized": true,
+      "phase10_python_syntax_preverified": true,
+      "initialization_notebook_persistence_pass": true,
+      "cross_phase_preflight_pass": true
+    },
+    "source_validation": {
+      "prediction": {
+        "missing": [],
+        "mismatches": []
+      },
+      "statistics": {
+        "missing": [],
+        "mismatches": []
+      },
+      "tables": {
+        "missing": [],
+        "mismatches": []
+      },
+      "figures": {
+        "missing": [],
+        "mismatches": []
+      }
+    },
+    "operations": {
+      "all": [
+        "VERIFY",
+        "INDEX",
+        "COPY_WITH_HASH",
+        "INDEX",
+        "FORMAT_FROM_FROZEN_VALUES",
+        "FORMAT_FROM_FROZEN_VALUES",
+        "LINK_SOURCE",
+        "VERIFY",
+        "VERIFY",
+        "WRITE_SYNTHESIS_TEXT_FROM_FROZEN_EVIDENCE"
+      ],
+      "training": 0,
+      "prediction": 0,
+      "statistics_recomputation": 0,
+      "ui_build": 0
+    },
+    "notebook": {
+      "checks": {
+        "appended_markdown_sections_11": true,
+        "appended_code_cells_11": true,
+        "all_appended_cells_executed": true,
+        "all_appended_cells_have_output": true,
+        "no_appended_error_outputs": true,
+        "no_synthesis_or_ui_execution": true
+      },
+      "appended_markdown_cells": 11,
+      "appended_code_cells": 11,
+      "status": "PASS"
+    },
+    "phase00_09_comparison": {
+      "added": [],
+      "removed": [],
+      "modified": [],
+      "modified_count": 0
+    }
+  },
+  "freeze_audit": {
+    "audit": "phase10_core_contract_freeze_audit",
+    "status": "PASS",
+    "scientific_source_conflicts": 0,
+    "unresolved_numerical_differences": 0,
+    "nonscientific_metadata_differences_recorded": 6,
+    "ui_status": "DEFERRED_BY_USER_NOT_EXECUTED",
+    "onlinehd_replay": "OPTIONAL_NOT_EXECUTED",
+    "model_training_executed": false,
+    "predictions_generated": false,
+    "statistics_recomputed": false,
+    "phase00_09_files_modified": 0,
+    "phase10_status": "CORE_CONTRACT_FROZEN_NOT_SYNTHESIZED",
+    "ready_for_phase10_final_synthesis": true
+  }
+}

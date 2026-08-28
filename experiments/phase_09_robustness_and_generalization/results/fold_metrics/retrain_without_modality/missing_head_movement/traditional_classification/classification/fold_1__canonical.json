@@ -1,0 +1,45 @@
+{
+  "phase": "09",
+  "run_identifier": "mm__missing_head_movement__traditional_classification__fold_1__canonical",
+  "task": "classification",
+  "regression_interpretation": null,
+  "metrics": {
+    "macro_f1": 0.9187265478424015,
+    "balanced_accuracy": 0.9166666666666666,
+    "accuracy": 0.9166666666666666,
+    "severe_error_rate": 0.023809523809523808,
+    "per_class_recall": {
+      "0": 0.9047619047619048,
+      "1": 0.8571428571428571,
+      "2": 1.0,
+      "3": 0.9047619047619048
+    },
+    "confusion_matrix": [
+      [
+        19,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        18,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        21,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        19
+      ]
+    ],
+    "quadratic_weighted_kappa": 0.9117647058823529
+  }
+}

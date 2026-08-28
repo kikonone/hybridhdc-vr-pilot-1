@@ -1,0 +1,21 @@
+{
+  "REAL_DATA_SMOKE_TEST": "PASS",
+  "status": "PASS",
+  "model": "logistic_regression",
+  "outer_fold": 1,
+  "best_params": {
+    "classifier__C": 0.1,
+    "selector__k": 50
+  },
+  "metrics_not_final": {
+    "macro_f1": 0.7867167919799498,
+    "balanced_accuracy": 0.7857142857142857,
+    "accuracy": 0.7857142857142857,
+    "weighted_f1": 0.7867167919799498,
+    "recall_class_0": 0.7619047619047619,
+    "recall_class_1": 0.6190476190476191,
+    "recall_class_2": 0.8571428571428571,
+    "recall_class_3": 0.9047619047619048
+  },
+  "preprocessing": "training-fold pipeline: median imputation with indicators, variance filtering, scaling, SelectKBest"
+}

@@ -1,0 +1,27 @@
+{
+  "verified_count": 1457,
+  "artifact_count": 1457,
+  "failures": [],
+  "phase10_initialization_reference_differences": [
+    {
+      "artifact_role": "freeze_or_final_manifest",
+      "source_phase": "09",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_freeze.json",
+      "sha256": "cd026df824c210172103b0c60b5090a59cc39eef9b86f3a22fcac0eaac320bd9",
+      "contract_recorded_sha256": "7db8b1bf7b0c25b4677613000f63768d9c71bb2d644ba8423214c4902db869c2",
+      "reference_alignment": "STALE_PHASE10_INITIALIZATION_REFERENCE_CURRENT_DIRECT_FREEZE_CHAIN_VERIFIED",
+      "frozen_status": "FROZEN_CURRENT_HASH_VERIFIED"
+    },
+    {
+      "artifact_role": "freeze_or_final_manifest",
+      "source_phase": "09",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\manifests\\phase09_final_manifest.json",
+      "sha256": "1d3ae2abec1a3b88ebe224ecf6e118c1cbac814a0cff843d9faddcfe1c5b9256",
+      "contract_recorded_sha256": "8fa96c12fabbe9d75269b1aa579af1af5ff2012ec0e5b99dc33204edcfd4d4fa",
+      "reference_alignment": "STALE_PHASE10_INITIALIZATION_REFERENCE_CURRENT_DIRECT_FREEZE_CHAIN_VERIFIED",
+      "frozen_status": "FROZEN_CURRENT_HASH_VERIFIED"
+    }
+  ],
+  "reference_difference_classification": "NONSCIENTIFIC_INITIALIZATION_REFERENCE_ALIGNMENT; current direct frozen files and embedded Phase09 manifest hash are authoritative",
+  "status": "PASS"
+}

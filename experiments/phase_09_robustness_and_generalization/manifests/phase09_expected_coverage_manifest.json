@@ -1,0 +1,281 @@
+{
+  "phase": "09",
+  "status": "FROZEN_EXPECTATION_NOT_EXECUTED",
+  "coverage_groups": [
+    {
+      "protocol": "FULL_PRIMARY_REFERENCE",
+      "condition": "FULL_PRIMARY_REFERENCE",
+      "task": "classification",
+      "model_key": "hdc_classification",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 5,
+      "reference_policy": "REUSED_NOT_RETRAINED"
+    },
+    {
+      "protocol": "FULL_PRIMARY_REFERENCE",
+      "condition": "FULL_PRIMARY_REFERENCE",
+      "task": "regression",
+      "model_key": "hdc_regression",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 5,
+      "reference_policy": "REUSED_NOT_RETRAINED"
+    },
+    {
+      "protocol": "FULL_PRIMARY_REFERENCE",
+      "condition": "FULL_PRIMARY_REFERENCE",
+      "task": "classification",
+      "model_key": "traditional_classification",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 1,
+      "reference_policy": "REUSED_NOT_RETRAINED"
+    },
+    {
+      "protocol": "FULL_PRIMARY_REFERENCE",
+      "condition": "FULL_PRIMARY_REFERENCE",
+      "task": "regression",
+      "model_key": "traditional_regression",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 1,
+      "reference_policy": "REUSED_NOT_RETRAINED"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_PHYSIOLOGICAL",
+      "task": "classification",
+      "model_key": "hdc_classification",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 5,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_PHYSIOLOGICAL",
+      "task": "regression",
+      "model_key": "hdc_regression",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 5,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_PHYSIOLOGICAL",
+      "task": "classification",
+      "model_key": "traditional_classification",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 1,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_PHYSIOLOGICAL",
+      "task": "regression",
+      "model_key": "traditional_regression",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 1,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_EYE_TRACKING",
+      "task": "classification",
+      "model_key": "hdc_classification",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 5,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_EYE_TRACKING",
+      "task": "regression",
+      "model_key": "hdc_regression",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 5,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_EYE_TRACKING",
+      "task": "classification",
+      "model_key": "traditional_classification",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 1,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_EYE_TRACKING",
+      "task": "regression",
+      "model_key": "traditional_regression",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 1,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_HEAD_MOVEMENT",
+      "task": "classification",
+      "model_key": "hdc_classification",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 5,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_HEAD_MOVEMENT",
+      "task": "regression",
+      "model_key": "hdc_regression",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 5,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_HEAD_MOVEMENT",
+      "task": "classification",
+      "model_key": "traditional_classification",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 1,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_HEAD_MOVEMENT",
+      "task": "regression",
+      "model_key": "traditional_regression",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 1,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_FLIGHT_PARAMETER",
+      "task": "classification",
+      "model_key": "hdc_classification",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 5,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_FLIGHT_PARAMETER",
+      "task": "regression",
+      "model_key": "hdc_regression",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 5,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_FLIGHT_PARAMETER",
+      "task": "classification",
+      "model_key": "traditional_classification",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 1,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_FLIGHT_PARAMETER",
+      "task": "regression",
+      "model_key": "traditional_regression",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 1,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_BODY_MOVEMENT",
+      "task": "classification",
+      "model_key": "hdc_classification",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 5,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_BODY_MOVEMENT",
+      "task": "regression",
+      "model_key": "hdc_regression",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 5,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_BODY_MOVEMENT",
+      "task": "classification",
+      "model_key": "traditional_classification",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 1,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "RETRAIN_WITHOUT_MODALITY",
+      "condition": "MISSING_BODY_MOVEMENT",
+      "task": "regression",
+      "model_key": "traditional_regression",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 1,
+      "reference_policy": "RETRAIN_WITHOUT_MODALITY"
+    },
+    {
+      "protocol": "LEAVE_ONE_SUBJECT_OUT",
+      "condition": "LOSO",
+      "task": "classification",
+      "model_key": "hdc_classification",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 5,
+      "expected_subject_splits": 35
+    },
+    {
+      "protocol": "LEAVE_ONE_SUBJECT_OUT",
+      "condition": "LOSO",
+      "task": "regression",
+      "model_key": "hdc_regression",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 5,
+      "expected_subject_splits": 35
+    },
+    {
+      "protocol": "LEAVE_ONE_SUBJECT_OUT",
+      "condition": "LOSO",
+      "task": "classification",
+      "model_key": "traditional_classification",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 1,
+      "expected_subject_splits": 35
+    },
+    {
+      "protocol": "LEAVE_ONE_SUBJECT_OUT",
+      "condition": "LOSO",
+      "task": "regression",
+      "model_key": "traditional_regression",
+      "expected_unique_run_keys": 419,
+      "expected_seeds_per_run_key": 1,
+      "expected_subject_splits": 35
+    }
+  ],
+  "sources": [
+    {
+      "role": "primary_run_key_universe",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv",
+      "bytes": 7435180,
+      "sha256": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44",
+      "read_only_policy": true
+    },
+    {
+      "role": "frozen_outer_test_coverage",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+      "bytes": 38660,
+      "sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+      "read_only_policy": true
+    },
+    {
+      "role": "loso_test_coverage",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\manifests\\phase09_loso_assignments.csv",
+      "bytes": 33557,
+      "sha256": "15c618d1a377e2e8e8aeb11539e19d09c5e97ec6cdbf3a20bd74d0e47e6133d8",
+      "read_only_policy": true
+    }
+  ]
+}

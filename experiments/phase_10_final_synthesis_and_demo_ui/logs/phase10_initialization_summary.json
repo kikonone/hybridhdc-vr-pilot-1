@@ -1,0 +1,28 @@
+{
+  "prediction_artifacts": 1406,
+  "statistical_artifacts": 28,
+  "paper_tables": 136,
+  "paper_figures": 61,
+  "input_audits": [
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS",
+    "PASS"
+  ],
+  "ui_pages": {
+    "Project Overview": 1,
+    "Best HDC Classification": 1,
+    "Best HDC Regression": 1,
+    "Frozen OOF Prediction Explorer": 1,
+    "HDC Modality Contribution": 9,
+    "HDC Fusion and Shortcut Evidence": 10,
+    "HDC Missing-Modality Robustness": 5,
+    "HDC LOSO Stability": 7,
+    "Reproducibility and Limitations": 1
+  }
+}

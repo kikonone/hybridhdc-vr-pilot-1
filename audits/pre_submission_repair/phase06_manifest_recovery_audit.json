@@ -1,0 +1,43 @@
+{
+  "status": "BLOCKED_UNVERIFIED_MANIFEST_RECOVERY",
+  "production_manifest_written": false,
+  "current_manifest_backup": "audits/pre_submission_repair/phase06_manifest_pre_repair/phase06_final_artifact_manifest.json",
+  "manifest_sha256": "25df4d2754075061c4000c9260ad0b5b4182203f988375078e2f4156dcd580a5",
+  "artifact_count": 114,
+  "verified_artifact_count": 108,
+  "hash_mismatch_count": 6,
+  "hash_mismatches": [
+    {
+      "path": "audits/phase06_initialization_artifact_audit.json",
+      "manifest_sha256": "eba9f283cb5a6b42b1aaad2c24d25fca1687167cead2d6209e3f282209abdfc6",
+      "actual_sha256": "1d6cccfbdeb7793d491ae7917b80e378efbc7184c403e7660b6a3a842d3d4410"
+    },
+    {
+      "path": "audits/phase06_input_and_fold_audit.json",
+      "manifest_sha256": "890cfe1e15773810918680012c5ad1faf6831dc6b78282fe8addd475137fbc05",
+      "actual_sha256": "f21ca1809f855e778fd21bbf9b4c9781e777280d1137085ea0a218fd55791791"
+    },
+    {
+      "path": "audits/phase06_phase04_baseline_interface_audit.json",
+      "manifest_sha256": "284711cdc21fd872fd047f1aecdc8434be7f3a0067d694391671f794144e2c6e",
+      "actual_sha256": "9de7e5f46e130c2aec1664f2d5ecdf941775cf6d3911d74abcdf5d637526437d"
+    },
+    {
+      "path": "audits/phase06_phase05_freeze_interface_audit.json",
+      "manifest_sha256": "68f1d8eff49bb5eafdba76e710d682ec921cfe5855f6b8212cc8f9f6bf63ebb9",
+      "actual_sha256": "a58fa71a291536867c9b68d9cc857a1fa5f3f6729d16ae31badac1eb69562bc7"
+    },
+    {
+      "path": "configs/phase06_environment.json",
+      "manifest_sha256": "c2ca0455fb4e6ff10840e144c569d49498f3166cacc4d2f1be02f3635c114a96",
+      "actual_sha256": "bca5e1d2f3cef49a5f515a38f73250992ddf46b50ddfcd28d6fc5543ce05859c"
+    },
+    {
+      "path": "configs/phase06_upstream_interface.json",
+      "manifest_sha256": "71223b70bcb49f35e3d601a63d63ed2530d0e5a098e597c1528e079b1a574517",
+      "actual_sha256": "b704d96df9bc4605b0508f446aa9520ca5b089798933878193044401a9513b63"
+    }
+  ],
+  "exact_original_artifact_copies_found": [],
+  "recovery_decision": "Production manifest recovery was not written because six overwritten initialization/interface records cannot be proven against exact original bytes or freeze evidence."
+}

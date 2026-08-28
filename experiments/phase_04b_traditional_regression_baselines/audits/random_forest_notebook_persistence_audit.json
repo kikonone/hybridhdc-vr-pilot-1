@@ -1,0 +1,9 @@
+{
+  "file_exists": true,
+  "parseable": true,
+  "prior_outputs_preserved": true,
+  "random_forest_cell_execution_count": 1,
+  "random_forest_outputs_persisted": true,
+  "oof_path_in_outputs": true,
+  "overall_pass": true
+}

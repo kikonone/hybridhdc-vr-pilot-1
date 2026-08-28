@@ -1,0 +1,6 @@
+outer_fold,train_subject_count,test_subject_count,train_run_count,test_run_count,test_subjects,subject_overlap_count,train_class_0_count,test_class_0_count,train_class_1_count,test_class_1_count,train_class_2_count,test_class_2_count,train_class_3_count,test_class_3_count
+1,28,7,335,84,sub-cp004;sub-cp011;sub-cp016;sub-cp027;sub-cp033;sub-cp039;sub-cp043,0,83,21,85,21,83,21,84,21
+2,28,7,335,84,sub-cp009;sub-cp013;sub-cp015;sub-cp020;sub-cp026;sub-cp031;sub-cp038,0,84,20,84,22,83,21,84,21
+3,28,7,335,84,sub-cp008;sub-cp014;sub-cp019;sub-cp023;sub-cp024;sub-cp025;sub-cp037,0,83,21,85,21,83,21,84,21
+4,28,7,335,84,sub-cp003;sub-cp006;sub-cp012;sub-cp018;sub-cp029;sub-cp036;sub-cp042,0,83,21,85,21,83,21,84,21
+5,28,7,336,83,sub-cp005;sub-cp017;sub-cp022;sub-cp028;sub-cp030;sub-cp032;sub-cp035,0,83,21,85,21,84,20,84,21

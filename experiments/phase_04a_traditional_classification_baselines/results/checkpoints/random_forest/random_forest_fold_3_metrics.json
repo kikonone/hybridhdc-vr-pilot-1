@@ -1,0 +1,19 @@
+{
+  "model": "random_forest",
+  "model_family": "Random Forest",
+  "outer_fold": 3.0,
+  "test_run_count": 84,
+  "test_subject_count": 7,
+  "selected_hyperparameters": "{\"classifier__max_depth\": null, \"classifier__max_features\": \"sqrt\", \"classifier__n_estimators\": 500, \"effective_selected_k\": 200, \"selector__k\": 200}",
+  "selected_feature_count": 200,
+  "tuning_training_seconds": 19.331392400003097,
+  "inference_seconds": 0.02980260000185808,
+  "macro_f1": 0.9642441860465116,
+  "balanced_accuracy": 0.9642857142857142,
+  "accuracy": 0.9642857142857143,
+  "weighted_f1": 0.9642441860465117,
+  "recall_class_0": 1.0,
+  "recall_class_1": 0.9047619047619048,
+  "recall_class_2": 0.9523809523809523,
+  "recall_class_3": 1.0
+}

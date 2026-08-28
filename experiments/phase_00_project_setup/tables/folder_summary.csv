@@ -1,0 +1,5 @@
+folder,exists,all_file_count,target_extension_file_count,total_size_bytes,total_size_mib
+vrdataset/dataPackage,True,9003,9003,47302398864,45111.083
+vrdataset/starterCode,True,12,12,2953656,2.817
+vrdataset/starterCode/data_feats,True,1,1,338790,0.323
+vrdataset/referenceDocuments,True,5,0,322109168,307.187

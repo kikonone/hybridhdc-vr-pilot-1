@@ -1,0 +1,40 @@
+{
+  "phase": "06",
+  "variant": "onlinehd",
+  "outer_fold": 4,
+  "artifacts": [
+    {
+      "path": "results\\predictions\\onlinehd_final_confirmation_fold_4_predictions.csv",
+      "file_size_bytes": 449602,
+      "sha256": "f7f468992e2b04d5162cf7b5c539f73f4d2b6a6a638ef43647794bd6ebf36778",
+      "result": "PASS"
+    },
+    {
+      "path": "results\\fold_metrics\\onlinehd_final_confirmation_fold_4_classification_metrics.csv",
+      "file_size_bytes": 4837,
+      "sha256": "f789e65efd40f5ec301d00e3960026f2524f1247e9cc99a3807f3f114e11ae05",
+      "result": "PASS"
+    },
+    {
+      "path": "results\\fold_metrics\\onlinehd_final_confirmation_fold_4_similarity_regression_metrics.csv",
+      "file_size_bytes": 3968,
+      "sha256": "a7b7f44f05fabc2479a2bb630fc512618d01df3701ee9ca0e3fba16b50816b1b",
+      "result": "PASS"
+    },
+    {
+      "path": "results\\fold_metrics\\onlinehd_final_confirmation_fold_4_inner_selection.csv",
+      "file_size_bytes": 59314,
+      "sha256": "26acfd99ce0a9eae25f40ead8e0ab8f522b65d740deeb1fdc2cda39f04888029",
+      "result": "PASS"
+    },
+    {
+      "path": "results\\efficiency\\onlinehd_final_confirmation_fold_4_efficiency.csv",
+      "file_size_bytes": 5152,
+      "sha256": "ef06a09a01234533541d4f95f34c8a4a9521683ec87afc45c36c130efba1704f",
+      "result": "PASS"
+    }
+  ],
+  "checkpoint_count": 20,
+  "checkpoint_integrity": true,
+  "result": "PASS"
+}

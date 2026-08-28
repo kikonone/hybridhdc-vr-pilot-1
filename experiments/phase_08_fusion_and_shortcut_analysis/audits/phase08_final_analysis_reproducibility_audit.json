@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-08-21T02:27:51.988872+00:00",
+  "read_only_consolidation_dry_run": {
+    "status": "PASS",
+    "preflight": "PASS",
+    "canonical_rows": 10894,
+    "classification_rows": 5447,
+    "regression_rows": 5447,
+    "combinations": 26,
+    "five_seed_coverage": "PASS",
+    "coverage_checks": {
+      "canonical_rows_10894": true,
+      "classification_rows_5447": true,
+      "regression_rows_5447": true,
+      "legal_combinations_26": true,
+      "each_combination_419_unique": true,
+      "flight_task_setting_absent": true
+    },
+    "alignment_checks": {
+      "subject_and_fold_alignment": true,
+      "classification_labels_valid": true,
+      "regression_bounded_range": true,
+      "no_nan_or_inf_in_task_required_fields": true
+    },
+    "upstream_references": "PASS"
+  },
+  "read_only_analysis_dry_run": {
+    "status": "PASS",
+    "checks": {
+      "phase08_new_classification_rows": true,
+      "phase08_new_regression_rows": true,
+      "all_metric_groups_419": true,
+      "subject_unit_35": true,
+      "paired_statistics_nonempty": true,
+      "holm_complete": true,
+      "bootstrap_complete": true,
+      "regression_wording_exact": true
+    },
+    "classification_metric_rows": 19,
+    "regression_metric_rows": 19,
+    "pairwise_rows": 26,
+    "bootstrap_rows": 64
+  },
+  "metric_reconciliation": {
+    "status": "PASS",
+    "mismatches": [],
+    "independent_recalculation": true
+  },
+  "model_retraining_executed": false,
+  "outer_test_used_for_tuning": false,
+  "phase09_executed": false
+}

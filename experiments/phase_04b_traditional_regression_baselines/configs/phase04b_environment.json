@@ -1,0 +1,24 @@
+{
+  "actual_environment": {
+    "NumPy": "1.26.4",
+    "PYTHONNOUSERSITE": "1",
+    "Python": "D:\\Computer\\anaconda3\\python.exe",
+    "SciPy": "1.13.1",
+    "joblib": "1.4.2",
+    "pandas": "2.2.2",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "scikit-learn": "1.5.1",
+    "threadpoolctl": "3.5.0"
+  },
+  "differences": {},
+  "frozen_environment": {
+    "NumPy": "1.26.4",
+    "PYTHONNOUSERSITE": "1",
+    "Python": "D:\\Computer\\anaconda3\\python.exe",
+    "SciPy": "1.13.1",
+    "joblib": "1.4.2",
+    "pandas": "2.2.2",
+    "scikit-learn": "1.5.1",
+    "threadpoolctl": "3.5.0"
+  }
+}

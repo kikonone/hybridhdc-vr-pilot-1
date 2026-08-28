@@ -1,0 +1,7 @@
+model,expected_rows,actual_rows,unique_runs,duplicates,folds_present,frozen_fold_match,label_match,coverage_status
+Logistic Regression,419,419,419,0,"[1,2,3,4,5]",PASS,PASS,PASS
+Linear SVM,419,419,419,0,"[1,2,3,4,5]",PASS,PASS,PASS
+RBF SVM,419,419,419,0,"[1,2,3,4,5]",PASS,PASS,PASS
+Random Forest,419,419,419,0,"[1,2,3,4,5]",PASS,PASS,PASS
+KNN,419,419,419,0,"[1,2,3,4,5]",PASS,PASS,PASS
+Gradient Boosting,419,419,419,0,"[1,2,3,4,5]",PASS,PASS,PASS

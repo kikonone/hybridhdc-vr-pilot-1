@@ -1,0 +1,126 @@
+{
+  "phase": "07",
+  "audit": "input_and_fold",
+  "generated_at_utc": "2026-08-20T17:52:06.813429+00:00",
+  "checks": {
+    "modeling_rows": 419,
+    "subjects": 35,
+    "unique_run_key": 419,
+    "primary_predictive_features": 1176,
+    "feature_columns_present": true,
+    "target_class_values": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "target_class_missing": 0,
+    "target_score_values": [
+      1.0,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "target_score_missing": 0,
+    "fold_assignment_rows": 419,
+    "fold_assignment_unique_run_key": 419,
+    "run_key_one_to_one_alignment": true,
+    "outer_folds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "outer_subject_isolation_pass": true,
+    "inner_groupkfold_3_feasibility_pass": true,
+    "primary_data_checksum_pass": true,
+    "frozen_fold_checksum_pass": true,
+    "all_expected_values_pass": true
+  },
+  "outer_folds": [
+    {
+      "outer_fold": 1,
+      "train_rows": 335,
+      "test_rows": 84,
+      "train_subjects": 28,
+      "test_subjects": 7,
+      "subject_overlap": [],
+      "subject_isolation_pass": true
+    },
+    {
+      "outer_fold": 2,
+      "train_rows": 335,
+      "test_rows": 84,
+      "train_subjects": 28,
+      "test_subjects": 7,
+      "subject_overlap": [],
+      "subject_isolation_pass": true
+    },
+    {
+      "outer_fold": 3,
+      "train_rows": 335,
+      "test_rows": 84,
+      "train_subjects": 28,
+      "test_subjects": 7,
+      "subject_overlap": [],
+      "subject_isolation_pass": true
+    },
+    {
+      "outer_fold": 4,
+      "train_rows": 335,
+      "test_rows": 84,
+      "train_subjects": 28,
+      "test_subjects": 7,
+      "subject_overlap": [],
+      "subject_isolation_pass": true
+    },
+    {
+      "outer_fold": 5,
+      "train_rows": 336,
+      "test_rows": 83,
+      "train_subjects": 28,
+      "test_subjects": 7,
+      "subject_overlap": [],
+      "subject_isolation_pass": true
+    }
+  ],
+  "inner_groupkfold": [
+    {
+      "outer_fold": 1,
+      "outer_training_subjects": 28,
+      "inner_splits": 3,
+      "all_inner_subject_isolation_pass": true,
+      "groupkfold_3_feasible": true
+    },
+    {
+      "outer_fold": 2,
+      "outer_training_subjects": 28,
+      "inner_splits": 3,
+      "all_inner_subject_isolation_pass": true,
+      "groupkfold_3_feasible": true
+    },
+    {
+      "outer_fold": 3,
+      "outer_training_subjects": 28,
+      "inner_splits": 3,
+      "all_inner_subject_isolation_pass": true,
+      "groupkfold_3_feasible": true
+    },
+    {
+      "outer_fold": 4,
+      "outer_training_subjects": 28,
+      "inner_splits": 3,
+      "all_inner_subject_isolation_pass": true,
+      "groupkfold_3_feasible": true
+    },
+    {
+      "outer_fold": 5,
+      "outer_training_subjects": 28,
+      "inner_splits": 3,
+      "all_inner_subject_isolation_pass": true,
+      "groupkfold_3_feasible": true
+    }
+  ],
+  "result": "PASS"
+}

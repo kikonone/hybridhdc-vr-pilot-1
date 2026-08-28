@@ -1,0 +1,163 @@
+{
+  "manifest": "phase10_core_execution_manifest",
+  "contains_model_runs": false,
+  "allowed_operations": [
+    "CONSOLIDATE_WITHOUT_RECOMPUTATION",
+    "COPY_WITH_HASH",
+    "FORMAT_FROM_FROZEN_VALUES",
+    "INDEX",
+    "LINK_SOURCE",
+    "VERIFY",
+    "WRITE_SYNTHESIS_TEXT_FROM_FROZEN_EVIDENCE"
+  ],
+  "forbidden_operations": [
+    "BUILD_UI",
+    "PREDICT",
+    "RECOMPUTE_STATISTICS",
+    "RESELECT_MODEL",
+    "TRAIN",
+    "TUNE"
+  ],
+  "work_items": [
+    {
+      "work_item_id": "W01",
+      "deliverable_family": "source_of_truth",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\manifests\\phase10_upstream_freeze_manifest.json"
+      ],
+      "source_hashes": [
+        "7b427777d4b79ce14a4e63812ef71a144ab696a63a9f27f91ca4ebfef0de7307"
+      ],
+      "destination": "configs/phase10_source_of_truth_rules.json",
+      "operation": "VERIFY",
+      "validation": "existence + SHA-256 + frozen source alignment",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "work_item_id": "W02",
+      "deliverable_family": "prediction_library",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\manifests\\phase10_upstream_freeze_manifest.json"
+      ],
+      "source_hashes": [
+        "7b427777d4b79ce14a4e63812ef71a144ab696a63a9f27f91ca4ebfef0de7307"
+      ],
+      "destination": "final_prediction_library/index.csv",
+      "operation": "INDEX",
+      "validation": "existence + SHA-256 + frozen source alignment",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "work_item_id": "W03",
+      "deliverable_family": "prediction_library",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\manifests\\phase10_upstream_freeze_manifest.json"
+      ],
+      "source_hashes": [
+        "7b427777d4b79ce14a4e63812ef71a144ab696a63a9f27f91ca4ebfef0de7307"
+      ],
+      "destination": "final_prediction_library",
+      "operation": "COPY_WITH_HASH",
+      "validation": "existence + SHA-256 + frozen source alignment",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "work_item_id": "W04",
+      "deliverable_family": "statistics_bundle",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\manifests\\phase10_upstream_freeze_manifest.json"
+      ],
+      "source_hashes": [
+        "7b427777d4b79ce14a4e63812ef71a144ab696a63a9f27f91ca4ebfef0de7307"
+      ],
+      "destination": "final_statistics_bundle/index.csv",
+      "operation": "INDEX",
+      "validation": "existence + SHA-256 + frozen source alignment",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "work_item_id": "W05",
+      "deliverable_family": "paper_tables",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\manifests\\phase10_upstream_freeze_manifest.json"
+      ],
+      "source_hashes": [
+        "7b427777d4b79ce14a4e63812ef71a144ab696a63a9f27f91ca4ebfef0de7307"
+      ],
+      "destination": "final_paper_tables",
+      "operation": "FORMAT_FROM_FROZEN_VALUES",
+      "validation": "existence + SHA-256 + frozen source alignment",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "work_item_id": "W06",
+      "deliverable_family": "paper_figures",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\manifests\\phase10_upstream_freeze_manifest.json"
+      ],
+      "source_hashes": [
+        "7b427777d4b79ce14a4e63812ef71a144ab696a63a9f27f91ca4ebfef0de7307"
+      ],
+      "destination": "final_paper_figures",
+      "operation": "FORMAT_FROM_FROZEN_VALUES",
+      "validation": "existence + SHA-256 + frozen source alignment",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "work_item_id": "W07",
+      "deliverable_family": "rq_evidence",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\manifests\\phase10_upstream_freeze_manifest.json"
+      ],
+      "source_hashes": [
+        "7b427777d4b79ce14a4e63812ef71a144ab696a63a9f27f91ca4ebfef0de7307"
+      ],
+      "destination": "rq_evidence_conclusion_matrix",
+      "operation": "LINK_SOURCE",
+      "validation": "existence + SHA-256 + frozen source alignment",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "work_item_id": "W08",
+      "deliverable_family": "reproducibility",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\manifests\\phase10_upstream_freeze_manifest.json"
+      ],
+      "source_hashes": [
+        "7b427777d4b79ce14a4e63812ef71a144ab696a63a9f27f91ca4ebfef0de7307"
+      ],
+      "destination": "reproducibility_package",
+      "operation": "VERIFY",
+      "validation": "existence + SHA-256 + frozen source alignment",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "work_item_id": "W09",
+      "deliverable_family": "cross_phase_consistency",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\manifests\\phase10_upstream_freeze_manifest.json"
+      ],
+      "source_hashes": [
+        "7b427777d4b79ce14a4e63812ef71a144ab696a63a9f27f91ca4ebfef0de7307"
+      ],
+      "destination": "cross_phase_consistency_audit",
+      "operation": "VERIFY",
+      "validation": "existence + SHA-256 + frozen source alignment",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    },
+    {
+      "work_item_id": "W10",
+      "deliverable_family": "final_synthesis_text",
+      "source_artifacts": [
+        "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\manifests\\phase10_upstream_freeze_manifest.json"
+      ],
+      "source_hashes": [
+        "7b427777d4b79ce14a4e63812ef71a144ab696a63a9f27f91ca4ebfef0de7307"
+      ],
+      "destination": "reports",
+      "operation": "WRITE_SYNTHESIS_TEXT_FROM_FROZEN_EVIDENCE",
+      "validation": "existence + SHA-256 + frozen source alignment",
+      "status": "AUTHORIZED_NOT_EXECUTED"
+    }
+  ]
+}

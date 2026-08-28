@@ -1,0 +1,246 @@
+{
+  "status": "CONTRACT_FROZEN_NOT_TRAINED",
+  "HDC": {
+    "classification": {
+      "status": "FROZEN_REUSE_NO_SEARCH",
+      "model": "HDC+OnlineHD Hybrid",
+      "dimension": 5000,
+      "levels": 51,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "requested_feature_k": 50,
+      "fold_specific_structures": [
+        {
+          "outer_fold": 1,
+          "selected_structure_json": "{\"centroids_per_class\":3,\"epochs\":1,\"learning_rate\":0.1,\"margin_threshold\":0.0}"
+        },
+        {
+          "outer_fold": 2,
+          "selected_structure_json": "{\"centroids_per_class\":2,\"epochs\":1,\"learning_rate\":0.05,\"margin_threshold\":0.0}"
+        },
+        {
+          "outer_fold": 3,
+          "selected_structure_json": "{\"centroids_per_class\":2,\"epochs\":3,\"learning_rate\":0.05,\"margin_threshold\":0.0}"
+        },
+        {
+          "outer_fold": 4,
+          "selected_structure_json": "{\"centroids_per_class\":2,\"epochs\":3,\"learning_rate\":0.1,\"margin_threshold\":0.1}"
+        },
+        {
+          "outer_fold": 5,
+          "selected_structure_json": "{\"centroids_per_class\":3,\"epochs\":1,\"learning_rate\":0.1,\"margin_threshold\":0.0}"
+        }
+      ],
+      "structure_search_authorized": false,
+      "variant_search_authorized": false
+    },
+    "regression": {
+      "status": "FROZEN_REUSE_NO_SEARCH",
+      "head": "COMMON_ENCODER_READOUT_BASELINE",
+      "dimension": 10000,
+      "levels": 51,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "ridge_alpha": 0.01,
+      "requested_feature_k": 50,
+      "parameter_search_authorized": false
+    },
+    "preprocessing": {
+      "fit_scope": "outer-training only",
+      "ordered_steps": [
+        "SimpleImputer median + missing indicators",
+        "VarianceThreshold(0.0)",
+        "StandardScaler fold-local",
+        "SelectKBest(f_classif)"
+      ],
+      "effective_feature_k_rule": "min(50, post_variance_feature_count)",
+      "row_deletion_authorized": false
+    }
+  },
+  "traditional": {
+    "classification": {
+      "status": "FROZEN_REUSE_NO_RETUNING",
+      "model": "Gradient Boosting",
+      "estimator": "GradientBoostingClassifier",
+      "random_state": 42,
+      "fold_specific_parameters": {
+        "1": {
+          "classifier__learning_rate": 0.1,
+          "classifier__max_depth": 2,
+          "classifier__n_estimators": 200,
+          "selector__k": 200,
+          "effective_selected_k": 200
+        },
+        "2": {
+          "classifier__learning_rate": 0.05,
+          "classifier__max_depth": 2,
+          "classifier__n_estimators": 100,
+          "selector__k": 200,
+          "effective_selected_k": 200
+        },
+        "3": {
+          "classifier__learning_rate": 0.05,
+          "classifier__max_depth": 3,
+          "classifier__n_estimators": 200,
+          "selector__k": 200,
+          "effective_selected_k": 200
+        },
+        "4": {
+          "classifier__learning_rate": 0.05,
+          "classifier__max_depth": 2,
+          "classifier__n_estimators": 100,
+          "selector__k": 200,
+          "effective_selected_k": 200
+        },
+        "5": {
+          "classifier__learning_rate": 0.1,
+          "classifier__max_depth": 3,
+          "classifier__n_estimators": 200,
+          "selector__k": 200,
+          "effective_selected_k": 200
+        }
+      },
+      "pipeline": [
+        "SimpleImputer(strategy=median, add_indicator=true, keep_empty_features=true)",
+        "VarianceThreshold(0.0)",
+        "SelectKBest(f_classif)",
+        "GradientBoostingClassifier"
+      ],
+      "effective_feature_k_rule": "min(frozen_requested_k, post_variance_feature_count)",
+      "source": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+      "parameter_search_authorized": false
+    },
+    "regression": {
+      "status": "FROZEN_REUSE_NO_RETUNING",
+      "model": "Gradient Boosting Regressor",
+      "estimator": "GradientBoostingRegressor",
+      "random_state": 42,
+      "fold_specific_parameters": {
+        "1": {
+          "feature_selection__k": "all",
+          "regressor__learning_rate": 0.03,
+          "regressor__max_depth": 3,
+          "regressor__n_estimators": 300
+        },
+        "2": {
+          "feature_selection__k": "all",
+          "regressor__learning_rate": 0.1,
+          "regressor__max_depth": 3,
+          "regressor__n_estimators": 300
+        },
+        "3": {
+          "feature_selection__k": 200,
+          "regressor__learning_rate": 0.1,
+          "regressor__max_depth": 3,
+          "regressor__n_estimators": 300
+        },
+        "4": {
+          "feature_selection__k": 100,
+          "regressor__learning_rate": 0.1,
+          "regressor__max_depth": 3,
+          "regressor__n_estimators": 300
+        },
+        "5": {
+          "feature_selection__k": "all",
+          "regressor__learning_rate": 0.03,
+          "regressor__max_depth": 3,
+          "regressor__n_estimators": 300
+        }
+      },
+      "pipeline": [
+        {
+          "name": "imputer",
+          "class": "SimpleImputer",
+          "parameters": {
+            "strategy": "median",
+            "add_indicator": true,
+            "keep_empty_features": true
+          }
+        },
+        {
+          "name": "variance_filter",
+          "class": "VarianceThreshold",
+          "parameters": {
+            "threshold": 0.0
+          }
+        },
+        {
+          "name": "feature_selection",
+          "class": "SelectKBest",
+          "parameters": {
+            "score_func": "f_regression"
+          }
+        },
+        {
+          "name": "regressor",
+          "class": "GradientBoostingRegressor",
+          "parameters": {
+            "loss": "squared_error",
+            "subsample": 1.0,
+            "min_samples_leaf": 1,
+            "max_features": null,
+            "random_state": 42
+          }
+        }
+      ],
+      "effective_feature_k_rule": "min(frozen_requested_k, post_variance_feature_count); preserve 'all' as all post-variance features",
+      "source": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting",
+      "parameter_search_authorized": false
+    }
+  },
+  "mandatory_new_conditions": [
+    "FUSION_PE",
+    "FUSION_PEH",
+    "FUSION_PEHF",
+    "WITH_PERFORMANCE_AUXILIARY",
+    "PERFORMANCE_ONLY_AUXILIARY"
+  ],
+  "flight_sensitivity_conditions": {
+    "FLIGHT_FULL": {
+      "status": "FROZEN_HDC_REFERENCE",
+      "feature_count": 326,
+      "feature_set_sha256": "8f44ff3924c5c5304069be5a2575cc223d9e1cc834aa27f301876ce6389b17d8",
+      "ambiguous_features_retained": 3
+    },
+    "FLIGHT_BEHAVIORAL_ONLY": {
+      "status": "AUTHORIZED_UNIQUE_SENSITIVITY_CONDITION",
+      "feature_count": 323,
+      "feature_set_sha256": "dea0483dec41903f3e1bdf30faf7918833c8f985ff134b0e81fa30ce86a8fdb9",
+      "alias_of": null
+    },
+    "FLIGHT_TASK_SETTING_ONLY": {
+      "status": "NOT_FEASIBLE_EMPTY_PROVENANCE_GROUP",
+      "feature_count": 0,
+      "feature_set_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "alias_of": null
+    }
+  },
+  "traditional_flight_full": {
+    "reusable_artifact_found": false,
+    "reason": "Phase 07 frozen flight-only artifacts are HDC; Phase 04A/04B frozen OOF are full-primary, not flight-only.",
+    "required_runs": 10
+  },
+  "run_counts": {
+    "core_required_model_runs": 300,
+    "traditional_flight_full_required_runs": 10,
+    "unique_nonempty_nonaliased_flight_sensitivity_conditions": 1,
+    "flight_sensitivity_model_runs": 60,
+    "expected_total_model_runs": 370
+  },
+  "interfaces": {
+    "HDC_classification": "PASS",
+    "HDC_regression": "PASS",
+    "traditional_classification": "PASS",
+    "traditional_regression": "PASS"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "phase": "06",
+  "variant": "onlinehd",
+  "outer_fold": 5,
+  "candidates_expected": 24,
+  "candidates_completed": 24,
+  "inner_metric_rows_expected": 72,
+  "inner_metric_rows_actual": 72,
+  "checkpoint_count": 24,
+  "all_best_configs_reproducible": true,
+  "result": "PASS"
+}

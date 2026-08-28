@@ -1,0 +1,12 @@
+{
+  "status": "BLOCKED_UNVERIFIED_FREEZE_RECOVERY",
+  "tests_now_write_to_production": false,
+  "phase10_directory_existence_no_longer_treated_as_execution": true,
+  "manifest_hash_mismatches": [
+    "audits/phase09_executor_validation_audit.json",
+    "configs/phase09_contract_freeze.json",
+    "configs/phase09_execution_manifest.json",
+    "configs/phase09_frozen_contract.json"
+  ],
+  "protected_prediction_checkpoint_oof_statistics_hash_mismatches": 0
+}

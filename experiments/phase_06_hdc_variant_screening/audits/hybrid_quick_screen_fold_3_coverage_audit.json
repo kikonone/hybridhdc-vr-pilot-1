@@ -1,0 +1,12 @@
+{
+  "phase": "06",
+  "variant": "hybrid",
+  "outer_fold": 3,
+  "candidates_expected": 32,
+  "candidates_completed": 32,
+  "inner_metric_rows_expected": 96,
+  "inner_metric_rows_actual": 96,
+  "checkpoint_count": 32,
+  "all_best_configs_reproducible": true,
+  "result": "PASS"
+}

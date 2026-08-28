@@ -1,0 +1,5 @@
+{
+  "status": "PREFLIGHT_ONLY",
+  "difference_action": "RECORD_AS_REQUIRES_RECONCILIATION",
+  "upstream_modification_authorized": false
+}

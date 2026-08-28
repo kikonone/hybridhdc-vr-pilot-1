@@ -1,0 +1,66 @@
+{
+  "model": "Random Forest Regressor",
+  "model_slug": "random_forest",
+  "task_interpretation": "bounded difficulty-induced workload proxy regression",
+  "primary_data_path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv",
+  "frozen_fold_path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "pipeline": [
+    {
+      "name": "imputer",
+      "class": "SimpleImputer",
+      "parameters": {
+        "strategy": "median",
+        "add_indicator": true,
+        "keep_empty_features": true
+      }
+    },
+    {
+      "name": "variance_filter",
+      "class": "VarianceThreshold",
+      "parameters": {
+        "threshold": 0.0
+      }
+    },
+    {
+      "name": "feature_selection",
+      "class": "SelectKBest",
+      "parameters": {
+        "score_func": "f_regression"
+      }
+    },
+    {
+      "name": "regressor",
+      "class": "RandomForestRegressor",
+      "parameters": {
+        "criterion": "squared_error",
+        "min_samples_split": 2,
+        "bootstrap": true,
+        "random_state": 42,
+        "n_jobs": -1
+      }
+    }
+  ],
+  "param_grid": {
+    "feature_selection__k": [50, 100, 200, "all"],
+    "regressor__n_estimators": [200, 500],
+    "regressor__max_depth": [null, 12],
+    "regressor__max_features": ["sqrt", 0.3],
+    "regressor__min_samples_leaf": [1, 2]
+  },
+  "candidate_count": 64,
+  "inner_cv": "GroupKFold(n_splits=3, groups=subject_id)",
+  "scorer": "bounded_mae: clip prediction to [1.0, 4.0], then mean_absolute_error; greater_is_better=false",
+  "tuning_seed": 42,
+  "evaluation_seeds": [42, 43, 44, 45, 46],
+  "canonical_seed": 42,
+  "gridsearch_n_jobs": 1,
+  "regressor_n_jobs": -1,
+  "gridsearch_error_score": "raise",
+  "source_of_truth": {
+    "executor": "logs/run_random_forest.py",
+    "checkpoint_best_params": "results/checkpoints/random_forest/random_forest_fold_<fold>_best_params.json",
+    "checkpoint_audits": "results/checkpoints/random_forest/random_forest_fold_<fold>_checkpoint_audit.json"
+  },
+  "status": "COMPLETE"
+}

@@ -1,0 +1,9 @@
+{
+  "file_exists": true,
+  "parseable": true,
+  "recovery_cell_execution_count": 1,
+  "recovery_cell_has_outputs": true,
+  "recovery_tag_present": true,
+  "oof_path_in_outputs": true,
+  "pass": true
+}

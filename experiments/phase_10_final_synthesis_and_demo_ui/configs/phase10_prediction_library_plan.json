@@ -1,0 +1,13 @@
+{
+  "status": "INDEX_ONLY",
+  "copy_or_merge_authorized": false,
+  "source_phases": [
+    "04A",
+    "04B",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+  ]
+}

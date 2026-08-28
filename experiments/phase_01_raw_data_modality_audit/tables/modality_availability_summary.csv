@@ -1,0 +1,10 @@
+modality,run_count,missing_run_count,run_coverage_percent
+eye_tracking,487,0,100.0
+ecg,487,0,100.0
+eda,475,12,97.54
+emg,487,0,100.0
+respiration,487,0,100.0
+head_movement,487,0,100.0
+xplane,487,0,100.0
+control_input,0,487,0.0
+performance,419,68,86.04

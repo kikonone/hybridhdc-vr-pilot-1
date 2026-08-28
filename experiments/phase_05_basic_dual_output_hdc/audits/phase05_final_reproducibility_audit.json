@@ -1,0 +1,2713 @@
+{
+  "phase": "05",
+  "audit": "final_reproducibility_with_no_retraining_amendment",
+  "timestamp_utc": "2026-08-20T06:13:03.798786+00:00",
+  "checks": {
+    "primary_data_checksum_pass": true,
+    "frozen_fold_checksum_pass": true,
+    "immutable_historical_artifacts_unchanged": true,
+    "diagnostic_audit_pass": true,
+    "diagnostic_rows_8380": true,
+    "diagnostic_configs_20": true,
+    "efficiency_audit_pass": true,
+    "efficiency_fold_config_rows_100": true,
+    "efficiency_config_rows_20": true,
+    "five_warmups": true,
+    "thirty_timed_repetitions": true,
+    "nanosecond_monotonic_clock": true,
+    "frozen_predictions_reproduced": true,
+    "training_timing_not_fabricated": true,
+    "model_fitting_not_executed": true,
+    "no_training_calls_in_amendment_scripts": true,
+    "notebook_persistence_pass": true,
+    "phase06_not_executed": true,
+    "no_post_hoc_selection_or_inference": true
+  },
+  "immutable_artifacts": [
+    {
+      "relative_path": "analysis-output\\analysis-report.md",
+      "expected_sha256": "2860b017587f071567a7f5fabddfb092c7703ce6ce4034a35f810a5c3be1ce50",
+      "actual_sha256": "2860b017587f071567a7f5fabddfb092c7703ce6ce4034a35f810a5c3be1ce50",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "analysis-output\\figure-catalog.md",
+      "expected_sha256": "37eeda978a033cb000d08999ecc2921b2ba92bd5c991217c4ef60f3e24916e5a",
+      "actual_sha256": "37eeda978a033cb000d08999ecc2921b2ba92bd5c991217c4ef60f3e24916e5a",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "analysis-output\\stats-appendix.md",
+      "expected_sha256": "381761480b09a0c02bf5e2f8124533c1678c7dd651f0bdb8987c60cfbf1f49c6",
+      "actual_sha256": "381761480b09a0c02bf5e2f8124533c1678c7dd651f0bdb8987c60cfbf1f49c6",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\phase05_baseline_compatibility_audit.json",
+      "expected_sha256": "b59c2f76abbb8a4ae554820d884b51d5fee4151eae6a2ff0aa6909ecfb724950",
+      "actual_sha256": "b59c2f76abbb8a4ae554820d884b51d5fee4151eae6a2ff0aa6909ecfb724950",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\phase05_environment_audit.json",
+      "expected_sha256": "5d755859b7990f538f28111b720e121225582d2be8dcc033586262e1495b3d33",
+      "actual_sha256": "5d755859b7990f538f28111b720e121225582d2be8dcc033586262e1495b3d33",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\phase05_final_oof_alignment_audit.json",
+      "expected_sha256": "fe39d46c218964cb395e623dea1b65a66068e3fba65afaa43732a1546c1c0848",
+      "actual_sha256": "fe39d46c218964cb395e623dea1b65a66068e3fba65afaa43732a1546c1c0848",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\phase05_final_oof_coverage_audit.json",
+      "expected_sha256": "94057acbd56647f69e605e466abf7250d6577e2bd7dbafeef4f82d7d5ccb4aa3",
+      "actual_sha256": "94057acbd56647f69e605e466abf7250d6577e2bd7dbafeef4f82d7d5ccb4aa3",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\phase05_final_oof_leakage_audit.json",
+      "expected_sha256": "91e6994c5f0876b656593e8c598e2bd5a345ba7c5719701a279d9eb4d81303f9",
+      "actual_sha256": "91e6994c5f0876b656593e8c598e2bd5a345ba7c5719701a279d9eb4d81303f9",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\phase05_finalization_input_snapshot.json",
+      "expected_sha256": "f3257b561d7e0ff802dc6c30313f3a81d4c4c7460ced87ef515ce2cb73a3b2b1",
+      "actual_sha256": "f3257b561d7e0ff802dc6c30313f3a81d4c4c7460ced87ef515ce2cb73a3b2b1",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\phase05_hdc_contract_freeze_audit.json",
+      "expected_sha256": "0c0cf0c70e1d2fcd0b17163e05e2c7abaeefb9b5c817e07b5706bacd62a91ead",
+      "actual_sha256": "0c0cf0c70e1d2fcd0b17163e05e2c7abaeefb9b5c817e07b5706bacd62a91ead",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\phase05_hdc_contract_static_validation.json",
+      "expected_sha256": "5ba60eb83fea99f9cda31c990aee81fd9555a7545885aafef12bcc1d7912b691",
+      "actual_sha256": "5ba60eb83fea99f9cda31c990aee81fd9555a7545885aafef12bcc1d7912b691",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\phase05_input_and_fold_audit.json",
+      "expected_sha256": "678f4aec7ccd947aa1281c6be3a53a7bcd7fea1e7bd22fb61b0d7934345ead66",
+      "actual_sha256": "678f4aec7ccd947aa1281c6be3a53a7bcd7fea1e7bd22fb61b0d7934345ead66",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\phase05_notebook_baseline_cell_hashes.json",
+      "expected_sha256": "863a74d1b7ebc3659e68a8c9a281b7e0a7544688f644de489440f5665d8bd1ca",
+      "actual_sha256": "863a74d1b7ebc3659e68a8c9a281b7e0a7544688f644de489440f5665d8bd1ca",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\phase05_notebook_persistence_audit.json",
+      "expected_sha256": "19940f8c4a2ba65c2c18dd9be3e45a7436c4d0bd3c9910623f8eff386c211183",
+      "actual_sha256": "19940f8c4a2ba65c2c18dd9be3e45a7436c4d0bd3c9910623f8eff386c211183",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\phase05_oof_metric_recomputation_audit.json",
+      "expected_sha256": "ba3801deadb4d57996b59bd06bdf3947820630d96452dc50f06aed8f1fbc7370",
+      "actual_sha256": "ba3801deadb4d57996b59bd06bdf3947820630d96452dc50f06aed8f1fbc7370",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\phase05_upstream_freeze_audit.json",
+      "expected_sha256": "7758520c8b6ee0819b36aa6d42ffc9e6f9bff5eeda95b9b4219890ecdbb14c74",
+      "actual_sha256": "7758520c8b6ee0819b36aa6d42ffc9e6f9bff5eeda95b9b4219890ecdbb14c74",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_all_folds_audit.json",
+      "expected_sha256": "f3150f8cab94e5a9fd75bd289fa9af6859495b05edb0bf869b4788d118b2e9b8",
+      "actual_sha256": "f3150f8cab94e5a9fd75bd289fa9af6859495b05edb0bf869b4788d118b2e9b8",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_fold_1_artifact_audit.json",
+      "expected_sha256": "4ac2b48903a09e12ed061bbe4a44cd59601c332853637866b8cf968c2784c63c",
+      "actual_sha256": "4ac2b48903a09e12ed061bbe4a44cd59601c332853637866b8cf968c2784c63c",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_fold_1_coverage_audit.json",
+      "expected_sha256": "cfade5f06b36fbbbd174acde42495995f1f9718c15915a6457e8cc7f70bc63cc",
+      "actual_sha256": "cfade5f06b36fbbbd174acde42495995f1f9718c15915a6457e8cc7f70bc63cc",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_fold_1_leakage_audit.json",
+      "expected_sha256": "23364843fb49d520a8e3db4bdf13f9df633261e5e968ac540f43b1c4b64dc518",
+      "actual_sha256": "23364843fb49d520a8e3db4bdf13f9df633261e5e968ac540f43b1c4b64dc518",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_fold_2_artifact_audit.json",
+      "expected_sha256": "967c61d54aa29ed99819c76ec8b09fab50fdcf8b6812126a0974e2a39846f0b5",
+      "actual_sha256": "967c61d54aa29ed99819c76ec8b09fab50fdcf8b6812126a0974e2a39846f0b5",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_fold_2_coverage_audit.json",
+      "expected_sha256": "c22f378d28d6a007d282662dd634d2a04148359b265a0067cbc35206761fe748",
+      "actual_sha256": "c22f378d28d6a007d282662dd634d2a04148359b265a0067cbc35206761fe748",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_fold_2_leakage_audit.json",
+      "expected_sha256": "a502c651b646913873684c01194d1cba8a702a027584e7914e75d7815e158331",
+      "actual_sha256": "a502c651b646913873684c01194d1cba8a702a027584e7914e75d7815e158331",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_fold_3_artifact_audit.json",
+      "expected_sha256": "6ce6516d7d6a8a36cc54fd89ee27395ce43031c2694be57832b0b5abcdab9fe7",
+      "actual_sha256": "6ce6516d7d6a8a36cc54fd89ee27395ce43031c2694be57832b0b5abcdab9fe7",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_fold_3_coverage_audit.json",
+      "expected_sha256": "11f2651ed1dba12c4f0ff3bb55b4bcc96eb4d53ffc05888030933c17e54b136d",
+      "actual_sha256": "11f2651ed1dba12c4f0ff3bb55b4bcc96eb4d53ffc05888030933c17e54b136d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_fold_3_leakage_audit.json",
+      "expected_sha256": "a11fa70ad4cb2cb2408c51070914c7336b1d717cc1a0cb32572fb6bc79850a2e",
+      "actual_sha256": "a11fa70ad4cb2cb2408c51070914c7336b1d717cc1a0cb32572fb6bc79850a2e",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_fold_4_artifact_audit.json",
+      "expected_sha256": "11471d145200cfd9be2213129001cd46e09465d3c6563924739325dacc2aec39",
+      "actual_sha256": "11471d145200cfd9be2213129001cd46e09465d3c6563924739325dacc2aec39",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_fold_4_coverage_audit.json",
+      "expected_sha256": "08eb6c644109e6b2307e0c47931f619e3bdacbe0187ba6f4e2eedd2a7af3a72b",
+      "actual_sha256": "08eb6c644109e6b2307e0c47931f619e3bdacbe0187ba6f4e2eedd2a7af3a72b",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_fold_4_leakage_audit.json",
+      "expected_sha256": "3ea166e7d8339a13107f33cbafd606b0f3f3f773c58eb59bc2f67da156ac9582",
+      "actual_sha256": "3ea166e7d8339a13107f33cbafd606b0f3f3f773c58eb59bc2f67da156ac9582",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_fold_5_artifact_audit.json",
+      "expected_sha256": "8d86eb4083d6e1675c857c0a2500b7b6443065fe63006280341e4923d977c4b4",
+      "actual_sha256": "8d86eb4083d6e1675c857c0a2500b7b6443065fe63006280341e4923d977c4b4",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_fold_5_coverage_audit.json",
+      "expected_sha256": "c242471778cbe118c4f88767810b48abf85c1e4150ff8e0dadf9653fe832e2d4",
+      "actual_sha256": "c242471778cbe118c4f88767810b48abf85c1e4150ff8e0dadf9653fe832e2d4",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_fold_5_leakage_audit.json",
+      "expected_sha256": "6d83b34f7326127f625b39b8de1f4cc67bbaf014c3719845999e1a0b46b9549d",
+      "actual_sha256": "6d83b34f7326127f625b39b8de1f4cc67bbaf014c3719845999e1a0b46b9549d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_manifest_audit.json",
+      "expected_sha256": "3dc6942a8d6f712aa15bef7e4e53e7b1c0c7fa749797d5652631a99ce07a5307",
+      "actual_sha256": "3dc6942a8d6f712aa15bef7e4e53e7b1c0c7fa749797d5652631a99ce07a5307",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_final_confirmation_notebook_persistence_audit.json",
+      "expected_sha256": "82ec4783f0eb197c388cbecebec55e41ba4a5f518e9b2795cd799c67e40ec3a1",
+      "actual_sha256": "82ec4783f0eb197c388cbecebec55e41ba4a5f518e9b2795cd799c67e40ec3a1",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_quick_screen_consolidation_audit.json",
+      "expected_sha256": "d35612f7d0abb34599994ae5e12de2063ba5096c1750f45c1f9a84b8e4c68a67",
+      "actual_sha256": "d35612f7d0abb34599994ae5e12de2063ba5096c1750f45c1f9a84b8e4c68a67",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_quick_screen_consolidation_notebook_persistence_audit.json",
+      "expected_sha256": "c515728b865dad34ec91f620a4f6882ed615f260c0a4b3c72fcca990c841b283",
+      "actual_sha256": "c515728b865dad34ec91f620a4f6882ed615f260c0a4b3c72fcca990c841b283",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_quick_screen_fold_1_artifact_audit.json",
+      "expected_sha256": "340a935f6cab78d532c7d7200b13d07f69b25cda4a98e714b86f1f400cfc3b83",
+      "actual_sha256": "340a935f6cab78d532c7d7200b13d07f69b25cda4a98e714b86f1f400cfc3b83",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_quick_screen_fold_1_leakage_audit.json",
+      "expected_sha256": "d0014ec85baf8242a3b1aea4f0b08f004ec98e1197f61f6e028e8c8ae102f81a",
+      "actual_sha256": "d0014ec85baf8242a3b1aea4f0b08f004ec98e1197f61f6e028e8c8ae102f81a",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_quick_screen_fold_1_notebook_persistence_audit.json",
+      "expected_sha256": "ca4a3daf34eda15fc087351324cea389d6b7fa0d98902d9e0498a02700eeb298",
+      "actual_sha256": "ca4a3daf34eda15fc087351324cea389d6b7fa0d98902d9e0498a02700eeb298",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_quick_screen_fold_2_artifact_audit.json",
+      "expected_sha256": "6dfd305542870d0c39de7c3bc1a08d1fbcc23bbafceff24fa00958347997f09f",
+      "actual_sha256": "6dfd305542870d0c39de7c3bc1a08d1fbcc23bbafceff24fa00958347997f09f",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_quick_screen_fold_2_leakage_audit.json",
+      "expected_sha256": "aca35e785d7cbe7391ae2e9a72f36d068f3d921be538c7a69a3eb2efe9b8136f",
+      "actual_sha256": "aca35e785d7cbe7391ae2e9a72f36d068f3d921be538c7a69a3eb2efe9b8136f",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_quick_screen_fold_2_notebook_persistence_audit.json",
+      "expected_sha256": "f2d36eb43381069ce72a641c3070defcef185817e470149069a50b3ac83a90f2",
+      "actual_sha256": "f2d36eb43381069ce72a641c3070defcef185817e470149069a50b3ac83a90f2",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_quick_screen_fold_3_artifact_audit.json",
+      "expected_sha256": "cf547a3cbe88e9f3ea565d7c2ad03f1db9c40c3258bc84c5424220c18fb01ca9",
+      "actual_sha256": "cf547a3cbe88e9f3ea565d7c2ad03f1db9c40c3258bc84c5424220c18fb01ca9",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_quick_screen_fold_3_leakage_audit.json",
+      "expected_sha256": "d5fcc89707861e825453ff8d45c1b21057a7475e0e35f4983e303a1615192402",
+      "actual_sha256": "d5fcc89707861e825453ff8d45c1b21057a7475e0e35f4983e303a1615192402",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_quick_screen_fold_3_notebook_persistence_audit.json",
+      "expected_sha256": "091836e1ece573ba32bb59e5afc48c20e911fa8d5c89afedd21171e3acf87eb3",
+      "actual_sha256": "091836e1ece573ba32bb59e5afc48c20e911fa8d5c89afedd21171e3acf87eb3",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_quick_screen_fold_4_artifact_audit.json",
+      "expected_sha256": "1e040a2ed0a67b127afad29d37c1e9f5e9465b52702a3950de8eb9cbb18afbeb",
+      "actual_sha256": "1e040a2ed0a67b127afad29d37c1e9f5e9465b52702a3950de8eb9cbb18afbeb",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_quick_screen_fold_4_leakage_audit.json",
+      "expected_sha256": "5076deb1de9991b156263efbe926e197ed0829964cd31b84f6c8ea854e76c07c",
+      "actual_sha256": "5076deb1de9991b156263efbe926e197ed0829964cd31b84f6c8ea854e76c07c",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_quick_screen_fold_4_notebook_persistence_audit.json",
+      "expected_sha256": "4cfe64239d1a29ffae31f43cdb8aed514129bfca4524318cf193cd0c14eaa737",
+      "actual_sha256": "4cfe64239d1a29ffae31f43cdb8aed514129bfca4524318cf193cd0c14eaa737",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_quick_screen_fold_5_artifact_audit.json",
+      "expected_sha256": "d861fbc6602a7e778f60f4b7910d09022c67c602c326006735e48f7ab974845e",
+      "actual_sha256": "d861fbc6602a7e778f60f4b7910d09022c67c602c326006735e48f7ab974845e",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_quick_screen_fold_5_leakage_audit.json",
+      "expected_sha256": "11a9ee3ec71592216e0bb72ce08c459aa2486e5ac6bb771a802543eff08cacca",
+      "actual_sha256": "11a9ee3ec71592216e0bb72ce08c459aa2486e5ac6bb771a802543eff08cacca",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "audits\\vanilla_hdc_quick_screen_fold_5_notebook_persistence_audit.json",
+      "expected_sha256": "95a1a915fecf1cdf187946b1926c982e9ed96b3eb8480734c6874184d2bdfb8a",
+      "actual_sha256": "95a1a915fecf1cdf187946b1926c982e9ed96b3eb8480734c6874184d2bdfb8a",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "configs\\phase05_environment.json",
+      "expected_sha256": "5d755859b7990f538f28111b720e121225582d2be8dcc033586262e1495b3d33",
+      "actual_sha256": "5d755859b7990f538f28111b720e121225582d2be8dcc033586262e1495b3d33",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "configs\\phase05_experiment_contract.json",
+      "expected_sha256": "a353cdcd30ccdb2988de5c8ee6a4fc184dbc85959f49867080e3348adcdcd8cd",
+      "actual_sha256": "a353cdcd30ccdb2988de5c8ee6a4fc184dbc85959f49867080e3348adcdcd8cd",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "configs\\phase05_hdc_efficiency_protocol.json",
+      "expected_sha256": "d028b77b59858149637fbdd05471ce6f843dde48da72f268c8eb78e0fafc9c69",
+      "actual_sha256": "d028b77b59858149637fbdd05471ce6f843dde48da72f268c8eb78e0fafc9c69",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "configs\\phase05_hdc_encoding_contract.json",
+      "expected_sha256": "8bffcbdcad5ef73778a5daf8eb64dd9dd1d8d90c675d10f9cbd72a1360f133ef",
+      "actual_sha256": "8bffcbdcad5ef73778a5daf8eb64dd9dd1d8d90c675d10f9cbd72a1360f133ef",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "configs\\phase05_hdc_model_selection_contract.json",
+      "expected_sha256": "d752f49de6931a799dc7e2da6b903e2d1d13cb6a5d3381b8683206cdfefabc0b",
+      "actual_sha256": "d752f49de6931a799dc7e2da6b903e2d1d13cb6a5d3381b8683206cdfefabc0b",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "configs\\phase05_hdc_regression_heads_contract.json",
+      "expected_sha256": "09b1f1d508ccda62a4801f376d5462855d81feaff0c45bd32758a4168d7e1496",
+      "actual_sha256": "09b1f1d508ccda62a4801f376d5462855d81feaff0c45bd32758a4168d7e1496",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "configs\\phase05_hdc_search_space.json",
+      "expected_sha256": "6c2e55f22a96f0bdb92007c66e82236510713dd846ae0e291a73081c900f8a5c",
+      "actual_sha256": "6c2e55f22a96f0bdb92007c66e82236510713dd846ae0e291a73081c900f8a5c",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "configs\\vanilla_hdc_final_confirmation_manifest.json",
+      "expected_sha256": "97d80bc7a5ac7341edfd8f91284de55b28b453f6ef60fafea0519ffc2d1083c7",
+      "actual_sha256": "97d80bc7a5ac7341edfd8f91284de55b28b453f6ef60fafea0519ffc2d1083c7",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "figures\\phase05_accuracy_efficiency_tradeoff.pdf",
+      "expected_sha256": "6c0c66c6c169aed3d15051b7b9cacd720676b95b6cfbd07be57a7acc9946b2e7",
+      "actual_sha256": "6c0c66c6c169aed3d15051b7b9cacd720676b95b6cfbd07be57a7acc9946b2e7",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "figures\\phase05_accuracy_efficiency_tradeoff.png",
+      "expected_sha256": "5fe905d6bfce3e4c75dc7bc0831f4723c75d2db27f1bdb3aa2dad59b59885878",
+      "actual_sha256": "5fe905d6bfce3e4c75dc7bc0831f4723c75d2db27f1bdb3aa2dad59b59885878",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "figures\\phase05_classification_macro_f1_vs_dimension.pdf",
+      "expected_sha256": "f7bf4c48975d99b463de05b91638fb9ae46516ece295cc0278b51cbd8e48da11",
+      "actual_sha256": "f7bf4c48975d99b463de05b91638fb9ae46516ece295cc0278b51cbd8e48da11",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "figures\\phase05_classification_macro_f1_vs_dimension.png",
+      "expected_sha256": "31a84b400619b1436e35e798a7cc40a8327052455552fb4cc61c751244728872",
+      "actual_sha256": "31a84b400619b1436e35e798a7cc40a8327052455552fb4cc61c751244728872",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "figures\\phase05_classification_seed_stability.pdf",
+      "expected_sha256": "3c9dbd52cf5aa348d984fc585451d58eeacab80678e8d2e2501b82a420150d5d",
+      "actual_sha256": "3c9dbd52cf5aa348d984fc585451d58eeacab80678e8d2e2501b82a420150d5d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "figures\\phase05_classification_seed_stability.png",
+      "expected_sha256": "a9147777d7cd4bd6d8f0e7c3636f74e70a2c8a381661049a2791e46839214b7b",
+      "actual_sha256": "a9147777d7cd4bd6d8f0e7c3636f74e70a2c8a381661049a2791e46839214b7b",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "figures\\phase05_classification_vs_traditional_baselines.pdf",
+      "expected_sha256": "4540689951272133107ba5d28a114c01f437dada9224839dd7f1154541c8ed97",
+      "actual_sha256": "4540689951272133107ba5d28a114c01f437dada9224839dd7f1154541c8ed97",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "figures\\phase05_classification_vs_traditional_baselines.png",
+      "expected_sha256": "321bf661cbf8342cd2ed85080d9fb54fa2afa3cf83bfa895089ca3af1c15dd1d",
+      "actual_sha256": "321bf661cbf8342cd2ed85080d9fb54fa2afa3cf83bfa895089ca3af1c15dd1d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "figures\\phase05_regression_seed_stability.pdf",
+      "expected_sha256": "0df79f8583be165e709f0bcbcaf4077f557b1d85279f8725d737acd118b29f5a",
+      "actual_sha256": "0df79f8583be165e709f0bcbcaf4077f557b1d85279f8725d737acd118b29f5a",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "figures\\phase05_regression_seed_stability.png",
+      "expected_sha256": "1be82bd90bf36b4f2b0afe60386e4cbb6dfc0fa969ecc49cb1a2f4482ecdafd2",
+      "actual_sha256": "1be82bd90bf36b4f2b0afe60386e4cbb6dfc0fa969ecc49cb1a2f4482ecdafd2",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "figures\\phase05_regression_vs_traditional_baselines.pdf",
+      "expected_sha256": "59e0ea6dd24e8f139bb779151d868c25ff4b71b7be03df30356a13f534a280d7",
+      "actual_sha256": "59e0ea6dd24e8f139bb779151d868c25ff4b71b7be03df30356a13f534a280d7",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "figures\\phase05_regression_vs_traditional_baselines.png",
+      "expected_sha256": "660086f32473cdaee5d26c5c7fbfdb01a5375d4b37a95f6cfb02b0d2ad85a7b0",
+      "actual_sha256": "660086f32473cdaee5d26c5c7fbfdb01a5375d4b37a95f6cfb02b0d2ad85a7b0",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "figures\\phase05_ridge_regression_mae_vs_dimension.pdf",
+      "expected_sha256": "dc9bb8fa2e28f3289180c450d31c6bff7c9ebea4a5a5181eed80e817dd54f953",
+      "actual_sha256": "dc9bb8fa2e28f3289180c450d31c6bff7c9ebea4a5a5181eed80e817dd54f953",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "figures\\phase05_ridge_regression_mae_vs_dimension.png",
+      "expected_sha256": "95a9fb394ec2a8312eb065cf699d7e5b6c991961beeff6cf438fa00a502d1ffa",
+      "actual_sha256": "95a9fb394ec2a8312eb065cf699d7e5b6c991961beeff6cf438fa00a502d1ffa",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "figures\\phase05_similarity_regression_mae_vs_dimension.pdf",
+      "expected_sha256": "5aaecde08d1246e969f12b5b3be53653c10550f0f25eb81c813f9d0b6502e3b7",
+      "actual_sha256": "5aaecde08d1246e969f12b5b3be53653c10550f0f25eb81c813f9d0b6502e3b7",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "figures\\phase05_similarity_regression_mae_vs_dimension.png",
+      "expected_sha256": "554edb3ad90715d605211d6fbefbee1f3a2900577430f52b881e4b165b8a2b21",
+      "actual_sha256": "554edb3ad90715d605211d6fbefbee1f3a2900577430f52b881e4b165b8a2b21",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_final_confirmation_fold_1_stderr.log",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_final_confirmation_fold_1_stdout.log",
+      "expected_sha256": "3bbae770babc79d0fad58305b1ffd9ccc761d383d1b651f2d89e1bd682487032",
+      "actual_sha256": "3bbae770babc79d0fad58305b1ffd9ccc761d383d1b651f2d89e1bd682487032",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_final_confirmation_fold_2_stderr.log",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_final_confirmation_fold_2_stdout.log",
+      "expected_sha256": "0e88738484bbee369940f9953b0370ad4b0188b5ba558e817008431fa6e75710",
+      "actual_sha256": "0e88738484bbee369940f9953b0370ad4b0188b5ba558e817008431fa6e75710",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_final_confirmation_fold_3_stderr.log",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_final_confirmation_fold_3_stdout.log",
+      "expected_sha256": "c1f8bd6322b8596cba1fbebe7132587fe808fd73714fd4277efd998144a063f6",
+      "actual_sha256": "c1f8bd6322b8596cba1fbebe7132587fe808fd73714fd4277efd998144a063f6",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_final_confirmation_fold_4_stderr.log",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_final_confirmation_fold_4_stdout.log",
+      "expected_sha256": "f0b2382f689bcb88971b7993322a66334ddcc2e6d3b85bf778d334373a3ef533",
+      "actual_sha256": "f0b2382f689bcb88971b7993322a66334ddcc2e6d3b85bf778d334373a3ef533",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_final_confirmation_fold_5_stderr.log",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_final_confirmation_fold_5_stdout.log",
+      "expected_sha256": "50dbb9f48e19217d3c9f48745afe73a9c07111cfe24b929abd56ad5bb90a6a8c",
+      "actual_sha256": "50dbb9f48e19217d3c9f48745afe73a9c07111cfe24b929abd56ad5bb90a6a8c",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_quick_screen_fold_1_stderr.log",
+      "expected_sha256": "46362ae2d7157206115055e612420319435d1f915f9390413ba9071e4d86747e",
+      "actual_sha256": "46362ae2d7157206115055e612420319435d1f915f9390413ba9071e4d86747e",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_quick_screen_fold_1_stdout.log",
+      "expected_sha256": "b7c8cb6f039ab367b47eb7183340b5d0a6218fccd6599410d31558364246a338",
+      "actual_sha256": "b7c8cb6f039ab367b47eb7183340b5d0a6218fccd6599410d31558364246a338",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_quick_screen_fold_2_stderr.log",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_quick_screen_fold_2_stdout.log",
+      "expected_sha256": "47a5658be8aa318647e341ab2210aa9708a58942410ed3eab6f525d14d8b33fd",
+      "actual_sha256": "47a5658be8aa318647e341ab2210aa9708a58942410ed3eab6f525d14d8b33fd",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_quick_screen_fold_3_stderr.log",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_quick_screen_fold_3_stdout.log",
+      "expected_sha256": "7728623f9eb7e9d1c146ffa2a45868bea7f6739e1d7e9c8944536347b0d2323a",
+      "actual_sha256": "7728623f9eb7e9d1c146ffa2a45868bea7f6739e1d7e9c8944536347b0d2323a",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_quick_screen_fold_4_stderr.log",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_quick_screen_fold_4_stdout.log",
+      "expected_sha256": "4311faa28ff609e60fdea194a2fbb5c1859db95d1d8c110d6ba29566b05f7d90",
+      "actual_sha256": "4311faa28ff609e60fdea194a2fbb5c1859db95d1d8c110d6ba29566b05f7d90",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_quick_screen_fold_5_stderr.log",
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "logs\\vanilla_hdc_quick_screen_fold_5_stdout.log",
+      "expected_sha256": "1d3fd5a1fdc19f4570e85f7818bcd491cf4322bd86e5d0c65fe8f1e9f5f0a71b",
+      "actual_sha256": "1d3fd5a1fdc19f4570e85f7818bcd491cf4322bd86e5d0c65fe8f1e9f5f0a71b",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "manifests\\phase05_input_manifest.json",
+      "expected_sha256": "1a2cef9d3cdf98538f8125420f2f4c84cb6d86915e0fb35aedc43ca70c89b130",
+      "actual_sha256": "1a2cef9d3cdf98538f8125420f2f4c84cb6d86915e0fb35aedc43ca70c89b130",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "manifests\\vanilla_hdc_final_confirmation_artifact_manifest.json",
+      "expected_sha256": "6d718237b54620642ba8e7a91227c762ecb328e3111387a04cd777a7e4c6d836",
+      "actual_sha256": "6d718237b54620642ba8e7a91227c762ecb328e3111387a04cd777a7e4c6d836",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "manifests\\vanilla_hdc_quick_screen_artifact_manifest.json",
+      "expected_sha256": "617cc38b05cbcc30d87992f837bb2ac75f7ea4a059ab37a8fd4d35b7e36db38c",
+      "actual_sha256": "617cc38b05cbcc30d87992f837bb2ac75f7ea4a059ab37a8fd4d35b7e36db38c",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "reports\\phase05_hdc_contract_freeze_report.md",
+      "expected_sha256": "082c259a40a2a7f6da42c8ceea931a00c53a90ef3ccd274c157d5ae5b4752288",
+      "actual_sha256": "082c259a40a2a7f6da42c8ceea931a00c53a90ef3ccd274c157d5ae5b4752288",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "reports\\phase05_initialization_report.md",
+      "expected_sha256": "fc523846a050f2e4e930ee22e1008187633d9cfc7129a9d08c4b060a73a15238",
+      "actual_sha256": "fc523846a050f2e4e930ee22e1008187633d9cfc7129a9d08c4b060a73a15238",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\outer_training_preprocessing.json",
+      "expected_sha256": "a0523b1642618aa77a338e5b4b804ff7ab5a16964fa33d009ac6dcb243d34cba",
+      "actual_sha256": "a0523b1642618aa77a338e5b4b804ff7ab5a16964fa33d009ac6dcb243d34cba",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\outer_training_preprocessing.npz",
+      "expected_sha256": "f20c03bc50d73a3b5d4ee4b63558a0d4664fe921a317938f36adc95cf748565d",
+      "actual_sha256": "f20c03bc50d73a3b5d4ee4b63558a0d4664fe921a317938f36adc95cf748565d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\recovery_status.json",
+      "expected_sha256": "768f4696e1e8d6f73015c6c01514644b15078ec0238ced186899efb334ea4b8c",
+      "actual_sha256": "768f4696e1e8d6f73015c6c01514644b15078ec0238ced186899efb334ea4b8c",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_10000_seed_42_checkpoint.json",
+      "expected_sha256": "670d7788434d18177101cefb93821925720d24d407be8cc10075baea4b743dbf",
+      "actual_sha256": "670d7788434d18177101cefb93821925720d24d407be8cc10075baea4b743dbf",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_10000_seed_42_model.npz",
+      "expected_sha256": "e5c667226bd2602a87dbf6758e8419b76d2a68fe7ec177e63aee788e73a5ee1d",
+      "actual_sha256": "e5c667226bd2602a87dbf6758e8419b76d2a68fe7ec177e63aee788e73a5ee1d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_10000_seed_43_checkpoint.json",
+      "expected_sha256": "8298803582e3f1c00ca6ade59cc693e57f1721e6b6c62a229386e7c9ea21c6a9",
+      "actual_sha256": "8298803582e3f1c00ca6ade59cc693e57f1721e6b6c62a229386e7c9ea21c6a9",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_10000_seed_43_model.npz",
+      "expected_sha256": "6dbc5276677070c81b506f6608f3b46d6b5d7df7b4557d7e37d4a94b4d112be9",
+      "actual_sha256": "6dbc5276677070c81b506f6608f3b46d6b5d7df7b4557d7e37d4a94b4d112be9",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_10000_seed_44_checkpoint.json",
+      "expected_sha256": "52671a7e61ead51c52f6eb1224b5540afc9e57411f8ec264a76376794ef71957",
+      "actual_sha256": "52671a7e61ead51c52f6eb1224b5540afc9e57411f8ec264a76376794ef71957",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_10000_seed_44_model.npz",
+      "expected_sha256": "d65b72d0a275a1b5d1910edf79d12777c30c18cefbb039853fcf5a9ab5262292",
+      "actual_sha256": "d65b72d0a275a1b5d1910edf79d12777c30c18cefbb039853fcf5a9ab5262292",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_10000_seed_45_checkpoint.json",
+      "expected_sha256": "1ae5319a3d56e40b14a807ae44778800a520b642aed4667ca866945f66faa85e",
+      "actual_sha256": "1ae5319a3d56e40b14a807ae44778800a520b642aed4667ca866945f66faa85e",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_10000_seed_45_model.npz",
+      "expected_sha256": "489b5d7ba139152dc50796b7622b2ad83bcb809805275f88c716c1732ccf0953",
+      "actual_sha256": "489b5d7ba139152dc50796b7622b2ad83bcb809805275f88c716c1732ccf0953",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_10000_seed_46_checkpoint.json",
+      "expected_sha256": "e30c371a0bce840359891b54cff1c9121af09cb98e3035cf6d130a0b55145bda",
+      "actual_sha256": "e30c371a0bce840359891b54cff1c9121af09cb98e3035cf6d130a0b55145bda",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_10000_seed_46_model.npz",
+      "expected_sha256": "17d231478c5db89a108eb62d170ee9a486c0e89d6773c586edb57c46d8a52b06",
+      "actual_sha256": "17d231478c5db89a108eb62d170ee9a486c0e89d6773c586edb57c46d8a52b06",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_1000_seed_42_checkpoint.json",
+      "expected_sha256": "a7ff3db386e4598baabf84e7676563f1819de8ed79e72eb6472bba5472b0dbe8",
+      "actual_sha256": "a7ff3db386e4598baabf84e7676563f1819de8ed79e72eb6472bba5472b0dbe8",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_1000_seed_42_model.npz",
+      "expected_sha256": "da2462ed5a5d42f67da6e38a791ecf6e433819a203c6ee86c90b850fe1a63eb7",
+      "actual_sha256": "da2462ed5a5d42f67da6e38a791ecf6e433819a203c6ee86c90b850fe1a63eb7",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_1000_seed_43_checkpoint.json",
+      "expected_sha256": "2d8938f915619d1952032cbf7fbdcef74736142c5a3310f17214e315de4dafce",
+      "actual_sha256": "2d8938f915619d1952032cbf7fbdcef74736142c5a3310f17214e315de4dafce",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_1000_seed_43_model.npz",
+      "expected_sha256": "0e16f5f4d87be884c13fb07f6fc50e78bb9246cf52bcc5d1357cce2bd5f37961",
+      "actual_sha256": "0e16f5f4d87be884c13fb07f6fc50e78bb9246cf52bcc5d1357cce2bd5f37961",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_1000_seed_44_checkpoint.json",
+      "expected_sha256": "ee04a29b5b6876808061dd7b4caa3a91d29a2e970a76b74bbe94caf4dc243881",
+      "actual_sha256": "ee04a29b5b6876808061dd7b4caa3a91d29a2e970a76b74bbe94caf4dc243881",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_1000_seed_44_model.npz",
+      "expected_sha256": "014230be59c38881808e3bb957e4e5c85f516e3fbe8562538cfd4789f50827b1",
+      "actual_sha256": "014230be59c38881808e3bb957e4e5c85f516e3fbe8562538cfd4789f50827b1",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_1000_seed_45_checkpoint.json",
+      "expected_sha256": "033e4f1a0e5980a841223ac72f526597ef0aa8c7ed1117007538cda3f671e9d5",
+      "actual_sha256": "033e4f1a0e5980a841223ac72f526597ef0aa8c7ed1117007538cda3f671e9d5",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_1000_seed_45_model.npz",
+      "expected_sha256": "cd3742fa2e9ba7e88ee829db461b558a41d6c7eab07308548f491cef96662dc7",
+      "actual_sha256": "cd3742fa2e9ba7e88ee829db461b558a41d6c7eab07308548f491cef96662dc7",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_1000_seed_46_checkpoint.json",
+      "expected_sha256": "65e6c9ebbd9209e52599dd2563d9ec91eea5af11cddf3e572147ef92f9f6a569",
+      "actual_sha256": "65e6c9ebbd9209e52599dd2563d9ec91eea5af11cddf3e572147ef92f9f6a569",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_1000_seed_46_model.npz",
+      "expected_sha256": "0e4de607f627901b2fdacf97961543a53770737dca4734c550eae99f1688cb6b",
+      "actual_sha256": "0e4de607f627901b2fdacf97961543a53770737dca4734c550eae99f1688cb6b",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_2000_seed_42_checkpoint.json",
+      "expected_sha256": "8b20769bf9debc8a65a258f788e6766fce4101f5c92ce6b946a0ed5fe4315ace",
+      "actual_sha256": "8b20769bf9debc8a65a258f788e6766fce4101f5c92ce6b946a0ed5fe4315ace",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_2000_seed_42_model.npz",
+      "expected_sha256": "c18d56d851aa015ee135ea6b3e450dcc4b311e7f6c2a5ccddb5109f07fb752b9",
+      "actual_sha256": "c18d56d851aa015ee135ea6b3e450dcc4b311e7f6c2a5ccddb5109f07fb752b9",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_2000_seed_43_checkpoint.json",
+      "expected_sha256": "38b8aaf4750a7215fe227ff6418da30bdb9b00a21ceaa6b5147f967d516abfc6",
+      "actual_sha256": "38b8aaf4750a7215fe227ff6418da30bdb9b00a21ceaa6b5147f967d516abfc6",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_2000_seed_43_model.npz",
+      "expected_sha256": "95000b1e57144c104c11608bf9333781fe7b9d4ea4e68e88a71a3dbd08042674",
+      "actual_sha256": "95000b1e57144c104c11608bf9333781fe7b9d4ea4e68e88a71a3dbd08042674",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_2000_seed_44_checkpoint.json",
+      "expected_sha256": "aaea7cd0e9c9a62c3bb8e2cef5ef1b473a841c78eebc8ed548a0d39475bd82fa",
+      "actual_sha256": "aaea7cd0e9c9a62c3bb8e2cef5ef1b473a841c78eebc8ed548a0d39475bd82fa",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_2000_seed_44_model.npz",
+      "expected_sha256": "a4a5abef6961385ae49c06b715074b913b2073e1a445c01ee32b5fd3c23cb659",
+      "actual_sha256": "a4a5abef6961385ae49c06b715074b913b2073e1a445c01ee32b5fd3c23cb659",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_2000_seed_45_checkpoint.json",
+      "expected_sha256": "e16e669231ade913803b304a01aca3ccaf392b9743efbb024ebcca9ad95c41f5",
+      "actual_sha256": "e16e669231ade913803b304a01aca3ccaf392b9743efbb024ebcca9ad95c41f5",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_2000_seed_45_model.npz",
+      "expected_sha256": "b94be18a7cc0a8ee263999135a511dacebdae5a10df2657c3e8ab37431f50bdb",
+      "actual_sha256": "b94be18a7cc0a8ee263999135a511dacebdae5a10df2657c3e8ab37431f50bdb",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_2000_seed_46_checkpoint.json",
+      "expected_sha256": "51cb553cb233bf3cc91fec54901c4ab4617c20dd439edc13e8544300176e9d22",
+      "actual_sha256": "51cb553cb233bf3cc91fec54901c4ab4617c20dd439edc13e8544300176e9d22",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_2000_seed_46_model.npz",
+      "expected_sha256": "a39cd5dba3a1b224391b67aff986379d48852282185a227295c4fe69ecb860fc",
+      "actual_sha256": "a39cd5dba3a1b224391b67aff986379d48852282185a227295c4fe69ecb860fc",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_5000_seed_42_checkpoint.json",
+      "expected_sha256": "2ee2a0a8c02ce6638cbe41f44b2239ef4ef8fdc7dea5eb04f1c186d0567fd2d8",
+      "actual_sha256": "2ee2a0a8c02ce6638cbe41f44b2239ef4ef8fdc7dea5eb04f1c186d0567fd2d8",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_5000_seed_42_model.npz",
+      "expected_sha256": "7a243f79e184c64d957286cb353ebcdd8390b38eb96a837515d15cd1264f2cba",
+      "actual_sha256": "7a243f79e184c64d957286cb353ebcdd8390b38eb96a837515d15cd1264f2cba",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_5000_seed_43_checkpoint.json",
+      "expected_sha256": "407306b82113e1ace3b3bb6eeb0ea672c588ea4e0a38b1b2d7f8b8a2ab2b6a81",
+      "actual_sha256": "407306b82113e1ace3b3bb6eeb0ea672c588ea4e0a38b1b2d7f8b8a2ab2b6a81",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_5000_seed_43_model.npz",
+      "expected_sha256": "87bfc19da3fab570858f8402a2ff6299fa9d6108638dbd119d93552725c381ad",
+      "actual_sha256": "87bfc19da3fab570858f8402a2ff6299fa9d6108638dbd119d93552725c381ad",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_5000_seed_44_checkpoint.json",
+      "expected_sha256": "9f61c128a4ce7109f8109a6dcc36f2ab617775d3ecaa19a16c84e8e8c5cc6730",
+      "actual_sha256": "9f61c128a4ce7109f8109a6dcc36f2ab617775d3ecaa19a16c84e8e8c5cc6730",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_5000_seed_44_model.npz",
+      "expected_sha256": "702fea1904e7368f66f3f0ade5d220a5a1867696e4efe496a08de5a1bf85ec02",
+      "actual_sha256": "702fea1904e7368f66f3f0ade5d220a5a1867696e4efe496a08de5a1bf85ec02",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_5000_seed_45_checkpoint.json",
+      "expected_sha256": "edcc6229651b2df5d1a4eee033455fbae2b93795929514ea2b49640cb25dc40e",
+      "actual_sha256": "edcc6229651b2df5d1a4eee033455fbae2b93795929514ea2b49640cb25dc40e",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_5000_seed_45_model.npz",
+      "expected_sha256": "fa296b7a584ddbf1508dfd215aaba200f4850b01fa5b0d2f66de29321b7ee477",
+      "actual_sha256": "fa296b7a584ddbf1508dfd215aaba200f4850b01fa5b0d2f66de29321b7ee477",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_5000_seed_46_checkpoint.json",
+      "expected_sha256": "7707a1f057f6bb46c07bb03b0371b56e9a6cd925729dfe77d44f23d43a39f462",
+      "actual_sha256": "7707a1f057f6bb46c07bb03b0371b56e9a6cd925729dfe77d44f23d43a39f462",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_1\\vanilla_hdc_final_confirmation_fold_1_dimension_5000_seed_46_model.npz",
+      "expected_sha256": "3a01e9f4bede6375c420869968d5d6c23d6e162e799fa43e38ec2d0ecc883398",
+      "actual_sha256": "3a01e9f4bede6375c420869968d5d6c23d6e162e799fa43e38ec2d0ecc883398",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\outer_training_preprocessing.json",
+      "expected_sha256": "28a38d43c9bcf80c68224393926e4cca72ae5fef1b3a317bec8719e10574fdf9",
+      "actual_sha256": "28a38d43c9bcf80c68224393926e4cca72ae5fef1b3a317bec8719e10574fdf9",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\outer_training_preprocessing.npz",
+      "expected_sha256": "d1f52ee3f2f40dca4445528da198f5da1f363a264d7bb16dea9303225d6311cc",
+      "actual_sha256": "d1f52ee3f2f40dca4445528da198f5da1f363a264d7bb16dea9303225d6311cc",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\recovery_status.json",
+      "expected_sha256": "48d5f4f7541b9643bd5db0b0e7572d007f8f5ddbd2f2b54ae7b4eff34a3066f0",
+      "actual_sha256": "48d5f4f7541b9643bd5db0b0e7572d007f8f5ddbd2f2b54ae7b4eff34a3066f0",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_10000_seed_42_checkpoint.json",
+      "expected_sha256": "0682d171233d288cdcf1a11475fabe58d61e0848d9a4120502e0ec95c5d428a7",
+      "actual_sha256": "0682d171233d288cdcf1a11475fabe58d61e0848d9a4120502e0ec95c5d428a7",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_10000_seed_42_model.npz",
+      "expected_sha256": "7b5434266a37c01c4e9ae6dc9c00045c189d45b2279a2ada5638890c36db88c4",
+      "actual_sha256": "7b5434266a37c01c4e9ae6dc9c00045c189d45b2279a2ada5638890c36db88c4",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_10000_seed_43_checkpoint.json",
+      "expected_sha256": "a115d90b7955cf0b54bb13bc4c84fba6ddd55e7cde57ac21a002fbaf7b650ea4",
+      "actual_sha256": "a115d90b7955cf0b54bb13bc4c84fba6ddd55e7cde57ac21a002fbaf7b650ea4",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_10000_seed_43_model.npz",
+      "expected_sha256": "cd1e0f2213c658f215a617cd7ad86579f0f501cbd91933940218931a7c56c531",
+      "actual_sha256": "cd1e0f2213c658f215a617cd7ad86579f0f501cbd91933940218931a7c56c531",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_10000_seed_44_checkpoint.json",
+      "expected_sha256": "2b426767ae7d48ecb17eb339eee15fbd1154dae9c969547c50f44dab8ceb9cf5",
+      "actual_sha256": "2b426767ae7d48ecb17eb339eee15fbd1154dae9c969547c50f44dab8ceb9cf5",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_10000_seed_44_model.npz",
+      "expected_sha256": "791c86e1fde44ef7b26a79616151364d4e67957490f3d1b5436ed1da1033f67d",
+      "actual_sha256": "791c86e1fde44ef7b26a79616151364d4e67957490f3d1b5436ed1da1033f67d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_10000_seed_45_checkpoint.json",
+      "expected_sha256": "60a05b0591a67848c9815e88d684081822bae91a4530e7102f059d74bbe2cf87",
+      "actual_sha256": "60a05b0591a67848c9815e88d684081822bae91a4530e7102f059d74bbe2cf87",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_10000_seed_45_model.npz",
+      "expected_sha256": "d76a87c35dc764d7cb530dff3cc90c3bf81ec93c4f0ce84290670333d48d0f04",
+      "actual_sha256": "d76a87c35dc764d7cb530dff3cc90c3bf81ec93c4f0ce84290670333d48d0f04",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_10000_seed_46_checkpoint.json",
+      "expected_sha256": "03b8d682dd4c3699e44cfd9dc3ff605c76dece4eee2d8b303b82a3f48049f799",
+      "actual_sha256": "03b8d682dd4c3699e44cfd9dc3ff605c76dece4eee2d8b303b82a3f48049f799",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_10000_seed_46_model.npz",
+      "expected_sha256": "49582bbd30f57740353688df6337f3c4e34e50317fa3fb77adffb4a75af7ccc2",
+      "actual_sha256": "49582bbd30f57740353688df6337f3c4e34e50317fa3fb77adffb4a75af7ccc2",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_1000_seed_42_checkpoint.json",
+      "expected_sha256": "282b7ab3457b10b252c030851bf43ca87185404ca42835d591577d08a89b4226",
+      "actual_sha256": "282b7ab3457b10b252c030851bf43ca87185404ca42835d591577d08a89b4226",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_1000_seed_42_model.npz",
+      "expected_sha256": "22a6dbb17bf4d8349a728e5636d35c61a36f782c029f0d01357a7ea94dfd83ec",
+      "actual_sha256": "22a6dbb17bf4d8349a728e5636d35c61a36f782c029f0d01357a7ea94dfd83ec",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_1000_seed_43_checkpoint.json",
+      "expected_sha256": "bd3be15452a267ffbc77d0cfbc8be1d7516e43bec10a1fdf22215bd54ec51b0f",
+      "actual_sha256": "bd3be15452a267ffbc77d0cfbc8be1d7516e43bec10a1fdf22215bd54ec51b0f",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_1000_seed_43_model.npz",
+      "expected_sha256": "e6d42b73c421686bc20c0f95143ed509af28042b516ac9b3efa12139422e2f7f",
+      "actual_sha256": "e6d42b73c421686bc20c0f95143ed509af28042b516ac9b3efa12139422e2f7f",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_1000_seed_44_checkpoint.json",
+      "expected_sha256": "746402579bf293b916f96d0ace0e7248a9f20d0ff9c47680ffe030940d157e3a",
+      "actual_sha256": "746402579bf293b916f96d0ace0e7248a9f20d0ff9c47680ffe030940d157e3a",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_1000_seed_44_model.npz",
+      "expected_sha256": "23ed8a88297702263c01a0f3d364b0cfa29b391905bdba53ecea94342679ed7d",
+      "actual_sha256": "23ed8a88297702263c01a0f3d364b0cfa29b391905bdba53ecea94342679ed7d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_1000_seed_45_checkpoint.json",
+      "expected_sha256": "96ff4b19cf23fa3d109cfe1cf2af4b59b191891cb406b696700b30760cd7ce0b",
+      "actual_sha256": "96ff4b19cf23fa3d109cfe1cf2af4b59b191891cb406b696700b30760cd7ce0b",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_1000_seed_45_model.npz",
+      "expected_sha256": "fe73a548f99088009dcdfdd89b069133bd98b015ad15367e40624da940f7b165",
+      "actual_sha256": "fe73a548f99088009dcdfdd89b069133bd98b015ad15367e40624da940f7b165",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_1000_seed_46_checkpoint.json",
+      "expected_sha256": "fd724703a1dd2f15dc68f26594e956598de38b1525eca8ddb9e332ae428c3dc4",
+      "actual_sha256": "fd724703a1dd2f15dc68f26594e956598de38b1525eca8ddb9e332ae428c3dc4",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_1000_seed_46_model.npz",
+      "expected_sha256": "ec8d6653439d774100ba65a44747de2dd537b00123f08e0b21293f1d075b4096",
+      "actual_sha256": "ec8d6653439d774100ba65a44747de2dd537b00123f08e0b21293f1d075b4096",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_2000_seed_42_checkpoint.json",
+      "expected_sha256": "265a9ae886bf754f417a1f8bd9598630cd921b2830895f9835ef8a7cfb7d7e7a",
+      "actual_sha256": "265a9ae886bf754f417a1f8bd9598630cd921b2830895f9835ef8a7cfb7d7e7a",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_2000_seed_42_model.npz",
+      "expected_sha256": "e1a30d66336a212cdf78b1364914876dfa42bcc453a03acc55b2074c14fcf4fb",
+      "actual_sha256": "e1a30d66336a212cdf78b1364914876dfa42bcc453a03acc55b2074c14fcf4fb",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_2000_seed_43_checkpoint.json",
+      "expected_sha256": "06acd809a21d1fa2a01b9f6ebbfd0941fc530e173851301a32fa0c6d97e3f459",
+      "actual_sha256": "06acd809a21d1fa2a01b9f6ebbfd0941fc530e173851301a32fa0c6d97e3f459",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_2000_seed_43_model.npz",
+      "expected_sha256": "e3463a1f7f16aa5238d7225186c4184e63140fab75aa3631efad913d4c56eb19",
+      "actual_sha256": "e3463a1f7f16aa5238d7225186c4184e63140fab75aa3631efad913d4c56eb19",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_2000_seed_44_checkpoint.json",
+      "expected_sha256": "bf70d78ee0d8489d05d4c2adcdd66768003e063505277dc92975635c55ac4c2b",
+      "actual_sha256": "bf70d78ee0d8489d05d4c2adcdd66768003e063505277dc92975635c55ac4c2b",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_2000_seed_44_model.npz",
+      "expected_sha256": "4772f2a3127ae1c7c7c63e6b94f48c441227478732f3808b04962b3c4c27a255",
+      "actual_sha256": "4772f2a3127ae1c7c7c63e6b94f48c441227478732f3808b04962b3c4c27a255",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_2000_seed_45_checkpoint.json",
+      "expected_sha256": "d9e6896e043e239144d9934992e343ec6923e49796f87263ae307b20570eed62",
+      "actual_sha256": "d9e6896e043e239144d9934992e343ec6923e49796f87263ae307b20570eed62",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_2000_seed_45_model.npz",
+      "expected_sha256": "815489520acfaf87885717c79d3f886b57aae6129ecfcf2ef442d322682d40e6",
+      "actual_sha256": "815489520acfaf87885717c79d3f886b57aae6129ecfcf2ef442d322682d40e6",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_2000_seed_46_checkpoint.json",
+      "expected_sha256": "f50f6cb5816637ba0cff94407479ebdfd921d1d5441ce516b43a45409fb47ba0",
+      "actual_sha256": "f50f6cb5816637ba0cff94407479ebdfd921d1d5441ce516b43a45409fb47ba0",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_2000_seed_46_model.npz",
+      "expected_sha256": "4e767855c61ddfdce826e997e0bcc20081a36c24cf6a8597a6076d93feaba465",
+      "actual_sha256": "4e767855c61ddfdce826e997e0bcc20081a36c24cf6a8597a6076d93feaba465",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_5000_seed_42_checkpoint.json",
+      "expected_sha256": "65f9b15797bde788d09ec10d7e0e3c5b1077df2d34a280601e3700061425f804",
+      "actual_sha256": "65f9b15797bde788d09ec10d7e0e3c5b1077df2d34a280601e3700061425f804",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_5000_seed_42_model.npz",
+      "expected_sha256": "2e116534f7ecaa804231f79414c3d9682ec01864da087a0b901ed9bb1c0b1acb",
+      "actual_sha256": "2e116534f7ecaa804231f79414c3d9682ec01864da087a0b901ed9bb1c0b1acb",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_5000_seed_43_checkpoint.json",
+      "expected_sha256": "41924474cc9acdc93743c8ead1f4c9a6e710bb44b96dd371b40ed16bd6a8a14e",
+      "actual_sha256": "41924474cc9acdc93743c8ead1f4c9a6e710bb44b96dd371b40ed16bd6a8a14e",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_5000_seed_43_model.npz",
+      "expected_sha256": "3f1ba8695c1f390a5c8c594a6c7c861016abb1ac9ea1dae88fafd49f059f5e46",
+      "actual_sha256": "3f1ba8695c1f390a5c8c594a6c7c861016abb1ac9ea1dae88fafd49f059f5e46",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_5000_seed_44_checkpoint.json",
+      "expected_sha256": "0ee312995cd12a24169ad95ca2bbfe7cde00c7415aaf862ddd4ddd672c5e05a8",
+      "actual_sha256": "0ee312995cd12a24169ad95ca2bbfe7cde00c7415aaf862ddd4ddd672c5e05a8",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_5000_seed_44_model.npz",
+      "expected_sha256": "fd0a2f63406644ff01a8ff9ff6e41559bafff641292c8e19443d423e306e25bb",
+      "actual_sha256": "fd0a2f63406644ff01a8ff9ff6e41559bafff641292c8e19443d423e306e25bb",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_5000_seed_45_checkpoint.json",
+      "expected_sha256": "2015e6662e7ea631c821ec06b1785ca4dfccc501ddfd8a299bb00337a4dc85bf",
+      "actual_sha256": "2015e6662e7ea631c821ec06b1785ca4dfccc501ddfd8a299bb00337a4dc85bf",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_5000_seed_45_model.npz",
+      "expected_sha256": "1e91180af1fd4f8f3f5da9fecc3861139a541f04fd75ac663310fd8ee9ed50c4",
+      "actual_sha256": "1e91180af1fd4f8f3f5da9fecc3861139a541f04fd75ac663310fd8ee9ed50c4",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_5000_seed_46_checkpoint.json",
+      "expected_sha256": "a3fe5377810c1190a2d739cb502ba82d3f5805f945e53918994bb489c485ee41",
+      "actual_sha256": "a3fe5377810c1190a2d739cb502ba82d3f5805f945e53918994bb489c485ee41",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_2\\vanilla_hdc_final_confirmation_fold_2_dimension_5000_seed_46_model.npz",
+      "expected_sha256": "1dfe6480b6925192fb318398bee4931bac886c370c97b01dde42274f259b1925",
+      "actual_sha256": "1dfe6480b6925192fb318398bee4931bac886c370c97b01dde42274f259b1925",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\outer_training_preprocessing.json",
+      "expected_sha256": "8dc5961208446690ee5c2cac9d62b523dc49793d34567755d30617f9db8214d7",
+      "actual_sha256": "8dc5961208446690ee5c2cac9d62b523dc49793d34567755d30617f9db8214d7",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\outer_training_preprocessing.npz",
+      "expected_sha256": "b865d7d874b574ead1854abc2463e0e44960806821184cd7e81b77475a0d5b4e",
+      "actual_sha256": "b865d7d874b574ead1854abc2463e0e44960806821184cd7e81b77475a0d5b4e",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\recovery_status.json",
+      "expected_sha256": "b3240f0de80f95a151a93c51afa57a3bb3e6a78e1ccc7e8e40c9783b639c0d63",
+      "actual_sha256": "b3240f0de80f95a151a93c51afa57a3bb3e6a78e1ccc7e8e40c9783b639c0d63",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_10000_seed_42_checkpoint.json",
+      "expected_sha256": "52555acd20d5012aee6c44fe096b990ae5fb4f7944115c36d17113719d8e6a0a",
+      "actual_sha256": "52555acd20d5012aee6c44fe096b990ae5fb4f7944115c36d17113719d8e6a0a",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_10000_seed_42_model.npz",
+      "expected_sha256": "23d4c7c3eacb8a3d721c4adf760eb7d13918961d3a37a891e08b47429e55d883",
+      "actual_sha256": "23d4c7c3eacb8a3d721c4adf760eb7d13918961d3a37a891e08b47429e55d883",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_10000_seed_43_checkpoint.json",
+      "expected_sha256": "3a8205c6e1307ad8d2f2ee81e461ba62e57cf47fd152d597ba23b8137e5505b3",
+      "actual_sha256": "3a8205c6e1307ad8d2f2ee81e461ba62e57cf47fd152d597ba23b8137e5505b3",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_10000_seed_43_model.npz",
+      "expected_sha256": "9d4a991df96ff6a80b1bf61c12dca6722f319eb3aad6a759058c7a8dde527524",
+      "actual_sha256": "9d4a991df96ff6a80b1bf61c12dca6722f319eb3aad6a759058c7a8dde527524",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_10000_seed_44_checkpoint.json",
+      "expected_sha256": "b9f24fb901c9e895033f95eef017405b2f783678e66aefc285f876787b89121d",
+      "actual_sha256": "b9f24fb901c9e895033f95eef017405b2f783678e66aefc285f876787b89121d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_10000_seed_44_model.npz",
+      "expected_sha256": "21ed31ed6263a4e1ab16e871c56bc99b159e33d5636c9350799923f2e55c451b",
+      "actual_sha256": "21ed31ed6263a4e1ab16e871c56bc99b159e33d5636c9350799923f2e55c451b",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_10000_seed_45_checkpoint.json",
+      "expected_sha256": "d05a52ce5343d0edd0104b0132aa6a17f471532e64094c7d6c65fcac8e1a3547",
+      "actual_sha256": "d05a52ce5343d0edd0104b0132aa6a17f471532e64094c7d6c65fcac8e1a3547",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_10000_seed_45_model.npz",
+      "expected_sha256": "4ee9d871eea4ad912c24b9668f8d10054a810543255019e4e1abe21f762e5b8c",
+      "actual_sha256": "4ee9d871eea4ad912c24b9668f8d10054a810543255019e4e1abe21f762e5b8c",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_10000_seed_46_checkpoint.json",
+      "expected_sha256": "4634082c747833eb97218b83565176652537a2890e2b8f18aa7eb2ad66497c69",
+      "actual_sha256": "4634082c747833eb97218b83565176652537a2890e2b8f18aa7eb2ad66497c69",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_10000_seed_46_model.npz",
+      "expected_sha256": "26b10f8c7ddb2a62d40d0bb85591595db8911102c34f51ad3cb488cb043f4cff",
+      "actual_sha256": "26b10f8c7ddb2a62d40d0bb85591595db8911102c34f51ad3cb488cb043f4cff",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_1000_seed_42_checkpoint.json",
+      "expected_sha256": "7599adffdd7cdc794ad59d63c4d2f6d66daa13203d5d2dc5e2e1eeec5e25112c",
+      "actual_sha256": "7599adffdd7cdc794ad59d63c4d2f6d66daa13203d5d2dc5e2e1eeec5e25112c",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_1000_seed_42_model.npz",
+      "expected_sha256": "f8ecfdb5a388391a581cb9ebfa1bce8afdb81f68e4de22d8ed1369e39a82bd4b",
+      "actual_sha256": "f8ecfdb5a388391a581cb9ebfa1bce8afdb81f68e4de22d8ed1369e39a82bd4b",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_1000_seed_43_checkpoint.json",
+      "expected_sha256": "e1b709415b5512fef53795af416305dc707aef1552e1de61968ddfc7197e8a16",
+      "actual_sha256": "e1b709415b5512fef53795af416305dc707aef1552e1de61968ddfc7197e8a16",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_1000_seed_43_model.npz",
+      "expected_sha256": "29c6ba289a3af4f927ebac1c8f7bd88d28395fd719a5ded42df947af082946af",
+      "actual_sha256": "29c6ba289a3af4f927ebac1c8f7bd88d28395fd719a5ded42df947af082946af",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_1000_seed_44_checkpoint.json",
+      "expected_sha256": "fa6dad213d9303c8c34c94cf2bb95b635d790bd248250ff79901d068aa01f91d",
+      "actual_sha256": "fa6dad213d9303c8c34c94cf2bb95b635d790bd248250ff79901d068aa01f91d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_1000_seed_44_model.npz",
+      "expected_sha256": "3aeb8e74eea3a1be93f371e593ade639d28fef51a7f08754f6fec08c1ec40c51",
+      "actual_sha256": "3aeb8e74eea3a1be93f371e593ade639d28fef51a7f08754f6fec08c1ec40c51",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_1000_seed_45_checkpoint.json",
+      "expected_sha256": "2ddf932da949d6f4ab97c86e851caa1e52e8bdb610612c36feee67a6428fe035",
+      "actual_sha256": "2ddf932da949d6f4ab97c86e851caa1e52e8bdb610612c36feee67a6428fe035",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_1000_seed_45_model.npz",
+      "expected_sha256": "c90e232ddc30439b296f1d3c6e0e20d1d3110c38aa3494ca684dcd0c68a63115",
+      "actual_sha256": "c90e232ddc30439b296f1d3c6e0e20d1d3110c38aa3494ca684dcd0c68a63115",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_1000_seed_46_checkpoint.json",
+      "expected_sha256": "31cbbc9d95a2e7c643ea0ceea66d8201816bf68280bcbe2a9ba9e97fd4dba1e8",
+      "actual_sha256": "31cbbc9d95a2e7c643ea0ceea66d8201816bf68280bcbe2a9ba9e97fd4dba1e8",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_1000_seed_46_model.npz",
+      "expected_sha256": "2da49b2a38889a5127371a37883f269bbe550da8501992e7dc0dfc286bf96d06",
+      "actual_sha256": "2da49b2a38889a5127371a37883f269bbe550da8501992e7dc0dfc286bf96d06",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_2000_seed_42_checkpoint.json",
+      "expected_sha256": "3a1c882451f2183c2231bd3e91c45f82455773b8f814522c8d51c1f0c789b8fd",
+      "actual_sha256": "3a1c882451f2183c2231bd3e91c45f82455773b8f814522c8d51c1f0c789b8fd",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_2000_seed_42_model.npz",
+      "expected_sha256": "9dc96d62a072f38d33e8633aecf880a224f0321cb5083695fc61ad98119704a4",
+      "actual_sha256": "9dc96d62a072f38d33e8633aecf880a224f0321cb5083695fc61ad98119704a4",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_2000_seed_43_checkpoint.json",
+      "expected_sha256": "1d439ca6770e7fe31249758fd24bf0f9f3ccb3be86c36f62f6124eec897749f3",
+      "actual_sha256": "1d439ca6770e7fe31249758fd24bf0f9f3ccb3be86c36f62f6124eec897749f3",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_2000_seed_43_model.npz",
+      "expected_sha256": "b983c93baf2cdeca92ebf5e6e29b213eeda79bf64c120e0972efe0944b2b818f",
+      "actual_sha256": "b983c93baf2cdeca92ebf5e6e29b213eeda79bf64c120e0972efe0944b2b818f",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_2000_seed_44_checkpoint.json",
+      "expected_sha256": "2ac57412a58030ac8eeb63fe48b471d92e3e9a726ad98c3e46cc6ad676cacaed",
+      "actual_sha256": "2ac57412a58030ac8eeb63fe48b471d92e3e9a726ad98c3e46cc6ad676cacaed",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_2000_seed_44_model.npz",
+      "expected_sha256": "15fd20e697e0cdfd3066f5d49d62ba64d495a39b1a3cdecb98da9117b3606bdf",
+      "actual_sha256": "15fd20e697e0cdfd3066f5d49d62ba64d495a39b1a3cdecb98da9117b3606bdf",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_2000_seed_45_checkpoint.json",
+      "expected_sha256": "8c5c675d1b3570e6b43261cb2458ead9a0a03a40152b890515b8d2d04425b5cc",
+      "actual_sha256": "8c5c675d1b3570e6b43261cb2458ead9a0a03a40152b890515b8d2d04425b5cc",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_2000_seed_45_model.npz",
+      "expected_sha256": "5ec1613e26cbf2470bc4afbd386e5bdcf851eb5f120b50a67292c07545897451",
+      "actual_sha256": "5ec1613e26cbf2470bc4afbd386e5bdcf851eb5f120b50a67292c07545897451",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_2000_seed_46_checkpoint.json",
+      "expected_sha256": "da3e732f3bfc0e4985790644a5e38ee01d903f83142cbaa4cf677fb0912fe2d5",
+      "actual_sha256": "da3e732f3bfc0e4985790644a5e38ee01d903f83142cbaa4cf677fb0912fe2d5",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_2000_seed_46_model.npz",
+      "expected_sha256": "c63c78a3c7178d9d579aef0ab5ab1e6f03288064ca80bd45c16c7b5ef177c180",
+      "actual_sha256": "c63c78a3c7178d9d579aef0ab5ab1e6f03288064ca80bd45c16c7b5ef177c180",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_5000_seed_42_checkpoint.json",
+      "expected_sha256": "96c5935540fdfff253d28bd073cd4234f81d18ee0fbbd08c5ddf8dbeedc70023",
+      "actual_sha256": "96c5935540fdfff253d28bd073cd4234f81d18ee0fbbd08c5ddf8dbeedc70023",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_5000_seed_42_model.npz",
+      "expected_sha256": "0fb2debe78278ed6614c0e0bb4f9949e47f3cd8df0ed272c7105149292ab5ccd",
+      "actual_sha256": "0fb2debe78278ed6614c0e0bb4f9949e47f3cd8df0ed272c7105149292ab5ccd",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_5000_seed_43_checkpoint.json",
+      "expected_sha256": "8283dd445d550489d58872b97d28c60d8e07a9b43e8789a39298dc86b6e80fad",
+      "actual_sha256": "8283dd445d550489d58872b97d28c60d8e07a9b43e8789a39298dc86b6e80fad",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_5000_seed_43_model.npz",
+      "expected_sha256": "7cb1e537d142eb3e28c08e213954cde3b3ba9e3ee02e0839062be34a4b578867",
+      "actual_sha256": "7cb1e537d142eb3e28c08e213954cde3b3ba9e3ee02e0839062be34a4b578867",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_5000_seed_44_checkpoint.json",
+      "expected_sha256": "f4dff3b897806c1b8ce2d93add595387c04d6a47f02d7ba932d0095698e7b8b8",
+      "actual_sha256": "f4dff3b897806c1b8ce2d93add595387c04d6a47f02d7ba932d0095698e7b8b8",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_5000_seed_44_model.npz",
+      "expected_sha256": "8620400076ed4c0bf1367e7e6618351515f907ae2a62c7eafbf97a212f2d5f2b",
+      "actual_sha256": "8620400076ed4c0bf1367e7e6618351515f907ae2a62c7eafbf97a212f2d5f2b",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_5000_seed_45_checkpoint.json",
+      "expected_sha256": "7ecaf876ab7997d88b086e71ef2dd502c50c150ee1cce09611c4b624e414eb01",
+      "actual_sha256": "7ecaf876ab7997d88b086e71ef2dd502c50c150ee1cce09611c4b624e414eb01",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_5000_seed_45_model.npz",
+      "expected_sha256": "c60c23e9d344e86f09888098b8440b8d3286e72c67fdaaa47c482e8fcf7f1478",
+      "actual_sha256": "c60c23e9d344e86f09888098b8440b8d3286e72c67fdaaa47c482e8fcf7f1478",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_5000_seed_46_checkpoint.json",
+      "expected_sha256": "5bcca8b62156c998b42bdeff0d721f40ce48ff5d5ec8941398243756f03abd9f",
+      "actual_sha256": "5bcca8b62156c998b42bdeff0d721f40ce48ff5d5ec8941398243756f03abd9f",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_3\\vanilla_hdc_final_confirmation_fold_3_dimension_5000_seed_46_model.npz",
+      "expected_sha256": "675ab71a8debfff0c9d4799abb79e0ee35792c5038d0d6b070a2321a03d2f2b5",
+      "actual_sha256": "675ab71a8debfff0c9d4799abb79e0ee35792c5038d0d6b070a2321a03d2f2b5",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\outer_training_preprocessing.json",
+      "expected_sha256": "e5b7b784172fb2e182a09210f0a11125bd1bfa07ffa4c166f83f829cf0306495",
+      "actual_sha256": "e5b7b784172fb2e182a09210f0a11125bd1bfa07ffa4c166f83f829cf0306495",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\outer_training_preprocessing.npz",
+      "expected_sha256": "ae55c5098ff9f7ab7962cd485d59909ff1da0b3431b4d5bf00ac124d21f4a354",
+      "actual_sha256": "ae55c5098ff9f7ab7962cd485d59909ff1da0b3431b4d5bf00ac124d21f4a354",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\recovery_status.json",
+      "expected_sha256": "84f1a1a3960742f054384a3c700cc3e33255e9d0ede35f3c2c275b9776b6fa9c",
+      "actual_sha256": "84f1a1a3960742f054384a3c700cc3e33255e9d0ede35f3c2c275b9776b6fa9c",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_10000_seed_42_checkpoint.json",
+      "expected_sha256": "af754ba91b238358c22d2b74d278dbe4980b5c3ff7bd422ab097b87408d3fbfc",
+      "actual_sha256": "af754ba91b238358c22d2b74d278dbe4980b5c3ff7bd422ab097b87408d3fbfc",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_10000_seed_42_model.npz",
+      "expected_sha256": "6713f18c74f92acfd2f87addbb6f2e1a5b2be3c22b10b2e730bf53dc007b9adc",
+      "actual_sha256": "6713f18c74f92acfd2f87addbb6f2e1a5b2be3c22b10b2e730bf53dc007b9adc",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_10000_seed_43_checkpoint.json",
+      "expected_sha256": "623854197a8a9a8ef8f3ec830438c3099ccdd17a2b5433cd8a573ef8bffb6aff",
+      "actual_sha256": "623854197a8a9a8ef8f3ec830438c3099ccdd17a2b5433cd8a573ef8bffb6aff",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_10000_seed_43_model.npz",
+      "expected_sha256": "156fcae5bd39ec9b536dccd8af4aaff7f7d908d375908811be45d844fdd44ded",
+      "actual_sha256": "156fcae5bd39ec9b536dccd8af4aaff7f7d908d375908811be45d844fdd44ded",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_10000_seed_44_checkpoint.json",
+      "expected_sha256": "8b0c593d393ccca087866d8400a68179b5eb6b87e1bde610a8c62ed50c9e8a90",
+      "actual_sha256": "8b0c593d393ccca087866d8400a68179b5eb6b87e1bde610a8c62ed50c9e8a90",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_10000_seed_44_model.npz",
+      "expected_sha256": "26f502d02f94ce33456dcb4915af6c15999729e6cec9d2428b2e891d723eca41",
+      "actual_sha256": "26f502d02f94ce33456dcb4915af6c15999729e6cec9d2428b2e891d723eca41",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_10000_seed_45_checkpoint.json",
+      "expected_sha256": "25cef255ce7044d6de9fe20d39c76665557be9ae36054b49d40efdb6fb7b99f7",
+      "actual_sha256": "25cef255ce7044d6de9fe20d39c76665557be9ae36054b49d40efdb6fb7b99f7",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_10000_seed_45_model.npz",
+      "expected_sha256": "5f44463100aa0fbf4670a065821d29c7c3daeb983275d55981516d951c346d31",
+      "actual_sha256": "5f44463100aa0fbf4670a065821d29c7c3daeb983275d55981516d951c346d31",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_10000_seed_46_checkpoint.json",
+      "expected_sha256": "1d01880a5f2ef35d4173ea10ff77ae8e7a58a887b879074d4ba3939590830f58",
+      "actual_sha256": "1d01880a5f2ef35d4173ea10ff77ae8e7a58a887b879074d4ba3939590830f58",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_10000_seed_46_model.npz",
+      "expected_sha256": "97ce301a23c77594eef5c3cbce67b4001623721c650c5349638e8bb8e13315f1",
+      "actual_sha256": "97ce301a23c77594eef5c3cbce67b4001623721c650c5349638e8bb8e13315f1",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_1000_seed_42_checkpoint.json",
+      "expected_sha256": "26d3985b95c6f1c41df904277a32248e2ce21819f852ad1f8c53552eedc8f223",
+      "actual_sha256": "26d3985b95c6f1c41df904277a32248e2ce21819f852ad1f8c53552eedc8f223",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_1000_seed_42_model.npz",
+      "expected_sha256": "6ab2d80f2a4844ec1b7f4ecb046142ac25c58263890089004a842a0df1fdf31e",
+      "actual_sha256": "6ab2d80f2a4844ec1b7f4ecb046142ac25c58263890089004a842a0df1fdf31e",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_1000_seed_43_checkpoint.json",
+      "expected_sha256": "4d2b78a09817c1a4d8cccad31ff1b7ef815929e38d39378c2ce8088777c4ca2d",
+      "actual_sha256": "4d2b78a09817c1a4d8cccad31ff1b7ef815929e38d39378c2ce8088777c4ca2d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_1000_seed_43_model.npz",
+      "expected_sha256": "362d36e998121871a958e83817fa133d3633ef680c6a7fd225ce71cde35c39ba",
+      "actual_sha256": "362d36e998121871a958e83817fa133d3633ef680c6a7fd225ce71cde35c39ba",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_1000_seed_44_checkpoint.json",
+      "expected_sha256": "3c20867527f75e5032abed561ed577cceb193295a350d9803a9de75041e2d33f",
+      "actual_sha256": "3c20867527f75e5032abed561ed577cceb193295a350d9803a9de75041e2d33f",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_1000_seed_44_model.npz",
+      "expected_sha256": "0754c3614798a3df4a0d8c731e4cf53deaa816bb748478d63ada0c52f11a3a5b",
+      "actual_sha256": "0754c3614798a3df4a0d8c731e4cf53deaa816bb748478d63ada0c52f11a3a5b",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_1000_seed_45_checkpoint.json",
+      "expected_sha256": "45f19342dd7c756b152ba11d8f29c776876e062b43f31c08b91704959fd3638f",
+      "actual_sha256": "45f19342dd7c756b152ba11d8f29c776876e062b43f31c08b91704959fd3638f",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_1000_seed_45_model.npz",
+      "expected_sha256": "1539b7e2937b6e1f28ebec03381c2693e803b8864c2fd1554307df996a71463e",
+      "actual_sha256": "1539b7e2937b6e1f28ebec03381c2693e803b8864c2fd1554307df996a71463e",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_1000_seed_46_checkpoint.json",
+      "expected_sha256": "19609c5c3e8af5773ba6250a663d0a22fb3381cb62e9faba6cf3a47534ad7828",
+      "actual_sha256": "19609c5c3e8af5773ba6250a663d0a22fb3381cb62e9faba6cf3a47534ad7828",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_1000_seed_46_model.npz",
+      "expected_sha256": "5922343ab8b8589633d975c8a2b0b5ff3e77a46c4ce4fccbfd5bc7b06a592ae5",
+      "actual_sha256": "5922343ab8b8589633d975c8a2b0b5ff3e77a46c4ce4fccbfd5bc7b06a592ae5",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_2000_seed_42_checkpoint.json",
+      "expected_sha256": "09f92c9a2dba5d6bac44cd2dc923bf2458173d6d9b43b754338b6ba90fba26c9",
+      "actual_sha256": "09f92c9a2dba5d6bac44cd2dc923bf2458173d6d9b43b754338b6ba90fba26c9",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_2000_seed_42_model.npz",
+      "expected_sha256": "cc1f569e739dc5cc67490aac04e4bdac184668d617de502d011be4fcc309e1e5",
+      "actual_sha256": "cc1f569e739dc5cc67490aac04e4bdac184668d617de502d011be4fcc309e1e5",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_2000_seed_43_checkpoint.json",
+      "expected_sha256": "1ef19dd9d6c176e24697fb9c5d5c412297c5b69e16a5595ad796f65e3ffeea2b",
+      "actual_sha256": "1ef19dd9d6c176e24697fb9c5d5c412297c5b69e16a5595ad796f65e3ffeea2b",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_2000_seed_43_model.npz",
+      "expected_sha256": "64439f945f82e726d2655c8c41a4e63feee991db4b6858ae0fafc880a4111929",
+      "actual_sha256": "64439f945f82e726d2655c8c41a4e63feee991db4b6858ae0fafc880a4111929",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_2000_seed_44_checkpoint.json",
+      "expected_sha256": "a1597f2f34dc7f08d99088e7e027548bc6d25f6a194e01a4a6aeef01673e45a4",
+      "actual_sha256": "a1597f2f34dc7f08d99088e7e027548bc6d25f6a194e01a4a6aeef01673e45a4",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_2000_seed_44_model.npz",
+      "expected_sha256": "310a0dbb3258d818a2bf3a015c816b5bd2c705e95767e9064ff07c53dda6ccbf",
+      "actual_sha256": "310a0dbb3258d818a2bf3a015c816b5bd2c705e95767e9064ff07c53dda6ccbf",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_2000_seed_45_checkpoint.json",
+      "expected_sha256": "2b2d662c2eaaf4af07e48b12b21f8e5ed021c9853ad5b7a2820e6ad57d32f47f",
+      "actual_sha256": "2b2d662c2eaaf4af07e48b12b21f8e5ed021c9853ad5b7a2820e6ad57d32f47f",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_2000_seed_45_model.npz",
+      "expected_sha256": "21a41e53ee7c24463c92c248831ad7ffddfb7356c28f02cd7841d15fd86b2fc5",
+      "actual_sha256": "21a41e53ee7c24463c92c248831ad7ffddfb7356c28f02cd7841d15fd86b2fc5",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_2000_seed_46_checkpoint.json",
+      "expected_sha256": "f243494a1c44abbb8388efad56564b8db2afc2d867df4ebea0090fc54461a808",
+      "actual_sha256": "f243494a1c44abbb8388efad56564b8db2afc2d867df4ebea0090fc54461a808",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_2000_seed_46_model.npz",
+      "expected_sha256": "6f7737d230b26a3a9138e3ed16983a22d50692f859ebe8c7408f25319440b56f",
+      "actual_sha256": "6f7737d230b26a3a9138e3ed16983a22d50692f859ebe8c7408f25319440b56f",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_5000_seed_42_checkpoint.json",
+      "expected_sha256": "331f660dcb7c3be5da788dd14e259d20c66e5fb8f10569310f450a3538ab258b",
+      "actual_sha256": "331f660dcb7c3be5da788dd14e259d20c66e5fb8f10569310f450a3538ab258b",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_5000_seed_42_model.npz",
+      "expected_sha256": "73e67477b6c21be60cffa43ef013ab5cee9cb4b2297a05399f8f4e4ee5368302",
+      "actual_sha256": "73e67477b6c21be60cffa43ef013ab5cee9cb4b2297a05399f8f4e4ee5368302",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_5000_seed_43_checkpoint.json",
+      "expected_sha256": "ddb2c0b9d46014dbd2333ae93665456d56c065d421dbc8f5298cbe3049718269",
+      "actual_sha256": "ddb2c0b9d46014dbd2333ae93665456d56c065d421dbc8f5298cbe3049718269",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_5000_seed_43_model.npz",
+      "expected_sha256": "e2c8e70ed3146bc8c361bf6a03abfd913954dba21022c88455b7a8ec56e2fa31",
+      "actual_sha256": "e2c8e70ed3146bc8c361bf6a03abfd913954dba21022c88455b7a8ec56e2fa31",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_5000_seed_44_checkpoint.json",
+      "expected_sha256": "df77ebb63207fbc906a7925e9c1835481c991531e0d15f7e1b73220fb8255677",
+      "actual_sha256": "df77ebb63207fbc906a7925e9c1835481c991531e0d15f7e1b73220fb8255677",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_5000_seed_44_model.npz",
+      "expected_sha256": "dc65ec6a9f958934e801362047764f926251465fb971c409c212367a26d817a6",
+      "actual_sha256": "dc65ec6a9f958934e801362047764f926251465fb971c409c212367a26d817a6",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_5000_seed_45_checkpoint.json",
+      "expected_sha256": "b759eecdf51f64ea8627ed42e12a99f0c1c9326cb2b35c1058937337c07636fd",
+      "actual_sha256": "b759eecdf51f64ea8627ed42e12a99f0c1c9326cb2b35c1058937337c07636fd",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_5000_seed_45_model.npz",
+      "expected_sha256": "36104a06d5623418d3e6a4445db345e533fd678bad0ed1708a85e8fce18e61a3",
+      "actual_sha256": "36104a06d5623418d3e6a4445db345e533fd678bad0ed1708a85e8fce18e61a3",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_5000_seed_46_checkpoint.json",
+      "expected_sha256": "d4e37d5c1381d20cde4476fb0ad4f7e9718144e67271bde28052345370cc3367",
+      "actual_sha256": "d4e37d5c1381d20cde4476fb0ad4f7e9718144e67271bde28052345370cc3367",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_4\\vanilla_hdc_final_confirmation_fold_4_dimension_5000_seed_46_model.npz",
+      "expected_sha256": "5a7ee0e25f51a6f386e74e3ba4c985a4f291096c2af7883574a2241be2e79857",
+      "actual_sha256": "5a7ee0e25f51a6f386e74e3ba4c985a4f291096c2af7883574a2241be2e79857",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\outer_training_preprocessing.json",
+      "expected_sha256": "0ed7ea9a8787d778121c6c6a0510defa986e719274a65dc9fede1c8887540889",
+      "actual_sha256": "0ed7ea9a8787d778121c6c6a0510defa986e719274a65dc9fede1c8887540889",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\outer_training_preprocessing.npz",
+      "expected_sha256": "eca6514400f83ea709d1fc5da5f0556de7aafe1a2e57148188b04b8f870e68a8",
+      "actual_sha256": "eca6514400f83ea709d1fc5da5f0556de7aafe1a2e57148188b04b8f870e68a8",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\recovery_status.json",
+      "expected_sha256": "268ccddfb52215e2d3f32c7db16f4de5d667dc2c7e709345a784361adeadb346",
+      "actual_sha256": "268ccddfb52215e2d3f32c7db16f4de5d667dc2c7e709345a784361adeadb346",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_10000_seed_42_checkpoint.json",
+      "expected_sha256": "e5db9159219142a95a1f31614f94fe5acb61f8fdeda7bf357b05e625675f8e73",
+      "actual_sha256": "e5db9159219142a95a1f31614f94fe5acb61f8fdeda7bf357b05e625675f8e73",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_10000_seed_42_model.npz",
+      "expected_sha256": "d4409478933992b8abd778e23e541211ff935ba5cd601d52cc8d5ccde35c60b0",
+      "actual_sha256": "d4409478933992b8abd778e23e541211ff935ba5cd601d52cc8d5ccde35c60b0",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_10000_seed_43_checkpoint.json",
+      "expected_sha256": "2837dc422563ec2a19b99f6cc7703d211f02ec39c89e136b6f736a443932f4ab",
+      "actual_sha256": "2837dc422563ec2a19b99f6cc7703d211f02ec39c89e136b6f736a443932f4ab",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_10000_seed_43_model.npz",
+      "expected_sha256": "dd40e552b3c6efe8ef7eeaf5c432546f45f4368d5e7ce28523d4f0809db2230e",
+      "actual_sha256": "dd40e552b3c6efe8ef7eeaf5c432546f45f4368d5e7ce28523d4f0809db2230e",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_10000_seed_44_checkpoint.json",
+      "expected_sha256": "cab68c6638befa4e68374fd485bfb303896f53c505eead36b8a089ae292c6e31",
+      "actual_sha256": "cab68c6638befa4e68374fd485bfb303896f53c505eead36b8a089ae292c6e31",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_10000_seed_44_model.npz",
+      "expected_sha256": "fcb6ee989bc60f0b07b3739346cf270e67337344e4284146ccf4c2b4b0a99256",
+      "actual_sha256": "fcb6ee989bc60f0b07b3739346cf270e67337344e4284146ccf4c2b4b0a99256",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_10000_seed_45_checkpoint.json",
+      "expected_sha256": "b33f7de51770c9fc3d276ff85f3057af73293441742838ebd4d17022560c6456",
+      "actual_sha256": "b33f7de51770c9fc3d276ff85f3057af73293441742838ebd4d17022560c6456",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_10000_seed_45_model.npz",
+      "expected_sha256": "c3bbf516f41f92fd5f57d77ef3b0558378d92d0fa6c91f7a6b6b4d6da291e1c5",
+      "actual_sha256": "c3bbf516f41f92fd5f57d77ef3b0558378d92d0fa6c91f7a6b6b4d6da291e1c5",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_10000_seed_46_checkpoint.json",
+      "expected_sha256": "0d9e5e2b92ee38bda46de3dec1566e5914640b768ad058d3a20c0a6fa06bfcc2",
+      "actual_sha256": "0d9e5e2b92ee38bda46de3dec1566e5914640b768ad058d3a20c0a6fa06bfcc2",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_10000_seed_46_model.npz",
+      "expected_sha256": "8dbbffbda9a416e894d2d962dee9c69758956da297ecaeba92f36e7e7a878b27",
+      "actual_sha256": "8dbbffbda9a416e894d2d962dee9c69758956da297ecaeba92f36e7e7a878b27",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_1000_seed_42_checkpoint.json",
+      "expected_sha256": "e1c447221c92f48b50bf24533929e45e1968fb97dffb24db03fa2581fc797620",
+      "actual_sha256": "e1c447221c92f48b50bf24533929e45e1968fb97dffb24db03fa2581fc797620",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_1000_seed_42_model.npz",
+      "expected_sha256": "6b41fc033bd4626ca12d62f470d70c400050b9d112c4a81549c75607001ea2a9",
+      "actual_sha256": "6b41fc033bd4626ca12d62f470d70c400050b9d112c4a81549c75607001ea2a9",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_1000_seed_43_checkpoint.json",
+      "expected_sha256": "7c7d20140238cfd99eccab8d735387a73127c56cf492251b3251c4cf5440659d",
+      "actual_sha256": "7c7d20140238cfd99eccab8d735387a73127c56cf492251b3251c4cf5440659d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_1000_seed_43_model.npz",
+      "expected_sha256": "15f914af3780724e2fc1acb36ef1e81a837a2ca89b51f375acf4a1077b148d01",
+      "actual_sha256": "15f914af3780724e2fc1acb36ef1e81a837a2ca89b51f375acf4a1077b148d01",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_1000_seed_44_checkpoint.json",
+      "expected_sha256": "7fff8733eb9d631f20a55721cc2f1d03d83878934c9af994c47d31eceb2801c4",
+      "actual_sha256": "7fff8733eb9d631f20a55721cc2f1d03d83878934c9af994c47d31eceb2801c4",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_1000_seed_44_model.npz",
+      "expected_sha256": "bb685440549b0398161b389a441a9104f3f7064d721294ab118e317d0d2f7218",
+      "actual_sha256": "bb685440549b0398161b389a441a9104f3f7064d721294ab118e317d0d2f7218",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_1000_seed_45_checkpoint.json",
+      "expected_sha256": "fa1dee6b7340a7a9f730942f72662f8f7c4e25da9b11d32b655ebc14f04834a0",
+      "actual_sha256": "fa1dee6b7340a7a9f730942f72662f8f7c4e25da9b11d32b655ebc14f04834a0",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_1000_seed_45_model.npz",
+      "expected_sha256": "bb958f82e6cedfd33fb358e8130026c28ef7e218d387ae9020099e8020f6986d",
+      "actual_sha256": "bb958f82e6cedfd33fb358e8130026c28ef7e218d387ae9020099e8020f6986d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_1000_seed_46_checkpoint.json",
+      "expected_sha256": "5b9fefaf2f23989f3264fc59c9270cd78e8c7f6595b9dfa21e995437e8af0bb8",
+      "actual_sha256": "5b9fefaf2f23989f3264fc59c9270cd78e8c7f6595b9dfa21e995437e8af0bb8",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_1000_seed_46_model.npz",
+      "expected_sha256": "8b213d1bee1c3cc02991da6c2fa5f67f60cb301587bda0119489169d4381d58d",
+      "actual_sha256": "8b213d1bee1c3cc02991da6c2fa5f67f60cb301587bda0119489169d4381d58d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_2000_seed_42_checkpoint.json",
+      "expected_sha256": "e5087eea57baf0c814a2d4069b48ae3e6cfbf8ec82e7b96a2569f01335729ddf",
+      "actual_sha256": "e5087eea57baf0c814a2d4069b48ae3e6cfbf8ec82e7b96a2569f01335729ddf",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_2000_seed_42_model.npz",
+      "expected_sha256": "05f0267aa6e0168bc01a43e92bc6274c54fed3c610970c33772ae457f49d3c01",
+      "actual_sha256": "05f0267aa6e0168bc01a43e92bc6274c54fed3c610970c33772ae457f49d3c01",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_2000_seed_43_checkpoint.json",
+      "expected_sha256": "c45e9abc0d77678b441ae66676e48ba0005ee3dff2983caaf500f9699d07cdc7",
+      "actual_sha256": "c45e9abc0d77678b441ae66676e48ba0005ee3dff2983caaf500f9699d07cdc7",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_2000_seed_43_model.npz",
+      "expected_sha256": "7f1408d3abd627c47bbb5acad5d16d03ed4fd2967b2f02b08cddd89bfb863e6e",
+      "actual_sha256": "7f1408d3abd627c47bbb5acad5d16d03ed4fd2967b2f02b08cddd89bfb863e6e",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_2000_seed_44_checkpoint.json",
+      "expected_sha256": "ac2d2874eecc7d57f169c5508d4f606c43c9646104bb6d2a7147cd6ae273605d",
+      "actual_sha256": "ac2d2874eecc7d57f169c5508d4f606c43c9646104bb6d2a7147cd6ae273605d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_2000_seed_44_model.npz",
+      "expected_sha256": "06e66651fba47b1f72739e7674fae53ad8104ee3ebeb6015ec60e32cc52d55fb",
+      "actual_sha256": "06e66651fba47b1f72739e7674fae53ad8104ee3ebeb6015ec60e32cc52d55fb",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_2000_seed_45_checkpoint.json",
+      "expected_sha256": "a8d4e3f06d809d121c3c413b41532d0319c280438d3ccbbfba9bd3a33c9061c8",
+      "actual_sha256": "a8d4e3f06d809d121c3c413b41532d0319c280438d3ccbbfba9bd3a33c9061c8",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_2000_seed_45_model.npz",
+      "expected_sha256": "57ccc34661944ed94d67822234d5565723eab4a129fbfef2f1f7ad271c79d208",
+      "actual_sha256": "57ccc34661944ed94d67822234d5565723eab4a129fbfef2f1f7ad271c79d208",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_2000_seed_46_checkpoint.json",
+      "expected_sha256": "77e651c9aeaa712b601fbe5064eb7cd611ce1164fe46b3d995b022c989df72da",
+      "actual_sha256": "77e651c9aeaa712b601fbe5064eb7cd611ce1164fe46b3d995b022c989df72da",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_2000_seed_46_model.npz",
+      "expected_sha256": "56387b0778a899be644494dfce7c271afc8dec08dafaa29f26ac089b3f29704a",
+      "actual_sha256": "56387b0778a899be644494dfce7c271afc8dec08dafaa29f26ac089b3f29704a",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_5000_seed_42_checkpoint.json",
+      "expected_sha256": "fd622db61f3dd5d021587dac110561318fa1c92200ea17133b50c82e7af19ab5",
+      "actual_sha256": "fd622db61f3dd5d021587dac110561318fa1c92200ea17133b50c82e7af19ab5",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_5000_seed_42_model.npz",
+      "expected_sha256": "ec5200b917e4c1f672b5d3da22300170a6eaf3daf4a468d9042113ce05bbf798",
+      "actual_sha256": "ec5200b917e4c1f672b5d3da22300170a6eaf3daf4a468d9042113ce05bbf798",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_5000_seed_43_checkpoint.json",
+      "expected_sha256": "e7d5d4ef61e106358ccdd220c1e1460eb0029163d01d90bbbbf6b8be39543d27",
+      "actual_sha256": "e7d5d4ef61e106358ccdd220c1e1460eb0029163d01d90bbbbf6b8be39543d27",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_5000_seed_43_model.npz",
+      "expected_sha256": "bb2998c89c33ad9c97ba5ed40776bbc88ba6d6c1ba46a3c2f394ed17efddd714",
+      "actual_sha256": "bb2998c89c33ad9c97ba5ed40776bbc88ba6d6c1ba46a3c2f394ed17efddd714",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_5000_seed_44_checkpoint.json",
+      "expected_sha256": "0a351a1d25cd9f856ce23889c93dd47923bed3514f7e1529aaefe7ab068e1558",
+      "actual_sha256": "0a351a1d25cd9f856ce23889c93dd47923bed3514f7e1529aaefe7ab068e1558",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_5000_seed_44_model.npz",
+      "expected_sha256": "0be2029c0f01ef200a9a05d0e0392011a89b6b1bcac86ef639ac934dde348e2e",
+      "actual_sha256": "0be2029c0f01ef200a9a05d0e0392011a89b6b1bcac86ef639ac934dde348e2e",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_5000_seed_45_checkpoint.json",
+      "expected_sha256": "a7a63fbae875117b07bfe91b8843eb303c48030185618cd9e541c9976cab062c",
+      "actual_sha256": "a7a63fbae875117b07bfe91b8843eb303c48030185618cd9e541c9976cab062c",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_5000_seed_45_model.npz",
+      "expected_sha256": "911ef4ff4e3687219b9d742ce937ed4533864d6f7c487acc04693d9100c42161",
+      "actual_sha256": "911ef4ff4e3687219b9d742ce937ed4533864d6f7c487acc04693d9100c42161",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_5000_seed_46_checkpoint.json",
+      "expected_sha256": "e1412158c4df7bd57a7b6705a3c8ff761b5dfd6fae3fcd7fbd2fc60758eb2869",
+      "actual_sha256": "e1412158c4df7bd57a7b6705a3c8ff761b5dfd6fae3fcd7fbd2fc60758eb2869",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\final_confirmation\\fold_5\\vanilla_hdc_final_confirmation_fold_5_dimension_5000_seed_46_model.npz",
+      "expected_sha256": "aab22b443783dd01c8afbc8089007215c0e13c8682f808ef049111304b2c8b67",
+      "actual_sha256": "aab22b443783dd01c8afbc8089007215c0e13c8682f808ef049111304b2c8b67",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\quick_screen\\vanilla_hdc_quick_screen_fold_1_checkpoint.json",
+      "expected_sha256": "fbd7b2745f08199c63fe1c0a435752f1d484ad08f7185fd9757f133c82de923a",
+      "actual_sha256": "fbd7b2745f08199c63fe1c0a435752f1d484ad08f7185fd9757f133c82de923a",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\quick_screen\\vanilla_hdc_quick_screen_fold_2_checkpoint.json",
+      "expected_sha256": "002256f8298864baf61a61008e35a795b02ee33ee370e2eb45faad0e4c340e4a",
+      "actual_sha256": "002256f8298864baf61a61008e35a795b02ee33ee370e2eb45faad0e4c340e4a",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\quick_screen\\vanilla_hdc_quick_screen_fold_3_checkpoint.json",
+      "expected_sha256": "39d65871f0ebc6899c1d2259d08454d82adc17b5a511c2997e1acf030c1e71ec",
+      "actual_sha256": "39d65871f0ebc6899c1d2259d08454d82adc17b5a511c2997e1acf030c1e71ec",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\quick_screen\\vanilla_hdc_quick_screen_fold_4_checkpoint.json",
+      "expected_sha256": "4da2e6b522d46f4633b6afd0a8639103118a493582057362430f657abe017721",
+      "actual_sha256": "4da2e6b522d46f4633b6afd0a8639103118a493582057362430f657abe017721",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\checkpoints\\quick_screen\\vanilla_hdc_quick_screen_fold_5_checkpoint.json",
+      "expected_sha256": "a2cc65ea337d4bf5e8a8fd8ba931dd5b61fdaaa62f776a8b5122b6c615010944",
+      "actual_sha256": "a2cc65ea337d4bf5e8a8fd8ba931dd5b61fdaaa62f776a8b5122b6c615010944",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\efficiency\\vanilla_hdc_final_confirmation_fold_1_efficiency.csv",
+      "expected_sha256": "40deb4a98befab934cd2f5c022da452237936980729fc06f6825bc4048048619",
+      "actual_sha256": "40deb4a98befab934cd2f5c022da452237936980729fc06f6825bc4048048619",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\efficiency\\vanilla_hdc_final_confirmation_fold_2_efficiency.csv",
+      "expected_sha256": "00cd2e4ea89f8b01db0f34f08c980dfe4c6b9d16d39cb6e05477efa7024d9235",
+      "actual_sha256": "00cd2e4ea89f8b01db0f34f08c980dfe4c6b9d16d39cb6e05477efa7024d9235",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\efficiency\\vanilla_hdc_final_confirmation_fold_3_efficiency.csv",
+      "expected_sha256": "6c8673920fa1c093ff87b80c905e3c9c5c9b9976278a59ffba2750394f264e41",
+      "actual_sha256": "6c8673920fa1c093ff87b80c905e3c9c5c9b9976278a59ffba2750394f264e41",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\efficiency\\vanilla_hdc_final_confirmation_fold_4_efficiency.csv",
+      "expected_sha256": "524996b45452b5b0d17dfa7cc8bb900258d96329773d5e3cf8eee238f3a9e0fb",
+      "actual_sha256": "524996b45452b5b0d17dfa7cc8bb900258d96329773d5e3cf8eee238f3a9e0fb",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\efficiency\\vanilla_hdc_final_confirmation_fold_5_efficiency.csv",
+      "expected_sha256": "a21e15798627a4dff08d4d036eb68453c4eb320a813cf304dd34428f2962f70e",
+      "actual_sha256": "a21e15798627a4dff08d4d036eb68453c4eb320a813cf304dd34428f2962f70e",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\efficiency\\vanilla_hdc_quick_screen_fold_1_efficiency.csv",
+      "expected_sha256": "3e7844b4a11a8d1859fe81dfaf148cc0d0ac12676172838181dbfe28a21dbfcd",
+      "actual_sha256": "3e7844b4a11a8d1859fe81dfaf148cc0d0ac12676172838181dbfe28a21dbfcd",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\efficiency\\vanilla_hdc_quick_screen_fold_2_efficiency.csv",
+      "expected_sha256": "620d65e006eb3878a06fa0c83e58165e4145a7fb85c6fa7ae58f7f04407a14b5",
+      "actual_sha256": "620d65e006eb3878a06fa0c83e58165e4145a7fb85c6fa7ae58f7f04407a14b5",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\efficiency\\vanilla_hdc_quick_screen_fold_3_efficiency.csv",
+      "expected_sha256": "6747c54d83a7afdfae3793f69a33b96d71cb5fe8c60f82914ce4c8fd28efccd5",
+      "actual_sha256": "6747c54d83a7afdfae3793f69a33b96d71cb5fe8c60f82914ce4c8fd28efccd5",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\efficiency\\vanilla_hdc_quick_screen_fold_4_efficiency.csv",
+      "expected_sha256": "b74ed1b870bd09c5b0a294b912be92c12f8a53c606284bfd45e580a955de0dcc",
+      "actual_sha256": "b74ed1b870bd09c5b0a294b912be92c12f8a53c606284bfd45e580a955de0dcc",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\efficiency\\vanilla_hdc_quick_screen_fold_5_efficiency.csv",
+      "expected_sha256": "791de4fb816f0c9d70a961676d2174efcd36e92ddbf084545f2ff554afc6d248",
+      "actual_sha256": "791de4fb816f0c9d70a961676d2174efcd36e92ddbf084545f2ff554afc6d248",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\fold_metrics\\vanilla_hdc_final_confirmation_fold_1_inner_selection.csv",
+      "expected_sha256": "d1face3989ed963a357ba93a836074ba62db2f9249d24537c6712691244ae2be",
+      "actual_sha256": "d1face3989ed963a357ba93a836074ba62db2f9249d24537c6712691244ae2be",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\fold_metrics\\vanilla_hdc_final_confirmation_fold_1_metrics.csv",
+      "expected_sha256": "26d897a114e53d5a1d81e1093ea6ac05cc5bc8465132bc8f74f4284378e01cc5",
+      "actual_sha256": "26d897a114e53d5a1d81e1093ea6ac05cc5bc8465132bc8f74f4284378e01cc5",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\fold_metrics\\vanilla_hdc_final_confirmation_fold_2_inner_selection.csv",
+      "expected_sha256": "1c533e299195987b71fe8207e7dbfc648035ca76d5c0ae3a149fbc597808566e",
+      "actual_sha256": "1c533e299195987b71fe8207e7dbfc648035ca76d5c0ae3a149fbc597808566e",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\fold_metrics\\vanilla_hdc_final_confirmation_fold_2_metrics.csv",
+      "expected_sha256": "87877de99cde4b5b37241bed14d3bd0e2a1926f86dcb210b386562ad2dec2ef1",
+      "actual_sha256": "87877de99cde4b5b37241bed14d3bd0e2a1926f86dcb210b386562ad2dec2ef1",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\fold_metrics\\vanilla_hdc_final_confirmation_fold_3_inner_selection.csv",
+      "expected_sha256": "bcd0a48887be144ddd9709724e8169d00e34aeb201c57d3e25a0da39ddff2d91",
+      "actual_sha256": "bcd0a48887be144ddd9709724e8169d00e34aeb201c57d3e25a0da39ddff2d91",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\fold_metrics\\vanilla_hdc_final_confirmation_fold_3_metrics.csv",
+      "expected_sha256": "2f872cb440458080886616f81b143605e9420915ae5ad102f11f816b8a64a86c",
+      "actual_sha256": "2f872cb440458080886616f81b143605e9420915ae5ad102f11f816b8a64a86c",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\fold_metrics\\vanilla_hdc_final_confirmation_fold_4_inner_selection.csv",
+      "expected_sha256": "28b5f91b77697ae482e9198f16ae4a3d16d0720fe7f00c598ad6cd50d9996475",
+      "actual_sha256": "28b5f91b77697ae482e9198f16ae4a3d16d0720fe7f00c598ad6cd50d9996475",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\fold_metrics\\vanilla_hdc_final_confirmation_fold_4_metrics.csv",
+      "expected_sha256": "4efa6261a4d23496c7f359b669fa259408ccd67e47de6162e1995cd4d900bba7",
+      "actual_sha256": "4efa6261a4d23496c7f359b669fa259408ccd67e47de6162e1995cd4d900bba7",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\fold_metrics\\vanilla_hdc_final_confirmation_fold_5_inner_selection.csv",
+      "expected_sha256": "52537cd77aefd93fc1e5c852250c668bfc6553c2a6d22e1855b2e8cb8bd1dbf9",
+      "actual_sha256": "52537cd77aefd93fc1e5c852250c668bfc6553c2a6d22e1855b2e8cb8bd1dbf9",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\fold_metrics\\vanilla_hdc_final_confirmation_fold_5_metrics.csv",
+      "expected_sha256": "11ce86c979ca206e891dad8a2e05da55213912115d5b912f9b08c14c2c29b27f",
+      "actual_sha256": "11ce86c979ca206e891dad8a2e05da55213912115d5b912f9b08c14c2c29b27f",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\fold_metrics\\vanilla_hdc_quick_screen_fold_1_inner_metrics.csv",
+      "expected_sha256": "47892380cfb6552c6ccb41eeb22dbe5469222e28b16303d9cea1cee9101c0f4a",
+      "actual_sha256": "47892380cfb6552c6ccb41eeb22dbe5469222e28b16303d9cea1cee9101c0f4a",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\fold_metrics\\vanilla_hdc_quick_screen_fold_2_inner_metrics.csv",
+      "expected_sha256": "b8627137a85928a1093b701fe9db41d470a34ebbb4ecffac3757b580355f8cbd",
+      "actual_sha256": "b8627137a85928a1093b701fe9db41d470a34ebbb4ecffac3757b580355f8cbd",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\fold_metrics\\vanilla_hdc_quick_screen_fold_3_inner_metrics.csv",
+      "expected_sha256": "ab4796a0eeafc729500b2538c31d388787699d176033daa3c54bca4cad8f2b47",
+      "actual_sha256": "ab4796a0eeafc729500b2538c31d388787699d176033daa3c54bca4cad8f2b47",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\fold_metrics\\vanilla_hdc_quick_screen_fold_4_inner_metrics.csv",
+      "expected_sha256": "a03b1391ba4d34d802a6293a44ffd50628b9ae5559a617f38a392cff0f5444ea",
+      "actual_sha256": "a03b1391ba4d34d802a6293a44ffd50628b9ae5559a617f38a392cff0f5444ea",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\fold_metrics\\vanilla_hdc_quick_screen_fold_5_inner_metrics.csv",
+      "expected_sha256": "ad68644a14d72c4d2eb4150f072829890b55ee00a40156261ec8504a22821b68",
+      "actual_sha256": "ad68644a14d72c4d2eb4150f072829890b55ee00a40156261ec8504a22821b68",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\oof\\vanilla_hdc_classification_oof.csv",
+      "expected_sha256": "a9b0e0c5abec3848e172d271398203b621cae9e3d2d83bccd2ccb672a608b700",
+      "actual_sha256": "a9b0e0c5abec3848e172d271398203b621cae9e3d2d83bccd2ccb672a608b700",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\oof\\vanilla_hdc_final_confirmation_oof_long.csv",
+      "expected_sha256": "bbc3d2044e9e1e527eed7e0f40d41ba569033073cb437e6d9aec3ccce1d837ad",
+      "actual_sha256": "bbc3d2044e9e1e527eed7e0f40d41ba569033073cb437e6d9aec3ccce1d837ad",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\oof\\vanilla_hdc_ridge_regression_oof.csv",
+      "expected_sha256": "a449d8f43a0935f0a3fcf8cf901894e426a83e552807dcef9551bc983ba22758",
+      "actual_sha256": "a449d8f43a0935f0a3fcf8cf901894e426a83e552807dcef9551bc983ba22758",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\oof\\vanilla_hdc_similarity_regression_oof.csv",
+      "expected_sha256": "95a3271ea40c1228a8d4836f6ca88788bf627894ebcfc8e2bb95b6b436a10a17",
+      "actual_sha256": "95a3271ea40c1228a8d4836f6ca88788bf627894ebcfc8e2bb95b6b436a10a17",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\predictions\\vanilla_hdc_final_confirmation_fold_1_predictions.csv",
+      "expected_sha256": "1ca2949d6b101ab331abade375052a7c3441ca62cb571703ec38ddda524162ac",
+      "actual_sha256": "1ca2949d6b101ab331abade375052a7c3441ca62cb571703ec38ddda524162ac",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\predictions\\vanilla_hdc_final_confirmation_fold_2_predictions.csv",
+      "expected_sha256": "143016f8dab3dc02adc7934bb67ed38d6137844f9ae3c0942b3c8ff6be24e163",
+      "actual_sha256": "143016f8dab3dc02adc7934bb67ed38d6137844f9ae3c0942b3c8ff6be24e163",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\predictions\\vanilla_hdc_final_confirmation_fold_3_predictions.csv",
+      "expected_sha256": "bf1c5accf3a1b62bfd0c3004558e8c46069aa642addec64f92bd40ae47e7714a",
+      "actual_sha256": "bf1c5accf3a1b62bfd0c3004558e8c46069aa642addec64f92bd40ae47e7714a",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\predictions\\vanilla_hdc_final_confirmation_fold_4_predictions.csv",
+      "expected_sha256": "846ec0824d081742fd6422fb7a4f4cbbbd7871828150b7dc9fd966d464b84ce0",
+      "actual_sha256": "846ec0824d081742fd6422fb7a4f4cbbbd7871828150b7dc9fd966d464b84ce0",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\predictions\\vanilla_hdc_final_confirmation_fold_5_predictions.csv",
+      "expected_sha256": "3d547dbdd3cfe2c854af3148e771256cd042d45c16ec3749a9ac4bfbda456d48",
+      "actual_sha256": "3d547dbdd3cfe2c854af3148e771256cd042d45c16ec3749a9ac4bfbda456d48",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\phase05_dual_output_final_comparison.csv",
+      "expected_sha256": "08c21f705d0ec1491d1e1d795489e0f4f5f8dc47c34e507f5e7d5e716cb5bf64",
+      "actual_sha256": "08c21f705d0ec1491d1e1d795489e0f4f5f8dc47c34e507f5e7d5e716cb5bf64",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\phase05_vs_phase04a_classification_comparison.csv",
+      "expected_sha256": "95a969587293808d67f2f6ca99608167bea055bbf864c22ca96bcc94e738c7f1",
+      "actual_sha256": "95a969587293808d67f2f6ca99608167bea055bbf864c22ca96bcc94e738c7f1",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\phase05_vs_phase04b_regression_comparison.csv",
+      "expected_sha256": "beaf215f89115cba7177de33569b7d9eb9ce75a588d56df8e62f8f42c5d59d71",
+      "actual_sha256": "beaf215f89115cba7177de33569b7d9eb9ce75a588d56df8e62f8f42c5d59d71",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_classification_oof_metrics_by_config.csv",
+      "expected_sha256": "08c34b3a509166584b8a9af71fb3e2d004635079b1f520ae3115c88e98ea0453",
+      "actual_sha256": "08c34b3a509166584b8a9af71fb3e2d004635079b1f520ae3115c88e98ea0453",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_classification_seed_aggregate_by_dimension.csv",
+      "expected_sha256": "83edf1115f88d55d785f54195097a149d1329bfeb7d97efebe327afb4a75a078",
+      "actual_sha256": "83edf1115f88d55d785f54195097a149d1329bfeb7d97efebe327afb4a75a078",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_confusion_matrices_by_config.json",
+      "expected_sha256": "04b71c60181ef3a9edec33fd7d3cba90a8c60933b34cf2fbac71b64e4d5310a7",
+      "actual_sha256": "04b71c60181ef3a9edec33fd7d3cba90a8c60933b34cf2fbac71b64e4d5310a7",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_efficiency_by_config.csv",
+      "expected_sha256": "630f11e8f38855850ddac5126c107803f1ddad639c7717ee4ec490b9f0678efa",
+      "actual_sha256": "630f11e8f38855850ddac5126c107803f1ddad639c7717ee4ec490b9f0678efa",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_efficiency_seed_aggregate_by_dimension.csv",
+      "expected_sha256": "71e968de9f08c145d476d194d7c0da47417c6f6494c2b0964087e4eb91ec9024",
+      "actual_sha256": "71e968de9f08c145d476d194d7c0da47417c6f6494c2b0964087e4eb91ec9024",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_final_confirmation_execution_summary.csv",
+      "expected_sha256": "6965a6341a1dfd2de9983c7afa0d6d1ee9e3fd158a52bfa8e60ad70a20893e4c",
+      "actual_sha256": "6965a6341a1dfd2de9983c7afa0d6d1ee9e3fd158a52bfa8e60ad70a20893e4c",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_quick_screen_aggregate_summary.json",
+      "expected_sha256": "751c960170642a2ff3477a2e90cff37bcea1602b3c01191a66a826760940a32f",
+      "actual_sha256": "751c960170642a2ff3477a2e90cff37bcea1602b3c01191a66a826760940a32f",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_quick_screen_all_folds.csv",
+      "expected_sha256": "98259c27f32fad078b3d21b88f18e2defa2d4be0868adac78ff10efc6bf2a56d",
+      "actual_sha256": "98259c27f32fad078b3d21b88f18e2defa2d4be0868adac78ff10efc6bf2a56d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_quick_screen_fold_1_best_config.json",
+      "expected_sha256": "98d4cbc0b1410a5c71adbfd8e6408aad1efc8ccd393f06487ff588a6775502e1",
+      "actual_sha256": "98d4cbc0b1410a5c71adbfd8e6408aad1efc8ccd393f06487ff588a6775502e1",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_quick_screen_fold_1_candidates.csv",
+      "expected_sha256": "c1244b98282b5faa0e659a5e9dd23c7bbce4d87e0ab10509ef897353bda37951",
+      "actual_sha256": "c1244b98282b5faa0e659a5e9dd23c7bbce4d87e0ab10509ef897353bda37951",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_quick_screen_fold_2_best_config.json",
+      "expected_sha256": "164610a282b446adb032ac33e33be5ac681beda2f6c9a80f59a1dfab9cd59077",
+      "actual_sha256": "164610a282b446adb032ac33e33be5ac681beda2f6c9a80f59a1dfab9cd59077",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_quick_screen_fold_2_candidates.csv",
+      "expected_sha256": "9d0728ec717cf78684b27950f7c0e3126d5d5ab5b8588abbc9b1be63b218d0b4",
+      "actual_sha256": "9d0728ec717cf78684b27950f7c0e3126d5d5ab5b8588abbc9b1be63b218d0b4",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_quick_screen_fold_3_best_config.json",
+      "expected_sha256": "87a4e66643c0c26c4647df6db305f9fc656f367fd8abf75a7a07d7373f18d407",
+      "actual_sha256": "87a4e66643c0c26c4647df6db305f9fc656f367fd8abf75a7a07d7373f18d407",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_quick_screen_fold_3_candidates.csv",
+      "expected_sha256": "d02a3a2c7446f20c3eb1ecd9755e79eb8d46b25429bab1989a97c9569de531a9",
+      "actual_sha256": "d02a3a2c7446f20c3eb1ecd9755e79eb8d46b25429bab1989a97c9569de531a9",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_quick_screen_fold_4_best_config.json",
+      "expected_sha256": "f27acb8fa80e671270d11f6f42ec6b1c674813382012213f5a43ddc615a9ff3d",
+      "actual_sha256": "f27acb8fa80e671270d11f6f42ec6b1c674813382012213f5a43ddc615a9ff3d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_quick_screen_fold_4_candidates.csv",
+      "expected_sha256": "063f0c3725ac64e91db1e118d9835f5fa28ef090ae713d9f1b800651e95a3c27",
+      "actual_sha256": "063f0c3725ac64e91db1e118d9835f5fa28ef090ae713d9f1b800651e95a3c27",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_quick_screen_fold_5_best_config.json",
+      "expected_sha256": "7b5a032c82c75f3e11eedbbb186e022b2dca6efab8ab6b9f8e85ff2385445431",
+      "actual_sha256": "7b5a032c82c75f3e11eedbbb186e022b2dca6efab8ab6b9f8e85ff2385445431",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_quick_screen_fold_5_candidates.csv",
+      "expected_sha256": "2932829b4d38dde7abaefcadc573a14785bf07500f44dd9ef6250e6fca3bb883",
+      "actual_sha256": "2932829b4d38dde7abaefcadc573a14785bf07500f44dd9ef6250e6fca3bb883",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_ridge_regression_oof_metrics_by_config.csv",
+      "expected_sha256": "4f9c0bd1d951817217fa874b5c88f2817f5aee8968ab03430849b3073e8c1a4c",
+      "actual_sha256": "4f9c0bd1d951817217fa874b5c88f2817f5aee8968ab03430849b3073e8c1a4c",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_ridge_regression_seed_aggregate_by_dimension.csv",
+      "expected_sha256": "f4cb09f91fc0fcb2916f5c620e28370911efab7ec604e4abe0abc889f927e83e",
+      "actual_sha256": "f4cb09f91fc0fcb2916f5c620e28370911efab7ec604e4abe0abc889f927e83e",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_seed_stability_summary.json",
+      "expected_sha256": "72b73f75a5b25c6ec2027c2a0619819ff1d462ab61f173c92237d61a4b387571",
+      "actual_sha256": "72b73f75a5b25c6ec2027c2a0619819ff1d462ab61f173c92237d61a4b387571",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_similarity_regression_oof_metrics_by_config.csv",
+      "expected_sha256": "2ea70963f8890ca0eb89414ee764b0a61e721529d851161c97336a7699befc2a",
+      "actual_sha256": "2ea70963f8890ca0eb89414ee764b0a61e721529d851161c97336a7699befc2a",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "results\\summaries\\vanilla_hdc_similarity_regression_seed_aggregate_by_dimension.csv",
+      "expected_sha256": "9d30e59174fd606951ddba9b6254efeaede920a888af953cd7f55897d284cd3d",
+      "actual_sha256": "9d30e59174fd606951ddba9b6254efeaede920a888af953cd7f55897d284cd3d",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "scripts\\finalize_phase05_oof.py",
+      "expected_sha256": "63b05ed380128376dc595028d52f2dd00523194d4577f8ba178fe75fadfc1bb8",
+      "actual_sha256": "63b05ed380128376dc595028d52f2dd00523194d4577f8ba178fe75fadfc1bb8",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "scripts\\freeze_phase05.py",
+      "expected_sha256": "219fbdb5fd0fb3aafcf1c3f8f1f3ca1b64ab6ed565521b7bea24149b845ba07a",
+      "actual_sha256": "219fbdb5fd0fb3aafcf1c3f8f1f3ca1b64ab6ed565521b7bea24149b845ba07a",
+      "exists": true,
+      "unchanged": true
+    },
+    {
+      "relative_path": "scripts\\persist_phase05_final_notebook.py",
+      "expected_sha256": "ed8397da7200ab70a8a5028c22dd5a83cdcffbf53f0504d7feea42ed15df6f15",
+      "actual_sha256": "ed8397da7200ab70a8a5028c22dd5a83cdcffbf53f0504d7feea42ed15df6f15",
+      "exists": true,
+      "unchanged": true
+    }
+  ],
+  "source_training_calls": [],
+  "python_version": "3.12.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "result": "PASS"
+}

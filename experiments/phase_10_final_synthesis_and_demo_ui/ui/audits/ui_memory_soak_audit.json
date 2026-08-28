@@ -1,0 +1,58 @@
+{
+  "audit": "ui_memory_soak",
+  "status": "PASS",
+  "duration_seconds": 603.032,
+  "server_pid": 26836,
+  "initial_rss_mb": 103.062,
+  "final_rss_mb": 101.289,
+  "peak_rss_mb": 104.684,
+  "growth_mb": -1.773,
+  "threshold_mb": 512.0,
+  "samples": [
+    {
+      "elapsed_seconds": 0.0,
+      "rss_mb": 103.0625
+    },
+    {
+      "elapsed_seconds": 60.063,
+      "rss_mb": 104.5859375
+    },
+    {
+      "elapsed_seconds": 121.282,
+      "rss_mb": 104.625
+    },
+    {
+      "elapsed_seconds": 181.532,
+      "rss_mb": 104.68359375
+    },
+    {
+      "elapsed_seconds": 241.844,
+      "rss_mb": 104.43359375
+    },
+    {
+      "elapsed_seconds": 302.36,
+      "rss_mb": 104.43359375
+    },
+    {
+      "elapsed_seconds": 362.532,
+      "rss_mb": 104.43359375
+    },
+    {
+      "elapsed_seconds": 422.657,
+      "rss_mb": 104.43359375
+    },
+    {
+      "elapsed_seconds": 483.016,
+      "rss_mb": 104.43359375
+    },
+    {
+      "elapsed_seconds": 543.078,
+      "rss_mb": 103.890625
+    },
+    {
+      "elapsed_seconds": 603.032,
+      "rss_mb": 101.2890625
+    }
+  ],
+  "abnormal_growth": false
+}

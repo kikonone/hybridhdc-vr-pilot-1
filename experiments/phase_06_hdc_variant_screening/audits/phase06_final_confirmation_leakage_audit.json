@@ -1,0 +1,14 @@
+{
+  "phase": "06",
+  "timestamp_utc": "2026-08-20T16:54:30.918618+00:00",
+  "completed_fold_config_runs": 300,
+  "expected_fold_config_runs": 300,
+  "primary_checksum": "PASS",
+  "frozen_fold_checksum": "PASS",
+  "audit": "leakage",
+  "outer_subject_isolation": "PASS",
+  "inner_subject_isolation": "PASS",
+  "temperature_inner_cv_only": "PASS",
+  "outer_test_used_for_tuning": false,
+  "result": "PASS"
+}

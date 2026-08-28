@@ -1,0 +1,39 @@
+{
+  "status": "DIAGNOSIS_COMPLETE",
+  "test_node_id": "experiments/phase_09_robustness_and_generalization/tests/test_phase09_freeze.py::test_read_only_preflight_passes_before_freeze",
+  "command": "python -m pytest -vv experiments/phase_09_robustness_and_generalization/tests/test_phase09_freeze.py::test_read_only_preflight_passes_before_freeze",
+  "traceback": "test_phase09_freeze.py:18: assert verify_freeze()[\"status\"] == \"PASS\"; AssertionError: assert 'FAIL' == 'PASS'",
+  "assertion_expected": "PASS",
+  "assertion_actual": "FAIL",
+  "root_cause_class": "C. FROZEN_ARTIFACT_CHANGED",
+  "files_read": [
+    "experiments/phase_09_robustness_and_generalization/manifests/phase09_final_manifest.json",
+    "experiments/phase_09_robustness_and_generalization/configs/phase09_freeze.json",
+    "experiments/phase_09_robustness_and_generalization/configs/phase09_execution_manifest.json",
+    "experiments/phase_09_robustness_and_generalization/configs/phase09_contract_freeze.json",
+    "experiments/phase_09_robustness_and_generalization/configs/phase09_frozen_contract.json",
+    "experiments/phase_09_robustness_and_generalization/audits/phase09_executor_validation_audit.json",
+    "experiments/phase_09_robustness_and_generalization/Phase_09_Robustness_and_Generalization.ipynb",
+    "experiments/phase_09_robustness_and_generalization/results/oof/phase09_canonical_oof_index.csv",
+    "experiments/phase_03_multimodal_dataset_labeling/data/primary_without_performance.csv",
+    "experiments/phase_03_multimodal_dataset_labeling/data/fold_assignments.csv"
+  ],
+  "manifest_artifact_hash_mismatches": [
+    "audits/phase09_executor_validation_audit.json",
+    "configs/phase09_contract_freeze.json",
+    "configs/phase09_execution_manifest.json",
+    "configs/phase09_frozen_contract.json"
+  ],
+  "protected_prediction_checkpoint_oof_statistics_mismatches": [],
+  "caused_by_one_of_two_changed_artifacts": true,
+  "changed_artifact_involved": "configs/phase09_contract_freeze.json",
+  "caused_by_phase06_manifest": false,
+  "production_directory_write_during_isolated_test": false,
+  "two_changed_artifact_hashes_before_test_equal_after_test": true,
+  "isolated_run_result": "1 failed, 0 errors",
+  "full_run_result": "same node failed; prior full result 125 passed, 1 failed, 0 errors",
+  "path_or_order_dependency_remaining": false,
+  "scientific_artifact_inconsistency": false,
+  "test_implementation_defect": false,
+  "resolution_constraint": "The strict hash assertion is correct and must not be weakened. Resolution requires exact trusted bytes or an honest non-original verification state."
+}

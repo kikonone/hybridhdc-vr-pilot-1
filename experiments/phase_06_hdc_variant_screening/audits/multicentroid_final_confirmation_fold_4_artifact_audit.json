@@ -1,0 +1,40 @@
+{
+  "phase": "06",
+  "variant": "multicentroid",
+  "outer_fold": 4,
+  "artifacts": [
+    {
+      "path": "results\\predictions\\multicentroid_final_confirmation_fold_4_predictions.csv",
+      "file_size_bytes": 398105,
+      "sha256": "f76e1c2e2a0d562d1d9dabc725fcc5afd5018705f1373876634b8b7decd5275f",
+      "result": "PASS"
+    },
+    {
+      "path": "results\\fold_metrics\\multicentroid_final_confirmation_fold_4_classification_metrics.csv",
+      "file_size_bytes": 4351,
+      "sha256": "6c2df8b5985e48a439cf2fab0204110ce0c9079acc10ba5c5bf25111a8f63aff",
+      "result": "PASS"
+    },
+    {
+      "path": "results\\fold_metrics\\multicentroid_final_confirmation_fold_4_similarity_regression_metrics.csv",
+      "file_size_bytes": 3375,
+      "sha256": "501ea9eadbbffedb285d18ee734aee77eec70f36b82e52d24ea479e3c435e413",
+      "result": "PASS"
+    },
+    {
+      "path": "results\\fold_metrics\\multicentroid_final_confirmation_fold_4_inner_selection.csv",
+      "file_size_bytes": 48891,
+      "sha256": "6fa924acc16523cd03bd253cd4dafc4cb79be7493fd8ccb85e90398a7c864a95",
+      "result": "PASS"
+    },
+    {
+      "path": "results\\efficiency\\multicentroid_final_confirmation_fold_4_efficiency.csv",
+      "file_size_bytes": 4569,
+      "sha256": "7d619a4c9dfbcf512b2c850973d0fbdecaed173d4ef791ae3114aa7525306833",
+      "result": "PASS"
+    }
+  ],
+  "checkpoint_count": 20,
+  "checkpoint_integrity": true,
+  "result": "PASS"
+}

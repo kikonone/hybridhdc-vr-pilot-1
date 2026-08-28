@@ -1,0 +1,7 @@
+{
+  "outer_subject_isolation": true,
+  "inner_subject_isolation": true,
+  "pipeline_fitted_training_only": true,
+  "outer_test_used_for_selection": false,
+  "overall_pass": true
+}

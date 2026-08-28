@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-08-21T18:34:58.639972+00:00",
+  "source_count": 8,
+  "checks": [
+    {
+      "role": "best_model",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_best_classification_hdc.json",
+      "sha256": "174a99de2d993acdea49fdebc9647b28db4648ada2bea7a33f620f4677f031a4",
+      "size": 1822,
+      "actual_sha256": "174a99de2d993acdea49fdebc9647b28db4648ada2bea7a33f620f4677f031a4",
+      "status": "PASS"
+    },
+    {
+      "role": "canonical_oof",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\oof\\phase07_readonly_multimodal_classification_reference.csv",
+      "sha256": "5933f705875e205a31c487384bbc6bb0460fe36076a1dafa01825859759c42a8",
+      "size": 136263,
+      "actual_sha256": "5933f705875e205a31c487384bbc6bb0460fe36076a1dafa01825859759c42a8",
+      "status": "PASS"
+    },
+    {
+      "role": "seed_metrics",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\results\\summaries\\phase06_classification_metrics_by_config.csv",
+      "sha256": "0a08b770b4afcc649f38f15596c0564e3cfb70b0fe50ed16effc2e74475f0102",
+      "size": 9492,
+      "actual_sha256": "0a08b770b4afcc649f38f15596c0564e3cfb70b0fe50ed16effc2e74475f0102",
+      "status": "PASS"
+    },
+    {
+      "role": "confidence_intervals",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\results\\summaries\\phase07_bootstrap_confidence_intervals.csv",
+      "sha256": "b9c3e712339121cca3c6b1aa5507a1e4efd07b941456602a5eb945d9e38a6828",
+      "size": 4355,
+      "actual_sha256": "b9c3e712339121cca3c6b1aa5507a1e4efd07b941456602a5eb945d9e38a6828",
+      "status": "PASS"
+    },
+    {
+      "role": "modality_contract",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\configs\\phase07_frozen_unimodal_contract.json",
+      "sha256": "3b29209dbbb057213b791443a04fad20410eb1bc5a46c681bd8afb2e28fddaa8",
+      "size": 12829,
+      "actual_sha256": "3b29209dbbb057213b791443a04fad20410eb1bc5a46c681bd8afb2e28fddaa8",
+      "status": "PASS"
+    },
+    {
+      "role": "claims",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\phase10_scientific_claims_and_limitations.md",
+      "sha256": "be8f1b6063998b98013bf5cc369821f0e4e314f82da43b774f4cd7529d707f84",
+      "size": 2400,
+      "actual_sha256": "be8f1b6063998b98013bf5cc369821f0e4e314f82da43b774f4cd7529d707f84",
+      "status": "PASS"
+    },
+    {
+      "role": "freeze",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\configs\\phase10_freeze.json",
+      "sha256": "2f8339596ae41d78d935dc1f9edfd1b155d28cc67858cd629b31c739695ce76c",
+      "size": 1809,
+      "actual_sha256": "2f8339596ae41d78d935dc1f9edfd1b155d28cc67858cd629b31c739695ce76c",
+      "status": "PASS"
+    },
+    {
+      "role": "final_status",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\configs\\phase10_final_status.json",
+      "sha256": "01f8ced91ed817b3dfebc51e8df892f2b5596d426c3767a8c4b68ae776db39ba",
+      "size": 1433,
+      "actual_sha256": "01f8ced91ed817b3dfebc51e8df892f2b5596d426c3767a8c4b68ae776db39ba",
+      "status": "PASS"
+    }
+  ]
+}

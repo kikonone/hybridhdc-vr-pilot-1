@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-08-20T20:09:55.513148+00:00",
+  "checks": {
+    "unique_370_run_ids": true,
+    "frozen_model_task_counts": true,
+    "condition_counts": true,
+    "output_paths_unique": true,
+    "task_setting_excluded": true,
+    "phase09_excluded": true,
+    "model_interfaces_pass": true,
+    "dataset_checksums_pass": true
+  },
+  "run_counts": {
+    "HDC_classification": 150,
+    "HDC_regression": 150,
+    "traditional_classification": 35,
+    "traditional_regression": 35
+  },
+  "condition_counts": {
+    "FUSION_PE": 60,
+    "FUSION_PEH": 60,
+    "FUSION_PEHF": 60,
+    "WITH_PERFORMANCE_AUXILIARY": 60,
+    "PERFORMANCE_ONLY_AUXILIARY": 60,
+    "FLIGHT_BEHAVIORAL_ONLY": 60,
+    "FLIGHT_FULL": 10
+  },
+  "dry_run_unique_runs": 370,
+  "duplicate_run_identifiers": 0,
+  "output_path_collisions": 0,
+  "training_executed": false
+}

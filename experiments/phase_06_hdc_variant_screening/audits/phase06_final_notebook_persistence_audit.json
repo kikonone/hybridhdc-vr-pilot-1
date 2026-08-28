@@ -1,0 +1,24 @@
+{
+  "phase": "06",
+  "audit": "final_notebook_persistence_after_selection_resolution",
+  "timestamp_utc": "2026-08-20T17:39:09.906223+00:00",
+  "prior_cell_count": 22,
+  "final_cell_count": 24,
+  "append_only": true,
+  "executed_code_cells_appended": 1,
+  "execution_count": 13,
+  "historical_fail_record_retained": true,
+  "required_content": {
+    "original_audit_fail": true,
+    "root_cause": true,
+    "amendment_v2": true,
+    "seal_hash": true,
+    "classification_trace": true,
+    "regression_trace": true,
+    "best_models": true,
+    "postselection_outer_oof": true,
+    "limitations": true,
+    "repair_audits": true
+  },
+  "result": "PASS"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PENDING_CONTRACT_FREEZE",
+  "conditions": {
+    "WITHOUT_PERFORMANCE_PRIMARY": {
+      "feature_count": 1176,
+      "role": "PRIMARY_MAIN_RESULT",
+      "execution": "FROZEN_REFERENCE_ONLY"
+    },
+    "WITH_PERFORMANCE_AUXILIARY": {
+      "feature_count": 1235,
+      "composition": "primary 1176 + performance 59",
+      "role": "AUXILIARY_UPPER_BOUND_AND_SHORTCUT_RISK"
+    },
+    "PERFORMANCE_ONLY_AUXILIARY": {
+      "feature_count": 59,
+      "role": "AUXILIARY_SHORTCUT_RISK_ONLY"
+    }
+  }
+}

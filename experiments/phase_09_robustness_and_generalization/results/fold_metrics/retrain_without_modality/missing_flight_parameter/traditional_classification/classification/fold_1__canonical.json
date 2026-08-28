@@ -1,0 +1,45 @@
+{
+  "phase": "09",
+  "run_identifier": "mm__missing_flight_parameter__traditional_classification__fold_1__canonical",
+  "task": "classification",
+  "regression_interpretation": null,
+  "metrics": {
+    "macro_f1": 0.5321969696969697,
+    "balanced_accuracy": 0.5357142857142857,
+    "accuracy": 0.5357142857142857,
+    "severe_error_rate": 0.21428571428571427,
+    "per_class_recall": {
+      "0": 0.6666666666666666,
+      "1": 0.47619047619047616,
+      "2": 0.42857142857142855,
+      "3": 0.5714285714285714
+    },
+    "confusion_matrix": [
+      [
+        14,
+        3,
+        3,
+        1
+      ],
+      [
+        4,
+        10,
+        2,
+        5
+      ],
+      [
+        3,
+        4,
+        9,
+        5
+      ],
+      [
+        6,
+        0,
+        3,
+        12
+      ]
+    ],
+    "quadratic_weighted_kappa": 0.4336283185840708
+  }
+}

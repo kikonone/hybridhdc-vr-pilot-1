@@ -1,0 +1,42 @@
+{
+  "phase": "09",
+  "audit": "authorized_training_run_matrix",
+  "status": "PASS",
+  "checks": {
+    "training_runs_720": true,
+    "duplicate_run_identifiers_0": true,
+    "all_authorized_not_executed": true,
+    "missing_modality_runs_300": true,
+    "loso_runs_420": true,
+    "hdc_classification_300": true,
+    "hdc_regression_300": true,
+    "traditional_classification_60": true,
+    "traditional_regression_60": true,
+    "missing_breakdown": true,
+    "loso_breakdown": true,
+    "full_reference_not_counted": true
+  },
+  "actual_training_runs": 720,
+  "duplicate_run_identifiers": 0,
+  "run_counts_by_protocol": {
+    "RETRAIN_WITHOUT_MODALITY": 300,
+    "LEAVE_ONE_SUBJECT_OUT": 420
+  },
+  "run_counts_by_model": {
+    "hdc_classification": 300,
+    "hdc_regression": 300,
+    "traditional_classification": 60,
+    "traditional_regression": 60
+  },
+  "training_executed": false,
+  "predictions_generated": false,
+  "sources": [
+    {
+      "role": "authorized_execution_manifest",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_execution_manifest.json",
+      "bytes": 2248517,
+      "sha256": "2a0465796d80cdab118e27d5dd58c871357b5d1b8dc530bacda810978632e1ed",
+      "read_only_policy": true
+    }
+  ]
+}

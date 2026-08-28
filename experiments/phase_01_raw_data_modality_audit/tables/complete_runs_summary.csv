@@ -1,0 +1,3 @@
+definition,required_modalities,complete_run_count,total_run_count,coverage_percent
+strict_all_listed_modalities,eye_tracking;ecg;eda;emg;respiration;head_movement;xplane;control_input;performance,0,487,0.0
+core_multimodal_without_control_input,eye_tracking;ecg;eda;emg;respiration;head_movement;xplane;performance,408,487,83.78

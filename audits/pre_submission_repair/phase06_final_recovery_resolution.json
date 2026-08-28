@@ -1,0 +1,19 @@
+{
+  "status": "ORIGINAL_MANIFEST_HASH_VERIFIED_WITH_6_NONSCIENTIFIC_METADATA_MISMATCHES",
+  "recovery_scheme": 1,
+  "original_manifest_found": true,
+  "original_manifest_path": "experiments/phase_06_hdc_variant_screening/manifests/phase06_final_artifact_manifest.json",
+  "original_manifest_sha256": "25df4d2754075061c4000c9260ad0b5b4182203f988375078e2f4156dcd580a5",
+  "freeze_recorded_manifest_sha256": "25df4d2754075061c4000c9260ad0b5b4182203f988375078e2f4156dcd580a5",
+  "original_manifest_hash_verified": "PASS",
+  "production_manifest_written": false,
+  "artifact_count": 114,
+  "exact_artifact_matches": 108,
+  "missing_artifacts": 0,
+  "non_scientific_engineering_metadata_mismatches": 6,
+  "best_classification_hdc_unchanged": "PASS",
+  "best_regression_hdc_unchanged": "PASS",
+  "scientific_artifact_mismatches": 0,
+  "method": "Scheme 1: use the existing original final manifest whose file SHA-256 exactly matches phase06_freeze.json and later-phase references; do not rebuild or overwrite it.",
+  "evidence": "audits/pre_submission_repair/phase06_evidence_chain.json"
+}

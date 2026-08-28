@@ -1,0 +1,8 @@
+{
+  "preprocessing_seconds": 0.0041782000043895096,
+  "encoding_seconds": 0.6414569999906234,
+  "training_seconds": 0.07764530001441017,
+  "inference_seconds": 0.0021776999928988516,
+  "model_bytes": 40004,
+  "preprocessing_state_bytes": 2880
+}

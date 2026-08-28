@@ -1,0 +1,11 @@
+task,modality,metric,effect_size_rank_biserial,effect_definition,n_subjects,status
+classification,physiological_features,macro_f1,1.0,multimodal minus unimodal,35,PASS
+classification,eye_tracking_features,macro_f1,1.0,multimodal minus unimodal,35,PASS
+classification,head_movement_features,macro_f1,1.0,multimodal minus unimodal,35,PASS
+classification,flight_parameter_features,macro_f1,0.06535947712418301,multimodal minus unimodal,35,PASS
+classification,body_movement,macro_f1,1.0,multimodal minus unimodal,35,PASS
+regression,physiological_features,bounded_mae,-1.0,multimodal minus unimodal,35,PASS
+regression,eye_tracking_features,bounded_mae,-1.0,multimodal minus unimodal,35,PASS
+regression,head_movement_features,bounded_mae,-1.0,multimodal minus unimodal,35,PASS
+regression,flight_parameter_features,bounded_mae,0.22857142857142856,multimodal minus unimodal,35,PASS
+regression,body_movement,bounded_mae,-1.0,multimodal minus unimodal,35,PASS

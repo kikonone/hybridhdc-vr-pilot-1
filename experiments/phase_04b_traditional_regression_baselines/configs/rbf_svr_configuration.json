@@ -1,0 +1,42 @@
+{
+  "model": "RBF SVR",
+  "model_slug": "rbf_svr",
+  "pipeline": [
+    "SimpleImputer(strategy=median, add_indicator=True, keep_empty_features=True)",
+    "VarianceThreshold(threshold=0.0)",
+    "StandardScaler()",
+    "SelectKBest(score_func=f_regression)",
+    "SVR(kernel=rbf, shrinking=True, tol=0.001, cache_size=1024, max_iter=100000)"
+  ],
+  "param_grid": {
+    "feature_selection__k": [
+      50,
+      100,
+      200,
+      "all"
+    ],
+    "regressor__C": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "regressor__gamma": [
+      "scale",
+      0.01,
+      0.1
+    ],
+    "regressor__epsilon": [
+      0.0,
+      0.1,
+      0.2
+    ]
+  },
+  "inner_candidate_count": 108,
+  "inner_cv": "GroupKFold(n_splits=3, groups=subject_id)",
+  "selection_metric": "bounded MAE (negative)",
+  "prediction_bounding": "clip raw prediction to [1.0, 4.0] without rounding",
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "status": "COMPLETE",
+  "results_reused": true,
+  "retrained": false
+}

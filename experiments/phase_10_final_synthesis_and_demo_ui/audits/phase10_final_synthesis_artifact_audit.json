@@ -1,0 +1,182 @@
+{
+  "audit": "phase10_final_synthesis_artifact_audit",
+  "required_artifacts_verified": 27,
+  "artifacts": [
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\results\\final_prediction_library\\final_prediction_library_index.csv",
+      "sha256": "fea78edee70f65cbbfb064646e577e1f521635551a92535193fc44afc48cee21",
+      "bytes": 549063
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\results\\final_prediction_library\\final_prediction_library_manifest.json",
+      "sha256": "0cf4ed06c19c1174761617222ecd738f2c768b7bffba194fb379fbaf1b95ac80",
+      "bytes": 746
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\results\\final_statistics_bundle\\final_statistics_index.csv",
+      "sha256": "5b66087bcdba2d52f88145f94030013953003cdc9c0c49cf748cbd1727c72984",
+      "bytes": 18448
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\results\\final_statistics_bundle\\final_effect_size_index.csv",
+      "sha256": "c366318c01e16732ab134bc03e060d4942a2953c9b64753512d229c732785613",
+      "bytes": 678
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\results\\final_statistics_bundle\\final_confidence_interval_index.csv",
+      "sha256": "39ed7a17c6eb82dcab46fca7513085551cd19926dc54527121af591176eff8d6",
+      "bytes": 1676
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\results\\final_statistics_bundle\\final_statistical_test_index.csv",
+      "sha256": "a17455146100562f772f6cf3e807435aeeaa051a9707c3a9538754c9af5380d2",
+      "bytes": 2033
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\results\\final_statistics_bundle\\final_statistics_manifest.json",
+      "sha256": "81c8f697b8f0bf7823a7e761ab425b65ac81c7f297987e908a7e958498c18160",
+      "bytes": 1465
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\paper_table_registry.csv",
+      "sha256": "cc9d6b1399babe6c5431250a7e98dff897a2570b32b3e52c0279111f09527558",
+      "bytes": 3801
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_tables\\paper_table_source_map.json",
+      "sha256": "81cbfde056340dfb39e88b77072c7f7db04853ad9b38839a993ba310c6b8448b",
+      "bytes": 13473
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_figures\\paper_figure_registry.csv",
+      "sha256": "42beec33e301f49da9750b3366fabfdb22d50c0294dc75c7bd7aafa87db2b712",
+      "bytes": 23299
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\paper_figures\\paper_figure_source_map.json",
+      "sha256": "3d15900aaa696a59a78935854dc528b22adb779a8f610ab6cf49c6cb2e89e09d",
+      "bytes": 38790
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\phase10_rq_experiment_evidence_conclusion_matrix.md",
+      "sha256": "503a058ecc1714d88b3ab107238832bf9d684d87330618d5f7edce03af87f3fc",
+      "bytes": 6433
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\results\\summaries\\phase10_rq_experiment_evidence_conclusion_matrix.csv",
+      "sha256": "87fa9a9765f0a4fffdff1c009ed2280e41e3828bd8310c573dcc83429a56c0cb",
+      "bytes": 9337
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reproducibility\\README.md",
+      "sha256": "e5469387cf67f04434e07e5da8d6e33ebe94960008761ae9a6b31160f0751454",
+      "bytes": 706
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reproducibility\\environment_summary.json",
+      "sha256": "e505098a3ecf62e5da60a61a523866e0734f743251a3bd936e78f9b1446d7292",
+      "bytes": 706
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reproducibility\\execution_order.md",
+      "sha256": "d6f1cd59a7396328af1c411bc4ab2b362c2831e273c530e8e761bdbb0017705a",
+      "bytes": 752
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reproducibility\\frozen_artifact_registry.csv",
+      "sha256": "5a44ee27e950e6038621716f3c855f3f7125f32d47bd26652c57143fa4198311",
+      "bytes": 491909
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reproducibility\\checksum_verification.json",
+      "sha256": "6e11f18d5d77b4e820b24c4b3cc9404089c04fc59e8f918fb999a551f0e419a1",
+      "bytes": 1475
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reproducibility\\notebook_registry.csv",
+      "sha256": "146fbd7e2d4196a67a944b96f1edbc1f7a1bd3ac12d78896130e0ba7146846c5",
+      "bytes": 2118
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reproducibility\\script_registry.csv",
+      "sha256": "749b1dc95dc322a021f16bd7ae661d0f362c2b47543575af2f0217beced50bc8",
+      "bytes": 18143
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reproducibility\\reproduction_scope_and_limits.md",
+      "sha256": "a9f7c9d5fce6231800c57e6ba12b3be1879509371c8c0637f380922977d2d6d0",
+      "bytes": 1489
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\audits\\phase10_cross_phase_numerical_consistency_audit.json",
+      "sha256": "298491e4ca285919a6e8f3838e5a849f179f2e4d510012963a5c0c1f21c3033d",
+      "bytes": 8581
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\phase10_final_synthesis_report.md",
+      "sha256": "4c5f59c7d8e7dd4296a7dd86cfaff174f53c9ce1bf629f6c57d9924ff4e9ae0c",
+      "bytes": 4867
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\phase10_scientific_claims_and_limitations.md",
+      "sha256": "be8f1b6063998b98013bf5cc369821f0e4e314f82da43b774f4cd7529d707f84",
+      "bytes": 2400
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\reports\\phase10_thesis_artifact_inventory.md",
+      "sha256": "37ca05983ea769fee9818ffc152a1b7c67611876948a83d0dae9502e626a6069",
+      "bytes": 747
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\results\\summaries\\phase10_final_key_results.csv",
+      "sha256": "3041c665e023d615ed619913cdf175d14a059708c888188af263c691765541ff",
+      "bytes": 85397
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\results\\summaries\\phase10_final_key_findings.json",
+      "sha256": "603257d874ae94104699bb76123fc24d4f2ac6e1e76b73fa2f98d91e2c892a68",
+      "bytes": 1988
+    }
+  ],
+  "counts": {
+    "prediction_sources": 1406,
+    "statistical_artifacts": 35,
+    "paper_tables": 14,
+    "paper_figures": 61,
+    "rq_rows": 6
+  },
+  "failures": {
+    "missing_required_outputs": [],
+    "prediction_source_failures": [],
+    "statistical_source_failures": [],
+    "table_source_failures": [],
+    "figure_source_failures": [],
+    "reproducibility_checksum_failures": [],
+    "upstream_changes": {
+      "added": [],
+      "removed": [],
+      "modified": [],
+      "modified_count": 0
+    }
+  },
+  "scientific_source_conflicts": 0,
+  "unresolved_numerical_differences": 0,
+  "nonscientific_metadata_differences_retained": 6,
+  "historical_changed_nonscientific_files": 2,
+  "historical_frozen_immutability_audit": "FAIL",
+  "scientific_consistency": "PASS",
+  "predictions_modified": false,
+  "canonical_oof_modified": false,
+  "statistics_modified": false,
+  "frozen_model_configurations_modified": false,
+  "model_training_executed": false,
+  "predictions_generated": false,
+  "statistics_recomputed": false,
+  "phase00_09_files_modified": 0,
+  "ui_files_created": false,
+  "ui_status": "DEFERRED_BY_USER_NOT_EXECUTED",
+  "onlinehd_replay_status": "OPTIONAL_NOT_EXECUTED",
+  "phase10_status": "FINAL_SYNTHESIS_COMPLETE_PENDING_PHASE10_FREEZE",
+  "phase10_final_frozen": false,
+  "status": "PASS"
+}

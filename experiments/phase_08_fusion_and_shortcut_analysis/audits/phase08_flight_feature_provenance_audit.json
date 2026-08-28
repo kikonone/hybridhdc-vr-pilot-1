@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "manifest_path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\manifests\\phase08_flight_feature_provenance_manifest.json",
+  "manifest_sha256": "b86994d63338d92688a6b26abf9eed2da463a8bcfe0432add622fefb11dbf2ca",
+  "category_counts": {
+    "BEHAVIORAL_RESPONSE": 323,
+    "TASK_SETTING_OR_SCENARIO": 0,
+    "AMBIGUOUS": 3
+  },
+  "behavioral_feature_set_sha256": "dea0483dec41903f3e1bdf30faf7918833c8f985ff134b0e81fa30ce86a8fdb9",
+  "task_setting_feature_set_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "ambiguous_feature_set_sha256": "6f1be5b7a0b02765c1e38d012f8b2e5c8fcb94c9b6e51fce591f53f71497d386",
+  "checks": {
+    "feature_count_326": true,
+    "all_features_unique": true,
+    "exactly_one_allowed_category_each": true,
+    "required_fields_complete": true,
+    "behavioral_task_setting_disjoint": true,
+    "ambiguous_excluded_from_sensitivity_subsets": true,
+    "phase02_provenance_complete": true,
+    "categories_not_target_informed": true,
+    "manifest_frozen_before_training": true
+  },
+  "caveat": "Provenance classification does not establish leakage or causal interpretation."
+}

@@ -1,0 +1,52 @@
+{
+  "audit": "phase10_rq_evidence_audit",
+  "rq_count": 6,
+  "plan_read": {
+    "path": "E:\\hdc-vr-pilot\\最新完整实验计划_分类回归双任务.md",
+    "bytes": 19559,
+    "sha256": "1fde8fca7cb413bc49e5ab694eda12e5a3bdf6a960fb0114e6eafe4ced18559c"
+  },
+  "phase_final_reports_read": {
+    "04A": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\reports\\phase04a_final_summary.md",
+      "bytes": 2590,
+      "sha256": "e8e25b27f9e7b601392f1262338dd405a5f9d90f94d3644f26b5e53bfd94bc7c"
+    },
+    "04B": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\reports\\phase04b_final_summary.md",
+      "bytes": 4088,
+      "sha256": "2138d7f7f022c870a2f770d80a1af8710c3b245f6296178d8c1da73dd560776a"
+    },
+    "05": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\reports\\phase05_final_summary.md",
+      "bytes": 8789,
+      "sha256": "2d8a8b33b3d0bf78db44920276040583feabd06fa690520af2df023a7b9798fd"
+    },
+    "06": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\reports\\phase06_final_summary.md",
+      "bytes": 3331,
+      "sha256": "d2318fd59cf248f50e4de1ad57489d46849bf1f02b9f4b39619265c8a511a71d"
+    },
+    "07": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\reports\\phase07_final_summary.md",
+      "bytes": 1268,
+      "sha256": "cbc3261f4ce2546ffe39df12db407a376fd9e7be12bb0bdd3771f121c5d1ab96"
+    },
+    "08": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\reports\\phase08_final_analysis.md",
+      "bytes": 22669,
+      "sha256": "c41d5768c1262fed37e68bea5bd844abb46aa3c65c488290165c57432bc83869"
+    },
+    "09": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\reports\\phase09_final_analysis.md",
+      "bytes": 4425,
+      "sha256": "0c2238d0911cd271e93459b873c6a74d1308364c8f794998b7b0dbe433fc0988"
+    }
+  },
+  "source_hashes_verified": true,
+  "bounded_proxy_wording_present": true,
+  "direct_continuous_workload_claim_prohibited": true,
+  "unsupported_generalization_prohibited": true,
+  "nonsignificant_not_upgraded": true,
+  "status": "PASS"
+}

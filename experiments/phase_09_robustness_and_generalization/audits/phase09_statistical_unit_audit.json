@@ -1,0 +1,13 @@
+{
+  "phase": "09",
+  "audit": "statistical_unit",
+  "status": "PASS",
+  "statistical_unit": "subject_id",
+  "subjects": 35,
+  "outer_folds_as_independent_samples": false,
+  "loso_splits_as_independent_samples": false,
+  "hdc_seeds_as_independent_samples": false,
+  "run_keys_as_independent_samples": false,
+  "paired_subject_rows": 700,
+  "bootstrap_resamples": 2000
+}

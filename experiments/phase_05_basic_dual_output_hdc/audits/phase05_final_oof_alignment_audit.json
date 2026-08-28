@@ -1,0 +1,14 @@
+{
+  "fold_mismatches": 0,
+  "subject_mismatches": 0,
+  "true_class_mismatches": 0,
+  "target_mismatches": 0,
+  "deterministic_sort": [
+    "dimension",
+    "seed",
+    "outer_fold",
+    "subject_id",
+    "run_key"
+  ],
+  "result": "PASS"
+}

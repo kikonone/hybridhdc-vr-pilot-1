@@ -1,0 +1,125 @@
+{
+  "manifest": "phase10_upstream_freeze_manifest",
+  "timestamp_utc": "2026-08-21T06:23:36.076652+00:00",
+  "policy": "READ_ONLY_REFERENCES; DO_NOT REGENERATE FOLDS OR MODIFY UPSTREAM",
+  "primary_data": {
+    "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv",
+    "file_size_bytes": 7435180,
+    "sha256": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44"
+  },
+  "frozen_folds": {
+    "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+    "file_size_bytes": 38660,
+    "sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f"
+  },
+  "freeze_interfaces": [
+    {
+      "phase": "03",
+      "reported_status": "FROZEN",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\manifests\\fold_manifest.json",
+      "file_size_bytes": 836,
+      "sha256": "c7f38b38799a3a5a60de87bd9c3c83e9be5a9b1a65e3cdf4bb0ba174a6c6bf50"
+    },
+    {
+      "phase": "04A",
+      "reported_status": "FROZEN",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\phase04a_freeze.json",
+      "file_size_bytes": 1050,
+      "sha256": "34ea8100d9406f9701750a441aa6537323c28bcdb194cb3fd3645c4f7de4a2e1"
+    },
+    {
+      "phase": "04B",
+      "reported_status": "FROZEN",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\configs\\phase04b_freeze.json",
+      "file_size_bytes": 5127,
+      "sha256": "e2c88b1139a50aab6d47b6477c7bceff74f8443095f9d039ea9af84b715ee790"
+    },
+    {
+      "phase": "05",
+      "reported_status": "FROZEN",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\configs\\phase05_freeze.json",
+      "file_size_bytes": 1640,
+      "sha256": "d9d3c78a81e83710108a062671fdc1b86c43ad4e84f27c9b53e1c9acaa837e00"
+    },
+    {
+      "phase": "06",
+      "reported_status": "FROZEN",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+      "file_size_bytes": 5533,
+      "sha256": "cd94acdf0bcb463b5f48a7c84110a23059899b6b5bf156131694827d7d7bde66"
+    },
+    {
+      "phase": "07",
+      "reported_status": "FROZEN",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\configs\\phase07_freeze.json",
+      "file_size_bytes": 984,
+      "sha256": "8569b48a8210f0ca1316d5a140d292edb892e2a556ea13ee299e9b97699af492"
+    },
+    {
+      "phase": "08",
+      "reported_status": "FROZEN",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\configs\\phase08_freeze.json",
+      "file_size_bytes": 1460,
+      "sha256": "f36211f1b793d1868573973f8ea46a7bc89aee03759079e268df75d2a4894595"
+    },
+    {
+      "phase": "09",
+      "reported_status": "FROZEN",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\configs\\phase09_freeze.json",
+      "file_size_bytes": 1655,
+      "sha256": "7db8b1bf7b0c25b4677613000f63768d9c71bb2d644ba8423214c4902db869c2"
+    }
+  ],
+  "final_manifests": [
+    {
+      "phase": "04A",
+      "interface_type": "LEGACY_FREEZE_WITH_EMBEDDED_FINAL_OOF_PATHS",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\phase04a_freeze.json",
+      "file_size_bytes": 1050,
+      "sha256": "34ea8100d9406f9701750a441aa6537323c28bcdb194cb3fd3645c4f7de4a2e1"
+    },
+    {
+      "phase": "04B",
+      "interface_type": "FINAL_MANIFEST",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\manifests\\phase04b_final_artifact_manifest.json",
+      "file_size_bytes": 16911,
+      "sha256": "eb0edfdf4acefd2c28e86476fe58d76204ddf2951d45894841a966f1b9b8e8ae"
+    },
+    {
+      "phase": "05",
+      "interface_type": "FINAL_MANIFEST",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\manifests\\phase05_final_artifact_manifest.json",
+      "file_size_bytes": 138327,
+      "sha256": "e4894aeaa56f4b9938e9582414286d493ec4da49543e6972985a13bedf8148d5"
+    },
+    {
+      "phase": "06",
+      "interface_type": "FINAL_MANIFEST",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\manifests\\phase06_final_artifact_manifest.json",
+      "file_size_bytes": 33117,
+      "sha256": "25df4d2754075061c4000c9260ad0b5b4182203f988375078e2f4156dcd580a5"
+    },
+    {
+      "phase": "07",
+      "interface_type": "FINAL_MANIFEST",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\manifests\\phase07_final_artifact_manifest.json",
+      "file_size_bytes": 11913,
+      "sha256": "3074a6e6b3bb9a6fc3065a19d37801876ea37296e1b43f63966a40cbe7371cfe"
+    },
+    {
+      "phase": "08",
+      "interface_type": "FINAL_MANIFEST",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis\\manifests\\phase08_final_manifest.json",
+      "file_size_bytes": 279582,
+      "sha256": "c4de38db0c0d76e5cb06822d895d9ccd823d418c9057d85732d080f5b09cc42b"
+    },
+    {
+      "phase": "09",
+      "interface_type": "FINAL_MANIFEST",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_09_robustness_and_generalization\\manifests\\phase09_final_manifest.json",
+      "file_size_bytes": 1782027,
+      "sha256": "8fa96c12fabbe9d75269b1aa579af1af5ff2012ec0e5b99dc33204edcfd4d4fa"
+    }
+  ],
+  "all_freeze_and_final_interfaces_read": true
+}

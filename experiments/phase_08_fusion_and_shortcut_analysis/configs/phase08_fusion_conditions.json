@@ -1,0 +1,33 @@
+{
+  "status": "READ_ONLY_PROJECTION_OF_FROZEN_CONTRACT",
+  "source": "configs/phase08_frozen_contract.json",
+  "source_sha256": "93121979400646bcc9adffb15c069e8ec9a5f0e95e3dfb0cdcc99e3d3666031c",
+  "core_fusion": "EARLY_FUSION",
+  "conditions": {
+    "FUSION_PE": {
+      "groups": ["physiological_features", "eye_tracking_features"],
+      "feature_count": 649,
+      "execution": "NEW_TRAINING_AUTHORIZED_AFTER_FREEZE"
+    },
+    "FUSION_PEH": {
+      "groups": ["physiological_features", "eye_tracking_features", "head_movement_features"],
+      "feature_count": 808,
+      "execution": "NEW_TRAINING_AUTHORIZED_AFTER_FREEZE"
+    },
+    "FUSION_PEHF": {
+      "groups": ["physiological_features", "eye_tracking_features", "head_movement_features", "flight_parameter_features"],
+      "feature_count": 1134,
+      "execution": "NEW_TRAINING_AUTHORIZED_AFTER_FREEZE"
+    },
+    "FULL_PRIMARY_REFERENCE": {
+      "feature_count": 1176,
+      "execution": "READ_ONLY_PHASE06_AND_PHASE04_OOF_NO_RETRAINING"
+    },
+    "BEST_SINGLE_FLIGHT_REFERENCE": {
+      "feature_count": 326,
+      "execution": "READ_ONLY_PHASE07_HDC_OOF_NO_RETRAINING"
+    }
+  },
+  "late_fusion": "OPTIONAL_NOT_AUTHORIZED",
+  "hdc_modality_aware_binding": "OPTIONAL_NOT_AUTHORIZED"
+}

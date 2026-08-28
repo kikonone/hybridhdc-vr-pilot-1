@@ -1,0 +1,39 @@
+{
+  "audit": "ui_playwright_e2e",
+  "status": "PASS",
+  "tested_at_utc": "2026-08-26T07:21:12.159233+00:00",
+  "browser": "Microsoft Edge via Playwright",
+  "url": "http://127.0.0.1:8501",
+  "viewports": [
+    {
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "tasks": [
+    "Classification",
+    "Regression"
+  ],
+  "records_checked": [
+    "DEMO-0001",
+    "DEMO-0210",
+    "DEMO-0419"
+  ],
+  "refreshes": 2,
+  "rapid_task_switches": 20,
+  "interactions": 32,
+  "same_demo_id_across_tasks": true,
+  "console_errors": [],
+  "page_errors": [],
+  "tracebacks": [],
+  "screenshots": [
+    "tests/reports/screenshots/classification_1366x768.png",
+    "tests/reports/screenshots/regression_1366x768.png",
+    "tests/reports/screenshots/classification_1920x1080.png",
+    "tests/reports/screenshots/regression_1920x1080.png"
+  ]
+}

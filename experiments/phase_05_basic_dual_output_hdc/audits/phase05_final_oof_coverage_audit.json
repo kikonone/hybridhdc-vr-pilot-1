@@ -1,0 +1,14 @@
+{
+  "expected_configs": 20,
+  "configs_with_419_rows": 20,
+  "expected_total_rows": 8380,
+  "actual_total_rows": 8380,
+  "missing_run_config_combinations": 0,
+  "extra_run_config_combinations": 0,
+  "duplicate_run_config_combinations": 0,
+  "classification_combinations": 8380,
+  "similarity_regression_combinations": 8380,
+  "ridge_regression_combinations": 8380,
+  "no_prediction_averaging_or_regeneration": true,
+  "result": "PASS"
+}

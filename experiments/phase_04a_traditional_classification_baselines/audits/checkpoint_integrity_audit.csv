@@ -1,0 +1,6 @@
+model,outer_fold,file_existence,disk_readback,checksum,expected_rows,actual_rows,unique_runs,subject_isolation,parameter_grid_consistency,probability_validity,status
+gradient_boosting,1,PASS,PASS,PASS,84,84,PASS,PASS,PASS,PASS,PASS
+gradient_boosting,2,PASS,PASS,PASS,84,84,PASS,PASS,PASS,PASS,PASS
+gradient_boosting,3,PASS,PASS,PASS,84,84,PASS,PASS,PASS,PASS,PASS
+gradient_boosting,4,PASS,PASS,PASS,84,84,PASS,PASS,PASS,PASS,PASS
+gradient_boosting,5,PASS,PASS,PASS,83,83,PASS,PASS,PASS,PASS,PASS

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checks": {
+    "three_dataset_run_key_alignment": true,
+    "three_dataset_subject_target_fold_alignment": true,
+    "with_performance_feature_union": true,
+    "primary_performance_disjoint": true,
+    "performance_only_matches_frozen_group": true,
+    "manifest_roles_valid": true
+  },
+  "feature_set_relations": {
+    "with_performance_equals_primary_union_performance": true,
+    "primary_plus_performance_count_equals_with_performance": true,
+    "primary_performance_intersection_count": 0,
+    "performance_only_equals_frozen_performance_group": true
+  },
+  "identity_fields_compared_by_run_key": [
+    "subject_id",
+    "target_class",
+    "target_score",
+    "outer_fold"
+  ]
+}

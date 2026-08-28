@@ -1,0 +1,235 @@
+{
+  "phase": "09",
+  "phase_name": "Robustness and Generalization",
+  "status": "CONTRACT_FROZEN_NOT_TRAINED",
+  "evidence_scope": {
+    "primary_input": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv",
+    "performance_features": "EXCLUDED",
+    "allowed_claims": [
+      "subject generalization via LOSO",
+      "missing-modality robustness",
+      "subject-level performance heterogeneity",
+      "dependence on the flight modality"
+    ],
+    "metadata_limited_claims": {
+      "unseen_session": "NOT_FEASIBLE_DUE_TO_METADATA",
+      "unseen_scenario": "NOT_FEASIBLE_DUE_TO_METADATA",
+      "task_template": "NOT_FEASIBLE_DUE_TO_METADATA",
+      "route_configuration": "NOT_FEASIBLE_DUE_TO_METADATA"
+    }
+  },
+  "selected_model_interfaces": {
+    "hdc_classification": {
+      "model": "HDC+OnlineHD Hybrid",
+      "dimension": 5000,
+      "levels": 51,
+      "feature_k": 50,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "fold_specific_structures": [
+        {
+          "outer_fold": 1,
+          "selected_structure_json": "{\"centroids_per_class\":3,\"epochs\":1,\"learning_rate\":0.1,\"margin_threshold\":0.0}"
+        },
+        {
+          "outer_fold": 2,
+          "selected_structure_json": "{\"centroids_per_class\":2,\"epochs\":1,\"learning_rate\":0.05,\"margin_threshold\":0.0}"
+        },
+        {
+          "outer_fold": 3,
+          "selected_structure_json": "{\"centroids_per_class\":2,\"epochs\":3,\"learning_rate\":0.05,\"margin_threshold\":0.0}"
+        },
+        {
+          "outer_fold": 4,
+          "selected_structure_json": "{\"centroids_per_class\":2,\"epochs\":3,\"learning_rate\":0.1,\"margin_threshold\":0.1}"
+        },
+        {
+          "outer_fold": 5,
+          "selected_structure_json": "{\"centroids_per_class\":3,\"epochs\":1,\"learning_rate\":0.1,\"margin_threshold\":0.0}"
+        }
+      ]
+    },
+    "hdc_regression": {
+      "model": "COMMON_ENCODER_READOUT_BASELINE",
+      "dimension": 10000,
+      "levels": 51,
+      "feature_k": 50,
+      "ridge_alpha": 0.01,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "fold_parameter_policy": [
+        {
+          "outer_fold": 1,
+          "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+        },
+        {
+          "outer_fold": 2,
+          "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+        },
+        {
+          "outer_fold": 3,
+          "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+        },
+        {
+          "outer_fold": 4,
+          "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+        },
+        {
+          "outer_fold": 5,
+          "parameter_policy_json": "[{\"ridge_alpha\":0.01,\"seed\":42},{\"ridge_alpha\":0.01,\"seed\":43},{\"ridge_alpha\":0.01,\"seed\":44},{\"ridge_alpha\":0.01,\"seed\":45},{\"ridge_alpha\":0.01,\"seed\":46}]"
+        }
+      ]
+    },
+    "traditional_classification": {
+      "model": "Gradient Boosting",
+      "fold_specific_parameters": {
+        "1": {
+          "classifier__learning_rate": 0.1,
+          "classifier__max_depth": 2,
+          "classifier__n_estimators": 200,
+          "selector__k": 200,
+          "effective_selected_k": 200
+        },
+        "2": {
+          "classifier__learning_rate": 0.05,
+          "classifier__max_depth": 2,
+          "classifier__n_estimators": 100,
+          "selector__k": 200,
+          "effective_selected_k": 200
+        },
+        "3": {
+          "classifier__learning_rate": 0.05,
+          "classifier__max_depth": 3,
+          "classifier__n_estimators": 200,
+          "selector__k": 200,
+          "effective_selected_k": 200
+        },
+        "4": {
+          "classifier__learning_rate": 0.05,
+          "classifier__max_depth": 2,
+          "classifier__n_estimators": 100,
+          "selector__k": 200,
+          "effective_selected_k": 200
+        },
+        "5": {
+          "classifier__learning_rate": 0.1,
+          "classifier__max_depth": 3,
+          "classifier__n_estimators": 200,
+          "selector__k": 200,
+          "effective_selected_k": 200
+        }
+      }
+    },
+    "traditional_regression": {
+      "model": "Gradient Boosting Regressor",
+      "fold_specific_parameters": {
+        "1": {
+          "feature_selection__k": "all",
+          "regressor__learning_rate": 0.03,
+          "regressor__max_depth": 3,
+          "regressor__n_estimators": 300
+        },
+        "2": {
+          "feature_selection__k": "all",
+          "regressor__learning_rate": 0.1,
+          "regressor__max_depth": 3,
+          "regressor__n_estimators": 300
+        },
+        "3": {
+          "feature_selection__k": 200,
+          "regressor__learning_rate": 0.1,
+          "regressor__max_depth": 3,
+          "regressor__n_estimators": 300
+        },
+        "4": {
+          "feature_selection__k": 100,
+          "regressor__learning_rate": 0.1,
+          "regressor__max_depth": 3,
+          "regressor__n_estimators": 300
+        },
+        "5": {
+          "feature_selection__k": "all",
+          "regressor__learning_rate": 0.03,
+          "regressor__max_depth": 3,
+          "regressor__n_estimators": 300
+        }
+      }
+    }
+  },
+  "missing_modality": {
+    "protocol": "RETRAIN_WITHOUT_MODALITY",
+    "conditions": [
+      {
+        "condition": "FULL_PRIMARY_REFERENCE",
+        "removed_modality": null,
+        "removed_features": 0,
+        "feature_count": 1176,
+        "policy": "REUSED_NOT_RETRAINED"
+      },
+      {
+        "condition": "MISSING_PHYSIOLOGICAL",
+        "removed_modality": "physiological_features",
+        "removed_features": 233,
+        "feature_count": 943,
+        "policy": "RETRAIN_WITHOUT_MODALITY"
+      },
+      {
+        "condition": "MISSING_EYE_TRACKING",
+        "removed_modality": "eye_tracking_features",
+        "removed_features": 416,
+        "feature_count": 760,
+        "policy": "RETRAIN_WITHOUT_MODALITY"
+      },
+      {
+        "condition": "MISSING_HEAD_MOVEMENT",
+        "removed_modality": "head_movement_features",
+        "removed_features": 159,
+        "feature_count": 1017,
+        "policy": "RETRAIN_WITHOUT_MODALITY"
+      },
+      {
+        "condition": "MISSING_FLIGHT_PARAMETER",
+        "removed_modality": "flight_parameter_features",
+        "removed_features": 326,
+        "feature_count": 850,
+        "policy": "RETRAIN_WITHOUT_MODALITY"
+      },
+      {
+        "condition": "MISSING_BODY_MOVEMENT",
+        "removed_modality": "body_movement_features",
+        "removed_features": 42,
+        "feature_count": 1134,
+        "policy": "RETRAIN_WITHOUT_MODALITY"
+      }
+    ],
+    "new_training_runs": 300,
+    "test_time_missingness": "NOT_FEASIBLE_DUE_TO_CHECKPOINT_INTERFACE"
+  },
+  "loso": {
+    "splits": 35,
+    "training_runs": 420,
+    "config_mapping": "original frozen outer-fold configuration for each held-out subject"
+  },
+  "authorized_training_runs": {
+    "total": 720,
+    "hdc_classification": 300,
+    "hdc_regression": 300,
+    "traditional_classification": 60,
+    "traditional_regression": 60
+  },
+  "aggregation_rules_path": "configs/phase09_oof_aggregation_rules.json",
+  "statistical_rules_path": "configs/phase09_statistical_rules.json",
+  "training_executed": false,
+  "predictions_generated": false,
+  "formal_statistics_executed": false
+}

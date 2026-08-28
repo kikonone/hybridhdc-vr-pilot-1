@@ -1,0 +1,19 @@
+{
+  "audit": "phase10_best_hdc_interface_audit",
+  "timestamp_utc": "2026-08-21T06:11:40.396445+00:00",
+  "checks": {
+    "phase06_frozen": true,
+    "classification_model": true,
+    "classification_dimension": true,
+    "classification_inner_cv_only": true,
+    "regression_model": true,
+    "regression_dimension": true,
+    "regression_inner_cv_only": true,
+    "no_single_seed_selected": true,
+    "amendment_checksum_matches_freeze": true,
+    "freeze_embeds_same_classification": true,
+    "freeze_embeds_same_regression": true
+  },
+  "status": "PASS",
+  "prohibition": "Phase 07-09 evidence was not used to reselect models or seeds."
+}

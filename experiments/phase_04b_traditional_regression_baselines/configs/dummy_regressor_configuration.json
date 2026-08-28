@@ -1,0 +1,27 @@
+{
+  "bounded_prediction_rule": "prediction_bounded = np.clip(prediction_raw, 1.0, 4.0); no rounding before primary evaluation",
+  "fold_assignments_path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+  "frozen_fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "inner_cv": "NOT_REQUIRED_FOR_DUMMY",
+  "models": [
+    {
+      "name": "Dummy Regressor Mean",
+      "slug": "dummy_mean",
+      "strategy": "mean"
+    },
+    {
+      "name": "Dummy Regressor Median",
+      "slug": "dummy_median",
+      "strategy": "median"
+    }
+  ],
+  "oof_calculation_rule": "Concatenate complete frozen outer-test predictions and compute OOF metrics directly over all 419 rows.",
+  "primary_data_path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv",
+  "primary_metric": "MAE",
+  "python_executable": "D:\\Computer\\anaconda3\\python.exe",
+  "random_seed": "NOT_APPLICABLE",
+  "scikit_learn_version": "1.5.1",
+  "target_definition": "target_score = difficulty_level; values = 1.0, 2.0, 3.0, 4.0",
+  "target_interpretation": "bounded difficulty-induced workload proxy regression",
+  "utc_timestamp": "2026-08-19T16:21:31.673817+00:00"
+}

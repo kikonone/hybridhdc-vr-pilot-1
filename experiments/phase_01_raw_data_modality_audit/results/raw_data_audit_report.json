@@ -1,0 +1,129 @@
+{
+  "phase": "01_raw_data_modality_audit",
+  "started_at": "2026-07-02T02:35:17",
+  "completed_at": "2026-07-02T02:38:14",
+  "source_data_root": "E:\\hdc-vr-pilot\\vrdataset\\dataPackage",
+  "output_root": "E:\\hdc-vr-pilot\\experiments\\phase_01_raw_data_modality_audit",
+  "target_extensions": [
+    "csv",
+    "mat",
+    "npy",
+    "npz",
+    "parquet",
+    "pkl",
+    "txt",
+    "xdf"
+  ],
+  "total_files": 9003,
+  "total_readable_files": 9003,
+  "total_subjects": 35,
+  "total_sessions": 35,
+  "total_runs": 487,
+  "difficulty_levels": [
+    {
+      "difficulty_level": "level-000",
+      "run_count": 68
+    },
+    {
+      "difficulty_level": "level-01B",
+      "run_count": 104
+    },
+    {
+      "difficulty_level": "level-02B",
+      "run_count": 106
+    },
+    {
+      "difficulty_level": "level-03B",
+      "run_count": 104
+    },
+    {
+      "difficulty_level": "level-04B",
+      "run_count": 105
+    }
+  ],
+  "found_modalities": [
+    "ecg",
+    "eda",
+    "emg",
+    "eye_tracking",
+    "head_movement",
+    "performance",
+    "respiration",
+    "xplane"
+  ],
+  "missing_or_incomplete_modalities": [
+    "eda",
+    "control_input",
+    "performance"
+  ],
+  "modality_availability_summary": [
+    {
+      "modality": "eye_tracking",
+      "run_count": 487,
+      "missing_run_count": 0,
+      "run_coverage_percent": 100.0
+    },
+    {
+      "modality": "ecg",
+      "run_count": 487,
+      "missing_run_count": 0,
+      "run_coverage_percent": 100.0
+    },
+    {
+      "modality": "eda",
+      "run_count": 475,
+      "missing_run_count": 12,
+      "run_coverage_percent": 97.54
+    },
+    {
+      "modality": "emg",
+      "run_count": 487,
+      "missing_run_count": 0,
+      "run_coverage_percent": 100.0
+    },
+    {
+      "modality": "respiration",
+      "run_count": 487,
+      "missing_run_count": 0,
+      "run_coverage_percent": 100.0
+    },
+    {
+      "modality": "head_movement",
+      "run_count": 487,
+      "missing_run_count": 0,
+      "run_coverage_percent": 100.0
+    },
+    {
+      "modality": "xplane",
+      "run_count": 487,
+      "missing_run_count": 0,
+      "run_coverage_percent": 100.0
+    },
+    {
+      "modality": "control_input",
+      "run_count": 0,
+      "missing_run_count": 487,
+      "run_coverage_percent": 0.0
+    },
+    {
+      "modality": "performance",
+      "run_count": 419,
+      "missing_run_count": 68,
+      "run_coverage_percent": 86.04
+    }
+  ],
+  "unknown_file_count": 908,
+  "unreadable_file_count": 0,
+  "metadata_or_license_file_count": 0,
+  "strict_complete_run_count": 0,
+  "core_complete_run_count": 408,
+  "full_multimodal_feature_extraction_feasible": false,
+  "core_multimodal_feature_extraction_feasible_without_control_input": true,
+  "manual_mapping_required_before_phase_02": true,
+  "no_prohibited_actions": {
+    "feature_extraction_performed": false,
+    "final_modeling_dataset_created": false,
+    "ml_or_hdc_training_performed": false,
+    "vrdataset_modified": false
+  }
+}

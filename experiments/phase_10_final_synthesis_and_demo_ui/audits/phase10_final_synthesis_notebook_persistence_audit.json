@@ -1,0 +1,14 @@
+{
+  "audit": "phase10_final_synthesis_notebook_persistence_audit",
+  "notebook_path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\Phase_10_Final_Synthesis_and_Demo_UI.ipynb",
+  "notebook_sha256": "df61d41478630144a2f0310581f3ccbd7dbdcb06adfb4874500a3fbf11c70007",
+  "original_cell_count": 48,
+  "original_cells_preserved_exactly": true,
+  "final_synthesis_cells": 20,
+  "final_synthesis_code_cells": 10,
+  "executed_final_synthesis_code_cells": 10,
+  "error_outputs": 0,
+  "historical_cells_reexecuted": false,
+  "parseable": true,
+  "status": "PASS"
+}

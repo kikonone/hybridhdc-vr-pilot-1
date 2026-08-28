@@ -1,0 +1,19 @@
+{
+  "model": "logistic_regression",
+  "model_family": "Logistic Regression",
+  "outer_fold": 2.0,
+  "test_run_count": 84,
+  "test_subject_count": 7,
+  "selected_hyperparameters": "{\"classifier__C\": 10.0, \"effective_selected_k\": 100, \"selector__k\": 100}",
+  "selected_feature_count": 100,
+  "tuning_training_seconds": 1.7861968000070192,
+  "inference_seconds": 0.013089700005366467,
+  "macro_f1": 0.735313094090992,
+  "balanced_accuracy": 0.7376623376623377,
+  "accuracy": 0.7380952380952381,
+  "weighted_f1": 0.7355462350830069,
+  "recall_class_0": 0.6,
+  "recall_class_1": 0.6363636363636364,
+  "recall_class_2": 0.9047619047619048,
+  "recall_class_3": 0.8095238095238095
+}

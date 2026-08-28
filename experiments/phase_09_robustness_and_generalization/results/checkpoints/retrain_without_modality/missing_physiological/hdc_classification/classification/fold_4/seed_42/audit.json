@@ -1,0 +1,29 @@
+{
+  "phase": "09",
+  "run_identifier": "mm__missing_physiological__hdc_classification__fold_4__seed_42",
+  "status": "PASS",
+  "checks": {
+    "frozen_config_matching": true,
+    "expected_feature_count": true,
+    "removed_modality_feature_intersection_0": true,
+    "expected_test_rows": true,
+    "unique_test_run_key": true,
+    "exact_split_membership": true,
+    "train_test_subject_overlap_0": true,
+    "test_subject_not_used_for_config_selection": true,
+    "no_test_fitted_preprocessing": true,
+    "finite_predictions": true,
+    "classification_prediction_domain": true,
+    "bounded_regression_range": true,
+    "checkpoint_loadable": true,
+    "prediction_artifact_nonempty": true,
+    "performance_feature_count_0": true
+  },
+  "checkpoint_path": "results/checkpoints/retrain_without_modality/missing_physiological/hdc_classification/classification/fold_4/seed_42/checkpoint.json",
+  "checkpoint_sha256": "2bcdc8ff1053d358ba603b911d592e5012629399d675a500be66b72448cbcc68",
+  "model_sha256": "6aa0662a01abd91875f267bb494e222497e87504fc9bd75f49d26459ee1e1585",
+  "prediction_sha256": "57da63b1d02765c761e48aba279745b5409cac9ff304c32d4f4189b117b74aea",
+  "metrics_sha256": "3361d1bfe982ce83823461814bd49e8bf95f88c83a11d99204dabee5606f28bb",
+  "model_training_executed": true,
+  "prediction_generated": true
+}

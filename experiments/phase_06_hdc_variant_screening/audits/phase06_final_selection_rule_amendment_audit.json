@@ -1,0 +1,17 @@
+{
+  "phase": "06",
+  "audit": "final_selection_rule_amendment",
+  "timestamp_utc": "2026-08-20T17:39:09.903696+00:00",
+  "original_rule_sha256": "243dcaf9f6c939cb427addcc3675e88dad94126b70a6f1a97be07ea34e71ea55",
+  "original_fail_audit_sha256": "57108c298baf2dbf92fdf29b62306eca75b13000f7a83664a176fed6fb358544",
+  "original_rule_unchanged": true,
+  "original_fail_preserved": true,
+  "root_cause_confirmed": true,
+  "amendment_status": "INNER_CV_ONLY_POST_FREEZE_AMENDMENT",
+  "amendment_sha256": "0bfde8c83f05151531d35c8b334e5a9eed10bea0e46c78c74b053e7648eb4d9f",
+  "created_after_final_confirmation": true,
+  "outer_oof_already_existed": true,
+  "not_originally_preregistered": true,
+  "required_report_disclosure": "The Phase 06 canonical model-selection amendment was defined after final-confirmation artifacts existed, but its executable selector was restricted to previously saved inner-CV and unlabeled efficiency evidence. Outer-OOF artifacts were hash-sealed before selection and were not read by the selector.",
+  "result": "PASS"
+}

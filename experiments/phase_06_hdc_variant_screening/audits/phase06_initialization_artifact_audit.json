@@ -1,0 +1,119 @@
+{
+  "phase": "06",
+  "audit": "initialization_artifact",
+  "timestamp_utc": "2026-08-21T06:59:18.871639+00:00",
+  "result": "PASS",
+  "finalized_after_notebook_execution": false,
+  "checks": {
+    "required_files_exist_and_hashed": true,
+    "required_directories_exist": true,
+    "model_training_executed": false,
+    "phase03_phase04_phase05_files_modified": false,
+    "primary_or_fold_files_copied": false
+  },
+  "directory_checks": {
+    "data": true,
+    "manifests": true,
+    "audits": true,
+    "configs": true,
+    "src": true,
+    "scripts": true,
+    "tests": true,
+    "figures": true,
+    "logs": true,
+    "reports": true,
+    "results/checkpoints": true,
+    "results/predictions": true,
+    "results/fold_metrics": true,
+    "results/oof": true,
+    "results/summaries": true,
+    "results/efficiency": true
+  },
+  "evidence": {
+    "README.md": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\README.md",
+      "exists": true,
+      "file_size_bytes": 5724,
+      "sha256": "30809b7fdb93c3b64b28cf600442461165fe17bd1981c4152976768fdd66da3e",
+      "result": "PASS"
+    },
+    "configs/phase06_experiment_contract.json": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_experiment_contract.json",
+      "exists": true,
+      "file_size_bytes": 2430,
+      "sha256": "10dcb2fd03b6fb797fc0b45732f8e1baa5fad76845e48cd9b9a61dcb7d8e0d29",
+      "result": "PASS"
+    },
+    "configs/phase06_environment.json": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_environment.json",
+      "exists": true,
+      "file_size_bytes": 890,
+      "sha256": "bca5e1d2f3cef49a5f515a38f73250992ddf46b50ddfcd28d6fc5543ce05859c",
+      "result": "PASS"
+    },
+    "configs/phase06_upstream_interface.json": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_upstream_interface.json",
+      "exists": true,
+      "file_size_bytes": 2110,
+      "sha256": "b704d96df9bc4605b0508f446aa9520ca5b089798933878193044401a9513b63",
+      "result": "PASS"
+    },
+    "manifests/phase06_input_manifest.json": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\manifests\\phase06_input_manifest.json",
+      "exists": true,
+      "file_size_bytes": 8983,
+      "sha256": "7374445aae247b4f495cdf4ee1c86a15174cda214bdea9108db2e4fd4182ac86",
+      "result": "PASS"
+    },
+    "audits/phase06_input_and_fold_audit.json": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\audits\\phase06_input_and_fold_audit.json",
+      "exists": true,
+      "file_size_bytes": 6829,
+      "sha256": "f21ca1809f855e778fd21bbf9b4c9781e777280d1137085ea0a218fd55791791",
+      "result": "PASS"
+    },
+    "audits/phase06_phase05_freeze_interface_audit.json": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\audits\\phase06_phase05_freeze_interface_audit.json",
+      "exists": true,
+      "file_size_bytes": 6184,
+      "sha256": "a58fa71a291536867c9b68d9cc857a1fa5f3f6729d16ae31badac1eb69562bc7",
+      "result": "PASS"
+    },
+    "audits/phase06_phase04_baseline_interface_audit.json": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\audits\\phase06_phase04_baseline_interface_audit.json",
+      "exists": true,
+      "file_size_bytes": 5143,
+      "sha256": "9de7e5f46e130c2aec1664f2d5ecdf941775cf6d3911d74abcdf5d637526437d",
+      "result": "PASS"
+    },
+    "src/phase06_preflight.py": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\src\\phase06_preflight.py",
+      "exists": true,
+      "file_size_bytes": 30209,
+      "sha256": "f3950d0008ef6afff53cef9df1867b064a643583dc865f791c6607165b43b794",
+      "result": "PASS"
+    },
+    "scripts/initialize_phase06.py": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\scripts\\initialize_phase06.py",
+      "exists": true,
+      "file_size_bytes": 791,
+      "sha256": "4186dc8e9e376cf364bdf688b3ce44621fb96e5f001ffacb883e1d22b63608ff",
+      "result": "PASS"
+    },
+    "scripts/build_phase06_notebook.py": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\scripts\\build_phase06_notebook.py",
+      "exists": true,
+      "file_size_bytes": 6207,
+      "sha256": "cc6a4adfc6043d1021ff45732ac57271094b408877eddd6cdf293bfe269a10d2",
+      "result": "PASS"
+    },
+    "tests/test_phase06_preflight.py": {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\tests\\test_phase06_preflight.py",
+      "exists": true,
+      "file_size_bytes": 4068,
+      "sha256": "df61501532b7f106087ea27ffdf162cb0af1ff92c1d62bb90893314c0d0922df",
+      "result": "PASS"
+    }
+  },
+  "self_hash_exclusion": "This audit cannot contain its own SHA-256 without self-reference."
+}

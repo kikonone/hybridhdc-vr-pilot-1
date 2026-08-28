@@ -1,0 +1,26 @@
+{
+  "model": "gradient_boosting",
+  "outer_fold": 2,
+  "test_run_count": 84,
+  "test_subject_count": 7,
+  "selected_hyperparameters": {
+    "candidate_id": 5,
+    "k": 200,
+    "n_estimators": 100,
+    "learning_rate": 0.05,
+    "max_depth": 2,
+    "mean_inner_macro_f1": 0.9465146042617052,
+    "std_inner_macro_f1": 0.01248806664656
+  },
+  "selected_feature_count": 200,
+  "tuning_training_seconds": 4.897131699995953,
+  "inference_seconds": 0.022306100006971974,
+  "macro_f1": 0.9163560489425493,
+  "balanced_accuracy": 0.9188311688311688,
+  "accuracy": 0.9166666666666666,
+  "weighted_f1": 0.9157348134943144,
+  "recall_class_0": 1.0,
+  "recall_class_1": 0.8181818181818182,
+  "recall_class_2": 0.9047619047619048,
+  "recall_class_3": 0.9523809523809523
+}

@@ -1,0 +1,44 @@
+{
+  "phase": "03_multimodal_dataset_labeling",
+  "corrected_phase02_input": "experiments\\phase_02_full_multimodal_feature_extraction\\results\\full_multimodal_run_level_features_corrected_v1.csv",
+  "corrected_phase02_sha256": "84a572ef254d4008f19e344ff7d106c29ddb0ab3c640c45bf659792c1d8081f3",
+  "modeling_rows": 419,
+  "excluded_rest_rows": 68,
+  "subjects": 35,
+  "unique_run_keys": 419,
+  "classification_target": {
+    "name": "target_class",
+    "mapping": {
+      "1": 0,
+      "2": 1,
+      "3": 2,
+      "4": 3
+    },
+    "interpretation": "task-difficulty-induced workload proxy class"
+  },
+  "regression_target": {
+    "name": "target_score",
+    "values": [
+      1.0,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "interpretation": "bounded task-difficulty-induced workload proxy score"
+  },
+  "datasets": {
+    "primary_without_performance": "experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv",
+    "auxiliary_with_performance": "experiments\\phase_03_multimodal_dataset_labeling\\data\\auxiliary_with_performance.csv",
+    "performance_only": "experiments\\phase_03_multimodal_dataset_labeling\\data\\performance_only.csv"
+  },
+  "no_global_imputation": true,
+  "no_global_scaling": true,
+  "model_training_performed": false,
+  "dataset_version": "phase03_corrected_phase02_v1",
+  "creation_timestamp_utc": "2026-08-19T04:34:19.421990+00:00",
+  "body_movement_status": "VERIFIED_BODY_MOVEMENT:42",
+  "control_input_status": "EXPLICIT_CONTROL_INPUT_UNAVAILABLE:0",
+  "structurally_unusable_feature_count": 12,
+  "fold_assignment_path": "experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+  "fold_assignment_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f"
+}

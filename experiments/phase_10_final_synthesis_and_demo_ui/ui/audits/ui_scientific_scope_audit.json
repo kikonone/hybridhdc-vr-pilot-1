@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-08-21T18:34:58.639972+00:00",
+  "checks": {
+    "displayed_model_exact": true,
+    "displayed_dimension_exact": true,
+    "forbidden_model_name_hits": [],
+    "demo_row_count": 419,
+    "similarity_scores_available": true,
+    "performance_features_included": false,
+    "training_executed": false,
+    "new_predictions_generated": false,
+    "statistics_recomputed": false
+  },
+  "statement": "UI displays only frozen HDC+OnlineHD Hybrid 5000D classification evidence."
+}

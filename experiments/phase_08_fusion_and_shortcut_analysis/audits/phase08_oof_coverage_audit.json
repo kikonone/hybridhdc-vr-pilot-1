@@ -1,0 +1,196 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-08-21T02:19:28.912594+00:00",
+  "checks": {
+    "canonical_rows_10894": true,
+    "classification_rows_5447": true,
+    "regression_rows_5447": true,
+    "legal_combinations_26": true,
+    "each_combination_419_unique": true,
+    "flight_task_setting_absent": true
+  },
+  "combination_counts": [
+    {
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "FLIGHT_FULL",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "FLIGHT_FULL",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "FUSION_PE",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "FUSION_PE",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "FUSION_PEH",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "FUSION_PEH",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "FUSION_PEHF",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "FUSION_PEHF",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "size": 419,
+      "nunique": 419
+    },
+    {
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "size": 419,
+      "nunique": 419
+    }
+  ]
+}

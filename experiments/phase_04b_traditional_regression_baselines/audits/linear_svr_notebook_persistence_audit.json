@@ -1,0 +1,18 @@
+{
+  "file_exists": true,
+  "parseable": true,
+  "backup_saved": true,
+  "original_cells_preserved": true,
+  "original_outputs_preserved": true,
+  "linear_svr_section_present": true,
+  "linear_svr_persistence_tag_present": true,
+  "linear_svr_code_execution_count": 1,
+  "linear_svr_code_has_outputs": true,
+  "summary_values_in_outputs": true,
+  "oof_path_in_outputs": true,
+  "final_status_cell_present": true,
+  "final_status_execution_count": 2,
+  "ready_for_rbf_svr_in_outputs": true,
+  "other_models_executed": "NO",
+  "pass": true
+}

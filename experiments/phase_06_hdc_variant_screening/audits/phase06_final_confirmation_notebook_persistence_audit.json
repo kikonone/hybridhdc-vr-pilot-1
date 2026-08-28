@@ -1,0 +1,23 @@
+{
+  "phase": "06",
+  "audit": "final_confirmation_notebook_persistence",
+  "timestamp_utc": "2026-08-20T16:52:32.092753+00:00",
+  "notebook": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\Phase_06_HDC_Variant_Screening.ipynb",
+  "prior_cell_count": 18,
+  "final_cell_count": 20,
+  "prior_cells_semantics_preserved_by_append_only_operation": true,
+  "quick_screen_persistence_baseline": "PASS",
+  "appended_cells": 2,
+  "executed_code_cells": 1,
+  "execution_count": 11,
+  "execution_method": "exact appended source compiled and executed in Phase 06 working directory before persistence",
+  "required_content": {
+    "Final Confirmation": true,
+    "phase06_final_confirmation_executed_v1": true,
+    "COMMON_ENCODER_READOUT_BASELINE": true,
+    "outer_test_used_for_tuning": true,
+    "final_hdc_selected": true,
+    "bounded difficulty-induced workload proxy regression": true
+  },
+  "result": "PASS"
+}

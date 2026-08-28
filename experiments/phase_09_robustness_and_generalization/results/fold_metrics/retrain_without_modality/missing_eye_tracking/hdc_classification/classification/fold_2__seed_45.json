@@ -1,0 +1,45 @@
+{
+  "phase": "09",
+  "run_identifier": "mm__missing_eye_tracking__hdc_classification__fold_2__seed_45",
+  "task": "classification",
+  "regression_interpretation": null,
+  "metrics": {
+    "macro_f1": 0.7362450368689732,
+    "balanced_accuracy": 0.740530303030303,
+    "accuracy": 0.7380952380952381,
+    "severe_error_rate": 0.047619047619047616,
+    "per_class_recall": {
+      "0": 0.75,
+      "1": 0.5454545454545454,
+      "2": 0.7142857142857143,
+      "3": 0.9523809523809523
+    },
+    "confusion_matrix": [
+      [
+        15,
+        3,
+        2,
+        0
+      ],
+      [
+        7,
+        12,
+        2,
+        1
+      ],
+      [
+        1,
+        4,
+        15,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        20
+      ]
+    ],
+    "quadratic_weighted_kappa": 0.841139170096785
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "executed_at_utc": "2026-07-01T17:23:08+00:00",
+  "project_root": "E:\\hdc-vr-pilot",
+  "data_safety": "vrdataset treated as read-only; generated outputs saved under experiments",
+  "source_roles": {
+    "starterCode": "eye-tracking and oculomotor pilot reference only",
+    "dataPackage": "main source for full multimodal experiment",
+    "referenceDocuments": "documentation and data dictionary source"
+  },
+  "folder_checks": [
+    {
+      "folder": "vrdataset",
+      "path": "vrdataset",
+      "exists": true
+    },
+    {
+      "folder": "dataPackage",
+      "path": "vrdataset/dataPackage",
+      "exists": true
+    },
+    {
+      "folder": "starterCode",
+      "path": "vrdataset/starterCode",
+      "exists": true
+    },
+    {
+      "folder": "referenceDocuments",
+      "path": "vrdataset/referenceDocuments",
+      "exists": true
+    }
+  ],
+  "total_directories_under_vrdataset": 634,
+  "total_files_under_vrdataset": 9022,
+  "target_extensions": [
+    "csv",
+    "mat",
+    "xdf",
+    "txt",
+    "npy",
+    "npz",
+    "pkl",
+    "parquet",
+    "py",
+    "m",
+    "ipynb"
+  ],
+  "file_type_summary": [
+    {
+      "extension": "csv",
+      "file_count": 9004,
+      "total_size_bytes": 47302737654,
+      "total_size_mib": 45111.406
+    },
+    {
+      "extension": "mat",
+      "file_count": 0,
+      "total_size_bytes": 0,
+      "total_size_mib": 0.0
+    },
+    {
+      "extension": "xdf",
+      "file_count": 0,
+      "total_size_bytes": 0,
+      "total_size_mib": 0.0
+    },
+    {
+      "extension": "txt",
+      "file_count": 2,
+      "total_size_bytes": 1945313,
+      "total_size_mib": 1.855
+    },
+    {
+      "extension": "npy",
+      "file_count": 0,
+      "total_size_bytes": 0,
+      "total_size_mib": 0.0
+    },
+    {
+      "extension": "npz",
+      "file_count": 0,
+      "total_size_bytes": 0,
+      "total_size_mib": 0.0
+    },
+    {
+      "extension": "pkl",
+      "file_count": 0,
+      "total_size_bytes": 0,
+      "total_size_mib": 0.0
+    },
+    {
+      "extension": "parquet",
+      "file_count": 0,
+      "total_size_bytes": 0,
+      "total_size_mib": 0.0
+    },
+    {
+      "extension": "py",
+      "file_count": 4,
+      "total_size_bytes": 47131,
+      "total_size_mib": 0.045
+    },
+    {
+      "extension": "m",
+      "file_count": 1,
+      "total_size_bytes": 7647,
+      "total_size_mib": 0.007
+    },
+    {
+      "extension": "ipynb",
+      "file_count": 6,
+      "total_size_bytes": 2560088,
+      "total_size_mib": 2.441
+    }
+  ],
+  "folder_summary": [
+    {
+      "folder": "vrdataset/dataPackage",
+      "exists": true,
+      "all_file_count": 9003,
+      "target_extension_file_count": 9003,
+      "total_size_bytes": 47302398864,
+      "total_size_mib": 45111.083
+    },
+    {
+      "folder": "vrdataset/starterCode",
+      "exists": true,
+      "all_file_count": 12,
+      "target_extension_file_count": 12,
+      "total_size_bytes": 2953656,
+      "total_size_mib": 2.817
+    },
+    {
+      "folder": "vrdataset/starterCode/data_feats",
+      "exists": true,
+      "all_file_count": 1,
+      "target_extension_file_count": 1,
+      "total_size_bytes": 338790,
+      "total_size_mib": 0.323
+    },
+    {
+      "folder": "vrdataset/referenceDocuments",
+      "exists": true,
+      "all_file_count": 5,
+      "target_extension_file_count": 0,
+      "total_size_bytes": 322109168,
+      "total_size_mib": 307.187
+    }
+  ],
+  "top_candidate_folders_for_phase_01": [
+    {
+      "analysis_folder": "dataPackage/task-ils/sub-cp037/ses-20210113",
+      "file_count": 240,
+      "total_size_bytes": 1563915124,
+      "total_size_mib": 1491.466
+    },
+    {
+      "analysis_folder": "dataPackage/task-ils/sub-cp031/ses-20211216",
+      "file_count": 240,
+      "total_size_bytes": 1490826883,
+      "total_size_mib": 1421.763
+    },
+    {
+      "analysis_folder": "dataPackage/task-ils/sub-cp035/ses-20220125",
+      "file_count": 240,
+      "total_size_bytes": 1474198908,
+      "total_size_mib": 1405.906
+    },
+    {
+      "analysis_folder": "dataPackage/task-ils/sub-cp025/ses-20210820",
+      "file_count": 240,
+      "total_size_bytes": 1439056874,
+      "total_size_mib": 1372.392
+    },
+    {
+      "analysis_folder": "dataPackage/task-ils/sub-cp042/ses-20220111",
+      "file_count": 240,
+      "total_size_bytes": 1431763840,
+      "total_size_mib": 1365.436
+    },
+    {
+      "analysis_folder": "dataPackage/task-ils/sub-cp029/ses-20220119",
+      "file_count": 240,
+      "total_size_bytes": 1427052465,
+      "total_size_mib": 1360.943
+    },
+    {
+      "analysis_folder": "dataPackage/task-ils/sub-cp043/ses-20220127",
+      "file_count": 240,
+      "total_size_bytes": 1407365930,
+      "total_size_mib": 1342.169
+    },
+    {
+      "analysis_folder": "dataPackage/task-ils/sub-cp033/ses-20211215",
+      "file_count": 240,
+      "total_size_bytes": 1406605055,
+      "total_size_mib": 1341.443
+    },
+    {
+      "analysis_folder": "dataPackage/task-ils/sub-cp028/ses-20211214",
+      "file_count": 240,
+      "total_size_bytes": 1376515439,
+      "total_size_mib": 1312.747
+    },
+    {
+      "analysis_folder": "dataPackage/task-ils/sub-cp014/ses-20211112",
+      "file_count": 240,
+      "total_size_bytes": 1374200684,
+      "total_size_mib": 1310.54
+    },
+    {
+      "analysis_folder": "dataPackage/task-ils/sub-cp032/ses-20211105",
+      "file_count": 240,
+      "total_size_bytes": 1361521464,
+      "total_size_mib": 1298.448
+    },
+    {
+      "analysis_folder": "dataPackage/task-ils/sub-cp038/ses-20220112",
+      "file_count": 240,
+      "total_size_bytes": 1351628564,
+      "total_size_mib": 1289.013
+    },
+    {
+      "analysis_folder": "dataPackage/task-ils/sub-cp036/ses-20211218",
+      "file_count": 240,
+      "total_size_bytes": 1179580456,
+      "total_size_mib": 1124.936
+    },
+    {
+      "analysis_folder": "dataPackage/task-ils/sub-cp039/ses-20211219",
+      "file_count": 240,
+      "total_size_bytes": 824076486,
+      "total_size_mib": 785.901
+    },
+    {
+      "analysis_folder": "dataPackage/task-ils/sub-cp030/ses-20211025",
+      "file_count": 218,
+      "total_size_bytes": 1335017475,
+      "total_size_mib": 1273.172
+    }
+  ],
+  "outputs": {
+    "data_inventory": "experiments/phase_00_project_setup/results/data_inventory.csv",
+    "revised_phase_structure": "experiments/phase_00_project_setup/results/revised_phase_structure.csv",
+    "project_setup_report": "experiments/phase_00_project_setup/results/project_setup_report.json",
+    "file_type_summary": "experiments/phase_00_project_setup/tables/file_type_summary.csv",
+    "folder_summary": "experiments/phase_00_project_setup/tables/folder_summary.csv",
+    "phase_00_log": "experiments/phase_00_project_setup/logs/phase_00_log.txt"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "phase": "06",
+  "contract_version": "phase06_model_selection_rules_v1",
+  "status": "FROZEN",
+  "timestamp_utc": "2026-08-20T06:38:03.355963+00:00",
+  "result": "PASS",
+  "scope": "Each outer fold and new variant independently; outer-training inner-CV only.",
+  "ranking": [
+    {
+      "priority": 1,
+      "field": "mean_inner_macro_f1",
+      "direction": "descending"
+    },
+    {
+      "priority": 2,
+      "field": "sample_sd_inner_macro_f1",
+      "direction": "ascending"
+    },
+    {
+      "priority": 3,
+      "field": "mean_inner_balanced_accuracy",
+      "direction": "descending"
+    },
+    {
+      "priority": 4,
+      "field": "mean_inner_severe_error_rate",
+      "direction": "ascending"
+    },
+    {
+      "priority": 5,
+      "field": "dimension",
+      "direction": "ascending"
+    },
+    {
+      "priority": 6,
+      "fields": [
+        "epochs",
+        "centroids_per_class",
+        "learning_rate",
+        "margin_threshold"
+      ],
+      "direction": "ascending",
+      "missing_value": 0
+    },
+    {
+      "priority": 7,
+      "field": "canonical_config_json",
+      "direction": "lexicographic ascending"
+    }
+  ],
+  "outer_test_tie_breaking": "PROHIBITED",
+  "classification_only": true,
+  "regression_heads_executed": false
+}

@@ -1,0 +1,25 @@
+{
+  "phase": "06",
+  "audit": "model_selection_resolution",
+  "timestamp_utc": "2026-08-20T17:39:18.702076+00:00",
+  "gates": {
+    "original_failure_reason_correctly_recorded": true,
+    "original_rule_unchanged": true,
+    "amendment_v2_parseable": true,
+    "selector_inner_cv_and_unlabeled_efficiency_only": true,
+    "outer_oof_seal_unchanged": true,
+    "best_classification_unique": true,
+    "best_regression_unique": true,
+    "single_seed_not_selected": true,
+    "no_retraining_or_prediction": true,
+    "final_artifact_audit": true,
+    "reproducibility_audit": true,
+    "upstream_integrity": true,
+    "notebook_persistence": true
+  },
+  "original_model_selection_audit": "FAIL_PRESERVED_FOR_PROVENANCE",
+  "final_selection_rule": "INNER_CV_ONLY_POST_FREEZE_AMENDMENT_V2",
+  "classification_candidate_families": 8,
+  "regression_candidate_families": 20,
+  "result": "PASS"
+}

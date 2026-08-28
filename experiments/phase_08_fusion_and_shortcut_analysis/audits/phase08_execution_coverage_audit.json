@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-08-20T20:09:57.794582+00:00",
+  "checks": {
+    "model_task_counts": true,
+    "condition_counts": true,
+    "raw_prediction_rows_31006": true,
+    "all_prediction_run_keys_unique_within_run": true,
+    "flight_task_setting_not_executed": true
+  },
+  "completed_runs": 370,
+  "model_task_counts": {
+    "HDC_classification": 150,
+    "TRADITIONAL_classification": 35,
+    "HDC_regression": 150,
+    "TRADITIONAL_regression": 35
+  },
+  "condition_counts": {
+    "FUSION_PE": 60,
+    "FUSION_PEH": 60,
+    "FUSION_PEHF": 60,
+    "WITH_PERFORMANCE_AUXILIARY": 60,
+    "PERFORMANCE_ONLY_AUXILIARY": 60,
+    "FLIGHT_BEHAVIORAL_ONLY": 60,
+    "FLIGHT_FULL": 10
+  },
+  "raw_prediction_rows": 31006,
+  "expected_raw_prediction_rows": 31006,
+  "flight_task_setting_status": "NOT_FEASIBLE_EMPTY_PROVENANCE_GROUP"
+}

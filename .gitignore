@@ -1,0 +1,31 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+**/.pytest_cache/
+*.tmp
+~$*
+*.log
+
+# Local manuscript, document, and presentation work
+.local_archive/
+thesis/
+document_edits/
+.docx_qa/
+.docx_tmp/
+tmp/
+*.docx
+*.pptx
+
+# Locally installed tooling
+node_modules/
+**/tests/.deps/
+**/backups/
+
+# Restricted or oversized source data
+vrdataset/dataPackage/
+vrdataset/referenceDocuments/DataQualityReport.pdf
+
+# Oversized generated experiment output
+experiments/phase_02_full_multimodal_feature_extraction/results/feature_extraction_long_table.csv
+ipynb_checkpoints/
+_github_upload_*/

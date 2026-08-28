@@ -1,0 +1,19 @@
+{
+  "model": "rbf_svm",
+  "model_family": "RBF SVM",
+  "outer_fold": 5.0,
+  "test_run_count": 83,
+  "test_subject_count": 7,
+  "selected_hyperparameters": "{\"classifier__C\": 10.0, \"classifier__gamma\": \"scale\", \"effective_selected_k\": 100, \"selector__k\": 100}",
+  "selected_feature_count": 100,
+  "tuning_training_seconds": 2.982258699994418,
+  "inference_seconds": 0.012993900003493764,
+  "macro_f1": 0.9259748649283533,
+  "balanced_accuracy": 0.9261904761904762,
+  "accuracy": 0.927710843373494,
+  "weighted_f1": 0.9264216839167805,
+  "recall_class_0": 0.9523809523809523,
+  "recall_class_1": 0.9523809523809523,
+  "recall_class_2": 0.8,
+  "recall_class_3": 1.0
+}

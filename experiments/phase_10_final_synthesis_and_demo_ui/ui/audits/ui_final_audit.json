@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-08-21T18:34:58.639972+00:00",
+  "source_hash_audit": "PASS",
+  "scientific_scope_audit": "PASS",
+  "headless_smoke_test": "PASS",
+  "frozen_artifact_immutability": "PASS",
+  "phase_00_10_files_modified": 0,
+  "screenshots_saved": true,
+  "start_bat_created": true,
+  "start_powershell_created": true,
+  "displayed_model": "HDC+OnlineHD Hybrid",
+  "displayed_dimension": 5000,
+  "frozen_demo_runs_available": 419,
+  "similarity_scores_available": true,
+  "ready_for_local_defense_demonstration": true
+}

@@ -1,0 +1,33 @@
+{
+  "manifest": "phase10_final_statistics_manifest",
+  "created_at_utc": "2026-08-21T17:28:09.823024+00:00",
+  "mode": "EXTRACT_AND_INDEX_FROZEN_VALUES_ONLY",
+  "artifact_count": 35,
+  "effect_size_artifacts": 1,
+  "confidence_interval_artifacts": 3,
+  "statistical_test_artifacts": 4,
+  "outputs": [
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\results\\final_statistics_bundle\\final_statistics_index.csv",
+      "bytes": 18448,
+      "sha256": "5b66087bcdba2d52f88145f94030013953003cdc9c0c49cf748cbd1727c72984"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\results\\final_statistics_bundle\\final_effect_size_index.csv",
+      "bytes": 678,
+      "sha256": "c366318c01e16732ab134bc03e060d4942a2953c9b64753512d229c732785613"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\results\\final_statistics_bundle\\final_confidence_interval_index.csv",
+      "bytes": 1676,
+      "sha256": "39ed7a17c6eb82dcab46fca7513085551cd19926dc54527121af591176eff8d6"
+    },
+    {
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\results\\final_statistics_bundle\\final_statistical_test_index.csv",
+      "bytes": 2033,
+      "sha256": "a17455146100562f772f6cf3e807435aeeaa051a9707c3a9538754c9af5380d2"
+    }
+  ],
+  "statistics_recomputed": false,
+  "status": "PASS"
+}

@@ -1,0 +1,110 @@
+{
+  "phase": "07",
+  "audit": "contract_artifacts",
+  "generated_at_utc": "2026-08-20T18:08:15.561599+00:00",
+  "inventory": [
+    {
+      "relative_path": "configs/phase07_experiment_contract.json",
+      "exists": true,
+      "json_parseable": true,
+      "sha256": "34a5c8d622268a651186c1fec99ab8f248c6ce34f39dde11a7332196dc93753c"
+    },
+    {
+      "relative_path": "configs/phase07_frozen_unimodal_contract.json",
+      "exists": true,
+      "json_parseable": true,
+      "sha256": "3b29209dbbb057213b791443a04fad20410eb1bc5a46c681bd8afb2e28fddaa8"
+    },
+    {
+      "relative_path": "configs/phase07_statistical_analysis_contract.json",
+      "exists": true,
+      "json_parseable": true,
+      "sha256": "5487dbe83bc7e2a646ebdd8ea7827cd42826a83b57daec149ddf773640e05763"
+    },
+    {
+      "relative_path": "configs/phase07_execution_manifest.json",
+      "exists": true,
+      "json_parseable": true,
+      "sha256": "ed0c4af758d8dead81377e5b33cbdc9e4e3fe5332c91e7cc6e19b7a6cb2e3393"
+    },
+    {
+      "relative_path": "configs/phase07_metric_definitions.json",
+      "exists": true,
+      "json_parseable": true,
+      "sha256": "282845a7009804316ec153f087aac760f772a771aa7e19a4717f8697610980d1"
+    },
+    {
+      "relative_path": "manifests/phase07_modality_feature_manifest.json",
+      "exists": true,
+      "json_parseable": true,
+      "sha256": "1bea49fed9577a245b182075875bd2a7226be9f1e64782869ef3bdac86dfe1f4"
+    },
+    {
+      "relative_path": "audits/phase07_contract_freeze_audit.json",
+      "exists": true,
+      "json_parseable": true,
+      "sha256": "ecf126efad8cc067d548dc954482714ac2d578ed5232bbb392d3061a16305a9c"
+    },
+    {
+      "relative_path": "audits/phase07_pretraining_feasibility_audit.json",
+      "exists": true,
+      "json_parseable": true,
+      "sha256": "3f1fe9dee9e990943ed5e70bcaade7af214dadd955ec730274012730de881f91"
+    },
+    {
+      "relative_path": "scripts/freeze_phase07_contract.py",
+      "exists": true,
+      "json_parseable": null,
+      "sha256": "b25c3353801e771194e79a7dc4019bea4c8afbeeb15c6e0f6357af351ca9e623"
+    },
+    {
+      "relative_path": "tests/test_phase07_contract.py",
+      "exists": true,
+      "json_parseable": null,
+      "sha256": "af95b33381c642f02bcf19bfc1458b3170674a410307416dee5bef2f5115e7c4"
+    },
+    {
+      "relative_path": "README.md",
+      "exists": true,
+      "json_parseable": null,
+      "sha256": "d4ce35a905226d7e7c20a834d78dc6c533a197eb6a6ce8088f81bfa83590af52"
+    },
+    {
+      "relative_path": "task_plan.md",
+      "exists": true,
+      "json_parseable": null,
+      "sha256": "1a8875e28228176e2481c5383a95efcd0bf657107b05d199d30b403122d60e44"
+    },
+    {
+      "relative_path": "notes.md",
+      "exists": true,
+      "json_parseable": null,
+      "sha256": "540f7414af402d15c366f85e2fce0e9864ec049c8017d96f46c4801b87b8baea"
+    },
+    {
+      "relative_path": "Phase_07_Unimodal_Contribution.ipynb",
+      "exists": true,
+      "json_parseable": null,
+      "sha256": "436e957387c35378996d0315b87681b72365e59fd5685b0f6465d4c5980da690"
+    }
+  ],
+  "static_unit_tests": "PASS",
+  "upstream_sha256_after_freeze": {
+    "primary_data": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44",
+    "frozen_folds": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+    "phase06_freeze": "cd94acdf0bcb463b5f48a7c84110a23059899b6b5bf156131694827d7d7bde66",
+    "phase06_classification": "174a99de2d993acdea49fdebc9647b28db4648ada2bea7a33f620f4677f031a4",
+    "phase06_regression": "acde51709971d57c76eefaffcf1ecd571a4d4c5c36f8d76edf39841c5e7065b8",
+    "phase06_variant_contract": "f9d0bd0f304678bbd00e3fdeaaf9b619511a2e54f9d426e21cc130691cca365b",
+    "phase05_encoding_contract": "8bffcbdcad5ef73778a5daf8eb64dd9dd1d8d90c675d10f9cbd72a1360f133ef"
+  },
+  "upstream_files_unchanged": true,
+  "result_inventory": {
+    "checkpoints": [],
+    "predictions": [],
+    "oof": []
+  },
+  "training_executed": false,
+  "outer_test_predictions_generated": false,
+  "result": "PASS"
+}

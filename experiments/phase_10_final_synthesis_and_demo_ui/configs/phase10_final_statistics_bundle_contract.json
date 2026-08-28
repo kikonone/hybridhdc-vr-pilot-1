@@ -1,0 +1,40 @@
+{
+  "contract": "phase10_final_statistics_bundle_contract",
+  "status": "FROZEN_NOT_MATERIALIZED",
+  "required_families": [
+    "descriptive model metrics",
+    "subject-level bootstrap CI",
+    "Friedman tests",
+    "Wilcoxon signed-rank tests",
+    "Holm-adjusted results",
+    "rank-biserial effect sizes",
+    "HDC seed stability",
+    "subject stability",
+    "modality contribution",
+    "fusion increment analysis",
+    "shortcut analysis",
+    "missing-modality robustness",
+    "LOSO stability"
+  ],
+  "inference_unit": "subject_id",
+  "seed_stability_role": "descriptive only; seeds are not independent inferential samples",
+  "statistics_recomputed": false,
+  "index_fields": [
+    "artifact_id",
+    "source_phase",
+    "source_path",
+    "source_sha256",
+    "analysis_family",
+    "task",
+    "metric",
+    "statistical_unit",
+    "sample_size",
+    "test",
+    "correction",
+    "effect_size",
+    "bootstrap_iterations",
+    "paper_role",
+    "included",
+    "exclusion_reason"
+  ]
+}

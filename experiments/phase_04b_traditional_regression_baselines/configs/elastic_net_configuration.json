@@ -1,0 +1,9 @@
+{
+  "recovery_version": "V1",
+  "fold_1_2_max_iter_used": 20000,
+  "fold_1_2_naturally_converged": true,
+  "fold_3_5_max_iter_used": 100000,
+  "target": "target_score = difficulty_level",
+  "interpretation": "bounded difficulty-induced workload proxy regression",
+  "scientific_grid_unchanged": true
+}

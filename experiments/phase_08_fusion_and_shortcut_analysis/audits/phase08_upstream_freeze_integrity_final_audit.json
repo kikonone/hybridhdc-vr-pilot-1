@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-08-21T02:37:43.632788+00:00",
+  "checks": {
+    "phase04a": true,
+    "phase04b": true,
+    "phase06": true,
+    "phase07": true
+  },
+  "interfaces": [
+    {
+      "phase": "phase04a",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\phase04a_freeze.json",
+      "expected_sha256": "34ea8100d9406f9701750a441aa6537323c28bcdb194cb3fd3645c4f7de4a2e1",
+      "actual_sha256": "34ea8100d9406f9701750a441aa6537323c28bcdb194cb3fd3645c4f7de4a2e1",
+      "match": true
+    },
+    {
+      "phase": "phase04b",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\configs\\phase04b_freeze.json",
+      "expected_sha256": "e2c88b1139a50aab6d47b6477c7bceff74f8443095f9d039ea9af84b715ee790",
+      "actual_sha256": "e2c88b1139a50aab6d47b6477c7bceff74f8443095f9d039ea9af84b715ee790",
+      "match": true
+    },
+    {
+      "phase": "phase06",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+      "expected_sha256": "cd94acdf0bcb463b5f48a7c84110a23059899b6b5bf156131694827d7d7bde66",
+      "actual_sha256": "cd94acdf0bcb463b5f48a7c84110a23059899b6b5bf156131694827d7d7bde66",
+      "match": true
+    },
+    {
+      "phase": "phase07",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_07_unimodal_contribution\\configs\\phase07_freeze.json",
+      "expected_sha256": "8569b48a8210f0ca1316d5a140d292edb892e2a556ea13ee299e9b97699af492",
+      "actual_sha256": "8569b48a8210f0ca1316d5a140d292edb892e2a556ea13ee299e9b97699af492",
+      "match": true
+    }
+  ],
+  "phase03_to_07_files_modified": false
+}

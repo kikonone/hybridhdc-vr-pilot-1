@@ -1,0 +1,17 @@
+{
+  "initial_status": "FAIL",
+  "completed_folds": [
+    1,
+    2
+  ],
+  "failed_or_interrupted_fold": 3,
+  "initial_max_iter": 20000,
+  "initial_tol": 0.0001,
+  "root_cause": "PYTHON_SYNTAX_ERROR prevented recovery training from starting",
+  "recovery_training_started": false,
+  "scientific_search_space_changed": false,
+  "frozen_folds_changed": false,
+  "outer_test_used_for_recovery_decision": false,
+  "recovery_action": "increase numerical solver budget to max_iter=100000",
+  "utc_timestamp": "2026-08-19T17:32:05.460355+00:00"
+}

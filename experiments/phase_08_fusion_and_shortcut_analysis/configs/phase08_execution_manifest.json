@@ -1,0 +1,3383 @@
+{
+  "status": "FROZEN",
+  "expected_total_runs": 370,
+  "duplicate_run_identifiers": 0,
+  "run_records": [
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_1__seed_42",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_1__seed_43",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_1__seed_44",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_1__seed_45",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_1__seed_46",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__TRADITIONAL__classification__fold_1__canonical",
+      "condition": "FUSION_PE",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_2__seed_42",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_2__seed_43",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_2__seed_44",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_2__seed_45",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_2__seed_46",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__TRADITIONAL__classification__fold_2__canonical",
+      "condition": "FUSION_PE",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_3__seed_42",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_3__seed_43",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_3__seed_44",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_3__seed_45",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_3__seed_46",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__TRADITIONAL__classification__fold_3__canonical",
+      "condition": "FUSION_PE",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_4__seed_42",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_4__seed_43",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_4__seed_44",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_4__seed_45",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_4__seed_46",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__TRADITIONAL__classification__fold_4__canonical",
+      "condition": "FUSION_PE",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_5__seed_42",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_5__seed_43",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_5__seed_44",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_5__seed_45",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__classification__fold_5__seed_46",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__TRADITIONAL__classification__fold_5__canonical",
+      "condition": "FUSION_PE",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_1__seed_42",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_1__seed_43",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_1__seed_44",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_1__seed_45",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_1__seed_46",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__TRADITIONAL__regression__fold_1__canonical",
+      "condition": "FUSION_PE",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_2__seed_42",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_2__seed_43",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_2__seed_44",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_2__seed_45",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_2__seed_46",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__TRADITIONAL__regression__fold_2__canonical",
+      "condition": "FUSION_PE",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_3__seed_42",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_3__seed_43",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_3__seed_44",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_3__seed_45",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_3__seed_46",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__TRADITIONAL__regression__fold_3__canonical",
+      "condition": "FUSION_PE",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_4__seed_42",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_4__seed_43",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_4__seed_44",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_4__seed_45",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_4__seed_46",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__TRADITIONAL__regression__fold_4__canonical",
+      "condition": "FUSION_PE",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_5__seed_42",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_5__seed_43",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_5__seed_44",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_5__seed_45",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__HDC__regression__fold_5__seed_46",
+      "condition": "FUSION_PE",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PE__TRADITIONAL__regression__fold_5__canonical",
+      "condition": "FUSION_PE",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_1__seed_42",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_1__seed_43",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_1__seed_44",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_1__seed_45",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_1__seed_46",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__TRADITIONAL__classification__fold_1__canonical",
+      "condition": "FUSION_PEH",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_2__seed_42",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_2__seed_43",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_2__seed_44",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_2__seed_45",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_2__seed_46",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__TRADITIONAL__classification__fold_2__canonical",
+      "condition": "FUSION_PEH",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_3__seed_42",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_3__seed_43",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_3__seed_44",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_3__seed_45",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_3__seed_46",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__TRADITIONAL__classification__fold_3__canonical",
+      "condition": "FUSION_PEH",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_4__seed_42",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_4__seed_43",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_4__seed_44",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_4__seed_45",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_4__seed_46",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__TRADITIONAL__classification__fold_4__canonical",
+      "condition": "FUSION_PEH",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_5__seed_42",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_5__seed_43",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_5__seed_44",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_5__seed_45",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__classification__fold_5__seed_46",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__TRADITIONAL__classification__fold_5__canonical",
+      "condition": "FUSION_PEH",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_1__seed_42",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_1__seed_43",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_1__seed_44",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_1__seed_45",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_1__seed_46",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__TRADITIONAL__regression__fold_1__canonical",
+      "condition": "FUSION_PEH",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_2__seed_42",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_2__seed_43",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_2__seed_44",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_2__seed_45",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_2__seed_46",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__TRADITIONAL__regression__fold_2__canonical",
+      "condition": "FUSION_PEH",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_3__seed_42",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_3__seed_43",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_3__seed_44",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_3__seed_45",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_3__seed_46",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__TRADITIONAL__regression__fold_3__canonical",
+      "condition": "FUSION_PEH",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_4__seed_42",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_4__seed_43",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_4__seed_44",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_4__seed_45",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_4__seed_46",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__TRADITIONAL__regression__fold_4__canonical",
+      "condition": "FUSION_PEH",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_5__seed_42",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_5__seed_43",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_5__seed_44",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_5__seed_45",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__HDC__regression__fold_5__seed_46",
+      "condition": "FUSION_PEH",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEH__TRADITIONAL__regression__fold_5__canonical",
+      "condition": "FUSION_PEH",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_1__seed_42",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_1__seed_43",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_1__seed_44",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_1__seed_45",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_1__seed_46",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__TRADITIONAL__classification__fold_1__canonical",
+      "condition": "FUSION_PEHF",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_2__seed_42",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_2__seed_43",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_2__seed_44",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_2__seed_45",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_2__seed_46",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__TRADITIONAL__classification__fold_2__canonical",
+      "condition": "FUSION_PEHF",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_3__seed_42",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_3__seed_43",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_3__seed_44",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_3__seed_45",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_3__seed_46",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__TRADITIONAL__classification__fold_3__canonical",
+      "condition": "FUSION_PEHF",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_4__seed_42",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_4__seed_43",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_4__seed_44",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_4__seed_45",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_4__seed_46",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__TRADITIONAL__classification__fold_4__canonical",
+      "condition": "FUSION_PEHF",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_5__seed_42",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_5__seed_43",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_5__seed_44",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_5__seed_45",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__classification__fold_5__seed_46",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__TRADITIONAL__classification__fold_5__canonical",
+      "condition": "FUSION_PEHF",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_1__seed_42",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_1__seed_43",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_1__seed_44",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_1__seed_45",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_1__seed_46",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__TRADITIONAL__regression__fold_1__canonical",
+      "condition": "FUSION_PEHF",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_2__seed_42",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_2__seed_43",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_2__seed_44",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_2__seed_45",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_2__seed_46",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__TRADITIONAL__regression__fold_2__canonical",
+      "condition": "FUSION_PEHF",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_3__seed_42",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_3__seed_43",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_3__seed_44",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_3__seed_45",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_3__seed_46",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__TRADITIONAL__regression__fold_3__canonical",
+      "condition": "FUSION_PEHF",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_4__seed_42",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_4__seed_43",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_4__seed_44",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_4__seed_45",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_4__seed_46",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__TRADITIONAL__regression__fold_4__canonical",
+      "condition": "FUSION_PEHF",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_5__seed_42",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_5__seed_43",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_5__seed_44",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_5__seed_45",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__HDC__regression__fold_5__seed_46",
+      "condition": "FUSION_PEHF",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FUSION_PEHF__TRADITIONAL__regression__fold_5__canonical",
+      "condition": "FUSION_PEHF",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_1__seed_42",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_1__seed_43",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_1__seed_44",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_1__seed_45",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_1__seed_46",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__TRADITIONAL__classification__fold_1__canonical",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_2__seed_42",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_2__seed_43",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_2__seed_44",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_2__seed_45",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_2__seed_46",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__TRADITIONAL__classification__fold_2__canonical",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_3__seed_42",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_3__seed_43",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_3__seed_44",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_3__seed_45",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_3__seed_46",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__TRADITIONAL__classification__fold_3__canonical",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_4__seed_42",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_4__seed_43",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_4__seed_44",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_4__seed_45",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_4__seed_46",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__TRADITIONAL__classification__fold_4__canonical",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_5__seed_42",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_5__seed_43",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_5__seed_44",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_5__seed_45",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__classification__fold_5__seed_46",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__TRADITIONAL__classification__fold_5__canonical",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_1__seed_42",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_1__seed_43",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_1__seed_44",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_1__seed_45",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_1__seed_46",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__TRADITIONAL__regression__fold_1__canonical",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_2__seed_42",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_2__seed_43",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_2__seed_44",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_2__seed_45",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_2__seed_46",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__TRADITIONAL__regression__fold_2__canonical",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_3__seed_42",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_3__seed_43",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_3__seed_44",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_3__seed_45",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_3__seed_46",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__TRADITIONAL__regression__fold_3__canonical",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_4__seed_42",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_4__seed_43",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_4__seed_44",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_4__seed_45",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_4__seed_46",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__TRADITIONAL__regression__fold_4__canonical",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_5__seed_42",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_5__seed_43",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_5__seed_44",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_5__seed_45",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__HDC__regression__fold_5__seed_46",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "WITH_PERFORMANCE_AUXILIARY__TRADITIONAL__regression__fold_5__canonical",
+      "condition": "WITH_PERFORMANCE_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_1__seed_42",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_1__seed_43",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_1__seed_44",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_1__seed_45",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_1__seed_46",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__TRADITIONAL__classification__fold_1__canonical",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_2__seed_42",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_2__seed_43",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_2__seed_44",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_2__seed_45",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_2__seed_46",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__TRADITIONAL__classification__fold_2__canonical",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_3__seed_42",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_3__seed_43",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_3__seed_44",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_3__seed_45",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_3__seed_46",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__TRADITIONAL__classification__fold_3__canonical",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_4__seed_42",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_4__seed_43",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_4__seed_44",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_4__seed_45",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_4__seed_46",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__TRADITIONAL__classification__fold_4__canonical",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_5__seed_42",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_5__seed_43",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_5__seed_44",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_5__seed_45",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__classification__fold_5__seed_46",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__TRADITIONAL__classification__fold_5__canonical",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_1__seed_42",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_1__seed_43",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_1__seed_44",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_1__seed_45",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_1__seed_46",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__TRADITIONAL__regression__fold_1__canonical",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_2__seed_42",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_2__seed_43",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_2__seed_44",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_2__seed_45",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_2__seed_46",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__TRADITIONAL__regression__fold_2__canonical",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_3__seed_42",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_3__seed_43",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_3__seed_44",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_3__seed_45",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_3__seed_46",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__TRADITIONAL__regression__fold_3__canonical",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_4__seed_42",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_4__seed_43",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_4__seed_44",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_4__seed_45",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_4__seed_46",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__TRADITIONAL__regression__fold_4__canonical",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_5__seed_42",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_5__seed_43",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_5__seed_44",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_5__seed_45",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__HDC__regression__fold_5__seed_46",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "PERFORMANCE_ONLY_AUXILIARY__TRADITIONAL__regression__fold_5__canonical",
+      "condition": "PERFORMANCE_ONLY_AUXILIARY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_1__seed_42",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_1__seed_43",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_1__seed_44",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_1__seed_45",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_1__seed_46",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__TRADITIONAL__classification__fold_1__canonical",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_2__seed_42",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_2__seed_43",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_2__seed_44",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_2__seed_45",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_2__seed_46",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__TRADITIONAL__classification__fold_2__canonical",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_3__seed_42",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_3__seed_43",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_3__seed_44",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_3__seed_45",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_3__seed_46",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__TRADITIONAL__classification__fold_3__canonical",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_4__seed_42",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_4__seed_43",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_4__seed_44",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_4__seed_45",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_4__seed_46",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__TRADITIONAL__classification__fold_4__canonical",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_5__seed_42",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_5__seed_43",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_5__seed_44",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_5__seed_45",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__classification__fold_5__seed_46",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__TRADITIONAL__classification__fold_5__canonical",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_1__seed_42",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_1__seed_43",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_1__seed_44",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_1__seed_45",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_1__seed_46",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__TRADITIONAL__regression__fold_1__canonical",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_2__seed_42",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_2__seed_43",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_2__seed_44",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_2__seed_45",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_2__seed_46",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__TRADITIONAL__regression__fold_2__canonical",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_3__seed_42",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_3__seed_43",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_3__seed_44",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_3__seed_45",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_3__seed_46",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__TRADITIONAL__regression__fold_3__canonical",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_4__seed_42",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_4__seed_43",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_4__seed_44",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_4__seed_45",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_4__seed_46",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__TRADITIONAL__regression__fold_4__canonical",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_5__seed_42",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_5__seed_43",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 43,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_5__seed_44",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 44,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_5__seed_45",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 45,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__HDC__regression__fold_5__seed_46",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "HDC",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": 46,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_BEHAVIORAL_ONLY__TRADITIONAL__regression__fold_5__canonical",
+      "condition": "FLIGHT_BEHAVIORAL_ONLY",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_FULL__TRADITIONAL__classification__fold_1__canonical",
+      "condition": "FLIGHT_FULL",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 1,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_FULL__TRADITIONAL__classification__fold_2__canonical",
+      "condition": "FLIGHT_FULL",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 2,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_FULL__TRADITIONAL__classification__fold_3__canonical",
+      "condition": "FLIGHT_FULL",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 3,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_FULL__TRADITIONAL__classification__fold_4__canonical",
+      "condition": "FLIGHT_FULL",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 4,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_FULL__TRADITIONAL__classification__fold_5__canonical",
+      "condition": "FLIGHT_FULL",
+      "model_family": "TRADITIONAL",
+      "task": "classification",
+      "outer_fold": 5,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_FULL__TRADITIONAL__regression__fold_1__canonical",
+      "condition": "FLIGHT_FULL",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 1,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_FULL__TRADITIONAL__regression__fold_2__canonical",
+      "condition": "FLIGHT_FULL",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 2,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_FULL__TRADITIONAL__regression__fold_3__canonical",
+      "condition": "FLIGHT_FULL",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 3,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_FULL__TRADITIONAL__regression__fold_4__canonical",
+      "condition": "FLIGHT_FULL",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 4,
+      "seed": null,
+      "status": "COMPLETE"
+    },
+    {
+      "run_id": "FLIGHT_FULL__TRADITIONAL__regression__fold_5__canonical",
+      "condition": "FLIGHT_FULL",
+      "model_family": "TRADITIONAL",
+      "task": "regression",
+      "outer_fold": 5,
+      "seed": null,
+      "status": "COMPLETE"
+    }
+  ],
+  "outer_folds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "training_executed": true,
+  "outer_test_predictions_generated": true,
+  "oof_generated": true,
+  "last_updated_utc": "2026-08-21T02:37:38.123115+00:00",
+  "completed_runs": 370,
+  "completion_counts": {
+    "HDC_classification": 150,
+    "HDC_regression": 150,
+    "traditional_classification": 35,
+    "traditional_regression": 35
+  },
+  "final_oof_consolidation_executed": true,
+  "phase09_executed": false,
+  "executor_completed": true,
+  "last_verified_utc": "2026-08-20T20:09:58.611694+00:00",
+  "raw_prediction_rows": 31006,
+  "executor_validation_audit": "audits/phase08_executor_validation_audit.json",
+  "checkpoint_integrity_audit": "audits/phase08_checkpoint_integrity_audit.json",
+  "execution_coverage_audit": "audits/phase08_execution_coverage_audit.json",
+  "execution_leakage_audit": "audits/phase08_execution_leakage_audit.json",
+  "execution_artifact_audit": "audits/phase08_execution_artifact_audit.json",
+  "outer_test_used_for_tuning": false,
+  "ready_for_oof_consolidation_pending_notebook": false,
+  "execution_notebook_persistence_audit": "audits/phase08_execution_notebook_persistence_audit.json",
+  "ready_for_oof_consolidation": true,
+  "canonical_oof_rows": 10894,
+  "ready_for_analysis": true,
+  "ready_for_phase08_freeze": false,
+  "analysis_completed": true,
+  "phase08_frozen": true,
+  "ready_to_proceed_to_phase09": true,
+  "freeze_time_utc": "2026-08-21T02:37:38.123115+00:00"
+}

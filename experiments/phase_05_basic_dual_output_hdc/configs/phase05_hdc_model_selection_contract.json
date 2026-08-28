@@ -1,0 +1,4 @@
+{
+  "status": "FROZEN_NOT_EXECUTED",
+  "outer_cv": "frozen 5-fold subject-wise split", "inner_cv": "GroupKFold(n_splits=3, groups=subject_id) on each outer-training set", "shared_encoder_selection": "classification inner Macro-F1 primary; regression heads tune only their own parameter after encoder selection", "outer_test_rule": "outer-test may be used once only after all encoder and head decisions are finalized; never select dimension, levels, k, temperature, alpha, preprocessing, or codebook parameters", "candidate_failure_rule": "a candidate failure fails the current fold; never silently skip", "exception_rule": "save traceback", "checkpoint_rule": "save independent checkpoint per outer fold when modeling is authorized", "required_saved_state_when_modeling_is_authorized": ["configuration", "selected feature names", "quantization boundaries", "seed derivations", "codebook hashes"]
+}

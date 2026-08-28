@@ -1,0 +1,177 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-08-21T02:27:51.988872+00:00",
+  "checks": {
+    "required_count": true,
+    "all_nonempty": true,
+    "pdf_png_pairs_5": true
+  },
+  "artifact_count": 33,
+  "artifacts": [
+    {
+      "path": "results/oof/phase08_canonical_classification_oof.csv",
+      "sha256": "e1c46ecb8e0d8f6fdfe592984614e2b83c1720b8fd40a9380eb7885c332322e6",
+      "bytes": 1136388
+    },
+    {
+      "path": "results/oof/phase08_canonical_regression_oof.csv",
+      "sha256": "5c900c2e2187ed56ff22a8af801abc194e6054267e8d6ab3e7481aa0733ced76",
+      "bytes": 907022
+    },
+    {
+      "path": "results/oof/phase08_canonical_oof_index.csv",
+      "sha256": "19d5022a9991f2964a0d74a1e25ddd0f6470162cf0c34e03dd7937cde5bae9a3",
+      "bytes": 1732
+    },
+    {
+      "path": "results/oof/phase08_upstream_reference_index.csv",
+      "sha256": "52d604b41df967ea9e3a926a9ea24122c816de312095d78c1a15ca509a7e3024",
+      "bytes": 2260
+    },
+    {
+      "path": "results/summaries/phase08_classification_metrics.csv",
+      "sha256": "91823a72bcc57d3d1a4c070d64b31b1cbf0c994da9138fe4e9c514b35504ca9f",
+      "bytes": 5153
+    },
+    {
+      "path": "results/summaries/phase08_regression_metrics.csv",
+      "sha256": "649f3408aef91f298dfc81bfd7fa714a81b893b58a8f94201724b501e6d2c305",
+      "bytes": 4648
+    },
+    {
+      "path": "results/summaries/phase08_seed_stability.csv",
+      "sha256": "c93e5d2ce8c8eb58d9fb97d7d1c5021b7797bd9a274d55526f6e73625b3bf52d",
+      "bytes": 2863
+    },
+    {
+      "path": "results/summaries/phase08_fusion_condition_comparison.csv",
+      "sha256": "03c90b6b1ad614cce37fb9f88ef7373ac19c63eb08bfce9bf8aadc1a0fc4d7f8",
+      "bytes": 5484
+    },
+    {
+      "path": "results/summaries/phase08_fusion_increment_analysis.csv",
+      "sha256": "31e57e71a0da80697655b376c1b09926480747415ff9f78447120d4903c661fc",
+      "bytes": 3877
+    },
+    {
+      "path": "results/summaries/phase08_flight_behavioral_sensitivity.csv",
+      "sha256": "0b1859577077856cddafa2292af81cfdb1915a76139fef9e1a869c32e794835e",
+      "bytes": 1307
+    },
+    {
+      "path": "results/summaries/phase08_shortcut_evidence_matrix.csv",
+      "sha256": "8fb420a6ab0635d64827b6e4439526b16a922ceef4572b46982488d49e4231e6",
+      "bytes": 3149
+    },
+    {
+      "path": "results/summaries/phase08_generalization_evidence_limits.csv",
+      "sha256": "075c4b6deeba77f102eb25920ef8407611f7da844c8347f52b7acada3a4a123b",
+      "bytes": 340
+    },
+    {
+      "path": "results/summaries/phase08_pairwise_statistics.csv",
+      "sha256": "77200f498f10440c210be478bb700d52248f16c9633035fe8c7dd677224a51a0",
+      "bytes": 7391
+    },
+    {
+      "path": "results/summaries/phase08_bootstrap_confidence_intervals.csv",
+      "sha256": "345cfe7351dac7ce596d897b990569947c4b1f698ac25b3fea984785b0e7ac5f",
+      "bytes": 10537
+    },
+    {
+      "path": "results/summaries/phase08_final_comparison.csv",
+      "sha256": "f20471356be9e3dc7d87bf0e8c08640449ee9fb545a7d3b6aabb89c4a03d9653",
+      "bytes": 11795
+    },
+    {
+      "path": "reports/phase08_generalization_limitations.md",
+      "sha256": "b8f4ac1ad1fafbcb48ba900c83aae3eecc8850f278ab05474bce3b6a7436df39",
+      "bytes": 806
+    },
+    {
+      "path": "reports/phase08_final_analysis.md",
+      "sha256": "c41d5768c1262fed37e68bea5bd844abb46aa3c65c488290165c57432bc83869",
+      "bytes": 22669
+    },
+    {
+      "path": "reports/phase08_shortcut_and_generalization_report.md",
+      "sha256": "27b40ea07734214e8e1ce31e9f4c4675718d937ee2175d06dca37ecb4ce73e66",
+      "bytes": 8820
+    },
+    {
+      "path": "reports/phase08_statistical_appendix.md",
+      "sha256": "3c81df30bebbeaea746cbc506fa5385030beefbd9ab7ecb35cdbcb19a8d6439f",
+      "bytes": 11393
+    },
+    {
+      "path": "reports/analysis-output/analysis-report.md",
+      "sha256": "b6432e31487ef2ab4f4becf0ddd42402e019e93d0161511770bc8937ad30695a",
+      "bytes": 10497
+    },
+    {
+      "path": "reports/analysis-output/stats-appendix.md",
+      "sha256": "3c81df30bebbeaea746cbc506fa5385030beefbd9ab7ecb35cdbcb19a8d6439f",
+      "bytes": 11393
+    },
+    {
+      "path": "reports/analysis-output/figure-catalog.md",
+      "sha256": "5496a2dd247b946acc62072f6e8c042f380caa546ef11994161b484abfd38059",
+      "bytes": 918
+    },
+    {
+      "path": "configs/phase09_generalization_handoff.json",
+      "sha256": "aa15ccdea2bfd7224f8deb29ab4ed3baa88b495cfb526e1c83924a32e15f229b",
+      "bytes": 3411
+    },
+    {
+      "path": "figures/phase08_classification_condition_comparison.pdf",
+      "sha256": "057896d72716474c9cd9fe0fdf3ca0b77d7839f6c5d9be577c0c39ccca088c4f",
+      "bytes": 22284
+    },
+    {
+      "path": "figures/phase08_classification_condition_comparison.png",
+      "sha256": "3e9358da4720fb2d58e4e29b60b027defcf459ccd953e2a31aca2c692b7a03e3",
+      "bytes": 355257
+    },
+    {
+      "path": "figures/phase08_regression_condition_comparison.pdf",
+      "sha256": "29493ebae653dcea926277b4e49c9e30be32375fd6118390c44a8c4faaf2f7f5",
+      "bytes": 23072
+    },
+    {
+      "path": "figures/phase08_regression_condition_comparison.png",
+      "sha256": "27879d4e589c57a11ba00da2be9edddc3ca317d935ffce6d8b9c4f9a4d45dcf5",
+      "bytes": 293106
+    },
+    {
+      "path": "figures/phase08_fusion_increment_effects.pdf",
+      "sha256": "a5d868294fa15aa31eff0860597d2237cd8f8edad8707575bd35b6d8ccd9f290",
+      "bytes": 20449
+    },
+    {
+      "path": "figures/phase08_fusion_increment_effects.png",
+      "sha256": "9c3d05087307e934f9a1996ccf02db39e906983dafc88680eaee9af36be43253",
+      "bytes": 348689
+    },
+    {
+      "path": "figures/phase08_shortcut_sensitivity.pdf",
+      "sha256": "e67aa7a0358b07406bcc5a2cecca0b5609fed5db7f0c2368d2e4c17bd10ae634",
+      "bytes": 19883
+    },
+    {
+      "path": "figures/phase08_shortcut_sensitivity.png",
+      "sha256": "0e6fead89fb8d96b53cd4b9b0fac3701690fbc9bff887efdd6ec60757724cbfa",
+      "bytes": 395648
+    },
+    {
+      "path": "figures/phase08_subject_level_effects.pdf",
+      "sha256": "0fdb7ea15bacf21c3b4bee6e42dcaa707f5d7c196d6fc3aee099e740b753aa33",
+      "bytes": 22214
+    },
+    {
+      "path": "figures/phase08_subject_level_effects.png",
+      "sha256": "e6d91faefdea18eb81b3b9182bc196bed4bcfccb9c037b67e42f6554d9d89a46",
+      "bytes": 654674
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "status": "SCIENTIFIC_ARTIFACTS_UNCHANGED_ONE_NONSCIENTIFIC_PHASE06_METADATA_CHANGE_REMAINS",
+  "changed_frozen_artifacts_before": 2,
+  "scientific_artifacts_among_changes": 0,
+  "artifacts": [
+    {
+      "path": "experiments/phase_06_hdc_variant_screening/audits/phase06_phase05_freeze_interface_audit.json",
+      "role": "Phase 05 to Phase 06 freeze-interface audit metadata",
+      "phase": "06",
+      "before_sha256": "e51fb46d4dd3ded79831c59311cbcaf7357d9cafffdcfb58f9049f38c6b63aa9",
+      "changed_sha256": "a58fa71a291536867c9b68d9cc857a1fa5f3f6729d16ae31badac1eb69562bc7",
+      "before_bytes": 6183,
+      "changed_bytes": 6184,
+      "classification": "NONSCIENTIFIC_REGENERATED_AUDIT_METADATA",
+      "trusted_exact_before_copy_found": false,
+      "resolution": "NOT_OVERWRITTEN_NO_EXACT_TRUSTED_BYTES",
+      "prediction": false,
+      "canonical_oof": false,
+      "statistics": false,
+      "frozen_model_config": false
+    },
+    {
+      "path": "experiments/phase_09_robustness_and_generalization/configs/phase09_contract_freeze.json",
+      "role": "Phase 09 contract-freeze lifecycle configuration",
+      "phase": "09",
+      "before_sha256": "a9d57f15a8b8c5b16fc019c81f7dba43795725da88d7083347f8a6ff93bd9b11",
+      "changed_sha256": "4028fe6cbd6061a1e436978ee1feecbc1e22acd3914810936f61472eea7093b2",
+      "restored_sha256": "a9d57f15a8b8c5b16fc019c81f7dba43795725da88d7083347f8a6ff93bd9b11",
+      "classification": "NONSCIENTIFIC_LIFECYCLE_METADATA",
+      "trusted_exact_before_copy_found": true,
+      "resolution": "QUARANTINED_CHANGED_VERSION_AND_RESTORED_EXACT_FROZEN_BYTES",
+      "quarantine_path": "audits/pre_submission_repair/quarantine/phase_09/configs/phase09_contract_freeze.json",
+      "prediction": false,
+      "canonical_oof": false,
+      "statistics": false,
+      "frozen_model_config": false
+    }
+  ],
+  "additional_phase09_lifecycle_files_restored_to_manifest_hash": [
+    "audits/phase09_executor_validation_audit.json",
+    "configs/phase09_execution_manifest.json",
+    "configs/phase09_frozen_contract.json"
+  ],
+  "phase09_recovery_evidence": "audits/pre_submission_repair/scripts/recover_phase09_lifecycle_artifacts.py"
+}

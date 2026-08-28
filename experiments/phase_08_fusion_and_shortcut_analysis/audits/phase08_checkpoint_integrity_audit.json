@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-08-20T20:09:57.760385+00:00",
+  "checks": {
+    "valid_checkpoints_370": true,
+    "invalid_checkpoint_count_zero": true,
+    "all_checkpoint_integrity_pass": true,
+    "all_config_matching_pass": true,
+    "all_artifact_hashes_present": true
+  },
+  "valid_runs": 370,
+  "invalid_run_ids": []
+}

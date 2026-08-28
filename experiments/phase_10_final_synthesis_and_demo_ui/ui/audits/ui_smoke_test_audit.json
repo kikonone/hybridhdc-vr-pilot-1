@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "tested_at_utc": "2026-08-21T18:34:51.610184+00:00",
+  "browser": "Microsoft Edge via Playwright (headless)",
+  "url": "http://127.0.0.1:8501",
+  "viewports": [
+    {
+      "width": 1366,
+      "height": 768
+    },
+    {
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "interactions": [
+    "任务总览",
+    "冻结样例演示",
+    "模型性能",
+    "return to 任务总览"
+  ],
+  "console_errors": [],
+  "page_errors": [],
+  "screenshots": [
+    "screenshots/hdc_ui_1366x768.png",
+    "screenshots/hdc_ui_1920x1080.png"
+  ],
+  "server_health": "ok"
+}

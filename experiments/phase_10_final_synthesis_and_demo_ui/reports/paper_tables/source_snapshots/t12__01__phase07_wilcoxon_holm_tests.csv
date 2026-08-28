@@ -1,0 +1,11 @@
+task,modality,metric,status,statistic,raw_p,effect_size_rank_biserial,effect_definition,n_subjects,holm_adjusted_p,significant_alpha_0_05
+classification,physiological_features,macro_f1,PASS,0.0,5.820766091346741e-11,1.0,multimodal minus unimodal,35,2.9103830456733704e-10,True
+classification,eye_tracking_features,macro_f1,PASS,0.0,5.820766091346741e-11,1.0,multimodal minus unimodal,35,2.9103830456733704e-10,True
+classification,head_movement_features,macro_f1,PASS,0.0,5.820766091346741e-11,1.0,multimodal minus unimodal,35,2.9103830456733704e-10,True
+classification,flight_parameter_features,macro_f1,PASS,71.5,0.8126133244616875,0.06535947712418301,multimodal minus unimodal,35,0.8126133244616875,False
+classification,body_movement,macro_f1,PASS,0.0,5.820766091346741e-11,1.0,multimodal minus unimodal,35,2.9103830456733704e-10,True
+regression,physiological_features,bounded_mae,PASS,0.0,5.820766091346741e-11,-1.0,multimodal minus unimodal,35,2.9103830456733704e-10,True
+regression,eye_tracking_features,bounded_mae,PASS,0.0,5.820766091346741e-11,-1.0,multimodal minus unimodal,35,2.9103830456733704e-10,True
+regression,head_movement_features,bounded_mae,PASS,0.0,5.820766091346741e-11,-1.0,multimodal minus unimodal,35,2.9103830456733704e-10,True
+regression,flight_parameter_features,bounded_mae,PASS,243.0,0.2449025081587024,0.22857142857142856,multimodal minus unimodal,35,0.2449025081587024,False
+regression,body_movement,bounded_mae,PASS,0.0,5.820766091346741e-11,-1.0,multimodal minus unimodal,35,2.9103830456733704e-10,True

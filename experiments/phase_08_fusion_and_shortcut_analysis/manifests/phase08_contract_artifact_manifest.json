@@ -1,0 +1,79 @@
+{
+  "phase": "08",
+  "status": "FROZEN",
+  "created_at_utc": "2026-08-20T19:34:27.782111+00:00",
+  "artifacts": [
+    {
+      "path": "configs/phase08_frozen_contract.json",
+      "exists": true,
+      "sha256": "93121979400646bcc9adffb15c069e8ec9a5f0e95e3dfb0cdcc99e3d3666031c"
+    },
+    {
+      "path": "configs/phase08_model_matrix.json",
+      "exists": true,
+      "sha256": "00fbe1aab543cba33988c0d2ef28757dcc1153ee30839ada19fe07a0352c4b60"
+    },
+    {
+      "path": "configs/phase08_execution_manifest.json",
+      "exists": true,
+      "sha256": "2888b7d9a07d254dfe8278943e8691987fe64b6ff7abb4f2e9e19b42a7cb83bd"
+    },
+    {
+      "path": "configs/phase08_metric_definitions.json",
+      "exists": true,
+      "sha256": "b5ea146e19fe9f4ed6571f203d3e38a9d20261735ae4cdc9728edbf0e6af2896"
+    },
+    {
+      "path": "configs/phase08_statistical_analysis_contract.json",
+      "exists": true,
+      "sha256": "ef5a62cb275a32feee58fc6ccc652f68a6823672f0fff3a7bb25f34a941f440c"
+    },
+    {
+      "path": "configs/phase08_shortcut_evidence_contract.json",
+      "exists": true,
+      "sha256": "6d2dc4f818f1cb44497983d80b8ae71fd1f60f9ead5ed76e844ba9cec428e638"
+    },
+    {
+      "path": "manifests/phase08_flight_feature_provenance_manifest.json",
+      "exists": true,
+      "sha256": "b86994d63338d92688a6b26abf9eed2da463a8bcfe0432add622fefb11dbf2ca"
+    },
+    {
+      "path": "manifests/phase08_to_phase09_generalization_handoff.json",
+      "exists": true,
+      "sha256": "b2c70a59b01fbc7bd66ed41986fb3c01b007d5b8b1d2ebc60bcabd38dbd6569c"
+    },
+    {
+      "path": "audits/phase08_flight_feature_provenance_audit.json",
+      "exists": true,
+      "sha256": "264998a8a750b154094573875874e54789d635f634c023c689c4ff3c597183f5"
+    },
+    {
+      "path": "audits/phase08_scenario_metadata_feasibility_audit.json",
+      "exists": true,
+      "sha256": "bb958f9556d874c3dbd07645f85318297d3d30937201504155611e72185cf5f6"
+    },
+    {
+      "path": "audits/phase08_contract_freeze_audit.json",
+      "exists": true,
+      "sha256": "e75720f85309e8154be54f0eb364da4decf04a70e94f55b8b2003d68d0199471"
+    },
+    {
+      "path": "audits/phase08_pretraining_feasibility_audit.json",
+      "exists": true,
+      "sha256": "06f4c6f9a44956c7f26b7518ec59dcb6e4e89daf4bd51899c31f3725cf1e775a"
+    },
+    {
+      "path": "scripts/freeze_phase08_contract.py",
+      "exists": true,
+      "sha256": "25803a142c8b7fc114aef5e789db1bab49a2898be2b854416461725b14231d55"
+    },
+    {
+      "path": "tests/test_phase08_contract.py",
+      "exists": true,
+      "sha256": "849771697e4c46ea14b5f11496f5b7479949a8d352b31ec32d48de9d08849c51"
+    }
+  ],
+  "excluded_self_reference": "manifests/phase08_contract_artifact_manifest.json",
+  "notebook_audited_separately": "audits/phase08_contract_notebook_persistence_audit.json"
+}

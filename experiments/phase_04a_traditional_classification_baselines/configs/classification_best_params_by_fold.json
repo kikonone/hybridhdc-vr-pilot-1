@@ -1,0 +1,39 @@
+{
+  "gradient_boosting": {
+    "1": {
+      "classifier__learning_rate": 0.1,
+      "classifier__max_depth": 2,
+      "classifier__n_estimators": 200,
+      "selector__k": 200,
+      "effective_selected_k": 200
+    },
+    "2": {
+      "classifier__learning_rate": 0.05,
+      "classifier__max_depth": 2,
+      "classifier__n_estimators": 100,
+      "selector__k": 200,
+      "effective_selected_k": 200
+    },
+    "3": {
+      "classifier__learning_rate": 0.05,
+      "classifier__max_depth": 3,
+      "classifier__n_estimators": 200,
+      "selector__k": 200,
+      "effective_selected_k": 200
+    },
+    "4": {
+      "classifier__learning_rate": 0.05,
+      "classifier__max_depth": 2,
+      "classifier__n_estimators": 100,
+      "selector__k": 200,
+      "effective_selected_k": 200
+    },
+    "5": {
+      "classifier__learning_rate": 0.1,
+      "classifier__max_depth": 3,
+      "classifier__n_estimators": 200,
+      "selector__k": 200,
+      "effective_selected_k": 200
+    }
+  }
+}

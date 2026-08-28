@@ -1,0 +1,16 @@
+{
+  "phase": "09",
+  "phase_name": "Robustness and Generalization",
+  "status": "PENDING_CONTRACT_FREEZE",
+  "input_status": "PASS",
+  "upstream_status": "PASS",
+  "modality_status": "PASS",
+  "loso_status": "PASS",
+  "generalization_scope_status": "PASS",
+  "upstream_sources_unchanged": true,
+  "ready_for_contract_freeze_pre_notebook": true,
+  "ready_for_modeling": false,
+  "model_training_executed": false,
+  "loso_predictions_generated": false,
+  "missing_modality_predictions_generated": false
+}

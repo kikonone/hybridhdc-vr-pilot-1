@@ -1,0 +1,156 @@
+{
+  "phase": "02_full_multimodal_feature_extraction",
+  "started_at": "2026-07-02T02:54:43",
+  "finished_at": "2026-07-02T03:22:21",
+  "source_data_root": "E:\\hdc-vr-pilot\\vrdataset\\dataPackage",
+  "phase01_inputs": {
+    "raw_file_inventory": "E:\\hdc-vr-pilot\\experiments\\phase_01_raw_data_modality_audit\\results\\raw_file_inventory.csv",
+    "run_modality_availability": "E:\\hdc-vr-pilot\\experiments\\phase_01_raw_data_modality_audit\\results\\run_modality_availability.csv",
+    "modality_summary": "E:\\hdc-vr-pilot\\experiments\\phase_01_raw_data_modality_audit\\results\\modality_summary.csv",
+    "unknown_files_for_review": "E:\\hdc-vr-pilot\\experiments\\phase_01_raw_data_modality_audit\\results\\unknown_files_for_review.csv"
+  },
+  "input_inventory_summary": {
+    "inventory_files": 9003,
+    "phase01_runs": 487,
+    "phase01_modalities": [
+      {
+        "detected_modality": "xplane",
+        "file_count": 1461
+      },
+      {
+        "detected_modality": "eye_tracking",
+        "file_count": 1443
+      },
+      {
+        "detected_modality": "respiration",
+        "file_count": 1386
+      },
+      {
+        "detected_modality": "ecg",
+        "file_count": 974
+      },
+      {
+        "detected_modality": "emg",
+        "file_count": 974
+      },
+      {
+        "detected_modality": "eda",
+        "file_count": 950
+      },
+      {
+        "detected_modality": "unknown",
+        "file_count": 908
+      },
+      {
+        "detected_modality": "head_movement",
+        "file_count": 487
+      },
+      {
+        "detected_modality": "performance",
+        "file_count": 420
+      }
+    ],
+    "unknown_files_from_phase01": 908
+  },
+  "extraction_summary": {
+    "processed_feature_files": 4945,
+    "skipped_files": 4057,
+    "failed_files": 0,
+    "runs_in_output": 487,
+    "features_in_wide_table_excluding_identifiers": 1247,
+    "long_feature_rows": 599569,
+    "modalities_extracted": [
+      "eye_tracking",
+      "ecg",
+      "eda",
+      "emg",
+      "respiration",
+      "head_movement",
+      "xplane",
+      "performance",
+      "unknown"
+    ]
+  },
+  "features_per_modality": [
+    {
+      "modality": "eye_tracking",
+      "feature_group": "eye_tracking_features",
+      "feature_count": 426,
+      "runs_with_features": 487,
+      "non_missing_values": 198622
+    },
+    {
+      "modality": "ecg",
+      "feature_group": "physiological_features",
+      "feature_count": 57,
+      "runs_with_features": 487,
+      "non_missing_values": 27627
+    },
+    {
+      "modality": "eda",
+      "feature_group": "physiological_features",
+      "feature_count": 44,
+      "runs_with_features": 475,
+      "non_missing_values": 20835
+    },
+    {
+      "modality": "emg",
+      "feature_group": "physiological_features",
+      "feature_count": 84,
+      "runs_with_features": 487,
+      "non_missing_values": 40842
+    },
+    {
+      "modality": "respiration",
+      "feature_group": "physiological_features",
+      "feature_count": 48,
+      "runs_with_features": 487,
+      "non_missing_values": 18825
+    },
+    {
+      "modality": "head_movement",
+      "feature_group": "head_movement_features",
+      "feature_count": 159,
+      "runs_with_features": 487,
+      "non_missing_values": 76351
+    },
+    {
+      "modality": "xplane",
+      "feature_group": "flight_parameter_features",
+      "feature_count": 328,
+      "runs_with_features": 487,
+      "non_missing_values": 155387
+    },
+    {
+      "modality": "control_input",
+      "feature_group": "control_input_features",
+      "feature_count": 0,
+      "runs_with_features": 0,
+      "non_missing_values": 0
+    },
+    {
+      "modality": "performance",
+      "feature_group": "performance_features",
+      "feature_count": 59,
+      "runs_with_features": 419,
+      "non_missing_values": 24721
+    },
+    {
+      "modality": "unknown",
+      "feature_group": "unknown_features",
+      "feature_count": 42,
+      "runs_with_features": 454,
+      "non_missing_values": 19068
+    }
+  ],
+  "limitations": [
+    "Run-level aggregate features only; no sliding-window modeling was performed.",
+    "No final imputation, scaling, feature selection, four-class labeling, or model training was performed.",
+    "ECG peak features are approximate; robust R-peak detection and HRV were not claimed.",
+    "EDA and respiration peak counts are approximate, not validated event detection.",
+    "Eye fixation/saccade sequence summaries were extracted where available, but detailed oculomotor event validation remains a limitation.",
+    "Unknown torso accelerometer streams were kept in unknown_features rather than forced into known modalities.",
+    "Performance features are retained and separately grouped for leakage-sensitive Phase 03 dataset versions."
+  ],
+  "phase03_next_step": "Construct final four-class modeling datasets with and without performance features; perform imputation/scaling inside model pipelines only."
+}

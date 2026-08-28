@@ -1,0 +1,1960 @@
+{
+  "status": "STATIC_AUDIT_COMPLETE",
+  "feature_count": 59,
+  "features": [
+    {
+      "feature": "performance_cumulative_cumulative_airspeed_error_kts",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_cumulative_cumulative_glideslope_error_deg",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_cumulative_cumulative_localizer_error_deg",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_cumulative_cumulative_total_error",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_airspeed_error_kts_iqr",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 103,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 103,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_airspeed_error_kts_kurtosis",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_airspeed_error_kts_max",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 90,
+          "1.0": 91,
+          "2.0": 87,
+          "3.0": 89
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 90,
+          "2.0": 91,
+          "3.0": 87,
+          "4.0": 89
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_airspeed_error_kts_mean",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_airspeed_error_kts_median",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 100,
+          "1.0": 104,
+          "2.0": 103,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 100,
+          "2.0": 104,
+          "3.0": 103,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_airspeed_error_kts_min",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 74,
+          "1.0": 64,
+          "2.0": 62,
+          "3.0": 59
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 74,
+          "2.0": 64,
+          "3.0": 62,
+          "4.0": 59
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_airspeed_error_kts_missing_ratio",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 1,
+          "1.0": 1,
+          "2.0": 1,
+          "3.0": 1
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 1,
+          "2.0": 1,
+          "3.0": 1,
+          "4.0": 1
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_airspeed_error_kts_num_missing",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 1,
+          "1.0": 1,
+          "2.0": 1,
+          "3.0": 1
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 1,
+          "2.0": 1,
+          "3.0": 1,
+          "4.0": 1
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_airspeed_error_kts_range",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 95,
+          "1.0": 101,
+          "2.0": 95,
+          "3.0": 101
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 95,
+          "2.0": 101,
+          "3.0": 95,
+          "4.0": 101
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_airspeed_error_kts_rms",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_airspeed_error_kts_skew",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_airspeed_error_kts_slope",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_airspeed_error_kts_std",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_duration",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_glideslope_error_deg_iqr",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 103,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 103,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_glideslope_error_deg_kurtosis",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_glideslope_error_deg_max",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 86,
+          "1.0": 91,
+          "2.0": 88,
+          "3.0": 80
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 86,
+          "2.0": 91,
+          "3.0": 88,
+          "4.0": 80
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_glideslope_error_deg_mean",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_glideslope_error_deg_median",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 101,
+          "1.0": 105,
+          "2.0": 103,
+          "3.0": 103
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 101,
+          "2.0": 105,
+          "3.0": 103,
+          "4.0": 103
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_glideslope_error_deg_min",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 95,
+          "1.0": 94,
+          "2.0": 88,
+          "3.0": 68
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 95,
+          "2.0": 94,
+          "3.0": 88,
+          "4.0": 68
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_glideslope_error_deg_missing_ratio",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 1,
+          "1.0": 1,
+          "2.0": 1,
+          "3.0": 1
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 1,
+          "2.0": 1,
+          "3.0": 1,
+          "4.0": 1
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_glideslope_error_deg_num_missing",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 1,
+          "1.0": 1,
+          "2.0": 1,
+          "3.0": 1
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 1,
+          "2.0": 1,
+          "3.0": 1,
+          "4.0": 1
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_glideslope_error_deg_range",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 103,
+          "1.0": 102,
+          "2.0": 99,
+          "3.0": 90
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 103,
+          "2.0": 102,
+          "3.0": 99,
+          "4.0": 90
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_glideslope_error_deg_rms",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_glideslope_error_deg_skew",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_glideslope_error_deg_slope",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_glideslope_error_deg_std",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_localizer_error_deg_iqr",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 102,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 104
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 102,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 104
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_localizer_error_deg_kurtosis",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_localizer_error_deg_max",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 97,
+          "1.0": 97,
+          "2.0": 87,
+          "3.0": 82
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 97,
+          "2.0": 97,
+          "3.0": 87,
+          "4.0": 82
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_localizer_error_deg_mean",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_localizer_error_deg_median",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 101,
+          "1.0": 104,
+          "2.0": 104,
+          "3.0": 103
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 101,
+          "2.0": 104,
+          "3.0": 104,
+          "4.0": 103
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_localizer_error_deg_min",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 98,
+          "1.0": 96,
+          "2.0": 86,
+          "3.0": 84
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 98,
+          "2.0": 96,
+          "3.0": 86,
+          "4.0": 84
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_localizer_error_deg_missing_ratio",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 1,
+          "1.0": 1,
+          "2.0": 1,
+          "3.0": 1
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 1,
+          "2.0": 1,
+          "3.0": 1,
+          "4.0": 1
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_localizer_error_deg_num_missing",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 1,
+          "1.0": 1,
+          "2.0": 1,
+          "3.0": 1
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 1,
+          "2.0": 1,
+          "3.0": 1,
+          "4.0": 1
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_localizer_error_deg_range",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 99,
+          "1.0": 101,
+          "2.0": 94,
+          "3.0": 90
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 99,
+          "2.0": 101,
+          "3.0": 94,
+          "4.0": 90
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_localizer_error_deg_rms",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_localizer_error_deg_skew",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_localizer_error_deg_slope",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_localizer_error_deg_std",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_sample_count",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 99,
+          "1.0": 97,
+          "2.0": 94,
+          "3.0": 103
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 99,
+          "2.0": 97,
+          "3.0": 94,
+          "4.0": 103
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_sampling_rate_estimate",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_total_error_iqr",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_total_error_kurtosis",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_total_error_max",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 98,
+          "1.0": 90,
+          "2.0": 93,
+          "3.0": 99
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 98,
+          "2.0": 90,
+          "3.0": 93,
+          "4.0": 99
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_total_error_mean",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_total_error_median",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 103,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 103,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_total_error_min",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 88,
+          "1.0": 94,
+          "2.0": 80,
+          "3.0": 101
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 88,
+          "2.0": 94,
+          "3.0": 80,
+          "4.0": 101
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_total_error_missing_ratio",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 1,
+          "1.0": 1,
+          "2.0": 1,
+          "3.0": 1
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 1,
+          "2.0": 1,
+          "3.0": 1,
+          "4.0": 1
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_total_error_num_missing",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 1,
+          "1.0": 1,
+          "2.0": 1,
+          "3.0": 1
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 1,
+          "2.0": 1,
+          "3.0": 1,
+          "4.0": 1
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_total_error_range",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 105,
+          "2.0": 102,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 105,
+          "3.0": 102,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_total_error_rms",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_total_error_skew",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_total_error_slope",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    },
+    {
+      "feature": "performance_perfmetric_total_error_std",
+      "source_group": "performance_features",
+      "missing_count": 0,
+      "missing_rate": 0.0,
+      "reserved_field_name_collision": false,
+      "label_adjacent_name_markers": [],
+      "target_class_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "0.0": 104,
+          "1.0": 106,
+          "2.0": 104,
+          "3.0": 105
+        }
+      },
+      "target_score_static_checks": {
+        "direct_numeric_copy": false,
+        "deterministic_function_of_target": false,
+        "target_to_feature_unique_value_counts": {
+          "1.0": 104,
+          "2.0": 106,
+          "3.0": 104,
+          "4.0": 105
+        }
+      },
+      "static_risk_flags": {
+        "name_marker_present": false,
+        "direct_target_copy_detected": false,
+        "deterministic_target_transform_detected": false
+      }
+    }
+  ],
+  "summary": {
+    "reserved_name_collisions": 0,
+    "label_adjacent_names": 0,
+    "direct_target_copies": 0,
+    "deterministic_target_transforms": 0
+  },
+  "interpretation": "Report-only static screening. No feature was removed or renamed; names alone do not establish leakage and predictive performance is not physiological causal evidence."
+}

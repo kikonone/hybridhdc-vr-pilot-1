@@ -1,0 +1,163 @@
+WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.
+[NbConvertApp] Converting notebook E:\hdc-vr-pilot\experiments\phase_02_full_multimodal_feature_extraction\notebooks\02_full_multimodal_feature_extraction.ipynb to notebook
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+WARNING: Insecure writes have been enabled via environment variable 'JUPYTER_ALLOW_INSECURE_WRITES'! If this is not intended, remove the variable or set its value to 'False'.
+Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+Traceback (most recent call last):
+  File "D:\Computer\anaconda3\Scripts\jupyter-nbconvert-script.py", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "D:\Computer\anaconda3\Lib\site-packages\jupyter_core\application.py", line 283, in launch_instance
+    super().launch_instance(argv=argv, **kwargs)
+  File "D:\Computer\anaconda3\Lib\site-packages\traitlets\config\application.py", line 1075, in launch_instance
+    app.start()
+  File "D:\Computer\anaconda3\Lib\site-packages\nbconvert\nbconvertapp.py", line 420, in start
+    self.convert_notebooks()
+  File "D:\Computer\anaconda3\Lib\site-packages\nbconvert\nbconvertapp.py", line 597, in convert_notebooks
+    self.convert_single_notebook(notebook_filename)
+  File "D:\Computer\anaconda3\Lib\site-packages\nbconvert\nbconvertapp.py", line 563, in convert_single_notebook
+    output, resources = self.export_single_notebook(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Computer\anaconda3\Lib\site-packages\nbconvert\nbconvertapp.py", line 487, in export_single_notebook
+    output, resources = self.exporter.from_filename(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Computer\anaconda3\Lib\site-packages\nbconvert\exporters\exporter.py", line 201, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Computer\anaconda3\Lib\site-packages\nbconvert\exporters\exporter.py", line 220, in from_file
+    return self.from_notebook_node(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Computer\anaconda3\Lib\site-packages\nbconvert\exporters\notebook.py", line 36, in from_notebook_node
+    nb_copy, resources = super().from_notebook_node(nb, resources, **kw)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Computer\anaconda3\Lib\site-packages\nbconvert\exporters\exporter.py", line 154, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Computer\anaconda3\Lib\site-packages\nbconvert\exporters\exporter.py", line 353, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Computer\anaconda3\Lib\site-packages\nbconvert\preprocessors\base.py", line 48, in __call__
+    return self.preprocess(nb, resources)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Computer\anaconda3\Lib\site-packages\nbconvert\preprocessors\execute.py", line 103, in preprocess
+    self.preprocess_cell(cell, resources, index)
+  File "D:\Computer\anaconda3\Lib\site-packages\nbconvert\preprocessors\execute.py", line 124, in preprocess_cell
+    cell = self.execute_cell(cell, index, store_history=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Computer\anaconda3\Lib\site-packages\jupyter_core\utils\__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Computer\anaconda3\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "D:\Computer\anaconda3\Lib\site-packages\nbclient\client.py", line 1058, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "D:\Computer\anaconda3\Lib\site-packages\nbclient\client.py", line 914, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+
+results = PHASE / 'results'
+tables = PHASE / 'tables'
+full = pd.read_csv(results / 'full_multimodal_run_level_features.csv')
+long = pd.read_csv(results / 'feature_extraction_long_table.csv')
+feature_groups = json.loads((results / 'feature_groups.json').read_text(encoding='utf-8'))
+failed = pd.read_csv(results / 'failed_files.csv')
+fpm = pd.read_csv(tables / 'features_per_modality.csv')
+runs_mod = pd.read_csv(tables / 'runs_with_extracted_modalities.csv')
+missing = pd.read_csv(tables / 'missing_modalities_after_extraction.csv')
+report = json.loads((results / 'extraction_report.json').read_text(encoding='utf-8'))
+
+print('Extracted modality list:')
+print(', '.join(report['extraction_summary']['modalities_extracted']))
+print(f"\nNumber of runs successfully processed into output table: {len(full):,}")
+print(f"Number of long-table feature rows: {len(long):,}")
+
+print('\nFeatures per modality:')
+display(fpm)
+
+print('\nPreview of full_multimodal_run_level_features.csv:')
+display(full.head())
+
+print('\nRuns with extracted modalities preview:')
+display(runs_mod.head())
+
+print('\nMissing modality summary:')
+display(missing['missing_modalities'].value_counts(dropna=False).reset_index(name='run_count').rename(columns={'index':'missing_modalities'}).head(20))
+
+print('\nFailed file summary:')
+if failed.empty:
+    print('No files failed during extraction.')
+else:
+    display(failed[['file_name','run_key','detected_modality','error_type','error_message']].head(20))
+
+print('\nFeature group summary:')
+display(pd.DataFrame({'feature_group': list(feature_groups.keys()), 'feature_count': [len(v) for v in feature_groups.values()]}))
+
+print('\nLimitations:')
+for item in report['limitations']:
+    print('-', item)
+
+print('\nPhase 03 handoff:')
+print('Final four-class labeling will be done in Phase 03. Phase 03 should construct modeling datasets with and without performance features, then handle imputation/scaling inside modeling pipelines.')
+
+------------------
+
+
+[1;31m---------------------------------------------------------------------------[0m
+[1;31mEmptyDataError[0m                            Traceback (most recent call last)
+Cell [1;32mIn[3], line 6[0m
+[0;32m      4[0m long [38;5;241m=[39m pd[38;5;241m.[39mread_csv(results [38;5;241m/[39m [38;5;124m'[39m[38;5;124mfeature_extraction_long_table.csv[39m[38;5;124m'[39m)
+[0;32m      5[0m feature_groups [38;5;241m=[39m json[38;5;241m.[39mloads((results [38;5;241m/[39m [38;5;124m'[39m[38;5;124mfeature_groups.json[39m[38;5;124m'[39m)[38;5;241m.[39mread_text(encoding[38;5;241m=[39m[38;5;124m'[39m[38;5;124mutf-8[39m[38;5;124m'[39m))
+[1;32m----> 6[0m failed [38;5;241m=[39m pd[38;5;241m.[39mread_csv(results [38;5;241m/[39m [38;5;124m'[39m[38;5;124mfailed_files.csv[39m[38;5;124m'[39m)
+[0;32m      7[0m fpm [38;5;241m=[39m pd[38;5;241m.[39mread_csv(tables [38;5;241m/[39m [38;5;124m'[39m[38;5;124mfeatures_per_modality.csv[39m[38;5;124m'[39m)
+[0;32m      8[0m runs_mod [38;5;241m=[39m pd[38;5;241m.[39mread_csv(tables [38;5;241m/[39m [38;5;124m'[39m[38;5;124mruns_with_extracted_modalities.csv[39m[38;5;124m'[39m)
+
+File [1;32mD:\Computer\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py:1026[0m, in [0;36mread_csv[1;34m(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, date_format, dayfirst, cache_dates, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, doublequote, escapechar, comment, encoding, encoding_errors, dialect, on_bad_lines, delim_whitespace, low_memory, memory_map, float_precision, storage_options, dtype_backend)[0m
+[0;32m   1013[0m kwds_defaults [38;5;241m=[39m _refine_defaults_read(
+[0;32m   1014[0m     dialect,
+[0;32m   1015[0m     delimiter,
+[1;32m   (...)[0m
+[0;32m   1022[0m     dtype_backend[38;5;241m=[39mdtype_backend,
+[0;32m   1023[0m )
+[0;32m   1024[0m kwds[38;5;241m.[39mupdate(kwds_defaults)
+[1;32m-> 1026[0m [38;5;28;01mreturn[39;00m _read(filepath_or_buffer, kwds)
+
+File [1;32mD:\Computer\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py:620[0m, in [0;36m_read[1;34m(filepath_or_buffer, kwds)[0m
+[0;32m    617[0m _validate_names(kwds[38;5;241m.[39mget([38;5;124m"[39m[38;5;124mnames[39m[38;5;124m"[39m, [38;5;28;01mNone[39;00m))
+[0;32m    619[0m [38;5;66;03m# Create the parser.[39;00m
+[1;32m--> 620[0m parser [38;5;241m=[39m TextFileReader(filepath_or_buffer, [38;5;241m*[39m[38;5;241m*[39mkwds)
+[0;32m    622[0m [38;5;28;01mif[39;00m chunksize [38;5;129;01mor[39;00m iterator:
+[0;32m    623[0m     [38;5;28;01mreturn[39;00m parser
+
+File [1;32mD:\Computer\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py:1620[0m, in [0;36mTextFileReader.__init__[1;34m(self, f, engine, **kwds)[0m
+[0;32m   1617[0m     [38;5;28mself[39m[38;5;241m.[39moptions[[38;5;124m"[39m[38;5;124mhas_index_names[39m[38;5;124m"[39m] [38;5;241m=[39m kwds[[38;5;124m"[39m[38;5;124mhas_index_names[39m[38;5;124m"[39m]
+[0;32m   1619[0m [38;5;28mself[39m[38;5;241m.[39mhandles: IOHandles [38;5;241m|[39m [38;5;28;01mNone[39;00m [38;5;241m=[39m [38;5;28;01mNone[39;00m
+[1;32m-> 1620[0m [38;5;28mself[39m[38;5;241m.[39m_engine [38;5;241m=[39m [38;5;28mself[39m[38;5;241m.[39m_make_engine(f, [38;5;28mself[39m[38;5;241m.[39mengine)
+
+File [1;32mD:\Computer\anaconda3\Lib\site-packages\pandas\io\parsers\readers.py:1898[0m, in [0;36mTextFileReader._make_engine[1;34m(self, f, engine)[0m
+[0;32m   1895[0m     [38;5;28;01mraise[39;00m [38;5;167;01mValueError[39;00m(msg)
+[0;32m   1897[0m [38;5;28;01mtry[39;00m:
+[1;32m-> 1898[0m     [38;5;28;01mreturn[39;00m mapping[engine](f, [38;5;241m*[39m[38;5;241m*[39m[38;5;28mself[39m[38;5;241m.[39moptions)
+[0;32m   1899[0m [38;5;28;01mexcept[39;00m [38;5;167;01mException[39;00m:
+[0;32m   1900[0m     [38;5;28;01mif[39;00m [38;5;28mself[39m[38;5;241m.[39mhandles [38;5;129;01mis[39;00m [38;5;129;01mnot[39;00m [38;5;28;01mNone[39;00m:
+
+File [1;32mD:\Computer\anaconda3\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py:93[0m, in [0;36mCParserWrapper.__init__[1;34m(self, src, **kwds)[0m
+[0;32m     90[0m [38;5;28;01mif[39;00m kwds[[38;5;124m"[39m[38;5;124mdtype_backend[39m[38;5;124m"[39m] [38;5;241m==[39m [38;5;124m"[39m[38;5;124mpyarrow[39m[38;5;124m"[39m:
+[0;32m     91[0m     [38;5;66;03m# Fail here loudly instead of in cython after reading[39;00m
+[0;32m     92[0m     import_optional_dependency([38;5;124m"[39m[38;5;124mpyarrow[39m[38;5;124m"[39m)
+[1;32m---> 93[0m [38;5;28mself[39m[38;5;241m.[39m_reader [38;5;241m=[39m parsers[38;5;241m.[39mTextReader(src, [38;5;241m*[39m[38;5;241m*[39mkwds)
+[0;32m     95[0m [38;5;28mself[39m[38;5;241m.[39munnamed_cols [38;5;241m=[39m [38;5;28mself[39m[38;5;241m.[39m_reader[38;5;241m.[39munnamed_cols
+[0;32m     97[0m [38;5;66;03m# error: Cannot determine type of 'names'[39;00m
+
+File [1;32mparsers.pyx:581[0m, in [0;36mpandas._libs.parsers.TextReader.__cinit__[1;34m()[0m
+
+[1;31mEmptyDataError[0m: No columns to parse from file
+

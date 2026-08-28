@@ -1,0 +1,24 @@
+{
+  "phase": "06",
+  "stage": "final_confirmation",
+  "variants": ["onlinehd", "multicentroid", "hybrid"],
+  "outer_folds": [1, 2, 3, 4, 5],
+  "dimensions": [1000, 2000, 5000, 10000],
+  "evaluation_seeds": [42, 43, 44, 45, 46],
+  "levels": 51,
+  "feature_k": 50,
+  "inner_cv": "GroupKFold(n_splits=3, groups=subject_id)",
+  "temperature_grid": [0.05, 0.1, 0.2, 0.5, 1.0, 2.0],
+  "classification_primary_metric": "macro_f1",
+  "regression_primary_metric": "bounded_mae",
+  "regression_estimand": "bounded difficulty-induced workload proxy regression",
+  "ridge_handling": "COMMON_ENCODER_READOUT_BASELINE",
+  "ridge_reason": [
+    "Ridge consumes the sample hypervector directly.",
+    "OnlineHD, Multi-centroid, and Hybrid change prototype or centroid learning, not the sample hypervector.",
+    "With a common encoder, dimension, seed, levels, and feature_k, the Ridge input is invariant to the prototype variant.",
+    "Repeating the same Ridge fit per variant would create pseudo-replication."
+  ],
+  "outer_test_tuning": false,
+  "variant_specific_ridge_training": false
+}

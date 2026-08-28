@@ -1,0 +1,185 @@
+{
+  "phase": "06",
+  "audit": "final_confirmation_preflight",
+  "timestamp_utc": "2026-08-20T14:50:12.767354+00:00",
+  "required_artifacts_present": true,
+  "missing": [],
+  "primary_sha256": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44",
+  "primary_checksum": true,
+  "fold_sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+  "fold_checksum": true,
+  "audits": {
+    "audits/phase06_contract_freeze_audit.json": "PASS",
+    "audits/phase06_quick_screen_all_folds_audit.json": "PASS",
+    "audits/phase06_quick_screen_notebook_persistence_audit.json": "PASS",
+    "audits/phase06_quick_screen_artifact_audit.json": "PASS",
+    "audits/phase06_quick_screen_leakage_audit.json": "PASS",
+    "audits/phase06_unit_test_audit.json": "PASS"
+  },
+  "onlinehd": {
+    "folds": {
+      "1": {
+        "best_result": "PASS",
+        "candidate_count": 24,
+        "expected_candidate_count": 24,
+        "audits": [
+          "PASS",
+          "PASS",
+          "PASS"
+        ]
+      },
+      "2": {
+        "best_result": "PASS",
+        "candidate_count": 24,
+        "expected_candidate_count": 24,
+        "audits": [
+          "PASS",
+          "PASS",
+          "PASS"
+        ]
+      },
+      "3": {
+        "best_result": "PASS",
+        "candidate_count": 24,
+        "expected_candidate_count": 24,
+        "audits": [
+          "PASS",
+          "PASS",
+          "PASS"
+        ]
+      },
+      "4": {
+        "best_result": "PASS",
+        "candidate_count": 24,
+        "expected_candidate_count": 24,
+        "audits": [
+          "PASS",
+          "PASS",
+          "PASS"
+        ]
+      },
+      "5": {
+        "best_result": "PASS",
+        "candidate_count": 24,
+        "expected_candidate_count": 24,
+        "audits": [
+          "PASS",
+          "PASS",
+          "PASS"
+        ]
+      }
+    }
+  },
+  "multicentroid": {
+    "folds": {
+      "1": {
+        "best_result": "PASS",
+        "candidate_count": 6,
+        "expected_candidate_count": 6,
+        "audits": [
+          "PASS",
+          "PASS",
+          "PASS"
+        ]
+      },
+      "2": {
+        "best_result": "PASS",
+        "candidate_count": 6,
+        "expected_candidate_count": 6,
+        "audits": [
+          "PASS",
+          "PASS",
+          "PASS"
+        ]
+      },
+      "3": {
+        "best_result": "PASS",
+        "candidate_count": 6,
+        "expected_candidate_count": 6,
+        "audits": [
+          "PASS",
+          "PASS",
+          "PASS"
+        ]
+      },
+      "4": {
+        "best_result": "PASS",
+        "candidate_count": 6,
+        "expected_candidate_count": 6,
+        "audits": [
+          "PASS",
+          "PASS",
+          "PASS"
+        ]
+      },
+      "5": {
+        "best_result": "PASS",
+        "candidate_count": 6,
+        "expected_candidate_count": 6,
+        "audits": [
+          "PASS",
+          "PASS",
+          "PASS"
+        ]
+      }
+    }
+  },
+  "hybrid": {
+    "folds": {
+      "1": {
+        "best_result": "PASS",
+        "candidate_count": 32,
+        "expected_candidate_count": 32,
+        "audits": [
+          "PASS",
+          "PASS",
+          "PASS"
+        ]
+      },
+      "2": {
+        "best_result": "PASS",
+        "candidate_count": 32,
+        "expected_candidate_count": 32,
+        "audits": [
+          "PASS",
+          "PASS",
+          "PASS"
+        ]
+      },
+      "3": {
+        "best_result": "PASS",
+        "candidate_count": 32,
+        "expected_candidate_count": 32,
+        "audits": [
+          "PASS",
+          "PASS",
+          "PASS"
+        ]
+      },
+      "4": {
+        "best_result": "PASS",
+        "candidate_count": 32,
+        "expected_candidate_count": 32,
+        "audits": [
+          "PASS",
+          "PASS",
+          "PASS"
+        ]
+      },
+      "5": {
+        "best_result": "PASS",
+        "candidate_count": 32,
+        "expected_candidate_count": 32,
+        "audits": [
+          "PASS",
+          "PASS",
+          "PASS"
+        ]
+      }
+    }
+  },
+  "quick_manifest_result": "PASS",
+  "quick_artifacts_verified": 496,
+  "quick_artifacts_match": true,
+  "result": "PASS"
+}

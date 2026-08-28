@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-08-21T02:37:46.314790+00:00",
+  "checks": {
+    "all_expected_artifacts_present": true,
+    "hash_mismatch_zero": true,
+    "missing_required_artifacts_zero": true,
+    "duplicate_run_identifiers_zero": true,
+    "raw_predictions_unchanged": true,
+    "canonical_oof_unchanged": true,
+    "metrics_unchanged": true,
+    "statistical_results_unchanged": true,
+    "reports_unchanged": true,
+    "phase03_to_07_files_unmodified": true,
+    "phase09_not_executed": true,
+    "manifest_hash_verified": true,
+    "notebook_persistence": true,
+    "freeze_status_reproducible": true
+  },
+  "changed_immutable_artifacts": [],
+  "changed_raw_predictions": [],
+  "model_retraining_executed": false,
+  "predictions_regenerated": false,
+  "phase09_executed": false
+}

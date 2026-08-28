@@ -1,0 +1,1571 @@
+{
+  "phase": "09",
+  "status": "FROZEN",
+  "mapping_rule": "Map each LOSO test subject to its Phase 03 original frozen outer_fold and reuse only that fold's upstream-selected configuration.",
+  "no_new_inner_cv": true,
+  "test_subject_parameter_selection": false,
+  "mappings": [
+    {
+      "loso_split": 1,
+      "test_subject": "sub-cp003",
+      "original_outer_fold": 4,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=4]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=4], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.4"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_4_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp003_ses-20210206_level-01B_run-001",
+        "sub-cp003_ses-20210206_level-01B_run-007",
+        "sub-cp003_ses-20210206_level-01B_run-012",
+        "sub-cp003_ses-20210206_level-02B_run-003",
+        "sub-cp003_ses-20210206_level-02B_run-008",
+        "sub-cp003_ses-20210206_level-02B_run-010",
+        "sub-cp003_ses-20210206_level-03B_run-002",
+        "sub-cp003_ses-20210206_level-03B_run-005",
+        "sub-cp003_ses-20210206_level-03B_run-011",
+        "sub-cp003_ses-20210206_level-04B_run-004",
+        "sub-cp003_ses-20210206_level-04B_run-006",
+        "sub-cp003_ses-20210206_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 2,
+      "test_subject": "sub-cp004",
+      "original_outer_fold": 1,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=1]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=1], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.1"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_1_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp004_ses-20210330_level-01B_run-001",
+        "sub-cp004_ses-20210330_level-01B_run-007",
+        "sub-cp004_ses-20210330_level-01B_run-012",
+        "sub-cp004_ses-20210330_level-02B_run-003",
+        "sub-cp004_ses-20210330_level-02B_run-008",
+        "sub-cp004_ses-20210330_level-02B_run-010",
+        "sub-cp004_ses-20210330_level-03B_run-002",
+        "sub-cp004_ses-20210330_level-03B_run-005",
+        "sub-cp004_ses-20210330_level-03B_run-011",
+        "sub-cp004_ses-20210330_level-04B_run-004",
+        "sub-cp004_ses-20210330_level-04B_run-006",
+        "sub-cp004_ses-20210330_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 3,
+      "test_subject": "sub-cp005",
+      "original_outer_fold": 5,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=5]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=5], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.5"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_5_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp005_ses-20210226_level-01B_run-001",
+        "sub-cp005_ses-20210226_level-01B_run-007",
+        "sub-cp005_ses-20210226_level-01B_run-012",
+        "sub-cp005_ses-20210226_level-02B_run-003",
+        "sub-cp005_ses-20210226_level-02B_run-008",
+        "sub-cp005_ses-20210226_level-02B_run-010",
+        "sub-cp005_ses-20210226_level-03B_run-002",
+        "sub-cp005_ses-20210226_level-03B_run-005",
+        "sub-cp005_ses-20210226_level-03B_run-011",
+        "sub-cp005_ses-20210226_level-04B_run-004",
+        "sub-cp005_ses-20210226_level-04B_run-006",
+        "sub-cp005_ses-20210226_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 4,
+      "test_subject": "sub-cp006",
+      "original_outer_fold": 4,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=4]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=4], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.4"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_4_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp006_ses-20210324_level-01B_run-001",
+        "sub-cp006_ses-20210324_level-01B_run-007",
+        "sub-cp006_ses-20210324_level-01B_run-012",
+        "sub-cp006_ses-20210324_level-02B_run-003",
+        "sub-cp006_ses-20210324_level-02B_run-008",
+        "sub-cp006_ses-20210324_level-02B_run-010",
+        "sub-cp006_ses-20210324_level-03B_run-002",
+        "sub-cp006_ses-20210324_level-03B_run-005",
+        "sub-cp006_ses-20210324_level-03B_run-011",
+        "sub-cp006_ses-20210324_level-04B_run-004",
+        "sub-cp006_ses-20210324_level-04B_run-006",
+        "sub-cp006_ses-20210324_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 5,
+      "test_subject": "sub-cp008",
+      "original_outer_fold": 3,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=3]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=3], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.3"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_3_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp008_ses-20210503_level-01B_run-001",
+        "sub-cp008_ses-20210503_level-01B_run-007",
+        "sub-cp008_ses-20210503_level-01B_run-012",
+        "sub-cp008_ses-20210503_level-02B_run-003",
+        "sub-cp008_ses-20210503_level-02B_run-008",
+        "sub-cp008_ses-20210503_level-02B_run-010",
+        "sub-cp008_ses-20210503_level-03B_run-002",
+        "sub-cp008_ses-20210503_level-03B_run-005",
+        "sub-cp008_ses-20210503_level-03B_run-011",
+        "sub-cp008_ses-20210503_level-04B_run-004",
+        "sub-cp008_ses-20210503_level-04B_run-006",
+        "sub-cp008_ses-20210503_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 6,
+      "test_subject": "sub-cp009",
+      "original_outer_fold": 2,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=2]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=2], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.2"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_2_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp009_ses-20210129_level-01B_run-001",
+        "sub-cp009_ses-20210129_level-01B_run-007",
+        "sub-cp009_ses-20210129_level-01B_run-012",
+        "sub-cp009_ses-20210129_level-02B_run-003",
+        "sub-cp009_ses-20210129_level-02B_run-008",
+        "sub-cp009_ses-20210129_level-02B_run-010",
+        "sub-cp009_ses-20210129_level-03B_run-002",
+        "sub-cp009_ses-20210129_level-03B_run-005",
+        "sub-cp009_ses-20210129_level-03B_run-011",
+        "sub-cp009_ses-20210129_level-04B_run-004",
+        "sub-cp009_ses-20210129_level-04B_run-006",
+        "sub-cp009_ses-20210129_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 7,
+      "test_subject": "sub-cp011",
+      "original_outer_fold": 1,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=1]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=1], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.1"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_1_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp011_ses-20210408_level-01B_run-001",
+        "sub-cp011_ses-20210408_level-01B_run-007",
+        "sub-cp011_ses-20210408_level-01B_run-012",
+        "sub-cp011_ses-20210408_level-02B_run-003",
+        "sub-cp011_ses-20210408_level-02B_run-008",
+        "sub-cp011_ses-20210408_level-02B_run-010",
+        "sub-cp011_ses-20210408_level-03B_run-002",
+        "sub-cp011_ses-20210408_level-03B_run-005",
+        "sub-cp011_ses-20210408_level-03B_run-011",
+        "sub-cp011_ses-20210408_level-04B_run-004",
+        "sub-cp011_ses-20210408_level-04B_run-006",
+        "sub-cp011_ses-20210408_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 8,
+      "test_subject": "sub-cp012",
+      "original_outer_fold": 4,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=4]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=4], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.4"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_4_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp012_ses-20210723_level-01B_run-001",
+        "sub-cp012_ses-20210723_level-01B_run-007",
+        "sub-cp012_ses-20210723_level-01B_run-012",
+        "sub-cp012_ses-20210723_level-02B_run-003",
+        "sub-cp012_ses-20210723_level-02B_run-008",
+        "sub-cp012_ses-20210723_level-02B_run-010",
+        "sub-cp012_ses-20210723_level-03B_run-002",
+        "sub-cp012_ses-20210723_level-03B_run-005",
+        "sub-cp012_ses-20210723_level-03B_run-011",
+        "sub-cp012_ses-20210723_level-04B_run-004",
+        "sub-cp012_ses-20210723_level-04B_run-006",
+        "sub-cp012_ses-20210723_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 9,
+      "test_subject": "sub-cp013",
+      "original_outer_fold": 2,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=2]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=2], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.2"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_2_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp013_ses-20210319_level-01B_run-001",
+        "sub-cp013_ses-20210319_level-01B_run-007",
+        "sub-cp013_ses-20210319_level-01B_run-012",
+        "sub-cp013_ses-20210319_level-02B_run-003",
+        "sub-cp013_ses-20210319_level-02B_run-008",
+        "sub-cp013_ses-20210319_level-02B_run-010",
+        "sub-cp013_ses-20210319_level-03B_run-002",
+        "sub-cp013_ses-20210319_level-03B_run-005",
+        "sub-cp013_ses-20210319_level-03B_run-011",
+        "sub-cp013_ses-20210319_level-04B_run-004",
+        "sub-cp013_ses-20210319_level-04B_run-006",
+        "sub-cp013_ses-20210319_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 10,
+      "test_subject": "sub-cp014",
+      "original_outer_fold": 3,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=3]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=3], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.3"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_3_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp014_ses-20211112_level-01B_run-001",
+        "sub-cp014_ses-20211112_level-01B_run-007",
+        "sub-cp014_ses-20211112_level-01B_run-012",
+        "sub-cp014_ses-20211112_level-02B_run-003",
+        "sub-cp014_ses-20211112_level-02B_run-008",
+        "sub-cp014_ses-20211112_level-02B_run-010",
+        "sub-cp014_ses-20211112_level-03B_run-002",
+        "sub-cp014_ses-20211112_level-03B_run-005",
+        "sub-cp014_ses-20211112_level-03B_run-011",
+        "sub-cp014_ses-20211112_level-04B_run-004",
+        "sub-cp014_ses-20211112_level-04B_run-006",
+        "sub-cp014_ses-20211112_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 11,
+      "test_subject": "sub-cp015",
+      "original_outer_fold": 2,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=2]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=2], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.2"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_2_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp015_ses-20210504_level-01B_run-001",
+        "sub-cp015_ses-20210504_level-01B_run-007",
+        "sub-cp015_ses-20210504_level-01B_run-012",
+        "sub-cp015_ses-20210504_level-02B_run-003",
+        "sub-cp015_ses-20210504_level-02B_run-008",
+        "sub-cp015_ses-20210504_level-02B_run-010",
+        "sub-cp015_ses-20210504_level-03B_run-002",
+        "sub-cp015_ses-20210504_level-03B_run-005",
+        "sub-cp015_ses-20210504_level-03B_run-011",
+        "sub-cp015_ses-20210504_level-04B_run-004",
+        "sub-cp015_ses-20210504_level-04B_run-006",
+        "sub-cp015_ses-20210504_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 12,
+      "test_subject": "sub-cp016",
+      "original_outer_fold": 1,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=1]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=1], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.1"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_1_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp016_ses-20210528_level-01B_run-001",
+        "sub-cp016_ses-20210528_level-01B_run-007",
+        "sub-cp016_ses-20210528_level-01B_run-012",
+        "sub-cp016_ses-20210528_level-02B_run-003",
+        "sub-cp016_ses-20210528_level-02B_run-008",
+        "sub-cp016_ses-20210528_level-02B_run-010",
+        "sub-cp016_ses-20210528_level-03B_run-002",
+        "sub-cp016_ses-20210528_level-03B_run-005",
+        "sub-cp016_ses-20210528_level-03B_run-011",
+        "sub-cp016_ses-20210528_level-04B_run-004",
+        "sub-cp016_ses-20210528_level-04B_run-006",
+        "sub-cp016_ses-20210528_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 13,
+      "test_subject": "sub-cp017",
+      "original_outer_fold": 5,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=5]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=5], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.5"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_5_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp017_ses-20210521_level-01B_run-001",
+        "sub-cp017_ses-20210521_level-01B_run-007",
+        "sub-cp017_ses-20210521_level-01B_run-012",
+        "sub-cp017_ses-20210521_level-02B_run-003",
+        "sub-cp017_ses-20210521_level-02B_run-008",
+        "sub-cp017_ses-20210521_level-02B_run-010",
+        "sub-cp017_ses-20210521_level-03B_run-002",
+        "sub-cp017_ses-20210521_level-03B_run-005",
+        "sub-cp017_ses-20210521_level-03B_run-011",
+        "sub-cp017_ses-20210521_level-04B_run-004",
+        "sub-cp017_ses-20210521_level-04B_run-006",
+        "sub-cp017_ses-20210521_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 14,
+      "test_subject": "sub-cp018",
+      "original_outer_fold": 4,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=4]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=4], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.4"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_4_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp018_ses-20210709_level-01B_run-001",
+        "sub-cp018_ses-20210709_level-01B_run-007",
+        "sub-cp018_ses-20210709_level-01B_run-012",
+        "sub-cp018_ses-20210709_level-02B_run-003",
+        "sub-cp018_ses-20210709_level-02B_run-008",
+        "sub-cp018_ses-20210709_level-02B_run-010",
+        "sub-cp018_ses-20210709_level-03B_run-002",
+        "sub-cp018_ses-20210709_level-03B_run-005",
+        "sub-cp018_ses-20210709_level-03B_run-011",
+        "sub-cp018_ses-20210709_level-04B_run-004",
+        "sub-cp018_ses-20210709_level-04B_run-006",
+        "sub-cp018_ses-20210709_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 15,
+      "test_subject": "sub-cp019",
+      "original_outer_fold": 3,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=3]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=3], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.3"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_3_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp019_ses-20210625_level-01B_run-001",
+        "sub-cp019_ses-20210625_level-01B_run-007",
+        "sub-cp019_ses-20210625_level-01B_run-012",
+        "sub-cp019_ses-20210625_level-02B_run-003",
+        "sub-cp019_ses-20210625_level-02B_run-008",
+        "sub-cp019_ses-20210625_level-02B_run-010",
+        "sub-cp019_ses-20210625_level-03B_run-002",
+        "sub-cp019_ses-20210625_level-03B_run-005",
+        "sub-cp019_ses-20210625_level-03B_run-011",
+        "sub-cp019_ses-20210625_level-04B_run-004",
+        "sub-cp019_ses-20210625_level-04B_run-006",
+        "sub-cp019_ses-20210625_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 16,
+      "test_subject": "sub-cp020",
+      "original_outer_fold": 2,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=2]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=2], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.2"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_2_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp020_ses-20210604_level-01B_run-001",
+        "sub-cp020_ses-20210604_level-01B_run-007",
+        "sub-cp020_ses-20210604_level-01B_run-012",
+        "sub-cp020_ses-20210604_level-02B_run-003",
+        "sub-cp020_ses-20210604_level-02B_run-008",
+        "sub-cp020_ses-20210604_level-02B_run-010",
+        "sub-cp020_ses-20210604_level-03B_run-002",
+        "sub-cp020_ses-20210604_level-03B_run-005",
+        "sub-cp020_ses-20210604_level-03B_run-011",
+        "sub-cp020_ses-20210604_level-04B_run-004",
+        "sub-cp020_ses-20210604_level-04B_run-006",
+        "sub-cp020_ses-20210604_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 17,
+      "test_subject": "sub-cp022",
+      "original_outer_fold": 5,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=5]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=5], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.5"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_5_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp022_ses-20210621_level-01B_run-001",
+        "sub-cp022_ses-20210621_level-01B_run-007",
+        "sub-cp022_ses-20210621_level-01B_run-012",
+        "sub-cp022_ses-20210621_level-02B_run-003",
+        "sub-cp022_ses-20210621_level-02B_run-008",
+        "sub-cp022_ses-20210621_level-02B_run-010",
+        "sub-cp022_ses-20210621_level-03B_run-002",
+        "sub-cp022_ses-20210621_level-03B_run-005",
+        "sub-cp022_ses-20210621_level-03B_run-011",
+        "sub-cp022_ses-20210621_level-04B_run-004",
+        "sub-cp022_ses-20210621_level-04B_run-006",
+        "sub-cp022_ses-20210621_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 18,
+      "test_subject": "sub-cp023",
+      "original_outer_fold": 3,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=3]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=3], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.3"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_3_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp023_ses-20210628_level-01B_run-001",
+        "sub-cp023_ses-20210628_level-01B_run-007",
+        "sub-cp023_ses-20210628_level-01B_run-012",
+        "sub-cp023_ses-20210628_level-02B_run-003",
+        "sub-cp023_ses-20210628_level-02B_run-008",
+        "sub-cp023_ses-20210628_level-02B_run-010",
+        "sub-cp023_ses-20210628_level-03B_run-002",
+        "sub-cp023_ses-20210628_level-03B_run-005",
+        "sub-cp023_ses-20210628_level-03B_run-011",
+        "sub-cp023_ses-20210628_level-04B_run-004",
+        "sub-cp023_ses-20210628_level-04B_run-006",
+        "sub-cp023_ses-20210628_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 19,
+      "test_subject": "sub-cp024",
+      "original_outer_fold": 3,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=3]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=3], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.3"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_3_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp024_ses-20210629_level-01B_run-001",
+        "sub-cp024_ses-20210629_level-01B_run-007",
+        "sub-cp024_ses-20210629_level-01B_run-012",
+        "sub-cp024_ses-20210629_level-02B_run-003",
+        "sub-cp024_ses-20210629_level-02B_run-008",
+        "sub-cp024_ses-20210629_level-02B_run-010",
+        "sub-cp024_ses-20210629_level-03B_run-002",
+        "sub-cp024_ses-20210629_level-03B_run-005",
+        "sub-cp024_ses-20210629_level-03B_run-011",
+        "sub-cp024_ses-20210629_level-04B_run-004",
+        "sub-cp024_ses-20210629_level-04B_run-006",
+        "sub-cp024_ses-20210629_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 20,
+      "test_subject": "sub-cp025",
+      "original_outer_fold": 3,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=3]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=3], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.3"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_3_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp025_ses-20210820_level-01B_run-001",
+        "sub-cp025_ses-20210820_level-01B_run-007",
+        "sub-cp025_ses-20210820_level-01B_run-012",
+        "sub-cp025_ses-20210820_level-02B_run-003",
+        "sub-cp025_ses-20210820_level-02B_run-008",
+        "sub-cp025_ses-20210820_level-02B_run-010",
+        "sub-cp025_ses-20210820_level-03B_run-002",
+        "sub-cp025_ses-20210820_level-03B_run-005",
+        "sub-cp025_ses-20210820_level-03B_run-011",
+        "sub-cp025_ses-20210820_level-04B_run-004",
+        "sub-cp025_ses-20210820_level-04B_run-006",
+        "sub-cp025_ses-20210820_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 21,
+      "test_subject": "sub-cp026",
+      "original_outer_fold": 2,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=2]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=2], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.2"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_2_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp026_ses-20210716_level-01B_run-001",
+        "sub-cp026_ses-20210716_level-01B_run-007",
+        "sub-cp026_ses-20210716_level-01B_run-012",
+        "sub-cp026_ses-20210716_level-02B_run-003",
+        "sub-cp026_ses-20210716_level-02B_run-008",
+        "sub-cp026_ses-20210716_level-02B_run-010",
+        "sub-cp026_ses-20210716_level-03B_run-002",
+        "sub-cp026_ses-20210716_level-03B_run-005",
+        "sub-cp026_ses-20210716_level-03B_run-011",
+        "sub-cp026_ses-20210716_level-04B_run-004",
+        "sub-cp026_ses-20210716_level-04B_run-006",
+        "sub-cp026_ses-20210716_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 22,
+      "test_subject": "sub-cp027",
+      "original_outer_fold": 1,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=1]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=1], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.1"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_1_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp027_ses-20210722_level-01B_run-001",
+        "sub-cp027_ses-20210722_level-01B_run-007",
+        "sub-cp027_ses-20210722_level-01B_run-012",
+        "sub-cp027_ses-20210722_level-02B_run-003",
+        "sub-cp027_ses-20210722_level-02B_run-008",
+        "sub-cp027_ses-20210722_level-02B_run-010",
+        "sub-cp027_ses-20210722_level-03B_run-002",
+        "sub-cp027_ses-20210722_level-03B_run-005",
+        "sub-cp027_ses-20210722_level-03B_run-011",
+        "sub-cp027_ses-20210722_level-04B_run-004",
+        "sub-cp027_ses-20210722_level-04B_run-006",
+        "sub-cp027_ses-20210722_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 23,
+      "test_subject": "sub-cp028",
+      "original_outer_fold": 5,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=5]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=5], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.5"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_5_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp028_ses-20211214_level-01B_run-001",
+        "sub-cp028_ses-20211214_level-01B_run-007",
+        "sub-cp028_ses-20211214_level-01B_run-012",
+        "sub-cp028_ses-20211214_level-02B_run-003",
+        "sub-cp028_ses-20211214_level-02B_run-008",
+        "sub-cp028_ses-20211214_level-02B_run-010",
+        "sub-cp028_ses-20211214_level-03B_run-002",
+        "sub-cp028_ses-20211214_level-03B_run-005",
+        "sub-cp028_ses-20211214_level-03B_run-011",
+        "sub-cp028_ses-20211214_level-04B_run-004",
+        "sub-cp028_ses-20211214_level-04B_run-006",
+        "sub-cp028_ses-20211214_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 24,
+      "test_subject": "sub-cp029",
+      "original_outer_fold": 4,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=4]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=4], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.4"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_4_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp029_ses-20220119_level-01B_run-001",
+        "sub-cp029_ses-20220119_level-01B_run-007",
+        "sub-cp029_ses-20220119_level-01B_run-012",
+        "sub-cp029_ses-20220119_level-02B_run-003",
+        "sub-cp029_ses-20220119_level-02B_run-008",
+        "sub-cp029_ses-20220119_level-02B_run-010",
+        "sub-cp029_ses-20220119_level-03B_run-002",
+        "sub-cp029_ses-20220119_level-03B_run-005",
+        "sub-cp029_ses-20220119_level-03B_run-011",
+        "sub-cp029_ses-20220119_level-04B_run-004",
+        "sub-cp029_ses-20220119_level-04B_run-006",
+        "sub-cp029_ses-20220119_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 25,
+      "test_subject": "sub-cp030",
+      "original_outer_fold": 5,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=5]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=5], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.5"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_5_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp030_ses-20211025_level-01B_run-001",
+        "sub-cp030_ses-20211025_level-01B_run-007",
+        "sub-cp030_ses-20211025_level-01B_run-012",
+        "sub-cp030_ses-20211025_level-02B_run-003",
+        "sub-cp030_ses-20211025_level-02B_run-008",
+        "sub-cp030_ses-20211025_level-02B_run-010",
+        "sub-cp030_ses-20211025_level-03B_run-002",
+        "sub-cp030_ses-20211025_level-03B_run-011",
+        "sub-cp030_ses-20211025_level-04B_run-004",
+        "sub-cp030_ses-20211025_level-04B_run-006",
+        "sub-cp030_ses-20211025_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 26,
+      "test_subject": "sub-cp031",
+      "original_outer_fold": 2,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=2]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=2], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.2"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_2_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp031_ses-20211216_level-01B_run-001",
+        "sub-cp031_ses-20211216_level-01B_run-007",
+        "sub-cp031_ses-20211216_level-02B_run-003",
+        "sub-cp031_ses-20211216_level-02B_run-008",
+        "sub-cp031_ses-20211216_level-02B_run-010",
+        "sub-cp031_ses-20211216_level-02B_run-012",
+        "sub-cp031_ses-20211216_level-03B_run-002",
+        "sub-cp031_ses-20211216_level-03B_run-005",
+        "sub-cp031_ses-20211216_level-03B_run-011",
+        "sub-cp031_ses-20211216_level-04B_run-004",
+        "sub-cp031_ses-20211216_level-04B_run-006",
+        "sub-cp031_ses-20211216_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 27,
+      "test_subject": "sub-cp032",
+      "original_outer_fold": 5,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=5]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=5], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.5"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_5_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp032_ses-20211105_level-01B_run-001",
+        "sub-cp032_ses-20211105_level-01B_run-007",
+        "sub-cp032_ses-20211105_level-01B_run-012",
+        "sub-cp032_ses-20211105_level-02B_run-003",
+        "sub-cp032_ses-20211105_level-02B_run-008",
+        "sub-cp032_ses-20211105_level-02B_run-010",
+        "sub-cp032_ses-20211105_level-03B_run-002",
+        "sub-cp032_ses-20211105_level-03B_run-005",
+        "sub-cp032_ses-20211105_level-03B_run-011",
+        "sub-cp032_ses-20211105_level-04B_run-004",
+        "sub-cp032_ses-20211105_level-04B_run-006",
+        "sub-cp032_ses-20211105_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 28,
+      "test_subject": "sub-cp033",
+      "original_outer_fold": 1,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=1]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=1], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.1"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_1_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp033_ses-20211215_level-01B_run-001",
+        "sub-cp033_ses-20211215_level-01B_run-007",
+        "sub-cp033_ses-20211215_level-01B_run-012",
+        "sub-cp033_ses-20211215_level-02B_run-003",
+        "sub-cp033_ses-20211215_level-02B_run-008",
+        "sub-cp033_ses-20211215_level-02B_run-010",
+        "sub-cp033_ses-20211215_level-03B_run-002",
+        "sub-cp033_ses-20211215_level-03B_run-005",
+        "sub-cp033_ses-20211215_level-03B_run-011",
+        "sub-cp033_ses-20211215_level-04B_run-004",
+        "sub-cp033_ses-20211215_level-04B_run-006",
+        "sub-cp033_ses-20211215_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 29,
+      "test_subject": "sub-cp035",
+      "original_outer_fold": 5,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=5]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=5], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.5"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_5_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp035_ses-20220125_level-01B_run-001",
+        "sub-cp035_ses-20220125_level-01B_run-007",
+        "sub-cp035_ses-20220125_level-01B_run-012",
+        "sub-cp035_ses-20220125_level-02B_run-003",
+        "sub-cp035_ses-20220125_level-02B_run-008",
+        "sub-cp035_ses-20220125_level-02B_run-010",
+        "sub-cp035_ses-20220125_level-03B_run-002",
+        "sub-cp035_ses-20220125_level-03B_run-005",
+        "sub-cp035_ses-20220125_level-03B_run-011",
+        "sub-cp035_ses-20220125_level-04B_run-004",
+        "sub-cp035_ses-20220125_level-04B_run-006",
+        "sub-cp035_ses-20220125_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 30,
+      "test_subject": "sub-cp036",
+      "original_outer_fold": 4,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=4]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=4], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.4"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_4_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp036_ses-20211218_level-01B_run-001",
+        "sub-cp036_ses-20211218_level-01B_run-007",
+        "sub-cp036_ses-20211218_level-01B_run-012",
+        "sub-cp036_ses-20211218_level-02B_run-003",
+        "sub-cp036_ses-20211218_level-02B_run-008",
+        "sub-cp036_ses-20211218_level-02B_run-010",
+        "sub-cp036_ses-20211218_level-03B_run-002",
+        "sub-cp036_ses-20211218_level-03B_run-005",
+        "sub-cp036_ses-20211218_level-03B_run-011",
+        "sub-cp036_ses-20211218_level-04B_run-004",
+        "sub-cp036_ses-20211218_level-04B_run-006",
+        "sub-cp036_ses-20211218_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 31,
+      "test_subject": "sub-cp037",
+      "original_outer_fold": 3,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=3]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=3], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.3"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_3_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp037_ses-20210113_level-01B_run-001",
+        "sub-cp037_ses-20210113_level-01B_run-007",
+        "sub-cp037_ses-20210113_level-01B_run-012",
+        "sub-cp037_ses-20210113_level-02B_run-003",
+        "sub-cp037_ses-20210113_level-02B_run-008",
+        "sub-cp037_ses-20210113_level-02B_run-010",
+        "sub-cp037_ses-20210113_level-03B_run-002",
+        "sub-cp037_ses-20210113_level-03B_run-005",
+        "sub-cp037_ses-20210113_level-03B_run-011",
+        "sub-cp037_ses-20210113_level-04B_run-004",
+        "sub-cp037_ses-20210113_level-04B_run-006",
+        "sub-cp037_ses-20210113_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 32,
+      "test_subject": "sub-cp038",
+      "original_outer_fold": 2,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=2]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=2], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.2"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_2_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp038_ses-20220112_level-01B_run-001",
+        "sub-cp038_ses-20220112_level-01B_run-007",
+        "sub-cp038_ses-20220112_level-01B_run-012",
+        "sub-cp038_ses-20220112_level-02B_run-003",
+        "sub-cp038_ses-20220112_level-02B_run-008",
+        "sub-cp038_ses-20220112_level-02B_run-010",
+        "sub-cp038_ses-20220112_level-03B_run-002",
+        "sub-cp038_ses-20220112_level-03B_run-005",
+        "sub-cp038_ses-20220112_level-03B_run-011",
+        "sub-cp038_ses-20220112_level-04B_run-004",
+        "sub-cp038_ses-20220112_level-04B_run-006",
+        "sub-cp038_ses-20220112_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 33,
+      "test_subject": "sub-cp039",
+      "original_outer_fold": 1,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=1]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=1], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.1"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_1_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp039_ses-20211219_level-01B_run-001",
+        "sub-cp039_ses-20211219_level-01B_run-007",
+        "sub-cp039_ses-20211219_level-01B_run-012",
+        "sub-cp039_ses-20211219_level-02B_run-003",
+        "sub-cp039_ses-20211219_level-02B_run-008",
+        "sub-cp039_ses-20211219_level-02B_run-010",
+        "sub-cp039_ses-20211219_level-03B_run-002",
+        "sub-cp039_ses-20211219_level-03B_run-005",
+        "sub-cp039_ses-20211219_level-03B_run-011",
+        "sub-cp039_ses-20211219_level-04B_run-004",
+        "sub-cp039_ses-20211219_level-04B_run-006",
+        "sub-cp039_ses-20211219_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 34,
+      "test_subject": "sub-cp042",
+      "original_outer_fold": 4,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=4]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=4], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.4"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_4_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp042_ses-20220111_level-01B_run-001",
+        "sub-cp042_ses-20220111_level-01B_run-007",
+        "sub-cp042_ses-20220111_level-01B_run-012",
+        "sub-cp042_ses-20220111_level-02B_run-003",
+        "sub-cp042_ses-20220111_level-02B_run-008",
+        "sub-cp042_ses-20220111_level-02B_run-010",
+        "sub-cp042_ses-20220111_level-03B_run-002",
+        "sub-cp042_ses-20220111_level-03B_run-005",
+        "sub-cp042_ses-20220111_level-03B_run-011",
+        "sub-cp042_ses-20220111_level-04B_run-004",
+        "sub-cp042_ses-20220111_level-04B_run-006",
+        "sub-cp042_ses-20220111_level-04B_run-009"
+      ]
+    },
+    {
+      "loso_split": 35,
+      "test_subject": "sub-cp043",
+      "original_outer_fold": 1,
+      "train_subject_count": 34,
+      "test_subject_count": 1,
+      "test_subject_in_original_outer_training": false,
+      "test_subject_excluded_from_original_config_selection_evidence": true,
+      "new_inner_cv_authorized": false,
+      "loso_test_subject_parameter_access": false,
+      "fit_policy": "Refit frozen configuration on the 34 LOSO training subjects only.",
+      "config_sources": {
+        "hdc_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_classification_hdc.fold_selected_structures[outer_fold=1]"
+        },
+        "hdc_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+          "locator": "best_regression_hdc.fold_parameter_policy[outer_fold=1], ridge_alpha=0.01"
+        },
+        "traditional_classification": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+          "locator": "gradient_boosting.1"
+        },
+        "traditional_regression": {
+          "path": "E:\\hdc-vr-pilot\\experiments\\phase_04b_traditional_regression_baselines\\results\\checkpoints\\gradient_boosting\\gradient_boosting_fold_1_best_params.json",
+          "locator": "best_params"
+        }
+      },
+      "expected_test_run_keys": [
+        "sub-cp043_ses-20220127_level-01B_run-001",
+        "sub-cp043_ses-20220127_level-01B_run-007",
+        "sub-cp043_ses-20220127_level-01B_run-012",
+        "sub-cp043_ses-20220127_level-02B_run-003",
+        "sub-cp043_ses-20220127_level-02B_run-008",
+        "sub-cp043_ses-20220127_level-02B_run-010",
+        "sub-cp043_ses-20220127_level-03B_run-002",
+        "sub-cp043_ses-20220127_level-03B_run-005",
+        "sub-cp043_ses-20220127_level-03B_run-011",
+        "sub-cp043_ses-20220127_level-04B_run-004",
+        "sub-cp043_ses-20220127_level-04B_run-006",
+        "sub-cp043_ses-20220127_level-04B_run-009"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "role": "frozen_phase03_outer_assignments",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+      "bytes": 38660,
+      "sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+      "read_only_policy": true
+    },
+    {
+      "role": "traditional_classification_fold_parameters",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_04a_traditional_classification_baselines\\configs\\classification_best_params_by_fold.json",
+      "bytes": 1027,
+      "sha256": "16bf511354a4320695cb226e585b4ed5803a6c72254fb7f0aefa1729cbc82486",
+      "read_only_policy": true
+    },
+    {
+      "role": "hdc_fold_policies",
+      "path": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+      "bytes": 5533,
+      "sha256": "cd94acdf0bcb463b5f48a7c84110a23059899b6b5bf156131694827d7d7bde66",
+      "read_only_policy": true
+    }
+  ]
+}

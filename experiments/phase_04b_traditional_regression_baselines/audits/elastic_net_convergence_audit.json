@@ -1,0 +1,75 @@
+{
+  "folds": [
+    {
+      "outer_fold": 1,
+      "checkpoint_reused": true,
+      "selected_k": 200,
+      "selected_alpha": 0.01,
+      "selected_l1_ratio": 0.9,
+      "n_iter": 2270,
+      "max_iter_used": 20000,
+      "tol": 0.0001,
+      "search_convergence_warning_count_total": 6,
+      "best_estimator_converged": true,
+      "convergence_status": "PASS",
+      "recovery_version": "V1"
+    },
+    {
+      "outer_fold": 2,
+      "checkpoint_reused": true,
+      "selected_k": "all",
+      "selected_alpha": 0.01,
+      "selected_l1_ratio": 0.9,
+      "n_iter": 3395,
+      "max_iter_used": 20000,
+      "tol": 0.0001,
+      "search_convergence_warning_count_total": 10,
+      "best_estimator_converged": true,
+      "convergence_status": "PASS",
+      "recovery_version": "V1"
+    },
+    {
+      "outer_fold": 3,
+      "checkpoint_reused": false,
+      "selected_k": 200,
+      "selected_alpha": 0.001,
+      "selected_l1_ratio": 0.9,
+      "n_iter": 41992,
+      "max_iter_used": 100000,
+      "tol": 0.0001,
+      "search_convergence_warning_count_total": 0,
+      "best_estimator_converged": true,
+      "convergence_status": "PASS",
+      "recovery_version": "V1"
+    },
+    {
+      "outer_fold": 4,
+      "checkpoint_reused": false,
+      "selected_k": 200,
+      "selected_alpha": 0.01,
+      "selected_l1_ratio": 0.9,
+      "n_iter": 2613,
+      "max_iter_used": 100000,
+      "tol": 0.0001,
+      "search_convergence_warning_count_total": 0,
+      "best_estimator_converged": true,
+      "convergence_status": "PASS",
+      "recovery_version": "V1"
+    },
+    {
+      "outer_fold": 5,
+      "checkpoint_reused": false,
+      "selected_k": 200,
+      "selected_alpha": 0.01,
+      "selected_l1_ratio": 0.5,
+      "n_iter": 2280,
+      "max_iter_used": 100000,
+      "tol": 0.0001,
+      "search_convergence_warning_count_total": 0,
+      "best_estimator_converged": true,
+      "convergence_status": "PASS",
+      "recovery_version": "V1"
+    }
+  ],
+  "overall_pass": true
+}

@@ -1,0 +1,46 @@
+{
+  "outer_fold": 1,
+  "all_required_artifacts_exist": true,
+  "candidate_rows": 16,
+  "inner_metric_rows": 48,
+  "checkpoint_overall_pass": true,
+  "artifacts": [
+    {
+      "path": "results\\checkpoints\\quick_screen\\vanilla_hdc_quick_screen_fold_1_checkpoint.json",
+      "exists": true,
+      "bytes": 3152,
+      "sha256": "fbd7b2745f08199c63fe1c0a435752f1d484ad08f7185fd9757f133c82de923a"
+    },
+    {
+      "path": "results\\summaries\\vanilla_hdc_quick_screen_fold_1_candidates.csv",
+      "exists": true,
+      "bytes": 20605,
+      "sha256": "c1244b98282b5faa0e659a5e9dd23c7bbce4d87e0ab10509ef897353bda37951"
+    },
+    {
+      "path": "results\\summaries\\vanilla_hdc_quick_screen_fold_1_best_config.json",
+      "exists": true,
+      "bytes": 1896,
+      "sha256": "98d4cbc0b1410a5c71adbfd8e6408aad1efc8ccd393f06487ff588a6775502e1"
+    },
+    {
+      "path": "results\\fold_metrics\\vanilla_hdc_quick_screen_fold_1_inner_metrics.csv",
+      "exists": true,
+      "bytes": 27465,
+      "sha256": "47892380cfb6552c6ccb41eeb22dbe5469222e28b16303d9cea1cee9101c0f4a"
+    },
+    {
+      "path": "results\\efficiency\\vanilla_hdc_quick_screen_fold_1_efficiency.csv",
+      "exists": true,
+      "bytes": 1461,
+      "sha256": "3e7844b4a11a8d1859fe81dfaf148cc0d0ac12676172838181dbfe28a21dbfcd"
+    },
+    {
+      "path": "audits\\vanilla_hdc_quick_screen_fold_1_leakage_audit.json",
+      "exists": true,
+      "bytes": 1192,
+      "sha256": "d0014ec85baf8242a3b1aea4f0b08f004ec98e1197f61f6e028e8c8ae102f81a"
+    }
+  ],
+  "result": "PASS"
+}

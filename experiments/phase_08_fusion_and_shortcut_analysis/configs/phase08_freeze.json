@@ -1,0 +1,37 @@
+{
+  "phase": "Phase 08",
+  "status": "FROZEN",
+  "freeze_time_utc": "2026-08-21T02:37:38.123115+00:00",
+  "model_runs": 370,
+  "raw_prediction_rows": 31006,
+  "canonical_oof_rows": 10894,
+  "outer_folds": 5,
+  "subjects": 35,
+  "outer_test_used_for_tuning": false,
+  "model_retraining_during_freeze": false,
+  "predictions_regenerated": false,
+  "phase09_executed": false,
+  "completed_analyses": {
+    "fusion_comparison": true,
+    "flight_behavioral_sensitivity": true,
+    "performance_shortcut_analysis": true,
+    "statistical_analysis": true,
+    "generalization_limitations_saved": true
+  },
+  "holdout_feasibility": {
+    "unseen_session": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "unseen_scenario": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "task_template": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "FLIGHT_TASK_SETTING_ONLY": "NOT_FEASIBLE_EMPTY_PROVENANCE_GROUP"
+  },
+  "phase09_handoff_saved": true,
+  "final_manifest": {
+    "path": "manifests/phase08_final_manifest.json",
+    "sha256": "c4de38db0c0d76e5cb06822d895d9ccd823d418c9057d85732d080f5b09cc42b"
+  },
+  "upstream_freeze_integrity": "PASS",
+  "notebook_persistence": "PASS",
+  "ready_to_proceed_to_phase09": true,
+  "scope_statement": "Phase 08 results are frozen only for the registered fusion, shortcut, and sensitivity analyses.",
+  "generalization_guardrail": "Current results do not prove cross-session, cross-scenario, or cross-task-template generalization."
+}

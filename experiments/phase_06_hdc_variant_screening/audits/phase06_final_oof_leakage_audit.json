@@ -1,0 +1,12 @@
+{
+  "phase": "06",
+  "audit": "final_oof_leakage",
+  "source_predictions_only": true,
+  "training_calls": 0,
+  "prediction_calls": 0,
+  "outer_test_used_for_tuning": false,
+  "temperature_inner_cv_only": true,
+  "outer_subject_isolation": "PASS",
+  "inner_subject_isolation": "PASS",
+  "result": "PASS"
+}

@@ -1,0 +1,8 @@
+{
+  "outer_subject_isolation": true,
+  "inner_subject_isolation": true,
+  "outer_test_used_for_tuning": false,
+  "pipeline_training_only": true,
+  "same_best_params_all_seeds": true,
+  "overall_pass": true
+}

@@ -1,0 +1,126 @@
+{
+  "phase": "04B",
+  "status": "FROZEN",
+  "freeze_timestamp_utc": "2026-08-19T20:16:18.552774+00:00",
+  "task_interpretation": "bounded difficulty-induced workload proxy regression",
+  "primary_input": {
+    "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv",
+    "sha256": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44"
+  },
+  "frozen_fold": {
+    "path": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+    "sha256": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f"
+  },
+  "experiment_contract": {
+    "path": "configs\\phase04b_experiment_contract.json",
+    "sha256": "66f7ace89c8e5552ddd16d9715508fc60532bc7008b5cfcb470ba1ef712b23f0"
+  },
+  "configuration_files": [
+    {
+      "path": "configs\\dummy_regressor_configuration.json",
+      "sha256": "44a5549b8678b36fbf517082ab3c58a9b7d91a950d83b158032ad24a5fd090d7"
+    },
+    {
+      "path": "configs\\elastic_net_configuration.json",
+      "sha256": "c6168e4e46bec728216bad64631bac5052c557bc45332b56777f427562a38517"
+    },
+    {
+      "path": "configs\\elastic_net_convergence_recovery_v1.json",
+      "sha256": "7ba149c7960ed33030c6f64093ec0c03bcc6a791ad84c723b914216b6ee66aab"
+    },
+    {
+      "path": "configs\\gradient_boosting_configuration.json",
+      "sha256": "8806fb802da1de3fa5c2c5d720121a209837701185fe7b35868c41abc43af717"
+    },
+    {
+      "path": "configs\\linear_svr_configuration.json",
+      "sha256": "8d5f4dd05a7704fadb8860c68815d900ae46d4ca86b0851a13d80773cc200fb7"
+    },
+    {
+      "path": "configs\\phase04b_environment.json",
+      "sha256": "b15187c5ffd59ef53732ec28f43727f27a13c6153de78522be78bb96211ce60f"
+    },
+    {
+      "path": "configs\\phase04b_experiment_contract.json",
+      "sha256": "66f7ace89c8e5552ddd16d9715508fc60532bc7008b5cfcb470ba1ef712b23f0"
+    },
+    {
+      "path": "configs\\random_forest_configuration.json",
+      "sha256": "4331aeef419590439c09601258c185c0e0b42b1728ef887c2aea6a1822355b3b"
+    },
+    {
+      "path": "configs\\rbf_svr_configuration.json",
+      "sha256": "ea9dac75fce453968857d2cba184fb5aa3b0f91f3d963f241849b02ccd2a5fd2"
+    },
+    {
+      "path": "configs\\regression_model_search_space.json",
+      "sha256": "55cb51b0501dc2d4258565d17b952efc907a54fd4fcbf05def9cc7fe6820efa5"
+    },
+    {
+      "path": "configs\\ridge_configuration.json",
+      "sha256": "c56f6d2f858c8dfe8022bdc7a94bcb2e9c3b3e257e64825630092b707e3e5a9a"
+    }
+  ],
+  "completed_models": [
+    "Dummy Regressor Mean",
+    "Dummy Regressor Median",
+    "Ridge",
+    "Elastic Net",
+    "Linear SVR",
+    "RBF SVR",
+    "Random Forest Regressor",
+    "Gradient Boosting Regressor"
+  ],
+  "canonical_oof_files": {
+    "dummy_mean": {
+      "path": "results\\predictions\\dummy_mean_oof.csv",
+      "sha256": "a27717c66c309acb447b9fefa5d557bd46dcc81ecb5e127b6bce3ddd358b7675"
+    },
+    "dummy_median": {
+      "path": "results\\predictions\\dummy_median_oof.csv",
+      "sha256": "7215c1756f1a24e6ab3c4d1599b39e79d01d7c5897670edcfbaa4321d034c4d0"
+    },
+    "ridge": {
+      "path": "results\\predictions\\ridge_oof.csv",
+      "sha256": "b2c60243a9fe80d8920451c28fe9d734d9d9d13fcf112e45c86b0792b5c3ad97"
+    },
+    "elastic_net": {
+      "path": "results\\predictions\\elastic_net_oof.csv",
+      "sha256": "c641383c26556633038b7b0e054ffab53781f9458e7030a246992c3d38b2c226"
+    },
+    "linear_svr": {
+      "path": "results\\predictions\\linear_svr_oof.csv",
+      "sha256": "aedd057c998b2ea8a3358860e8c1121d17ce77d1f932357dec1a50d6b9303a01"
+    },
+    "rbf_svr": {
+      "path": "results\\predictions\\rbf_svr_oof.csv",
+      "sha256": "d9a9167ddefe2ed7eea76f02b5f269cfd3c170feb2245f9e0798d9fbf935e24d"
+    },
+    "random_forest": {
+      "path": "results\\predictions\\random_forest_oof.csv",
+      "sha256": "db66e076132711edf35d8b7400fa056b48a22e922e7173db7d9a98ff1a8ac954"
+    },
+    "gradient_boosting": {
+      "path": "results\\predictions\\gradient_boosting_oof.csv",
+      "sha256": "e05c23a526a00eaaa49d0fd07e1eae68ff2c53e94a05418d47474367aa0ae3ed"
+    }
+  },
+  "final_comparison": {
+    "path": "results\\summaries\\phase04b_final_regressor_comparison.csv",
+    "sha256": "b8bb4e8b4323a2f5234ed3f4f4a5a84a831158c17ebb0be4b050e0b729f50f3c"
+  },
+  "final_report": {
+    "path": "reports\\phase04b_final_summary.md",
+    "sha256": "2138d7f7f022c870a2f770d80a1af8710c3b245f6296178d8c1da73dd560776a"
+  },
+  "notebook": {
+    "path": "Phase_04B_Regression_Baselines.ipynb",
+    "sha256": "90eb201f64afe97ef546ae8bc532a84af0e9b6f4da2878f156388748122371a3"
+  },
+  "primary_metric": "bounded OOF MAE (lower is better)",
+  "best_model": "Gradient Boosting Regressor",
+  "best_bounded_oof_mae": 0.10748622346925181,
+  "post_freeze_rule": "Frozen results must not be silently modified; any later change requires a new versioned phase and refreshed manifest.",
+  "phase03_files_unchanged": true,
+  "phase04a_reference_files_unchanged": true
+}

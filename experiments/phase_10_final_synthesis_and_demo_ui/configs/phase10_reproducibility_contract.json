@@ -1,0 +1,46 @@
+{
+  "contract": "phase10_reproducibility_contract",
+  "status": "FROZEN_RULES_NOT_ASSEMBLED",
+  "required_contents": [
+    "environment inventory",
+    "Python/package versions",
+    "Phase00-09 execution order",
+    "Notebook index",
+    "config index",
+    "manifest index",
+    "report index",
+    "prediction index",
+    "figure/table index",
+    "Primary checksum",
+    "fold checksum",
+    "selected model hashes",
+    "freeze file index",
+    "read-only verification command",
+    "full verification report",
+    "known limitations",
+    "optional experiments status"
+  ],
+  "READ_ONLY_FAST_VERIFY": {
+    "checks": [
+      "existence",
+      "SHA-256",
+      "row counts",
+      "run_key coverage",
+      "frozen states",
+      "table/figure source alignment"
+    ],
+    "command": "python scripts/verify_phase10_core_contract.py --mode fast"
+  },
+  "FULL_ENGINEERING_VERIFY": {
+    "checks": [
+      "syntax",
+      "tests",
+      "manifests",
+      "Notebook persistence",
+      "freeze integrity",
+      "cross-phase consistency"
+    ],
+    "command": "python scripts/verify_phase10_core_contract.py --mode full"
+  },
+  "retraining_required": false
+}

@@ -1,0 +1,11 @@
+{
+  "phase": "06",
+  "audit": "outer_oof_seal_integrity",
+  "timestamp_utc": "2026-08-20T17:37:48.330868+00:00",
+  "seal": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\manifests\\phase06_preselection_outer_oof_seal.json",
+  "seal_sha256": "7f78fe0e66f6c020142cc7fe099b7844e84cd34af5c39df5dbf5f48e528a42e9",
+  "artifacts_verified": 72,
+  "mismatches": [],
+  "outer_oof_read_by_selector": false,
+  "result": "PASS"
+}

@@ -1,0 +1,9 @@
+model,expected_rows,actual_rows,unique_run_keys,duplicate_model_run_predictions,all_frozen_outer_folds_represented,valid_classes,status
+dummy_most_frequent,419,419,419,0,True,True,PASS
+dummy_stratified,419,419,419,0,True,True,PASS
+gradient_boosting,419,419,419,0,True,True,PASS
+knn,419,419,419,0,True,True,PASS
+linear_svm,419,419,419,0,True,True,PASS
+logistic_regression,419,419,419,0,True,True,PASS
+random_forest,419,419,419,0,True,True,PASS
+rbf_svm,419,419,419,0,True,True,PASS

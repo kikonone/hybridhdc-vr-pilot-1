@@ -1,0 +1,38 @@
+{
+  "outer_fold": 2,
+  "configuration_checkpoints_valid": true,
+  "required_artifacts": [
+    {
+      "path": "results\\predictions\\vanilla_hdc_final_confirmation_fold_2_predictions.csv",
+      "bytes": 361648,
+      "sha256": "143016f8dab3dc02adc7934bb67ed38d6137844f9ae3c0942b3c8ff6be24e163"
+    },
+    {
+      "path": "results\\fold_metrics\\vanilla_hdc_final_confirmation_fold_2_metrics.csv",
+      "bytes": 8042,
+      "sha256": "87877de99cde4b5b37241bed14d3bd0e2a1926f86dcb210b386562ad2dec2ef1"
+    },
+    {
+      "path": "results\\fold_metrics\\vanilla_hdc_final_confirmation_fold_2_inner_selection.csv",
+      "bytes": 31189,
+      "sha256": "1c533e299195987b71fe8207e7dbfc648035ca76d5c0ae3a149fbc597808566e"
+    },
+    {
+      "path": "results\\efficiency\\vanilla_hdc_final_confirmation_fold_2_efficiency.csv",
+      "bytes": 3073,
+      "sha256": "00cd2e4ea89f8b01db0f34f08c980dfe4c6b9d16d39cb6e05477efa7024d9235"
+    },
+    {
+      "path": "audits\\vanilla_hdc_final_confirmation_fold_2_leakage_audit.json",
+      "bytes": 1512,
+      "sha256": "a502c651b646913873684c01194d1cba8a702a027584e7914e75d7815e158331"
+    },
+    {
+      "path": "audits\\vanilla_hdc_final_confirmation_fold_2_coverage_audit.json",
+      "bytes": 290,
+      "sha256": "c22f378d28d6a007d282662dd634d2a04148359b265a0067cbc35206761fe748"
+    }
+  ],
+  "quick_screen_artifacts_preserved": true,
+  "result": "PASS"
+}

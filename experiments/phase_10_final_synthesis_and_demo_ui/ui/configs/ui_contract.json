@@ -1,0 +1,43 @@
+{
+  "contract": "phase10_frozen_dual_task_defense_ui_v2",
+  "framework": "Streamlit",
+  "binding": "127.0.0.1",
+  "default_url": "http://127.0.0.1:8501",
+  "offline_only": true,
+  "single_page": true,
+  "language": "English",
+  "allowed_tasks": ["Classification", "Regression"],
+  "classification": {
+    "model": "HDC+OnlineHD Hybrid",
+    "dimension": 5000,
+    "display_classes": ["Difficulty 1", "Difficulty 2", "Difficulty 3", "Difficulty 4"],
+    "score_semantics": "cosine similarities, not probabilities"
+  },
+  "regression": {
+    "model": "COMMON_ENCODER_READOUT_BASELINE",
+    "variant": "common_ridge",
+    "dimension": 10000,
+    "feature_k": 50,
+    "levels": 51,
+    "ridge_alpha": 0.01,
+    "interpretation": "bounded difficulty-induced workload proxy regression",
+    "ui_clipping_prohibited": true
+  },
+  "records_per_task": 419,
+  "folds": 5,
+  "anonymization": "one stable DEMO-0001 through DEMO-0419 mapping shared by both tasks",
+  "forbidden": [
+    "other pages",
+    "other models",
+    "model rankings",
+    "uploads",
+    "live inference",
+    "training",
+    "prediction generation",
+    "statistics recomputation",
+    "model selection",
+    "network APIs",
+    "databases",
+    "research identifiers"
+  ]
+}

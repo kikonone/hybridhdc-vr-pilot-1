@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "statistical_unit": "subject_id",
+  "n": 35,
+  "runs_folds_seeds_as_independent": false,
+  "wilcoxon": "PASS",
+  "rank_biserial": "PASS",
+  "bootstrap_repetitions": 2000
+}

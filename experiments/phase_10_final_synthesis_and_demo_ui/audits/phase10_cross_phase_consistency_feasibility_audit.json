@@ -1,0 +1,23 @@
+{
+  "audit": "phase10_cross_phase_consistency_feasibility_audit",
+  "timestamp_utc": "2026-08-21T06:11:40.396445+00:00",
+  "required_regression_terminology": "bounded difficulty-induced workload proxy regression",
+  "differences_found": [],
+  "upstream_artifacts_modified": false,
+  "checks": {
+    "dataset_rows_consistent": true,
+    "subjects_consistent": true,
+    "feature_count_consistent": true,
+    "run_key_universe_consistent": true,
+    "target_definitions_consistent": true,
+    "fold_checksum_consistent": true,
+    "phase06_model_naming_consistent": true,
+    "metric_naming_consistent": true,
+    "metric_direction_consistent": true,
+    "regression_terminology_consistent": true,
+    "figures_and_summary_numbers_traceable": true,
+    "phase06_interface_traceable_in_phase07_09": true,
+    "phase08_09_generalization_limits_consistent": true
+  },
+  "status": "PASS"
+}

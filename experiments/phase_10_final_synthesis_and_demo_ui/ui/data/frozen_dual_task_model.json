@@ -1,0 +1,32 @@
+{
+  "title": "Frozen HDC Classification and Proxy-Regression Demonstration",
+  "classification": {
+    "model": "HDC+OnlineHD Hybrid",
+    "variant": "hybrid",
+    "dimension": 5000,
+    "feature_k": 50,
+    "levels": 51,
+    "aggregation": "arithmetic mean of the five seed class scores, then argmax",
+    "score_semantics": "cosine similarities, not probabilities"
+  },
+  "regression": {
+    "model": "COMMON_ENCODER_READOUT_BASELINE",
+    "variant": "common_ridge",
+    "dimension": 10000,
+    "feature_k": 50,
+    "levels": 51,
+    "ridge_alpha": 0.01,
+    "ridge_alpha_policy": "0.01 for every frozen fold and seed configuration",
+    "aggregation": "arithmetic mean of five prediction_raw values, then clip to [1.0, 4.0]",
+    "interpretation": "bounded difficulty-induced workload proxy regression"
+  },
+  "records": 419,
+  "folds": 5,
+  "frozen_evaluation_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ]
+}

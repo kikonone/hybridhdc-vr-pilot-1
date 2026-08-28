@@ -1,0 +1,20 @@
+{
+  "model": "Gradient Boosting Regressor",
+  "model_slug": "gradient_boosting",
+  "canonical_seed": 42,
+  "canonical_oof_rows": 419,
+  "canonical_oof_unique_run_keys": 419,
+  "canonical_oof_mae_raw": 0.11306438938653676,
+  "canonical_oof_mae_bounded": 0.10748622346925181,
+  "canonical_oof_rmse_bounded": 0.2550837953674904,
+  "canonical_oof_r2_bounded": 0.947846168738032,
+  "canonical_oof_spearman_bounded": 0.9529838128466465,
+  "seed_count": 5,
+  "seed_mean_oof_mae_bounded": 0.10780651942833126,
+  "seed_std_oof_mae_bounded": 0.0005080250159979667,
+  "best_prior_model": "Random Forest Regressor",
+  "best_prior_oof_mae_bounded": 0.1437350835322195,
+  "mae_difference_vs_best_prior": -0.036248860062967694,
+  "status": "COMPLETE",
+  "utc_timestamp": "2026-08-19T20:06:17.952819+00:00"
+}

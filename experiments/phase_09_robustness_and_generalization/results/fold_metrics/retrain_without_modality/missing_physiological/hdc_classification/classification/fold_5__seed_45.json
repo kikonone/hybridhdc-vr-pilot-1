@@ -1,0 +1,45 @@
+{
+  "phase": "09",
+  "run_identifier": "mm__missing_physiological__hdc_classification__fold_5__seed_45",
+  "task": "classification",
+  "regression_interpretation": null,
+  "metrics": {
+    "macro_f1": 0.8263834613177384,
+    "balanced_accuracy": 0.8327380952380952,
+    "accuracy": 0.8313253012048193,
+    "severe_error_rate": 0.024096385542168676,
+    "per_class_recall": {
+      "0": 0.7619047619047619,
+      "1": 0.6190476190476191,
+      "2": 0.95,
+      "3": 1.0
+    },
+    "confusion_matrix": [
+      [
+        16,
+        3,
+        2,
+        0
+      ],
+      [
+        3,
+        13,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        19,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        21
+      ]
+    ],
+    "quadratic_weighted_kappa": 0.9036675951717734
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "phase": "10",
+  "status": "FINAL_SYNTHESIS_COMPLETE_PENDING_PHASE10_FREEZE",
+  "final_synthesis_complete": true,
+  "phase10_final_frozen": false,
+  "ready_for_phase10_final_freeze": true,
+  "ui_status": "DEFERRED_BY_USER_NOT_EXECUTED",
+  "onlinehd_replay_status": "OPTIONAL_NOT_EXECUTED"
+}

@@ -1,0 +1,18 @@
+{
+  "phase": "09",
+  "run_identifier": "mm__missing_flight_parameter__hdc_regression__fold_5__seed_43",
+  "task": "regression",
+  "regression_interpretation": "bounded difficulty-induced workload proxy regression",
+  "metrics": {
+    "raw_mae": 1.035587948488902,
+    "bounded_mae": 1.000441301299865,
+    "bounded_rmse": 1.254238725229308,
+    "bounded_r2": -0.24651342517700492,
+    "bounded_spearman": 0.3191455146997074,
+    "clipping_count": 11,
+    "clipping_rate": 0.13253012048192772,
+    "rounded_regression_macro_f1": 0.2889372126249383,
+    "adjacent_accuracy": 0.7469879518072289,
+    "severe_error_rate": 0.25301204819277107
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": {
+    "source_rows_419": true,
+    "subjects_35": true,
+    "session_groups_35": true,
+    "session_one_subject_each": true,
+    "no_scenario_identifier_fabricated": true,
+    "no_task_template_identifier_fabricated": true,
+    "no_route_configuration_identifier_fabricated": true,
+    "loso_guardrail_present": true
+  },
+  "holdout_feasibility": {
+    "unseen_session": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "unseen_scenario": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "task_template": "NOT_FEASIBLE_DUE_TO_METADATA",
+    "route_or_configuration": "NOT_FEASIBLE_DUE_TO_METADATA"
+  }
+}

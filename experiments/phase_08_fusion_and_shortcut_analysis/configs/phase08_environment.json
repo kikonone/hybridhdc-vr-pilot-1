@@ -1,0 +1,9 @@
+{
+  "phase": "08",
+  "captured_at_utc": "2026-08-20T19:32:01.546531+00:00",
+  "python_version": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+  "python_executable": "D:\\Computer\\anaconda3\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "working_directory": "E:\\hdc-vr-pilot\\experiments\\phase_08_fusion_and_shortcut_analysis",
+  "scope": "INITIALIZATION_ONLY_NO_MODELING"
+}

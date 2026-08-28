@@ -1,0 +1,45 @@
+{
+  "phase": "09",
+  "run_identifier": "mm__missing_body_movement__hdc_classification__fold_4__seed_46",
+  "task": "classification",
+  "regression_interpretation": null,
+  "metrics": {
+    "macro_f1": 0.8681759455015269,
+    "balanced_accuracy": 0.8690476190476191,
+    "accuracy": 0.8690476190476191,
+    "severe_error_rate": 0.023809523809523808,
+    "per_class_recall": {
+      "0": 0.9047619047619048,
+      "1": 0.8571428571428571,
+      "2": 0.7142857142857143,
+      "3": 1.0
+    },
+    "confusion_matrix": [
+      [
+        19,
+        2,
+        0,
+        0
+      ],
+      [
+        3,
+        18,
+        0,
+        0
+      ],
+      [
+        2,
+        3,
+        15,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        21
+      ]
+    ],
+    "quadratic_weighted_kappa": 0.9220183486238532
+  }
+}

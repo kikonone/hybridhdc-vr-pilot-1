@@ -1,0 +1,46 @@
+{
+  "phase": "07",
+  "audit": "contract_freeze",
+  "generated_at_utc": "2026-08-20T18:05:58.897995+00:00",
+  "precondition_checks": {
+    "upstream_hashes_pass": true,
+    "initialization_gates_pass": true,
+    "initialization_artifact_audit_pass": true,
+    "initialization_notebook_persistence_pass": true,
+    "rows_subjects_runs_features_pass": true,
+    "folds_pass": true,
+    "phase06_frozen_ready": true,
+    "phase06_outer_oof_not_used": true,
+    "modalities_pass": true,
+    "modality_union_pass": true,
+    "missingness_counts_pass": true,
+    "phase05_randomness_pass": true,
+    "preprocessing_pass": true,
+    "classification_interface_pass": true,
+    "regression_interface_pass": true,
+    "no_training_artifacts": true
+  },
+  "upstream_paths": {
+    "primary_data": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\primary_without_performance.csv",
+    "frozen_folds": "E:\\hdc-vr-pilot\\experiments\\phase_03_multimodal_dataset_labeling\\data\\fold_assignments.csv",
+    "phase06_freeze": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_freeze.json",
+    "phase06_classification": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_best_classification_hdc.json",
+    "phase06_regression": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_best_regression_hdc.json",
+    "phase06_variant_contract": "E:\\hdc-vr-pilot\\experiments\\phase_06_hdc_variant_screening\\configs\\phase06_hdc_variant_contract.json",
+    "phase05_encoding_contract": "E:\\hdc-vr-pilot\\experiments\\phase_05_basic_dual_output_hdc\\configs\\phase05_hdc_encoding_contract.json"
+  },
+  "upstream_sha256": {
+    "primary_data": "0a2aef89c01b43c3a4e5afe40b96797784627665490982731b2541f96b45fc44",
+    "frozen_folds": "e4dc943af21851bace49345f6336f9c88f82613ca3a26b3c433efe7dfb041f6f",
+    "phase06_freeze": "cd94acdf0bcb463b5f48a7c84110a23059899b6b5bf156131694827d7d7bde66",
+    "phase06_classification": "174a99de2d993acdea49fdebc9647b28db4648ada2bea7a33f620f4677f031a4",
+    "phase06_regression": "acde51709971d57c76eefaffcf1ecd571a4d4c5c36f8d76edf39841c5e7065b8",
+    "phase06_variant_contract": "f9d0bd0f304678bbd00e3fdeaaf9b619511a2e54f9d426e21cc130691cca365b",
+    "phase05_encoding_contract": "8bffcbdcad5ef73778a5daf8eb64dd9dd1d8d90c675d10f9cbd72a1360f133ef"
+  },
+  "fold_structures_verified": 5,
+  "ridge_fold_policies_verified": 5,
+  "training_executed": false,
+  "outer_test_predictions_generated": false,
+  "result": "PASS"
+}

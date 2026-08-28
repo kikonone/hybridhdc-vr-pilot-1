@@ -1,0 +1,82 @@
+{
+  "audit": "phase10_final_freeze_audit",
+  "preflight": {
+    "core_contract": {
+      "freeze": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\configs\\phase10_core_contract_freeze.json",
+      "freeze_sha256": "e96a894c1483316360e032474522eef2f55cf9151e3407ad2e035d7743ccbc38",
+      "contracts_verified": 10,
+      "failures": [],
+      "status": "PASS"
+    },
+    "final_synthesis": {
+      "status_file": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\configs\\phase10_final_synthesis_status.json",
+      "artifact_audit": "E:\\hdc-vr-pilot\\experiments\\phase_10_final_synthesis_and_demo_ui\\audits\\phase10_final_synthesis_artifact_audit.json",
+      "counts": {
+        "prediction_sources": 1406,
+        "statistical_artifacts": 35,
+        "paper_tables": 14,
+        "paper_figures": 61,
+        "rq_rows": 6
+      },
+      "status": "PASS"
+    },
+    "scientific_sources": {
+      "prediction_sources_verified": 1406,
+      "statistical_artifacts_verified": 35,
+      "paper_tables_verified": 14,
+      "paper_table_sources_verified": 26,
+      "paper_figures_verified": 61,
+      "checksum_registry_verified": 1457,
+      "scientific_source_conflicts": 0,
+      "unresolved_numerical_differences": 0,
+      "status": "PASS"
+    },
+    "upstream_interfaces": "PASS",
+    "historical_caveat": "PASS",
+    "ui": "PASS",
+    "onlinehd_replay_status": "OPTIONAL_NOT_EXECUTED",
+    "status": "PASS"
+  },
+  "upstream_freeze_integrity": "PASS",
+  "notebook_persistence": "PASS",
+  "historical_caveat": {
+    "definition": "historical engineering/provenance caveat",
+    "nonscientific_metadata_differences_retained": 6,
+    "historical_changed_nonscientific_files": 2,
+    "historical_frozen_immutability_audit": "FAIL",
+    "scientific_artifact_changes": 0,
+    "scientific_consistency": "PASS",
+    "predictions_modified": false,
+    "canonical_oof_modified": false,
+    "statistics_modified": false,
+    "frozen_model_configs_modified": false,
+    "checks": {
+      "phase06_original_manifest_hash_verified": true,
+      "nonscientific_metadata_differences_retained_6": true,
+      "historical_frozen_immutability_fail_retained": true,
+      "scientific_artifact_changes_zero": true,
+      "scientific_consistency_pass": true,
+      "predictions_unmodified": true,
+      "canonical_oof_unmodified": true,
+      "statistics_unmodified": true,
+      "frozen_model_configs_unmodified": true
+    },
+    "status": "PASS"
+  },
+  "ui": {
+    "ui_status": "DEFERRED_BY_USER_NOT_EXECUTED",
+    "ui_files_created": false,
+    "ui_server_started": false,
+    "ui_required_for_core_experiment_completion": false,
+    "ui_may_be_developed_after_core_freeze": true,
+    "forbidden_ui_artifacts": [],
+    "status": "PASS"
+  },
+  "manifest_hash_seal_required": true,
+  "model_training_executed": false,
+  "predictions_generated": false,
+  "statistics_recomputed": false,
+  "phase00_09_files_modified": 0,
+  "status": "PASS",
+  "planned_final_manifest_artifacts": 173
+}

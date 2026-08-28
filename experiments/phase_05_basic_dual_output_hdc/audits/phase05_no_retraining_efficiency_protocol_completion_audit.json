@@ -1,0 +1,25 @@
+{
+  "phase": "05",
+  "audit": "no_retraining_efficiency_protocol_completion",
+  "created_utc": "2026-08-20T05:58:56.780514+00:00",
+  "configurations_measured": 100,
+  "expected_configurations": 100,
+  "warmups": 5,
+  "timed_repetitions": 30,
+  "clock": "time.perf_counter_ns",
+  "codebook_prepared_outside_timed_repetitions": true,
+  "complete_batch_components": [
+    "frozen preprocessing transform",
+    "record encoding",
+    "classification head",
+    "similarity regression head",
+    "Ridge readout head"
+  ],
+  "model_fitting_executed": false,
+  "training_timing_remeasurement": "NOT_PERFORMED_RETRAINING_PROHIBITED",
+  "prediction_artifact_replaced": false,
+  "repeated_outputs_discarded": true,
+  "maximum_frozen_prediction_abs_difference": 8.881784197001252e-16,
+  "immutable_artifact_mismatches": [],
+  "result": "PASS"
+}

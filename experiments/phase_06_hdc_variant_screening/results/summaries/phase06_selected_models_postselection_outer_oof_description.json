@@ -1,0 +1,22 @@
+{
+  "classification": {
+    "variant": "hybrid",
+    "dimension": 5000,
+    "seed_count": 5,
+    "macro_f1_mean": 0.8223087334681487,
+    "macro_f1_sd_sample": 0.0323253208135219,
+    "balanced_accuracy_mean": 0.8218942221300711,
+    "severe_error_rate_mean": 0.020047732696897323
+  },
+  "regression": {
+    "head_family": "COMMON_ENCODER_READOUT_BASELINE",
+    "dimension": 10000,
+    "seed_count": 5,
+    "mae_bounded_mean": 0.2763899537759564,
+    "mae_bounded_sd_sample": 0.006418910750530133,
+    "rmse_bounded_mean": 0.40751668783710626,
+    "r2_bounded_mean": 0.8668583927417067,
+    "spearman_bounded_mean": 0.9247515333883939
+  },
+  "interpretation": "Descriptive outer-OOF read performed only after the inner-only selector outputs and isolation audit existed; it did not alter selection."
+}

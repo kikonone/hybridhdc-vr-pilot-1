@@ -1,0 +1,10 @@
+{
+  "five_checkpoint_integrity_pass": true,
+  "canonical_oof_pass": true,
+  "all_seed_oof_pass": true,
+  "fold_metrics_rows": 25,
+  "selected_parameter_rows": 5,
+  "seed_summary_rows": 5,
+  "summary_files_pass": true,
+  "overall_pass": true
+}

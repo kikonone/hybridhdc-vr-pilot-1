@@ -1,0 +1,10 @@
+modality,feature_count,feature_cell_missing_rate,runs_available,runs_unavailable
+eye_tracking,426,0.056102726142055206,405,14
+ecg,57,0.011388853996566597,415,4
+eda,0,,404,15
+emg,45,0.0023866348448687348,418,1
+respiration,48,0.198090692124105,415,4
+head_movement,159,0.0,419,0
+xplane,0,,419,0
+body_movement,42,0.06921241050119331,390,29
+performance,59,0.0,419,0

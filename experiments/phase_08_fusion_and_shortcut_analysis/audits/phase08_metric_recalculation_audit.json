@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "timestamp_utc": "2026-08-21T02:23:09.290368+00:00",
+  "checks": {
+    "phase08_new_classification_rows": true,
+    "phase08_new_regression_rows": true,
+    "all_metric_groups_419": true,
+    "subject_unit_35": true,
+    "paired_statistics_nonempty": true,
+    "holm_complete": true,
+    "bootstrap_complete": true,
+    "regression_wording_exact": true
+  },
+  "metrics_recomputed_from_canonical_oof": true,
+  "existing_summary_values_trusted": false
+}

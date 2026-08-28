@@ -1,0 +1,12 @@
+{
+  "modeling_rows": 419,
+  "subjects": 35,
+  "primary_features": 1176,
+  "same_run_keys": true,
+  "same_frozen_fold_sha256": true,
+  "subject_wise_outer_split": true,
+  "primary_without_performance_interface": true,
+  "phase04a_models": 6,
+  "phase04b_models": 8,
+  "result": "PASS"
+}
