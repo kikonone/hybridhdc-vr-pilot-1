@@ -1,26 +1,26 @@
 # HDC VR Pilot
 
-面向 VR 飞行任务多模态生理与行为数据的可复现实验仓库。项目使用受试者隔离的评估协议，对传统机器学习与 Hyperdimensional Computing（HDC）进行比较，并同时研究：
+A reproducible research repository for multimodal physiological and behavioral data collected during VR piloting tasks. The project uses subject-isolated evaluation protocols to compare conventional machine-learning methods with Hyperdimensional Computing (HDC), focusing on:
 
-- 四级任务难度代理分类；
-- 取值限制在 1–4 的任务难度代理回归；
-- 单模态贡献、多模态融合、捷径敏感性、缺失模态鲁棒性与跨受试者泛化；
-- 最终结果综合、统计汇总和本地演示 UI。
+- four-level task-difficulty proxy classification;
+- bounded task-difficulty proxy regression on a 1–4 scale;
+- unimodal contribution, multimodal fusion, shortcut sensitivity, missing-modality robustness, and cross-subject generalization;
+- final evidence synthesis, statistical summaries, and a local demonstration UI.
 
-难度等级是 workload proxy，不应被解释为直接测量的心理工作负荷。
+Task difficulty is treated as a **workload proxy** and must not be interpreted as a direct measurement of psychological workload.
 
-## 数据与共享限制
+## Data and Sharing Restrictions
 
-原始数据来自 PhysioNet VR Piloting 数据集。完整数据不包含在本仓库中：
+The source data come from the PhysioNet VR Piloting dataset. The complete dataset is not included in this repository:
 
-- `vrdataset/dataPackage/` 为本地只读原始数据目录，已被 Git 忽略；
-- 超大的 `vrdataset/referenceDocuments/DataQualityReport.pdf` 已被忽略；
-- 超大的特征长表 `feature_extraction_long_table.csv` 已被忽略；
-- 论文、Word、PDF 渲染和 PPT 制作材料不属于本代码仓库。
+- `vrdataset/dataPackage/` is a local, read-only source-data directory and is excluded from Git;
+- the oversized `vrdataset/referenceDocuments/DataQualityReport.pdf` is excluded;
+- the oversized `feature_extraction_long_table.csv` output is excluded;
+- manuscript files, Word documents, rendered PDFs, and presentation-production materials are outside the scope of this code repository.
 
-复现实验前，请按数据集许可自行获取原始数据，并放到 `vrdataset/dataPackage/`。
+To reproduce the experiments, obtain the source data under the applicable dataset license and place them in `vrdataset/dataPackage/`.
 
-## 仓库结构
+## Repository Structure
 
 ```text
 .
@@ -45,50 +45,50 @@
     └── starterCode/
 ```
 
-每个实验阶段保留自己的 README、脚本、Notebook、配置、审计、结果和图表。阶段目录中的冻结记录与审计文件是对应阶段状态的权威来源。
+Each experimental phase retains its own README, scripts, notebooks, configurations, audits, results, and figures. Phase-local freeze records and audit files are the authoritative sources for the status of each phase.
 
-## 核心数据协议
+## Core Data Protocol
 
-Phase 03 生成受试者级别冻结划分和三个建模数据集：
+Phase 03 produces frozen subject-level splits and three modeling datasets:
 
-- 主数据集：`experiments/phase_03_multimodal_dataset_labeling/data/primary_without_performance.csv`
-- 含表现指标的辅助数据集：`experiments/phase_03_multimodal_dataset_labeling/data/auxiliary_with_performance.csv`
-- 仅表现指标数据集：`experiments/phase_03_multimodal_dataset_labeling/data/performance_only.csv`
-- 冻结外层折：`experiments/phase_03_multimodal_dataset_labeling/data/fold_assignments.csv`
+- primary dataset: `experiments/phase_03_multimodal_dataset_labeling/data/primary_without_performance.csv`
+- auxiliary dataset with performance metrics: `experiments/phase_03_multimodal_dataset_labeling/data/auxiliary_with_performance.csv`
+- performance-only dataset: `experiments/phase_03_multimodal_dataset_labeling/data/performance_only.csv`
+- frozen outer-fold assignments: `experiments/phase_03_multimodal_dataset_labeling/data/fold_assignments.csv`
 
-主数据集包含 419 个运行样本、35 名受试者和 1,176 个预测特征。所有缺失值处理、标准化、特征选择和模型训练都应在训练折内部完成。
+The primary dataset contains 419 runs from 35 subjects and 1,176 predictor features. Missing-value handling, scaling, feature selection, and model fitting must be performed within the training folds only.
 
-## 环境安装
+## Environment Setup
 
-建议使用 Python 3.10 或更新版本：
+Python 3.10 or later is recommended.
 
-```bash
+```powershell
 python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
 ```
 
-部分阶段包含自己的附加依赖；运行前请同时查看对应阶段的 README 或 `requirements.txt`。
+Some phases have additional dependencies. Review the corresponding phase README or phase-specific `requirements.txt` before execution.
 
-## 使用方式
+## Usage
 
-1. 准备受许可的原始数据到 `vrdataset/dataPackage/`。
-2. 阅读 `EXPERIMENT_STATUS.md` 和目标阶段的 README。
-3. 优先使用阶段内的冻结配置、执行脚本和验证脚本。
-4. 不要根据外层测试结果重新选择模型、维度或随机种子。
-5. 生成物应保存在对应阶段目录，不要写回 `vrdataset/`。
+1. Place the licensed source data in `vrdataset/dataPackage/`.
+2. Review `EXPERIMENT_STATUS.md` and the README for the target phase.
+3. Use the frozen configurations, execution scripts, and verification scripts provided within that phase.
+4. Do not reselect models, dimensions, or random seeds using outer-test performance.
+5. Store generated artifacts in the corresponding phase directory; do not write outputs into `vrdataset/`.
 
-最终综合入口位于 `experiments/phase_10_final_synthesis_and_demo_ui/`，本地 UI 启动说明位于其 `ui/README.md`。
+The final synthesis entry point is `experiments/phase_10_final_synthesis_and_demo_ui/`. Instructions for starting the local UI are available in `experiments/phase_10_final_synthesis_and_demo_ui/ui/README.md`.
 
-## 关键原则
+## Methodological Principles
 
-- 原始数据只读且不上传 GitHub；
-- 主分析排除 performance metrics，辅助分析单独评估捷径风险；
-- 使用受试者隔离的交叉验证或 LOSO；
-- 模型选择仅基于训练侧证据；
-- 保存折分、配置、预测、统计结果、审计和哈希，以支持复现；
-- 分类与回归目标均为任务难度代理，结论不得越界为直接心理测量。
+- Source data remain read-only and are not uploaded to GitHub.
+- The primary analysis excludes performance metrics; auxiliary analyses assess shortcut-learning risk separately.
+- Evaluation uses subject-isolated cross-validation, with leave-one-subject-out analysis as supplementary evidence.
+- Model selection relies only on training-side evidence.
+- Splits, configurations, predictions, statistical results, audits, and hashes are retained to support reproducibility.
+- Classification and regression targets are task-difficulty proxies; conclusions must not overstate them as direct psychological measurements.
 
-## 许可
+## License and Data Use
 
-代码和实验产物用于研究复现与方法开发。原始数据仍受其来源许可约束；使用者必须自行确认访问、使用和再分发条件。
+The code and included experimental artifacts are intended for research reproduction and method development. The source dataset remains subject to its original license. Users are responsible for confirming all access, use, and redistribution requirements.
